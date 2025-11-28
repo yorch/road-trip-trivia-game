@@ -785,6 +785,386 @@ const curatedQuestions = {
       { q: "What is the fastest speedrun time for Super Mario Bros.?", a: "Under 5 minutes (world record constantly improving)", angle: "platformers" },
       { q: "What arcade game had a secret 'kill screen' at level 256?", a: "Pac-Man", angle: "arcades" }
     ]
+  },
+  "dc-comics": {
+    easy: [
+      { q: "What is Batman's real name?", a: "Bruce Wayne", angle: "Gotham" },
+      { q: "What city does Batman protect?", a: "Gotham City", angle: "Gotham" },
+      { q: "What is Superman's weakness?", a: "Kryptonite", angle: "metropolis" },
+      { q: "What is Wonder Woman's weapon?", a: "Lasso of Truth", angle: "Justice League" },
+      { q: "Who is the Flash?", a: "Barry Allen (most common)", angle: "Justice League" },
+      { q: "What is Superman's symbol?", a: "S (House of El symbol)", angle: "metropolis" },
+      { q: "Who is Batman's sidekick?", a: "Robin", angle: "Gotham" },
+      { q: "What is the Joker's real name?", a: "Unknown / Multiple origins", angle: "rogues gallery" },
+      { q: "Where is Superman from?", a: "Planet Krypton", angle: "metropolis" },
+      { q: "What does Aquaman control?", a: "Sea creatures / The ocean", angle: "Justice League" }
+    ],
+    medium: [
+      { q: "What is Batman's butler's name?", a: "Alfred Pennyworth", angle: "Gotham" },
+      { q: "What is the Flash's superpower?", a: "Super speed", angle: "Justice League" },
+      { q: "Who is Superman's arch-nemesis?", a: "Lex Luthor", angle: "rogues gallery" },
+      { q: "What is Wonder Woman's home?", a: "Themyscira / Paradise Island", angle: "Justice League" },
+      { q: "Who created Batman?", a: "Bob Kane and Bill Finger", angle: "Gotham" },
+      { q: "What is Green Lantern's power source?", a: "Power ring fueled by willpower", angle: "Justice League" },
+      { q: "Who is Harley Quinn's boyfriend?", a: "The Joker", angle: "rogues gallery" },
+      { q: "What is Batman's vehicle called?", a: "Batmobile", angle: "Gotham" },
+      { q: "Who paralyzed Barbara Gordon?", a: "The Joker", angle: "rogues gallery" },
+      { q: "What year did Superman first appear?", a: "1938", angle: "metropolis" }
+    ],
+    hard: [
+      { q: "What is the real name of the current Robin?", a: "Damian Wayne (varies by era)", angle: "Gotham" },
+      { q: "What is the Speed Force?", a: "Energy field that gives speedsters their powers", angle: "Justice League" },
+      { q: "Who is the villain in 'The Killing Joke'?", a: "The Joker", angle: "rogues gallery" },
+      { q: "What is Superman's Kryptonian name?", a: "Kal-El", angle: "metropolis" },
+      { q: "Who is the first Green Lantern?", a: "Alan Scott (Golden Age)", angle: "Justice League" },
+      { q: "What is Batman's contingency plan for the Justice League?", a: "Tower of Babel protocols", angle: "Justice League" },
+      { q: "Who is the main villain in 'Crisis on Infinite Earths'?", a: "Anti-Monitor", angle: "rogues gallery" },
+      { q: "What is Wonder Woman's secret identity?", a: "Diana Prince", angle: "Justice League" },
+      { q: "Who killed Jason Todd (second Robin)?", a: "The Joker", angle: "Gotham" },
+      { q: "What is the Phantom Zone?", a: "Kryptonian prison dimension", angle: "metropolis" }
+    ]
+  },
+  "90s-cartoons": {
+    easy: [
+      { q: "What does Scooby-Doo always want?", a: "Scooby Snacks", angle: "theme songs" },
+      { q: "What are the Teenage Mutant Ninja Turtles named after?", a: "Renaissance artists", angle: "retro heroes" },
+      { q: "What color is the PowerPuff Girls' logo?", a: "Pink (with blue and green)", angle: "toy tie-ins" },
+      { q: "What does Dexter have in his basement?", a: "A secret laboratory", angle: "morning shows" },
+      { q: "Who lives in a pineapple under the sea?", a: "SpongeBob SquarePants", angle: "theme songs" },
+      { q: "What are the Rugrats babies always doing?", a: "Going on adventures", angle: "morning shows" },
+      { q: "What does Hey Arnold's head look like?", a: "Football-shaped", angle: "retro heroes" },
+      { q: "Who says 'What's up, Doc?'", a: "Bugs Bunny", angle: "theme songs" },
+      { q: "What is Pokémon short for?", a: "Pocket Monsters", angle: "toy tie-ins" },
+      { q: "What are the three PowerPuff Girls named?", a: "Blossom, Bubbles, and Buttercup", angle: "retro heroes" }
+    ],
+    medium: [
+      { q: "Who created The PowerPuff Girls?", a: "Craig McCracken", angle: "retro heroes" },
+      { q: "What is the name of Johnny Bravo's neighbor?", a: "Carl and Little Suzy", angle: "morning shows" },
+      { q: "What network aired most 90s Nickelodeon cartoons?", a: "Nickelodeon", angle: "morning shows" },
+      { q: "What are the Animaniacs' names?", a: "Yakko, Wakko, and Dot", angle: "theme songs" },
+      { q: "Who is Dexter's annoying sister?", a: "Dee Dee", angle: "morning shows" },
+      { q: "What is the name of the villain in Captain Planet?", a: "Various eco-villains (Hoggish Greedly, etc.)", angle: "retro heroes" },
+      { q: "What year did Pokémon first air in the US?", a: "1998", angle: "toy tie-ins" },
+      { q: "Who voices Rocko in Rocko's Modern Life?", a: "Carlos Alazraqui", angle: "morning shows" },
+      { q: "What is Courage the Cowardly Dog afraid of?", a: "Everything", angle: "theme songs" },
+      { q: "What company produced most Cartoon Network originals?", a: "Cartoon Network Studios", angle: "retro heroes" }
+    ],
+    hard: [
+      { q: "What year did Cartoon Network launch?", a: "1992", angle: "morning shows" },
+      { q: "Who created Ren & Stimpy?", a: "John Kricfalusi", angle: "retro heroes" },
+      { q: "What is the name of Ed, Edd n Eddy's cul-de-sac?", a: "Peach Creek", angle: "morning shows" },
+      { q: "What were the original Ninja Turtles' weapons?", a: "Katanas, Bo staff, Sai, Nunchucks", angle: "toy tie-ins" },
+      { q: "Who composed the X-Men animated series theme?", a: "Ron Wasserman", angle: "theme songs" },
+      { q: "What is Professor Utonium's first name?", a: "Never officially revealed", angle: "retro heroes" },
+      { q: "What year did Doug first air?", a: "1991", angle: "morning shows" },
+      { q: "What is the name of Invader Zim's robot?", a: "GIR", angle: "retro heroes" },
+      { q: "Who created Avatar: The Last Airbender?", a: "Michael Dante DiMartino and Bryan Konietzko", angle: "retro heroes" },
+      { q: "What was the first Cartoon Network original series?", a: "The Moxy Show (1993)", angle: "morning shows" }
+    ]
+  },
+  "basketball": {
+    easy: [
+      { q: "How many players are on a basketball team on the court?", a: "5 players", angle: "rule" },
+      { q: "What is it called when you score in basketball?", a: "A basket / field goal", angle: "championship" },
+      { q: "Who is considered the greatest basketball player?", a: "Michael Jordan (commonly)", angle: "legends" },
+      { q: "How many points is a free throw worth?", a: "1 point", angle: "rule" },
+      { q: "What does NBA stand for?", a: "National Basketball Association", angle: "dynasties" },
+      { q: "How many quarters are in an NBA game?", a: "4 quarters", angle: "rule" },
+      { q: "What team did Michael Jordan play for?", a: "Chicago Bulls (mostly)", angle: "dynasties" },
+      { q: "What is a slam dunk?", a: "Jumping and forcefully putting ball through hoop", angle: "dunks" },
+      { q: "What position did Shaquille O'Neal play?", a: "Center", angle: "point guards" },
+      { q: "How many points is a shot from behind the arc?", a: "3 points", angle: "rule" }
+    ],
+    medium: [
+      { q: "Who holds the record for most points in a single game?", a: "Wilt Chamberlain (100 points)", angle: "record" },
+      { q: "What year was the NBA founded?", a: "1946", angle: "dynasties" },
+      { q: "Which team has won the most championships?", a: "Boston Celtics (17 titles)", angle: "dynasties" },
+      { q: "What is a triple-double?", a: "Double digits in three statistical categories", angle: "record" },
+      { q: "Who is the NBA's all-time leading scorer?", a: "LeBron James (passed Kareem Abdul-Jabbar)", angle: "legends" },
+      { q: "What does traveling mean?", a: "Moving without dribbling the ball", angle: "rule" },
+      { q: "What position did Magic Johnson play?", a: "Point guard", angle: "point guards" },
+      { q: "How long is an NBA shot clock?", a: "24 seconds", angle: "rule" },
+      { q: "Who is known as 'The King'?", a: "LeBron James", angle: "legends" },
+      { q: "What team is in Los Angeles with purple and gold?", a: "Los Angeles Lakers", angle: "dynasties" }
+    ],
+    hard: [
+      { q: "Who has the most assists in NBA history?", a: "John Stockton", angle: "record" },
+      { q: "What is the vertical distance from floor to rim?", a: "10 feet", angle: "rule" },
+      { q: "Who won the first NBA championship?", a: "Philadelphia Warriors (1947)", angle: "dynasties" },
+      { q: "What is the 'Shaq Rule'?", a: "Zone defense change allowing hand-checking", angle: "legends" },
+      { q: "Who has the most career rebounds?", a: "Wilt Chamberlain", angle: "record" },
+      { q: "What year did the 3-point line debut in NBA?", a: "1979-80 season", angle: "rule" },
+      { q: "Who was the shortest player to win a dunk contest?", a: "Spud Webb (5'6\")", angle: "dunks" },
+      { q: "What is a clear path foul?", a: "Defensive foul with no defender between offensive player and basket", angle: "rule" },
+      { q: "Who scored 13 points in 35 seconds?", a: "Tracy McGrady", angle: "record" },
+      { q: "What team had the best regular season record?", a: "2015-16 Golden State Warriors (73-9)", angle: "dynasties" }
+    ]
+  },
+  "dinosaurs": {
+    easy: [
+      { q: "What is the most famous dinosaur?", a: "Tyrannosaurus Rex (T-Rex)", angle: "predators" },
+      { q: "What does 'dinosaur' mean?", a: "Terrible lizard", angle: "fossils" },
+      { q: "Were dinosaurs reptiles or mammals?", a: "Reptiles", angle: "eras" },
+      { q: "What killed the dinosaurs?", a: "Asteroid impact (most likely)", angle: "eras" },
+      { q: "What do we call dinosaur bones we find today?", a: "Fossils", angle: "fossils" },
+      { q: "What did herbivore dinosaurs eat?", a: "Plants", angle: "herbivores" },
+      { q: "What dinosaur had a long neck?", a: "Brachiosaurus / Diplodocus / Sauropods", angle: "herbivores" },
+      { q: "Did humans and dinosaurs live together?", a: "No", angle: "eras" },
+      { q: "What dinosaur had three horns?", a: "Triceratops", angle: "herbivores" },
+      { q: "What does 'T-Rex' stand for?", a: "Tyrannosaurus Rex", angle: "predators" }
+    ],
+    medium: [
+      { q: "What era did dinosaurs live in?", a: "Mesozoic Era", angle: "eras" },
+      { q: "What are the three periods of the Mesozoic Era?", a: "Triassic, Jurassic, Cretaceous", angle: "eras" },
+      { q: "What was the largest dinosaur?", a: "Argentinosaurus (possibly)", angle: "herbivores" },
+      { q: "What dinosaur had the smallest brain?", a: "Stegosaurus (for its size)", angle: "herbivores" },
+      { q: "Were pterodactyls dinosaurs?", a: "No, they were flying reptiles", angle: "eras" },
+      { q: "What dinosaur name means 'swift thief'?", a: "Velociraptor", angle: "predators" },
+      { q: "How many teeth did T-Rex have?", a: "About 50-60 teeth", angle: "predators" },
+      { q: "What is paleontology?", a: "The study of fossils and prehistoric life", angle: "fossils" },
+      { q: "What dinosaur had the longest tail?", a: "Diplodocus", angle: "herbivores" },
+      { q: "What does the word 'fossil' mean?", a: "Dug up", angle: "fossils" }
+    ],
+    hard: [
+      { q: "What year did dinosaurs go extinct?", a: "65 million years ago (end of Cretaceous)", angle: "eras" },
+      { q: "Who named the first dinosaur?", a: "Richard Owen coined 'Dinosauria' (1842)", angle: "fossils" },
+      { q: "What was the fastest dinosaur?", a: "Possibly ornithomimids (ostrich-like, 50 mph)", angle: "predators" },
+      { q: "What is the smallest known dinosaur?", a: "Microraptor (crow-sized)", angle: "predators" },
+      { q: "What dinosaur had the most teeth?", a: "Hadrosaurs (duck-bills, up to 1000)", angle: "herbivores" },
+      { q: "What is the study of trace fossils called?", a: "Ichnology", angle: "fossils" },
+      { q: "What dinosaur was discovered in 1824?", a: "Megalosaurus (first formally described)", angle: "fossils" },
+      { q: "What is the Chicxulub crater?", a: "Impact site that killed dinosaurs (Mexico)", angle: "eras" },
+      { q: "What does 'Allosaurus' mean?", a: "Different lizard / other lizard", angle: "predators" },
+      { q: "What percent of dinosaurs were carnivores?", a: "About 35% were meat-eaters", angle: "predators" }
+    ]
+  },
+  "space-exploration": {
+    easy: [
+      { q: "Who was the first person in space?", a: "Yuri Gagarin (1961)", angle: "astronauts" },
+      { q: "Who was the first person on the moon?", a: "Neil Armstrong", angle: "astronauts" },
+      { q: "What spacecraft took humans to the moon?", a: "Apollo (Apollo 11)", angle: "missions" },
+      { q: "What is NASA?", a: "National Aeronautics and Space Administration", angle: "missions" },
+      { q: "What planet have we sent rovers to?", a: "Mars", angle: "rovers" },
+      { q: "What is the ISS?", a: "International Space Station", angle: "missions" },
+      { q: "What year did humans first land on the moon?", a: "1969", angle: "missions" },
+      { q: "What is the name of NASA's most famous telescope?", a: "Hubble Space Telescope", angle: "telescopes" },
+      { q: "What country launched the first satellite?", a: "Soviet Union (Sputnik)", angle: "missions" },
+      { q: "What do astronauts wear in space?", a: "Spacesuits", angle: "astronauts" }
+    ],
+    medium: [
+      { q: "What was the first animal in space?", a: "Fruit flies (1947) / Laika the dog (orbit, 1957)", angle: "missions" },
+      { q: "What is the name of Mars rover launched in 2020?", a: "Perseverance", angle: "rovers" },
+      { q: "How long does it take to get to Mars?", a: "6-9 months", angle: "planets" },
+      { q: "What was the Space Shuttle program?", a: "Reusable spacecraft program (1981-2011)", angle: "missions" },
+      { q: "Who was the first American in space?", a: "Alan Shepard", angle: "astronauts" },
+      { q: "What telescope replaced Hubble?", a: "James Webb Space Telescope", angle: "telescopes" },
+      { q: "What is SpaceX?", a: "Private space exploration company", angle: "missions" },
+      { q: "What planet has the Curiosity rover explored?", a: "Mars", angle: "rovers" },
+      { q: "How many people have walked on the moon?", a: "12 people", angle: "astronauts" },
+      { q: "What is Voyager 1?", a: "Farthest human-made object from Earth", angle: "missions" }
+    ],
+    hard: [
+      { q: "What was the Challenger disaster?", a: "1986 Space Shuttle explosion", angle: "missions" },
+      { q: "What is the Great Observatory program?", a: "Four space telescopes (Hubble, Compton, Chandra, Spitzer)", angle: "telescopes" },
+      { q: "Who was the first woman in space?", a: "Valentina Tereshkova (1963)", angle: "astronauts" },
+      { q: "What does EVA stand for?", a: "Extravehicular Activity (spacewalk)", angle: "astronauts" },
+      { q: "What was Apollo 13's problem?", a: "Oxygen tank explosion", angle: "missions" },
+      { q: "What is the Karman line?", a: "Boundary of space (100 km altitude)", angle: "missions" },
+      { q: "What was the first Mars rover?", a: "Sojourner (1997)", angle: "rovers" },
+      { q: "Who commanded the first moon landing?", a: "Neil Armstrong", angle: "astronauts" },
+      { q: "What is the New Horizons mission?", a: "First spacecraft to visit Pluto", angle: "missions" },
+      { q: "What year did Voyager 1 enter interstellar space?", a: "2012", angle: "missions" }
+    ]
+  },
+  "ancient-egypt": {
+    easy: [
+      { q: "What are the large triangle structures called?", a: "Pyramids", angle: "pyramids" },
+      { q: "What river runs through Egypt?", a: "Nile River", angle: "nile" },
+      { q: "What is a pharaoh?", a: "An ancient Egyptian king", angle: "pharaohs" },
+      { q: "What is a mummy?", a: "A preserved dead body", angle: "pharaohs" },
+      { q: "What animal has a human head in Egyptian statues?", a: "Sphinx", angle: "pyramids" },
+      { q: "What did Egyptians write on?", a: "Papyrus", angle: "nile" },
+      { q: "What is the Egyptian sun god called?", a: "Ra", angle: "myths" },
+      { q: "What is the Great Pyramid of Giza?", a: "Largest Egyptian pyramid", angle: "pyramids" },
+      { q: "Who was the boy king of Egypt?", a: "Tutankhamun (King Tut)", angle: "pharaohs" },
+      { q: "What animal was sacred to Egyptians?", a: "Cats (among others)", angle: "myths" }
+    ],
+    medium: [
+      { q: "What are Egyptian picture writings called?", a: "Hieroglyphics", angle: "pharaohs" },
+      { q: "Who was the last pharaoh of Egypt?", a: "Cleopatra VII", angle: "pharaohs" },
+      { q: "What stone helped decode hieroglyphics?", a: "Rosetta Stone", angle: "pyramids" },
+      { q: "What organs were removed during mummification?", a: "Liver, lungs, stomach, intestines (not heart)", angle: "pharaohs" },
+      { q: "What is the Egyptian god of the dead called?", a: "Anubis", angle: "myths" },
+      { q: "What are canopic jars?", a: "Jars for storing mummified organs", angle: "pharaohs" },
+      { q: "What city was the ancient capital?", a: "Memphis / Thebes (different periods)", angle: "nile" },
+      { q: "What is the afterlife judgment scene called?", a: "Weighing of the Heart", angle: "myths" },
+      { q: "Who built the Great Pyramid?", a: "Pharaoh Khufu (Cheops)", angle: "pyramids" },
+      { q: "What were Egyptian workers called?", a: "Peasants / farmers (not slaves for pyramids)", angle: "nile" }
+    ],
+    hard: [
+      { q: "What year did Tutankhamun's tomb get discovered?", a: "1922 (by Howard Carter)", angle: "pharaohs" },
+      { q: "What is the Egyptian Book of the Dead?", a: "Collection of funerary texts and spells", angle: "myths" },
+      { q: "How long did it take to build the Great Pyramid?", a: "About 20 years", angle: "pyramids" },
+      { q: "What dynasty was Cleopatra from?", a: "Ptolemaic Dynasty", angle: "pharaohs" },
+      { q: "What is Ma'at?", a: "Egyptian concept of truth, balance, and order", angle: "myths" },
+      { q: "What caused the Nile's annual floods?", a: "Ethiopian highlands monsoon rains", angle: "nile" },
+      { q: "Who was the female pharaoh who dressed as male?", a: "Hatshepsut", angle: "pharaohs" },
+      { q: "What is the Step Pyramid of Djoser?", a: "First pyramid built (oldest)", angle: "pyramids" },
+      { q: "What animal represents the god Thoth?", a: "Ibis bird (or baboon)", angle: "myths" },
+      { q: "What was the 'inundation' season?", a: "Annual Nile flooding season", angle: "nile" }
+    ]
+  },
+  "ancient-greece": {
+    easy: [
+      { q: "What games did ancient Greece create?", a: "Olympic Games", angle: "olympics" },
+      { q: "Who was the king of the Greek gods?", a: "Zeus", angle: "gods" },
+      { q: "What city-state was known for warriors?", a: "Sparta", angle: "city-states" },
+      { q: "What building is on the Acropolis?", a: "Parthenon", angle: "city-states" },
+      { q: "Who was the goddess of wisdom?", a: "Athena", angle: "gods" },
+      { q: "What is Greek mythology?", a: "Ancient Greek religious stories and legends", angle: "gods" },
+      { q: "What is a city-state?", a: "Independent city with its own government", angle: "city-states" },
+      { q: "Who was the god of the sea?", a: "Poseidon", angle: "gods" },
+      { q: "What did ancient Greeks wear?", a: "Togas / Tunics", angle: "city-states" },
+      { q: "Who was the Greek hero with great strength?", a: "Hercules (Heracles)", angle: "gods" }
+    ],
+    medium: [
+      { q: "What was the Trojan War about?", a: "War between Greeks and Troy (Helen of Troy)", angle: "city-states" },
+      { q: "Who wrote the Iliad and Odyssey?", a: "Homer", angle: "philosophers" },
+      { q: "What was an agora?", a: "Public gathering place / marketplace", angle: "city-states" },
+      { q: "Who was Socrates?", a: "Ancient Greek philosopher", angle: "philosophers" },
+      { q: "What did the Oracle of Delphi do?", a: "Give prophecies and advice", angle: "gods" },
+      { q: "What is democracy?", a: "Government by the people", angle: "city-states" },
+      { q: "Who was Alexander the Great?", a: "Macedonian king who conquered much of known world", angle: "city-states" },
+      { q: "What were Greek theaters shaped like?", a: "Semi-circles / amphitheaters", angle: "olympics" },
+      { q: "Who taught Alexander the Great?", a: "Aristotle", angle: "philosophers" },
+      { q: "What mountain did the gods live on?", a: "Mount Olympus", angle: "gods" }
+    ],
+    hard: [
+      { q: "What year were the first Olympics?", a: "776 BC", angle: "olympics" },
+      { q: "What was Plato's famous school?", a: "The Academy", angle: "philosophers" },
+      { q: "What was the Peloponnesian War?", a: "War between Athens and Sparta (431-404 BC)", angle: "city-states" },
+      { q: "What did Pythagoras study?", a: "Mathematics (Pythagorean theorem)", angle: "philosophers" },
+      { q: "What was the Spartan military training called?", a: "Agoge", angle: "city-states" },
+      { q: "Who was the goddess born from sea foam?", a: "Aphrodite", angle: "gods" },
+      { q: "What is the Parthenon dedicated to?", a: "Athena (goddess)", angle: "city-states" },
+      { q: "What was Greek fire?", a: "Ancient incendiary weapon", angle: "city-states" },
+      { q: "Who wrote 'The Republic'?", a: "Plato", angle: "philosophers" },
+      { q: "What was a hoplite?", a: "Greek citizen-soldier", angle: "city-states" }
+    ]
+  },
+  "modern-games": {
+    easy: [
+      { q: "What game involves building with blocks?", a: "Minecraft", angle: "crafting" },
+      { q: "What battle royale game has building?", a: "Fortnite", angle: "online squads" },
+      { q: "What is Mario Kart?", a: "Racing game with Mario characters", angle: "boss fights" },
+      { q: "What game has Creepers?", a: "Minecraft", angle: "crafting" },
+      { q: "What company makes PlayStation?", a: "Sony", angle: "online squads" },
+      { q: "What company makes Xbox?", a: "Microsoft", angle: "online squads" },
+      { q: "What is Zelda's main character name?", a: "Link", angle: "open worlds" },
+      { q: "What game series has Master Chief?", a: "Halo", angle: "boss fights" },
+      { q: "What is the Pokemon game goal?", a: "Catch them all / Become Pokemon Master", angle: "crafting" },
+      { q: "What game has Steve as default character?", a: "Minecraft", angle: "open worlds" }
+    ],
+    medium: [
+      { q: "What year did Minecraft release?", a: "2011", angle: "crafting" },
+      { q: "What is the Ender Dragon?", a: "Final boss in Minecraft", angle: "boss fights" },
+      { q: "What game series features Kratos?", a: "God of War", angle: "boss fights" },
+      { q: "What is the highest-selling game of all time?", a: "Minecraft (over 300 million)", angle: "crafting" },
+      { q: "What company created Fortnite?", a: "Epic Games", angle: "online squads" },
+      { q: "What is GTA short for?", a: "Grand Theft Auto", angle: "open worlds" },
+      { q: "What game popularized battle royale genre?", a: "PlayerUnknown's Battlegrounds (PUBG)", angle: "online squads" },
+      { q: "What is The Witcher 3's main character?", a: "Geralt of Rivia", angle: "open worlds" },
+      { q: "What does NPC stand for?", a: "Non-Player Character", angle: "open worlds" },
+      { q: "What game has the Covenant as enemies?", a: "Halo", angle: "boss fights" }
+    ],
+    hard: [
+      { q: "What engine does Fortnite use?", a: "Unreal Engine", angle: "online squads" },
+      { q: "What year did the Nintendo Switch release?", a: "2017", angle: "crafting" },
+      { q: "What is Minecraft's original creator's name?", a: "Markus Persson (Notch)", angle: "crafting" },
+      { q: "What is FromSoftware known for?", a: "Dark Souls / Elden Ring (hard games)", angle: "boss fights" },
+      { q: "What was the first open-world game?", a: "Debated (Elite 1984 or earlier)", angle: "open worlds" },
+      { q: "What does MMORPG stand for?", a: "Massively Multiplayer Online Role-Playing Game", angle: "online squads" },
+      { q: "What game won most Game of the Year 2023?", a: "Baldur's Gate 3", angle: "open worlds" },
+      { q: "What is speedrunning?", a: "Completing games as fast as possible", angle: "boss fights" },
+      { q: "What was the first battle royale game?", a: "DayZ Battle Royale mod (2013)", angle: "online squads" },
+      { q: "What does RNG mean in gaming?", a: "Random Number Generator", angle: "crafting" }
+    ]
+  },
+  "music-legends": {
+    easy: [
+      { q: "Who is the 'King of Pop'?", a: "Michael Jackson", angle: "signature songs" },
+      { q: "Who sang 'Purple Rain'?", a: "Prince", angle: "signature songs" },
+      { q: "What band had John Lennon?", a: "The Beatles", angle: "iconic tours" },
+      { q: "Who is known as 'The Queen of Soul'?", a: "Aretha Franklin", angle: "signature songs" },
+      { q: "Who sang 'Like a Rolling Stone'?", a: "Bob Dylan", angle: "signature songs" },
+      { q: "What instrument did Jimi Hendrix play?", a: "Guitar", angle: "guitar solos" },
+      { q: "Who is the 'King of Rock and Roll'?", a: "Elvis Presley", angle: "chart toppers" },
+      { q: "Who sang 'Imagine'?", a: "John Lennon", angle: "signature songs" },
+      { q: "What band had Freddie Mercury?", a: "Queen", angle: "iconic tours" },
+      { q: "Who sang 'Respect'?", a: "Aretha Franklin", angle: "signature songs" }
+    ],
+    medium: [
+      { q: "What year did Michael Jackson release 'Thriller'?", a: "1982", angle: "chart toppers" },
+      { q: "Who played guitar at Woodstock 1969?", a: "Jimi Hendrix (among others)", angle: "iconic tours" },
+      { q: "What was Elvis Presley's first hit?", a: "Heartbreak Hotel (1956)", angle: "chart toppers" },
+      { q: "Who wrote 'Bohemian Rhapsody'?", a: "Freddie Mercury", angle: "signature songs" },
+      { q: "What is David Bowie's alter ego?", a: "Ziggy Stardust", angle: "iconic tours" },
+      { q: "Who is 'The Boss' in music?", a: "Bruce Springsteen", angle: "signature songs" },
+      { q: "What band did Paul McCartney form after Beatles?", a: "Wings", angle: "chart toppers" },
+      { q: "Who sang 'What's Going On'?", a: "Marvin Gaye", angle: "signature songs" },
+      { q: "What year did Elvis die?", a: "1977", angle: "chart toppers" },
+      { q: "Who is known for the moonwalk?", a: "Michael Jackson", angle: "iconic tours" }
+    ],
+    hard: [
+      { q: "What was The Beatles' first US number one?", a: "I Want to Hold Your Hand", angle: "chart toppers" },
+      { q: "Who played the guitar solo in 'Beat It'?", a: "Eddie Van Halen", angle: "guitar solos" },
+      { q: "What year was Woodstock festival?", a: "1969", angle: "iconic tours" },
+      { q: "What was Prince's birth name?", a: "Prince Rogers Nelson", angle: "signature songs" },
+      { q: "Who wrote 'Stairway to Heaven'?", a: "Jimmy Page and Robert Plant (Led Zeppelin)", angle: "signature songs" },
+      { q: "What was the best-selling album of all time?", a: "Thriller by Michael Jackson", angle: "chart toppers" },
+      { q: "Who performed at Live Aid for 20 minutes?", a: "Queen", angle: "iconic tours" },
+      { q: "What was Bob Dylan's birth name?", a: "Robert Zimmerman", angle: "signature songs" },
+      { q: "What year did Jimi Hendrix die?", a: "1970", angle: "guitar solos" },
+      { q: "Who had the most Billboard Hot 100 hits?", a: "The Beatles (20 number-one hits)", angle: "chart toppers" }
+    ]
+  },
+  "pop-hits": {
+    easy: [
+      { q: "Who sang 'Shake It Off'?", a: "Taylor Swift", angle: "choruses" },
+      { q: "What does 'pop music' stand for?", a: "Popular music", angle: "radio moments" },
+      { q: "Who sang 'Happy'?", a: "Pharrell Williams", angle: "hooks" },
+      { q: "Who is known as the 'Princess of Pop'?", a: "Britney Spears", angle: "dance tracks" },
+      { q: "Who sang 'Rolling in the Deep'?", a: "Adele", angle: "hooks" },
+      { q: "What boy band had Harry Styles?", a: "One Direction", angle: "choruses" },
+      { q: "Who sang 'Bad Guy'?", a: "Billie Eilish", angle: "hooks" },
+      { q: "Who sang 'Uptown Funk'?", a: "Bruno Mars (featuring Mark Ronson)", angle: "dance tracks" },
+      { q: "Who sang 'Blank Space'?", a: "Taylor Swift", angle: "radio moments" },
+      { q: "What artist goes by 'The Weeknd'?", a: "Abel Tesfaye", angle: "hooks" }
+    ],
+    medium: [
+      { q: "What year did 'Despacito' become a hit?", a: "2017", angle: "radio moments" },
+      { q: "Who has the most Grammy wins?", a: "Beyoncé (32 wins as of 2023)", angle: "radio moments" },
+      { q: "What was the first K-pop song to hit #1 in US?", a: "Dynamite by BTS", angle: "dance tracks" },
+      { q: "Who sang 'Someone Like You'?", a: "Adele", angle: "hooks" },
+      { q: "What is the most-streamed song on Spotify?", a: "Blinding Lights by The Weeknd (as of 2024)", angle: "radio moments" },
+      { q: "Who sang 'Call Me Maybe'?", a: "Carly Rae Jepsen", angle: "choruses" },
+      { q: "What was Katy Perry's first number-one hit?", a: "I Kissed a Girl (2008)", angle: "radio moments" },
+      { q: "Who features on 'Perfect Duet'?", a: "Ed Sheeran and Beyoncé", angle: "hooks" },
+      { q: "What year did Lady Gaga release 'Bad Romance'?", a: "2009", angle: "dance tracks" },
+      { q: "Who sang 'Thinking Out Loud'?", a: "Ed Sheeran", angle: "choruses" }
+    ],
+    hard: [
+      { q: "What song spent the most weeks at #1 on Billboard?", a: "Old Town Road by Lil Nas X (19 weeks)", angle: "radio moments" },
+      { q: "Who wrote 'Baby One More Time'?", a: "Max Martin", angle: "hooks" },
+      { q: "What was the first video on MTV?", a: "Video Killed the Radio Star", angle: "radio moments" },
+      { q: "What year did Auto-Tune become popular?", a: "Late 1990s (popularized by Cher's 'Believe' 1998)", angle: "hooks" },
+      { q: "Who has sold the most records ever?", a: "The Beatles (over 600 million)", angle: "radio moments" },
+      { q: "What was Rihanna's first number-one single?", a: "SOS (2006)", angle: "dance tracks" },
+      { q: "Who wrote 'Irreplaceable' for Beyoncé?", a: "Ne-Yo", angle: "hooks" },
+      { q: "What is the best-selling single of all time?", a: "White Christmas by Bing Crosby", angle: "radio moments" },
+      { q: "What year did MTV launch?", a: "1981", angle: "radio moments" },
+      { q: "Who has the most Diamond certifications?", a: "The Beatles (6 albums)", angle: "radio moments" }
+    ]
   }
 };
 
