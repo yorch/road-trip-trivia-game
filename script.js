@@ -189,7 +189,17 @@ const curatedQuestions = {
       { q: "What color is Luke's first lightsaber?", a: "Blue", angle: "iconic scene" },
       { q: "Which droid beeps and whistles?", a: "R2-D2", angle: "sidekick" },
       { q: "What planet has twin suns?", a: "Tatooine", angle: "director" },
-      { q: "Who trained Luke Skywalker?", a: "Obi-Wan Kenobi and Yoda", angle: "character" }
+      { q: "Who trained Luke Skywalker?", a: "Obi-Wan Kenobi and Yoda", angle: "character" },
+      { q: "What is Baby Yoda's real name?", a: "Grogu", angle: "sidekick" },
+      { q: "Who is Han Solo's co-pilot?", a: "Chewbacca", angle: "sidekick" },
+      { q: "What color is Darth Vader's lightsaber?", a: "Red", angle: "villain" },
+      { q: "What do Stormtroopers wear?", a: "White armor", angle: "villain" },
+      { q: "Who is Princess Leia's brother?", a: "Luke Skywalker", angle: "plot twist" },
+      { q: "What small green Jedi Master trained Luke?", a: "Yoda", angle: "character" },
+      { q: "What planet is covered in ice?", a: "Hoth", angle: "iconic scene" },
+      { q: "What does Han Solo get frozen in?", a: "Carbonite", angle: "plot twist" },
+      { q: "Who is the protocol droid?", a: "C-3PO", angle: "sidekick" },
+      { q: "What is the dark side of the Force associated with?", a: "Evil and anger", angle: "villain" }
     ],
     medium: [
       { q: "Which planet does the Death Star destroy?", a: "Alderaan", angle: "plot twist" },
@@ -201,7 +211,17 @@ const curatedQuestions = {
       { q: "Who directed the original Star Wars (1977)?", a: "George Lucas", angle: "director" },
       { q: "What is the Jedi Council's home planet?", a: "Coruscant", angle: "director" },
       { q: "Which bounty hunter captures Han Solo?", a: "Boba Fett", angle: "villain" },
-      { q: "What year was Star Wars: A New Hope released?", a: "1977", angle: "soundtrack" }
+      { q: "What year was Star Wars: A New Hope released?", a: "1977", angle: "soundtrack" },
+      { q: "What is the name of Han Solo's friend who owns Cloud City?", a: "Lando Calrissian", angle: "character" },
+      { q: "Who is Anakin Skywalker's wife?", a: "Padmé Amidala", angle: "plot twist" },
+      { q: "What is the Emperor's Sith name?", a: "Darth Sidious", angle: "villain" },
+      { q: "What planet do Rey and Finn first meet on?", a: "Jakku", angle: "director" },
+      { q: "Who is Kylo Ren's father?", a: "Han Solo", angle: "plot twist" },
+      { q: "What species is Ahsoka Tano?", a: "Togruta", angle: "character" },
+      { q: "What is the Mandalorian's real name?", a: "Din Djarin", angle: "character" },
+      { q: "Who cut off Anakin's arm in Attack of the Clones?", a: "Count Dooku", angle: "plot twist" },
+      { q: "What is Finn's Stormtrooper designation?", a: "FN-2187", angle: "character" },
+      { q: "What forest moon was the second Death Star near?", a: "Endor", angle: "iconic scene" }
     ],
     hard: [
       { q: "Who trained Qui-Gon Jinn?", a: "Count Dooku", angle: "plot twist" },
@@ -213,7 +233,17 @@ const curatedQuestions = {
       { q: "What is Yoda's species called?", a: "Unknown/unnamed", angle: "creature" },
       { q: "Which actor played Darth Vader (body)?", a: "David Prowse", angle: "director" },
       { q: "What was the original name of Star Wars?", a: "Adventures of Luke Starkiller", angle: "director" },
-      { q: "Who said 'I am your father' (the actual line)?", a: "Actually: 'No, I am your father'", angle: "quote" }
+      { q: "Who said 'I am your father' (the actual line)?", a: "Actually: 'No, I am your father'", angle: "quote" },
+      { q: "What is Count Dooku's Sith name?", a: "Darth Tyranus", angle: "villain" },
+      { q: "Who was the first to use Force lightning in the films?", a: "Emperor Palpatine", angle: "villain" },
+      { q: "What is the name of the Clone Trooper who betrayed Order 66?", a: "Captain Rex (in Clone Wars)", angle: "plot twist" },
+      { q: "Who voices Darth Vader?", a: "James Earl Jones", angle: "director" },
+      { q: "What is the home planet of the Wookiees?", a: "Kashyyyk", angle: "sidekick" },
+      { q: "Who is Anakin's mother?", a: "Shmi Skywalker", angle: "character" },
+      { q: "What is the Darksaber?", a: "Ancient black-bladed lightsaber of Mandalore", angle: "magic system" },
+      { q: "Who killed Qui-Gon Jinn?", a: "Darth Maul", angle: "plot twist" },
+      { q: "What is the planet where Obi-Wan hides Luke?", a: "Tatooine (with Owen and Beru Lars)", angle: "character" },
+      { q: "What year did The Phantom Menace release?", a: "1999", angle: "director" }
     ]
   },
   "marvel": {
@@ -227,7 +257,17 @@ const curatedQuestions = {
       { q: "What is Black Widow's real name?", a: "Natasha Romanoff", angle: "Avengers" },
       { q: "Which Avenger uses a bow and arrow?", a: "Hawkeye / Clint Barton", angle: "Avengers" },
       { q: "What planet is Thor from?", a: "Asgard", angle: "multiverse" },
-      { q: "Who is Tony Stark's AI assistant?", a: "JARVIS (later Vision)", angle: "origin story" }
+      { q: "Who is Tony Stark's AI assistant?", a: "JARVIS (later Vision)", angle: "origin story" },
+      { q: "What does Hulk smash?", a: "Everything when angry", angle: "Avengers" },
+      { q: "Who wears the suit of armor?", a: "Iron Man / Tony Stark", angle: "origin story" },
+      { q: "What is Thor's weapon called?", a: "Hammer (Mjolnir)", angle: "Avengers" },
+      { q: "Who can climb walls?", a: "Spider-Man", angle: "origin story" },
+      { q: "What team do the heroes join?", a: "The Avengers", angle: "Avengers" },
+      { q: "Who is the big purple villain?", a: "Thanos", angle: "villain" },
+      { q: "What does Captain America throw?", a: "His shield", angle: "Avengers" },
+      { q: "Who says 'I am Iron Man'?", a: "Tony Stark", angle: "origin story" },
+      { q: "What insect-sized hero can grow big?", a: "Ant-Man", angle: "origin story" },
+      { q: "Who is the king of Wakanda?", a: "Black Panther / T'Challa", angle: "origin story" }
     ],
     medium: [
       { q: "What is the name of Thor's hammer?", a: "Mjolnir", angle: "Avengers" },
@@ -239,7 +279,17 @@ const curatedQuestions = {
       { q: "What is Doctor Strange's first name?", a: "Stephen", angle: "multiverse" },
       { q: "Which Avenger is a master spy and assassin?", a: "Black Widow / Natasha Romanoff", angle: "Avengers" },
       { q: "What year was the first Iron Man movie released?", a: "2008", angle: "origin story" },
-      { q: "Who is the leader of S.H.I.E.L.D.?", a: "Nick Fury", angle: "Avengers" }
+      { q: "Who is the leader of S.H.I.E.L.D.?", a: "Nick Fury", angle: "Avengers" },
+      { q: "What is Captain America's real name?", a: "Steve Rogers", angle: "origin story" },
+      { q: "Who is Thor's brother?", a: "Loki", angle: "villain" },
+      { q: "What does Peter Parker do for a living?", a: "Photographer / High school student", angle: "origin story" },
+      { q: "Who is the purple stone in Vision's forehead?", a: "Mind Stone", angle: "multiverse" },
+      { q: "What is Hawkeye's special skill?", a: "Archery / Never misses", angle: "Avengers" },
+      { q: "Who plays Spider-Man in the MCU?", a: "Tom Holland", angle: "origin story" },
+      { q: "What is Hulk's alter ego's profession?", a: "Scientist (Bruce Banner)", angle: "origin story" },
+      { q: "Who is the talking raccoon?", a: "Rocket", angle: "Avengers" },
+      { q: "What planet are the Guardians from originally?", a: "Various (Peter Quill from Earth)", angle: "multiverse" },
+      { q: "Who can shrink and talk to ants?", a: "Ant-Man / Scott Lang", angle: "origin story" }
     ],
     hard: [
       { q: "What is the name of Tony Stark's father?", a: "Howard Stark", angle: "origin story" },
@@ -251,7 +301,17 @@ const curatedQuestions = {
       { q: "What is the real name of Scarlet Witch?", a: "Wanda Maximoff", angle: "Avengers" },
       { q: "Which infinity stone is inside Vision's head?", a: "Mind Stone", angle: "multiverse" },
       { q: "What is Ant-Man's real name?", a: "Scott Lang (or Hank Pym in comics)", angle: "origin story" },
-      { q: "Who is the voice of Groot?", a: "Vin Diesel", angle: "Avengers" }
+      { q: "Who is the voice of Groot?", a: "Vin Diesel", angle: "Avengers" },
+      { q: "What is the name of Peter Parker's aunt?", a: "May Parker (Aunt May)", angle: "origin story" },
+      { q: "Who created the Ultron program?", a: "Tony Stark and Bruce Banner", angle: "villain" },
+      { q: "What is the Hulk's maximum lifting capacity?", a: "Unlimited when angry enough", angle: "Avengers" },
+      { q: "Who directed Avengers: Endgame?", a: "Russo Brothers (Anthony and Joe)", angle: "multiverse" },
+      { q: "What is Captain Marvel's real name?", a: "Carol Danvers", angle: "origin story" },
+      { q: "Who is T'Challa's sister in Black Panther?", a: "Shuri", angle: "origin story" },
+      { q: "What organization does Hydra infiltrate?", a: "S.H.I.E.L.D.", angle: "villain" },
+      { q: "What is the name of Pepper Potts's superhero identity?", a: "Rescue", angle: "origin story" },
+      { q: "Who wields the Reality Stone as the Aether?", a: "Malekith (originally)", angle: "villain" },
+      { q: "What planet does the Soul Stone reside on?", a: "Vormir", angle: "multiverse" }
     ]
   },
   "harry-potter": {
@@ -265,7 +325,17 @@ const curatedQuestions = {
       { q: "What is Voldemort's real name?", a: "Tom Marvolo Riddle", angle: "magic system" },
       { q: "What type of creature is Dobby?", a: "House-elf", angle: "creature" },
       { q: "What platform does the Hogwarts Express leave from?", a: "Platform 9¾", angle: "Hogwarts" },
-      { q: "Who is the headmaster of Hogwarts (most of the series)?", a: "Albus Dumbledore", angle: "Hogwarts" }
+      { q: "Who is the headmaster of Hogwarts (most of the series)?", a: "Albus Dumbledore", angle: "Hogwarts" },
+      { q: "What house is Harry in?", a: "Gryffindor", angle: "house" },
+      { q: "What scar does Harry have?", a: "Lightning bolt on forehead", angle: "magic system" },
+      { q: "Who is Harry's godfather?", a: "Sirius Black", angle: "Hogwarts" },
+      { q: "What sport do wizards play on broomsticks?", a: "Quidditch", angle: "spell" },
+      { q: "Who is the giant half-human keeper of keys?", a: "Hagrid", angle: "creature" },
+      { q: "What color is Gryffindor?", a: "Red and gold", angle: "house" },
+      { q: "What do wizards use to cast spells?", a: "Wands", angle: "wand" },
+      { q: "Who killed Harry's parents?", a: "Voldemort", angle: "prophecy" },
+      { q: "What creature guards the wizard bank?", a: "Goblins (at Gringotts)", angle: "creature" },
+      { q: "What do Muggles mean?", a: "Non-magical people", angle: "Hogwarts" }
     ],
     medium: [
       { q: "What spell is used to disarm an opponent?", a: "Expelliarmus", angle: "spell" },
@@ -277,7 +347,17 @@ const curatedQuestions = {
       { q: "Who wrote the Harry Potter books?", a: "J.K. Rowling", angle: "author" },
       { q: "What is the killing curse called?", a: "Avada Kedavra", angle: "spell" },
       { q: "What is the name of the Weasley family home?", a: "The Burrow", angle: "Hogwarts" },
-      { q: "Who is the Half-Blood Prince?", a: "Severus Snape", angle: "prophecy" }
+      { q: "Who is the Half-Blood Prince?", a: "Severus Snape", angle: "prophecy" },
+      { q: "What patronus does Harry have?", a: "A stag", angle: "spell" },
+      { q: "Who is the ghost of Gryffindor?", a: "Nearly Headless Nick", angle: "house" },
+      { q: "What spell summons objects?", a: "Accio", angle: "spell" },
+      { q: "Who does Hermione marry?", a: "Ron Weasley", angle: "Hogwarts" },
+      { q: "What does Hermione turn into with Polyjuice Potion?", a: "A cat (accidentally)", angle: "spell" },
+      { q: "What are the Unforgivable Curses?", a: "Avada Kedavra, Crucio, Imperio", angle: "spell" },
+      { q: "Who is the potions master in book 1?", a: "Severus Snape", angle: "Hogwarts" },
+      { q: "What creature can only be seen by those who've seen death?", a: "Thestrals", angle: "creature" },
+      { q: "What's the name of the wizard prison?", a: "Azkaban", angle: "magic system" },
+      { q: "Who does Harry kiss first?", a: "Cho Chang", angle: "Hogwarts" }
     ],
     hard: [
       { q: "What is Dumbledore's full name?", a: "Albus Percival Wulfric Brian Dumbledore", angle: "author" },
@@ -289,7 +369,17 @@ const curatedQuestions = {
       { q: "How many Horcruxes did Voldemort create?", a: "7 (including Harry)", angle: "magic system" },
       { q: "What is the core of Harry's wand?", a: "Phoenix feather", angle: "wand" },
       { q: "Who gave Harry the Marauder's Map?", a: "Fred and George Weasley", angle: "Hogwarts" },
-      { q: "What year was the first Harry Potter book published?", a: "1997", angle: "author" }
+      { q: "What year was the first Harry Potter book published?", a: "1997", angle: "author" },
+      { q: "What are the Marauders' nicknames?", a: "Moony, Wormtail, Padfoot, Prongs", angle: "prophecy" },
+      { q: "What is Voldemort's mother's name?", a: "Merope Gaunt", angle: "magic system" },
+      { q: "What is the name of the Weasley's owl?", a: "Errol", angle: "creature" },
+      { q: "Who is R.A.B. who stole the locket Horcrux?", a: "Regulus Arcturus Black", angle: "magic system" },
+      { q: "What creature is Aragog?", a: "Acromantula (giant spider)", angle: "creature" },
+      { q: "What is Snape's Patronus?", a: "A doe (same as Lily's)", angle: "spell" },
+      { q: "What position did James Potter play in Quidditch?", a: "Chaser", angle: "Hogwarts" },
+      { q: "What are the ingredients of Polyjuice Potion?", a: "Lacewing flies, leeches, powdered bicorn horn, knotgrass, fluxweed, shredded boomslang skin, and a bit of the person", angle: "spell" },
+      { q: "Who founded Hogwarts with Godric Gryffindor?", a: "Salazar Slytherin, Rowena Ravenclaw, Helga Hufflepuff", angle: "Hogwarts" },
+      { q: "What is the name of Neville's toad?", a: "Trevor", angle: "creature" }
     ]
   },
   "music-legends": {
@@ -531,7 +621,17 @@ const curatedQuestions = {
       { q: "What type of creature is Legolas?", a: "Elf", angle: "fellowship" },
       { q: "Who is the heir to the throne of Gondor?", a: "Aragorn", angle: "fellowship" },
       { q: "What creature was Gollum originally?", a: "Hobbit-like creature (Stoor)", angle: "creature" },
-      { q: "What is Frodo's last name?", a: "Baggins", angle: "fellowship" }
+      { q: "What is Frodo's last name?", a: "Baggins", angle: "fellowship" },
+      { q: "What is the peaceful land where hobbits live?", a: "The Shire", angle: "Middle-earth" },
+      { q: "Who is the Dark Lord?", a: "Sauron", angle: "quest" },
+      { q: "What color is Gandalf the Grey's robes?", a: "Grey (later becomes white)", angle: "magic system" },
+      { q: "What are the tall tree creatures called?", a: "Ents", angle: "creature" },
+      { q: "Who is Bilbo to Frodo?", a: "Uncle (actually cousin)", angle: "fellowship" },
+      { q: "What is precious to Gollum?", a: "The Ring", angle: "ring" },
+      { q: "What do hobbits love to eat?", a: "Multiple meals a day", angle: "Middle-earth" },
+      { q: "What race is Aragorn?", a: "Human (Man)", angle: "fellowship" },
+      { q: "Who is Gimli's best friend?", a: "Legolas the Elf", angle: "fellowship" },
+      { q: "What creatures chase Frodo at the beginning?", a: "Nazgûl / Ringwraiths", angle: "creature" }
     ],
     medium: [
       { q: "What is the name of Gandalf's horse?", a: "Shadowfax", angle: "creature" },
@@ -543,7 +643,17 @@ const curatedQuestions = {
       { q: "What is the name of the volcano where the ring is destroyed?", a: "Mount Doom (Orodruin)", angle: "quest" },
       { q: "How many rings of power were made for Men?", a: "Nine", angle: "ring" },
       { q: "What is the Shire's closest neighbor kingdom?", a: "Bree", angle: "Middle-earth" },
-      { q: "Who kills the Witch-king?", a: "Éowyn (with Merry's help)", angle: "quest" }
+      { q: "Who kills the Witch-king?", a: "Éowyn (with Merry's help)", angle: "quest" },
+      { q: "Who are Merry and Pippin?", a: "Frodo's hobbit friends", angle: "fellowship" },
+      { q: "What is the name of the inn where Frodo meets Aragorn?", a: "The Prancing Pony", angle: "Middle-earth" },
+      { q: "Who is Arwen?", a: "Elven princess (Aragorn's love)", angle: "fellowship" },
+      { q: "What is the White City called?", a: "Minas Tirith", angle: "Middle-earth" },
+      { q: "Who is Boromir's brother?", a: "Faramir", angle: "fellowship" },
+      { q: "What creature attacks the Fellowship in Moria?", a: "The Balrog", angle: "creature" },
+      { q: "How many rings were made for Dwarves?", a: "Seven", angle: "ring" },
+      { q: "Who plays Gandalf in the films?", a: "Ian McKellen", angle: "author" },
+      { q: "What is Legolas's weapon of choice?", a: "Bow and arrows", angle: "quest" },
+      { q: "What is Gimli's weapon of choice?", a: "Axe", angle: "quest" }
     ],
     hard: [
       { q: "What is Gandalf's original name in Valinor?", a: "Olórin", angle: "magic system" },
@@ -555,7 +665,17 @@ const curatedQuestions = {
       { q: "What is the name of Frodo's Elvish blade?", a: "Sting", angle: "quest" },
       { q: "How many rings were made for the Elves?", a: "Three", angle: "ring" },
       { q: "What is the name of Saruman's tower?", a: "Orthanc (in Isengard)", angle: "Middle-earth" },
-      { q: "Who carries Frodo up Mount Doom?", a: "Samwise Gamgee", angle: "fellowship" }
+      { q: "Who carries Frodo up Mount Doom?", a: "Samwise Gamgee", angle: "fellowship" },
+      { q: "What is the inscription on the One Ring?", a: "One Ring to rule them all...", angle: "ring" },
+      { q: "Who is Elrond?", a: "Elf lord of Rivendell (Arwen's father)", angle: "fellowship" },
+      { q: "What are the three Elven rings called?", a: "Vilya, Narya, Nenya", angle: "ring" },
+      { q: "Who directed the LOTR film trilogy?", a: "Peter Jackson", angle: "author" },
+      { q: "What is Aragorn's ranger name?", a: "Strider", angle: "fellowship" },
+      { q: "What is the name of Treebeard's race?", a: "Ents", angle: "creature" },
+      { q: "Who is the Steward of Gondor?", a: "Denethor", angle: "Middle-earth" },
+      { q: "What does 'Gandalf' mean in Elvish?", a: "Elf of the Wand", angle: "magic system" },
+      { q: "What year did the film trilogy begin?", a: "2001", angle: "author" },
+      { q: "What is Sam's wife's name?", a: "Rosie Cotton", angle: "fellowship" }
     ]
   },
   "world-history": {
@@ -607,7 +727,17 @@ const curatedQuestions = {
       { q: "How many members are in Huntrix?", a: "Three (Rumi, Mira, Zoey)", angle: "idols" },
       { q: "Who voices Rumi in the English version?", a: "Arden Cho", angle: "idols" },
       { q: "What weapon does Rumi use in combat?", a: "Saingeom sword", angle: "stage battles" },
-      { q: "Who is Huntrix's energetic manager?", a: "Bobby (voiced by Ken Jeong)", angle: "idols" }
+      { q: "Who is Huntrix's energetic manager?", a: "Bobby (voiced by Ken Jeong)", angle: "idols" },
+      { q: "What type of animation is the film?", a: "Animated (musical)", angle: "stage battles" },
+      { q: "Who do Huntrix fight against?", a: "Demons / Saja Boys", angle: "mythic rivals" },
+      { q: "What company produced the film?", a: "Sony Pictures Animation", angle: "stage battles" },
+      { q: "What genre is the music in the film?", a: "K-pop", angle: "dance breaks" },
+      { q: "How many members are in Saja Boys?", a: "Five (Jinu, Mystery, Abby, Baby, Romance)", angle: "mythic rivals" },
+      { q: "Who is the main character?", a: "Rumi", angle: "idols" },
+      { q: "What is the film's main theme?", a: "K-pop idols hunting demons", angle: "stage battles" },
+      { q: "Who is Rumi's mentor?", a: "Celine", angle: "idols" },
+      { q: "What makes Huntrix special?", a: "They're demon hunters and K-pop idols", angle: "stage battles" },
+      { q: "Is the film a comedy or drama?", a: "Musical action fantasy", angle: "dance breaks" }
     ],
     medium: [
       { q: "What secret does Rumi hide from her group?", a: "She is half-demon", angle: "mythic rivals" },
@@ -619,7 +749,17 @@ const curatedQuestions = {
       { q: "What pet accompanies Jinu?", a: "A blue tiger and a six-eyed magpie", angle: "mythic rivals" },
       { q: "What role does Zoey have in Huntrix?", a: "Main rapper, lyricist, and maknae (youngest)", angle: "idols" },
       { q: "What role does Mira have in Huntrix?", a: "Visual and main dancer", angle: "dance breaks" },
-      { q: "Who is the demon king in the film?", a: "Gwi-Ma, who takes the form of a giant fiery mouth", angle: "mythic rivals" }
+      { q: "Who is the demon king in the film?", a: "Gwi-Ma, who takes the form of a giant fiery mouth", angle: "mythic rivals" },
+      { q: "Who voices Mira?", a: "May Hong", angle: "idols" },
+      { q: "Who voices Zoey?", a: "Ji-young Yoo", angle: "idols" },
+      { q: "Who voices Jinu?", a: "Ahn Hyo-seop", angle: "mythic rivals" },
+      { q: "Who voices Celine?", a: "Yunjin Kim", angle: "idols" },
+      { q: "What is Rumi's parentage?", a: "Half-human, half-demon", angle: "mythic rivals" },
+      { q: "What happens to Jinu at the end?", a: "He sacrifices himself to save Rumi", angle: "mythic rivals" },
+      { q: "Who is the villain voice actor?", a: "Lee Byung-hun (Gwi-Ma)", angle: "mythic rivals" },
+      { q: "What did Celine used to be?", a: "Demon hunter and K-pop idol", angle: "idols" },
+      { q: "What is Rumi's main weapon type?", a: "Korean sword (saingeom)", angle: "stage battles" },
+      { q: "What genre blends does the film combine?", a: "K-pop, urban fantasy, action, musical", angle: "dance breaks" }
     ],
     hard: [
       { q: "What are the four KPop Demon Hunters songs that charted in Billboard's top ten?", a: "Golden, Your Idol, Soda Pop, How It's Done", angle: "dance breaks" },
@@ -631,7 +771,17 @@ const curatedQuestions = {
       { q: "What is the Honmoon that Saja Boys try to weaken?", a: "A mystical seal/barrier that Huntrix protects by maintaining their fanbase", angle: "stage battles" },
       { q: "Who directed KPop Demon Hunters?", a: "Maggie Kang and Chris Appelhans", angle: "stage battles" },
       { q: "What Rotten Tomatoes score did the film receive from critics?", a: "95% Certified Fresh", angle: "idols" },
-      { q: "How many views made it Netflix's most popular English film?", a: "Over 325.1 million views", angle: "idols" }
+      { q: "How many views made it Netflix's most popular English film?", a: "Over 325.1 million views", angle: "idols" },
+      { q: "Who voices the supporting character Healer Han?", a: "Daniel Dae Kim", angle: "idols" },
+      { q: "What award category did 'Golden' get nominated for?", a: "Song of the Year (Grammy)", angle: "dance breaks" },
+      { q: "What is unique about this soundtrack's Grammy nominations?", a: "First K-pop group nomination in general field", angle: "dance breaks" },
+      { q: "How many countries did the film reach top 10 in?", a: "93 countries", angle: "idols" },
+      { q: "What is the RIAA certification for the soundtrack?", a: "Platinum (October 2025)", angle: "dance breaks" },
+      { q: "What viewers rating did the film get on Rotten Tomatoes?", a: "99% (audience score)", angle: "idols" },
+      { q: "Where did the film have limited theatrical release?", a: "California and New York", angle: "stage battles" },
+      { q: "What does Jinu want Gwi-Ma to erase?", a: "His painful human memories", angle: "mythic rivals" },
+      { q: "Who co-wrote the screenplay with the directors?", a: "Danya Jimenez and Hannah McMechan", angle: "stage battles" },
+      { q: "What is the highest Billboard 200 debut position for soundtracks in 2025?", a: "KPop Demon Hunters soundtrack", angle: "dance breaks" }
     ]
   },
   "disney-classics": {
@@ -645,7 +795,17 @@ const curatedQuestions = {
       { q: "What is Belle's favorite thing to do in Beauty and the Beast?", a: "Read books", angle: "castles" },
       { q: "Who is Mickey Mouse's girlfriend?", a: "Minnie Mouse", angle: "sidekick" },
       { q: "What vegetable does Cinderella's carriage come from?", a: "Pumpkin", angle: "animation" },
-      { q: "What color is Donald Duck?", a: "White (with blue outfit)", angle: "sidekick" }
+      { q: "What color is Donald Duck?", a: "White (with blue outfit)", angle: "sidekick" },
+      { q: "Who is the forgetful fish?", a: "Dory (Finding Nemo)", angle: "sidekick" },
+      { q: "What does Elsa have power over?", a: "Ice and snow", angle: "animation" },
+      { q: "Who is the villain in Aladdin?", a: "Jafar", angle: "castles" },
+      { q: "What animal is Dumbo?", a: "Elephant", angle: "animation" },
+      { q: "Who sings 'Let It Go'?", a: "Elsa (Idina Menzel)", angle: "songs" },
+      { q: "What does Pinocchio's nose do when he lies?", a: "It grows", angle: "animation" },
+      { q: "Who is the cowboy in Toy Story?", a: "Woody", angle: "sidekick" },
+      { q: "What color is Tinker Bell's dress?", a: "Green", angle: "sidekick" },
+      { q: "Who lives with seven dwarfs?", a: "Snow White", angle: "animation" },
+      { q: "What does Sleeping Beauty prick her finger on?", a: "A spinning wheel/spindle", angle: "castles" }
     ],
     medium: [
       { q: "What year did Snow White and the Seven Dwarfs premiere?", a: "1937", angle: "animation" },
@@ -657,7 +817,17 @@ const curatedQuestions = {
       { q: "What is the name of Ariel's father?", a: "King Triton", angle: "animation" },
       { q: "Which Disney princess has a tiger as a pet?", a: "Jasmine", angle: "sidekick" },
       { q: "What was Walt Disney's first full-length animated film?", a: "Snow White and the Seven Dwarfs", angle: "animation" },
-      { q: "Who voices Genie in the original Aladdin?", a: "Robin Williams", angle: "songs" }
+      { q: "Who voices Genie in the original Aladdin?", a: "Robin Williams", angle: "songs" },
+      { q: "What is Mulan's dragon sidekick's name?", a: "Mushu", angle: "sidekick" },
+      { q: "Who are Cinderella's stepsisters?", a: "Anastasia and Drizella", angle: "castles" },
+      { q: "What is the name of Pocahontas's raccoon?", a: "Meeko", angle: "sidekick" },
+      { q: "Who voices Buzz Lightyear?", a: "Tim Allen", angle: "animation" },
+      { q: "What is the opening song of The Lion King?", a: "Circle of Life", angle: "songs" },
+      { q: "Who is Ariel's best fish friend?", a: "Flounder", angle: "sidekick" },
+      { q: "What year did Frozen release?", a: "2013", angle: "animation" },
+      { q: "Who is the fashion designer in The Incredibles?", a: "Edna Mode", angle: "sidekick" },
+      { q: "What is Moana's pet rooster's name?", a: "Heihei", angle: "sidekick" },
+      { q: "Who composed the Frozen soundtrack?", a: "Kristen Anderson-Lopez and Robert Lopez", angle: "songs" }
     ],
     hard: [
       { q: "What was Mickey Mouse's original name?", a: "Mortimer Mouse", angle: "sidekick" },
@@ -669,7 +839,17 @@ const curatedQuestions = {
       { q: "What castle is Disney's logo based on?", a: "Neuschwanstein Castle in Germany", angle: "castles" },
       { q: "Which film saved Disney from bankruptcy?", a: "Cinderella (1950)", angle: "animation" },
       { q: "What was Pixar's first feature film?", a: "Toy Story (1995)", angle: "animation" },
-      { q: "Who is the only Disney princess with a tattoo?", a: "Pocahontas", angle: "animation" }
+      { q: "Who is the only Disney princess with a tattoo?", a: "Pocahontas", angle: "animation" },
+      { q: "What are the names of all seven dwarfs?", a: "Doc, Grumpy, Happy, Sleepy, Bashful, Sneezy, Dopey", angle: "animation" },
+      { q: "What year was Walt Disney born?", a: "1901", angle: "animation" },
+      { q: "What is the name of Sleeping Beauty?", a: "Aurora (Princess Aurora)", angle: "castles" },
+      { q: "Who was the first Disney princess?", a: "Snow White", angle: "castles" },
+      { q: "What is the highest-grossing Disney animated film?", a: "Frozen II (as of 2024)", angle: "animation" },
+      { q: "Who voices Elsa in Frozen?", a: "Idina Menzel", angle: "songs" },
+      { q: "What was the first Disney film to win Best Picture Oscar?", a: "None (though Beauty and the Beast was nominated)", angle: "animation" },
+      { q: "What is Donald Duck's middle name?", a: "Fauntleroy", angle: "sidekick" },
+      { q: "Who is the only Disney princess with brothers?", a: "Merida (from Brave)", angle: "animation" },
+      { q: "What year did Disneyland open?", a: "1955", angle: "castles" }
     ]
   },
   "anime-heroes": {
@@ -797,7 +977,17 @@ const curatedQuestions = {
       { q: "Who is Batman's sidekick?", a: "Robin", angle: "Gotham" },
       { q: "What is the Joker's real name?", a: "Unknown / Multiple origins", angle: "rogues gallery" },
       { q: "Where is Superman from?", a: "Planet Krypton", angle: "metropolis" },
-      { q: "What does Aquaman control?", a: "Sea creatures / The ocean", angle: "Justice League" }
+      { q: "What does Aquaman control?", a: "Sea creatures / The ocean", angle: "Justice League" },
+      { q: "Who is Batman's greatest enemy?", a: "The Joker", angle: "rogues gallery" },
+      { q: "What is Superman's civilian name?", a: "Clark Kent", angle: "metropolis" },
+      { q: "What team does Batman belong to?", a: "Justice League", angle: "Justice League" },
+      { q: "What is the color of Superman's cape?", a: "Red", angle: "metropolis" },
+      { q: "Who wears the power ring?", a: "Green Lantern", angle: "Justice League" },
+      { q: "What animal is Batman's symbol?", a: "Bat", angle: "Gotham" },
+      { q: "Who is Superman's girlfriend?", a: "Lois Lane", angle: "metropolis" },
+      { q: "What is Batman's cave headquarters called?", a: "Batcave", angle: "Gotham" },
+      { q: "Who can run super fast?", a: "The Flash", angle: "Justice League" },
+      { q: "What gender is Wonder Woman?", a: "Female/Woman", angle: "Justice League" }
     ],
     medium: [
       { q: "What is Batman's butler's name?", a: "Alfred Pennyworth", angle: "Gotham" },
@@ -809,7 +999,17 @@ const curatedQuestions = {
       { q: "Who is Harley Quinn's boyfriend?", a: "The Joker", angle: "rogues gallery" },
       { q: "What is Batman's vehicle called?", a: "Batmobile", angle: "Gotham" },
       { q: "Who paralyzed Barbara Gordon?", a: "The Joker", angle: "rogues gallery" },
-      { q: "What year did Superman first appear?", a: "1938", angle: "metropolis" }
+      { q: "What year did Superman first appear?", a: "1938", angle: "metropolis" },
+      { q: "Who is the Penguin?", a: "Batman villain (Oswald Cobblepot)", angle: "rogues gallery" },
+      { q: "What is Aquaman's real name?", a: "Arthur Curry", angle: "Justice League" },
+      { q: "Who is Catwoman?", a: "Selina Kyle (Batman's frenemy)", angle: "Gotham" },
+      { q: "What is the Green Lantern oath first line?", a: "In brightest day, in blackest night", angle: "Justice League" },
+      { q: "Who is Batman's son?", a: "Damian Wayne", angle: "Gotham" },
+      { q: "What is Superman's home city?", a: "Metropolis", angle: "metropolis" },
+      { q: "Who is the Riddler?", a: "Edward Nygma (Batman villain)", angle: "rogues gallery" },
+      { q: "What is Wonder Woman's tiara made of?", a: "Indestructible metal", angle: "Justice League" },
+      { q: "Who is Batman's first Robin?", a: "Dick Grayson", angle: "Gotham" },
+      { q: "What is the Flash's real job?", a: "Forensic scientist", angle: "Justice League" }
     ],
     hard: [
       { q: "What is the real name of the current Robin?", a: "Damian Wayne (varies by era)", angle: "Gotham" },
@@ -821,7 +1021,17 @@ const curatedQuestions = {
       { q: "Who is the main villain in 'Crisis on Infinite Earths'?", a: "Anti-Monitor", angle: "rogues gallery" },
       { q: "What is Wonder Woman's secret identity?", a: "Diana Prince", angle: "Justice League" },
       { q: "Who killed Jason Todd (second Robin)?", a: "The Joker", angle: "Gotham" },
-      { q: "What is the Phantom Zone?", a: "Kryptonian prison dimension", angle: "metropolis" }
+      { q: "What is the Phantom Zone?", a: "Kryptonian prison dimension", angle: "metropolis" },
+      { q: "What is the Court of Owls?", a: "Secret society controlling Gotham", angle: "Gotham" },
+      { q: "Who becomes the second Flash?", a: "Barry Allen (after Jay Garrick)", angle: "Justice League" },
+      { q: "What is Darkseid searching for?", a: "The Anti-Life Equation", angle: "rogues gallery" },
+      { q: "Who is the Black Adam?", a: "Shazam's nemesis (Teth-Adam)", angle: "rogues gallery" },
+      { q: "What is Batman's IQ?", a: "192 (genius level)", angle: "Gotham" },
+      { q: "Who voices Batman in the animated series?", a: "Kevin Conroy", angle: "Gotham" },
+      { q: "What is the Mobius Chair?", a: "All-knowing chair from New Gods", angle: "Justice League" },
+      { q: "Who is Oracle?", a: "Barbara Gordon after being paralyzed", angle: "Gotham" },
+      { q: "What is Superman's Fortress of Solitude location?", a: "Arctic/North Pole", angle: "metropolis" },
+      { q: "Who created Wonder Woman (in real life)?", a: "William Moulton Marston", angle: "Justice League" }
     ]
   },
   "90s-cartoons": {
