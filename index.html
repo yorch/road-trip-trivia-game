@@ -1,20 +1,43 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Road Trip Trivia</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- Topic Picker Modal -->
+  <div class="topic-picker-overlay" id="topicPicker">
+    <div class="topic-picker">
+      <div class="topic-picker-header">
+        <div>
+          <h2>Choose Your Topic</h2>
+          <p class="topic-picker-lede">Pick any topic to start your trivia journey</p>
+        </div>
+        <button class="pill ghost" id="closePicker">Use dropdowns instead</button>
+      </div>
+      <div class="topic-picker-search">
+        <input type="text" id="topicSearch" placeholder="Search topics..." />
+      </div>
+      <div class="topic-picker-content" id="topicPickerContent">
+        <!-- Topics will be populated here -->
+      </div>
+    </div>
+  </div>
+
   <div class="page">
     <header class="hero">
       <div>
         <p class="eyebrow">Road Trip Game</p>
         <h1>Trivia Drive</h1>
-        <p class="lede">Pick a topic, choose your difficulty, and keep the car buzzing with rapid-fire questions everyone can enjoy.</p>
+        <p class="lede">Pick a topic, choose your difficulty, and keep the car buzzing with rapid-fire questions
+          everyone can enjoy.</p>
         <div class="hero-actions">
-          <button class="pill" id="randomTopic">Surprise me</button>
+          <button class="pill" id="chooseTopic">Choose topic</button>
+          <button class="pill ghost" id="randomTopic">Surprise me</button>
           <button class="pill ghost" id="resetProgress">Reset progress</button>
         </div>
       </div>
@@ -84,4 +107,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

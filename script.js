@@ -1188,6 +1188,76 @@ function resetProgress() {
   nextQuestion();
 }
 
+function populateTopicPicker() {
+  const container = document.getElementById("topicPickerContent");
+  const categories = [...new Set(topicList.map((t) => t.category))].sort();
+
+  container.innerHTML = categories.map((category) => {
+    const categoryTopics = topicList.filter((t) => t.category === category);
+    return `
+      <div class="topic-category" data-category="${category}">
+        <div class="topic-category-header">
+          <h3>${category}</h3>
+          <span class="topic-category-count">${categoryTopics.length}</span>
+        </div>
+        <div class="topic-grid">
+          ${categoryTopics.map((topic) => `
+            <div class="topic-card" data-topic-id="${topic.id}" data-topic-name="${topic.name.toLowerCase()}">
+              <div class="topic-card-name">${topic.name}</div>
+              <div class="topic-card-tags">
+                ${topic.tags.slice(0, 3).map((tag) => `<span class="topic-tag">${tag}</span>`).join("")}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  // Add click handlers to topic cards
+  container.querySelectorAll(".topic-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const topicId = card.dataset.topicId;
+      selectTopicAndStart(topicId);
+    });
+  });
+}
+
+function selectTopicAndStart(topicId) {
+  state.topicId = topicId;
+  document.getElementById("topicSelect").value = topicId;
+  state.streak = 0;
+  updateScoreboard();
+  hideTopicPicker();
+  nextQuestion();
+}
+
+function showTopicPicker() {
+  document.getElementById("topicPicker").classList.remove("hidden");
+}
+
+function hideTopicPicker() {
+  document.getElementById("topicPicker").classList.add("hidden");
+}
+
+function handleTopicSearch(searchTerm) {
+  const term = searchTerm.toLowerCase();
+  const allCards = document.querySelectorAll(".topic-card");
+  const allCategories = document.querySelectorAll(".topic-category");
+
+  allCards.forEach((card) => {
+    const topicName = card.dataset.topicName;
+    const matches = topicName.includes(term);
+    card.classList.toggle("hidden", !matches);
+  });
+
+  // Hide categories with no visible topics
+  allCategories.forEach((category) => {
+    const visibleCards = category.querySelectorAll(".topic-card:not(.hidden)");
+    category.style.display = visibleCards.length > 0 ? "block" : "none";
+  });
+}
+
 function bindEvents() {
   document.getElementById("categorySelect").addEventListener("change", (e) => {
     setTopicOptions(e.target.value);
@@ -1224,6 +1294,13 @@ function bindEvents() {
     nextQuestion();
   });
   document.getElementById("resetProgress").addEventListener("click", resetProgress);
+
+  // Topic picker events
+  document.getElementById("chooseTopic").addEventListener("click", showTopicPicker);
+  document.getElementById("closePicker").addEventListener("click", hideTopicPicker);
+  document.getElementById("topicSearch").addEventListener("input", (e) => {
+    handleTopicSearch(e.target.value);
+  });
 }
 
 function init() {
@@ -1231,8 +1308,9 @@ function init() {
   setTopicOptions();
   updateDifficultyButtons();
   updateScoreboard();
+  populateTopicPicker();
   bindEvents();
-  nextQuestion();
+  showTopicPicker();
 }
 
 document.addEventListener("DOMContentLoaded", init);
