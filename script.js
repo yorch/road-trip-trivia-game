@@ -2,6 +2,12 @@
 // Static data (difficulties, topicList, categoryAngles, promptTemplates, answerTemplates, answerExamples)
 // is loaded from data.js
 
+// Security: HTML escaping helper to prevent XSS
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
 
 function buildAngles(topic) {
   const base = categoryAngles[topic.category] || [];
@@ -65,6 +71,7 @@ function createQuestions(topic, difficulty, mode = "all") {
   return bank;
 }
 
+// Legacy function kept for compatibility, but no longer used on init
 function buildQuestionBank(mode = "all") {
   const bank = {};
   topicList.forEach((topic) => {
@@ -76,11 +83,33 @@ function buildQuestionBank(mode = "all") {
   return bank;
 }
 
-let questionBank = buildQuestionBank("all");
+// Lazy loading: Only generate questions when needed for a specific topic/difficulty
+function getOrCreateQuestions(topicId, difficulty) {
+  // Ensure topic exists in question bank
+  if (!questionBank[topicId]) {
+    questionBank[topicId] = {};
+  }
+
+  // Lazily create questions for this difficulty if not already created
+  if (!questionBank[topicId][difficulty]) {
+    const topic = topicList.find(t => t.id === topicId);
+    if (topic) {
+      questionBank[topicId][difficulty] = createQuestions(topic, difficulty, state.questionMode);
+    } else {
+      console.warn(`Topic ${topicId} not found, returning empty question bank`);
+      questionBank[topicId][difficulty] = [];
+    }
+  }
+
+  return questionBank[topicId][difficulty];
+}
+
+// Question bank is built in init() after data loads
+let questionBank;
 
 let progress = {};
 const state = {
-  topicId: topicList[0].id,
+  topicId: null, // Will be set in init() or when user selects topic
   difficulty: "easy",
   questionMode: "all", // "all" or "curated"
   score: 0,
@@ -149,7 +178,9 @@ function saveQuestionMode(mode) {
 
 function loadQuestionMode() {
   try {
-    return localStorage.getItem("questionMode") || "all";
+    const saved = localStorage.getItem("questionMode");
+    const validModes = ['all', 'curated'];
+    return validModes.includes(saved) ? saved : "all";
   } catch (e) {
     return "all";
   }
@@ -165,7 +196,8 @@ function saveDifficulty(difficulty) {
 
 function loadDifficulty() {
   try {
-    return localStorage.getItem("difficulty") || "easy";
+    const saved = localStorage.getItem("difficulty");
+    return difficulties.includes(saved) ? saved : "easy";
   } catch (e) {
     return "easy";
   }
@@ -213,7 +245,8 @@ function shuffleIndices(length, seedBase = 1) {
 function getProgress(topicId, difficulty) {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
-    const bank = questionBank[topicId]?.[difficulty] || [];
+    // Lazy load: create questions only when needed
+    const bank = getOrCreateQuestions(topicId, difficulty);
     const bankSize = bank.length;
     if (bankSize === 0) {
       return { order: [], cursor: 0 };
@@ -239,9 +272,13 @@ function updateQuestionModeButtons() {
 }
 
 function rebuildQuestionBank() {
-  questionBank = buildQuestionBank(state.questionMode);
-  // Clear progress when switching modes
-  progress = {};
+  // Clear question bank - questions will be lazily regenerated with new mode
+  questionBank = {};
+  // Only clear current topic's progress when switching modes
+  // This preserves progress in other topics
+  if (progress[state.topicId]) {
+    delete progress[state.topicId];
+  }
   saveProgress();
 }
 
@@ -254,6 +291,19 @@ function updateScoreboard() {
 
 function renderCard(question) {
   const topic = topicList.find((t) => t.id === state.topicId);
+
+  // Safety check: if topic not found, reset to first topic
+  if (!topic) {
+    console.error(`Topic ${state.topicId} not found, resetting to first topic`);
+    state.topicId = topicList[0]?.id || null;
+    if (!state.topicId) {
+      console.error("No topics available");
+      return;
+    }
+    nextQuestion();
+    return;
+  }
+
   const cardEl = document.querySelector(".card");
   const nextEl = document.querySelector(".next");
 
@@ -272,7 +322,8 @@ function renderCard(question) {
 
 function nextQuestion() {
   const prog = getProgress(state.topicId, state.difficulty);
-  const bank = questionBank[state.topicId][state.difficulty];
+  // Lazy load: get or create questions for current topic/difficulty
+  const bank = getOrCreateQuestions(state.topicId, state.difficulty);
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
@@ -334,8 +385,11 @@ function skipQuestion() {
 function resetProgress() {
   Object.keys(progress).forEach((topicId) => {
     difficulties.forEach((diff) => {
+      // Lazy load: get or create questions for each topic/difficulty
+      const bank = getOrCreateQuestions(topicId, diff);
+      const bankSize = bank.length;
       const seed = Math.floor(Math.random() * 2147483647);
-      progress[topicId][diff] = { order: shuffleIndices(80, seed), cursor: 0 };
+      progress[topicId][diff] = { order: shuffleIndices(bankSize, seed), cursor: 0 };
     });
   });
   state.score = 0;
@@ -371,9 +425,9 @@ function populateTopicPicker(filterMode = 'all') {
     if (categoryTopics.length === 0) return '';
 
     return `
-      <div class="topic-category" data-category="${category}">
+      <div class="topic-category" data-category="${escapeHtml(category)}">
         <div class="topic-category-header">
-          <h3>${category}</h3>
+          <h3>${escapeHtml(category)}</h3>
           <span class="topic-category-count">${categoryTopics.length}</span>
         </div>
         <div class="topic-grid">
@@ -382,15 +436,15 @@ function populateTopicPicker(filterMode = 'all') {
             const hasCurated = curatedCount > 0;
             return `
               <div class="topic-card"
-                   data-topic-id="${topic.id}"
-                   data-topic-name="${topic.name.toLowerCase()}"
+                   data-topic-id="${escapeHtml(topic.id)}"
+                   data-topic-name="${escapeHtml(topic.name.toLowerCase())}"
                    data-has-curated="${hasCurated}">
                 <div class="topic-card-name">
-                  ${topic.name}
+                  ${escapeHtml(topic.name)}
                   ${hasCurated ? `<span class="curated-count">${curatedCount} curated</span>` : ''}
                 </div>
                 <div class="topic-card-tags">
-                  ${topic.tags.slice(0, 3).map((tag) => `<span class="topic-tag">${tag}</span>`).join("")}
+                  ${topic.tags.slice(0, 3).map((tag) => `<span class="topic-tag">${escapeHtml(tag)}</span>`).join("")}
                 </div>
               </div>
             `;
@@ -400,13 +454,7 @@ function populateTopicPicker(filterMode = 'all') {
     `;
   }).join("");
 
-  // Add click handlers to topic cards
-  container.querySelectorAll(".topic-card").forEach((card) => {
-    card.addEventListener("click", () => {
-      const topicId = card.dataset.topicId;
-      selectTopicAndStart(topicId);
-    });
-  });
+  // Note: Click handlers are set up once via event delegation in bindEvents()
 }
 
 function selectTopicAndStart(topicId) {
@@ -480,13 +528,26 @@ function bindEvents() {
     updateScoreboard();
     nextQuestion();
   });
-  document.getElementById("resetProgress").addEventListener("click", resetProgress);
+  document.getElementById("resetProgress").addEventListener("click", () => {
+    if (confirm("Reset all progress? This will clear your score, streak, and question history for all topics. This cannot be undone.")) {
+      resetProgress();
+    }
+  });
 
   // Topic picker events
   document.getElementById("chooseTopic").addEventListener("click", showTopicPicker);
   document.getElementById("closePicker").addEventListener("click", hideTopicPicker);
   document.getElementById("topicSearch").addEventListener("input", (e) => {
     handleTopicSearch(e.target.value);
+  });
+
+  // Event delegation for topic cards (prevents memory leaks from repeated repopulation)
+  document.getElementById("topicPickerContent").addEventListener("click", (e) => {
+    const card = e.target.closest(".topic-card");
+    if (card) {
+      const topicId = card.dataset.topicId;
+      selectTopicAndStart(topicId);
+    }
   });
 
   // Filter button events
@@ -521,7 +582,8 @@ function bindEvents() {
       document.body.removeChild(script);
 
       // Repopulate the picker with updated data
-      const activeFilter = document.querySelector(".filter-btn.active").dataset.filter;
+      const activeBtn = document.querySelector(".filter-btn.active");
+      const activeFilter = activeBtn?.dataset.filter || 'all';
       populateTopicPicker(activeFilter);
 
       btn.textContent = "✓ Reloaded";
@@ -541,14 +603,20 @@ function bindEvents() {
 }
 
 function init() {
+  // Safety check: ensure data.js loaded correctly
+  if (!topicList || topicList.length === 0) {
+    console.error("Failed to load topic data. Please refresh the page.");
+    return;
+  }
+
   // Load saved preferences from localStorage
   progress = loadProgress();
   state.questionMode = loadQuestionMode();
   state.difficulty = loadDifficulty();
   loadScoreboard();
 
-  // Rebuild question bank with saved mode
-  questionBank = buildQuestionBank(state.questionMode);
+  // Initialize empty question bank - questions will be lazy loaded as needed
+  questionBank = {};
 
   updateDifficultyButtons();
   updateQuestionModeButtons();
