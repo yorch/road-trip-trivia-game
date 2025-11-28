@@ -193,6 +193,46 @@ select {
   padding: 18px;
 }
 
+.card-complete {
+  background: linear-gradient(135deg, rgba(77, 225, 193, 0.08) 0%, rgba(255, 143, 63, 0.08) 100%);
+  border: 2px solid var(--accent-2);
+  text-align: center;
+}
+
+.card-complete .card-head {
+  justify-content: center;
+}
+
+.card-complete .chip {
+  display: none;
+}
+
+.card-complete h2 {
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.card-complete .card-meta {
+  display: none;
+}
+
+.card-complete .card-body {
+  font-size: 18px;
+  color: var(--muted);
+  margin: 16px 0;
+}
+
+.card-complete .answer {
+  background: rgba(77, 225, 193, 0.12);
+  border-color: var(--accent-2);
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-complete .actions {
+  display: none;
+}
+
 .card-head {
   display: flex;
   justify-content: space-between;

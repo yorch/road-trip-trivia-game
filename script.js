@@ -1345,6 +1345,13 @@ function updateScoreboard() {
 
 function renderCard(question) {
   const topic = topicList.find((t) => t.id === state.topicId);
+  const cardEl = document.querySelector(".card");
+  const nextEl = document.querySelector(".next");
+
+  // Remove end-state class and show next button for regular questions
+  cardEl.classList.remove("card-complete");
+  nextEl.style.display = "flex";
+
   document.getElementById("cardTopic").textContent = `${topic.name} • ${topic.category}`;
   document.getElementById("cardDifficulty").textContent = state.difficulty.charAt(0).toUpperCase() + state.difficulty.slice(1);
   document.getElementById("cardTitle").textContent = question.prompt;
@@ -1360,18 +1367,28 @@ function nextQuestion() {
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
+    const cardEl = document.querySelector(".card");
+    const nextEl = document.querySelector(".next");
+    const answerEl = document.getElementById("cardAnswer");
+    cardEl.classList.add("card-complete");
+    nextEl.style.display = "none";
+    answerEl.classList.remove("visible");
+
     document.getElementById("cardTitle").textContent = "No curated questions available!";
     document.getElementById("cardBody").textContent = "This topic doesn't have curated questions yet. Switch to 'All questions' mode.";
-    document.getElementById("answerText").textContent = "Try selecting 'All questions' or choose a different topic.";
-    toggleAnswer(true);
     return;
   }
 
   if (prog.cursor >= bank.length) {
+    const cardEl = document.querySelector(".card");
+    const nextEl = document.querySelector(".next");
+    const answerEl = document.getElementById("cardAnswer");
+    cardEl.classList.add("card-complete");
+    nextEl.style.display = "none";
+    answerEl.classList.remove("visible");
+
     document.getElementById("cardTitle").textContent = "All questions used up!";
     document.getElementById("cardBody").textContent = "Reset progress or switch difficulty to keep rolling.";
-    document.getElementById("answerText").textContent = "Every question in this lane has been used.";
-    toggleAnswer(true);
     return;
   }
 
