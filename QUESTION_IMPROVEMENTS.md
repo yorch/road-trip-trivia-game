@@ -691,9 +691,11 @@ const imageQuestions = {
 
 | Topic | Easy | Medium | Hard | Notes |
 |-------|------|--------|------|-------|
-| Star Wars | ✅ | ✅ | ✅ | Baseline complete |
-| Marvel | ⏳ | ⏳ | ⏳ | In progress |
+| Star Wars | ✅ | ✅ | ✅ | Complete - 30 questions + 6 answer sets |
+| Marvel Universe | ✅ | ✅ | ✅ | Complete - 30 questions + 6 answer sets |
 | Harry Potter | ❌ | ❌ | ❌ | Not started |
+| Music Legends | ❌ | ❌ | ❌ | Not started |
+| US History | ❌ | ❌ | ❌ | Not started |
 | ... | | | | |
 
 ---
@@ -765,6 +767,26 @@ const imageQuestions = {
 
 ## Changelog
 
+### Version 1.2 (2025-11-28) - Marvel Universe Addition
+
+**Completed Tasks**:
+
+- ✅ Added curated Marvel Universe questions: 10 easy, 10 medium, 10 hard (script.js:219-256)
+- ✅ Created answer examples database for Marvel with 6 angle types (script.js:305-349)
+- ✅ Covers MCU and comics content across multiple franchises
+
+**Impact**:
+
+- 2 of 10 priority topics now complete (20%)
+- 60 total curated questions across 2 topics
+- Marvel questions cover: Avengers, villains, origin stories, multiverse, iconic scenes, quotes
+
+**Example Questions**:
+
+- Easy: "What is Iron Man's real name?" → "Tony Stark"
+- Medium: "What is the name of Thor's hammer?" → "Mjolnir"
+- Hard: "What is Thanos's home planet?" → "Titan"
+
 ### Version 1.1 (2025-11-28) - Phase 1 Implementation
 
 **Completed Tasks**:
@@ -786,7 +808,7 @@ const imageQuestions = {
 **Next Steps**:
 
 - Test implementation in browser
-- Add curated questions for remaining 9 priority topics
+- Add curated questions for remaining 8 priority topics
 - Gather user feedback on question quality
 
 ### Version 1.0 (2025-11-28)

@@ -215,6 +215,44 @@ const curatedQuestions = {
       { q: "What was the original name of Star Wars?", a: "Adventures of Luke Starkiller", angle: "directors" },
       { q: "Who said 'I am your father' (the actual line)?", a: "Actually: 'No, I am your father'", angle: "quotes" }
     ]
+  },
+  "marvel": {
+    easy: [
+      { q: "What is Iron Man's real name?", a: "Tony Stark", angle: "origin stories" },
+      { q: "What is Captain America's shield made of?", a: "Vibranium", angle: "Avengers" },
+      { q: "Who is the God of Thunder?", a: "Thor", angle: "Avengers" },
+      { q: "What color is the Hulk?", a: "Green", angle: "Avengers" },
+      { q: "What is Spider-Man's real name?", a: "Peter Parker", angle: "origin stories" },
+      { q: "Who snaps the Infinity Gauntlet in Endgame?", a: "Tony Stark / Iron Man", angle: "Avengers" },
+      { q: "What is Black Widow's real name?", a: "Natasha Romanoff", angle: "Avengers" },
+      { q: "Which Avenger uses a bow and arrow?", a: "Hawkeye / Clint Barton", angle: "Avengers" },
+      { q: "What planet is Thor from?", a: "Asgard", angle: "multiverse" },
+      { q: "Who is Tony Stark's AI assistant?", a: "JARVIS (later Vision)", angle: "origin stories" }
+    ],
+    medium: [
+      { q: "What is the name of Thor's hammer?", a: "Mjolnir", angle: "Avengers" },
+      { q: "Who is the villain in the first Avengers movie?", a: "Loki", angle: "villains" },
+      { q: "What is the name of Black Panther's home country?", a: "Wakanda", angle: "origin stories" },
+      { q: "Who plays Tony Stark in the MCU?", a: "Robert Downey Jr.", angle: "origin stories" },
+      { q: "What are the six Infinity Stones?", a: "Space, Mind, Reality, Power, Time, Soul", angle: "multiverse" },
+      { q: "Who is Peter Quill's father?", a: "Ego the Living Planet", angle: "origin stories" },
+      { q: "What is Doctor Strange's first name?", a: "Stephen", angle: "multiverse" },
+      { q: "Which Avenger is a master spy and assassin?", a: "Black Widow / Natasha Romanoff", angle: "Avengers" },
+      { q: "What year was the first Iron Man movie released?", a: "2008", angle: "origin stories" },
+      { q: "Who is the leader of S.H.I.E.L.D.?", a: "Nick Fury", angle: "Avengers" }
+    ],
+    hard: [
+      { q: "What is the name of Tony Stark's father?", a: "Howard Stark", angle: "origin stories" },
+      { q: "Who created the Infinity Stones in the comics?", a: "The Cosmic Entities", angle: "multiverse" },
+      { q: "What is Thanos's home planet?", a: "Titan", angle: "villains" },
+      { q: "Who is the Winter Soldier?", a: "Bucky Barnes", angle: "villains" },
+      { q: "What is the name of Thor's axe in Infinity War?", a: "Stormbreaker", angle: "Avengers" },
+      { q: "Who directed the first two Avengers movies?", a: "Joss Whedon", angle: "origin stories" },
+      { q: "What is the real name of Scarlet Witch?", a: "Wanda Maximoff", angle: "Avengers" },
+      { q: "Which infinity stone is inside Vision's head?", a: "Mind Stone", angle: "multiverse" },
+      { q: "What is Ant-Man's real name?", a: "Scott Lang (or Hank Pym in comics)", angle: "origin stories" },
+      { q: "Who is the voice of Groot?", a: "Vin Diesel", angle: "Avengers" }
+    ]
   }
 };
 
@@ -262,6 +300,51 @@ const answerExamples = {
       "Duel of the Fates",
       "Cantina Band song",
       "Force Theme"
+    ]
+  },
+  "marvel": {
+    "Avengers": [
+      "Iron Man - genius billionaire",
+      "Captain America - super soldier",
+      "Thor - God of Thunder",
+      "Hulk - gamma-powered hero",
+      "Black Widow - master spy",
+      "Hawkeye - expert archer"
+    ],
+    "villains": [
+      "Thanos - Mad Titan seeking Infinity Stones",
+      "Loki - God of Mischief",
+      "Ultron - rogue AI antagonist",
+      "Hela - Goddess of Death",
+      "Killmonger - Black Panther's rival"
+    ],
+    "origin stories": [
+      "Tony Stark creates Iron Man suit in a cave",
+      "Steve Rogers receives super soldier serum",
+      "Peter Parker bitten by radioactive spider",
+      "Bruce Banner exposed to gamma radiation",
+      "Black Panther inherits Wakandan throne"
+    ],
+    "multiverse": [
+      "Doctor Strange guards the Time Stone",
+      "Infinity Stones control aspects of reality",
+      "TVA monitors the Sacred Timeline",
+      "Spider-Verse connects multiple realities",
+      "What If...? explores alternate timelines"
+    ],
+    "iconic scenes": [
+      "Avengers assemble circle shot (2012)",
+      "I am Iron Man snap (Endgame)",
+      "Captain America lifts Mjolnir (Endgame)",
+      "Portals scene in Endgame",
+      "Thanos snap (Infinity War)"
+    ],
+    "quotes": [
+      "I am Iron Man",
+      "I can do this all day",
+      "Avengers, assemble!",
+      "I am Groot",
+      "With great power comes great responsibility"
     ]
   }
 };
