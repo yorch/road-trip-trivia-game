@@ -1289,6 +1289,32 @@ function loadDifficulty() {
   }
 }
 
+function saveScoreboard() {
+  try {
+    localStorage.setItem("scoreboard", JSON.stringify({
+      score: state.score,
+      streak: state.streak,
+      asked: state.asked
+    }));
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
+function loadScoreboard() {
+  try {
+    const saved = localStorage.getItem("scoreboard");
+    if (saved) {
+      const data = JSON.parse(saved);
+      state.score = data.score || 0;
+      state.streak = data.streak || 0;
+      state.asked = data.asked || 0;
+    }
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
 function shuffleIndices(length, seedBase = 1) {
   if (length === 0) return [];
   const arr = Array.from({ length }, (_, i) => i);
@@ -1341,6 +1367,7 @@ function updateScoreboard() {
   document.getElementById("scoreValue").textContent = state.score;
   document.getElementById("streakValue").textContent = state.streak;
   document.getElementById("askedValue").textContent = state.asked;
+  saveScoreboard();
 }
 
 function renderCard(question) {
@@ -1558,6 +1585,7 @@ function init() {
   progress = loadProgress();
   state.questionMode = loadQuestionMode();
   state.difficulty = loadDifficulty();
+  loadScoreboard();
 
   // Rebuild question bank with saved mode
   questionBank = buildQuestionBank(state.questionMode);
