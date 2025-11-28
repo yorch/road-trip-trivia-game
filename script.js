@@ -764,12 +764,24 @@ const answerExamples = {
       "Ravenclaw (Luna's house)",
       "Hufflepuff (Cedric's house)"
     ],
+    "houses": [
+      "Gryffindor - house of the brave",
+      "Slytherin - house of the ambitious",
+      "Ravenclaw - house of the wise",
+      "Hufflepuff - house of the loyal"
+    ],
     "wand": [
       "Harry's wand - holly and phoenix feather",
       "Hermione's wand - vine wood and dragon heartstring",
       "Elder Wand - most powerful wand",
       "Ron's wand - ash and unicorn hair",
       "Voldemort's wand - yew and phoenix feather"
+    ],
+    "wands": [
+      "Holly and phoenix feather (Harry)",
+      "Vine wood and dragon heartstring (Hermione)",
+      "Elder Wand - Deathly Hallow",
+      "Blackthorn wand (Voldemort's backup)"
     ],
     "creature": [
       "Hedwig - Harry's snowy owl",
@@ -787,10 +799,23 @@ const answerExamples = {
       "Felix Felicis - liquid luck potion"
     ],
     "author": [
-      "J.K. Rowling wrote all 7 books",
-      "First book: Philosopher's Stone (1997)",
-      "Screenplays expanded the wizarding world",
-      "Pottermore/Wizarding World digital platform"
+      "J.K. Rowling",
+      "J.K. Rowling (Joanne Rowling)",
+      "J.K. Rowling wrote all seven books",
+      "J.K. Rowling, British author"
+    ],
+    "chapter": [
+      "The Boy Who Lived (first chapter)",
+      "The Forbidden Forest",
+      "The Mirror of Erised",
+      "The Deathly Hallows",
+      "The Prince's Tale"
+    ],
+    "library": [
+      "Hogwarts Library - Madam Pince",
+      "Restricted Section - forbidden books",
+      "Room of Requirement's hidden books",
+      "Dumbledore's private collection"
     ],
     "prophecy": [
       "The Boy Who Lived prophecy",
