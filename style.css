@@ -142,17 +142,20 @@ select {
   box-shadow: var(--shadow);
 }
 
-.difficulty-control {
+.difficulty-control,
+.question-mode-control {
   justify-content: center;
 }
 
-.difficulty-buttons {
+.difficulty-buttons,
+.question-mode-buttons {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
 }
 
-.difficulty {
+.difficulty,
+.question-mode {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -165,6 +168,12 @@ select {
 .difficulty.active {
   background: var(--accent-2);
   color: #041014;
+  border-color: transparent;
+}
+
+.question-mode.active {
+  background: var(--accent);
+  color: #0f0f0f;
   border-color: transparent;
 }
 

@@ -1131,7 +1131,7 @@ function fillTemplate(template, topicName, angle, index) {
   return template.replace("{topic}", topicName).replace("{angle}", angle).replace("{n}", index + 1);
 }
 
-function createQuestions(topic, difficulty) {
+function createQuestions(topic, difficulty, mode = "all") {
   const prompts = promptTemplates[difficulty];
   const answers = answerTemplates[difficulty];
   const allAngles = buildAngles(topic);
@@ -1141,16 +1141,27 @@ function createQuestions(topic, difficulty) {
   const curated = curatedQuestions[topic.id]?.[difficulty] || [];
   const examples = answerExamples[topic.id] || {};
 
-  // Filter to only use angles that have real answer examples
-  const anglesWithExamples = allAngles.filter(angle => examples[angle] && examples[angle].length > 0);
-
-  // Use filtered angles if available, otherwise fall back to all angles
-  const angles = anglesWithExamples.length > 0 ? anglesWithExamples : allAngles;
+  // If curated-only mode and no curated questions exist, return empty
+  if (mode === "curated" && curated.length === 0) {
+    return [];
+  }
 
   // Add curated questions first
   curated.forEach((cq) => {
     bank.push({ prompt: cq.q, answer: cq.a, angle: cq.angle });
   });
+
+  // If curated-only mode, return only curated questions
+  if (mode === "curated") {
+    return bank;
+  }
+
+  // For "all" mode, fill remaining slots with generated questions
+  // Filter to only use angles that have real answer examples
+  const anglesWithExamples = allAngles.filter(angle => examples[angle] && examples[angle].length > 0);
+
+  // Use filtered angles if available, otherwise fall back to all angles
+  const angles = anglesWithExamples.length > 0 ? anglesWithExamples : allAngles;
 
   // Fill remaining slots with generated questions
   const remaining = 80 - curated.length;
@@ -1172,18 +1183,24 @@ function createQuestions(topic, difficulty) {
   return bank;
 }
 
-const questionBank = {};
-topicList.forEach((topic) => {
-  questionBank[topic.id] = {};
-  difficulties.forEach((diff) => {
-    questionBank[topic.id][diff] = createQuestions(topic, diff);
+function buildQuestionBank(mode = "all") {
+  const bank = {};
+  topicList.forEach((topic) => {
+    bank[topic.id] = {};
+    difficulties.forEach((diff) => {
+      bank[topic.id][diff] = createQuestions(topic, diff, mode);
+    });
   });
-});
+  return bank;
+}
+
+let questionBank = buildQuestionBank("all");
 
 let progress = {};
 const state = {
   topicId: topicList[0].id,
   difficulty: "easy",
+  questionMode: "all", // "all" or "curated"
   score: 0,
   streak: 0,
   asked: 0,
@@ -1240,7 +1257,24 @@ function clearProgress() {
   }
 }
 
+function saveQuestionMode(mode) {
+  try {
+    localStorage.setItem("questionMode", mode);
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
+function loadQuestionMode() {
+  try {
+    return localStorage.getItem("questionMode") || "all";
+  } catch (e) {
+    return "all";
+  }
+}
+
 function shuffleIndices(length, seedBase = 1) {
+  if (length === 0) return [];
   const arr = Array.from({ length }, (_, i) => i);
   let seed = seedBase;
   for (let i = arr.length - 1; i > 0; i -= 1) {
@@ -1255,8 +1289,13 @@ function shuffleIndices(length, seedBase = 1) {
 function getProgress(topicId, difficulty) {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
+    const bank = questionBank[topicId]?.[difficulty] || [];
+    const bankSize = bank.length;
+    if (bankSize === 0) {
+      return { order: [], cursor: 0 };
+    }
     const seed = Math.floor(Math.random() * 2147483647);
-    progress[topicId][difficulty] = { order: shuffleIndices(80, seed), cursor: 0 };
+    progress[topicId][difficulty] = { order: shuffleIndices(bankSize, seed), cursor: 0 };
     saveProgress();
   }
   return progress[topicId][difficulty];
@@ -1267,6 +1306,19 @@ function updateDifficultyButtons() {
   document.querySelectorAll(".difficulty").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.difficulty === state.difficulty);
   });
+}
+
+function updateQuestionModeButtons() {
+  document.querySelectorAll(".question-mode").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.mode === state.questionMode);
+  });
+}
+
+function rebuildQuestionBank() {
+  questionBank = buildQuestionBank(state.questionMode);
+  // Clear progress when switching modes
+  progress = {};
+  saveProgress();
 }
 
 function updateScoreboard() {
@@ -1289,6 +1341,15 @@ function renderCard(question) {
 function nextQuestion() {
   const prog = getProgress(state.topicId, state.difficulty);
   const bank = questionBank[state.topicId][state.difficulty];
+
+  // Check if topic has no questions in current mode
+  if (!bank || bank.length === 0) {
+    document.getElementById("cardTitle").textContent = "No curated questions available!";
+    document.getElementById("cardBody").textContent = "This topic doesn't have curated questions yet. Switch to 'All questions' mode.";
+    document.getElementById("answerText").textContent = "Try selecting 'All questions' or choose a different topic.";
+    toggleAnswer(true);
+    return;
+  }
 
   if (prog.cursor >= bank.length) {
     document.getElementById("cardTitle").textContent = "All questions used up!";
@@ -1424,6 +1485,18 @@ function bindEvents() {
     });
   });
 
+  document.querySelectorAll(".question-mode").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.questionMode = btn.dataset.mode;
+      state.streak = 0;
+      saveQuestionMode(state.questionMode);
+      updateQuestionModeButtons();
+      rebuildQuestionBank();
+      updateScoreboard();
+      nextQuestion();
+    });
+  });
+
   document.getElementById("nextQuestion").addEventListener("click", nextQuestion);
   document.getElementById("toggleAnswer").addEventListener("click", () => toggleAnswer());
   document.getElementById("markCorrect").addEventListener("click", markCorrect);
@@ -1447,10 +1520,15 @@ function bindEvents() {
 }
 
 function init() {
-  // Load saved progress from localStorage
+  // Load saved preferences from localStorage
   progress = loadProgress();
+  state.questionMode = loadQuestionMode();
+
+  // Rebuild question bank with saved mode
+  questionBank = buildQuestionBank(state.questionMode);
 
   updateDifficultyButtons();
+  updateQuestionModeButtons();
   updateScoreboard();
   populateTopicPicker();
   bindEvents();
