@@ -520,6 +520,44 @@ const curatedQuestions = {
       { q: "What game has sold over 200 million copies?", a: "Minecraft", angle: "crafting" }
     ]
   },
+  "lotr": {
+    easy: [
+      { q: "Who wrote The Lord of the Rings?", a: "J.R.R. Tolkien", angle: "author" },
+      { q: "What is the name of the ring that must be destroyed?", a: "The One Ring", angle: "quest" },
+      { q: "Who is Frodo's gardener and companion?", a: "Samwise Gamgee (Sam)", angle: "fellowship" },
+      { q: "What creatures are Gandalf and Saruman?", a: "Wizards (Istari)", angle: "magic system" },
+      { q: "What is the dark land where the ring must be destroyed?", a: "Mordor", angle: "Middle-earth" },
+      { q: "What type of creature is Gimli?", a: "Dwarf", angle: "fellowship" },
+      { q: "What type of creature is Legolas?", a: "Elf", angle: "fellowship" },
+      { q: "Who is the heir to the throne of Gondor?", a: "Aragorn", angle: "fellowship" },
+      { q: "What creature was Gollum originally?", a: "Hobbit-like creature (Stoor)", angle: "creature" },
+      { q: "What is Frodo's last name?", a: "Baggins", angle: "fellowship" }
+    ],
+    medium: [
+      { q: "What is the name of Gandalf's horse?", a: "Shadowfax", angle: "creature" },
+      { q: "What is the Elvish name for the One Ring?", a: "The Ruling Ring / Ash Nazg", angle: "ring" },
+      { q: "Who is the leader of the Nine Riders?", a: "The Witch-king of Angmar", angle: "creature" },
+      { q: "What is the name of Aragorn's sword?", a: "Andúril (reforged from Narsil)", angle: "quest" },
+      { q: "What forest do the Ents live in?", a: "Fangorn Forest", angle: "Middle-earth" },
+      { q: "Who is the Lady of Lothlórien?", a: "Galadriel", angle: "fellowship" },
+      { q: "What is the name of the volcano where the ring is destroyed?", a: "Mount Doom (Orodruin)", angle: "quest" },
+      { q: "How many rings of power were made for Men?", a: "Nine", angle: "ring" },
+      { q: "What is the Shire's closest neighbor kingdom?", a: "Bree", angle: "Middle-earth" },
+      { q: "Who kills the Witch-king?", a: "Éowyn (with Merry's help)", angle: "quest" }
+    ],
+    hard: [
+      { q: "What is Gandalf's original name in Valinor?", a: "Olórin", angle: "magic system" },
+      { q: "How many members were in the Fellowship originally?", a: "Nine", angle: "fellowship" },
+      { q: "What is Gollum's real name?", a: "Sméagol", angle: "creature" },
+      { q: "What year was The Fellowship of the Ring published?", a: "1954", angle: "author" },
+      { q: "What is the prophecy about the Witch-king?", a: "No man can kill him", angle: "prophecy" },
+      { q: "Who is Tom Bombadil?", a: "A mysterious nature spirit (origins unclear)", angle: "creature" },
+      { q: "What is the name of Frodo's Elvish blade?", a: "Sting", angle: "quest" },
+      { q: "How many rings were made for the Elves?", a: "Three", angle: "ring" },
+      { q: "What is the name of Saruman's tower?", a: "Orthanc (in Isengard)", angle: "Middle-earth" },
+      { q: "Who carries Frodo up Mount Doom?", a: "Samwise Gamgee", angle: "fellowship" }
+    ]
+  },
   "world-history": {
     easy: [
       { q: "What ancient wonder is in Egypt?", a: "The Pyramids (Great Pyramid of Giza)", angle: "ancient empire" },
@@ -562,6 +600,59 @@ const curatedQuestions = {
 
 // Answer examples with real facts for common angles
 const answerExamples = {
+  "lotr": {
+    "author": [
+      "J.R.R. Tolkien - philologist and professor",
+      "The Hobbit (1937) came first",
+      "LOTR published 1954-1955 in three volumes",
+      "Created entire languages for Middle-earth"
+    ],
+    "Middle-earth": [
+      "The Shire - peaceful hobbit homeland",
+      "Rivendell - Elven refuge",
+      "Mordor - Sauron's dark realm",
+      "Gondor - kingdom of men",
+      "Rohan - land of horse-lords"
+    ],
+    "fellowship": [
+      "Frodo Baggins - ring bearer",
+      "Gandalf - wizard guide",
+      "Aragorn - ranger and heir",
+      "Legolas - Elven archer",
+      "Gimli - Dwarf warrior",
+      "Sam, Merry, Pippin - hobbit companions",
+      "Boromir - man of Gondor"
+    ],
+    "quest": [
+      "Destroy the One Ring in Mount Doom",
+      "Journey from Shire to Mordor",
+      "Battle of Helm's Deep",
+      "Siege of Minas Tirith",
+      "Breaking of the Fellowship"
+    ],
+    "ring": [
+      "One Ring to rule them all",
+      "Forged by Sauron in Mount Doom",
+      "19 Rings of Power total",
+      "Three for Elves, Seven for Dwarves, Nine for Men",
+      "Inscription appears in fire"
+    ],
+    "creature": [
+      "Balrog - fire demon of ancient times",
+      "Ents - tree shepherds",
+      "Nazgûl - nine ringwraiths",
+      "Shelob - giant spider",
+      "Gollum - corrupted by the ring",
+      "Eagles - great messengers"
+    ],
+    "magic system": [
+      "Wizards sent from Valinor",
+      "Five Istari (wizards) in Middle-earth",
+      "Elven rings preserve realms",
+      "Palantíri - seeing stones",
+      "Light of Eärendil"
+    ]
+  },
   "star-wars": {
     "iconic scene": [
       "Death Star trench run (A New Hope)",
