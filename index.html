@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Trip Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Road Trip Game</p>
+        <h1>Trivia Drive</h1>
+        <p class="lede">Pick a topic, choose your difficulty, and keep the car buzzing with rapid-fire questions everyone can enjoy.</p>
+        <div class="hero-actions">
+          <button class="pill" id="randomTopic">Surprise me</button>
+          <button class="pill ghost" id="resetProgress">Reset progress</button>
+        </div>
+      </div>
+      <div class="scoreboard">
+        <div class="stat">
+          <span class="label">Score</span>
+          <span class="value" id="scoreValue">0</span>
+        </div>
+        <div class="stat">
+          <span class="label">Streak</span>
+          <span class="value" id="streakValue">0</span>
+        </div>
+        <div class="stat">
+          <span class="label">Asked</span>
+          <span class="value" id="askedValue">0</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="control">
+        <label for="categorySelect">Category</label>
+        <select id="categorySelect"></select>
+      </div>
+      <div class="control">
+        <label for="topicSelect">Topic</label>
+        <select id="topicSelect"></select>
+      </div>
+      <div class="control difficulty-control">
+        <span>Difficulty</span>
+        <div class="difficulty-buttons">
+          <button data-difficulty="easy" class="difficulty active">Easy</button>
+          <button data-difficulty="medium" class="difficulty">Medium</button>
+          <button data-difficulty="hard" class="difficulty">Hard</button>
+        </div>
+      </div>
+    </section>
+
+    <main class="board">
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <p class="card-kicker" id="cardTopic">Topic</p>
+            <h2 id="cardTitle">Question will appear here</h2>
+            <p class="card-meta" id="cardMeta">Pick a topic to start</p>
+          </div>
+          <div class="chip" id="cardDifficulty">Easy</div>
+        </div>
+        <p class="card-body" id="cardBody">Press “Next question” to kick things off.</p>
+        <div class="answer" id="cardAnswer">
+          <p class="answer-label">Answer</p>
+          <p id="answerText">Hidden</p>
+        </div>
+        <div class="actions">
+          <button id="toggleAnswer" class="ghost">Show answer</button>
+          <div class="spacer"></div>
+          <button id="skipQuestion" class="ghost">Skip</button>
+          <button id="markCorrect" class="primary">I got it</button>
+        </div>
+      </div>
+      <div class="next">
+        <p>Ready for the next one?</p>
+        <button id="nextQuestion">Next question</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
