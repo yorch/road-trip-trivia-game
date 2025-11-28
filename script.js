@@ -1064,7 +1064,7 @@ topicList.forEach((topic) => {
   });
 });
 
-const progress = {};
+let progress = {};
 const state = {
   topicId: topicList[0].id,
   difficulty: "easy",
@@ -1099,6 +1099,31 @@ function clearLastTopic() {
   }
 }
 
+function saveProgress() {
+  try {
+    localStorage.setItem("questionProgress", JSON.stringify(progress));
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
+function loadProgress() {
+  try {
+    const saved = localStorage.getItem("questionProgress");
+    return saved ? JSON.parse(saved) : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function clearProgress() {
+  try {
+    localStorage.removeItem("questionProgress");
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
 function shuffleIndices(length, seedBase = 1) {
   const arr = Array.from({ length }, (_, i) => i);
   let seed = seedBase;
@@ -1116,6 +1141,7 @@ function getProgress(topicId, difficulty) {
   if (!progress[topicId][difficulty]) {
     const seed = Math.floor(Math.random() * 2147483647);
     progress[topicId][difficulty] = { order: shuffleIndices(80, seed), cursor: 0 };
+    saveProgress();
   }
   return progress[topicId][difficulty];
 }
@@ -1160,6 +1186,7 @@ function nextQuestion() {
   prog.cursor += 1;
   state.asked += 1;
   state.revealed = false;
+  saveProgress();
   updateScoreboard();
   renderCard(bank[idx]);
 }
@@ -1195,6 +1222,7 @@ function resetProgress() {
   state.score = 0;
   state.streak = 0;
   state.asked = 0;
+  saveProgress();
   updateScoreboard();
   nextQuestion();
 }
@@ -1303,6 +1331,9 @@ function bindEvents() {
 }
 
 function init() {
+  // Load saved progress from localStorage
+  progress = loadProgress();
+
   updateDifficultyButtons();
   updateScoreboard();
   populateTopicPicker();
