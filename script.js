@@ -253,6 +253,44 @@ const curatedQuestions = {
       { q: "What is Ant-Man's real name?", a: "Scott Lang (or Hank Pym in comics)", angle: "origin stories" },
       { q: "Who is the voice of Groot?", a: "Vin Diesel", angle: "Avengers" }
     ]
+  },
+  "harry-potter": {
+    easy: [
+      { q: "What school does Harry Potter attend?", a: "Hogwarts School of Witchcraft and Wizardry", angle: "Hogwarts" },
+      { q: "What position does Harry play in Quidditch?", a: "Seeker", angle: "spells" },
+      { q: "What is Harry's pet owl's name?", a: "Hedwig", angle: "creatures" },
+      { q: "What are the four Hogwarts houses?", a: "Gryffindor, Slytherin, Ravenclaw, Hufflepuff", angle: "houses" },
+      { q: "Who is Harry Potter's best friend (boy)?", a: "Ron Weasley", angle: "Hogwarts" },
+      { q: "Who is Harry Potter's best friend (girl)?", a: "Hermione Granger", angle: "Hogwarts" },
+      { q: "What is Voldemort's real name?", a: "Tom Marvolo Riddle", angle: "magic systems" },
+      { q: "What type of creature is Dobby?", a: "House-elf", angle: "creatures" },
+      { q: "What platform does the Hogwarts Express leave from?", a: "Platform 9¾", angle: "Hogwarts" },
+      { q: "Who is the headmaster of Hogwarts (most of the series)?", a: "Albus Dumbledore", angle: "Hogwarts" }
+    ],
+    medium: [
+      { q: "What spell is used to disarm an opponent?", a: "Expelliarmus", angle: "spells" },
+      { q: "What are the three Deathly Hallows?", a: "Elder Wand, Resurrection Stone, Invisibility Cloak", angle: "magic systems" },
+      { q: "Who killed Dumbledore?", a: "Severus Snape", angle: "prophecies" },
+      { q: "What is the name of Hagrid's three-headed dog?", a: "Fluffy", angle: "creatures" },
+      { q: "What house is Draco Malfoy in?", a: "Slytherin", angle: "houses" },
+      { q: "What is a Horcrux?", a: "An object containing a piece of someone's soul", angle: "magic systems" },
+      { q: "Who wrote the Harry Potter books?", a: "J.K. Rowling", angle: "authors" },
+      { q: "What is the killing curse called?", a: "Avada Kedavra", angle: "spells" },
+      { q: "What is the name of the Weasley family home?", a: "The Burrow", angle: "Hogwarts" },
+      { q: "Who is the Half-Blood Prince?", a: "Severus Snape", angle: "prophecies" }
+    ],
+    hard: [
+      { q: "What is Dumbledore's full name?", a: "Albus Percival Wulfric Brian Dumbledore", angle: "authors" },
+      { q: "What type of wood is Harry's wand made from?", a: "Holly", angle: "wands" },
+      { q: "What are the names of James Potter's friends (Marauders)?", a: "Sirius Black, Remus Lupin, Peter Pettigrew", angle: "prophecies" },
+      { q: "What is the prophecy about Harry and Voldemort?", a: "Neither can live while the other survives", angle: "prophecies" },
+      { q: "What potion gives good luck?", a: "Felix Felicis", angle: "spells" },
+      { q: "What is Hermione's cat's name?", a: "Crookshanks", angle: "creatures" },
+      { q: "How many Horcruxes did Voldemort create?", a: "7 (including Harry)", angle: "magic systems" },
+      { q: "What is the core of Harry's wand?", a: "Phoenix feather", angle: "wands" },
+      { q: "Who gave Harry the Marauder's Map?", a: "Fred and George Weasley", angle: "Hogwarts" },
+      { q: "What year was the first Harry Potter book published?", a: "1997", angle: "authors" }
+    ]
   }
 };
 
@@ -345,6 +383,64 @@ const answerExamples = {
       "Avengers, assemble!",
       "I am Groot",
       "With great power comes great responsibility"
+    ]
+  },
+  "harry-potter": {
+    "Hogwarts": [
+      "Gryffindor - house of the brave",
+      "Slytherin - house of the ambitious",
+      "Ravenclaw - house of the wise",
+      "Hufflepuff - house of the loyal",
+      "Great Hall - dining and ceremonies",
+      "Forbidden Forest - dangerous magical creatures"
+    ],
+    "spells": [
+      "Expelliarmus - disarming charm",
+      "Expecto Patronum - produces a Patronus",
+      "Lumos - creates light",
+      "Wingardium Leviosa - levitation charm",
+      "Avada Kedavra - killing curse"
+    ],
+    "houses": [
+      "Gryffindor (Harry's house)",
+      "Slytherin (Malfoy's house)",
+      "Ravenclaw (Luna's house)",
+      "Hufflepuff (Cedric's house)"
+    ],
+    "wands": [
+      "Harry's wand - holly and phoenix feather",
+      "Hermione's wand - vine wood and dragon heartstring",
+      "Elder Wand - most powerful wand",
+      "Ron's wand - ash and unicorn hair",
+      "Voldemort's wand - yew and phoenix feather"
+    ],
+    "creatures": [
+      "Hedwig - Harry's snowy owl",
+      "Fawkes - Dumbledore's phoenix",
+      "Buckbeak - hippogriff",
+      "Dobby - house-elf",
+      "Nagini - Voldemort's snake",
+      "Fluffy - three-headed dog"
+    ],
+    "magic systems": [
+      "Horcrux - object containing soul fragment",
+      "Deathly Hallows - three magical objects",
+      "Patronus - protective spirit guardian",
+      "Unforgivable Curses - illegal dark magic",
+      "Felix Felicis - liquid luck potion"
+    ],
+    "authors": [
+      "J.K. Rowling wrote all 7 books",
+      "First book: Philosopher's Stone (1997)",
+      "Screenplays expanded the wizarding world",
+      "Pottermore/Wizarding World digital platform"
+    ],
+    "prophecies": [
+      "The Boy Who Lived prophecy",
+      "Neither can live while the other survives",
+      "Trelawney's prediction about Voldemort",
+      "Half-Blood Prince identity revelation",
+      "Snape's true allegiance reveal"
     ]
   }
 };

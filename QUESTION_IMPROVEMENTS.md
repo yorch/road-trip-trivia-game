@@ -693,9 +693,11 @@ const imageQuestions = {
 |-------|------|--------|------|-------|
 | Star Wars | ✅ | ✅ | ✅ | Complete - 30 questions + 6 answer sets |
 | Marvel Universe | ✅ | ✅ | ✅ | Complete - 30 questions + 6 answer sets |
-| Harry Potter | ❌ | ❌ | ❌ | Not started |
+| Harry Potter | ✅ | ✅ | ✅ | Complete - 30 questions + 8 answer sets |
 | Music Legends | ❌ | ❌ | ❌ | Not started |
 | US History | ❌ | ❌ | ❌ | Not started |
+| Space Exploration | ❌ | ❌ | ❌ | Not started |
+| Soccer | ❌ | ❌ | ❌ | Not started |
 | ... | | | | |
 
 ---
@@ -766,6 +768,26 @@ const imageQuestions = {
 ---
 
 ## Changelog
+
+### Version 1.3 (2025-11-28) - Harry Potter Addition
+
+**Completed Tasks**:
+
+- ✅ Added curated Harry Potter questions: 10 easy, 10 medium, 10 hard (script.js:257-294)
+- ✅ Created answer examples database for Harry Potter with 8 angle types (script.js:388-445)
+- ✅ Covers books, movies, and wizarding world lore
+
+**Impact**:
+
+- 3 of 10 priority topics now complete (30%)
+- 90 total curated questions across 3 topics
+- Harry Potter questions cover: Hogwarts, spells, houses, wands, creatures, magic systems, authors, prophecies
+
+**Example Questions**:
+
+- Easy: "What school does Harry Potter attend?" → "Hogwarts School of Witchcraft and Wizardry"
+- Medium: "What spell is used to disarm an opponent?" → "Expelliarmus"
+- Hard: "What is Dumbledore's full name?" → "Albus Percival Wulfric Brian Dumbledore"
 
 ### Version 1.2 (2025-11-28) - Marvel Universe Addition
 
