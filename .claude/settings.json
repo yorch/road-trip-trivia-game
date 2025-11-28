@@ -1,0 +1,13 @@
+{
+    "permissions": {
+        "allow": [
+            "mcp__git",
+            "mcp__sequential-thinking",
+            "mcp__serena",
+            "Bash(cat:*)",
+            "Bash(find:*)"
+        ],
+        "deny": [],
+        "ask": []
+    }
+}
