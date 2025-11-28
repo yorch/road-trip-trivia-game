@@ -595,6 +595,196 @@ const curatedQuestions = {
       { q: "What treaty divided the New World between Spain and Portugal?", a: "Treaty of Tordesillas (1494)", angle: "peace accord" },
       { q: "What was the Thirty Years' War fought over?", a: "Religious conflict between Catholics and Protestants", angle: "conflict" }
     ]
+  },
+  "kpop-demon-hunters": {
+    easy: [
+      { q: "What entertainment company produces K-Pop Demon Hunters?", a: "HYBE (fictional)", angle: "stage battles" },
+      { q: "What supernatural ability do the idols have?", a: "Demon hunting powers", angle: "mythic rivals" },
+      { q: "Where do the stage battles take place?", a: "Concert venues and mythical realms", angle: "stage battles" },
+      { q: "What combines with performances to fight demons?", a: "Choreography and supernatural powers", angle: "dance breaks" },
+      { q: "Who leads the main demon hunter group?", a: "Luna (fictional leader)", angle: "idols" },
+      { q: "What happens during the dance break sequences?", a: "Special demon-fighting moves activate", angle: "dance breaks" },
+      { q: "What type of music powers their abilities?", a: "K-Pop beats and harmonies", angle: "stage battles" },
+      { q: "What are the main enemies called?", a: "Shadow Demons", angle: "mythic rivals" },
+      { q: "How many members are in the core hunter group?", a: "Seven members", angle: "idols" },
+      { q: "What must idols maintain to keep their powers?", a: "Perfect harmony and synchronization", angle: "stage battles" }
+    ],
+    medium: [
+      { q: "What is the name of the rival demon hunter idol group?", a: "Eclipse Seven", angle: "mythic rivals" },
+      { q: "Which member has ice-based powers?", a: "Frost (fictional member)", angle: "idols" },
+      { q: "What ancient artifact powers the main group?", a: "The Crystal Microphone", angle: "stage battles" },
+      { q: "What city do the demon hunters protect?", a: "Neo Seoul", angle: "stage battles" },
+      { q: "Which choreographer discovered the demon-fighting dance style?", a: "Master Ji-woo", angle: "dance breaks" },
+      { q: "What happens when the group loses synchronization?", a: "Their powers weaken and demons break through", angle: "dance breaks" },
+      { q: "What is the demon king's name?", a: "Obsidian Lord", angle: "mythic rivals" },
+      { q: "Which member can see into the demon realm?", a: "Mystic (fictional member)", angle: "idols" },
+      { q: "What special formation unlocks ultimate power?", a: "The Seven Star Formation", angle: "stage battles" },
+      { q: "When did the first demon invasion occur?", a: "During the Lunar Eclipse Concert", angle: "mythic rivals" }
+    ],
+    hard: [
+      { q: "What is the forbidden dance move that risks corruption?", a: "The Shadow Step Sequence", angle: "dance breaks" },
+      { q: "Which ancient K-Pop legend first fought demons?", a: "The First Idol, Haneul", angle: "idols" },
+      { q: "What sacrifice must the leader make to unlock full power?", a: "Their ability to perform solo", angle: "stage battles" },
+      { q: "What happens during the Blood Moon performance?", a: "Demon and idol powers temporarily merge", angle: "mythic rivals" },
+      { q: "Which member has a secret connection to the demon realm?", a: "Twilight (the seventh member)", angle: "idols" },
+      { q: "What is the true origin of K-Pop's power?", a: "Ancient harmony magic from the Three Kingdoms era", angle: "stage battles" },
+      { q: "What choreography pattern opens demon portals?", a: "The Reverse Spiral Formation", angle: "dance breaks" },
+      { q: "Who was the first idol to turn into a demon?", a: "Star, the original leader", angle: "mythic rivals" },
+      { q: "What must happen for the final seal to break?", a: "Seven perfect performances in seven nights", angle: "stage battles" },
+      { q: "Which company secretly funds the demon hunters?", a: "The Shadow Board of Entertainment", angle: "idols" }
+    ]
+  },
+  "disney-classics": {
+    easy: [
+      { q: "What is the name of the mouse who started it all?", a: "Mickey Mouse", angle: "sidekick" },
+      { q: "What does Cinderella lose at midnight?", a: "Her glass slipper", angle: "animation" },
+      { q: "What animal is Simba in The Lion King?", a: "Lion", angle: "animation" },
+      { q: "Who has long magical hair in Tangled?", a: "Rapunzel", angle: "animation" },
+      { q: "What is the name of the snowman in Frozen?", a: "Olaf", angle: "sidekick" },
+      { q: "What does Ariel want to have in The Little Mermaid?", a: "Legs / to be human", angle: "songs" },
+      { q: "What is Belle's favorite thing to do in Beauty and the Beast?", a: "Read books", angle: "castles" },
+      { q: "Who is Mickey Mouse's girlfriend?", a: "Minnie Mouse", angle: "sidekick" },
+      { q: "What vegetable does Cinderella's carriage come from?", a: "Pumpkin", angle: "animation" },
+      { q: "What color is Donald Duck?", a: "White (with blue outfit)", angle: "sidekick" }
+    ],
+    medium: [
+      { q: "What year did Snow White and the Seven Dwarfs premiere?", a: "1937", angle: "animation" },
+      { q: "Who composed most of the classic Disney songs?", a: "Various, including Alan Menken and Sherman Brothers", angle: "songs" },
+      { q: "What is the Beast's real name in Beauty and the Beast?", a: "Prince Adam", angle: "castles" },
+      { q: "Which Disney film features the song 'A Whole New World'?", a: "Aladdin", angle: "songs" },
+      { q: "What is Goofy's son's name?", a: "Max", angle: "sidekick" },
+      { q: "Who is the villain in Sleeping Beauty?", a: "Maleficent", angle: "castles" },
+      { q: "What is the name of Ariel's father?", a: "King Triton", angle: "animation" },
+      { q: "Which Disney princess has a tiger as a pet?", a: "Jasmine", angle: "sidekick" },
+      { q: "What was Walt Disney's first full-length animated film?", a: "Snow White and the Seven Dwarfs", angle: "animation" },
+      { q: "Who voices Genie in the original Aladdin?", a: "Robin Williams", angle: "songs" }
+    ],
+    hard: [
+      { q: "What was Mickey Mouse's original name?", a: "Mortimer Mouse", angle: "sidekick" },
+      { q: "Which Disney film was the first to use CGI?", a: "The Great Mouse Detective (one scene)", angle: "animation" },
+      { q: "What is the name of Bambi's rabbit friend?", a: "Thumper", angle: "sidekick" },
+      { q: "Which Disney film took the longest to make?", a: "Sleeping Beauty (nearly 10 years)", angle: "castles" },
+      { q: "What was the first Disney animated sequel?", a: "The Rescuers Down Under (1990)", angle: "animation" },
+      { q: "Who wrote the music for The Lion King?", a: "Elton John and Hans Zimmer", angle: "songs" },
+      { q: "What castle is Disney's logo based on?", a: "Neuschwanstein Castle in Germany", angle: "castles" },
+      { q: "Which film saved Disney from bankruptcy?", a: "Cinderella (1950)", angle: "animation" },
+      { q: "What was Pixar's first feature film?", a: "Toy Story (1995)", angle: "animation" },
+      { q: "Who is the only Disney princess with a tattoo?", a: "Pocahontas", angle: "animation" }
+    ]
+  },
+  "anime-heroes": {
+    easy: [
+      { q: "What ninja wants to become Hokage?", a: "Naruto Uzumaki", angle: "power-ups" },
+      { q: "What food does Goku love?", a: "Food in general (especially rice and meat)", angle: "rivals" },
+      { q: "What do ninjas in Naruto use for jutsu?", a: "Hand signs and chakra", angle: "power-ups" },
+      { q: "What is a Super Saiyan transformation?", a: "A power-up in Dragon Ball with golden hair", angle: "power-ups" },
+      { q: "What does Pikachu say?", a: "Pikachu!", angle: "teams" },
+      { q: "What is the name of the notebook in Death Note?", a: "Death Note", angle: "arcs" },
+      { q: "What do heroes in My Hero Academia have?", a: "Quirks (superpowers)", angle: "power-ups" },
+      { q: "What is Luffy's dream in One Piece?", a: "To become King of the Pirates", angle: "arcs" },
+      { q: "What color is Sailor Moon's outfit?", a: "White and blue (with red)", angle: "teams" },
+      { q: "What does Ash want to be in Pokémon?", a: "Pokémon Master", angle: "arcs" }
+    ],
+    medium: [
+      { q: "What is Vegeta's relationship to Goku?", a: "Rival (and fellow Saiyan)", angle: "rivals" },
+      { q: "What is the Survey Corps fighting in Attack on Titan?", a: "Titans", angle: "teams" },
+      { q: "What is Kakashi's signature jutsu?", a: "Chidori / Lightning Blade", angle: "power-ups" },
+      { q: "What type of fruit gives Luffy his powers?", a: "Gum-Gum Fruit (Devil Fruit)", angle: "power-ups" },
+      { q: "Who is the main rival in Pokémon?", a: "Gary Oak (originally)", angle: "rivals" },
+      { q: "What is the name of the exam to become a Hunter?", a: "Hunter Exam (Hunter x Hunter)", angle: "arcs" },
+      { q: "What does Deku inherit from All Might?", a: "One For All (quirk)", angle: "power-ups" },
+      { q: "What organization does Light fight against?", a: "L and the Task Force", angle: "rivals" },
+      { q: "What is the Chunin Exam in Naruto?", a: "A test to advance ninja rank", angle: "arcs" },
+      { q: "Who is Edward Elric's brother?", a: "Alphonse Elric", angle: "teams" }
+    ],
+    hard: [
+      { q: "What is the true nature of Goku's Ultra Instinct?", a: "Body moves independently of thought", angle: "power-ups" },
+      { q: "What happened to Nina Tucker in Fullmetal Alchemist?", a: "Fused with her dog by her father", angle: "arcs" },
+      { q: "What is the Will of D in One Piece?", a: "A mysterious inherited will (still unexplained)", angle: "arcs" },
+      { q: "Who voices Spike Spiegel in Cowboy Bebop (English)?", a: "Steve Blum", angle: "teams" },
+      { q: "What is the true identity of Tobi?", a: "Obito Uchiha", angle: "rivals" },
+      { q: "What does 'Neon Genesis Evangelion' critique?", a: "Human connection and existentialism", angle: "arcs" },
+      { q: "Who created the first Pokémon?", a: "Arceus (in Pokémon lore)", angle: "power-ups" },
+      { q: "What is Lelouch's Geass power?", a: "Absolute obedience command", angle: "power-ups" },
+      { q: "What year did Dragon Ball first air?", a: "1986", angle: "arcs" },
+      { q: "What is the Philosopher's Stone made from?", a: "Human souls", angle: "power-ups" }
+    ]
+  },
+  "soccer": {
+    easy: [
+      { q: "How many players are on a soccer team on the field?", a: "11 players", angle: "rule" },
+      { q: "What is it called when you score in soccer?", a: "A goal", angle: "championship" },
+      { q: "What body part can't touch the ball (except goalkeeper)?", a: "Hands and arms", angle: "rule" },
+      { q: "What is the biggest soccer tournament?", a: "FIFA World Cup", angle: "world cups" },
+      { q: "Who guards the goal?", a: "Goalkeeper / Goalie", angle: "position" },
+      { q: "What color card means you're sent off?", a: "Red card", angle: "rule" },
+      { q: "What is Messi's first name?", a: "Lionel", angle: "legends" },
+      { q: "What shape is a soccer field?", a: "Rectangle", angle: "rule" },
+      { q: "How long is a professional soccer match?", a: "90 minutes (two 45-minute halves)", angle: "rule" },
+      { q: "What country won the most World Cups?", a: "Brazil (5 World Cups)", angle: "world cups" }
+    ],
+    medium: [
+      { q: "What is the 'hat trick' in soccer?", a: "Scoring three goals in one game", angle: "record" },
+      { q: "What club has Cristiano Ronaldo NOT played for?", a: "Barcelona (among many others)", angle: "clubs" },
+      { q: "What does VAR stand for?", a: "Video Assistant Referee", angle: "rule" },
+      { q: "Which position is known as 'number 10'?", a: "Attacking midfielder / Playmaker", angle: "position" },
+      { q: "What year was the first World Cup held?", a: "1930", angle: "world cups" },
+      { q: "What is the penalty area also called?", a: "The box / 18-yard box", angle: "rule" },
+      { q: "Who is considered the greatest soccer player ever?", a: "Pelé or Diego Maradona (debated)", angle: "legends" },
+      { q: "What club did Pelé play for?", a: "Santos FC (Brazil)", angle: "clubs" },
+      { q: "What is 'offside' in soccer?", a: "Being ahead of the last defender when ball is played", angle: "rule" },
+      { q: "Which country hosted the 2018 World Cup?", a: "Russia", angle: "world cups" }
+    ],
+    hard: [
+      { q: "Who scored the 'Hand of God' goal?", a: "Diego Maradona (1986)", angle: "legends" },
+      { q: "What is the record for most goals in a World Cup tournament?", a: "13 goals by Just Fontaine (1958)", angle: "record" },
+      { q: "Which club has won the most Champions League titles?", a: "Real Madrid (14 titles)", angle: "clubs" },
+      { q: "What was the first country to win the World Cup?", a: "Uruguay (1930)", angle: "world cups" },
+      { q: "Who is the all-time top scorer in World Cup history?", a: "Miroslav Klose (16 goals)", angle: "record" },
+      { q: "What is the 'Total Football' philosophy?", a: "Dutch tactical system where players interchange positions", angle: "position" },
+      { q: "Which goalkeeper saved the most penalties in World Cups?", a: "Multiple tied at 4 (including Neuer, Casillas)", angle: "legends" },
+      { q: "What is the 'Panenka' penalty kick?", a: "A chipped penalty down the middle", angle: "record" },
+      { q: "Who is the youngest World Cup winner?", a: "Pelé (17 years old in 1958)", angle: "legends" },
+      { q: "What year did the backpass rule change?", a: "1992", angle: "rule" }
+    ]
+  },
+  "retro-games": {
+    easy: [
+      { q: "What plumber jumps on turtles?", a: "Mario", angle: "platformers" },
+      { q: "What does Pac-Man eat?", a: "Dots / Pellets", angle: "arcades" },
+      { q: "What color is Sonic the Hedgehog?", a: "Blue", angle: "platformers" },
+      { q: "What game features falling blocks you must arrange?", a: "Tetris", angle: "arcades" },
+      { q: "Who is Mario's brother?", a: "Luigi", angle: "platformers" },
+      { q: "What do you collect in Sonic games?", a: "Rings", angle: "platformers" },
+      { q: "What game has a yellow circle eating dots?", a: "Pac-Man", angle: "arcades" },
+      { q: "What does Mario hit to get coins?", a: "? Blocks / Question blocks", angle: "platformers" },
+      { q: "What console was the NES?", a: "Nintendo Entertainment System", angle: "8-bit" },
+      { q: "Who is Link trying to save?", a: "Princess Zelda", angle: "platformers" }
+    ],
+    medium: [
+      { q: "What was the first home video game console?", a: "Magnavox Odyssey (1972)", angle: "8-bit" },
+      { q: "What code gives you 30 lives in Contra?", a: "Up, Up, Down, Down, Left, Right, Left, Right, B, A", angle: "cheat codes" },
+      { q: "What year did the NES launch in North America?", a: "1985", angle: "8-bit" },
+      { q: "What is Mario's original profession?", a: "Carpenter (in Donkey Kong)", angle: "platformers" },
+      { q: "What game caused the 1983 video game crash?", a: "E.T. the Extra-Terrestrial (among others)", angle: "arcades" },
+      { q: "What company created Donkey Kong?", a: "Nintendo", angle: "platformers" },
+      { q: "What does the Konami Code unlock?", a: "Extra lives / power-ups (varies by game)", angle: "cheat codes" },
+      { q: "What was Sega's first console?", a: "SG-1000 (1983)", angle: "8-bit" },
+      { q: "Who is the main villain in Mega Man?", a: "Dr. Wily", angle: "platformers" },
+      { q: "What arcade game features a frog crossing traffic?", a: "Frogger", angle: "arcades" }
+    ],
+    hard: [
+      { q: "What was the Game Boy's screen resolution?", a: "160 × 144 pixels", angle: "8-bit" },
+      { q: "What year did the arcade game Pong release?", a: "1972", angle: "arcades" },
+      { q: "What is the highest score possible in Pac-Man?", a: "3,333,360 points", angle: "arcades" },
+      { q: "Who created Pac-Man?", a: "Toru Iwatani", angle: "arcades" },
+      { q: "What was the first game with a cheat code?", a: "Gradius (Konami Code, 1986)", angle: "cheat codes" },
+      { q: "What does 'IDDQD' do in Doom?", a: "God mode / invincibility", angle: "cheat codes" },
+      { q: "What was Mario's original name?", a: "Jumpman", angle: "platformers" },
+      { q: "How many copies did E.T. for Atari sell?", a: "About 1.5 million (but 4 million were made)", angle: "8-bit" },
+      { q: "What is the fastest speedrun time for Super Mario Bros.?", a: "Under 5 minutes (world record constantly improving)", angle: "platformers" },
+      { q: "What arcade game had a secret 'kill screen' at level 256?", a: "Pac-Man", angle: "arcades" }
+    ]
   }
 };
 
