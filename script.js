@@ -1074,6 +1074,31 @@ const state = {
   revealed: false
 };
 
+// LocalStorage helpers
+function saveLastTopic(topicId) {
+  try {
+    localStorage.setItem("lastTopicId", topicId);
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
+function loadLastTopic() {
+  try {
+    return localStorage.getItem("lastTopicId");
+  } catch (e) {
+    return null;
+  }
+}
+
+function clearLastTopic() {
+  try {
+    localStorage.removeItem("lastTopicId");
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
 function shuffleIndices(length, seedBase = 1) {
   const arr = Array.from({ length }, (_, i) => i);
   let seed = seedBase;
@@ -1095,21 +1120,6 @@ function getProgress(topicId, difficulty) {
   return progress[topicId][difficulty];
 }
 
-function setCategoryOptions() {
-  const select = document.getElementById("categorySelect");
-  const categories = [...new Set(topicList.map((t) => t.category))].sort();
-  select.innerHTML = `<option value="all">All categories</option>` + categories.map((c) => `<option value="${c}">${c}</option>`).join("");
-}
-
-function setTopicOptions(filter = "all") {
-  const select = document.getElementById("topicSelect");
-  const topics = filter === "all" ? topicList : topicList.filter((t) => t.category === filter);
-  select.innerHTML = topics.map((t) => `<option value="${t.id}">${t.name} — ${t.category}</option>`).join("");
-  if (!topics.find((t) => t.id === state.topicId)) {
-    state.topicId = topics[0]?.id || topicList[0].id;
-  }
-  select.value = state.topicId;
-}
 
 function updateDifficultyButtons() {
   document.querySelectorAll(".difficulty").forEach((btn) => {
@@ -1225,9 +1235,9 @@ function populateTopicPicker() {
 
 function selectTopicAndStart(topicId) {
   state.topicId = topicId;
-  document.getElementById("topicSelect").value = topicId;
   state.streak = 0;
   updateScoreboard();
+  saveLastTopic(topicId);
   hideTopicPicker();
   nextQuestion();
 }
@@ -1259,18 +1269,6 @@ function handleTopicSearch(searchTerm) {
 }
 
 function bindEvents() {
-  document.getElementById("categorySelect").addEventListener("change", (e) => {
-    setTopicOptions(e.target.value);
-    nextQuestion();
-  });
-
-  document.getElementById("topicSelect").addEventListener("change", (e) => {
-    state.topicId = e.target.value;
-    state.streak = 0;
-    updateScoreboard();
-    nextQuestion();
-  });
-
   document.querySelectorAll(".difficulty").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.difficulty = btn.dataset.difficulty;
@@ -1288,8 +1286,8 @@ function bindEvents() {
   document.getElementById("randomTopic").addEventListener("click", () => {
     const random = topicList[Math.floor(Math.random() * topicList.length)];
     state.topicId = random.id;
-    document.getElementById("topicSelect").value = random.id;
     state.streak = 0;
+    saveLastTopic(random.id);
     updateScoreboard();
     nextQuestion();
   });
@@ -1304,13 +1302,21 @@ function bindEvents() {
 }
 
 function init() {
-  setCategoryOptions();
-  setTopicOptions();
   updateDifficultyButtons();
   updateScoreboard();
   populateTopicPicker();
   bindEvents();
-  showTopicPicker();
+
+  // Check if there's a saved topic from last session
+  const lastTopic = loadLastTopic();
+  if (lastTopic && topicList.find((t) => t.id === lastTopic)) {
+    // Resume with saved topic
+    state.topicId = lastTopic;
+    nextQuestion();
+  } else {
+    // First visit or invalid saved topic - show picker
+    showTopicPicker();
+  }
 }
 
 document.addEventListener("DOMContentLoaded", init);
