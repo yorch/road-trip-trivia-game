@@ -1273,6 +1273,22 @@ function loadQuestionMode() {
   }
 }
 
+function saveDifficulty(difficulty) {
+  try {
+    localStorage.setItem("difficulty", difficulty);
+  } catch (e) {
+    // Ignore localStorage errors
+  }
+}
+
+function loadDifficulty() {
+  try {
+    return localStorage.getItem("difficulty") || "easy";
+  } catch (e) {
+    return "easy";
+  }
+}
+
 function shuffleIndices(length, seedBase = 1) {
   if (length === 0) return [];
   const arr = Array.from({ length }, (_, i) => i);
@@ -1479,6 +1495,7 @@ function bindEvents() {
     btn.addEventListener("click", () => {
       state.difficulty = btn.dataset.difficulty;
       state.streak = 0;
+      saveDifficulty(state.difficulty);
       updateDifficultyButtons();
       updateScoreboard();
       nextQuestion();
@@ -1523,6 +1540,7 @@ function init() {
   // Load saved preferences from localStorage
   progress = loadProgress();
   state.questionMode = loadQuestionMode();
+  state.difficulty = loadDifficulty();
 
   // Rebuild question bank with saved mode
   questionBank = buildQuestionBank(state.questionMode);
