@@ -1551,6 +1551,10 @@ function init() {
   populateTopicPicker();
   bindEvents();
 
+  // Show the UI now that preferences are loaded
+  document.querySelector(".controls").style.opacity = "1";
+  document.querySelector(".board").style.opacity = "1";
+
   // Check if there's a saved topic from last session
   const lastTopic = loadLastTopic();
   if (lastTopic && topicList.find((t) => t.id === lastTopic)) {
