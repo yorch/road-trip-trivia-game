@@ -95,45 +95,175 @@ const categoryAngles = {
 
 const promptTemplates = {
   easy: [
-    "Quick fire #{n}: Name a {angle} everyone links to {topic}.",
-    "Starter #{n}: What {angle} would you share to introduce {topic}?",
-    "Warm-up #{n}: Mention a fun {angle} from {topic}.",
-    "Roadside #{n}: Tell the crew one {angle} from {topic}.",
-    "Spotlight #{n}: Which {angle} pops to mind for {topic}?",
-    "Soundbite #{n}: Give a short {angle} about {topic}."
+    // Recognition-based (10)
+    "What's a famous {angle} from {topic}?",
+    "Name any {angle} you know from {topic}.",
+    "Which {angle} would you recognize from {topic}?",
+    "Give an example of a {angle} in {topic}.",
+    "What {angle} is {topic} known for?",
+    "Recall a popular {angle} from {topic}.",
+    "Which {angle} stands out in {topic}?",
+    "What {angle} do most people know from {topic}?",
+    "Think of one {angle} associated with {topic}.",
+    "What's a classic {angle} from {topic}?",
+    // Quick-fire style (10)
+    "Quick #{n}: Which {angle} is iconic in {topic}?",
+    "Starter #{n}: Name a key {angle} for {topic}.",
+    "Warm-up #{n}: What common {angle} fits {topic}?",
+    "Roadside #{n}: Pick one well-known {angle} in {topic}.",
+    "Spotlight #{n}: Call out a famous {angle} of {topic}.",
+    "Soundbite #{n}: Give one signature {angle} from {topic}.",
+    "Trivia #{n}: What {angle} appears in {topic}?",
+    "Fast #{n}: Name a memorable {angle} from {topic}.",
+    "Basic #{n}: Which {angle} is essential to {topic}?",
+    "Easy #{n}: What {angle} defines {topic}?"
   ],
   medium: [
-    "Round #{n}: Explain how a {angle} shapes {topic}.",
-    "Challenge #{n}: Connect a {angle} to why {topic} is memorable.",
-    "Checkpoint #{n}: Share a story that highlights a {angle} in {topic}.",
-    "Explain #{n}: What makes this {angle} iconic for {topic}?",
-    "Describe #{n}: Use a {angle} to convince a friend to try {topic}."
+    // Context-requiring (8)
+    "Which {angle} plays a pivotal role in {topic}?",
+    "What {angle} is unique to {topic}?",
+    "Name the {angle} that changed {topic}.",
+    "Which {angle} is debated among {topic} fans?",
+    "What {angle} connects different parts of {topic}?",
+    "Which {angle} represents the theme of {topic}?",
+    "What {angle} evolved throughout {topic}?",
+    "Name a {angle} that surprised audiences in {topic}.",
+    // Numbered style (7)
+    "Round #{n}: Name a pivotal {angle} tied to {topic}.",
+    "Challenge #{n}: Which defining {angle} marks {topic}?",
+    "Checkpoint #{n}: Identify a memorable {angle} in {topic}.",
+    "Explain #{n}: Point to a standout {angle} in {topic}.",
+    "Describe #{n}: Choose a notable {angle} from {topic}.",
+    "Detail #{n}: What significant {angle} shaped {topic}?",
+    "Focus #{n}: Which {angle} received critical acclaim in {topic}?"
   ],
   hard: [
-    "Deep dive #{n}: Compare two {angle} ideas within {topic}.",
-    "Expert #{n}: Link a lesser-known {angle} to the big picture of {topic}.",
-    "Toughie #{n}: What debated {angle} keeps fans of {topic} talking?",
-    "Brain burn #{n}: Create a tricky clue about a {angle} in {topic}.",
-    "Stretch #{n}: Tie a {angle} from {topic} to another category you love."
+    // Deep knowledge (8)
+    "Which lesser-known {angle} influenced {topic}?",
+    "What {angle} was modified during production of {topic}?",
+    "Name the {angle} that created controversy in {topic}.",
+    "Which {angle} was inspired by real events in {topic}?",
+    "What {angle} differs between versions of {topic}?",
+    "Compare two {angle} interpretations in {topic}.",
+    "Which {angle} references another work in {topic}?",
+    "What {angle} only appears in extended content of {topic}?",
+    // Numbered expert style (7)
+    "Deep dive #{n}: Which debated {angle} sits in {topic}?",
+    "Expert #{n}: Name a lesser-known {angle} of {topic}.",
+    "Toughie #{n}: Cite a contested {angle} within {topic}.",
+    "Brain burn #{n}: Call out a tricky {angle} of {topic}.",
+    "Stretch #{n}: Identify a rare {angle} linked to {topic}.",
+    "Advanced #{n}: Which obscure {angle} exists in {topic}?",
+    "Challenge #{n}: What hidden {angle} did creators add to {topic}?"
   ]
 };
 
 const answerTemplates = {
   easy: [
-    "Example: {topic} fans instantly mention {angle}.",
-    "Easy answer: think of {topic} and its {angle}.",
-    "Go-to idea: the famous {angle} in {topic} works here."
+    "{angle} (classic pick).",
+    "{angle} is a safe bet.",
+    "{angle} fits here."
   ],
   medium: [
-    "Solid answer: describe how {angle} pushes the story of {topic}.",
-    "You could mention a {angle} moment that changed {topic}.",
-    "Try linking the {angle} in {topic} to a mood or theme."
+    "{angle} — core to {topic}.",
+    "{angle}, a defining element.",
+    "{angle} stands out."
   ],
   hard: [
-    "Answer angle: compare how one {angle} differs from another in {topic}.",
-    "Smart take: connect a hidden {angle} in {topic} to history or science.",
-    "Advanced note: debate the {angle} within {topic} and why it matters."
+    "{angle}, often debated.",
+    "{angle} — deep cut.",
+    "{angle}, niche but valid."
   ]
+};
+
+// Curated questions with factual answers for top topics
+const curatedQuestions = {
+  "star-wars": {
+    easy: [
+      { q: "What weapon does a Jedi carry?", a: "Lightsaber", angle: "iconic scenes" },
+      { q: "Who is Luke Skywalker's father?", a: "Darth Vader (Anakin Skywalker)", angle: "plot twists" },
+      { q: "What is Han Solo's ship called?", a: "Millennium Falcon", angle: "sidekicks" },
+      { q: "What do Jedi use to control the Force?", a: "Training and meditation", angle: "magic systems" },
+      { q: "What is the evil empire called?", a: "The Galactic Empire", angle: "villains" },
+      { q: "Who says 'May the Force be with you'?", a: "Multiple characters (especially Obi-Wan)", angle: "quotes" },
+      { q: "What color is Luke's first lightsaber?", a: "Blue", angle: "iconic scenes" },
+      { q: "Which droid beeps and whistles?", a: "R2-D2", angle: "sidekicks" },
+      { q: "What planet has twin suns?", a: "Tatooine", angle: "directors" },
+      { q: "Who trained Luke Skywalker?", a: "Obi-Wan Kenobi and Yoda", angle: "characters" }
+    ],
+    medium: [
+      { q: "Which planet does the Death Star destroy?", a: "Alderaan", angle: "plot twists" },
+      { q: "What species is Chewbacca?", a: "Wookiee", angle: "sidekicks" },
+      { q: "Who is revealed to be Luke's sister?", a: "Princess Leia", angle: "plot twists" },
+      { q: "What is a Sith Lord's weapon color?", a: "Red lightsaber", angle: "villains" },
+      { q: "Who says 'I have a bad feeling about this'?", a: "Multiple characters throughout the series", angle: "quotes" },
+      { q: "What is the name of Boba Fett's ship?", a: "Slave I", angle: "sidekicks" },
+      { q: "Who directed the original Star Wars (1977)?", a: "George Lucas", angle: "directors" },
+      { q: "What is the Jedi Council's home planet?", a: "Coruscant", angle: "directors" },
+      { q: "Which bounty hunter captures Han Solo?", a: "Boba Fett", angle: "villains" },
+      { q: "What year was Star Wars: A New Hope released?", a: "1977", angle: "soundtracks" }
+    ],
+    hard: [
+      { q: "Who trained Qui-Gon Jinn?", a: "Count Dooku", angle: "plot twists" },
+      { q: "What is the Sith Rule of Two?", a: "Only two Sith exist: a master and apprentice", angle: "villains" },
+      { q: "Who composed the Star Wars music?", a: "John Williams", angle: "soundtracks" },
+      { q: "What was Anakin's midi-chlorian count?", a: "Over 20,000", angle: "magic systems" },
+      { q: "Which movie was originally titled 'Revenge of the Jedi'?", a: "Return of the Jedi", angle: "directors" },
+      { q: "Who built C-3PO?", a: "Anakin Skywalker", angle: "sidekicks" },
+      { q: "What is Yoda's species called?", a: "Unknown/unnamed", angle: "creatures" },
+      { q: "Which actor played Darth Vader (body)?", a: "David Prowse", angle: "directors" },
+      { q: "What was the original name of Star Wars?", a: "Adventures of Luke Starkiller", angle: "directors" },
+      { q: "Who said 'I am your father' (the actual line)?", a: "Actually: 'No, I am your father'", angle: "quotes" }
+    ]
+  }
+};
+
+// Answer examples with real facts for common angles
+const answerExamples = {
+  "star-wars": {
+    "iconic scenes": [
+      "Death Star trench run (A New Hope)",
+      "'I am your father' reveal (Empire Strikes Back)",
+      "Binary sunset on Tatooine (A New Hope)",
+      "Cantina band scene (A New Hope)",
+      "Duel of the Fates lightsaber battle (The Phantom Menace)"
+    ],
+    "quotes": [
+      "May the Force be with you",
+      "I have a bad feeling about this",
+      "Do or do not, there is no try",
+      "These aren't the droids you're looking for",
+      "Help me, Obi-Wan Kenobi, you're my only hope"
+    ],
+    "sidekicks": [
+      "R2-D2 - astromech droid",
+      "C-3PO - protocol droid",
+      "Chewbacca - Wookiee co-pilot",
+      "BB-8 - spherical droid",
+      "Yoda - Jedi Master mentor"
+    ],
+    "directors": [
+      "George Lucas (Original Trilogy creator)",
+      "Irvin Kershner (The Empire Strikes Back)",
+      "J.J. Abrams (The Force Awakens)",
+      "Rian Johnson (The Last Jedi)",
+      "Dave Filoni (The Mandalorian)"
+    ],
+    "plot twists": [
+      "Darth Vader is Luke's father",
+      "Leia is Luke's twin sister",
+      "Palpatine is the Sith Lord",
+      "Kylo Ren is Han and Leia's son",
+      "Rey is Palpatine's granddaughter"
+    ],
+    "soundtracks": [
+      "Imperial March theme",
+      "Main Title theme",
+      "Duel of the Fates",
+      "Cantina Band song",
+      "Force Theme"
+    ]
+  }
 };
 
 function buildAngles(topic) {
@@ -152,12 +282,32 @@ function createQuestions(topic, difficulty) {
   const angles = buildAngles(topic);
   const bank = [];
 
-  for (let i = 0; i < 80; i += 1) {
+  // Get curated questions if available
+  const curated = curatedQuestions[topic.id]?.[difficulty] || [];
+  const examples = answerExamples[topic.id] || {};
+
+  // Add curated questions first
+  curated.forEach((cq) => {
+    bank.push({ prompt: cq.q, answer: cq.a, angle: cq.angle });
+  });
+
+  // Fill remaining slots with generated questions
+  const remaining = 80 - curated.length;
+  for (let i = 0; i < remaining; i += 1) {
     const angle = angles[i % angles.length];
     const prompt = fillTemplate(prompts[i % prompts.length], topic.name, angle, i);
-    const answer = fillTemplate(answers[i % answers.length], topic.name, angle, i);
+
+    // Use real answer examples if available for this angle
+    let answer;
+    if (examples[angle] && examples[angle].length > 0) {
+      answer = examples[angle][i % examples[angle].length];
+    } else {
+      answer = fillTemplate(answers[i % answers.length], topic.name, angle, i);
+    }
+
     bank.push({ prompt, answer, angle });
   }
+
   return bank;
 }
 
@@ -234,7 +384,7 @@ function renderCard(question) {
   document.getElementById("cardDifficulty").textContent = state.difficulty.charAt(0).toUpperCase() + state.difficulty.slice(1);
   document.getElementById("cardTitle").textContent = question.prompt;
   document.getElementById("cardMeta").textContent = `Angle: ${question.angle}`;
-  document.getElementById("cardBody").textContent = "Think it through, then reveal the suggested answer.";
+  document.getElementById("cardBody").textContent = "Give a short, precise answer, then reveal.";
   document.getElementById("answerText").textContent = question.answer;
   toggleAnswer(false);
 }
