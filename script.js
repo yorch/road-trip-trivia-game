@@ -1114,7 +1114,7 @@ function shuffleIndices(length, seedBase = 1) {
 function getProgress(topicId, difficulty) {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
-    const seed = topicId.length + difficulty.length;
+    const seed = Math.floor(Math.random() * 2147483647);
     progress[topicId][difficulty] = { order: shuffleIndices(80, seed), cursor: 0 };
   }
   return progress[topicId][difficulty];
@@ -1188,7 +1188,8 @@ function skipQuestion() {
 function resetProgress() {
   Object.keys(progress).forEach((topicId) => {
     difficulties.forEach((diff) => {
-      progress[topicId][diff] = { order: shuffleIndices(80, topicId.length + diff.length + 1), cursor: 0 };
+      const seed = Math.floor(Math.random() * 2147483647);
+      progress[topicId][diff] = { order: shuffleIndices(80, seed), cursor: 0 };
     });
   });
   state.score = 0;
