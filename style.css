@@ -426,6 +426,51 @@ button.ghost {
   border-color: var(--accent-2);
 }
 
+.picker-header-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.topic-picker-filters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.topic-picker-filters span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.filter-btn {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 16px;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
+
+.filter-btn:hover {
+  background: var(--card);
+}
+
+.filter-btn.active {
+  background: var(--accent-2);
+  color: #041014;
+  border-color: transparent;
+}
+
 .topic-category {
   margin-bottom: 32px;
 }
@@ -481,6 +526,19 @@ button.ghost {
   font-weight: 700;
   margin: 0 0 8px;
   color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.curated-count {
+  background: rgba(77, 225, 193, 0.15);
+  color: var(--accent-2);
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(77, 225, 193, 0.3);
+  font-weight: 600;
 }
 
 .topic-card-tags {
