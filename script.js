@@ -2,6 +2,12 @@
 // Static data (difficulties, topicList, categoryAngles, promptTemplates, answerTemplates, answerExamples)
 // is loaded from data.js
 
+// Constants
+const QUESTION_BANK_SIZE = 80;
+const MAX_SEED_VALUE = 2147483647;
+const SEARCH_DEBOUNCE_MS = 300;
+const RELOAD_SUCCESS_DISPLAY_MS = 2000;
+
 // Security: HTML escaping helper to prevent XSS
 function escapeHtml(str) {
   const div = document.createElement('div');
@@ -16,7 +22,10 @@ function buildAngles(topic) {
 }
 
 function fillTemplate(template, topicName, angle, index) {
-  return template.replace("{topic}", topicName).replace("{angle}", angle).replace("{n}", index + 1);
+  return template
+    .replaceAll("{topic}", topicName)
+    .replaceAll("{angle}", angle)
+    .replaceAll("{n}", index + 1);
 }
 
 function createQuestions(topic, difficulty, mode = "all") {
@@ -25,8 +34,8 @@ function createQuestions(topic, difficulty, mode = "all") {
   const allAngles = buildAngles(topic);
   const bank = [];
 
-  // Get curated questions if available
-  const curated = curatedQuestions[topic.id]?.[difficulty] || [];
+  // Get curated questions if available (with safety check for curatedQuestions global)
+  const curated = (typeof curatedQuestions !== 'undefined' && curatedQuestions[topic.id]?.[difficulty]) || [];
   const examples = answerExamples[topic.id] || {};
 
   // If curated-only mode and no curated questions exist, return empty
@@ -52,7 +61,7 @@ function createQuestions(topic, difficulty, mode = "all") {
   const angles = anglesWithExamples.length > 0 ? anglesWithExamples : allAngles;
 
   // Fill remaining slots with generated questions
-  const remaining = 80 - curated.length;
+  const remaining = QUESTION_BANK_SIZE - curated.length;
   for (let i = 0; i < remaining; i += 1) {
     const angle = angles[i % angles.length];
     const prompt = fillTemplate(prompts[i % prompts.length], topic.name, angle, i);
@@ -71,7 +80,8 @@ function createQuestions(topic, difficulty, mode = "all") {
   return bank;
 }
 
-// Legacy function kept for compatibility, but no longer used on init
+// Legacy function: Not used in production code (replaced by lazy loading via getOrCreateQuestions)
+// Kept for manual debugging/testing - can be called from browser console to pre-generate all questions
 function buildQuestionBank(mode = "all") {
   const bank = {};
   topicList.forEach((topic) => {
@@ -83,25 +93,28 @@ function buildQuestionBank(mode = "all") {
   return bank;
 }
 
-// Lazy loading: Only generate questions when needed for a specific topic/difficulty
-function getOrCreateQuestions(topicId, difficulty) {
+// Lazy loading: Only generate questions when needed for a specific topic/difficulty/mode
+function getOrCreateQuestions(topicId, difficulty, mode) {
   // Ensure topic exists in question bank
   if (!questionBank[topicId]) {
     questionBank[topicId] = {};
   }
 
-  // Lazily create questions for this difficulty if not already created
-  if (!questionBank[topicId][difficulty]) {
+  // Include mode in cache key to prevent stale cached questions after mode switch
+  const cacheKey = `${difficulty}_${mode}`;
+
+  // Lazily create questions for this difficulty and mode if not already created
+  if (!questionBank[topicId][cacheKey]) {
     const topic = topicList.find(t => t.id === topicId);
     if (topic) {
-      questionBank[topicId][difficulty] = createQuestions(topic, difficulty, state.questionMode);
+      questionBank[topicId][cacheKey] = createQuestions(topic, difficulty, mode);
     } else {
       console.warn(`Topic ${topicId} not found, returning empty question bank`);
-      questionBank[topicId][difficulty] = [];
+      questionBank[topicId][cacheKey] = [];
     }
   }
 
-  return questionBank[topicId][difficulty];
+  return questionBank[topicId][cacheKey];
 }
 
 // Question bank is built in init() after data loads
@@ -154,7 +167,17 @@ function saveProgress() {
 function loadProgress() {
   try {
     const saved = localStorage.getItem("questionProgress");
-    return saved ? JSON.parse(saved) : {};
+    const loaded = saved ? JSON.parse(saved) : {};
+
+    // Validate and clean progress - remove topics that no longer exist
+    const validTopicIds = new Set(topicList.map(t => t.id));
+    Object.keys(loaded).forEach(topicId => {
+      if (!validTopicIds.has(topicId)) {
+        delete loaded[topicId];
+      }
+    });
+
+    return loaded;
   } catch (e) {
     return {};
   }
@@ -234,8 +257,8 @@ function shuffleIndices(length, seedBase = 1) {
   const arr = Array.from({ length }, (_, i) => i);
   let seed = seedBase;
   for (let i = arr.length - 1; i > 0; i -= 1) {
-    seed = (seed * 16807) % 2147483647;
-    const rand = seed / 2147483647;
+    seed = (seed * 16807) % MAX_SEED_VALUE;
+    const rand = seed / MAX_SEED_VALUE;
     const j = Math.floor(rand * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
@@ -246,16 +269,28 @@ function getProgress(topicId, difficulty) {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
     // Lazy load: create questions only when needed
-    const bank = getOrCreateQuestions(topicId, difficulty);
+    const bank = getOrCreateQuestions(topicId, difficulty, state.questionMode);
     const bankSize = bank.length;
     if (bankSize === 0) {
       return { order: [], cursor: 0 };
     }
-    const seed = Math.floor(Math.random() * 2147483647);
+    const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
     progress[topicId][difficulty] = { order: shuffleIndices(bankSize, seed), cursor: 0 };
     saveProgress();
   }
-  return progress[topicId][difficulty];
+
+  // Handle lazy reshuffle from resetProgress()
+  const prog = progress[topicId][difficulty];
+  if (prog.needsReshuffle) {
+    const bank = getOrCreateQuestions(topicId, difficulty, state.questionMode);
+    const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
+    prog.order = shuffleIndices(bank.length, seed);
+    prog.cursor = 0;
+    delete prog.needsReshuffle;
+    saveProgress();
+  }
+
+  return prog;
 }
 
 
@@ -322,8 +357,8 @@ function renderCard(question) {
 
 function nextQuestion() {
   const prog = getProgress(state.topicId, state.difficulty);
-  // Lazy load: get or create questions for current topic/difficulty
-  const bank = getOrCreateQuestions(state.topicId, state.difficulty);
+  // Lazy load: get or create questions for current topic/difficulty/mode
+  const bank = getOrCreateQuestions(state.topicId, state.difficulty, state.questionMode);
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
@@ -353,6 +388,20 @@ function nextQuestion() {
   }
 
   const idx = prog.order[prog.cursor];
+
+  // Validate index is within bounds (can be invalid after mode switch)
+  if (idx >= bank.length) {
+    console.warn(`Invalid question index ${idx} for bank size ${bank.length}. Resetting progress for this topic/difficulty.`);
+    // Reset progress for this topic/difficulty
+    const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
+    prog.order = shuffleIndices(bank.length, seed);
+    prog.cursor = 0;
+    saveProgress();
+    // Retry with reset progress
+    nextQuestion();
+    return;
+  }
+
   prog.cursor += 1;
   state.asked += 1;
   state.revealed = false;
@@ -383,13 +432,14 @@ function skipQuestion() {
 }
 
 function resetProgress() {
+  // Don't pre-generate questions during reset - just mark for lazy reshuffle
   Object.keys(progress).forEach((topicId) => {
     difficulties.forEach((diff) => {
-      // Lazy load: get or create questions for each topic/difficulty
-      const bank = getOrCreateQuestions(topicId, diff);
-      const bankSize = bank.length;
-      const seed = Math.floor(Math.random() * 2147483647);
-      progress[topicId][diff] = { order: shuffleIndices(bankSize, seed), cursor: 0 };
+      if (progress[topicId][diff]) {
+        // Mark progress as needing reshuffle instead of generating questions now
+        progress[topicId][diff].cursor = 0;
+        progress[topicId][diff].needsReshuffle = true;
+      }
     });
   });
   state.score = 0;
@@ -406,19 +456,26 @@ function populateTopicPicker(filterMode = 'all') {
 
   // Helper function to count curated questions for a topic
   const getCuratedCount = (topicId) => {
-    if (!curatedQuestions[topicId]) return 0;
+    // Safety check: ensure curatedQuestions exists
+    if (typeof curatedQuestions === 'undefined' || !curatedQuestions[topicId]) return 0;
     const easy = curatedQuestions[topicId].easy?.length || 0;
     const medium = curatedQuestions[topicId].medium?.length || 0;
     const hard = curatedQuestions[topicId].hard?.length || 0;
     return easy + medium + hard;
   };
 
+  // Cache curated counts for all topics to avoid redundant calculations
+  const curatedCounts = new Map();
+  topicList.forEach(topic => {
+    curatedCounts.set(topic.id, getCuratedCount(topic.id));
+  });
+
   container.innerHTML = categories.map((category) => {
     let categoryTopics = topicList.filter((t) => t.category === category);
 
-    // Filter by curated if needed
+    // Filter by curated if needed (using cached counts)
     if (filterMode === 'curated') {
-      categoryTopics = categoryTopics.filter(t => getCuratedCount(t.id) > 0);
+      categoryTopics = categoryTopics.filter(t => curatedCounts.get(t.id) > 0);
     }
 
     // Skip empty categories
@@ -432,9 +489,9 @@ function populateTopicPicker(filterMode = 'all') {
         </div>
         <div class="topic-grid">
           ${categoryTopics.map((topic) => {
-            const curatedCount = getCuratedCount(topic.id);
-            const hasCurated = curatedCount > 0;
-            return `
+      const curatedCount = curatedCounts.get(topic.id);
+      const hasCurated = curatedCount > 0;
+      return `
               <div class="topic-card"
                    data-topic-id="${escapeHtml(topic.id)}"
                    data-topic-name="${escapeHtml(topic.name.toLowerCase())}"
@@ -448,7 +505,7 @@ function populateTopicPicker(filterMode = 'all') {
                 </div>
               </div>
             `;
-          }).join("")}
+    }).join("")}
         </div>
       </div>
     `;
@@ -537,8 +594,14 @@ function bindEvents() {
   // Topic picker events
   document.getElementById("chooseTopic").addEventListener("click", showTopicPicker);
   document.getElementById("closePicker").addEventListener("click", hideTopicPicker);
+
+  // Debounced search to avoid running on every keystroke
+  let searchTimeout;
   document.getElementById("topicSearch").addEventListener("input", (e) => {
-    handleTopicSearch(e.target.value);
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      handleTopicSearch(e.target.value);
+    }, SEARCH_DEBOUNCE_MS);
   });
 
   // Event delegation for topic cards (prevents memory leaks from repeated repopulation)
@@ -586,18 +649,26 @@ function bindEvents() {
       const activeFilter = activeBtn?.dataset.filter || 'all';
       populateTopicPicker(activeFilter);
 
+      // Rebuild question bank to incorporate new curated questions
+      rebuildQuestionBank();
+
+      // If currently playing in curated mode, refresh the current question
+      if (state.topicId && state.questionMode === 'curated') {
+        nextQuestion();
+      }
+
       btn.textContent = "✓ Reloaded";
       setTimeout(() => {
         btn.textContent = originalText;
         btn.disabled = false;
-      }, 2000);
+      }, RELOAD_SUCCESS_DISPLAY_MS);
     } catch (error) {
       console.error("Failed to reload curated questions:", error);
       btn.textContent = "✗ Failed";
       setTimeout(() => {
         btn.textContent = originalText;
         btn.disabled = false;
-      }, 2000);
+      }, RELOAD_SUCCESS_DISPLAY_MS);
     }
   });
 }
@@ -625,8 +696,10 @@ function init() {
   bindEvents();
 
   // Show the UI now that preferences are loaded
-  document.querySelector(".controls").style.opacity = "1";
-  document.querySelector(".board").style.opacity = "1";
+  const controls = document.querySelector(".controls");
+  const board = document.querySelector(".board");
+  if (controls) { controls.style.opacity = "1"; }
+  if (board) { board.style.opacity = "1"; }
 
   // Check if there's a saved topic from last session
   const lastTopic = loadLastTopic();
