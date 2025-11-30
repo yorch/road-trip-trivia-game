@@ -10,23 +10,25 @@ export const MODE_CHANGE_DEBOUNCE_MS = 100; // Delay for mode change flag reset
 // Question modes
 export const QUESTION_MODES = Object.freeze({
   ALL: 'all',
-  CURATED: 'curated'
+  CURATED: 'curated',
 });
 
 // Difficulty levels
 export const DIFFICULTY_LEVELS = Object.freeze({
   EASY: 'easy',
   MEDIUM: 'medium',
-  HARD: 'hard'
+  HARD: 'hard',
 });
 
 // Curated questions path (relative to the HTML page location)
 // fetch() resolves relative URLs from the document location, not the module
-export const CURATED_QUESTIONS_PATH = './data/curated-questions.json';
+export const CURATED_QUESTIONS_PATH = '/curated-questions.json';
 
 // Get curated questions URL with optional cache busting
 export function getCuratedQuestionsUrl(bustCache = false) {
-  return bustCache ? `${CURATED_QUESTIONS_PATH}?${Date.now()}` : CURATED_QUESTIONS_PATH;
+  return bustCache
+    ? `${CURATED_QUESTIONS_PATH}?${Date.now()}`
+    : CURATED_QUESTIONS_PATH;
 }
 
 // Security: HTML escaping helper to prevent XSS
@@ -39,9 +41,9 @@ export function escapeHtml(str) {
 // Template filling utility
 export function fillTemplate(template, topicName, angle, index) {
   return template
-    .replaceAll("{topic}", topicName)
-    .replaceAll("{angle}", angle)
-    .replaceAll("{n}", index + 1);
+    .replaceAll('{topic}', topicName)
+    .replaceAll('{angle}', angle)
+    .replaceAll('{n}', index + 1);
 }
 
 // Deterministic shuffle using linear congruential generator
@@ -61,7 +63,14 @@ export function shuffleIndices(length, seedBase = 1) {
 // Build angles for a topic
 export function buildAngles(topic) {
   const base = window.categoryAngles[topic.category] || [];
-  const general = ["origin", "favorite", "legend", "rival", "surprise", "underdog"];
+  const general = [
+    'origin',
+    'favorite',
+    'legend',
+    'rival',
+    'surprise',
+    'underdog',
+  ];
   return [...new Set([...topic.tags, ...base, ...general])];
 }
 
@@ -89,7 +98,8 @@ export const ToastManager = {
     this.toasts.set(toastId, toast);
 
     // Auto-close after delay (unless it's an error, which persists longer)
-    const closeDelay = duration || (type === 'error' ? 8000 : this.autoCloseDelay);
+    const closeDelay =
+      duration || (type === 'error' ? 8000 : this.autoCloseDelay);
     setTimeout(() => this.close(toastId), closeDelay);
 
     return toastId;
@@ -104,7 +114,7 @@ export const ToastManager = {
       info: 'ℹ️',
       warning: '⚠️',
       error: '❌',
-      success: '✓'
+      success: '✓',
     };
 
     toast.innerHTML = `
@@ -135,8 +145,10 @@ export const ToastManager = {
   },
 
   closeAll() {
-    this.toasts.forEach((toast, id) => this.close(id));
-  }
+    this.toasts.forEach((_toast, id) => {
+      this.close(id);
+    });
+  },
 };
 
 // Error handling system with toast notifications
@@ -156,5 +168,5 @@ export const ErrorHandler = {
   success(msg) {
     console.log(`[SUCCESS] ${msg}`);
     ToastManager.show(msg, 'success', 3000);
-  }
+  },
 };

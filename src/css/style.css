@@ -15,12 +15,20 @@
   --border: #1f2b4d;
   --shadow: 0 12px 40px rgba(7, 11, 32, 0.45);
   --radius: 16px;
-  --font-sans: "Avenir Next", "Trebuchet MS", "Gill Sans", "Helvetica Neue", sans-serif;
+  --font-sans:
+    "Avenir Next", "Trebuchet MS", "Gill Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(77, 225, 193, 0.12), transparent 25%), radial-gradient(circle at 80% 0%, rgba(255, 143, 63, 0.15), transparent 30%), var(--bg);
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(77, 225, 193, 0.12),
+      transparent 25%
+    ),
+    radial-gradient(circle at 80% 0%, rgba(255, 143, 63, 0.15), transparent 30%),
+    var(--bg);
   color: var(--text);
   font-family: var(--font-sans);
   min-height: 100vh;
@@ -194,7 +202,11 @@ select {
 }
 
 .card-complete {
-  background: linear-gradient(135deg, rgba(77, 225, 193, 0.08) 0%, rgba(255, 143, 63, 0.08) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(77, 225, 193, 0.08) 0%,
+    rgba(255, 143, 63, 0.08) 100%
+  );
   border: 2px solid var(--accent-2);
   text-align: center;
 }
@@ -605,13 +617,17 @@ button.ghost {
   padding: 16px 20px;
   min-width: 300px;
   max-width: 400px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: flex-start;
   gap: 12px;
   pointer-events: auto;
   animation: toastSlideIn 0.3s ease-out;
-  transition: transform 0.2s, opacity 0.2s;
+  transition:
+    transform 0.2s,
+    opacity 0.2s;
 }
 
 .toast.removing {
@@ -654,7 +670,9 @@ button.ghost {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .toast-close:hover {
@@ -756,7 +774,7 @@ button.ghost {
 
 /* Loading state */
 body.loading::before {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
@@ -770,7 +788,7 @@ body.loading::before {
 }
 
 body.loading::after {
-  content: 'Loading...';
+  content: "Loading...";
   position: fixed;
   top: 50%;
   left: 50%;
@@ -783,7 +801,8 @@ body.loading::after {
 }
 
 @keyframes loadingPulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.5;
   }
   50% {

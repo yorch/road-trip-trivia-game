@@ -1,6 +1,15 @@
 // State management for Road Trip Trivia
 
-import { DIFFICULTY_LEVELS, QUESTION_MODES, MAX_SEED_VALUE, ErrorHandler, shuffleIndices, getCuratedQuestionsUrl, buildAngles, fillTemplate } from './utils.js';
+import {
+  buildAngles,
+  DIFFICULTY_LEVELS,
+  ErrorHandler,
+  fillTemplate,
+  getCuratedQuestionsUrl,
+  MAX_SEED_VALUE,
+  QUESTION_MODES,
+  shuffleIndices,
+} from './utils.js';
 
 // Global state
 export const state = {
@@ -11,11 +20,11 @@ export const state = {
   streak: 0,
   asked: 0,
   revealed: false,
-  isChangingMode: false
+  isChangingMode: false,
 };
 
 // Progress tracking
-export let progress = {};
+export const progress = {};
 
 // Question bank storage
 export let questionBank = {};
@@ -47,7 +56,7 @@ export async function getOrCalculateCuratedCounts() {
   // If already calculating, wait for completion
   if (_isCalculating) {
     while (_isCalculating) {
-      await new Promise(resolve => setTimeout(resolve, 10));
+      await new Promise((resolve) => setTimeout(resolve, 10));
     }
     return _globalCuratedCounts;
   }
@@ -56,9 +65,12 @@ export async function getOrCalculateCuratedCounts() {
   _isCalculating = true;
   const curatedCounts = new Map();
 
-  window.topicList.forEach(topic => {
+  window.topicList.forEach((topic) => {
     let count = 0;
-    if (typeof window.curatedQuestions !== 'undefined' && window.curatedQuestions[topic.id]) {
+    if (
+      typeof window.curatedQuestions !== 'undefined' &&
+      window.curatedQuestions[topic.id]
+    ) {
       const easy = window.curatedQuestions[topic.id].easy?.length || 0;
       const medium = window.curatedQuestions[topic.id].medium?.length || 0;
       const hard = window.curatedQuestions[topic.id].hard?.length || 0;
@@ -73,127 +85,140 @@ export async function getOrCalculateCuratedCounts() {
 }
 
 export const globalCuratedCounts = {
-  get value() { return _globalCuratedCounts; },
-  set value(val) { _globalCuratedCounts = val; }
+  get value() {
+    return _globalCuratedCounts;
+  },
+  set value(val) {
+    _globalCuratedCounts = val;
+  },
 };
 
 // LocalStorage helpers
 export function saveLastTopic(topicId) {
   try {
-    localStorage.setItem("lastTopicId", topicId);
+    localStorage.setItem('lastTopicId', topicId);
   } catch (e) {
-    ErrorHandler.warn("Failed to save last topic to localStorage", e);
+    ErrorHandler.warn('Failed to save last topic to localStorage', e);
   }
 }
 
 export function loadLastTopic() {
   try {
-    return localStorage.getItem("lastTopicId");
-  } catch (e) {
+    return localStorage.getItem('lastTopicId');
+  } catch (_e) {
     return null;
   }
 }
 
 export function clearLastTopic() {
   try {
-    localStorage.removeItem("lastTopicId");
+    localStorage.removeItem('lastTopicId');
   } catch (e) {
-    ErrorHandler.warn("Failed to clear last topic from localStorage", e);
+    ErrorHandler.warn('Failed to clear last topic from localStorage', e);
   }
 }
 
 export function saveProgress() {
   try {
-    localStorage.setItem("questionProgress", JSON.stringify(progress));
+    localStorage.setItem('questionProgress', JSON.stringify(progress));
   } catch (e) {
-    ErrorHandler.warn("Failed to save progress - your progress may not be preserved", e);
+    ErrorHandler.warn(
+      'Failed to save progress - your progress may not be preserved',
+      e,
+    );
   }
 }
 
 export function loadProgress() {
   try {
-    const saved = localStorage.getItem("questionProgress");
+    const saved = localStorage.getItem('questionProgress');
     const loaded = saved ? JSON.parse(saved) : {};
 
     // Validate and clean progress - remove topics that no longer exist
-    const validTopicIds = new Set(window.topicList.map(t => t.id));
-    Object.keys(loaded).forEach(topicId => {
+    const validTopicIds = new Set(window.topicList.map((t) => t.id));
+    Object.keys(loaded).forEach((topicId) => {
       if (!validTopicIds.has(topicId)) {
         delete loaded[topicId];
       }
     });
 
     return loaded;
-  } catch (e) {
+  } catch (_e) {
     return {};
   }
 }
 
 export function clearProgress() {
   try {
-    localStorage.removeItem("questionProgress");
+    localStorage.removeItem('questionProgress');
   } catch (e) {
-    ErrorHandler.warn("Failed to clear progress from localStorage", e);
+    ErrorHandler.warn('Failed to clear progress from localStorage', e);
   }
 }
 
 export function saveQuestionMode(mode) {
   try {
-    localStorage.setItem("questionMode", mode);
+    localStorage.setItem('questionMode', mode);
   } catch (e) {
-    ErrorHandler.warn("Failed to save question mode preference", e);
+    ErrorHandler.warn('Failed to save question mode preference', e);
   }
 }
 
 export function loadQuestionMode() {
   try {
-    const saved = localStorage.getItem("questionMode");
+    const saved = localStorage.getItem('questionMode');
     const validModes = [QUESTION_MODES.ALL, QUESTION_MODES.CURATED];
     return validModes.includes(saved) ? saved : QUESTION_MODES.ALL;
-  } catch (e) {
+  } catch (_e) {
     return QUESTION_MODES.ALL;
   }
 }
 
 export function saveDifficulty(difficulty) {
   try {
-    localStorage.setItem("difficulty", difficulty);
+    localStorage.setItem('difficulty', difficulty);
   } catch (e) {
-    ErrorHandler.warn("Failed to save difficulty preference", e);
+    ErrorHandler.warn('Failed to save difficulty preference', e);
   }
 }
 
 export function loadDifficulty() {
   try {
-    const saved = localStorage.getItem("difficulty");
+    const saved = localStorage.getItem('difficulty');
     return window.difficulties.includes(saved) ? saved : DIFFICULTY_LEVELS.EASY;
-  } catch (e) {
+  } catch (_e) {
     return DIFFICULTY_LEVELS.EASY;
   }
 }
 
 export function saveScoreboard() {
   try {
-    localStorage.setItem("scoreboard", JSON.stringify({
-      score: state.score,
-      streak: state.streak,
-      asked: state.asked
-    }));
+    localStorage.setItem(
+      'scoreboard',
+      JSON.stringify({
+        score: state.score,
+        streak: state.streak,
+        asked: state.asked,
+      }),
+    );
   } catch (e) {
-    ErrorHandler.warn("Failed to save scoreboard - scores may not be preserved", e);
+    ErrorHandler.warn(
+      'Failed to save scoreboard - scores may not be preserved',
+      e,
+    );
   }
 }
 
 export function loadScoreboard() {
   try {
-    const saved = localStorage.getItem("scoreboard");
+    const saved = localStorage.getItem('scoreboard');
     if (saved) {
       const data = JSON.parse(saved);
       state.score = data.score || 0;
       state.streak = data.streak || 0;
       state.asked = data.asked || 0;
     }
-  } catch (e) {
+  } catch (_e) {
     // Ignore localStorage errors
   }
 }
@@ -209,7 +234,10 @@ export function getProgress(topicId, difficulty) {
       return { order: [], cursor: 0 };
     }
     const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
-    progress[topicId][difficulty] = { order: shuffleIndices(bankSize, seed), cursor: 0 };
+    progress[topicId][difficulty] = {
+      order: shuffleIndices(bankSize, seed),
+      cursor: 0,
+    };
     saveProgress();
   }
 
@@ -231,7 +259,7 @@ export function getProgress(topicId, difficulty) {
 export function resetProgressAll() {
   // Safety check: ensure difficulties are loaded
   if (!window.difficulties || !Array.isArray(window.difficulties)) {
-    ErrorHandler.critical("Difficulties not loaded - cannot reset progress");
+    ErrorHandler.critical('Difficulties not loaded - cannot reset progress');
     return;
   }
 
@@ -263,9 +291,13 @@ export function getOrCreateQuestions(topicId, difficulty, mode) {
 
   // Lazily create questions for this difficulty and mode if not already created
   if (!questionBank[topicId][cacheKey]) {
-    const topic = window.topicList.find(t => t.id === topicId);
+    const topic = window.topicList.find((t) => t.id === topicId);
     if (topic) {
-      questionBank[topicId][cacheKey] = createQuestions(topic, difficulty, mode);
+      questionBank[topicId][cacheKey] = createQuestions(
+        topic,
+        difficulty,
+        mode,
+      );
     } else {
       console.warn(`Topic ${topicId} not found, returning empty question bank`);
       questionBank[topicId][cacheKey] = [];
@@ -283,7 +315,10 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
   const bank = [];
 
   // Get curated questions if available (with safety check for curatedQuestions global)
-  const curated = (typeof window.curatedQuestions !== 'undefined' && window.curatedQuestions[topic.id]?.[difficulty]) || [];
+  const curated =
+    (typeof window.curatedQuestions !== 'undefined' &&
+      window.curatedQuestions[topic.id]?.[difficulty]) ||
+    [];
   const examples = window.answerExamples[topic.id] || {};
 
   // If curated-only mode and no curated questions exist, return empty
@@ -303,7 +338,9 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
 
   // For "all" mode, fill remaining slots with generated questions
   // Filter to only use angles that have real answer examples
-  const anglesWithExamples = allAngles.filter(angle => examples[angle] && examples[angle].length > 0);
+  const anglesWithExamples = allAngles.filter(
+    (angle) => examples[angle] && examples[angle].length > 0,
+  );
 
   // Use filtered angles if available, otherwise fall back to all angles
   const angles = anglesWithExamples.length > 0 ? anglesWithExamples : allAngles;
@@ -312,7 +349,12 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
   const remaining = 80 - curated.length; // QUESTION_BANK_SIZE
   for (let i = 0; i < remaining; i += 1) {
     const angle = angles[i % angles.length];
-    const prompt = fillTemplate(prompts[i % prompts.length], topic.name, angle, i);
+    const prompt = fillTemplate(
+      prompts[i % prompts.length],
+      topic.name,
+      angle,
+      i,
+    );
 
     // Use real answer examples if available for this angle
     let answer;
@@ -340,7 +382,6 @@ export function rebuildQuestionBank() {
   saveProgress();
 }
 
-
 // AbortController for fetch requests
 let curatedQuestionsController = null;
 
@@ -355,11 +396,13 @@ export async function loadCuratedQuestions() {
 
     curatedQuestionsController = new AbortController();
     const response = await fetch(getCuratedQuestionsUrl(false), {
-      signal: curatedQuestionsController.signal
+      signal: curatedQuestionsController.signal,
     });
 
     if (!response.ok) {
-      ErrorHandler.warn('Curated questions file not found - using generated questions only');
+      ErrorHandler.warn(
+        'Curated questions file not found - using generated questions only',
+      );
       window.curatedQuestions = {};
       return false;
     }
@@ -371,7 +414,10 @@ export async function loadCuratedQuestions() {
     if (error.name === 'AbortError') {
       return false;
     }
-    ErrorHandler.warn('Failed to load curated questions - using generated questions only', error);
+    ErrorHandler.warn(
+      'Failed to load curated questions - using generated questions only',
+      error,
+    );
     window.curatedQuestions = {};
     return false;
   }
