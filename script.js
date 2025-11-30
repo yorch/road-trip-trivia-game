@@ -4,9 +4,46 @@
 
 // Constants
 const QUESTION_BANK_SIZE = 80;
-const MAX_SEED_VALUE = 2147483647;
+const MAX_SEED_VALUE = 2147483647; // 2^31-1, maximum value for linear congruential generator
 const SEARCH_DEBOUNCE_MS = 300;
 const RELOAD_SUCCESS_DISPLAY_MS = 2000;
+
+// Question modes
+const QUESTION_MODES = Object.freeze({
+  ALL: 'all',
+  CURATED: 'curated'
+});
+
+// Difficulty levels
+const DIFFICULTY_LEVELS = Object.freeze({
+  EASY: 'easy',
+  MEDIUM: 'medium',
+  HARD: 'hard'
+});
+
+// Error handling system
+const ErrorHandler = {
+  critical(msg, error) {
+    console.error(`[CRITICAL] ${msg}`, error);
+    this.showNotification(msg, 'error');
+  },
+  warn(msg, error) {
+    console.warn(`[WARNING] ${msg}`, error);
+    this.showNotification(msg, 'warning');
+  },
+  info(msg) {
+    console.log(`[INFO] ${msg}`);
+    this.showNotification(msg, 'info');
+  },
+  showNotification(message, type) {
+    // Simple notification system - could be enhanced with toast UI
+    if (type === 'error' || type === 'critical') {
+      alert(`Error: ${message}`);
+    } else {
+      console.log(`[${type.toUpperCase()}] ${message}`);
+    }
+  }
+};
 
 // Security: HTML escaping helper to prevent XSS
 function escapeHtml(str) {
@@ -80,18 +117,8 @@ function createQuestions(topic, difficulty, mode = "all") {
   return bank;
 }
 
-// Legacy function: Not used in production code (replaced by lazy loading via getOrCreateQuestions)
-// Kept for manual debugging/testing - can be called from browser console to pre-generate all questions
-function buildQuestionBank(mode = "all") {
-  const bank = {};
-  topicList.forEach((topic) => {
-    bank[topic.id] = {};
-    difficulties.forEach((diff) => {
-      bank[topic.id][diff] = createQuestions(topic, diff, mode);
-    });
-  });
-  return bank;
-}
+// Removed legacy buildQuestionBank() function - use getOrCreateQuestions() for lazy loading
+// For debugging, call: getOrCreateQuestions(topicId, difficulty, mode) from browser console
 
 // Lazy loading: Only generate questions when needed for a specific topic/difficulty/mode
 function getOrCreateQuestions(topicId, difficulty, mode) {
@@ -120,15 +147,19 @@ function getOrCreateQuestions(topicId, difficulty, mode) {
 // Question bank is built in init() after data loads
 let questionBank;
 
+// Global cache for curated question counts
+let globalCuratedCounts = null;
+
 let progress = {};
 const state = {
   topicId: null, // Will be set in init() or when user selects topic
-  difficulty: "easy",
-  questionMode: "all", // "all" or "curated"
+  difficulty: DIFFICULTY_LEVELS.EASY,
+  questionMode: QUESTION_MODES.ALL,
   score: 0,
   streak: 0,
   asked: 0,
-  revealed: false
+  revealed: false,
+  isChangingMode: false // Flag to prevent race conditions during mode/difficulty changes
 };
 
 // LocalStorage helpers
@@ -136,7 +167,7 @@ function saveLastTopic(topicId) {
   try {
     localStorage.setItem("lastTopicId", topicId);
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to save last topic to localStorage", e);
   }
 }
 
@@ -152,7 +183,7 @@ function clearLastTopic() {
   try {
     localStorage.removeItem("lastTopicId");
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to clear last topic from localStorage", e);
   }
 }
 
@@ -160,7 +191,7 @@ function saveProgress() {
   try {
     localStorage.setItem("questionProgress", JSON.stringify(progress));
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to save progress - your progress may not be preserved", e);
   }
 }
 
@@ -187,7 +218,7 @@ function clearProgress() {
   try {
     localStorage.removeItem("questionProgress");
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to clear progress from localStorage", e);
   }
 }
 
@@ -195,7 +226,7 @@ function saveQuestionMode(mode) {
   try {
     localStorage.setItem("questionMode", mode);
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to save question mode preference", e);
   }
 }
 
@@ -213,7 +244,7 @@ function saveDifficulty(difficulty) {
   try {
     localStorage.setItem("difficulty", difficulty);
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to save difficulty preference", e);
   }
 }
 
@@ -234,7 +265,7 @@ function saveScoreboard() {
       asked: state.asked
     }));
   } catch (e) {
-    // Ignore localStorage errors
+    ErrorHandler.warn("Failed to save scoreboard - scores may not be preserved", e);
   }
 }
 
@@ -324,17 +355,41 @@ function updateScoreboard() {
   saveScoreboard();
 }
 
+function renderEndState(title, message) {
+  const cardEl = document.querySelector(".card");
+  const nextEl = document.querySelector(".next");
+  const answerEl = document.getElementById("cardAnswer");
+
+  cardEl.classList.add("card-complete");
+  nextEl.style.display = "none";
+  answerEl.classList.remove("visible");
+
+  document.getElementById("cardTitle").textContent = title;
+  document.getElementById("cardBody").textContent = message;
+}
+
 function renderCard(question) {
   const topic = topicList.find((t) => t.id === state.topicId);
 
   // Safety check: if topic not found, reset to first topic
   if (!topic) {
-    console.error(`Topic ${state.topicId} not found, resetting to first topic`);
+    ErrorHandler.warn(`Topic ${state.topicId} not found, attempting recovery`);
+
+    // Attempt recovery by resetting to first available topic
     state.topicId = topicList[0]?.id || null;
+
     if (!state.topicId) {
-      console.error("No topics available");
+      // Critical failure: no topics available at all
+      ErrorHandler.critical("No topics available - cannot render question");
+      renderEndState(
+        "No Topics Available",
+        "The topic list is empty. Please check data.js and refresh the page."
+      );
       return;
     }
+
+    // Successfully recovered - save and continue
+    saveLastTopic(state.topicId);
     nextQuestion();
     return;
   }
@@ -362,28 +417,18 @@ function nextQuestion() {
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
-    const cardEl = document.querySelector(".card");
-    const nextEl = document.querySelector(".next");
-    const answerEl = document.getElementById("cardAnswer");
-    cardEl.classList.add("card-complete");
-    nextEl.style.display = "none";
-    answerEl.classList.remove("visible");
-
-    document.getElementById("cardTitle").textContent = "No curated questions available!";
-    document.getElementById("cardBody").textContent = "This topic doesn't have curated questions yet. Switch to 'All questions' mode.";
+    renderEndState(
+      "No curated questions available!",
+      "This topic doesn't have curated questions yet. Switch to 'All questions' mode."
+    );
     return;
   }
 
   if (prog.cursor >= bank.length) {
-    const cardEl = document.querySelector(".card");
-    const nextEl = document.querySelector(".next");
-    const answerEl = document.getElementById("cardAnswer");
-    cardEl.classList.add("card-complete");
-    nextEl.style.display = "none";
-    answerEl.classList.remove("visible");
-
-    document.getElementById("cardTitle").textContent = "All questions used up!";
-    document.getElementById("cardBody").textContent = "Reset progress or switch difficulty to keep rolling.";
+    renderEndState(
+      "All questions used up!",
+      "Reset progress or switch difficulty to keep rolling."
+    );
     return;
   }
 
@@ -391,12 +436,19 @@ function nextQuestion() {
 
   // Validate index is within bounds (can be invalid after mode switch)
   if (idx >= bank.length) {
-    console.warn(`Invalid question index ${idx} for bank size ${bank.length}. Resetting progress for this topic/difficulty.`);
+    ErrorHandler.warn(
+      `Invalid question index ${idx} for bank size ${bank.length}. Progress reset for current topic.`
+    );
+
     // Reset progress for this topic/difficulty
     const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
     prog.order = shuffleIndices(bank.length, seed);
     prog.cursor = 0;
     saveProgress();
+
+    // Notify user about the reset
+    ErrorHandler.info("Question bank changed - progress reset for this topic");
+
     // Retry with reset progress
     nextQuestion();
     return;
@@ -454,21 +506,23 @@ function populateTopicPicker(filterMode = 'all') {
   const container = document.getElementById("topicPickerContent");
   const categories = [...new Set(topicList.map((t) => t.category))].sort();
 
-  // Helper function to count curated questions for a topic
-  const getCuratedCount = (topicId) => {
-    // Safety check: ensure curatedQuestions exists
-    if (typeof curatedQuestions === 'undefined' || !curatedQuestions[topicId]) return 0;
-    const easy = curatedQuestions[topicId].easy?.length || 0;
-    const medium = curatedQuestions[topicId].medium?.length || 0;
-    const hard = curatedQuestions[topicId].hard?.length || 0;
-    return easy + medium + hard;
-  };
+  // Use global cache for curated counts - only recalculate if cache is null
+  if (!globalCuratedCounts) {
+    globalCuratedCounts = new Map();
+    topicList.forEach(topic => {
+      // Safety check: ensure curatedQuestions exists
+      let count = 0;
+      if (typeof curatedQuestions !== 'undefined' && curatedQuestions[topic.id]) {
+        const easy = curatedQuestions[topic.id].easy?.length || 0;
+        const medium = curatedQuestions[topic.id].medium?.length || 0;
+        const hard = curatedQuestions[topic.id].hard?.length || 0;
+        count = easy + medium + hard;
+      }
+      globalCuratedCounts.set(topic.id, count);
+    });
+  }
 
-  // Cache curated counts for all topics to avoid redundant calculations
-  const curatedCounts = new Map();
-  topicList.forEach(topic => {
-    curatedCounts.set(topic.id, getCuratedCount(topic.id));
-  });
+  const curatedCounts = globalCuratedCounts;
 
   container.innerHTML = categories.map((category) => {
     let categoryTopics = topicList.filter((t) => t.category === category);
@@ -552,17 +606,33 @@ function handleTopicSearch(searchTerm) {
 function bindEvents() {
   document.querySelectorAll(".difficulty").forEach((btn) => {
     btn.addEventListener("click", () => {
+      // Prevent race conditions from rapid clicking
+      if (state.isChangingMode) {
+        ErrorHandler.info("Please wait for current operation to complete");
+        return;
+      }
+
+      state.isChangingMode = true;
       state.difficulty = btn.dataset.difficulty;
       state.streak = 0;
       saveDifficulty(state.difficulty);
       updateDifficultyButtons();
       updateScoreboard();
       nextQuestion();
+      // Reset flag after a brief delay to allow nextQuestion to complete
+      setTimeout(() => { state.isChangingMode = false; }, 100);
     });
   });
 
   document.querySelectorAll(".question-mode").forEach((btn) => {
     btn.addEventListener("click", () => {
+      // Prevent race conditions from rapid clicking
+      if (state.isChangingMode) {
+        ErrorHandler.info("Please wait for current operation to complete");
+        return;
+      }
+
+      state.isChangingMode = true;
       state.questionMode = btn.dataset.mode;
       state.streak = 0;
       saveQuestionMode(state.questionMode);
@@ -570,6 +640,8 @@ function bindEvents() {
       rebuildQuestionBank();
       updateScoreboard();
       nextQuestion();
+      // Reset flag after a brief delay to allow rebuild and nextQuestion to complete
+      setTimeout(() => { state.isChangingMode = false; }, 100);
     });
   });
 
@@ -636,34 +708,53 @@ function bindEvents() {
     try {
       // Reload the curated-questions.js file
       const response = await fetch('curated-questions.js?' + Date.now());
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
       const text = await response.text();
 
-      // Execute the script to update curatedQuestions
-      const script = document.createElement('script');
-      script.textContent = text;
-      document.body.appendChild(script);
-      document.body.removeChild(script);
+      // Security: Validate content before execution
+      // Expected format: const curatedQuestions = {...};
+      if (!text.includes('curatedQuestions') || text.includes('<script')) {
+        throw new Error('Invalid curated questions file format');
+      }
+
+      // Execute in controlled context with error handling
+      // Note: This still executes arbitrary code from curated-questions.js
+      // For production, consider converting to JSON format instead
+      try {
+        const script = document.createElement('script');
+        script.textContent = text;
+        document.body.appendChild(script);
+        document.body.removeChild(script);
+      } catch (execError) {
+        throw new Error(`Script execution failed: ${execError.message}`);
+      }
+
+      // Clear cached curated counts to force recalculation
+      globalCuratedCounts = null;
 
       // Repopulate the picker with updated data
       const activeBtn = document.querySelector(".filter-btn.active");
-      const activeFilter = activeBtn?.dataset.filter || 'all';
+      const activeFilter = activeBtn?.dataset.filter || QUESTION_MODES.ALL;
       populateTopicPicker(activeFilter);
 
       // Rebuild question bank to incorporate new curated questions
       rebuildQuestionBank();
 
       // If currently playing in curated mode, refresh the current question
-      if (state.topicId && state.questionMode === 'curated') {
+      if (state.topicId && state.questionMode === QUESTION_MODES.CURATED) {
         nextQuestion();
       }
 
       btn.textContent = "✓ Reloaded";
+      ErrorHandler.info("Curated questions reloaded successfully");
       setTimeout(() => {
         btn.textContent = originalText;
         btn.disabled = false;
       }, RELOAD_SUCCESS_DISPLAY_MS);
     } catch (error) {
-      console.error("Failed to reload curated questions:", error);
+      ErrorHandler.critical("Failed to reload curated questions", error);
       btn.textContent = "✗ Failed";
       setTimeout(() => {
         btn.textContent = originalText;
@@ -674,9 +765,40 @@ function bindEvents() {
 }
 
 function init() {
-  // Safety check: ensure data.js loaded correctly
-  if (!topicList || topicList.length === 0) {
-    console.error("Failed to load topic data. Please refresh the page.");
+  // Comprehensive validation: ensure all required data.js dependencies loaded correctly
+  const requiredGlobals = [
+    { name: 'topicList', type: 'array' },
+    { name: 'difficulties', type: 'array' },
+    { name: 'categoryAngles', type: 'object' },
+    { name: 'promptTemplates', type: 'object' },
+    { name: 'answerTemplates', type: 'object' },
+    { name: 'answerExamples', type: 'object' }
+  ];
+
+  const missing = [];
+  const invalid = [];
+
+  requiredGlobals.forEach(({ name, type }) => {
+    if (typeof window[name] === 'undefined') {
+      missing.push(name);
+    } else if (type === 'array' && !Array.isArray(window[name])) {
+      invalid.push(`${name} (expected array)`);
+    } else if (type === 'object' && (typeof window[name] !== 'object' || Array.isArray(window[name]))) {
+      invalid.push(`${name} (expected object)`);
+    } else if (type === 'array' && window[name].length === 0) {
+      invalid.push(`${name} (empty array)`);
+    }
+  });
+
+  if (missing.length > 0 || invalid.length > 0) {
+    const errorMsg = [
+      "Failed to load required data from data.js:",
+      missing.length > 0 ? `  Missing: ${missing.join(', ')}` : null,
+      invalid.length > 0 ? `  Invalid: ${invalid.join(', ')}` : null,
+      "Please ensure data.js is loaded before script.js and refresh the page."
+    ].filter(Boolean).join('\n');
+
+    ErrorHandler.critical(errorMsg);
     return;
   }
 
