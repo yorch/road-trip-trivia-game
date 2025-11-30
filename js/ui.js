@@ -3,8 +3,7 @@
 import {
   state,
   progress,
-  getCuratedCountsCache,
-  setCuratedCountsCache,
+  getOrCalculateCuratedCounts,
   resetCuratedCountsCache,
   saveLastTopic,
   saveDifficulty,
@@ -22,9 +21,11 @@ import {
   SEARCH_DEBOUNCE_MS,
   RELOAD_SUCCESS_DISPLAY_MS,
   MAX_SEED_VALUE,
+  MODE_CHANGE_DEBOUNCE_MS,
   ErrorHandler,
   escapeHtml,
-  shuffleIndices
+  shuffleIndices,
+  getCuratedQuestionsUrl
 } from './utils.js';
 
 // Update scoreboard display
@@ -86,7 +87,8 @@ export function renderCard(question) {
 
     // Successfully recovered - save and continue
     saveLastTopic(state.topicId);
-    nextQuestion();
+    // Use setTimeout to break recursion chain and prevent stack overflow
+    setTimeout(() => nextQuestion(), 0);
     return;
   }
 
@@ -146,8 +148,8 @@ export function nextQuestion() {
     // Notify user about the reset
     ErrorHandler.info("Question bank changed - progress reset for this topic");
 
-    // Retry with reset progress
-    nextQuestion();
+    // Use setTimeout to break recursion chain and prevent stack overflow
+    setTimeout(() => nextQuestion(), 0);
     return;
   }
 
@@ -191,29 +193,12 @@ export function resetProgress() {
 }
 
 // Populate topic picker
-export function populateTopicPicker(filterMode = 'all') {
+export async function populateTopicPicker(filterMode = 'all') {
   const container = document.getElementById("topicPickerContent");
   const categories = [...new Set(window.topicList.map((t) => t.category))].sort();
 
-  // Use global cache for curated counts - only recalculate if cache is null
-  let curatedCounts = getCuratedCountsCache();
-
-  if (!curatedCounts) {
-    curatedCounts = new Map();
-    window.topicList.forEach(topic => {
-      // Safety check: ensure curatedQuestions exists
-      let count = 0;
-      if (typeof window.curatedQuestions !== 'undefined' && window.curatedQuestions[topic.id]) {
-        const easy = window.curatedQuestions[topic.id].easy?.length || 0;
-        const medium = window.curatedQuestions[topic.id].medium?.length || 0;
-        const hard = window.curatedQuestions[topic.id].hard?.length || 0;
-        count = easy + medium + hard;
-      }
-      curatedCounts.set(topic.id, count);
-    });
-    // Update the global cache
-    setCuratedCountsCache(curatedCounts);
-  }
+  // Use atomic cache operation to prevent race conditions
+  const curatedCounts = await getOrCalculateCuratedCounts();
 
   container.innerHTML = categories.map((category) => {
     let categoryTopics = window.topicList.filter((t) => t.category === category);
@@ -316,7 +301,7 @@ export function bindEvents() {
       updateScoreboard();
       nextQuestion();
       // Reset flag after a brief delay to allow nextQuestion to complete
-      setTimeout(() => { state.isChangingMode = false; }, 100);
+      setTimeout(() => { state.isChangingMode = false; }, MODE_CHANGE_DEBOUNCE_MS);
     });
   });
 
@@ -337,7 +322,7 @@ export function bindEvents() {
       updateScoreboard();
       nextQuestion();
       // Reset flag after a brief delay to allow rebuild and nextQuestion to complete
-      setTimeout(() => { state.isChangingMode = false; }, 100);
+      setTimeout(() => { state.isChangingMode = false; }, MODE_CHANGE_DEBOUNCE_MS);
     });
   });
 
@@ -403,7 +388,7 @@ export function bindEvents() {
 
     try {
       // Reload the curated-questions.json file (secure JSON format)
-      const response = await fetch('../data/curated-questions.json?' + Date.now());
+      const response = await fetch(getCuratedQuestionsUrl(true));
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }

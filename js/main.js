@@ -25,7 +25,12 @@ import {
 
 async function init() {
   // Load curated questions first (async)
-  await loadCuratedQuestions();
+  const curatedLoaded = await loadCuratedQuestions();
+
+  // Notify user if curated questions failed to load
+  if (!curatedLoaded) {
+    ErrorHandler.info('Curated questions unavailable - using generated questions only');
+  }
 
   // Comprehensive validation: ensure all required data.js dependencies loaded correctly
   const requiredGlobals = [
@@ -79,7 +84,7 @@ async function init() {
   updateDifficultyButtons();
   updateQuestionModeButtons();
   updateScoreboard();
-  populateTopicPicker();
+  await populateTopicPicker();
   bindEvents();
 
   // Show the UI now that preferences are loaded

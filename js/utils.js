@@ -5,6 +5,7 @@ export const QUESTION_BANK_SIZE = 80;
 export const MAX_SEED_VALUE = 2147483647; // 2^31-1, maximum value for linear congruential generator
 export const SEARCH_DEBOUNCE_MS = 300;
 export const RELOAD_SUCCESS_DISPLAY_MS = 2000;
+export const MODE_CHANGE_DEBOUNCE_MS = 100; // Delay for mode change flag reset
 
 // Question modes
 export const QUESTION_MODES = Object.freeze({
@@ -18,6 +19,14 @@ export const DIFFICULTY_LEVELS = Object.freeze({
   MEDIUM: 'medium',
   HARD: 'hard'
 });
+
+// Curated questions path
+export const CURATED_QUESTIONS_PATH = '../data/curated-questions.json';
+
+// Get curated questions URL with optional cache busting
+export function getCuratedQuestionsUrl(bustCache = false) {
+  return bustCache ? `${CURATED_QUESTIONS_PATH}?${Date.now()}` : CURATED_QUESTIONS_PATH;
+}
 
 // Security: HTML escaping helper to prevent XSS
 export function escapeHtml(str) {

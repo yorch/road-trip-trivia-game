@@ -1,7 +1,7 @@
 
-var difficulties = ["easy", "medium", "hard"];
+const difficulties = ["easy", "medium", "hard"];
 
-var topicList = [
+const topicList = [
   { id: "star-wars", name: "Star Wars", category: "Movies & TV", tags: ["Jedi", "Force", "rebellion", "lightsaber"] },
   { id: "harry-potter", name: "Harry Potter", category: "Books & Lore", tags: ["Hogwarts", "spells", "houses", "wands"] },
   { id: "kpop-demon-hunters", name: "K-Pop Demon Hunters", category: "Music & TV", tags: ["stage battles", "idols", "mythic rivals", "dance breaks"] },
@@ -80,7 +80,7 @@ var topicList = [
   { id: "eco-living", name: "Eco Living", category: "Lifestyle & Fun", tags: ["recycling", "energy", "habits", "green swaps"] }
 ];
 
-var categoryAngles = {
+const categoryAngles = {
   "Movies & TV": ["iconic scene", "quote", "director", "soundtrack", "plot twist", "sidekick"],
   "Books & Lore": ["author", "chapter", "magic system", "creature", "library", "prophecy"],
   Music: ["chorus", "hook", "era", "genre", "album", "tour moment"],
@@ -92,7 +92,7 @@ var categoryAngles = {
   "Lifestyle & Fun": ["gear", "ritual", "hack", "daily move", "myth", "tiny win"]
 };
 
-var promptTemplates = {
+const promptTemplates = {
   easy: [
     // Recognition-based (10)
     "What's a famous {angle} from {topic}?",
@@ -157,7 +157,7 @@ var promptTemplates = {
   ]
 };
 
-var answerTemplates = {
+const answerTemplates = {
   easy: [
     "{angle} (classic pick).",
     "{angle} is a safe bet.",
@@ -179,7 +179,7 @@ var answerTemplates = {
 // Curated questions are loaded from curated-questions.js (declared as var there)
 
 // Answer examples with real facts for common angles
-var answerExamples = {
+const answerExamples = {
   "lotr": {
     "author": [
       "J.R.R. Tolkien - philologist and professor",
@@ -700,3 +700,11 @@ var answerExamples = {
     ]
   }
 };
+
+// Explicitly expose to global scope (const doesn't auto-attach to window like var)
+window.difficulties = difficulties;
+window.topicList = topicList;
+window.categoryAngles = categoryAngles;
+window.promptTemplates = promptTemplates;
+window.answerTemplates = answerTemplates;
+window.answerExamples = answerExamples;

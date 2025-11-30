@@ -1,6 +1,6 @@
 // State management for Road Trip Trivia
 
-import { DIFFICULTY_LEVELS, QUESTION_MODES, MAX_SEED_VALUE, ErrorHandler, shuffleIndices } from './utils.js';
+import { DIFFICULTY_LEVELS, QUESTION_MODES, MAX_SEED_VALUE, ErrorHandler, shuffleIndices, getCuratedQuestionsUrl, buildAngles, fillTemplate } from './utils.js';
 
 // Global state
 export const state = {
@@ -22,6 +22,7 @@ export let questionBank = {};
 
 // Global cache for curated question counts
 let _globalCuratedCounts = null;
+let _isCalculating = false;
 
 export function getCuratedCountsCache() {
   return _globalCuratedCounts;
@@ -33,6 +34,42 @@ export function setCuratedCountsCache(cache) {
 
 export function resetCuratedCountsCache() {
   _globalCuratedCounts = null;
+  _isCalculating = false;
+}
+
+// Atomic operation to get or calculate curated counts
+export async function getOrCalculateCuratedCounts() {
+  // Return cached value if available
+  if (_globalCuratedCounts) {
+    return _globalCuratedCounts;
+  }
+
+  // If already calculating, wait for completion
+  if (_isCalculating) {
+    while (_isCalculating) {
+      await new Promise(resolve => setTimeout(resolve, 10));
+    }
+    return _globalCuratedCounts;
+  }
+
+  // Mark as calculating and perform the operation
+  _isCalculating = true;
+  const curatedCounts = new Map();
+
+  window.topicList.forEach(topic => {
+    let count = 0;
+    if (typeof window.curatedQuestions !== 'undefined' && window.curatedQuestions[topic.id]) {
+      const easy = window.curatedQuestions[topic.id].easy?.length || 0;
+      const medium = window.curatedQuestions[topic.id].medium?.length || 0;
+      const hard = window.curatedQuestions[topic.id].hard?.length || 0;
+      count = easy + medium + hard;
+    }
+    curatedCounts.set(topic.id, count);
+  });
+
+  _globalCuratedCounts = curatedCounts;
+  _isCalculating = false;
+  return curatedCounts;
 }
 
 export const globalCuratedCounts = {
@@ -192,6 +229,12 @@ export function getProgress(topicId, difficulty) {
 
 // Reset progress for all topics
 export function resetProgressAll() {
+  // Safety check: ensure difficulties are loaded
+  if (!window.difficulties || !Array.isArray(window.difficulties)) {
+    ErrorHandler.critical("Difficulties not loaded - cannot reset progress");
+    return;
+  }
+
   // Don't pre-generate questions during reset - just mark for lazy reshuffle
   Object.keys(progress).forEach((topicId) => {
     window.difficulties.forEach((diff) => {
@@ -285,9 +328,6 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
   return bank;
 }
 
-// Import buildAngles and fillTemplate from utils (circular dependency handled)
-import { buildAngles, fillTemplate } from './utils.js';
-
 // Rebuild question bank (clears cache)
 export function rebuildQuestionBank() {
   // Clear question bank - questions will be lazily regenerated with new mode
@@ -302,18 +342,21 @@ export function rebuildQuestionBank() {
 
 
 // Load curated questions from JSON
+// Returns true if successful, false if failed
 export async function loadCuratedQuestions() {
   try {
-    const response = await fetch('../data/curated-questions.json');
+    const response = await fetch(getCuratedQuestionsUrl(false));
     if (!response.ok) {
       ErrorHandler.warn('Curated questions file not found - using generated questions only');
       window.curatedQuestions = {};
-      return;
+      return false;
     }
     const data = await response.json();
     window.curatedQuestions = data;
+    return true;
   } catch (error) {
     ErrorHandler.warn('Failed to load curated questions - using generated questions only', error);
     window.curatedQuestions = {};
+    return false;
   }
 }
