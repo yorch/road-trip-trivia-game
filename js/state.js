@@ -304,7 +304,7 @@ export function rebuildQuestionBank() {
 // Load curated questions from JSON
 export async function loadCuratedQuestions() {
   try {
-    const response = await fetch('curated-questions.json');
+    const response = await fetch('../data/curated-questions.json');
     if (!response.ok) {
       ErrorHandler.warn('Curated questions file not found - using generated questions only');
       window.curatedQuestions = {};

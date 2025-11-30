@@ -403,7 +403,7 @@ export function bindEvents() {
 
     try {
       // Reload the curated-questions.json file (secure JSON format)
-      const response = await fetch('curated-questions.json?' + Date.now());
+      const response = await fetch('../data/curated-questions.json?' + Date.now());
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
