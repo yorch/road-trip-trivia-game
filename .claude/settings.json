@@ -1,13 +1,23 @@
 {
-    "permissions": {
-        "allow": [
-            "mcp__git",
-            "mcp__sequential-thinking",
-            "mcp__serena",
-            "Bash(cat:*)",
-            "Bash(find:*)"
-        ],
-        "deny": [],
-        "ask": []
-    }
+  "permissions": {
+    "allow": [
+      "mcp__context7",
+      "mcp__git",
+      "mcp__sequential-thinking",
+      "mcp__serena",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(git restore:*)",
+      "Bash(lsof:*)",
+      "Bash(node --check:*)",
+      "Bash(node -e:*)",
+      "Bash(npm:*)",
+      "Bash(test:*)",
+      "Bash(tree:*)",
+      "Bash(yarn:*)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  }
 }
