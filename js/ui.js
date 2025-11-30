@@ -28,6 +28,12 @@ import {
   getCuratedQuestionsUrl
 } from './utils.js';
 
+// AbortController for reload curated questions fetch
+let reloadCuratedController = null;
+
+// WeakMap for element-specific search debounce timeouts
+const searchTimeouts = new WeakMap();
+
 // Update scoreboard display
 export function updateScoreboard() {
   document.getElementById("scoreValue").textContent = state.score;
@@ -326,45 +332,103 @@ export function bindEvents() {
     });
   });
 
-  document.getElementById("nextQuestion").addEventListener("click", nextQuestion);
-  document.getElementById("toggleAnswer").addEventListener("click", () => toggleAnswer());
-  document.getElementById("markCorrect").addEventListener("click", markCorrect);
-  document.getElementById("skipQuestion").addEventListener("click", skipQuestion);
-  document.getElementById("randomTopic").addEventListener("click", () => {
-    const random = window.topicList[Math.floor(Math.random() * window.topicList.length)];
-    state.topicId = random.id;
-    state.streak = 0;
-    saveLastTopic(random.id);
-    updateScoreboard();
-    nextQuestion();
-  });
-  document.getElementById("resetProgress").addEventListener("click", () => {
-    if (confirm("Reset all progress? This will clear your score, streak, and question history for all topics. This cannot be undone.")) {
-      resetProgress();
-    }
-  });
+  // Question control buttons with null checks
+  const nextQuestionBtn = document.getElementById("nextQuestion");
+  const toggleAnswerBtn = document.getElementById("toggleAnswer");
+  const markCorrectBtn = document.getElementById("markCorrect");
+  const skipQuestionBtn = document.getElementById("skipQuestion");
+
+  if (nextQuestionBtn) {
+    nextQuestionBtn.addEventListener("click", nextQuestion);
+  } else {
+    ErrorHandler.warn("Next question button not found in DOM");
+  }
+
+  if (toggleAnswerBtn) {
+    toggleAnswerBtn.addEventListener("click", () => toggleAnswer());
+  } else {
+    ErrorHandler.warn("Toggle answer button not found in DOM");
+  }
+
+  if (markCorrectBtn) {
+    markCorrectBtn.addEventListener("click", markCorrect);
+  } else {
+    ErrorHandler.warn("Mark correct button not found in DOM");
+  }
+
+  if (skipQuestionBtn) {
+    skipQuestionBtn.addEventListener("click", skipQuestion);
+  } else {
+    ErrorHandler.warn("Skip question button not found in DOM");
+  }
+
+  // Random topic and reset progress buttons
+  const randomTopicBtn = document.getElementById("randomTopic");
+  if (randomTopicBtn) {
+    randomTopicBtn.addEventListener("click", () => {
+      const random = window.topicList[Math.floor(Math.random() * window.topicList.length)];
+      state.topicId = random.id;
+      state.streak = 0;
+      saveLastTopic(random.id);
+      updateScoreboard();
+      nextQuestion();
+    });
+  }
+
+  const resetProgressBtn = document.getElementById("resetProgress");
+  if (resetProgressBtn) {
+    resetProgressBtn.addEventListener("click", () => {
+      if (confirm("Reset all progress? This will clear your score, streak, and question history for all topics. This cannot be undone.")) {
+        resetProgress();
+      }
+    });
+  }
 
   // Topic picker events
-  document.getElementById("chooseTopic").addEventListener("click", showTopicPicker);
-  document.getElementById("closePicker").addEventListener("click", hideTopicPicker);
+  const chooseTopicBtn = document.getElementById("chooseTopic");
+  const closePickerBtn = document.getElementById("closePicker");
+
+  if (chooseTopicBtn) {
+    chooseTopicBtn.addEventListener("click", showTopicPicker);
+  } else {
+    ErrorHandler.warn("Choose topic button not found in DOM");
+  }
+
+  if (closePickerBtn) {
+    closePickerBtn.addEventListener("click", hideTopicPicker);
+  }
 
   // Debounced search to avoid running on every keystroke
-  let searchTimeout;
-  document.getElementById("topicSearch").addEventListener("input", (e) => {
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => {
-      handleTopicSearch(e.target.value);
-    }, SEARCH_DEBOUNCE_MS);
-  });
+  const topicSearchInput = document.getElementById("topicSearch");
+  if (topicSearchInput) {
+    topicSearchInput.addEventListener("input", (e) => {
+      const element = e.target;
+      const existingTimeout = searchTimeouts.get(element);
+      if (existingTimeout) {
+        clearTimeout(existingTimeout);
+      }
+
+      const timeout = setTimeout(() => {
+        handleTopicSearch(element.value);
+      }, SEARCH_DEBOUNCE_MS);
+
+      searchTimeouts.set(element, timeout);
+    });
+  }
 
   // Event delegation for topic cards (prevents memory leaks from repeated repopulation)
-  document.getElementById("topicPickerContent").addEventListener("click", (e) => {
-    const card = e.target.closest(".topic-card");
-    if (card) {
-      const topicId = card.dataset.topicId;
-      selectTopicAndStart(topicId);
-    }
-  });
+  const topicPickerContent = document.getElementById("topicPickerContent");
+  if (topicPickerContent) {
+    topicPickerContent.addEventListener("click", (e) => {
+      const card = e.target.closest(".topic-card");
+      if (card) {
+        const topicId = card.dataset.topicId;
+        selectTopicAndStart(topicId);
+      }
+    });
+  } else {
+    ErrorHandler.warn("Topic picker content container not found in DOM");
+  }
 
   // Filter button events
   document.querySelectorAll(".filter-btn").forEach((btn) => {
@@ -380,15 +444,26 @@ export function bindEvents() {
   });
 
   // Reload curated questions button
-  document.getElementById("reloadCurated").addEventListener("click", async () => {
-    const btn = document.getElementById("reloadCurated");
-    const originalText = btn.textContent;
-    btn.textContent = "Loading...";
-    btn.disabled = true;
+  const reloadCuratedBtn = document.getElementById("reloadCurated");
+  if (reloadCuratedBtn) {
+    reloadCuratedBtn.addEventListener("click", async () => {
+      const btn = reloadCuratedBtn;
+      const originalText = btn.textContent;
+      btn.textContent = "Loading...";
+      btn.disabled = true;
 
     try {
+      // Cancel previous request if exists
+      if (reloadCuratedController) {
+        reloadCuratedController.abort();
+      }
+
       // Reload the curated-questions.json file (secure JSON format)
-      const response = await fetch(getCuratedQuestionsUrl(true));
+      reloadCuratedController = new AbortController();
+      const response = await fetch(getCuratedQuestionsUrl(true), {
+        signal: reloadCuratedController.signal
+      });
+
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
@@ -427,6 +502,13 @@ export function bindEvents() {
         btn.disabled = false;
       }, RELOAD_SUCCESS_DISPLAY_MS);
     } catch (error) {
+      // Ignore abort errors - they're expected when cancelling
+      if (error.name === 'AbortError') {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        return;
+      }
+
       ErrorHandler.critical("Failed to reload curated questions", error);
       btn.textContent = "✗ Failed";
       setTimeout(() => {
@@ -434,5 +516,6 @@ export function bindEvents() {
         btn.disabled = false;
       }, RELOAD_SUCCESS_DISPLAY_MS);
     }
-  });
+    });
+  }
 }

@@ -341,11 +341,23 @@ export function rebuildQuestionBank() {
 }
 
 
+// AbortController for fetch requests
+let curatedQuestionsController = null;
+
 // Load curated questions from JSON
 // Returns true if successful, false if failed
 export async function loadCuratedQuestions() {
   try {
-    const response = await fetch(getCuratedQuestionsUrl(false));
+    // Cancel previous request if exists
+    if (curatedQuestionsController) {
+      curatedQuestionsController.abort();
+    }
+
+    curatedQuestionsController = new AbortController();
+    const response = await fetch(getCuratedQuestionsUrl(false), {
+      signal: curatedQuestionsController.signal
+    });
+
     if (!response.ok) {
       ErrorHandler.warn('Curated questions file not found - using generated questions only');
       window.curatedQuestions = {};
@@ -355,6 +367,10 @@ export async function loadCuratedQuestions() {
     window.curatedQuestions = data;
     return true;
   } catch (error) {
+    // Ignore abort errors - they're expected when cancelling
+    if (error.name === 'AbortError') {
+      return false;
+    }
     ErrorHandler.warn('Failed to load curated questions - using generated questions only', error);
     window.curatedQuestions = {};
     return false;
