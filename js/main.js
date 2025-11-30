@@ -1,7 +1,7 @@
 // Main entry point for Road Trip Trivia
 // This file orchestrates the initialization of all modules
 
-import { ErrorHandler } from './utils.js';
+import { ErrorHandler, ToastManager } from './utils.js';
 import {
   state,
   progress,
@@ -24,6 +24,12 @@ import {
 } from './ui.js';
 
 async function init() {
+  // Show loading state
+  document.body.classList.add('loading');
+
+  // Initialize toast notification system
+  ToastManager.init();
+
   // Load curated questions first (async)
   const curatedLoaded = await loadCuratedQuestions();
 
@@ -93,6 +99,9 @@ async function init() {
   if (controls) { controls.style.opacity = "1"; }
   if (board) { board.style.opacity = "1"; }
 
+  // Remove loading state
+  document.body.classList.remove('loading');
+
   // Check if there's a saved topic from last session
   const lastTopic = loadLastTopic();
   if (lastTopic && window.topicList.find((t) => t.id === lastTopic)) {
@@ -102,6 +111,16 @@ async function init() {
   } else {
     // First visit or invalid saved topic - show picker
     showTopicPicker();
+  }
+
+  // Register service worker for offline support
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('/service-worker.js');
+      console.log('Service Worker registered successfully');
+    } catch (error) {
+      console.warn('Service Worker registration failed:', error);
+    }
   }
 }
 
