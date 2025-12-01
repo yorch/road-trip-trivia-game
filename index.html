@@ -17,6 +17,7 @@
           <p class="topic-picker-lede">Pick any topic to start your trivia journey</p>
         </div>
         <div class="picker-header-actions">
+          <button class="pill ghost" id="viewCuratedList" aria-label="View curated questions list">📋 Curated List</button>
           <button class="pill ghost" id="reloadCurated" aria-label="Reload curated questions">↻ Reload</button>
           <button class="pill ghost" id="closePicker" aria-label="Close topic picker">Close</button>
         </div>
@@ -34,6 +35,24 @@
       </div>
       <div class="topic-picker-content" id="topicPickerContent">
         <!-- Topics will be populated here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Curated Questions List Modal -->
+  <div class="topic-picker-overlay hidden" id="curatedListModal" role="dialog" aria-modal="true" aria-labelledby="curatedListTitle">
+    <div class="topic-picker curated-list-dialog">
+      <div class="topic-picker-header">
+        <div>
+          <h2 id="curatedListTitle">Curated Questions</h2>
+          <p class="topic-picker-lede">Topics with curated factual questions</p>
+        </div>
+        <div class="picker-header-actions">
+          <button class="pill ghost" id="closeCuratedList" aria-label="Close curated list">Close</button>
+        </div>
+      </div>
+      <div class="curated-list-content" id="curatedListContent">
+        <p class="loading-message">Loading curated questions data...</p>
       </div>
     </div>
   </div>

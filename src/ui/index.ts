@@ -1,6 +1,7 @@
 // UI barrel export for Road Trip Trivia
 // Maintains backward compatibility while organizing code into focused modules
 
+export * from './curated-list-dialog';
 export * from './event-handlers';
 export * from './question-flow';
 // Re-export all public APIs from submodules

@@ -17,6 +17,10 @@ import {
   RELOAD_SUCCESS_DISPLAY_MS,
 } from '../utils';
 import {
+  setupCuratedListEvents,
+  showCuratedListDialog,
+} from './curated-list-dialog';
+import {
   markCorrect,
   nextQuestion,
   resetProgress,
@@ -175,6 +179,15 @@ export function bindEvents(): void {
 
   // Setup topic picker click delegation from topic-picker module
   setupTopicPickerEvents();
+
+  // Setup curated list dialog events
+  setupCuratedListEvents();
+
+  // View curated list button
+  const viewCuratedListBtn = document.getElementById('viewCuratedList');
+  if (viewCuratedListBtn) {
+    viewCuratedListBtn.addEventListener('click', showCuratedListDialog);
+  }
 
   // Filter button events
   document.querySelectorAll('.filter-btn').forEach((btn) => {
