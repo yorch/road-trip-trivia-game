@@ -1,6 +1,14 @@
-const difficulties = ['easy', 'medium', 'hard'];
+import type {
+  AnswerExamples,
+  CategoryAngles,
+  Difficulty,
+  TemplateSet,
+  Topic,
+} from '../types';
 
-const topicList = [
+const difficulties: Difficulty[] = ['easy', 'medium', 'hard'];
+
+const topicList: Topic[] = [
   {
     id: 'star-wars',
     name: 'Star Wars',
@@ -459,7 +467,7 @@ const topicList = [
   },
 ];
 
-const categoryAngles = {
+const categoryAngles: CategoryAngles = {
   'Movies & TV': [
     'iconic scene',
     'quote',
@@ -527,7 +535,7 @@ const categoryAngles = {
   ],
 };
 
-const promptTemplates = {
+const promptTemplates: TemplateSet = {
   easy: [
     // Recognition-based (10)
     "What's a famous {angle} from {topic}?",
@@ -592,7 +600,7 @@ const promptTemplates = {
   ],
 };
 
-const answerTemplates = {
+const answerTemplates: TemplateSet = {
   easy: [
     '{angle} (classic pick).',
     '{angle} is a safe bet.',
@@ -614,7 +622,7 @@ const answerTemplates = {
 // Curated questions are loaded from curated-questions.js (declared as var there)
 
 // Answer examples with real facts for common angles
-const answerExamples = {
+const answerExamples: AnswerExamples = {
   lotr: {
     author: [
       'J.R.R. Tolkien - philologist and professor',

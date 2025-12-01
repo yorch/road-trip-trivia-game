@@ -1,5 +1,12 @@
 // UI rendering and DOM manipulation for Road Trip Trivia
 
+import type {
+  CuratedQuestions,
+  Difficulty,
+  Question,
+  QuestionMode,
+  Topic,
+} from '../types';
 import {
   getOrCalculateCuratedCounts,
   getOrCreateQuestions,
@@ -12,7 +19,7 @@ import {
   saveProgress,
   saveQuestionMode,
   state,
-} from './state.js';
+} from './state';
 
 import {
   ErrorHandler,
@@ -24,54 +31,65 @@ import {
   RELOAD_SUCCESS_DISPLAY_MS,
   SEARCH_DEBOUNCE_MS,
   shuffleIndices,
-} from './utils.js';
+} from './utils';
 
 // AbortController for reload curated questions fetch
-let reloadCuratedController = null;
+let reloadCuratedController: AbortController | null = null;
 
 // Timeout for reload button state reset
-let reloadButtonTimeout = null;
+let reloadButtonTimeout: number | null = null;
 
 // WeakMap for element-specific search debounce timeouts
-const searchTimeouts = new WeakMap();
+const searchTimeouts = new WeakMap<HTMLElement, number>();
 
 // Track focus for modal accessibility
-let previousFocus = null;
+let previousFocus: Element | null = null;
 
 // Track last mode change for better debouncing
-let lastModeChange = { type: null, timestamp: 0 };
+let lastModeChange: { type: string | null; timestamp: number } = {
+  type: null,
+  timestamp: 0,
+};
 
 // Update difficulty buttons
-export function updateDifficultyButtons() {
+export function updateDifficultyButtons(): void {
   document.querySelectorAll('.difficulty').forEach((btn) => {
-    btn.classList.toggle('active', btn.dataset.difficulty === state.difficulty);
+    btn.classList.toggle(
+      'active',
+      (btn as HTMLElement).dataset.difficulty === state.difficulty,
+    );
   });
 }
 
 // Update question mode buttons
-export function updateQuestionModeButtons() {
+export function updateQuestionModeButtons(): void {
   document.querySelectorAll('.question-mode').forEach((btn) => {
-    btn.classList.toggle('active', btn.dataset.mode === state.questionMode);
+    btn.classList.toggle(
+      'active',
+      (btn as HTMLElement).dataset.mode === state.questionMode,
+    );
   });
 }
 
 // Render end state (no questions or all used up)
-export function renderEndState(title, message) {
+export function renderEndState(title: string, message: string): void {
   const cardEl = document.querySelector('.card');
-  const nextEl = document.querySelector('.next');
+  const nextEl = document.querySelector('.next') as HTMLElement;
   const answerEl = document.getElementById('cardAnswer');
 
-  cardEl.classList.add('card-complete');
-  nextEl.style.display = 'none';
-  answerEl.classList.remove('visible');
+  if (cardEl) cardEl.classList.add('card-complete');
+  if (nextEl) nextEl.style.display = 'none';
+  if (answerEl) answerEl.classList.remove('visible');
 
-  document.getElementById('cardTitle').textContent = title;
-  document.getElementById('cardBody').textContent = message;
+  const cardTitle = document.getElementById('cardTitle');
+  const cardBody = document.getElementById('cardBody');
+  if (cardTitle) cardTitle.textContent = title;
+  if (cardBody) cardBody.textContent = message;
 }
 
 // Render a question card
-export function renderCard(question) {
-  const topic = window.topicList.find((t) => t.id === state.topicId);
+export function renderCard(question: Question): void {
+  const topic = window.topicList.find((t: Topic) => t.id === state.topicId);
 
   // Safety check: if topic not found, reset to first topic
   if (!topic) {
@@ -98,26 +116,38 @@ export function renderCard(question) {
   }
 
   const cardEl = document.querySelector('.card');
-  const nextEl = document.querySelector('.next');
+  const nextEl = document.querySelector('.next') as HTMLElement;
 
   // Remove end-state class and show next button for regular questions
-  cardEl.classList.remove('card-complete');
-  nextEl.style.display = 'flex';
+  if (cardEl) cardEl.classList.remove('card-complete');
+  if (nextEl) nextEl.style.display = 'flex';
 
-  document.getElementById('cardTopic').textContent =
-    `${topic.name} • ${topic.category}`;
-  document.getElementById('cardDifficulty').textContent =
-    state.difficulty.charAt(0).toUpperCase() + state.difficulty.slice(1);
-  document.getElementById('cardTitle').textContent = question.prompt;
-  document.getElementById('cardMeta').textContent = `Angle: ${question.angle}`;
-  document.getElementById('cardBody').textContent =
-    'Give a short, precise answer, then reveal.';
-  document.getElementById('answerText').textContent = question.answer;
+  const cardTopic = document.getElementById('cardTopic');
+  const cardDifficulty = document.getElementById('cardDifficulty');
+  const cardTitle = document.getElementById('cardTitle');
+  const cardMeta = document.getElementById('cardMeta');
+  const cardBody = document.getElementById('cardBody');
+  const answerText = document.getElementById('answerText');
+
+  if (cardTopic) cardTopic.textContent = `${topic.name} • ${topic.category}`;
+  if (cardDifficulty)
+    cardDifficulty.textContent =
+      state.difficulty.charAt(0).toUpperCase() + state.difficulty.slice(1);
+  if (cardTitle) cardTitle.textContent = question.prompt;
+  if (cardMeta) cardMeta.textContent = `Angle: ${question.angle}`;
+  if (cardBody)
+    cardBody.textContent = 'Give a short, precise answer, then reveal.';
+  if (answerText) answerText.textContent = question.answer;
   toggleAnswer(false);
 }
 
 // Get next question
-export function nextQuestion() {
+export function nextQuestion(): void {
+  if (!state.topicId) {
+    ErrorHandler.critical('No topic selected');
+    return;
+  }
+
   const prog = getProgress(state.topicId, state.difficulty);
   // Lazy load: get or create questions for current topic/difficulty/mode
   const bank = getOrCreateQuestions(
@@ -173,56 +203,62 @@ export function nextQuestion() {
 }
 
 // Toggle answer visibility
-export function toggleAnswer(forceVisible) {
+export function toggleAnswer(forceVisible?: boolean): void {
   const answerEl = document.getElementById('cardAnswer');
   const show =
     typeof forceVisible === 'boolean' ? forceVisible : !state.revealed;
   state.revealed = show;
-  answerEl.classList.toggle('visible', show);
-  document.getElementById('toggleAnswer').textContent = show
-    ? 'Hide answer'
-    : 'Show answer';
+  if (answerEl) answerEl.classList.toggle('visible', show);
+
+  const toggleAnswerBtn = document.getElementById('toggleAnswer');
+  if (toggleAnswerBtn) {
+    toggleAnswerBtn.textContent = show ? 'Hide answer' : 'Show answer';
+  }
 }
 
 // Mark answer as correct
-export function markCorrect() {
+export function markCorrect(): void {
   state.score += 1;
   state.streak += 1;
   nextQuestion();
 }
 
 // Skip question
-export function skipQuestion() {
+export function skipQuestion(): void {
   state.streak = 0;
   nextQuestion();
 }
 
 // Reset progress
-export function resetProgress() {
+export function resetProgress(): void {
   resetProgressAll();
   nextQuestion();
 }
 
 // Populate topic picker
-export async function populateTopicPicker(filterMode = 'all') {
+export async function populateTopicPicker(
+  filterMode: 'all' | 'curated' = 'all',
+): Promise<void> {
   const container = document.getElementById('topicPickerContent');
+  if (!container) return;
+
   const categories = [
-    ...new Set(window.topicList.map((t) => t.category)),
-  ].sort();
+    ...new Set(window.topicList.map((t: Topic) => t.category)),
+  ].sort() as string[];
 
   // Use atomic cache operation to prevent race conditions
   const curatedCounts = await getOrCalculateCuratedCounts();
 
   container.innerHTML = categories
-    .map((category) => {
+    .map((category: string) => {
       let categoryTopics = window.topicList.filter(
-        (t) => t.category === category,
+        (t: Topic) => t.category === category,
       );
 
       // Filter by curated if needed (using cached counts)
       if (filterMode === 'curated') {
         categoryTopics = categoryTopics.filter(
-          (t) => curatedCounts.get(t.id) > 0,
+          (t: Topic) => (curatedCounts.get(t.id) || 0) > 0,
         );
       }
 
@@ -237,7 +273,7 @@ export async function populateTopicPicker(filterMode = 'all') {
         </div>
         <div class="topic-grid">
           ${categoryTopics
-            .map((topic) => {
+            .map((topic: Topic) => {
               const curatedCount = curatedCounts.get(topic.id) || 0;
               const hasCurated = curatedCount > 0;
               return `
@@ -272,7 +308,7 @@ export async function populateTopicPicker(filterMode = 'all') {
 }
 
 // Select topic and start
-export function selectTopicAndStart(topicId) {
+export function selectTopicAndStart(topicId: string): void {
   state.topicId = topicId;
   state.streak = 0;
   saveLastTopic(topicId);
@@ -281,16 +317,20 @@ export function selectTopicAndStart(topicId) {
 }
 
 // Focus trap for modal accessibility
-function trapFocus(e) {
+function trapFocus(e: KeyboardEvent): void {
   if (e.key !== 'Tab') return;
 
   const modal = document.getElementById('topicPicker');
+  if (!modal) return;
+
   const focusableElements = modal.querySelectorAll(
     'button:not([disabled]), input:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
   );
 
-  const firstFocusable = focusableElements[0];
-  const lastFocusable = focusableElements[focusableElements.length - 1];
+  const firstFocusable = focusableElements[0] as HTMLElement;
+  const lastFocusable = focusableElements[
+    focusableElements.length - 1
+  ] as HTMLElement;
 
   if (e.shiftKey && document.activeElement === firstFocusable) {
     e.preventDefault();
@@ -302,23 +342,27 @@ function trapFocus(e) {
 }
 
 // Show topic picker
-export function showTopicPicker() {
+export function showTopicPicker(): void {
   previousFocus = document.activeElement;
   const modal = document.getElementById('topicPicker');
-  modal.classList.remove('hidden');
+  if (modal) {
+    modal.classList.remove('hidden');
 
-  // Move focus to search input
-  const searchInput = document.getElementById('topicSearch');
-  if (searchInput) {
-    searchInput.focus();
+    // Move focus to search input
+    const searchInput = document.getElementById(
+      'topicSearch',
+    ) as HTMLInputElement;
+    if (searchInput) {
+      searchInput.focus();
+    }
+
+    // Add focus trap and escape key handler
+    modal.addEventListener('keydown', trapFocus);
   }
-
-  // Add focus trap and escape key handler
-  modal.addEventListener('keydown', trapFocus);
 }
 
 // Hide topic picker
-export function hideTopicPicker() {
+export function hideTopicPicker(): void {
   const modal = document.getElementById('topicPicker');
 
   // Clear search timeout if picker is being hidden
@@ -331,24 +375,26 @@ export function hideTopicPicker() {
     }
   }
 
-  modal.classList.add('hidden');
-  modal.removeEventListener('keydown', trapFocus);
+  if (modal) {
+    modal.classList.add('hidden');
+    modal.removeEventListener('keydown', trapFocus);
+  }
 
   // Restore focus to element that opened modal
-  if (previousFocus) {
-    previousFocus.focus();
+  if (previousFocus && 'focus' in previousFocus) {
+    (previousFocus as HTMLElement).focus();
     previousFocus = null;
   }
 }
 
 // Handle topic search
-export function handleTopicSearch(searchTerm) {
+export function handleTopicSearch(searchTerm: string): void {
   const term = searchTerm.toLowerCase();
   const allCards = document.querySelectorAll('.topic-card');
   const allCategories = document.querySelectorAll('.topic-category');
 
   allCards.forEach((card) => {
-    const topicName = card.dataset.topicName;
+    const topicName = (card as HTMLElement).dataset.topicName || '';
     const matches = topicName.includes(term);
     card.classList.toggle('hidden', !matches);
   });
@@ -356,12 +402,13 @@ export function handleTopicSearch(searchTerm) {
   // Hide categories with no visible topics
   allCategories.forEach((category) => {
     const visibleCards = category.querySelectorAll('.topic-card:not(.hidden)');
-    category.style.display = visibleCards.length > 0 ? 'block' : 'none';
+    (category as HTMLElement).style.display =
+      visibleCards.length > 0 ? 'block' : 'none';
   });
 }
 
 // Bind all event listeners
-export function bindEvents() {
+export function bindEvents(): void {
   document.querySelectorAll('.difficulty').forEach((btn) => {
     btn.addEventListener('click', () => {
       // Prevent race conditions from rapid clicking of same type
@@ -375,7 +422,8 @@ export function bindEvents() {
       }
 
       lastModeChange = { type: 'difficulty', timestamp: now };
-      state.difficulty = btn.dataset.difficulty;
+      const difficulty = (btn as HTMLElement).dataset.difficulty as Difficulty;
+      state.difficulty = difficulty;
       state.streak = 0;
       saveDifficulty(state.difficulty);
       updateDifficultyButtons();
@@ -396,7 +444,8 @@ export function bindEvents() {
       }
 
       lastModeChange = { type: 'questionMode', timestamp: now };
-      state.questionMode = btn.dataset.mode;
+      const mode = (btn as HTMLElement).dataset.mode as QuestionMode;
+      state.questionMode = mode;
       state.streak = 0;
       saveQuestionMode(state.questionMode);
       updateQuestionModeButtons();
@@ -439,8 +488,8 @@ export function bindEvents() {
   const randomTopicBtn = document.getElementById('randomTopic');
   if (randomTopicBtn) {
     randomTopicBtn.addEventListener('click', () => {
-      const random =
-        window.topicList[Math.floor(Math.random() * window.topicList.length)];
+      const topicList = window.topicList as Topic[];
+      const random = topicList[Math.floor(Math.random() * topicList.length)];
       state.topicId = random.id;
       state.streak = 0;
       saveLastTopic(random.id);
@@ -479,23 +528,25 @@ export function bindEvents() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       const picker = document.getElementById('topicPicker');
-      if (!picker.classList.contains('hidden')) {
+      if (picker && !picker.classList.contains('hidden')) {
         hideTopicPicker();
       }
     }
   });
 
   // Debounced search to avoid running on every keystroke
-  const topicSearchInput = document.getElementById('topicSearch');
+  const topicSearchInput = document.getElementById(
+    'topicSearch',
+  ) as HTMLInputElement;
   if (topicSearchInput) {
     topicSearchInput.addEventListener('input', (e) => {
-      const element = e.target;
+      const element = e.target as HTMLInputElement;
       const existingTimeout = searchTimeouts.get(element);
       if (existingTimeout) {
         clearTimeout(existingTimeout);
       }
 
-      const timeout = setTimeout(() => {
+      const timeout = window.setTimeout(() => {
         handleTopicSearch(element.value);
       }, SEARCH_DEBOUNCE_MS);
 
@@ -507,10 +558,12 @@ export function bindEvents() {
   const topicPickerContent = document.getElementById('topicPickerContent');
   if (topicPickerContent) {
     topicPickerContent.addEventListener('click', (e) => {
-      const card = e.target.closest('.topic-card');
+      const card = (e.target as HTMLElement).closest(
+        '.topic-card',
+      ) as HTMLElement;
       if (card) {
         const topicId = card.dataset.topicId;
-        selectTopicAndStart(topicId);
+        if (topicId) selectTopicAndStart(topicId);
       }
     });
   } else {
@@ -527,17 +580,21 @@ export function bindEvents() {
       btn.classList.add('active');
 
       // Repopulate with filter
-      const filterMode = btn.dataset.filter;
+      const filterMode = ((btn as HTMLElement).dataset.filter || 'all') as
+        | 'all'
+        | 'curated';
       populateTopicPicker(filterMode);
     });
   });
 
   // Reload curated questions button
-  const reloadCuratedBtn = document.getElementById('reloadCurated');
+  const reloadCuratedBtn = document.getElementById(
+    'reloadCurated',
+  ) as HTMLButtonElement;
   if (reloadCuratedBtn) {
     reloadCuratedBtn.addEventListener('click', async () => {
       const btn = reloadCuratedBtn;
-      const originalText = btn.textContent;
+      const originalText = btn.textContent || '';
       btn.textContent = 'Loading...';
       btn.disabled = true;
 
@@ -564,7 +621,7 @@ export function bindEvents() {
         }
 
         // Parse JSON safely - no code execution risk
-        const data = await response.json();
+        const data: CuratedQuestions = await response.json();
 
         // Validate basic structure
         if (!data || typeof data !== 'object') {
@@ -578,8 +635,11 @@ export function bindEvents() {
         resetCuratedCountsCache();
 
         // Repopulate the picker with updated data
-        const activeBtn = document.querySelector('.filter-btn.active');
-        const activeFilter = activeBtn?.dataset.filter || QUESTION_MODES.ALL;
+        const activeBtn = document.querySelector(
+          '.filter-btn.active',
+        ) as HTMLElement;
+        const activeFilter = (activeBtn?.dataset.filter ||
+          QUESTION_MODES.ALL) as 'all' | 'curated';
         populateTopicPicker(activeFilter);
 
         // Rebuild question bank to incorporate new curated questions
@@ -592,22 +652,25 @@ export function bindEvents() {
 
         btn.textContent = '✓ Reloaded';
         ErrorHandler.success('Curated questions reloaded successfully');
-        reloadButtonTimeout = setTimeout(() => {
+        reloadButtonTimeout = window.setTimeout(() => {
           btn.textContent = originalText;
           btn.disabled = false;
           reloadButtonTimeout = null;
         }, RELOAD_SUCCESS_DISPLAY_MS);
       } catch (error) {
         // Ignore abort errors - they're expected when cancelling
-        if (error.name === 'AbortError') {
+        if (error instanceof Error && error.name === 'AbortError') {
           btn.textContent = originalText;
           btn.disabled = false;
           return;
         }
 
-        ErrorHandler.critical('Failed to reload curated questions', error);
+        ErrorHandler.critical(
+          'Failed to reload curated questions',
+          error instanceof Error ? error : new Error(String(error)),
+        );
         btn.textContent = '✗ Failed';
-        reloadButtonTimeout = setTimeout(() => {
+        reloadButtonTimeout = window.setTimeout(() => {
           btn.textContent = originalText;
           btn.disabled = false;
           reloadButtonTimeout = null;

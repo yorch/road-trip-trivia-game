@@ -1,6 +1,18 @@
 // State management for Road Trip Trivia
 
-import { signal } from '@preact/signals-core';
+import { type Signal, signal } from '@preact/signals-core';
+import type {
+  CuratedQuestions,
+  Difficulty,
+  Progress,
+  ProgressData,
+  Question,
+  QuestionBank,
+  QuestionMode,
+  ScoreboardData,
+  State,
+  Topic,
+} from '../types';
 import {
   buildAngles,
   DIFFICULTY_LEVELS,
@@ -10,65 +22,67 @@ import {
   MAX_SEED_VALUE,
   QUESTION_MODES,
   shuffleIndices,
-} from './utils.js';
+} from './utils';
 
 // Reactive signals for scoreboard (automatically update UI)
-export const scoreSignal = signal(0);
-export const streakSignal = signal(0);
-export const askedSignal = signal(0);
+export const scoreSignal: Signal<number> = signal(0);
+export const streakSignal: Signal<number> = signal(0);
+export const askedSignal: Signal<number> = signal(0);
 
 // Global state with reactive properties
-export const state = {
+export const state: State = {
   topicId: null,
   difficulty: DIFFICULTY_LEVELS.EASY,
   questionMode: QUESTION_MODES.ALL,
   // Use getters/setters to sync with signals for backward compatibility
-  get score() {
+  get score(): number {
     return scoreSignal.value;
   },
-  set score(val) {
+  set score(val: number) {
     scoreSignal.value = val;
   },
-  get streak() {
+  get streak(): number {
     return streakSignal.value;
   },
-  set streak(val) {
+  set streak(val: number) {
     streakSignal.value = val;
   },
-  get asked() {
+  get asked(): number {
     return askedSignal.value;
   },
-  set asked(val) {
+  set asked(val: number) {
     askedSignal.value = val;
   },
   revealed: false,
 };
 
 // Progress tracking
-export const progress = {};
+export const progress: ProgressData = {};
 
 // Question bank storage
-export let questionBank = {};
+export let questionBank: QuestionBank = {};
 
 // Global cache for curated question counts
-let _globalCuratedCounts = null;
-let _calculationPromise = null;
+let _globalCuratedCounts: Map<string, number> | null = null;
+let _calculationPromise: Promise<Map<string, number>> | null = null;
 
-export function getCuratedCountsCache() {
+export function getCuratedCountsCache(): Map<string, number> | null {
   return _globalCuratedCounts;
 }
 
-export function setCuratedCountsCache(cache) {
+export function setCuratedCountsCache(cache: Map<string, number>): void {
   _globalCuratedCounts = cache;
 }
 
-export function resetCuratedCountsCache() {
+export function resetCuratedCountsCache(): void {
   _globalCuratedCounts = null;
   _calculationPromise = null;
 }
 
 // Atomic operation to get or calculate curated counts
-export async function getOrCalculateCuratedCounts() {
+export async function getOrCalculateCuratedCounts(): Promise<
+  Map<string, number>
+> {
   // Return cached value if available
   if (_globalCuratedCounts) {
     return _globalCuratedCounts;
@@ -80,11 +94,11 @@ export async function getOrCalculateCuratedCounts() {
   }
 
   // Start new calculation
-  _calculationPromise = (async () => {
+  _calculationPromise = (async (): Promise<Map<string, number>> => {
     try {
-      const curatedCounts = new Map();
+      const curatedCounts = new Map<string, number>();
 
-      window.topicList.forEach((topic) => {
+      window.topicList.forEach((topic: Topic) => {
         let count = 0;
         if (
           typeof window.curatedQuestions !== 'undefined' &&
@@ -113,16 +127,16 @@ export async function getOrCalculateCuratedCounts() {
 }
 
 export const globalCuratedCounts = {
-  get value() {
+  get value(): Map<string, number> | null {
     return _globalCuratedCounts;
   },
-  set value(val) {
+  set value(val: Map<string, number> | null) {
     _globalCuratedCounts = val;
   },
 };
 
 // LocalStorage helpers
-export function saveLastTopic(topicId) {
+export function saveLastTopic(topicId: string): void {
   try {
     localStorage.setItem('lastTopicId', topicId);
   } catch (e) {
@@ -130,7 +144,7 @@ export function saveLastTopic(topicId) {
   }
 }
 
-export function loadLastTopic() {
+export function loadLastTopic(): string | null {
   try {
     return localStorage.getItem('lastTopicId');
   } catch (_e) {
@@ -138,7 +152,7 @@ export function loadLastTopic() {
   }
 }
 
-export function clearLastTopic() {
+export function clearLastTopic(): void {
   try {
     localStorage.removeItem('lastTopicId');
   } catch (e) {
@@ -146,7 +160,7 @@ export function clearLastTopic() {
   }
 }
 
-export function saveProgress() {
+export function saveProgress(): void {
   try {
     localStorage.setItem('questionProgress', JSON.stringify(progress));
   } catch (e) {
@@ -157,13 +171,13 @@ export function saveProgress() {
   }
 }
 
-export function loadProgress() {
+export function loadProgress(): ProgressData {
   try {
     const saved = localStorage.getItem('questionProgress');
-    const loaded = saved ? JSON.parse(saved) : {};
+    const loaded: ProgressData = saved ? JSON.parse(saved) : {};
 
     // Validate and clean progress - remove topics that no longer exist
-    const validTopicIds = new Set(window.topicList.map((t) => t.id));
+    const validTopicIds = new Set(window.topicList.map((t: Topic) => t.id));
     Object.keys(loaded).forEach((topicId) => {
       if (!validTopicIds.has(topicId)) {
         delete loaded[topicId];
@@ -176,7 +190,7 @@ export function loadProgress() {
   }
 }
 
-export function clearProgress() {
+export function clearProgress(): void {
   try {
     localStorage.removeItem('questionProgress');
   } catch (e) {
@@ -184,7 +198,7 @@ export function clearProgress() {
   }
 }
 
-export function saveQuestionMode(mode) {
+export function saveQuestionMode(mode: QuestionMode): void {
   try {
     localStorage.setItem('questionMode', mode);
   } catch (e) {
@@ -192,17 +206,22 @@ export function saveQuestionMode(mode) {
   }
 }
 
-export function loadQuestionMode() {
+export function loadQuestionMode(): QuestionMode {
   try {
     const saved = localStorage.getItem('questionMode');
-    const validModes = [QUESTION_MODES.ALL, QUESTION_MODES.CURATED];
-    return validModes.includes(saved) ? saved : QUESTION_MODES.ALL;
+    const validModes: QuestionMode[] = [
+      QUESTION_MODES.ALL,
+      QUESTION_MODES.CURATED,
+    ];
+    return validModes.includes(saved as QuestionMode)
+      ? (saved as QuestionMode)
+      : QUESTION_MODES.ALL;
   } catch (_e) {
     return QUESTION_MODES.ALL;
   }
 }
 
-export function saveDifficulty(difficulty) {
+export function saveDifficulty(difficulty: Difficulty): void {
   try {
     localStorage.setItem('difficulty', difficulty);
   } catch (e) {
@@ -210,20 +229,22 @@ export function saveDifficulty(difficulty) {
   }
 }
 
-export function loadDifficulty() {
+export function loadDifficulty(): Difficulty {
   try {
     const saved = localStorage.getItem('difficulty');
-    return window.difficulties.includes(saved) ? saved : DIFFICULTY_LEVELS.EASY;
+    return window.difficulties.includes(saved)
+      ? (saved as Difficulty)
+      : DIFFICULTY_LEVELS.EASY;
   } catch (_e) {
     return DIFFICULTY_LEVELS.EASY;
   }
 }
 
-export function loadScoreboard() {
+export function loadScoreboard(): void {
   try {
     const saved = localStorage.getItem('scoreboard');
     if (saved) {
-      const data = JSON.parse(saved);
+      const data: ScoreboardData = JSON.parse(saved);
       state.score = data.score || 0;
       state.streak = data.streak || 0;
       state.asked = data.asked || 0;
@@ -234,7 +255,7 @@ export function loadScoreboard() {
 }
 
 // Get or create progress for a topic/difficulty
-export function getProgress(topicId, difficulty) {
+export function getProgress(topicId: string, difficulty: Difficulty): Progress {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
     // Lazy load: create questions only when needed
@@ -283,7 +304,7 @@ export function getProgress(topicId, difficulty) {
 }
 
 // Reset progress for all topics
-export function resetProgressAll() {
+export function resetProgressAll(): void {
   // Safety check: ensure difficulties are loaded
   if (!window.difficulties || !Array.isArray(window.difficulties)) {
     ErrorHandler.critical('Difficulties not loaded - cannot reset progress');
@@ -292,7 +313,7 @@ export function resetProgressAll() {
 
   // Don't pre-generate questions during reset - just mark for lazy reshuffle
   Object.keys(progress).forEach((topicId) => {
-    window.difficulties.forEach((diff) => {
+    window.difficulties.forEach((diff: Difficulty) => {
       if (progress[topicId][diff]) {
         // Mark progress as needing reshuffle instead of generating questions now
         progress[topicId][diff].cursor = 0;
@@ -307,7 +328,11 @@ export function resetProgressAll() {
 }
 
 // Lazy loading: Only generate questions when needed for a specific topic/difficulty/mode
-export function getOrCreateQuestions(topicId, difficulty, mode) {
+export function getOrCreateQuestions(
+  topicId: string,
+  difficulty: Difficulty,
+  mode: QuestionMode,
+): Question[] {
   // Ensure topic exists in question bank
   if (!questionBank[topicId]) {
     questionBank[topicId] = {};
@@ -318,7 +343,7 @@ export function getOrCreateQuestions(topicId, difficulty, mode) {
 
   // Lazily create questions for this difficulty and mode if not already created
   if (!questionBank[topicId][cacheKey]) {
-    const topic = window.topicList.find((t) => t.id === topicId);
+    const topic = window.topicList.find((t: Topic) => t.id === topicId);
     if (topic) {
       questionBank[topicId][cacheKey] = createQuestions(
         topic,
@@ -335,11 +360,15 @@ export function getOrCreateQuestions(topicId, difficulty, mode) {
 }
 
 // Create questions for a topic
-function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
+function createQuestions(
+  topic: Topic,
+  difficulty: Difficulty,
+  mode: QuestionMode = QUESTION_MODES.ALL,
+): Question[] {
   const prompts = window.promptTemplates[difficulty];
   const answers = window.answerTemplates[difficulty];
   const allAngles = buildAngles(topic);
-  const bank = [];
+  const bank: Question[] = [];
 
   // Get curated questions if available (with safety check for curatedQuestions global)
   const curated =
@@ -354,8 +383,8 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
   }
 
   // Add curated questions first
-  curated.forEach((cq) => {
-    bank.push({ prompt: cq.q, answer: cq.a, angle: cq.angle });
+  curated.forEach((cq: CuratedQuestion) => {
+    bank.push({ prompt: cq.q, answer: cq.a, angle: cq.angle, difficulty });
   });
 
   // If curated-only mode, return only curated questions
@@ -384,28 +413,30 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
     );
 
     // Use real answer examples if available for this angle
-    let answer;
+    let answer: string;
     if (examples[angle] && examples[angle].length > 0) {
       answer = examples[angle][i % examples[angle].length];
     } else {
       answer = fillTemplate(answers[i % answers.length], topic.name, angle, i);
     }
 
-    bank.push({ prompt, answer, angle });
+    bank.push({ prompt, answer, angle, difficulty });
   }
 
   return bank;
 }
 
 // Rebuild question bank (clears cache)
-export function rebuildQuestionBank() {
+export function rebuildQuestionBank(): void {
   // Clear question bank - questions will be lazily regenerated with new mode
   questionBank = {};
   // Mark current topic's progress for reshuffle instead of deleting
   // This preserves the cursor position so users don't restart at question #1
-  if (progress[state.topicId]) {
+  if (state.topicId && progress[state.topicId]) {
     Object.keys(progress[state.topicId]).forEach((difficulty) => {
-      progress[state.topicId][difficulty].needsReshuffle = true;
+      if (state.topicId) {
+        progress[state.topicId][difficulty].needsReshuffle = true;
+      }
       // Don't reset cursor - let user continue from same position
     });
   }
@@ -413,11 +444,11 @@ export function rebuildQuestionBank() {
 }
 
 // AbortController for fetch requests
-let curatedQuestionsController = null;
+let curatedQuestionsController: AbortController | null = null;
 
 // Load curated questions from JSON
 // Returns true if successful, false if failed
-export async function loadCuratedQuestions() {
+export async function loadCuratedQuestions(): Promise<boolean> {
   try {
     // Cancel previous request if exists
     if (curatedQuestionsController) {
@@ -436,17 +467,17 @@ export async function loadCuratedQuestions() {
       window.curatedQuestions = {};
       return false;
     }
-    const data = await response.json();
+    const data: CuratedQuestions = await response.json();
     window.curatedQuestions = data;
     return true;
   } catch (error) {
     // Ignore abort errors - they're expected when cancelling
-    if (error.name === 'AbortError') {
+    if (error instanceof Error && error.name === 'AbortError') {
       return false;
     }
     ErrorHandler.warn(
       'Failed to load curated questions - using generated questions only',
-      error,
+      error instanceof Error ? error : new Error(String(error)),
     );
     window.curatedQuestions = {};
     return false;

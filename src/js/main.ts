@@ -12,7 +12,8 @@ import {
   difficulties,
   promptTemplates,
   topicList,
-} from '../data/data.js';
+} from '../data/data';
+import type { ScoreboardData } from '../types';
 import {
   askedSignal,
   loadCuratedQuestions,
@@ -25,7 +26,7 @@ import {
   scoreSignal,
   state,
   streakSignal,
-} from './state.js';
+} from './state';
 import {
   bindEvents,
   nextQuestion,
@@ -33,13 +34,13 @@ import {
   showTopicPicker,
   updateDifficultyButtons,
   updateQuestionModeButtons,
-} from './ui.js';
-import { ErrorHandler, ToastManager } from './utils.js';
+} from './ui';
+import { ErrorHandler, ToastManager } from './utils';
 
 // Track if localStorage warning has been shown this session
 let localStorageWarningShown = false;
 
-async function init() {
+async function init(): Promise<void> {
   // Show loading state
   document.body.classList.add('loading');
 
@@ -50,21 +51,21 @@ async function init() {
   effect(() => {
     const scoreEl = document.getElementById('scoreValue');
     if (scoreEl) {
-      scoreEl.textContent = scoreSignal.value;
+      scoreEl.textContent = String(scoreSignal.value);
     }
   });
 
   effect(() => {
     const streakEl = document.getElementById('streakValue');
     if (streakEl) {
-      streakEl.textContent = streakSignal.value;
+      streakEl.textContent = String(streakSignal.value);
     }
   });
 
   effect(() => {
     const askedEl = document.getElementById('askedValue');
     if (askedEl) {
-      askedEl.textContent = askedSignal.value;
+      askedEl.textContent = String(askedSignal.value);
     }
   });
 
@@ -75,10 +76,8 @@ async function init() {
     const asked = askedSignal.value;
 
     try {
-      localStorage.setItem(
-        'scoreboard',
-        JSON.stringify({ score, streak, asked }),
-      );
+      const scoreboardData: ScoreboardData = { score, streak, asked };
+      localStorage.setItem('scoreboard', JSON.stringify(scoreboardData));
       localStorageWarningShown = false; // Reset on success
     } catch (e) {
       // Only show warning once per session to avoid toast spam
@@ -113,8 +112,8 @@ async function init() {
     { name: 'answerExamples', data: answerExamples, type: 'object' },
   ];
 
-  const missing = [];
-  const invalid = [];
+  const missing: string[] = [];
+  const invalid: string[] = [];
 
   requiredData.forEach(({ name, data, type }) => {
     if (typeof data === 'undefined') {

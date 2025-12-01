@@ -1,5 +1,7 @@
 // Utility functions for Road Trip Trivia
 
+import type { Difficulty, QuestionMode, Topic } from '../types';
+
 // Constants
 export const QUESTION_BANK_SIZE = 80;
 export const MAX_SEED_VALUE = 2147483647; // 2^31-1, maximum value for linear congruential generator
@@ -8,13 +10,13 @@ export const RELOAD_SUCCESS_DISPLAY_MS = 2000;
 export const MODE_CHANGE_DEBOUNCE_MS = 100; // Delay for mode change flag reset
 
 // Question modes
-export const QUESTION_MODES = Object.freeze({
+export const QUESTION_MODES: Record<string, QuestionMode> = Object.freeze({
   ALL: 'all',
   CURATED: 'curated',
 });
 
 // Difficulty levels
-export const DIFFICULTY_LEVELS = Object.freeze({
+export const DIFFICULTY_LEVELS: Record<string, Difficulty> = Object.freeze({
   EASY: 'easy',
   MEDIUM: 'medium',
   HARD: 'hard',
@@ -25,29 +27,34 @@ export const DIFFICULTY_LEVELS = Object.freeze({
 export const CURATED_QUESTIONS_PATH = '/curated-questions.json';
 
 // Get curated questions URL with optional cache busting
-export function getCuratedQuestionsUrl(bustCache = false) {
+export function getCuratedQuestionsUrl(bustCache = false): string {
   return bustCache
     ? `${CURATED_QUESTIONS_PATH}?${Date.now()}`
     : CURATED_QUESTIONS_PATH;
 }
 
 // Security: HTML escaping helper to prevent XSS
-export function escapeHtml(str) {
+export function escapeHtml(str: string): string {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
 }
 
 // Template filling utility
-export function fillTemplate(template, topicName, angle, index) {
+export function fillTemplate(
+  template: string,
+  topicName: string,
+  angle: string,
+  index: number,
+): string {
   return template
     .replaceAll('{topic}', topicName)
     .replaceAll('{angle}', angle)
-    .replaceAll('{n}', index + 1);
+    .replaceAll('{n}', String(index + 1));
 }
 
 // Deterministic shuffle using linear congruential generator
-export function shuffleIndices(length, seedBase = 1) {
+export function shuffleIndices(length: number, seedBase = 1): number[] {
   if (length === 0) return [];
   const arr = Array.from({ length }, (_, i) => i);
   let seed = seedBase;
@@ -61,7 +68,7 @@ export function shuffleIndices(length, seedBase = 1) {
 }
 
 // Build angles for a topic
-export function buildAngles(topic) {
+export function buildAngles(topic: Topic): string[] {
   const base = window.categoryAngles[topic.category] || [];
   const general = [
     'origin',
@@ -74,13 +81,26 @@ export function buildAngles(topic) {
   return [...new Set([...topic.tags, ...base, ...general])];
 }
 
+type ToastType = 'info' | 'warning' | 'error' | 'success';
+
+interface ToastManagerType {
+  container: HTMLDivElement | null;
+  toasts: Map<number, HTMLDivElement>;
+  autoCloseDelay: number;
+  init(): void;
+  show(message: string, type?: ToastType, duration?: number | null): number;
+  createToast(message: string, type: ToastType, id: number): HTMLDivElement;
+  close(toastId: number): void;
+  closeAll(): void;
+}
+
 // Toast Notification System
-export const ToastManager = {
+export const ToastManager: ToastManagerType = {
   container: null,
   toasts: new Map(),
   autoCloseDelay: 5000,
 
-  init() {
+  init(): void {
     if (!this.container) {
       this.container = document.createElement('div');
       this.container.className = 'toast-container';
@@ -88,13 +108,17 @@ export const ToastManager = {
     }
   },
 
-  show(message, type = 'info', duration = null) {
+  show(
+    message: string,
+    type: ToastType = 'info',
+    duration: number | null = null,
+  ): number {
     this.init();
 
     const toastId = Date.now() + Math.random();
     const toast = this.createToast(message, type, toastId);
 
-    this.container.appendChild(toast);
+    this.container?.appendChild(toast);
     this.toasts.set(toastId, toast);
 
     // Auto-close after delay (unless it's an error, which persists longer)
@@ -105,12 +129,12 @@ export const ToastManager = {
     return toastId;
   },
 
-  createToast(message, type, id) {
+  createToast(message: string, type: ToastType, id: number): HTMLDivElement {
     const toast = document.createElement('div');
     toast.className = `toast toast-${type}`;
-    toast.dataset.toastId = id;
+    toast.dataset.toastId = String(id);
 
-    const icons = {
+    const icons: Record<ToastType, string> = {
       info: 'ℹ️',
       warning: '⚠️',
       error: '❌',
@@ -125,13 +149,13 @@ export const ToastManager = {
       <button class="toast-close" aria-label="Close">×</button>
     `;
 
-    const closeBtn = toast.querySelector('.toast-close');
+    const closeBtn = toast.querySelector('.toast-close') as HTMLButtonElement;
     closeBtn.addEventListener('click', () => this.close(id));
 
     return toast;
   },
 
-  close(toastId) {
+  close(toastId: number): void {
     const toast = this.toasts.get(toastId);
     if (!toast) return;
 
@@ -144,28 +168,35 @@ export const ToastManager = {
     }, 300); // Match animation duration
   },
 
-  closeAll() {
+  closeAll(): void {
     this.toasts.forEach((_toast, id) => {
       this.close(id);
     });
   },
 };
 
+interface ErrorHandlerType {
+  critical(msg: string, error?: Error): void;
+  warn(msg: string, error?: Error): void;
+  info(msg: string): void;
+  success(msg: string): void;
+}
+
 // Error handling system with toast notifications
-export const ErrorHandler = {
-  critical(msg, error) {
+export const ErrorHandler: ErrorHandlerType = {
+  critical(msg: string, error?: Error): void {
     console.error(`[CRITICAL] ${msg}`, error);
     ToastManager.show(msg, 'error');
   },
-  warn(msg, error) {
+  warn(msg: string, error?: Error): void {
     console.warn(`[WARNING] ${msg}`, error);
     ToastManager.show(msg, 'warning');
   },
-  info(msg) {
+  info(msg: string): void {
     console.log(`[INFO] ${msg}`);
     ToastManager.show(msg, 'info');
   },
-  success(msg) {
+  success(msg: string): void {
     console.log(`[SUCCESS] ${msg}`);
     ToastManager.show(msg, 'success', 3000);
   },
