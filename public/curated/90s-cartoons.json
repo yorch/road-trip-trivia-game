@@ -249,6 +249,31 @@
       "q": "Who is Doug Funnie's dog?",
       "a": "Porkchop",
       "angle": "pets"
+    },
+    {
+      "q": "Who runs the rival restaurant to the Krusty Krab?",
+      "a": "Plankton (Sheldon J. Plankton)",
+      "angle": "villains"
+    },
+    {
+      "q": "What instrument does Squidward play?",
+      "a": "Clarinet",
+      "angle": "details"
+    },
+    {
+      "q": "What is Arnold’s city called?",
+      "a": "Hillwood",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the babysitter in The Fairly OddParents?",
+      "a": "Vicky",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the chipmunk with glasses in Alvin and the Chipmunks?",
+      "a": "Simon",
+      "angle": "group"
     }
   ],
   "medium": [
@@ -501,6 +526,31 @@
       "q": "What is the name of Doug's hometown?",
       "a": "Bluffington",
       "angle": "setting"
+    },
+    {
+      "q": "Who composed the Rugrats theme music?",
+      "a": "Mark Mothersbaugh",
+      "angle": "music"
+    },
+    {
+      "q": "What year did Batman: The Animated Series debut?",
+      "a": "1992",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who created The Ren & Stimpy Show?",
+      "a": "John Kricfalusi",
+      "angle": "creators"
+    },
+    {
+      "q": "Which network block first aired Toonami?",
+      "a": "Cartoon Network",
+      "angle": "network"
+    },
+    {
+      "q": "Who voiced Wakko in Animaniacs?",
+      "a": "Jess Harnell",
+      "angle": "voice"
     }
   ],
   "hard": [
@@ -681,7 +731,7 @@
     },
     {
       "q": "Who co-founded Klasky Csupo with Arlene Klasky?",
-      "a": "G\u00e1bor Csup\u00f3",
+      "a": "Gábor Csupó",
       "angle": "production"
     },
     {
@@ -758,6 +808,26 @@
       "q": "What futuristic city does Batman Beyond take place in?",
       "a": "Neo-Gotham",
       "angle": "setting"
+    },
+    {
+      "q": "Which studio animated many Animaniacs segments?",
+      "a": "TMS Entertainment (Tokyo Movie Shinsha)",
+      "angle": "production"
+    },
+    {
+      "q": "What year did Rocko’s Modern Life premiere?",
+      "a": "1993",
+      "angle": "history"
+    },
+    {
+      "q": "Who created Courage the Cowardly Dog?",
+      "a": "John R. Dilworth",
+      "angle": "creators"
+    },
+    {
+      "q": "What was the original name of Cartoon Network’s What A Cartoon! shorts program?",
+      "a": "World Premiere Toons (also called What a Cartoon!)",
+      "angle": "history"
     }
   ]
 }

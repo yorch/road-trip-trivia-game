@@ -249,6 +249,31 @@
       "q": "What harbor attack brought the U.S. into WWII?",
       "a": "Pearl Harbor",
       "angle": "ww2"
+    },
+    {
+      "q": "Who wrote Poor Richard’s Almanack?",
+      "a": "Benjamin Franklin",
+      "angle": "colonial"
+    },
+    {
+      "q": "What document lists life, liberty, and the pursuit of happiness?",
+      "a": "Declaration of Independence",
+      "angle": "documents"
+    },
+    {
+      "q": "Who was the first U.S. Treasury Secretary?",
+      "a": "Alexander Hamilton",
+      "angle": "founders"
+    },
+    {
+      "q": "Who was the main author of the Constitution?",
+      "a": "James Madison",
+      "angle": "founders"
+    },
+    {
+      "q": "Which territory purchase includes present-day Arizona, New Mexico, California?",
+      "a": "Mexican Cession (1848)",
+      "angle": "expansion"
     }
   ],
   "medium": [
@@ -511,6 +536,21 @@
       "q": "Who broke baseball's color barrier in MLB?",
       "a": "Jackie Robinson (1947)",
       "angle": "sports"
+    },
+    {
+      "q": "Who led the Rough Riders in the Spanish-American War?",
+      "a": "Theodore Roosevelt",
+      "angle": "wars"
+    },
+    {
+      "q": "What 1820 law tried to balance free and slave states?",
+      "a": "Missouri Compromise",
+      "angle": "laws"
+    },
+    {
+      "q": "What 1854 act allowed popular sovereignty in Kansas-Nebraska?",
+      "a": "Kansas-Nebraska Act",
+      "angle": "laws"
     }
   ],
   "hard": [
@@ -778,6 +818,16 @@
       "q": "What agreement ceded vast southwestern lands after Mexican-American War?",
       "a": "Treaty of Guadalupe Hidalgo (1848)",
       "angle": "diplomacy"
+    },
+    {
+      "q": "What year did women gain the right to vote nationally?",
+      "a": "1920 (19th Amendment)",
+      "angle": "amendments"
+    },
+    {
+      "q": "Who proposed the Fourteen Points after WWI?",
+      "a": "Woodrow Wilson",
+      "angle": "foreign-policy"
     }
   ]
 }

@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Which company makes the iPhone?",
+      "a": "Apple",
+      "angle": "products"
+    },
+    {
+      "q": "Which company makes Windows?",
+      "a": "Microsoft",
+      "angle": "products"
+    },
+    {
+      "q": "Which company runs Google Search?",
+      "a": "Google (Alphabet)",
+      "angle": "products"
+    },
+    {
+      "q": "Which company started as an online bookstore?",
+      "a": "Amazon",
+      "angle": "history"
+    },
+    {
+      "q": "Which company owns Facebook and Instagram?",
+      "a": "Meta Platforms",
+      "angle": "ownership"
+    },
+    {
+      "q": "Who is Apple’s CEO (2024)?",
+      "a": "Tim Cook",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who is Microsoft’s CEO (2024)?",
+      "a": "Satya Nadella",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who is Alphabet/Google’s CEO (2024)?",
+      "a": "Sundar Pichai",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who is Amazon’s CEO (2024)?",
+      "a": "Andy Jassy",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who founded Facebook?",
+      "a": "Mark Zuckerberg",
+      "angle": "founders"
+    },
+    {
+      "q": "What GPU brand does NVIDIA sell?",
+      "a": "GeForce",
+      "angle": "products"
+    },
+    {
+      "q": "What CPU brand does Intel sell for PCs?",
+      "a": "Core series",
+      "angle": "products"
+    },
+    {
+      "q": "What streaming service does Netflix provide?",
+      "a": "Video streaming",
+      "angle": "products"
+    },
+    {
+      "q": "Which company makes electric cars like Model S?",
+      "a": "Tesla",
+      "angle": "products"
+    },
+    {
+      "q": "What video site does Google own?",
+      "a": "YouTube",
+      "angle": "ownership"
+    },
+    {
+      "q": "What mobile OS does Google develop?",
+      "a": "Android",
+      "angle": "products"
+    },
+    {
+      "q": "What mobile OS does Apple develop?",
+      "a": "iOS",
+      "angle": "products"
+    },
+    {
+      "q": "What voice assistant does Amazon make?",
+      "a": "Alexa",
+      "angle": "products"
+    },
+    {
+      "q": "What voice assistant does Apple make?",
+      "a": "Siri",
+      "angle": "products"
+    },
+    {
+      "q": "What voice assistant does Google make?",
+      "a": "Google Assistant",
+      "angle": "products"
+    },
+    {
+      "q": "What cloud platform does Amazon offer?",
+      "a": "AWS (Amazon Web Services)",
+      "angle": "cloud"
+    },
+    {
+      "q": "What cloud platform does Microsoft offer?",
+      "a": "Azure",
+      "angle": "cloud"
+    },
+    {
+      "q": "What cloud platform does Google offer?",
+      "a": "Google Cloud Platform",
+      "angle": "cloud"
+    },
+    {
+      "q": "What gaming console does Microsoft make?",
+      "a": "Xbox",
+      "angle": "products"
+    },
+    {
+      "q": "What gaming console does Sony make?",
+      "a": "PlayStation",
+      "angle": "products"
+    },
+    {
+      "q": "What handheld/console hybrid does Nintendo make?",
+      "a": "Nintendo Switch",
+      "angle": "products"
+    },
+    {
+      "q": "What e-reader does Amazon sell?",
+      "a": "Kindle",
+      "angle": "products"
+    },
+    {
+      "q": "What online marketplace is run by Amazon?",
+      "a": "Amazon.com",
+      "angle": "products"
+    },
+    {
+      "q": "What productivity suite does Microsoft sell?",
+      "a": "Microsoft 365 (Office)",
+      "angle": "products"
+    },
+    {
+      "q": "What browser does Google make?",
+      "a": "Chrome",
+      "angle": "products"
+    },
+    {
+      "q": "What browser does Microsoft make?",
+      "a": "Edge",
+      "angle": "products"
+    },
+    {
+      "q": "What browser does Apple make?",
+      "a": "Safari",
+      "angle": "products"
+    },
+    {
+      "q": "What photo-sharing app did Meta buy?",
+      "a": "Instagram",
+      "angle": "ownership"
+    },
+    {
+      "q": "What messaging app did Meta buy?",
+      "a": "WhatsApp",
+      "angle": "ownership"
+    },
+    {
+      "q": "What professional network did Microsoft buy?",
+      "a": "LinkedIn",
+      "angle": "ownership"
+    },
+    {
+      "q": "What code hosting site did Microsoft buy?",
+      "a": "GitHub",
+      "angle": "ownership"
+    },
+    {
+      "q": "What navigation app did Google buy?",
+      "a": "Waze",
+      "angle": "ownership"
+    },
+    {
+      "q": "What design tool company is known for Photoshop?",
+      "a": "Adobe",
+      "angle": "products"
+    },
+    {
+      "q": "What CRM cloud company has the ticker CRM?",
+      "a": "Salesforce",
+      "angle": "products"
+    },
+    {
+      "q": "Which database giant is known for SQL products?",
+      "a": "Oracle",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created Watson AI on Jeopardy!?",
+      "a": "IBM",
+      "angle": "products"
+    },
+    {
+      "q": "Which chip company designs Radeon GPUs?",
+      "a": "AMD",
+      "angle": "products"
+    },
+    {
+      "q": "Which Korean giant makes Galaxy phones?",
+      "a": "Samsung Electronics",
+      "angle": "products"
+    },
+    {
+      "q": "Which payment company owns Venmo?",
+      "a": "PayPal",
+      "angle": "ownership"
+    },
+    {
+      "q": "Which ride-hailing app is Uber’s main product?",
+      "a": "Uber ride-share",
+      "angle": "products"
+    },
+    {
+      "q": "Which home-sharing platform connects hosts and guests?",
+      "a": "Airbnb",
+      "angle": "products"
+    },
+    {
+      "q": "Which music streaming service is Swedish and green-themed?",
+      "a": "Spotify",
+      "angle": "products"
+    },
+    {
+      "q": "Which short-video app is owned by ByteDance?",
+      "a": "TikTok",
+      "angle": "products"
+    },
+    {
+      "q": "Which storage and sharing service does Google offer?",
+      "a": "Google Drive",
+      "angle": "products"
+    },
+    {
+      "q": "Which notes app is by Microsoft?",
+      "a": "OneNote",
+      "angle": "products"
+    },
+    {
+      "q": "Which hardware line are Apple laptops?",
+      "a": "MacBook",
+      "angle": "products"
+    },
+    {
+      "q": "Which wearable line tracks fitness for Apple?",
+      "a": "Apple Watch",
+      "angle": "products"
+    },
+    {
+      "q": "Which headset/VR brand is owned by Meta?",
+      "a": "Quest (formerly Oculus)",
+      "angle": "products"
+    },
+    {
+      "q": "Which storefront does Apple use for mobile apps?",
+      "a": "App Store",
+      "angle": "products"
+    },
+    {
+      "q": "Which storefront does Google use for Android apps?",
+      "a": "Google Play",
+      "angle": "products"
+    }
+  ],
+  "medium": [
+    {
+      "q": "When was Apple founded?",
+      "a": "1976",
+      "angle": "history"
+    },
+    {
+      "q": "When was Microsoft founded?",
+      "a": "1975",
+      "angle": "history"
+    },
+    {
+      "q": "When was Amazon founded?",
+      "a": "1994",
+      "angle": "history"
+    },
+    {
+      "q": "When was Google founded?",
+      "a": "1998",
+      "angle": "history"
+    },
+    {
+      "q": "When was Facebook launched?",
+      "a": "2004",
+      "angle": "history"
+    },
+    {
+      "q": "Who co-founded Apple with Steve Jobs?",
+      "a": "Steve Wozniak (and Ronald Wayne)",
+      "angle": "founders"
+    },
+    {
+      "q": "Who co-founded Microsoft with Bill Gates?",
+      "a": "Paul Allen",
+      "angle": "founders"
+    },
+    {
+      "q": "Who co-founded Google?",
+      "a": "Larry Page and Sergey Brin",
+      "angle": "founders"
+    },
+    {
+      "q": "Who founded Amazon?",
+      "a": "Jeff Bezos",
+      "angle": "founders"
+    },
+    {
+      "q": "When did the first iPhone launch?",
+      "a": "2007",
+      "angle": "products"
+    },
+    {
+      "q": "When did the first Android phone launch?",
+      "a": "2008 (HTC Dream/T-Mobile G1)",
+      "angle": "products"
+    },
+    {
+      "q": "When did AWS launch its first services (S3/EC2)?",
+      "a": "2006",
+      "angle": "cloud"
+    },
+    {
+      "q": "When did Microsoft launch Azure?",
+      "a": "2010 (commercial release)",
+      "angle": "cloud"
+    },
+    {
+      "q": "When did Google release Chrome browser?",
+      "a": "2008",
+      "angle": "products"
+    },
+    {
+      "q": "When did Netflix start streaming?",
+      "a": "2007",
+      "angle": "products"
+    },
+    {
+      "q": "When did Tesla deliver the Roadster?",
+      "a": "2008",
+      "angle": "products"
+    },
+    {
+      "q": "What year did Meta acquire Instagram?",
+      "a": "2012",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What year did Meta acquire WhatsApp?",
+      "a": "2014",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What year did Google acquire YouTube?",
+      "a": "2006",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What year did Microsoft acquire LinkedIn?",
+      "a": "2016",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What year did Microsoft acquire GitHub?",
+      "a": "2018",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What year did Amazon acquire Whole Foods?",
+      "a": "2017",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "What company makes Apple’s A-series and M-series chips?",
+      "a": "Designed by Apple; manufactured by TSMC",
+      "angle": "supply"
+    },
+    {
+      "q": "What does TSMC stand for?",
+      "a": "Taiwan Semiconductor Manufacturing Company",
+      "angle": "supply"
+    },
+    {
+      "q": "What company created CUDA for GPUs?",
+      "a": "NVIDIA",
+      "angle": "tech"
+    },
+    {
+      "q": "What AI framework did Google release as open source?",
+      "a": "TensorFlow (2015)",
+      "angle": "ai"
+    },
+    {
+      "q": "What AI framework did Facebook release?",
+      "a": "PyTorch (2016)",
+      "angle": "ai"
+    },
+    {
+      "q": "What database is Oracle famous for?",
+      "a": "Oracle Database (SQL-based)",
+      "angle": "products"
+    },
+    {
+      "q": "What CRM platform is Salesforce best known for?",
+      "a": "Sales Cloud CRM",
+      "angle": "products"
+    },
+    {
+      "q": "What major OS did Microsoft ship in 1995?",
+      "a": "Windows 95",
+      "angle": "products"
+    },
+    {
+      "q": "What major OS did Apple ship in 2001?",
+      "a": "Mac OS X 10.0",
+      "angle": "products"
+    },
+    {
+      "q": "What is Google’s mobile app store called?",
+      "a": "Google Play",
+      "angle": "products"
+    },
+    {
+      "q": "What is Apple’s SoC brand for Macs starting 2020?",
+      "a": "Apple Silicon M-series",
+      "angle": "products"
+    },
+    {
+      "q": "Which company owns DoubleClick advertising (acquired 2008)?",
+      "a": "Google",
+      "angle": "ads"
+    },
+    {
+      "q": "Which company owns Twitch (acquired 2014)?",
+      "a": "Amazon",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company owns Beats (acquired 2014)?",
+      "a": "Apple",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company owns GitHub Copilot partnership?",
+      "a": "GitHub (Microsoft) with OpenAI",
+      "angle": "ai"
+    },
+    {
+      "q": "What is the name of Amazon’s cashierless stores?",
+      "a": "Amazon Go",
+      "angle": "products"
+    },
+    {
+      "q": "What is Google’s smart home brand?",
+      "a": "Nest",
+      "angle": "products"
+    },
+    {
+      "q": "What is Meta’s VR platform/store called?",
+      "a": "Quest Store / Meta Quest",
+      "angle": "products"
+    },
+    {
+      "q": "Which chip company partners with ARM architecture?",
+      "a": "Many; Apple, Qualcomm, Samsung, etc. rely on ARM",
+      "angle": "standards"
+    },
+    {
+      "q": "Which company created the Snapdragon line?",
+      "a": "Qualcomm",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created the Ryzen line?",
+      "a": "AMD",
+      "angle": "products"
+    },
+    {
+      "q": "Which company sells the ThinkPad brand?",
+      "a": "Lenovo (acquired from IBM PC division)",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created the PlayStation?",
+      "a": "Sony",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created the Switch?",
+      "a": "Nintendo",
+      "angle": "products"
+    },
+    {
+      "q": "What year did Google IPO?",
+      "a": "2004",
+      "angle": "finance"
+    },
+    {
+      "q": "What year did Facebook IPO?",
+      "a": "2012",
+      "angle": "finance"
+    },
+    {
+      "q": "What year did Amazon IPO?",
+      "a": "1997",
+      "angle": "finance"
+    },
+    {
+      "q": "What year did Apple IPO?",
+      "a": "1980",
+      "angle": "finance"
+    },
+    {
+      "q": "What year did Microsoft IPO?",
+      "a": "1986",
+      "angle": "finance"
+    },
+    {
+      "q": "What cloud CRM giant has the ticker CRM?",
+      "a": "Salesforce",
+      "angle": "finance"
+    },
+    {
+      "q": "Which company owns Minecraft (acquired 2014)?",
+      "a": "Microsoft (Mojang)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company developed the Siri voice assistant originally?",
+      "a": "Siri was acquired by Apple (originally SRI spinout)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company created the Kindle e-reader?",
+      "a": "Amazon",
+      "angle": "products"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year was IBM founded?",
+      "a": "1911 (CTR, renamed IBM 1924)",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Intel founded?",
+      "a": "1968",
+      "angle": "history"
+    },
+    {
+      "q": "What year was AMD founded?",
+      "a": "1969",
+      "angle": "history"
+    },
+    {
+      "q": "What year was NVIDIA founded?",
+      "a": "1993",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Oracle founded?",
+      "a": "1977",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Adobe founded?",
+      "a": "1982",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Salesforce founded?",
+      "a": "1999",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Qualcomm founded?",
+      "a": "1985",
+      "angle": "history"
+    },
+    {
+      "q": "What year was TSMC founded?",
+      "a": "1987",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Samsung founded?",
+      "a": "1938 (Samsung, electronics arm later)",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Sony founded?",
+      "a": "1946 (as Tokyo Tsushin Kogyo)",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Netflix founded?",
+      "a": "1997",
+      "angle": "history"
+    },
+    {
+      "q": "What year was Tesla founded?",
+      "a": "2003",
+      "angle": "history"
+    },
+    {
+      "q": "Who was Google’s first CEO?",
+      "a": "Larry Page",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who succeeded Larry Page as Google CEO in 2001?",
+      "a": "Eric Schmidt",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who succeeded Eric Schmidt as Google CEO in 2011?",
+      "a": "Larry Page (returned)",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who became Alphabet/Google CEO in 2015?",
+      "a": "Sundar Pichai",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who succeeded Steve Jobs as Apple CEO in 2011?",
+      "a": "Tim Cook",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who was Microsoft CEO before Satya Nadella?",
+      "a": "Steve Ballmer",
+      "angle": "leadership"
+    },
+    {
+      "q": "Who co-founded Intel with Gordon Moore?",
+      "a": "Robert Noyce",
+      "angle": "founders"
+    },
+    {
+      "q": "Who coined Moore’s Law?",
+      "a": "Gordon Moore",
+      "angle": "history"
+    },
+    {
+      "q": "Which company created Java?",
+      "a": "Sun Microsystems (now Oracle)",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created MySQL (later owned by)?",
+      "a": "MySQL AB; later owned by Sun then Oracle",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created Kubernetes?",
+      "a": "Originally Google (open-sourced)",
+      "angle": "products"
+    },
+    {
+      "q": "Which company acquired Red Hat in 2019?",
+      "a": "IBM",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired Slack in 2021?",
+      "a": "Salesforce",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired WhatsApp for ~$19B?",
+      "a": "Facebook/Meta (2014)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired LinkedIn for ~$26B?",
+      "a": "Microsoft (2016)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired YouTube for $1.65B?",
+      "a": "Google (2006)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired Whole Foods for ~$13.7B?",
+      "a": "Amazon (2017)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired GitHub for $7.5B?",
+      "a": "Microsoft (2018)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company acquired Beats for $3B?",
+      "a": "Apple (2014)",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company created AWS?",
+      "a": "Amazon",
+      "angle": "cloud"
+    },
+    {
+      "q": "Which company created S3 and EC2?",
+      "a": "Amazon (AWS)",
+      "angle": "cloud"
+    },
+    {
+      "q": "Which company created Gmail and launched it in 2004?",
+      "a": "Google",
+      "angle": "products"
+    },
+    {
+      "q": "Which company launched Office 365 subscription in 2011?",
+      "a": "Microsoft",
+      "angle": "products"
+    },
+    {
+      "q": "Which company pioneered x86 processors?",
+      "a": "Intel",
+      "angle": "tech"
+    },
+    {
+      "q": "Which company created the ARM architecture?",
+      "a": "ARM (Acorn), now Arm Ltd.",
+      "angle": "tech"
+    },
+    {
+      "q": "Which company produces Snapdragon SoCs?",
+      "a": "Qualcomm",
+      "angle": "products"
+    },
+    {
+      "q": "Which company produces Apple’s SoCs?",
+      "a": "Apple designs; TSMC manufactures",
+      "angle": "supply"
+    },
+    {
+      "q": "Which company produces PlayStation consoles?",
+      "a": "Sony",
+      "angle": "products"
+    },
+    {
+      "q": "Which company produces Xbox consoles?",
+      "a": "Microsoft",
+      "angle": "products"
+    },
+    {
+      "q": "Which company produces Switch consoles?",
+      "a": "Nintendo",
+      "angle": "products"
+    },
+    {
+      "q": "Which company dominates discrete GPU market with AMD?",
+      "a": "NVIDIA",
+      "angle": "market"
+    },
+    {
+      "q": "Which company is known for Creative Suite including Photoshop?",
+      "a": "Adobe",
+      "angle": "products"
+    },
+    {
+      "q": "Which company is known for Acrobat/PDF?",
+      "a": "Adobe",
+      "angle": "products"
+    },
+    {
+      "q": "Which company is known for CRM cloud and Dreamforce conference?",
+      "a": "Salesforce",
+      "angle": "products"
+    },
+    {
+      "q": "Which company offers the Oracle Autonomous Database?",
+      "a": "Oracle",
+      "angle": "products"
+    },
+    {
+      "q": "Which company built the Blue Gene supercomputers?",
+      "a": "IBM",
+      "angle": "products"
+    },
+    {
+      "q": "Which company created the CUDA programming model?",
+      "a": "NVIDIA",
+      "angle": "tech"
+    },
+    {
+      "q": "Which company created OpenAI’s largest public cloud host?",
+      "a": "Azure (Microsoft) hosts many OpenAI services",
+      "angle": "ai"
+    },
+    {
+      "q": "Which company owns Ring doorbell (acquired 2018)?",
+      "a": "Amazon",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company owns Twitch (streaming)?",
+      "a": "Amazon",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company owns DoubleClick?",
+      "a": "Google",
+      "angle": "acquisitions"
+    },
+    {
+      "q": "Which company purchased Sun Microsystems?",
+      "a": "Oracle (2010)",
+      "angle": "acquisitions"
+    }
+  ]
+}

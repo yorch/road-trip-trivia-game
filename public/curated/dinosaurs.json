@@ -249,6 +249,31 @@
       "q": "What animal group survived and evolved into birds?",
       "a": "Small theropod dinosaurs",
       "angle": "transition"
+    },
+    {
+      "q": "What period was the T. rex from?",
+      "a": "Late Cretaceous",
+      "angle": "time"
+    },
+    {
+      "q": "What do paleontologists study?",
+      "a": "Fossils and ancient life",
+      "angle": "science"
+    },
+    {
+      "q": "What do herbivores eat?",
+      "a": "Plants",
+      "angle": "diet"
+    },
+    {
+      "q": "What dinosaur had three horns and a frill?",
+      "a": "Triceratops",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What flying reptile is often mistaken for a dinosaur?",
+      "a": "Pterosaurs like Pteranodon",
+      "angle": "classification"
     }
   ],
   "medium": [
@@ -501,6 +526,31 @@
       "q": "What does 'Oviraptor' mean?",
       "a": "Egg thief",
       "angle": "behavior"
+    },
+    {
+      "q": "What does “saur” mean in dinosaur names?",
+      "a": "Lizard",
+      "angle": "language"
+    },
+    {
+      "q": "What is a paleobotanist studying?",
+      "a": "Ancient plants",
+      "angle": "science"
+    },
+    {
+      "q": "Which dinosaur had a frill and three horns?",
+      "a": "Triceratops",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What group are raptors like Velociraptor part of?",
+      "a": "Dromaeosaurids",
+      "angle": "classification"
+    },
+    {
+      "q": "What evidence shows some dinosaurs had feathers?",
+      "a": "Fossil impressions in sites like Liaoning",
+      "angle": "fossils"
     }
   ],
   "hard": [
@@ -556,7 +606,7 @@
     },
     {
       "q": "What is the K-Pg boundary?",
-      "a": "Geological layer marking the Cretaceous\u2013Paleogene extinction",
+      "a": "Geological layer marking the Cretaceous–Paleogene extinction",
       "angle": "eras"
     },
     {
@@ -661,7 +711,7 @@
     },
     {
       "q": "What is the estimated top speed of a T-Rex from recent studies?",
-      "a": "Around 12\u201320 mph (estimates vary, likely not very fast)",
+      "a": "Around 12–20 mph (estimates vary, likely not very fast)",
       "angle": "science"
     },
     {
@@ -696,12 +746,12 @@
     },
     {
       "q": "What is the term for an exceptionally well-preserved fossil deposit?",
-      "a": "A Lagerst\u00e4tte",
+      "a": "A Lagerstätte",
       "angle": "paleontology"
     },
     {
       "q": "Which Jurassic site in Portugal is famous for sauropod tracks?",
-      "a": "Lourinh\u00e3 Formation tracksites",
+      "a": "Lourinhã Formation tracksites",
       "angle": "fossils"
     },
     {
@@ -753,6 +803,31 @@
       "q": "Which small bird-like dinosaur had four wings?",
       "a": "Microraptor",
       "angle": "transition"
+    },
+    {
+      "q": "What era did dinosaurs live in?",
+      "a": "Mesozoic Era",
+      "angle": "time"
+    },
+    {
+      "q": "What is the name of the K-Pg extinction event boundary?",
+      "a": "Cretaceous–Paleogene boundary",
+      "angle": "eras"
+    },
+    {
+      "q": "Which theropod had a massive sail on its back?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "Which early bird fossil shows dinosaur-bird transition?",
+      "a": "Archaeopteryx",
+      "angle": "transition"
+    },
+    {
+      "q": "What dating method uses uranium-lead in zircon?",
+      "a": "U-Pb dating",
+      "angle": "science"
     }
   ]
 }

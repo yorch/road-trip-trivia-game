@@ -249,6 +249,31 @@
       "q": "Which direction were hieroglyphs often written?",
       "a": "Right to left",
       "angle": "writing"
+    },
+    {
+      "q": "What metal did Egyptians mostly use before iron?",
+      "a": "Copper, later bronze",
+      "angle": "technology"
+    },
+    {
+      "q": "What river tool measured flood levels?",
+      "a": "Nilometer",
+      "angle": "nile"
+    },
+    {
+      "q": "What did Egyptians call their country meaning “Black Land”?",
+      "a": "Kemet",
+      "angle": "language"
+    },
+    {
+      "q": "What did pharaohs wear on their heads as a striped cloth?",
+      "a": "Nemes headdress",
+      "angle": "regalia"
+    },
+    {
+      "q": "What writing was carved on tomb walls?",
+      "a": "Hieroglyphics",
+      "angle": "writing"
     }
   ],
   "medium": [
@@ -501,6 +526,31 @@
       "q": "Who was the architect traditionally credited for the Great Pyramid?",
       "a": "Hemiunu",
       "angle": "figures"
+    },
+    {
+      "q": "What is the Book of the Dead?",
+      "a": "Collection of funerary spells",
+      "angle": "texts"
+    },
+    {
+      "q": "Who was the god of embalming?",
+      "a": "Anubis",
+      "angle": "myths"
+    },
+    {
+      "q": "What dynasty began the Old Kingdom?",
+      "a": "Third Dynasty under Djoser",
+      "angle": "history"
+    },
+    {
+      "q": "What city hosted the great temple of Karnak?",
+      "a": "Thebes",
+      "angle": "monuments"
+    },
+    {
+      "q": "What goddess protected childbirth and women?",
+      "a": "Taweret (hippopotamus goddess)",
+      "angle": "myths"
     }
   ],
   "hard": [
@@ -753,6 +803,31 @@
       "q": "In what year was the Battle of Kadesh fought?",
       "a": "1274 BCE",
       "angle": "military"
+    },
+    {
+      "q": "What was the capital during Akhenaten’s reign?",
+      "a": "Akhetaten (Amarna)",
+      "angle": "history"
+    },
+    {
+      "q": "Which papyrus detailed medical surgical cases?",
+      "a": "Edwin Smith Papyrus",
+      "angle": "texts"
+    },
+    {
+      "q": "Which pharaoh signed the earliest known peace treaty?",
+      "a": "Ramesses II (Treaty of Kadesh)",
+      "angle": "history"
+    },
+    {
+      "q": "Which female pharaoh was erased by successors?",
+      "a": "Hatshepsut",
+      "angle": "history"
+    },
+    {
+      "q": "What term names the sacred lake beside many temples?",
+      "a": "Isheru (temple lake)",
+      "angle": "ritual"
     }
   ]
 }

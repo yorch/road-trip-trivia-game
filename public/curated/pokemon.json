@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Who is the electric mouse mascot of Pokémon?",
+      "a": "Pikachu",
+      "angle": "mons"
+    },
+    {
+      "q": "What are the creatures in the series called?",
+      "a": "Pokémon",
+      "angle": "basics"
+    },
+    {
+      "q": "What region do Pokémon Red/Blue take place in?",
+      "a": "Kanto",
+      "angle": "regions"
+    },
+    {
+      "q": "What device records Pokémon data?",
+      "a": "Pokédex",
+      "angle": "items"
+    },
+    {
+      "q": "What item is used to catch Pokémon?",
+      "a": "Poké Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What fire starter is in Gen 1?",
+      "a": "Charmander",
+      "angle": "starters"
+    },
+    {
+      "q": "What water starter is in Gen 1?",
+      "a": "Squirtle",
+      "angle": "starters"
+    },
+    {
+      "q": "What grass starter is in Gen 1?",
+      "a": "Bulbasaur",
+      "angle": "starters"
+    },
+    {
+      "q": "What does Pikachu evolve into?",
+      "a": "Raichu",
+      "angle": "evolution"
+    },
+    {
+      "q": "What type is Pikachu?",
+      "a": "Electric",
+      "angle": "types"
+    },
+    {
+      "q": "What shows you beat a Gym Leader?",
+      "a": "A Gym Badge",
+      "angle": "progress"
+    },
+    {
+      "q": "Who gives the starter in Kanto?",
+      "a": "Professor Oak",
+      "angle": "characters"
+    },
+    {
+      "q": "What HM lets you travel across water?",
+      "a": "Surf",
+      "angle": "moves"
+    },
+    {
+      "q": "What wakes a sleeping Snorlax in Gen 1?",
+      "a": "Poké Flute",
+      "angle": "items"
+    },
+    {
+      "q": "What currency is used in the games?",
+      "a": "Pokédollars",
+      "angle": "basics"
+    },
+    {
+      "q": "Where do you heal Pokémon for free?",
+      "a": "Pokémon Center",
+      "angle": "basics"
+    },
+    {
+      "q": "What item fully catches without fail?",
+      "a": "Master Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What item heals 20 HP?",
+      "a": "Potion",
+      "angle": "items"
+    },
+    {
+      "q": "What is Bulbasaur’s Pokédex number?",
+      "a": "#001",
+      "angle": "pokedex"
+    },
+    {
+      "q": "What legendary birds are in Kanto?",
+      "a": "Articuno, Zapdos, Moltres",
+      "angle": "legendaries"
+    },
+    {
+      "q": "What water/flying Pokémon evolves from Magikarp?",
+      "a": "Gyarados",
+      "angle": "mons"
+    },
+    {
+      "q": "What item restores PP of a move?",
+      "a": "Ether or Elixir",
+      "angle": "items"
+    },
+    {
+      "q": "What maximum team size can you carry?",
+      "a": "Six Pokémon",
+      "angle": "basics"
+    },
+    {
+      "q": "What happens when a Pokémon levels enough?",
+      "a": "It can evolve",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What fossil revives Kabuto?",
+      "a": "Dome Fossil",
+      "angle": "items"
+    },
+    {
+      "q": "What fossil revives Omanyte?",
+      "a": "Helix Fossil",
+      "angle": "items"
+    },
+    {
+      "q": "What HM cuts small trees?",
+      "a": "Cut",
+      "angle": "moves"
+    },
+    {
+      "q": "What HM moves boulders?",
+      "a": "Strength",
+      "angle": "moves"
+    },
+    {
+      "q": "What HM lets you fly to towns?",
+      "a": "Fly",
+      "angle": "moves"
+    },
+    {
+      "q": "Who are the Team Rocket duo in the anime?",
+      "a": "Jessie and James",
+      "angle": "villains"
+    },
+    {
+      "q": "What does EXP stand for?",
+      "a": "Experience Points",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What starter partner does Ash have?",
+      "a": "Pikachu",
+      "angle": "anime"
+    },
+    {
+      "q": "What Poké Ball has the highest catch rate?",
+      "a": "Master Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What type is Jigglypuff now?",
+      "a": "Normal/Fairy",
+      "angle": "types"
+    },
+    {
+      "q": "What item heals status and HP fully?",
+      "a": "Full Restore",
+      "angle": "items"
+    },
+    {
+      "q": "What type is super effective on Fire?",
+      "a": "Water",
+      "angle": "types"
+    },
+    {
+      "q": "What type is super effective on Water?",
+      "a": "Electric or Grass",
+      "angle": "types"
+    },
+    {
+      "q": "What type is super effective on Grass?",
+      "a": "Fire, Ice, Flying, Bug, Poison",
+      "angle": "types"
+    },
+    {
+      "q": "What type is immune to Ground moves?",
+      "a": "Flying (and Levitate ability)",
+      "angle": "types"
+    },
+    {
+      "q": "What type is immune to Normal and Fighting?",
+      "a": "Ghost",
+      "angle": "types"
+    },
+    {
+      "q": "What type is Fairy super effective against?",
+      "a": "Dragon, Fighting, Dark",
+      "angle": "types"
+    },
+    {
+      "q": "Who is the Rock-type Pewter Gym Leader?",
+      "a": "Brock",
+      "angle": "gyms"
+    },
+    {
+      "q": "Who is the Water-type Cerulean Gym Leader?",
+      "a": "Misty",
+      "angle": "gyms"
+    },
+    {
+      "q": "What’s the ship in Vermilion City?",
+      "a": "S.S. Anne",
+      "angle": "locations"
+    },
+    {
+      "q": "What item heals poison outside battle?",
+      "a": "Antidote",
+      "angle": "items"
+    },
+    {
+      "q": "What item cures paralysis?",
+      "a": "Paralyze Heal",
+      "angle": "items"
+    },
+    {
+      "q": "What item heals burn?",
+      "a": "Burn Heal",
+      "angle": "items"
+    },
+    {
+      "q": "What is the Fire/Flying Kanto starter final form?",
+      "a": "Charizard",
+      "angle": "mons"
+    },
+    {
+      "q": "What is the Psychic cat-like legendary in Gen 1?",
+      "a": "Mewtwo",
+      "angle": "legendaries"
+    },
+    {
+      "q": "What is the Ghost/Poison line in Lavender Tower?",
+      "a": "Gastly → Haunter → Gengar",
+      "angle": "mons"
+    },
+    {
+      "q": "What are Eevee’s three original stone evolutions?",
+      "a": "Vaporeon, Jolteon, Flareon",
+      "angle": "mons"
+    },
+    {
+      "q": "What item catches better than a Poké Ball?",
+      "a": "Great Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What item is better than a Great Ball?",
+      "a": "Ultra Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What status prevents a Pokémon from moving until it thaws?",
+      "a": "Freeze",
+      "angle": "status"
+    },
+    {
+      "q": "What status prevents waking until cured or ends naturally?",
+      "a": "Sleep",
+      "angle": "status"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What games introduced the Johto region?",
+      "a": "Gold and Silver",
+      "angle": "regions"
+    },
+    {
+      "q": "What item evolves Onix into Steelix when traded?",
+      "a": "Metal Coat",
+      "angle": "evolution"
+    },
+    {
+      "q": "What item evolves Scyther into Scizor when traded?",
+      "a": "Metal Coat",
+      "angle": "evolution"
+    },
+    {
+      "q": "What does EV stand for?",
+      "a": "Effort Values",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What does IV stand for?",
+      "a": "Individual Values",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is STAB?",
+      "a": "Same Type Attack Bonus",
+      "angle": "mechanics"
+    },
+    {
+      "q": "Which generation split physical and special by move?",
+      "a": "Generation 4",
+      "angle": "history"
+    },
+    {
+      "q": "What does Choice Band do?",
+      "a": "Boosts Attack 50% and locks one move",
+      "angle": "items"
+    },
+    {
+      "q": "What does Choice Scarf do?",
+      "a": "Boosts Speed 50% and locks one move",
+      "angle": "items"
+    },
+    {
+      "q": "What does Choice Specs do?",
+      "a": "Boosts Special Attack 50% and locks one move",
+      "angle": "items"
+    },
+    {
+      "q": "What does Life Orb do?",
+      "a": "Boosts damage ~30% and costs 10% HP per attack",
+      "angle": "items"
+    },
+    {
+      "q": "What does Focus Sash do?",
+      "a": "Lets a full-HP user survive one hit at 1 HP once",
+      "angle": "items"
+    },
+    {
+      "q": "What do Leftovers do?",
+      "a": "Heal 1/16 max HP each turn",
+      "angle": "items"
+    },
+    {
+      "q": "What do Sitrus Berries do (modern)?",
+      "a": "Heal 25% HP when below half",
+      "angle": "items"
+    },
+    {
+      "q": "What hazard deals type-based damage on switch-in?",
+      "a": "Stealth Rock",
+      "angle": "moves"
+    },
+    {
+      "q": "What hazard damages grounded foes with layers?",
+      "a": "Spikes",
+      "angle": "moves"
+    },
+    {
+      "q": "What move removes hazards and boosts Speed now?",
+      "a": "Rapid Spin",
+      "angle": "moves"
+    },
+    {
+      "q": "What move removes hazards and screens?",
+      "a": "Defog",
+      "angle": "moves"
+    },
+    {
+      "q": "What ability lowers foe’s Attack on switch-in?",
+      "a": "Intimidate",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability gives Ground immunity (barring Mold Breaker)?",
+      "a": "Levitate",
+      "angle": "abilities"
+    },
+    {
+      "q": "What status cuts Attack in half?",
+      "a": "Burn",
+      "angle": "status"
+    },
+    {
+      "q": "What status greatly lowers Speed?",
+      "a": "Paralysis",
+      "angle": "status"
+    },
+    {
+      "q": "What nature raises Attack and lowers Special Attack?",
+      "a": "Adamant",
+      "angle": "natures"
+    },
+    {
+      "q": "What nature raises Speed and lowers Attack?",
+      "a": "Timid",
+      "angle": "natures"
+    },
+    {
+      "q": "What item prevents evolution?",
+      "a": "Everstone",
+      "angle": "items"
+    },
+    {
+      "q": "What ability summons rain automatically?",
+      "a": "Drizzle",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability summons harsh sunlight automatically?",
+      "a": "Drought",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability doubles Speed in rain?",
+      "a": "Swift Swim",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability doubles Speed in sun?",
+      "a": "Chlorophyll",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability blocks all but super-effective moves?",
+      "a": "Wonder Guard (Shedinja)",
+      "angle": "abilities"
+    },
+    {
+      "q": "What is the base power of Earthquake?",
+      "a": "100",
+      "angle": "moves"
+    },
+    {
+      "q": "What is the base power of Surf (modern)?",
+      "a": "90",
+      "angle": "moves"
+    },
+    {
+      "q": "What is the base power of Thunderbolt?",
+      "a": "90",
+      "angle": "moves"
+    },
+    {
+      "q": "What is the base power of Flamethrower?",
+      "a": "90",
+      "angle": "moves"
+    },
+    {
+      "q": "What is the base power of Ice Beam?",
+      "a": "90",
+      "angle": "moves"
+    },
+    {
+      "q": "What does Dragon Dance boost?",
+      "a": "Attack and Speed by one stage",
+      "angle": "moves"
+    },
+    {
+      "q": "What does Swords Dance boost?",
+      "a": "Attack by two stages",
+      "angle": "moves"
+    },
+    {
+      "q": "What move hits then switches the user (Bug-type)?",
+      "a": "U-turn",
+      "angle": "moves"
+    },
+    {
+      "q": "What move hits then switches the user (Electric-type)?",
+      "a": "Volt Switch",
+      "angle": "moves"
+    },
+    {
+      "q": "What move has +3 priority and only works on first turn out?",
+      "a": "Fake Out",
+      "angle": "moves"
+    },
+    {
+      "q": "What move has 75% accuracy and causes sleep?",
+      "a": "Sleep Powder",
+      "angle": "moves"
+    },
+    {
+      "q": "What weather boosts Water and weakens Fire moves?",
+      "a": "Rain",
+      "angle": "weather"
+    },
+    {
+      "q": "What weather boosts Fire and weakens Water moves?",
+      "a": "Harsh sunlight",
+      "angle": "weather"
+    },
+    {
+      "q": "What weather damages non-Ice types each turn (pre-Gen 9)?",
+      "a": "Hail",
+      "angle": "weather"
+    },
+    {
+      "q": "What are the shiny odds in modern games?",
+      "a": "1 in 4096 base",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What method increases shiny odds by breeding from different languages?",
+      "a": "Masuda method",
+      "angle": "mechanics"
+    },
+    {
+      "q": "How does Eevee evolve into Espeon?",
+      "a": "High friendship during daytime",
+      "angle": "evolution"
+    },
+    {
+      "q": "How does Eevee evolve into Umbreon?",
+      "a": "High friendship at night",
+      "angle": "evolution"
+    },
+    {
+      "q": "What item evolves Gloom into Bellossom?",
+      "a": "Sun Stone",
+      "angle": "evolution"
+    },
+    {
+      "q": "What item evolves male Kirlia into Gallade?",
+      "a": "Dawn Stone",
+      "angle": "evolution"
+    },
+    {
+      "q": "What item evolves Slowpoke into Slowking when traded?",
+      "a": "King’s Rock",
+      "angle": "evolution"
+    },
+    {
+      "q": "How does Pichu evolve?",
+      "a": "High friendship to Pikachu",
+      "angle": "evolution"
+    },
+    {
+      "q": "How does Kadabra evolve?",
+      "a": "Trade to become Alakazam",
+      "angle": "evolution"
+    },
+    {
+      "q": "What ability heals 1/3 HP when switching out?",
+      "a": "Regenerator",
+      "angle": "abilities"
+    },
+    {
+      "q": "What item passes five IVs from parents when breeding?",
+      "a": "Destiny Knot",
+      "angle": "breeding"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year did Pokémon Red/Green release in Japan?",
+      "a": "1996",
+      "angle": "history"
+    },
+    {
+      "q": "What glitch Pokémon appears via the Old Man trick?",
+      "a": "MissingNo.",
+      "angle": "glitches"
+    },
+    {
+      "q": "What was the first Pokémon ever designed?",
+      "a": "Rhydon",
+      "angle": "trivia"
+    },
+    {
+      "q": "Which types were added in Generation 2?",
+      "a": "Dark and Steel",
+      "angle": "history"
+    },
+    {
+      "q": "Which type was added in Generation 6?",
+      "a": "Fairy",
+      "angle": "history"
+    },
+    {
+      "q": "What were the base shiny odds before Gen 6?",
+      "a": "1 in 8192",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What are shiny odds with Masuda method plus Shiny Charm (modern)?",
+      "a": "1 in 512",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the total EV cap per Pokémon?",
+      "a": "510 EVs total",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the per-stat EV cap effectively?",
+      "a": "252 effective per stat (255 stored max)",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the maximum IV value?",
+      "a": "31",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What ability prevents grounded foes from switching?",
+      "a": "Arena Trap",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability prevents switching except Ghost/Run Away?",
+      "a": "Shadow Tag",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability ignores opposing abilities when attacking?",
+      "a": "Mold Breaker",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability gives +1 priority to status moves?",
+      "a": "Prankster",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability heals 1/3 HP on switch-out?",
+      "a": "Regenerator",
+      "angle": "abilities"
+    },
+    {
+      "q": "What item boosts Sp. Def 50% but only allows attacking moves?",
+      "a": "Assault Vest",
+      "angle": "items"
+    },
+    {
+      "q": "What item boosts Defense/Sp. Def 50% for unevolved Pokémon?",
+      "a": "Eviolite",
+      "angle": "items"
+    },
+    {
+      "q": "What held item doubles Pikachu’s Attack and Sp. Atk?",
+      "a": "Light Ball",
+      "angle": "items"
+    },
+    {
+      "q": "What item passes five IVs when breeding?",
+      "a": "Destiny Knot",
+      "angle": "breeding"
+    },
+    {
+      "q": "What item passes nature when breeding?",
+      "a": "Everstone",
+      "angle": "breeding"
+    },
+    {
+      "q": "What was the effect of Explosion/Self-Destruct pre-Gen 5?",
+      "a": "Halved target Defense, effectively doubling power",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What does Trick Room do?",
+      "a": "Reverses move order by Speed for 5 turns (set at priority -7)",
+      "angle": "moves"
+    },
+    {
+      "q": "What change did Knock Off get in Gen 6?",
+      "a": "Power 65 and 1.5× when removing items",
+      "angle": "moves"
+    },
+    {
+      "q": "What are one-hit KO moves?",
+      "a": "Fissure, Sheer Cold, Guillotine, Horn Drill",
+      "angle": "moves"
+    },
+    {
+      "q": "What is Return’s max base power at high friendship?",
+      "a": "102",
+      "angle": "moves"
+    },
+    {
+      "q": "What is Frustration’s max base power at low friendship?",
+      "a": "102",
+      "angle": "moves"
+    },
+    {
+      "q": "What is the Species Clause in many formats?",
+      "a": "No duplicate Pokédex species on a team",
+      "angle": "meta"
+    },
+    {
+      "q": "What is the Sleep Clause in many formats?",
+      "a": "Only one opposing Pokémon may be put to sleep by you at a time",
+      "angle": "meta"
+    },
+    {
+      "q": "What does OU stand for in Smogon tiers?",
+      "a": "OverUsed",
+      "angle": "meta"
+    },
+    {
+      "q": "What is the standard VGC format?",
+      "a": "Doubles, bring 6 choose 4",
+      "angle": "meta"
+    },
+    {
+      "q": "What determined Hidden Power’s type before Gen 8?",
+      "a": "The user’s IVs",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What does Hyper Training do?",
+      "a": "Treats IVs as 31 using Bottle Caps at level 100",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What virus doubles EV gain?",
+      "a": "Pokérus",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What do EV-reducing berries do?",
+      "a": "Lower EVs in a stat by 10 (modern) and raise friendship",
+      "angle": "items"
+    },
+    {
+      "q": "What is the friendship max value?",
+      "a": "255",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What Pokémon has the highest base Speed (non-Mega)?",
+      "a": "Regieleki (base 200)",
+      "angle": "stats"
+    },
+    {
+      "q": "What Pokémon has a base stat total of 720?",
+      "a": "Arceus",
+      "angle": "stats"
+    },
+    {
+      "q": "What Pokémon has base 255 HP?",
+      "a": "Blissey",
+      "angle": "stats"
+    },
+    {
+      "q": "What Pokémon always has 1 HP?",
+      "a": "Shedinja",
+      "angle": "stats"
+    },
+    {
+      "q": "What is the typical catch rate of box legendaries?",
+      "a": "3",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What priority does Protect/Detect have?",
+      "a": "+4 priority",
+      "angle": "moves"
+    },
+    {
+      "q": "What move forces the target to switch (Dragon-type example)?",
+      "a": "Dragon Tail",
+      "angle": "moves"
+    },
+    {
+      "q": "What abilities negate weather effects?",
+      "a": "Cloud Nine or Air Lock",
+      "angle": "abilities"
+    },
+    {
+      "q": "What ability raises Speed every turn?",
+      "a": "Speed Boost",
+      "angle": "abilities"
+    },
+    {
+      "q": "What Berry halves super-effective Fire damage?",
+      "a": "Occa Berry",
+      "angle": "items"
+    },
+    {
+      "q": "What Berry halves super-effective Water damage?",
+      "a": "Passho Berry",
+      "angle": "items"
+    },
+    {
+      "q": "Which generation introduced Abilities?",
+      "a": "Generation 3",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced Natures?",
+      "a": "Generation 3",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced breeding and eggs?",
+      "a": "Generation 2",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced held items?",
+      "a": "Generation 2",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced Mega Evolution?",
+      "a": "Generation 6",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced Z-Moves?",
+      "a": "Generation 7",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced Dynamax/Gigantamax?",
+      "a": "Generation 8",
+      "angle": "history"
+    },
+    {
+      "q": "Which generation introduced Terastallization?",
+      "a": "Generation 9",
+      "angle": "history"
+    },
+    {
+      "q": "What is the base power of Seismic Toss?",
+      "a": "Equal to user level",
+      "angle": "moves"
+    }
+  ]
+}

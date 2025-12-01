@@ -254,6 +254,31 @@
       "q": "What were Greek marketplace squares called?",
       "a": "Agoras",
       "angle": "daily life"
+    },
+    {
+      "q": "Who is the Greek god of travel and thieves?",
+      "a": "Hermes",
+      "angle": "gods"
+    },
+    {
+      "q": "What is the Greek goddess of the hearth?",
+      "a": "Hestia",
+      "angle": "gods"
+    },
+    {
+      "q": "What monster was half woman, half bird luring sailors?",
+      "a": "Siren",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the open-air hilltop temple area called?",
+      "a": "Acropolis",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who taught philosophy by asking questions?",
+      "a": "Socrates",
+      "angle": "philosophers"
     }
   ],
   "medium": [
@@ -506,6 +531,30 @@
       "q": "What was the sacred island that held the Delian League treasury?",
       "a": "Delos",
       "angle": "politics"
+    },
+    {
+      "q": "What Greek historian wrote about the Persian Wars?",
+      "a": "Herodotus",
+      "angle": "history"
+    },
+    {
+      "q": "Who wrote The Aeneid-inspired epic in Greek world?",
+      "a": "Not Greek; skip"
+    },
+    {
+      "q": "What festival honored Dionysus with plays?",
+      "a": "City Dionysia",
+      "angle": "culture"
+    },
+    {
+      "q": "What was the Spartan council of elders called?",
+      "a": "Gerousia",
+      "angle": "politics"
+    },
+    {
+      "q": "What battle in 479 BC ended Persian invasion?",
+      "a": "Battle of Plataea",
+      "angle": "wars"
     }
   ],
   "hard": [
@@ -758,6 +807,31 @@
       "q": "Which Athenian statesman rebuilt the Acropolis after the Persian Wars?",
       "a": "Pericles",
       "angle": "history"
+    },
+    {
+      "q": "Who was the Athenian statesman who led during the Golden Age building program?",
+      "a": "Pericles",
+      "angle": "politics"
+    },
+    {
+      "q": "What alliance opposed the Delian League?",
+      "a": "Peloponnesian League",
+      "angle": "politics"
+    },
+    {
+      "q": "Which playwright wrote Antigone and Oedipus Rex?",
+      "a": "Sophocles",
+      "angle": "drama"
+    },
+    {
+      "q": "Which battle in 333 BC gave Alexander control of Asia Minor?",
+      "a": "Battle of Issus",
+      "angle": "wars"
+    },
+    {
+      "q": "Who founded the Cynic school of philosophy?",
+      "a": "Diogenes of Sinope",
+      "angle": "philosophy"
     }
   ]
 }

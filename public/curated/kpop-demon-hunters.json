@@ -526,6 +526,31 @@
       "q": "Who mediates disputes in the team?",
       "a": "The leader or calm eldest",
       "angle": "roles"
+    },
+    {
+      "q": "What choreo move seals portals on stage?",
+      "a": "A sigil step woven into the dance break",
+      "angle": "lore"
+    },
+    {
+      "q": "What is their codename for retreat?",
+      "a": "“Fadeout” call",
+      "angle": "ops"
+    },
+    {
+      "q": "Who handles first aid in the team?",
+      "a": "The lead vocalist/healer",
+      "angle": "roles"
+    },
+    {
+      "q": "What symbol appears on their lightstick when a demon is near?",
+      "a": "A color shift or glow pulse",
+      "angle": "gear"
+    },
+    {
+      "q": "How do they mask battle scars?",
+      "a": "Stage makeup and glam cover-ups",
+      "angle": "cover"
     }
   ],
   "hard": [
@@ -777,6 +802,31 @@
     {
       "q": "What backup plan is used if magic fails?",
       "a": "EMP/ultrasound traps and evacuation",
+      "angle": "tactics"
+    },
+    {
+      "q": "What relic powers their tour bus wards?",
+      "a": "An embedded talisman core",
+      "angle": "gear"
+    },
+    {
+      "q": "What happens when the grimoire pages burn?",
+      "a": "Demon names released unless resealed",
+      "angle": "stakes"
+    },
+    {
+      "q": "What is the guild’s highest-ranked mission class?",
+      "a": "S-rank exorcism call",
+      "angle": "ops"
+    },
+    {
+      "q": "Who forged the first halo lightstick core?",
+      "a": "The retired hunter-producer mentor",
+      "angle": "backstory"
+    },
+    {
+      "q": "What backup chant do they use if tech fails?",
+      "a": "A capella warding verse",
       "angle": "tactics"
     }
   ]

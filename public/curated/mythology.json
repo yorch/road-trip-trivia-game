@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Who is the Greek god of thunder?",
+      "a": "Zeus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek goddess of wisdom?",
+      "a": "Athena",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek god of the sea?",
+      "a": "Poseidon",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek god of the underworld?",
+      "a": "Hades",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek goddess of love?",
+      "a": "Aphrodite",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek hero who slew the Hydra?",
+      "a": "Heracles (Hercules)",
+      "angle": "greek"
+    },
+    {
+      "q": "What mountain do the Greek gods live on?",
+      "a": "Mount Olympus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the messenger of the Greek gods?",
+      "a": "Hermes",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Norse god of thunder?",
+      "a": "Thor",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Norse Allfather?",
+      "a": "Odin",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Norse trickster god?",
+      "a": "Loki",
+      "angle": "norse"
+    },
+    {
+      "q": "What is the Norse world tree called?",
+      "a": "Yggdrasil",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Norse goddess of the dead?",
+      "a": "Hel",
+      "angle": "norse"
+    },
+    {
+      "q": "Who are Odin’s twin ravens?",
+      "a": "Huginn and Muninn",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Egyptian sun god?",
+      "a": "Ra",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian god of the dead with a jackal head?",
+      "a": "Anubis",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian goddess of magic and motherhood?",
+      "a": "Isis",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian sky god with a falcon head?",
+      "a": "Horus",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian god of chaos?",
+      "a": "Set (Seth)",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Roman king of gods?",
+      "a": "Jupiter",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman goddess of love?",
+      "a": "Venus",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman god of war?",
+      "a": "Mars",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman goddess of wisdom?",
+      "a": "Minerva",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman sea god?",
+      "a": "Neptune",
+      "angle": "roman"
+    },
+    {
+      "q": "What is the Greek winged horse called?",
+      "a": "Pegasus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the hero who flew too close to the sun?",
+      "a": "Icarus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who opened a box of evils in Greek myth?",
+      "a": "Pandora",
+      "angle": "greek"
+    },
+    {
+      "q": "Who tamed Pegasus?",
+      "a": "Bellerophon",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek god of wine?",
+      "a": "Dionysus",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the hammer of Thor called?",
+      "a": "Mjölnir",
+      "angle": "norse"
+    },
+    {
+      "q": "Who are the female warriors of Norse myth?",
+      "a": "Valkyries",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Egyptian goddess of cats?",
+      "a": "Bastet",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who judged souls in Egyptian afterlife with scales?",
+      "a": "Anubis/Osiris weighing the heart",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Greek hero who stole fire?",
+      "a": "Prometheus",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the afterlife hall in Norse myth for warriors?",
+      "a": "Valhalla",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Roman messenger god?",
+      "a": "Mercury",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Greek god of the sun (Titan)?",
+      "a": "Helios (later Apollo associated)",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek goddess of the hunt?",
+      "a": "Artemis",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek god of music and light?",
+      "a": "Apollo",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek earth goddess?",
+      "a": "Gaia",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek personification of night?",
+      "a": "Nyx",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek winged victory goddess?",
+      "a": "Nike",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Egyptian goddess of the sky?",
+      "a": "Nut",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian earth god?",
+      "a": "Geb",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Norse sea serpent?",
+      "a": "Jörmungandr (Midgard Serpent)",
+      "angle": "norse"
+    },
+    {
+      "q": "What is the Greek underworld river of souls?",
+      "a": "Styx",
+      "angle": "greek"
+    },
+    {
+      "q": "Who ferries souls across the Styx?",
+      "a": "Charon",
+      "angle": "greek"
+    },
+    {
+      "q": "Who guards the entrance to the underworld in Greek myth?",
+      "a": "Cerberus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who built the Labyrinth?",
+      "a": "Daedalus",
+      "angle": "greek"
+    },
+    {
+      "q": "What creature is half man, half bull in the Labyrinth?",
+      "a": "Minotaur",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Norse queen of Asgard?",
+      "a": "Frigg (Frigga)",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Norse goddess of fertility?",
+      "a": "Freyja",
+      "angle": "norse"
+    },
+    {
+      "q": "What Greek monster turns people to stone?",
+      "a": "Medusa",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Roman god of the underworld?",
+      "a": "Pluto",
+      "angle": "roman"
+    },
+    {
+      "q": "What is the Egyptian book of spells for the dead?",
+      "a": "Book of the Dead",
+      "angle": "egypt"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What was Zeus’s weapon forged by the Cyclopes?",
+      "a": "The thunderbolt",
+      "angle": "greek"
+    },
+    {
+      "q": "Who was chained to a rock and had his liver eaten daily?",
+      "a": "Prometheus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who completed the Twelve Labors?",
+      "a": "Heracles (Hercules)",
+      "angle": "greek"
+    },
+    {
+      "q": "Who killed Medusa?",
+      "a": "Perseus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who led the Argonauts?",
+      "a": "Jason",
+      "angle": "greek"
+    },
+    {
+      "q": "What was Odysseus’s long journey called?",
+      "a": "The Odyssey",
+      "angle": "greek"
+    },
+    {
+      "q": "Who fought Achilles and was greatest of Trojans?",
+      "a": "Hector",
+      "angle": "greek"
+    },
+    {
+      "q": "What was Achilles’ vulnerability?",
+      "a": "His heel",
+      "angle": "greek"
+    },
+    {
+      "q": "Who was the wife of Hades?",
+      "a": "Persephone",
+      "angle": "greek"
+    },
+    {
+      "q": "Who created the Labyrinth?",
+      "a": "Daedalus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who flew with wax wings?",
+      "a": "Icarus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who blinded the Cyclops Polyphemus?",
+      "a": "Odysseus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek goddess of discord who tossed the golden apple?",
+      "a": "Eris",
+      "angle": "greek"
+    },
+    {
+      "q": "Who are the Fates (Moirai)?",
+      "a": "Clotho, Lachesis, Atropos",
+      "angle": "greek"
+    },
+    {
+      "q": "What creature has a lion’s body and eagle’s head?",
+      "a": "Griffin",
+      "angle": "myth"
+    },
+    {
+      "q": "What is the Norse end-of-world battle called?",
+      "a": "Ragnarök",
+      "angle": "norse"
+    },
+    {
+      "q": "Who will slay Thor at Ragnarök?",
+      "a": "Jörmungandr and Thor kill each other",
+      "angle": "norse"
+    },
+    {
+      "q": "What is Odin’s spear called?",
+      "a": "Gungnir",
+      "angle": "norse"
+    },
+    {
+      "q": "What is Odin’s eight-legged horse called?",
+      "a": "Sleipnir",
+      "angle": "norse"
+    },
+    {
+      "q": "Who guards the Bifrost bridge?",
+      "a": "Heimdall",
+      "angle": "norse"
+    },
+    {
+      "q": "Who are the Norse twins who chase sun and moon?",
+      "a": "Sköll and Hati (wolves)",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Egyptian god of mummification?",
+      "a": "Anubis",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian god of wisdom with an ibis head?",
+      "a": "Thoth",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who killed and dismembered Osiris?",
+      "a": "Set",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who reassembled Osiris?",
+      "a": "Isis",
+      "angle": "egypt"
+    },
+    {
+      "q": "What is the feather used to weigh hearts?",
+      "a": "Feather of Ma’at",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who eats unworthy hearts in Egyptian myth?",
+      "a": "Ammit",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian lioness war goddess?",
+      "a": "Sekhmet",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Roman equivalent of Zeus?",
+      "a": "Jupiter",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman equivalent of Hermes?",
+      "a": "Mercury",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman equivalent of Aphrodite?",
+      "a": "Venus",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman equivalent of Ares?",
+      "a": "Mars",
+      "angle": "roman"
+    },
+    {
+      "q": "What are the Roman household gods?",
+      "a": "Lares and Penates",
+      "angle": "roman"
+    },
+    {
+      "q": "Who founded Rome in myth?",
+      "a": "Romulus and Remus",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Hindu preserver god?",
+      "a": "Vishnu",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu destroyer god?",
+      "a": "Shiva",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu creator god?",
+      "a": "Brahma",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu goddess of knowledge?",
+      "a": "Saraswati",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu goddess of wealth?",
+      "a": "Lakshmi",
+      "angle": "hindu"
+    },
+    {
+      "q": "What Norse realm is the land of fire?",
+      "a": "Muspelheim",
+      "angle": "norse"
+    },
+    {
+      "q": "What Norse realm is the land of frost giants?",
+      "a": "Jotunheim",
+      "angle": "norse"
+    },
+    {
+      "q": "What Norse realm is the land of elves?",
+      "a": "Alfheim",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Celtic war goddess known as the Phantom Queen?",
+      "a": "The Morrigan",
+      "angle": "celtic"
+    },
+    {
+      "q": "Who is the Japanese storm god?",
+      "a": "Susanoo",
+      "angle": "japanese"
+    },
+    {
+      "q": "Who is the Japanese sun goddess?",
+      "a": "Amaterasu",
+      "angle": "japanese"
+    },
+    {
+      "q": "Who is the Chinese Monkey King?",
+      "a": "Sun Wukong",
+      "angle": "chinese"
+    },
+    {
+      "q": "Who is the Aztec sun and war god?",
+      "a": "Huitzilopochtli",
+      "angle": "aztec"
+    },
+    {
+      "q": "Who is the Aztec feathered serpent deity?",
+      "a": "Quetzalcoatl",
+      "angle": "aztec"
+    },
+    {
+      "q": "Who is the Maya rain god?",
+      "a": "Chaac",
+      "angle": "maya"
+    },
+    {
+      "q": "Who is the Inca sun god?",
+      "a": "Inti",
+      "angle": "inca"
+    },
+    {
+      "q": "What is the Greek muse of epic poetry?",
+      "a": "Calliope",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek muse of history?",
+      "a": "Clio",
+      "angle": "greek"
+    },
+    {
+      "q": "Who are the Greek Gorgons?",
+      "a": "Medusa, Stheno, Euryale",
+      "angle": "greek"
+    },
+    {
+      "q": "What Norse ship carries the dead to Ragnarök?",
+      "a": "Naglfar",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Greek goddess of the hearth and home?",
+      "a": "Hestia",
+      "angle": "greek"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Who was Zeus’s first wife and mother of Athena?",
+      "a": "Metis (Athena born from Zeus’s head)",
+      "angle": "greek"
+    },
+    {
+      "q": "Who punished Prometheus for stealing fire?",
+      "a": "Zeus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who turned Actaeon into a stag?",
+      "a": "Artemis",
+      "angle": "greek"
+    },
+    {
+      "q": "Who was the Greek seer blinded for seeing Athena bathe?",
+      "a": "Tiresias (one version)",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the Greek concept of inescapable fate?",
+      "a": "Moirae/Fate",
+      "angle": "greek"
+    },
+    {
+      "q": "Who are the Greek Furies?",
+      "a": "Alecto, Megaera, Tisiphone",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the Greek underworld section of punishment?",
+      "a": "Tartarus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who pushes the boulder eternally?",
+      "a": "Sisyphus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who forever reaches for fruit and water he cannot take?",
+      "a": "Tantalus",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the oath river for gods in Greece?",
+      "a": "Styx",
+      "angle": "greek"
+    },
+    {
+      "q": "Who forged Zeus’s thunderbolts?",
+      "a": "Cyclopes under Hephaestus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who drove the sun chariot and lost control?",
+      "a": "Phaethon",
+      "angle": "greek"
+    },
+    {
+      "q": "Who solved the riddle of the Sphinx?",
+      "a": "Oedipus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek personification of victory?",
+      "a": "Nike",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the Norse poetic mead called?",
+      "a": "Kvasir’s mead / Mead of Poetry",
+      "angle": "norse"
+    },
+    {
+      "q": "Who will slay Odin at Ragnarök?",
+      "a": "Fenrir",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is fated to kill and be killed by Heimdall?",
+      "a": "Loki",
+      "angle": "norse"
+    },
+    {
+      "q": "What is the binding ribbon used on Fenrir?",
+      "a": "Gleipnir",
+      "angle": "norse"
+    },
+    {
+      "q": "What is the hall of slain warriors in Norse myth?",
+      "a": "Valhalla",
+      "angle": "norse"
+    },
+    {
+      "q": "Who controls the Norns at Yggdrasil?",
+      "a": "Urd, Verdandi, Skuld",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Norse giantess and mother of Jörmungandr, Fenrir, Hel?",
+      "a": "Angrboda",
+      "angle": "norse"
+    },
+    {
+      "q": "What is Odin’s self-sacrifice for runes?",
+      "a": "Hung on Yggdrasil nine nights pierced by spear",
+      "angle": "norse"
+    },
+    {
+      "q": "Who is the Egyptian crocodile god of the Nile and power?",
+      "a": "Sobek",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who devours hearts unworthy in Egypt?",
+      "a": "Ammit",
+      "angle": "egypt"
+    },
+    {
+      "q": "What is the Egyptian symbol of life?",
+      "a": "Ankh",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who weighed hearts against the feather of Ma’at?",
+      "a": "Anubis (judge with Osiris)",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian cow goddess of joy and motherhood?",
+      "a": "Hathor",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Egyptian god with an ibis head?",
+      "a": "Thoth",
+      "angle": "egypt"
+    },
+    {
+      "q": "What is Ma’at the goddess of?",
+      "a": "Truth, balance, cosmic order",
+      "angle": "egypt"
+    },
+    {
+      "q": "Who is the Roman equivalent of Hades?",
+      "a": "Pluto/Dis",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman equivalent of Demeter?",
+      "a": "Ceres",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Roman equivalent of Hephaestus?",
+      "a": "Vulcan",
+      "angle": "roman"
+    },
+    {
+      "q": "What were the Roman Parcae?",
+      "a": "The Fates (Nona, Decima, Morta)",
+      "angle": "roman"
+    },
+    {
+      "q": "Who is the Hindu goddess who rides a lion and slays Mahishasura?",
+      "a": "Durga",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu elephant-headed remover of obstacles?",
+      "a": "Ganesha",
+      "angle": "hindu"
+    },
+    {
+      "q": "Who is the Hindu goddess of time and change?",
+      "a": "Kali",
+      "angle": "hindu"
+    },
+    {
+      "q": "What is the Celtic festival marking summer’s end?",
+      "a": "Samhain",
+      "angle": "celtic"
+    },
+    {
+      "q": "What is the Japanese gate symbolizing sacred space?",
+      "a": "Torii gate",
+      "angle": "japanese"
+    },
+    {
+      "q": "Who is the Shinto storm god exiled from heaven?",
+      "a": "Susanoo",
+      "angle": "japanese"
+    },
+    {
+      "q": "Who is the Shinto creator pair?",
+      "a": "Izanagi and Izanami",
+      "angle": "japanese"
+    },
+    {
+      "q": "Who is the Chinese Eight Immortals’ leader?",
+      "a": "Zhongli Quan (varies)",
+      "angle": "chinese"
+    },
+    {
+      "q": "What Mesoamerican ballgame had ritual importance?",
+      "a": "Pok-ta-pok/Ōllamaliztli",
+      "angle": "mesoamerican"
+    },
+    {
+      "q": "Who is the Inca earth mother?",
+      "a": "Pachamama",
+      "angle": "inca"
+    },
+    {
+      "q": "Who is the Inca thunder/weather god?",
+      "a": "Illapa",
+      "angle": "inca"
+    },
+    {
+      "q": "What Aztec realm is for warriors who die in battle?",
+      "a": "Sun’s house with Huitzilopochtli/companions",
+      "angle": "aztec"
+    },
+    {
+      "q": "Who is the Aztec god of rain?",
+      "a": "Tlaloc",
+      "angle": "aztec"
+    },
+    {
+      "q": "What Norse event involves Surtr burning the world?",
+      "a": "Ragnarök",
+      "angle": "norse"
+    },
+    {
+      "q": "What Greek titan holds up the sky?",
+      "a": "Atlas",
+      "angle": "greek"
+    },
+    {
+      "q": "What Greek figure shared fire with man and suffered for it?",
+      "a": "Prometheus",
+      "angle": "greek"
+    },
+    {
+      "q": "Who is the Greek muse of lyric poetry?",
+      "a": "Erato",
+      "angle": "greek"
+    },
+    {
+      "q": "What is the Greek name for the Furies in Latin?",
+      "a": "Furiae/Dirae",
+      "angle": "roman"
+    },
+    {
+      "q": "Who guarded the golden apples in Greek myth?",
+      "a": "The Hesperides (and Ladon the dragon)",
+      "angle": "greek"
+    },
+    {
+      "q": "What Roman festival influenced modern Saturnalia traditions?",
+      "a": "Saturnalia",
+      "angle": "roman"
+    },
+    {
+      "q": "What was the Norse sacred poem collection?",
+      "a": "Poetic Edda",
+      "angle": "norse"
+    },
+    {
+      "q": "What was the prose collection by Snorri Sturluson?",
+      "a": "Prose Edda",
+      "angle": "norse"
+    }
+  ]
+}

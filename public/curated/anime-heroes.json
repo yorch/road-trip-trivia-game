@@ -249,6 +249,31 @@
       "q": "Who is the quirkless boy turned hero in MHA?",
       "a": "Izuku Midoriya (Deku)",
       "angle": "hero"
+    },
+    {
+      "q": "Who is the Sharingan-copy ninja known as the Copy Ninja?",
+      "a": "Kakashi Hatake",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who is the Straw Hat cook?",
+      "a": "Sanji",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the Straw Hat archaeologist?",
+      "a": "Nico Robin",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the Titan with armored plates?",
+      "a": "Reiner Braun (Armored Titan)",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the Flame Hashira?",
+      "a": "Kyojuro Rengoku",
+      "angle": "roles"
     }
   ],
   "medium": [
@@ -501,6 +526,31 @@
       "q": "What is the dragon slayer lacrima concept?",
       "a": "Magic crystal implanted granting dragon slayer magic",
       "angle": "lore"
+    },
+    {
+      "q": "What is the exam to become a pro hero in MHA called?",
+      "a": "U.A. entrance exam / Provisional License exam",
+      "angle": "arcs"
+    },
+    {
+      "q": "Who leads the Phantom Troupe?",
+      "a": "Chrollo Lucilfer",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the Beast Titan’s human form?",
+      "a": "Zeke Yeager",
+      "angle": "reveal"
+    },
+    {
+      "q": "What power system uses nen categories like Enhancement?",
+      "a": "Nen",
+      "angle": "system"
+    },
+    {
+      "q": "Who is the Stone Hashira?",
+      "a": "Gyomei Himejima",
+      "angle": "roles"
     }
   ],
   "hard": [
@@ -757,6 +807,26 @@
     {
       "q": "What does AOT's basement reveal contain?",
       "a": "Grisha's journals about Marley and Titans",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the full name of L in Death Note?",
+      "a": "L Lawliet",
+      "angle": "identity"
+    },
+    {
+      "q": "What is the hidden village Naruto is from?",
+      "a": "Konohagakure (Hidden Leaf)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created One Piece?",
+      "a": "Eiichiro Oda",
+      "angle": "creator"
+    },
+    {
+      "q": "What is the ultimate Titan power Eren seeks?",
+      "a": "Founding Titan power to start the Rumbling",
       "angle": "plot"
     }
   ]

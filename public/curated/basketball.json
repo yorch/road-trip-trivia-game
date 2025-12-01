@@ -249,6 +249,31 @@
       "q": "What is the time to cross half-court in NBA?",
       "a": "8 seconds",
       "angle": "rule"
+    },
+    {
+      "q": "How many seconds is the NBA three-second defensive rule?",
+      "a": "3 seconds in the paint",
+      "angle": "rule"
+    },
+    {
+      "q": "What is the arc beyond which shots are worth 3 points called?",
+      "a": "Three-point line",
+      "angle": "court"
+    },
+    {
+      "q": "What is the name of the half-time break?",
+      "a": "Halftime",
+      "angle": "rule"
+    },
+    {
+      "q": "What is a bank shot?",
+      "a": "A shot that bounces off the backboard into the hoop",
+      "angle": "skills"
+    },
+    {
+      "q": "What is a chest pass?",
+      "a": "A two-hand pass from the chest",
+      "angle": "fundamentals"
     }
   ],
   "medium": [
@@ -501,6 +526,31 @@
       "q": "How many timeouts per half in NCAA men’s?",
       "a": "Four 30-second media + one 60-second (rules vary by season)",
       "angle": "rule"
+    },
+    {
+      "q": "Who is nicknamed The Claw?",
+      "a": "Kawhi Leonard",
+      "angle": "legends"
+    },
+    {
+      "q": "Who is known as The Beard?",
+      "a": "James Harden",
+      "angle": "legends"
+    },
+    {
+      "q": "What year did the Toronto Raptors win their first NBA title?",
+      "a": "2019",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the first player drafted from high school to the NBA in 1995?",
+      "a": "Kevin Garnett",
+      "angle": "history"
+    },
+    {
+      "q": "Which coach won 4 NBA titles with the Spurs?",
+      "a": "Gregg Popovich",
+      "angle": "coaching"
     }
   ],
   "hard": [
@@ -753,6 +803,31 @@
       "q": "What is the restricted area radius under the basket?",
       "a": "Four feet in NBA",
       "angle": "rules"
+    },
+    {
+      "q": "Who holds the record for most career blocks in the NBA?",
+      "a": "Hakeem Olajuwon",
+      "angle": "records"
+    },
+    {
+      "q": "Who was the first European Finals MVP?",
+      "a": "Dirk Nowitzki (2011)",
+      "angle": "records"
+    },
+    {
+      "q": "What ABA star was known as Dr. J?",
+      "a": "Julius Erving",
+      "angle": "history"
+    },
+    {
+      "q": "What year was the three-point line adopted by the NBA?",
+      "a": "1979-80 season",
+      "angle": "rules"
+    },
+    {
+      "q": "Who is the WNBA all-time assists leader?",
+      "a": "Sue Bird",
+      "angle": "wnba"
     }
   ]
 }

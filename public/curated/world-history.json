@@ -249,6 +249,31 @@
       "q": "Who was the leader of the Nazi Party?",
       "a": "Adolf Hitler",
       "angle": "leaders"
+    },
+    {
+      "q": "Who was the Macedonian king who tutored under Aristotle?",
+      "a": "Alexander the Great",
+      "angle": "leaders"
+    },
+    {
+      "q": "What ship carried pilgrims to North America in 1620?",
+      "a": "Mayflower",
+      "angle": "events"
+    },
+    {
+      "q": "Who was the first Emperor of Rome?",
+      "a": "Augustus (Octavian)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What wall separated East and West Berlin?",
+      "a": "Berlin Wall",
+      "angle": "modern"
+    },
+    {
+      "q": "Who led the Salt March in India?",
+      "a": "Mahatma Gandhi",
+      "angle": "leaders"
     }
   ],
   "medium": [
