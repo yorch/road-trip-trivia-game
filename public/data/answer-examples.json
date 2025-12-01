@@ -1,0 +1,521 @@
+{
+  "lotr": {
+    "author": [
+      "J.R.R. Tolkien - philologist and professor",
+      "The Hobbit (1937) came first",
+      "LOTR published 1954-1955 in three volumes",
+      "Created entire languages for Middle-earth"
+    ],
+    "Middle-earth": [
+      "The Shire - peaceful hobbit homeland",
+      "Rivendell - Elven refuge",
+      "Mordor - Sauron's dark realm",
+      "Gondor - kingdom of men",
+      "Rohan - land of horse-lords"
+    ],
+    "fellowship": [
+      "Frodo Baggins - ring bearer",
+      "Gandalf - wizard guide",
+      "Aragorn - ranger and heir",
+      "Legolas - Elven archer",
+      "Gimli - Dwarf warrior",
+      "Sam, Merry, Pippin - hobbit companions",
+      "Boromir - man of Gondor"
+    ],
+    "quest": [
+      "Destroy the One Ring in Mount Doom",
+      "Journey from Shire to Mordor",
+      "Battle of Helm's Deep",
+      "Siege of Minas Tirith",
+      "Breaking of the Fellowship"
+    ],
+    "ring": [
+      "One Ring to rule them all",
+      "Forged by Sauron in Mount Doom",
+      "19 Rings of Power total",
+      "Three for Elves, Seven for Dwarves, Nine for Men",
+      "Inscription appears in fire"
+    ],
+    "creature": [
+      "Balrog - fire demon of ancient times",
+      "Ents - tree shepherds",
+      "Nazgûl - nine ringwraiths",
+      "Shelob - giant spider",
+      "Gollum - corrupted by the ring",
+      "Eagles - great messengers"
+    ],
+    "magic system": [
+      "Wizards sent from Valinor",
+      "Five Istari (wizards) in Middle-earth",
+      "Elven rings preserve realms",
+      "Palantíri - seeing stones",
+      "Light of Eärendil"
+    ]
+  },
+  "star-wars": {
+    "iconic scene": [
+      "Death Star trench run (A New Hope)",
+      "'I am your father' reveal (Empire Strikes Back)",
+      "Binary sunset on Tatooine (A New Hope)",
+      "Cantina band scene (A New Hope)",
+      "Duel of the Fates lightsaber battle (The Phantom Menace)"
+    ],
+    "quote": [
+      "May the Force be with you",
+      "I have a bad feeling about this",
+      "Do or do not, there is no try",
+      "These aren't the droids you're looking for",
+      "Help me, Obi-Wan Kenobi, you're my only hope"
+    ],
+    "sidekick": [
+      "R2-D2 - astromech droid",
+      "C-3PO - protocol droid",
+      "Chewbacca - Wookiee co-pilot",
+      "BB-8 - spherical droid",
+      "Yoda - Jedi Master mentor"
+    ],
+    "director": [
+      "George Lucas (Original Trilogy creator)",
+      "Irvin Kershner (The Empire Strikes Back)",
+      "J.J. Abrams (The Force Awakens)",
+      "Rian Johnson (The Last Jedi)",
+      "Dave Filoni (The Mandalorian)"
+    ],
+    "plot twist": [
+      "Darth Vader is Luke's father",
+      "Leia is Luke's twin sister",
+      "Palpatine is the Sith Lord",
+      "Kylo Ren is Han and Leia's son",
+      "Rey is Palpatine's granddaughter"
+    ],
+    "soundtrack": [
+      "Imperial March theme",
+      "Main Title theme",
+      "Duel of the Fates",
+      "Cantina Band song",
+      "Force Theme"
+    ]
+  },
+  "marvel": {
+    "Avengers": [
+      "Iron Man - genius billionaire",
+      "Captain America - super soldier",
+      "Thor - God of Thunder",
+      "Hulk - gamma-powered hero",
+      "Black Widow - master spy",
+      "Hawkeye - expert archer"
+    ],
+    "villain": [
+      "Thanos - Mad Titan seeking Infinity Stones",
+      "Loki - God of Mischief",
+      "Ultron - rogue AI antagonist",
+      "Hela - Goddess of Death",
+      "Killmonger - Black Panther's rival"
+    ],
+    "origin story": [
+      "Tony Stark creates Iron Man suit in a cave",
+      "Steve Rogers receives super soldier serum",
+      "Peter Parker bitten by radioactive spider",
+      "Bruce Banner exposed to gamma radiation",
+      "Black Panther inherits Wakandan throne"
+    ],
+    "multiverse": [
+      "Doctor Strange guards the Time Stone",
+      "Infinity Stones control aspects of reality",
+      "TVA monitors the Sacred Timeline",
+      "Spider-Verse connects multiple realities",
+      "What If...? explores alternate timelines"
+    ],
+    "iconic scene": [
+      "Avengers assemble circle shot (2012)",
+      "I am Iron Man snap (Endgame)",
+      "Captain America lifts Mjolnir (Endgame)",
+      "Portals scene in Endgame",
+      "Thanos snap (Infinity War)"
+    ],
+    "quote": [
+      "I am Iron Man",
+      "I can do this all day",
+      "Avengers, assemble!",
+      "I am Groot",
+      "With great power comes great responsibility"
+    ]
+  },
+  "harry-potter": {
+    "Hogwarts": [
+      "Gryffindor - house of the brave",
+      "Slytherin - house of the ambitious",
+      "Ravenclaw - house of the wise",
+      "Hufflepuff - house of the loyal",
+      "Great Hall - dining and ceremonies",
+      "Forbidden Forest - dangerous magical creatures"
+    ],
+    "spell": [
+      "Expelliarmus - disarming charm",
+      "Expecto Patronum - produces a Patronus",
+      "Lumos - creates light",
+      "Wingardium Leviosa - levitation charm",
+      "Avada Kedavra - killing curse"
+    ],
+    "house": [
+      "Gryffindor (Harry's house)",
+      "Slytherin (Malfoy's house)",
+      "Ravenclaw (Luna's house)",
+      "Hufflepuff (Cedric's house)"
+    ],
+    "houses": [
+      "Gryffindor - house of the brave",
+      "Slytherin - house of the ambitious",
+      "Ravenclaw - house of the wise",
+      "Hufflepuff - house of the loyal"
+    ],
+    "wand": [
+      "Harry's wand - holly and phoenix feather",
+      "Hermione's wand - vine wood and dragon heartstring",
+      "Elder Wand - most powerful wand",
+      "Ron's wand - ash and unicorn hair",
+      "Voldemort's wand - yew and phoenix feather"
+    ],
+    "wands": [
+      "Holly and phoenix feather (Harry)",
+      "Vine wood and dragon heartstring (Hermione)",
+      "Elder Wand - Deathly Hallow",
+      "Blackthorn wand (Voldemort's backup)"
+    ],
+    "creature": [
+      "Hedwig - Harry's snowy owl",
+      "Fawkes - Dumbledore's phoenix",
+      "Buckbeak - hippogriff",
+      "Dobby - house-elf",
+      "Nagini - Voldemort's snake",
+      "Fluffy - three-headed dog"
+    ],
+    "magic system": [
+      "Horcrux - object containing soul fragment",
+      "Deathly Hallows - three magical objects",
+      "Patronus - protective spirit guardian",
+      "Unforgivable Curses - illegal dark magic",
+      "Felix Felicis - liquid luck potion"
+    ],
+    "author": [
+      "J.K. Rowling",
+      "J.K. Rowling (Joanne Rowling)",
+      "J.K. Rowling wrote all seven books",
+      "J.K. Rowling, British author"
+    ],
+    "chapter": [
+      "The Boy Who Lived (first chapter)",
+      "The Forbidden Forest",
+      "The Mirror of Erised",
+      "The Deathly Hallows",
+      "The Prince's Tale"
+    ],
+    "library": [
+      "Hogwarts Library - Madam Pince",
+      "Restricted Section - forbidden books",
+      "Room of Requirement's hidden books",
+      "Dumbledore's private collection"
+    ],
+    "prophecy": [
+      "The Boy Who Lived prophecy",
+      "Neither can live while the other survives",
+      "Trelawney's prediction about Voldemort",
+      "Half-Blood Prince identity revelation",
+      "Snape's true allegiance reveal"
+    ]
+  },
+  "music-legends": {
+    "iconic tour": [
+      "The Rolling Stones - Steel Wheels Tour (1989)",
+      "U2 - Joshua Tree Tour",
+      "Madonna - Blonde Ambition Tour",
+      "Michael Jackson - Bad World Tour",
+      "Pink Floyd - The Wall Tour"
+    ],
+    "chart topper": [
+      "The Beatles - Hey Jude",
+      "Elvis Presley - Hound Dog",
+      "Michael Jackson - Thriller",
+      "Whitney Houston - I Will Always Love You",
+      "Queen - Bohemian Rhapsody"
+    ],
+    "signature song": [
+      "Frank Sinatra - My Way",
+      "Aretha Franklin - Respect",
+      "Bob Dylan - Like a Rolling Stone",
+      "David Bowie - Space Oddity",
+      "Prince - Purple Rain"
+    ],
+    "guitar solo": [
+      "Jimi Hendrix - Purple Haze solo",
+      "Eric Clapton - Layla outro",
+      "Eddie Van Halen - Eruption",
+      "Carlos Santana - Black Magic Woman",
+      "Stevie Ray Vaughan - Texas Flood"
+    ],
+    "classic album": [
+      "Pink Floyd - Dark Side of the Moon (1973)",
+      "The Beatles - Sgt. Pepper's (1967)",
+      "Fleetwood Mac - Rumours (1977)",
+      "Led Zeppelin IV (1971)",
+      "Nirvana - Nevermind (1991)"
+    ],
+    "modern artist": [
+      "Beyoncé - 32 Grammy awards",
+      "Taylor Swift - record-breaking tours",
+      "BTS - global K-pop phenomenon",
+      "Bad Bunny - Latin music icon",
+      "Adele - powerful ballads"
+    ],
+    "streaming hit": [
+      "Drake - most-streamed artist",
+      "Ed Sheeran - Shape of You record",
+      "Billie Eilish - youngest Grammy sweep",
+      "The Weeknd - Blinding Lights longevity",
+      "Ariana Grande - thank u, next era"
+    ]
+  },
+  "us-history": {
+    "founding": [
+      "George Washington - first president",
+      "Thomas Jefferson - wrote Declaration",
+      "Benjamin Franklin - inventor and diplomat",
+      "John Adams - second president",
+      "Alexander Hamilton - first Treasury Secretary"
+    ],
+    "revolution": [
+      "American Revolution (1775-1783)",
+      "Boston Tea Party (1773)",
+      "Declaration of Independence (1776)",
+      "Battle of Yorktown (1781)",
+      "Continental Congress meetings"
+    ],
+    "amendment": [
+      "1st Amendment - freedom of speech",
+      "2nd Amendment - right to bear arms",
+      "13th Amendment - abolished slavery",
+      "19th Amendment - women's suffrage",
+      "Bill of Rights - first 10 amendments"
+    ],
+    "milestone": [
+      "Louisiana Purchase doubled U.S. size (1803)",
+      "First moon landing (1969)",
+      "Civil Rights Act (1964)",
+      "Women's voting rights (1920)",
+      "End of slavery (1865)"
+    ],
+    "conflict": [
+      "Civil War (1861-1865)",
+      "World War II (1941-1945)",
+      "Vietnam War (1955-1975)",
+      "Korean War (1950-1953)",
+      "War of 1812"
+    ]
+  },
+  "space-exploration": {
+    "mission": [
+      "Apollo 11 - first moon landing (1969)",
+      "Voyager missions - outer solar system",
+      "Mars rovers - exploring red planet",
+      "Hubble Space Telescope launch (1990)",
+      "International Space Station construction"
+    ],
+    "planet": [
+      "Mars - red planet, potential for life",
+      "Jupiter - largest planet, Great Red Spot",
+      "Saturn - ringed gas giant",
+      "Venus - hottest planet",
+      "Mercury - closest to the Sun"
+    ],
+    "astronaut": [
+      "Neil Armstrong - first on the moon",
+      "Buzz Aldrin - second on the moon",
+      "Sally Ride - first American woman in space",
+      "Yuri Gagarin - first human in space",
+      "John Glenn - first American to orbit Earth"
+    ],
+    "rover": [
+      "Curiosity - studying Mars geology",
+      "Perseverance - searching for ancient life",
+      "Opportunity - operated 15 years on Mars",
+      "Spirit - twin of Opportunity",
+      "Sojourner - first Mars rover"
+    ],
+    "telescope": [
+      "James Webb - infrared space observatory",
+      "Hubble - visible light telescope",
+      "Chandra - X-ray observatory",
+      "Spitzer - infrared telescope",
+      "Kepler - planet-hunting telescope"
+    ],
+    "moon": [
+      "Europa - Jupiter's icy moon",
+      "Titan - Saturn's largest moon",
+      "Ganymede - largest moon in solar system",
+      "Enceladus - Saturn moon with geysers",
+      "Io - Jupiter's volcanic moon"
+    ]
+  },
+  "soccer": {
+    "World Cup": [
+      "Brazil won 5 World Cups (most)",
+      "2022 World Cup in Qatar",
+      "Maradona's 'Hand of God' goal (1986)",
+      "Germany 7-1 Brazil semifinal (2014)",
+      "First World Cup in Uruguay (1930)"
+    ],
+    "club": [
+      "Real Madrid - most Champions League titles",
+      "FC Barcelona - Messi's club",
+      "Manchester United - English powerhouse",
+      "Bayern Munich - German giants",
+      "AC Milan - Italian legends"
+    ],
+    "legend": [
+      "Pelé - Brazilian icon, 3 World Cups",
+      "Diego Maradona - Argentine genius",
+      "Lionel Messi - 8 Ballon d'Or awards",
+      "Cristiano Ronaldo - 5 Ballon d'Or awards",
+      "Johan Cruyff - Total Football pioneer"
+    ],
+    "position": [
+      "Goalkeeper - last line of defense",
+      "Striker - main goal scorer",
+      "Midfielder - controls the game",
+      "Defender - protects the goal",
+      "Winger - attacks from sides"
+    ],
+    "record": [
+      "Messi - most Ballon d'Or awards",
+      "Cristiano Ronaldo - most international goals",
+      "Real Madrid - 14 Champions League titles",
+      "Josef Bican - 805 career goals",
+      "Lev Yashin - only goalkeeper to win Ballon d'Or"
+    ],
+    "rule": [
+      "Offside rule prevents goal hanging",
+      "Yellow card - caution warning",
+      "Red card - ejection from game",
+      "Penalty kick - 12 yards from goal",
+      "90 minutes plus stoppage time"
+    ]
+  },
+  "disney-classics": {
+    "animation": [
+      "Snow White - first feature film (1937)",
+      "The Lion King - Circle of Life",
+      "Frozen - Let It Go phenomenon",
+      "Beauty and the Beast - tale as old as time",
+      "Aladdin - magic carpet rides"
+    ],
+    "song": [
+      "A Whole New World (Aladdin)",
+      "Let It Go (Frozen)",
+      "Circle of Life (The Lion King)",
+      "Under the Sea (The Little Mermaid)",
+      "Be Our Guest (Beauty and the Beast)"
+    ],
+    "sidekick": [
+      "Genie - Aladdin's wish granter",
+      "Olaf - Frozen's snowman",
+      "Timon and Pumbaa - Lion King duo",
+      "Sebastian - Little Mermaid's crab",
+      "Lumiere - Beauty's candlestick"
+    ],
+    "castle": [
+      "Cinderella Castle at Magic Kingdom",
+      "Sleeping Beauty Castle at Disneyland",
+      "Beast's enchanted castle",
+      "Elsa's ice palace",
+      "Prince Eric's seaside castle"
+    ],
+    "villain": [
+      "Maleficent - Sleeping Beauty's dark fairy",
+      "Ursula - Little Mermaid's sea witch",
+      "Scar - Lion King's treacherous uncle",
+      "Jafar - Aladdin's power-hungry vizier",
+      "Cruella de Vil - 101 Dalmatians villain"
+    ],
+    "quote": [
+      "Let it go, let it go! (Frozen)",
+      "Hakuna Matata - no worries (Lion King)",
+      "To infinity and beyond! (Toy Story)",
+      "Just keep swimming (Finding Nemo)",
+      "The past can hurt, but you can run from it or learn from it (Lion King)"
+    ]
+  },
+  "modern-games": {
+    "crafting": [
+      "Minecraft - building with blocks",
+      "Terraria - 2D mining and crafting",
+      "Valheim - Viking survival crafting",
+      "Stardew Valley - farm crafting",
+      "Subnautica - underwater crafting"
+    ],
+    "online squad": [
+      "Fortnite - battle royale squads",
+      "Apex Legends - 3-player teams",
+      "Overwatch - 6v6 team battles",
+      "Valorant - tactical 5v5",
+      "Call of Duty - multiplayer teams"
+    ],
+    "open world": [
+      "Zelda: Breath of the Wild - Hyrule",
+      "Elden Ring - FromSoftware's masterpiece",
+      "Red Dead Redemption 2 - Wild West",
+      "The Witcher 3 - monster hunting",
+      "GTA V - Los Santos city"
+    ],
+    "boss fight": [
+      "Elden Ring - Malenia, Blade of Miquella",
+      "Dark Souls - Ornstein and Smough",
+      "Sekiro - Isshin, the Sword Saint",
+      "God of War - Baldur fights",
+      "Hollow Knight - Radiance battle"
+    ],
+    "indie game": [
+      "Hades - roguelike dungeon crawler",
+      "Celeste - precision platformer",
+      "Stardew Valley - farming simulator",
+      "Hollow Knight - metroidvania masterpiece",
+      "Among Us - social deduction game"
+    ],
+    "game theme": [
+      "Undertale - Megalovania boss theme",
+      "The Legend of Zelda - main theme",
+      "Halo - iconic choir theme",
+      "Super Mario Bros - overworld theme",
+      "Skyrim - Dragonborn theme"
+    ]
+  },
+  "world-history": {
+    "ancient empire": [
+      "Roman Empire - lasted 1000+ years",
+      "Egyptian pharaohs - built pyramids",
+      "Mongol Empire - largest contiguous empire",
+      "Ottoman Empire - controlled Mediterranean",
+      "Persian Empire - ancient superpower"
+    ],
+    "trade route": [
+      "Silk Road - connected East and West",
+      "Spice Route - valuable commodity trade",
+      "Trans-Saharan - African gold trade",
+      "Amber Road - prehistoric trade path",
+      "Incense Route - Arabian Peninsula"
+    ],
+    "conflict": [
+      "World War I (1914-1918)",
+      "World War II (1939-1945)",
+      "Napoleonic Wars (1803-1815)",
+      "Hundred Years' War (1337-1453)",
+      "Crusades - religious wars"
+    ],
+    "peace accord": [
+      "Treaty of Versailles (1919)",
+      "Peace of Westphalia (1648)",
+      "Congress of Vienna (1815)",
+      "Camp David Accords (1978)",
+      "Good Friday Agreement (1998)"
+    ]
+  }
+}

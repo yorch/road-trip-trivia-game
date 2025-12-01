@@ -10,6 +10,7 @@ import {
   answerTemplates,
   categoryAngles,
   difficulties,
+  loadStaticData,
   promptTemplates,
   topicList,
 } from './data/data';
@@ -46,6 +47,18 @@ async function init(): Promise<void> {
 
   // Initialize toast notification system
   ToastManager.init();
+
+  // Load static data from JSON files (topics and answer examples)
+  try {
+    await loadStaticData();
+  } catch (error) {
+    ErrorHandler.critical(
+      'Failed to load game data. Please check your internet connection and refresh the page.',
+      error instanceof Error ? error : undefined,
+    );
+    console.error('Static data loading failed:', error);
+    return;
+  }
 
   // Set up reactive scoreboard updates (automatic UI sync)
   effect(() => {
@@ -84,7 +97,7 @@ async function init(): Promise<void> {
       if (!localStorageWarningShown) {
         ErrorHandler.warn(
           'Unable to save progress - localStorage unavailable',
-          e,
+          e instanceof Error ? e : undefined,
         );
         localStorageWarningShown = true;
       }

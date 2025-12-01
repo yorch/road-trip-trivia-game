@@ -84,7 +84,7 @@ road-trip-trivia/
 │   │   ├── topic-picker.ts    # Topic selection modal
 │   │   └── question-flow.ts   # Question progression
 │   ├── data/
-│   │   └── data.ts            # Topics, templates, answer examples
+│   │   └── data.ts            # Data loader, templates (topics/examples in JSON)
 │   ├── main.ts                # App initialization & PWA setup
 │   ├── utils.ts               # Utility functions
 │   └── types.ts               # TypeScript type definitions
@@ -94,6 +94,9 @@ road-trip-trivia/
 │   │   ├── star-wars.json     # Per-topic curated questions (4-12 KB each)
 │   │   ├── marvel.json
 │   │   └── ...                # 21 topic files total
+│   ├── data/                  # Static data files
+│   │   ├── topics.json        # 81 topics (12 KB)
+│   │   └── answer-examples.json # Answer examples (16 KB)
 │   └── icon-*.png             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
@@ -116,14 +119,14 @@ yarn format
 
 #### New Topics
 
-Edit `src/data/data.ts` and add to `topicList`:
+Edit `public/data/topics.json` and add to the array:
 
-```typescript
+```json
 {
-  id: "your-topic-id",
-  name: "Display Name",
-  category: "Category Name",
-  tags: ["tag1", "tag2", "tag3", "tag4"]
+  "id": "your-topic-id",
+  "name": "Display Name",
+  "category": "Category Name",
+  "tags": ["tag1", "tag2", "tag3", "tag4"]
 }
 ```
 
@@ -151,15 +154,17 @@ Users can reload curated questions in the app without redeploying using the "↻
 
 #### Answer Examples
 
-Add real-world examples to `answerExamples` in `src/data/data.ts`:
+Add real-world examples to `public/data/answer-examples.json`:
 
-```typescript
-"your-topic-id": {
-  "character name": [
-    "Luke Skywalker",
-    "Princess Leia",
-    "Han Solo"
-  ]
+```json
+{
+  "your-topic-id": {
+    "character name": [
+      "Luke Skywalker",
+      "Princess Leia",
+      "Han Solo"
+    ]
+  }
 }
 ```
 

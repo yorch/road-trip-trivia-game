@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['curated/*.json'],
+      includeAssets: ['curated/*.json', 'data/*.json'],
       manifest: {
         name: 'Road Trip Trivia',
         short_name: 'Trivia Drive',

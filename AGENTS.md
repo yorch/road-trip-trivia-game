@@ -113,13 +113,27 @@ yarn format           # Format code with Biome
   - Answer reveal mechanics
   - End-of-questions handling
 
-**src/data/data.ts** (1155 lines) - Static game data
+**src/data/data.ts** (203 lines) - Data module and loader
 
-- `topicList`: 81 topics with id, name, category, tags
-- `categoryAngles`: Category-specific question perspectives
-- `promptTemplates`: Question templates by difficulty (easy, medium, hard)
-- `answerTemplates`: Generic answer templates (fallback when no examples exist)
-- `answerExamples`: Real-world answers organized by topic → angle (e.g., Star Wars → iconic scene)
+- `loadStaticData()`: Async function to load topics and answer examples from JSON files
+- `topicList`: Empty array populated by loadStaticData() - 81 topics with id, name, category, tags
+- `answerExamples`: Empty object populated by loadStaticData() - real-world answers by topic → angle
+- `categoryAngles`: Category-specific question perspectives (kept in TypeScript)
+- `promptTemplates`: Question templates by difficulty (kept in TypeScript)
+- `answerTemplates`: Generic answer templates (kept in TypeScript)
+
+**public/data/topics.json** (12 KB) - Topic list data
+
+- JSON array of 81 topics with id, name, category, tags
+- Loaded asynchronously at app initialization via fetch()
+- Available offline via PWA service worker caching
+
+**public/data/answer-examples.json** (16 KB) - Answer examples data
+
+- JSON object mapping topics to answer examples by angle
+- Real-world examples for 11 topics (lotr, star-wars, marvel, harry-potter, music-legends, us-history, space-exploration, soccer, disney-classics, modern-games, world-history)
+- Loaded asynchronously at app initialization via fetch()
+- Available offline via PWA service worker caching
 
 **Curated Questions** - Factual Q&A
 
@@ -236,19 +250,19 @@ Based on commit history:
 
 ### New Topics
 
-1. Add to `src/data/data.ts` in `topicList`:
+1. Add to `public/data/topics.json`:
 
-   ```typescript
+   ```json
    {
-     id: "unique-id",
-     name: "Display Name",
-     category: "Category Name",
-     tags: ["tag1", "tag2", "tag3", "tag4"]
+     "id": "unique-id",
+     "name": "Display Name",
+     "category": "Category Name",
+     "tags": ["tag1", "tag2", "tag3", "tag4"]
    }
    ```
 
 2. Optionally add curated questions to `public/curated/[topic-id].json`
-3. Optionally add answer examples to `answerExamples` in `src/data/data.ts`
+3. Optionally add answer examples to `public/data/answer-examples.json`
 
 ### Curated Questions
 
@@ -274,15 +288,17 @@ Users can reload curated questions without redeploying via "↻ Reload" button i
 
 ### Answer Examples
 
-Add to `answerExamples` in `src/data/data.ts`:
+Add to `public/data/answer-examples.json`:
 
-```typescript
-"topic-id": {
-  "angle-name": [
-    "Real example 1",
-    "Real example 2",
-    "Real example 3"
-  ]
+```json
+{
+  "topic-id": {
+    "angle-name": [
+      "Real example 1",
+      "Real example 2",
+      "Real example 3"
+    ]
+  }
 }
 ```
 

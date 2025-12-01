@@ -1,0 +1,458 @@
+[
+  {
+    "id": "star-wars",
+    "name": "Star Wars",
+    "category": "Movies & TV",
+    "tags": ["Jedi", "Force", "rebellion", "lightsaber"]
+  },
+  {
+    "id": "harry-potter",
+    "name": "Harry Potter",
+    "category": "Books & Lore",
+    "tags": ["Hogwarts", "spells", "houses", "wands"]
+  },
+  {
+    "id": "kpop-demon-hunters",
+    "name": "K-Pop Demon Hunters",
+    "category": "Music & TV",
+    "tags": ["stage battles", "idols", "mythic rivals", "dance breaks"]
+  },
+  {
+    "id": "marvel",
+    "name": "Marvel Universe",
+    "category": "Movies & TV",
+    "tags": ["Avengers", "multiverse", "villains", "origin stories"]
+  },
+  {
+    "id": "dc-comics",
+    "name": "DC Comics",
+    "category": "Movies & TV",
+    "tags": ["Justice League", "Gotham", "metropolis", "rogues gallery"]
+  },
+  {
+    "id": "lotr",
+    "name": "Lord of the Rings",
+    "category": "Books & Lore",
+    "tags": ["Middle-earth", "rings", "quests", "fellowship"]
+  },
+  {
+    "id": "disney-classics",
+    "name": "Disney Classics",
+    "category": "Movies & TV",
+    "tags": ["animation", "songs", "sidekicks", "castles"]
+  },
+  {
+    "id": "90s-cartoons",
+    "name": "90s Cartoons",
+    "category": "Movies & TV",
+    "tags": ["theme songs", "retro heroes", "morning shows", "toy tie-ins"]
+  },
+  {
+    "id": "anime-heroes",
+    "name": "Anime Heroes",
+    "category": "Movies & TV",
+    "tags": ["power-ups", "teams", "arcs", "rivals"]
+  },
+  {
+    "id": "space-sci-fi",
+    "name": "Space Sci-Fi",
+    "category": "Movies & TV",
+    "tags": ["starships", "captains", "alien worlds", "warp drives"]
+  },
+  {
+    "id": "pirate-adventures",
+    "name": "Pirate Adventures",
+    "category": "Books & Lore",
+    "tags": ["treasure maps", "ships", "captains", "legends"]
+  },
+  {
+    "id": "detective-mysteries",
+    "name": "Detective Mysteries",
+    "category": "Books & Lore",
+    "tags": ["sleuths", "clues", "cases", "twists"]
+  },
+  {
+    "id": "time-travel",
+    "name": "Time Travel Tales",
+    "category": "Books & Lore",
+    "tags": ["paradoxes", "timelines", "devices", "future stakes"]
+  },
+  {
+    "id": "music-legends",
+    "name": "Music Legends",
+    "category": "Music",
+    "tags": ["guitar solos", "iconic tours", "chart toppers", "signature songs"]
+  },
+  {
+    "id": "pop-hits",
+    "name": "Pop Hits",
+    "category": "Music",
+    "tags": ["choruses", "hooks", "dance tracks", "radio moments"]
+  },
+  {
+    "id": "rock-history",
+    "name": "Rock History",
+    "category": "Music",
+    "tags": ["anthems", "guitar riffs", "festival lore", "classic albums"]
+  },
+  {
+    "id": "jazz-blues",
+    "name": "Jazz & Blues",
+    "category": "Music",
+    "tags": ["improv solos", "standards", "blue notes", "club nights"]
+  },
+  {
+    "id": "country-roads",
+    "name": "Country Roads",
+    "category": "Music",
+    "tags": ["story songs", "fiddles", "line dancing", "highways"]
+  },
+  {
+    "id": "folk-music",
+    "name": "Folk Music",
+    "category": "Music",
+    "tags": ["ballads", "acoustic tales", "traditions", "campfire songs"]
+  },
+  {
+    "id": "classical-composers",
+    "name": "Classical Composers",
+    "category": "Music",
+    "tags": ["symphonies", "concertos", "motifs", "orchestras"]
+  },
+  {
+    "id": "edm",
+    "name": "Electronic Dance",
+    "category": "Music",
+    "tags": ["drops", "synth leads", "club nights", "festivals"]
+  },
+  {
+    "id": "broadway",
+    "name": "Broadway Musicals",
+    "category": "Theater",
+    "tags": ["show tunes", "ensembles", "opening numbers", "curtain calls"]
+  },
+  {
+    "id": "movie-soundtracks",
+    "name": "Movie Soundtracks",
+    "category": "Music",
+    "tags": ["themes", "scores", "leitmotifs", "credits songs"]
+  },
+  {
+    "id": "us-history",
+    "name": "US History",
+    "category": "History",
+    "tags": ["founding", "revolutions", "amendments", "milestones"]
+  },
+  {
+    "id": "world-history",
+    "name": "World History",
+    "category": "History",
+    "tags": ["ancient empires", "trade routes", "conflicts", "peace accords"]
+  },
+  {
+    "id": "presidents",
+    "name": "American Presidents",
+    "category": "History",
+    "tags": ["campaigns", "policies", "quotes", "eras"]
+  },
+  {
+    "id": "ancient-egypt",
+    "name": "Ancient Egypt",
+    "category": "History",
+    "tags": ["pharaohs", "pyramids", "myths", "nile"]
+  },
+  {
+    "id": "ancient-greece",
+    "name": "Ancient Greece",
+    "category": "History",
+    "tags": ["gods", "city-states", "olympics", "philosophers"]
+  },
+  {
+    "id": "medieval-europe",
+    "name": "Medieval Europe",
+    "category": "History",
+    "tags": ["castles", "knights", "guilds", "legends"]
+  },
+  {
+    "id": "renaissance",
+    "name": "Renaissance Art",
+    "category": "History",
+    "tags": ["masters", "patrons", "workshops", "perspective"]
+  },
+  {
+    "id": "ww2",
+    "name": "World War II",
+    "category": "History",
+    "tags": ["allies", "axis", "home front", "turning points"]
+  },
+  {
+    "id": "civil-rights",
+    "name": "Civil Rights Movement",
+    "category": "History",
+    "tags": ["marches", "leaders", "landmark cases", "protests"]
+  },
+  {
+    "id": "space-race",
+    "name": "Space Race",
+    "category": "History",
+    "tags": ["rockets", "moonshots", "astronauts", "rivalry"]
+  },
+  {
+    "id": "inventors",
+    "name": "Inventions & Inventors",
+    "category": "History",
+    "tags": ["breakthroughs", "patents", "prototypes", "eureka moments"]
+  },
+  {
+    "id": "women-history",
+    "name": "Women in History",
+    "category": "History",
+    "tags": ["trailblazers", "movements", "discoveries", "firsts"]
+  },
+  {
+    "id": "space-exploration",
+    "name": "Space Exploration",
+    "category": "Science & Nature",
+    "tags": ["missions", "rovers", "telescopes", "planets"]
+  },
+  {
+    "id": "solar-system",
+    "name": "Solar System",
+    "category": "Science & Nature",
+    "tags": ["planets", "moons", "orbits", "asteroids"]
+  },
+  {
+    "id": "human-body",
+    "name": "Human Body",
+    "category": "Science & Nature",
+    "tags": ["organs", "systems", "health", "senses"]
+  },
+  {
+    "id": "weather",
+    "name": "Weather & Climate",
+    "category": "Science & Nature",
+    "tags": ["storms", "seasons", "patterns", "forecasts"]
+  },
+  {
+    "id": "earth-science",
+    "name": "Earth Science",
+    "category": "Science & Nature",
+    "tags": ["rocks", "tectonics", "oceans", "atmosphere"]
+  },
+  {
+    "id": "dinosaurs",
+    "name": "Dinosaurs",
+    "category": "Science & Nature",
+    "tags": ["fossils", "eras", "predators", "herbivores"]
+  },
+  {
+    "id": "ocean-life",
+    "name": "Ocean Life",
+    "category": "Science & Nature",
+    "tags": ["coral reefs", "currents", "creatures", "deep sea"]
+  },
+  {
+    "id": "rainforest",
+    "name": "Rainforest",
+    "category": "Science & Nature",
+    "tags": ["canopy", "biodiversity", "rivers", "wildlife"]
+  },
+  {
+    "id": "animals",
+    "name": "Animals of the World",
+    "category": "Science & Nature",
+    "tags": ["habitats", "tracks", "adaptations", "sounds"]
+  },
+  {
+    "id": "tech-innovations",
+    "name": "Tech Innovations",
+    "category": "Science & Nature",
+    "tags": ["gadgets", "startups", "breakthroughs", "future bets"]
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics & AI",
+    "category": "Science & Nature",
+    "tags": ["automation", "sensors", "ethics", "design"]
+  },
+  {
+    "id": "soccer",
+    "name": "Soccer",
+    "category": "Sports & Games",
+    "tags": ["world cups", "clubs", "legends", "positions"]
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball",
+    "category": "Sports & Games",
+    "tags": ["playoffs", "dunks", "point guards", "dynasties"]
+  },
+  {
+    "id": "baseball",
+    "name": "Baseball",
+    "category": "Sports & Games",
+    "tags": ["ballparks", "pitching", "stats", "legends"]
+  },
+  {
+    "id": "olympics",
+    "name": "Olympics",
+    "category": "Sports & Games",
+    "tags": ["host cities", "opening ceremonies", "records", "events"]
+  },
+  {
+    "id": "racing",
+    "name": "Cars & Racing",
+    "category": "Sports & Games",
+    "tags": ["grand prix", "pit stops", "circuits", "drivers"]
+  },
+  {
+    "id": "board-games",
+    "name": "Board Games",
+    "category": "Sports & Games",
+    "tags": ["strategy", "dice", "co-op", "family night"]
+  },
+  {
+    "id": "retro-games",
+    "name": "Video Games Retro",
+    "category": "Sports & Games",
+    "tags": ["arcades", "8-bit", "platformers", "cheat codes"]
+  },
+  {
+    "id": "modern-games",
+    "name": "Video Games Modern",
+    "category": "Sports & Games",
+    "tags": ["open worlds", "crafting", "online squads", "boss fights"]
+  },
+  {
+    "id": "esports",
+    "name": "Esports",
+    "category": "Sports & Games",
+    "tags": ["tournaments", "metas", "casters", "big plays"]
+  },
+  {
+    "id": "martial-arts",
+    "name": "Martial Arts",
+    "category": "Sports & Games",
+    "tags": ["forms", "sparring", "belts", "philosophy"]
+  },
+  {
+    "id": "world-capitals",
+    "name": "World Capitals",
+    "category": "Travel & Places",
+    "tags": ["rivers", "city squares", "monuments", "embassies"]
+  },
+  {
+    "id": "landmarks",
+    "name": "World Landmarks",
+    "category": "Travel & Places",
+    "tags": ["towers", "bridges", "temples", "statues"]
+  },
+  {
+    "id": "national-parks",
+    "name": "US National Parks",
+    "category": "Travel & Places",
+    "tags": ["trails", "wildlife", "rangers", "vistas"]
+  },
+  {
+    "id": "world-cultures",
+    "name": "World Cultures",
+    "category": "Travel & Places",
+    "tags": ["festivals", "languages", "traditions", "recipes"]
+  },
+  {
+    "id": "food-world",
+    "name": "Food Around the World",
+    "category": "Travel & Places",
+    "tags": ["street food", "spices", "comfort dishes", "desserts"]
+  },
+  {
+    "id": "deserts-mountains",
+    "name": "Deserts & Mountains",
+    "category": "Travel & Places",
+    "tags": ["summits", "dunes", "base camps", "routes"]
+  },
+  {
+    "id": "islands-oceans",
+    "name": "Islands & Oceans",
+    "category": "Travel & Places",
+    "tags": ["archipelagos", "reefs", "ferries", "lagoon"]
+  },
+  {
+    "id": "trains-travel",
+    "name": "Trains & Travel",
+    "category": "Travel & Places",
+    "tags": ["stations", "rail lore", "night routes", "scenic rides"]
+  },
+  {
+    "id": "aviation",
+    "name": "Aviation & Flight",
+    "category": "Travel & Places",
+    "tags": ["cockpits", "pilots", "airshows", "routes"]
+  },
+  {
+    "id": "sailing",
+    "name": "Sailing & Sea",
+    "category": "Travel & Places",
+    "tags": ["harbors", "regattas", "navigation", "knots"]
+  },
+  {
+    "id": "camping",
+    "name": "Camping & Hiking",
+    "category": "Lifestyle & Fun",
+    "tags": ["trail snacks", "tents", "maps", "campfire stories"]
+  },
+  {
+    "id": "survival",
+    "name": "Survival Skills",
+    "category": "Lifestyle & Fun",
+    "tags": ["signals", "first aid", "shelter", "fire craft"]
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking Basics",
+    "category": "Lifestyle & Fun",
+    "tags": ["knife skills", "spices", "sauces", "kitchen tools"]
+  },
+  {
+    "id": "desserts",
+    "name": "Desserts",
+    "category": "Lifestyle & Fun",
+    "tags": ["cakes", "cookies", "frosting", "fruit treats"]
+  },
+  {
+    "id": "coffee-tea",
+    "name": "Coffee & Tea",
+    "category": "Lifestyle & Fun",
+    "tags": ["brews", "roasts", "ceremony", "pairings"]
+  },
+  {
+    "id": "fashion",
+    "name": "Fashion History",
+    "category": "Lifestyle & Fun",
+    "tags": ["runways", "decades", "designers", "silhouettes"]
+  },
+  {
+    "id": "architecture",
+    "name": "Architecture",
+    "category": "Lifestyle & Fun",
+    "tags": ["styles", "materials", "cityscapes", "skylines"]
+  },
+  {
+    "id": "photography",
+    "name": "Photography",
+    "category": "Lifestyle & Fun",
+    "tags": ["lenses", "light", "subjects", "angles"]
+  },
+  {
+    "id": "gardening",
+    "name": "Gardening",
+    "category": "Lifestyle & Fun",
+    "tags": ["soil", "seasons", "pollinators", "harvest"]
+  },
+  {
+    "id": "eco-living",
+    "name": "Eco Living",
+    "category": "Lifestyle & Fun",
+    "tags": ["recycling", "energy", "habits", "green swaps"]
+  }
+]
