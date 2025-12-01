@@ -9,7 +9,7 @@ import type {
   QuestionBank,
   QuestionMode,
   Topic,
-} from '../../types';
+} from '../types';
 import {
   buildAngles,
   ErrorHandler,

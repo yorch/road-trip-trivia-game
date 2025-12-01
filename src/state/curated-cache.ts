@@ -1,7 +1,7 @@
 // Curated question counts cache management
 // Atomic cache operations to prevent race conditions
 
-import type { Topic } from '../../types';
+import type { Topic } from '../types';
 import { ErrorHandler } from '../utils';
 
 // Global cache for curated question counts

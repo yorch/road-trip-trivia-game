@@ -1,8 +1,8 @@
 // DOM rendering and button state updates
 // Pure rendering logic without side effects
 
-import type { Question, Topic } from '../../types';
 import { state } from '../state';
+import type { Question, Topic } from '../types';
 import { ErrorHandler } from '../utils';
 
 // Update difficulty buttons

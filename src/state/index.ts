@@ -2,7 +2,7 @@
 // Maintains backward compatibility while organizing code into focused modules
 
 import { type Signal, signal } from '@preact/signals-core';
-import type { Difficulty, State } from '../../types';
+import type { Difficulty, State } from '../types';
 import { DIFFICULTY_LEVELS, QUESTION_MODES } from '../utils';
 
 export * from './curated-cache';

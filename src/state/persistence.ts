@@ -7,7 +7,7 @@ import type {
   QuestionMode,
   ScoreboardData,
   Topic,
-} from '../../types';
+} from '../types';
 import { DIFFICULTY_LEVELS, ErrorHandler, QUESTION_MODES } from '../utils';
 
 // Last topic persistence

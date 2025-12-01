@@ -1,8 +1,8 @@
 // Topic picker modal management
 // Handles modal display, search, filtering, and focus trap
 
-import type { Topic } from '../../types';
 import { getOrCalculateCuratedCounts } from '../state';
+import type { Topic } from '../types';
 import { escapeHtml, SEARCH_DEBOUNCE_MS } from '../utils';
 import { selectTopicAndStart } from './question-flow';
 

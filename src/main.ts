@@ -2,7 +2,7 @@
 // This file orchestrates the initialization of all modules
 
 // Import CSS (Vite will process this)
-import '../css/style.css';
+import './css/style.css';
 
 import { effect } from '@preact/signals-core';
 import {
@@ -12,8 +12,7 @@ import {
   difficulties,
   promptTemplates,
   topicList,
-} from '../data/data';
-import type { ScoreboardData } from '../types';
+} from './data/data';
 import {
   askedSignal,
   loadCuratedQuestions,
@@ -27,6 +26,7 @@ import {
   state,
   streakSignal,
 } from './state';
+import type { ScoreboardData } from './types';
 import {
   bindEvents,
   nextQuestion,

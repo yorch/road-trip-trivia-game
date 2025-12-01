@@ -6,7 +6,7 @@ import type {
   Progress,
   ProgressData,
   QuestionMode,
-} from '../../types';
+} from '../types';
 import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
 import { saveProgress as persistProgress } from './persistence';
 import { getOrCreateQuestions } from './questions';

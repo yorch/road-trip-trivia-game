@@ -1,12 +1,6 @@
 // Event binding and handling
 // Central event delegation and handler registration
 
-import type {
-  CuratedQuestions,
-  Difficulty,
-  QuestionMode,
-  Topic,
-} from '../../types';
 import {
   rebuildQuestionBank,
   resetCuratedCountsCache,
@@ -15,6 +9,12 @@ import {
   saveQuestionMode,
   state,
 } from '../state';
+import type {
+  CuratedQuestions,
+  Difficulty,
+  QuestionMode,
+  Topic,
+} from '../types';
 import {
   ErrorHandler,
   getCuratedQuestionsUrl,
