@@ -149,6 +149,131 @@
       "q": "Who is the potions master in Half-Blood Prince?",
       "a": "Professor Slughorn",
       "angle": "faculty"
+    },
+    {
+      "q": "Who is the boy wizard with a lightning scar?",
+      "a": "Harry Potter",
+      "angle": "characters"
+    },
+    {
+      "q": "What school do Harry and friends attend?",
+      "a": "Hogwarts School of Witchcraft and Wizardry",
+      "angle": "setting"
+    },
+    {
+      "q": "What is Harry's pet owl named?",
+      "a": "Hedwig",
+      "angle": "pets"
+    },
+    {
+      "q": "Who are Harry's two best friends?",
+      "a": "Ron Weasley and Hermione Granger",
+      "angle": "friends"
+    },
+    {
+      "q": "What house is Harry sorted into?",
+      "a": "Gryffindor",
+      "angle": "houses"
+    },
+    {
+      "q": "Who is the headmaster of Hogwarts for most of the series?",
+      "a": "Albus Dumbledore",
+      "angle": "staff"
+    },
+    {
+      "q": "What sport is played on broomsticks?",
+      "a": "Quidditch",
+      "angle": "sports"
+    },
+    {
+      "q": "What position does Harry play in Quidditch?",
+      "a": "Seeker",
+      "angle": "sports"
+    },
+    {
+      "q": "What platform do students take at King's Cross?",
+      "a": "Platform Nine and Three-Quarters",
+      "angle": "setting"
+    },
+    {
+      "q": "Who teaches Potions in Harry's first year?",
+      "a": "Professor Snape",
+      "angle": "staff"
+    },
+    {
+      "q": "What are non-magical people called?",
+      "a": "Muggles",
+      "angle": "terms"
+    },
+    {
+      "q": "What is the dark wizard Harry fights?",
+      "a": "Lord Voldemort",
+      "angle": "villain"
+    },
+    {
+      "q": "What spell disarms an opponent?",
+      "a": "Expelliarmus",
+      "angle": "spells"
+    },
+    {
+      "q": "What object chooses the house for students?",
+      "a": "The Sorting Hat",
+      "angle": "objects"
+    },
+    {
+      "q": "What is the Weasley family's house called?",
+      "a": "The Burrow",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Harry's first Defense Against the Dark Arts teacher?",
+      "a": "Professor Quirrell",
+      "angle": "staff"
+    },
+    {
+      "q": "What magical drink chooses the Triwizard champions?",
+      "a": "The Goblet of Fire",
+      "angle": "objects"
+    },
+    {
+      "q": "Who is the gamekeeper at Hogwarts?",
+      "a": "Rubeus Hagrid",
+      "angle": "staff"
+    },
+    {
+      "q": "What shape is Harry's Patronus?",
+      "a": "A stag",
+      "angle": "magic"
+    },
+    {
+      "q": "What potion reveals the drinker's love?",
+      "a": "Amortentia",
+      "angle": "potions"
+    },
+    {
+      "q": "Who is the house-elf devoted to Harry?",
+      "a": "Dobby",
+      "angle": "creatures"
+    },
+    {
+      "q": "What shop sells wands in Diagon Alley?",
+      "a": "Ollivanders",
+      "angle": "shops"
+    },
+    {
+      "q": "Who is the Slytherin student who rivals Harry?",
+      "a": "Draco Malfoy",
+      "angle": "villain"
+    },
+    {
+      "q": "What is Hermione's cat's name?",
+      "a": "Crookshanks",
+      "angle": "pets"
+    },
+    {
+      "q": "Who is the Hogwarts caretaker?",
+      "a": "Argus Filch",
+      "angle": "staff"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "What is Snape's Patronus?",
       "a": "A doe",
       "angle": "symbol"
+    },
+    {
+      "q": "What species is Buckbeak?",
+      "a": "A Hippogriff",
+      "angle": "creatures"
+    },
+    {
+      "q": "Who kills Dumbledore?",
+      "a": "Severus Snape (on Dumbledore's request)",
+      "angle": "plot"
+    },
+    {
+      "q": "What object is Voldemort's snake familiar?",
+      "a": "Nagini",
+      "angle": "villain"
+    },
+    {
+      "q": "What are pieces of Voldemort's soul hidden in?",
+      "a": "Horcruxes",
+      "angle": "plot"
+    },
+    {
+      "q": "What potion gives someone the appearance of another?",
+      "a": "Polyjuice Potion",
+      "angle": "potions"
+    },
+    {
+      "q": "What position did James Potter play at Hogwarts?",
+      "a": "Chaser (per Rowling) though film said Seeker",
+      "angle": "lore"
+    },
+    {
+      "q": "Who founded Gryffindor house?",
+      "a": "Godric Gryffindor",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Marauder's Map phrase to close it?",
+      "a": "Mischief managed",
+      "angle": "objects"
+    },
+    {
+      "q": "Who was the Half-Blood Prince?",
+      "a": "Severus Snape",
+      "angle": "reveal"
+    },
+    {
+      "q": "What is the name of the Weasley twins' shop?",
+      "a": "Weasleys' Wizard Wheezes",
+      "angle": "shops"
+    },
+    {
+      "q": "What magical object shows deepest desire?",
+      "a": "The Mirror of Erised",
+      "angle": "objects"
+    },
+    {
+      "q": "Who teaches Herbology?",
+      "a": "Professor Sprout",
+      "angle": "staff"
+    },
+    {
+      "q": "What is Tonks's Metamorphmagus ability?",
+      "a": "Change appearance at will",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the head of Slytherin during Harry's time?",
+      "a": "Severus Snape (later Slughorn)",
+      "angle": "staff"
+    },
+    {
+      "q": "Who becomes the new Potions Master in Half-Blood Prince?",
+      "a": "Horace Slughorn",
+      "angle": "staff"
+    },
+    {
+      "q": "What is Lupin's boggart form?",
+      "a": "The full moon",
+      "angle": "creatures"
+    },
+    {
+      "q": "Who is the Riddle diary Horcrux destroyed by?",
+      "a": "Harry with a basilisk fang",
+      "angle": "plot"
+    },
+    {
+      "q": "What magical object stores memories?",
+      "a": "The Pensieve",
+      "angle": "objects"
+    },
+    {
+      "q": "What is Dumbledore's sister's name?",
+      "a": "Ariana Dumbledore",
+      "angle": "family"
+    },
+    {
+      "q": "Who is known as \"Mad-Eye\"?",
+      "a": "Alastor Moody",
+      "angle": "auror"
+    },
+    {
+      "q": "What carriage-pulling creatures can Harry see after Cedric's death?",
+      "a": "Thestrals",
+      "angle": "creatures"
+    },
+    {
+      "q": "What is the symbol of the Deathly Hallows?",
+      "a": "Elder Wand, Resurrection Stone, Invisibility Cloak triangle symbol",
+      "angle": "objects"
+    },
+    {
+      "q": "Who was the original owner of the Elder Wand?",
+      "a": "Antioch Peverell (in the tale)",
+      "angle": "lore"
+    },
+    {
+      "q": "What are wizard-born non-magical people called?",
+      "a": "Squibs",
+      "angle": "terms"
+    },
+    {
+      "q": "What village hosts the Three Broomsticks pub?",
+      "a": "Hogsmeade",
+      "angle": "setting"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "What is the motto on the Hogwarts crest?",
       "a": "\"Draco Dormiens Nunquam Titillandus\" (Never tickle a sleeping dragon)",
       "angle": "lore"
+    },
+    {
+      "q": "Who is the master of the Elder Wand at the end of the series?",
+      "a": "Harry Potter (then he snaps/returns it in film; repairs his wand in book)",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the seventh Horcrux accidentally made?",
+      "a": "Harry himself (a fragment in his scar)",
+      "angle": "plot"
+    },
+    {
+      "q": "Who created the Invisibility Cloak lineage?",
+      "a": "Deathly Hallows tale: Death gave it to Ignotus Peverell",
+      "angle": "lore"
+    },
+    {
+      "q": "Who were the four Marauders by nickname?",
+      "a": "Moony, Wormtail, Padfoot, Prongs",
+      "angle": "history"
+    },
+    {
+      "q": "What vault number held the Philosopher's Stone in Gringotts?",
+      "a": "Vault 713",
+      "angle": "detail"
+    },
+    {
+      "q": "What is Dumbledore's full name?",
+      "a": "Albus Percival Wulfric Brian Dumbledore",
+      "angle": "lore"
+    },
+    {
+      "q": "Who becomes Minister of Magic after the war (book canon)?",
+      "a": "Kingsley Shacklebolt",
+      "angle": "politics"
+    },
+    {
+      "q": "What dragon does Harry face in the Triwizard Tournament?",
+      "a": "A Hungarian Horntail",
+      "angle": "creatures"
+    },
+    {
+      "q": "What is Lily Potter's maiden name?",
+      "a": "Evans",
+      "angle": "lore"
+    },
+    {
+      "q": "Who gives Harry the gillyweed for the second task (book)?",
+      "a": "Dobby",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the address of the Dursleys?",
+      "a": "Number Four, Privet Drive, Little Whinging, Surrey",
+      "angle": "setting"
+    },
+    {
+      "q": "Who killed Bellatrix Lestrange?",
+      "a": "Molly Weasley",
+      "angle": "battle"
+    },
+    {
+      "q": "What is the name of the goblin who helps Harry break into Gringotts?",
+      "a": "Griphook",
+      "angle": "characters"
+    },
+    {
+      "q": "What potion does Snape brew to counter Lupin's transformation?",
+      "a": "Wolfsbane Potion",
+      "angle": "potions"
+    },
+    {
+      "q": "Who replaces Cornelius Fudge as Minister during Deathly Hallows?",
+      "a": "Pius Thicknesse (under Imperius) then Kingsley post-war",
+      "angle": "politics"
+    },
+    {
+      "q": "What is Voldemort's mother's name?",
+      "a": "Merope Gaunt",
+      "angle": "lore"
+    },
+    {
+      "q": "Who was the headmaster before Dumbledore?",
+      "a": "Armando Dippet",
+      "angle": "history"
+    },
+    {
+      "q": "What spell does Hermione use to fix Harry's glasses?",
+      "a": "Reparo (Occulus Reparo)",
+      "angle": "spells"
+    },
+    {
+      "q": "What is the name of Hagrid's three-headed dog?",
+      "a": "Fluffy",
+      "angle": "creatures"
+    },
+    {
+      "q": "What broom model does Harry receive from Sirius?",
+      "a": "Firebolt",
+      "angle": "objects"
+    },
+    {
+      "q": "Who is the Grey Lady ghost?",
+      "a": "Helena Ravenclaw",
+      "angle": "ghosts"
+    },
+    {
+      "q": "Who taunts Harry with \"I'm a what?\" before learning he is a wizard?",
+      "a": "Hagrid informs him; the quote is Harry asking \"I'm a what?\"",
+      "angle": "quote"
+    },
+    {
+      "q": "What curse did Harry use on Snape in Half-Blood Prince?",
+      "a": "Sectumsempra (created by Snape)",
+      "angle": "spells"
+    },
+    {
+      "q": "What protective enchantment guards against dark intruders at Hogwarts in DH?",
+      "a": "The protective shield/ward dome by professors",
+      "angle": "defense"
+    },
+    {
+      "q": "Who steals the locket Horcrux from Umbridge?",
+      "a": "Harry, Ron, and Hermione steal it from Dolores Umbridge",
+      "angle": "plot"
     }
   ]
 }

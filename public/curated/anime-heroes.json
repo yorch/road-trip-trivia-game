@@ -149,6 +149,106 @@
       "q": "Who yells 'United States of Smash'?",
       "a": "All Might",
       "angle": "catchphrase"
+    },
+    {
+      "q": "Who is the Titan-slaying captain with short black hair in Attack on Titan?",
+      "a": "Levi Ackerman",
+      "angle": "team"
+    },
+    {
+      "q": "What is the stretchy power Luffy has?",
+      "a": "Rubber body from the Gum-Gum Fruit",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is Naruto's sensei with a mask?",
+      "a": "Kakashi Hatake",
+      "angle": "mentor"
+    },
+    {
+      "q": "What animal is Happy in Fairy Tail?",
+      "a": "A blue flying cat (Exceed)",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the pink-haired dragon slayer in Fairy Tail?",
+      "a": "Natsu Dragneel",
+      "angle": "powers"
+    },
+    {
+      "q": "What is Tanjiro's sister's name?",
+      "a": "Nezuko Kamado",
+      "angle": "family"
+    },
+    {
+      "q": "What does Deku call his power from All Might?",
+      "a": "One For All",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is the armored titan's human identity?",
+      "a": "Reiner Braun",
+      "angle": "reveal"
+    },
+    {
+      "q": "Who eats a lot of meat and yells \"Super!\" in One Piece?",
+      "a": "Vinsmoke Sanji",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the talking reindeer doctor in One Piece?",
+      "a": "Tony Tony Chopper",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the red-haired shanks that inspired Luffy?",
+      "a": "Red-Haired Shanks",
+      "angle": "legend"
+    },
+    {
+      "q": "What is the name of Goku's cloud?",
+      "a": "Flying Nimbus",
+      "angle": "gear"
+    },
+    {
+      "q": "Who wields the sword Wado Ichimonji?",
+      "a": "Roronoa Zoro",
+      "angle": "weapons"
+    },
+    {
+      "q": "Who is the lightning dragon slayer in Fairy Tail?",
+      "a": "Laxus Dreyar",
+      "angle": "powers"
+    },
+    {
+      "q": "What school does Light Yagami attend at the start?",
+      "a": "High school in Japan (later To-Oh University)",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the electric mouse Pokémon mascot?",
+      "a": "Pikachu",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the fire Hashira in Demon Slayer?",
+      "a": "Kyojuro Rengoku",
+      "angle": "title"
+    },
+    {
+      "q": "What guild mark do Fairy Tail members wear?",
+      "a": "The Fairy Tail emblem",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the Straw Hat crew's navigator?",
+      "a": "Nami",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the quirkless boy turned hero in MHA?",
+      "a": "Izuku Midoriya (Deku)",
+      "angle": "hero"
     }
   ],
   "medium": [
@@ -301,6 +401,106 @@
       "q": "What quirk does Shoto Todoroki have?",
       "a": "Half-hot, half-cold",
       "angle": "powers"
+    },
+    {
+      "q": "What rank does Naruto achieve at series end?",
+      "a": "He becomes Hokage",
+      "angle": "arcs"
+    },
+    {
+      "q": "What is the name of Eren's hometown?",
+      "a": "Shiganshina District",
+      "angle": "setting"
+    },
+    {
+      "q": "Who trained Goku on King Kai's planet?",
+      "a": "King Kai (North Kai)",
+      "angle": "mentor"
+    },
+    {
+      "q": "What are the three swords Zoro uses style called?",
+      "a": "Santoryu (Three-Sword Style)",
+      "angle": "combat"
+    },
+    {
+      "q": "Who leads the Akatsuki early on?",
+      "a": "Pain / Nagato",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the name of Gon's Nen category?",
+      "a": "Enhancement",
+      "angle": "system"
+    },
+    {
+      "q": "Who is the captain of the Phantom Troupe?",
+      "a": "Chrollo Lucilfer",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the Flame Hashira before Rengoku?",
+      "a": "Shinjuro Rengoku",
+      "angle": "title"
+    },
+    {
+      "q": "What is the name of the wall ring closest to the center in AoT?",
+      "a": "Wall Sina",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the first JoJo in Part 1?",
+      "a": "Jonathan Joestar",
+      "angle": "protagonist"
+    },
+    {
+      "q": "What is Luffy's Gear Second effect?",
+      "a": "Pumps blood to boost speed/power",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is the dragon in Spirited Away?",
+      "a": "Haku (Kohaku River spirit)",
+      "angle": "ally"
+    },
+    {
+      "q": "Who is the gunslinger priest in Trigun?",
+      "a": "Nicholas D. Wolfwood",
+      "angle": "ally"
+    },
+    {
+      "q": "What group hunts ghouls in Tokyo Ghoul?",
+      "a": "CCG (Commission of Counter Ghoul)",
+      "angle": "organization"
+    },
+    {
+      "q": "What is the alchemy law phrase in FMA?",
+      "a": "Equivalent Exchange",
+      "angle": "theme"
+    },
+    {
+      "q": "Who is the captain of the Black Bulls?",
+      "a": "Yami Sukehiro",
+      "angle": "leader"
+    },
+    {
+      "q": "What island is the Straw Hats' first half of Grand Line entrance?",
+      "a": "Reverse Mountain to enter Grand Line",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the Hero Killer in MHA?",
+      "a": "Stain",
+      "angle": "villain"
+    },
+    {
+      "q": "What cursed technique does Gojo specialize in?",
+      "a": "Limitless with Six Eyes",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What is the dragon slayer lacrima concept?",
+      "a": "Magic crystal implanted granting dragon slayer magic",
+      "angle": "lore"
     }
   ],
   "hard": [
@@ -458,6 +658,106 @@
       "q": "What is Kurapika's clan known for?",
       "a": "Scarlet Eyes of the Kurta Clan",
       "angle": "lore"
+    },
+    {
+      "q": "What is the true nature of Gear Fifth?",
+      "a": "Luffy awakening the Gum-Gum (Hito Hito no Mi, Model: Nika) fruit",
+      "angle": "reveal"
+    },
+    {
+      "q": "Who created the Dragon Ball manga?",
+      "a": "Akira Toriyama",
+      "angle": "creator"
+    },
+    {
+      "q": "What is the name of Griffith's band before the eclipse?",
+      "a": "Band of the Hawk",
+      "angle": "lore"
+    },
+    {
+      "q": "What power system uses aura hatsu in HxH?",
+      "a": "Nen with Ten/Zetsu/Ren/Hatsu",
+      "angle": "system"
+    },
+    {
+      "q": "What village is Itachi ordered to massacre?",
+      "a": "The Uchiha clan in Konoha",
+      "angle": "plot"
+    },
+    {
+      "q": "What is All Might's real-time limit after injury in early MHA?",
+      "a": "About 3 hours (later less)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the mastermind behind the Promised Day in FMA:B?",
+      "a": "Father",
+      "angle": "villain"
+    },
+    {
+      "q": "What does Eren shout to activate the Rumbling?",
+      "a": "\"RUMBLING\" through Founding Titan power / screams after touching Dina memories",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the Strongest Creature in One Punch Man manga?",
+      "a": "Monster King Orochi / later Garou forms; Saitama surpasses all",
+      "angle": "debate"
+    },
+    {
+      "q": "What is the law for alchemists on human transmutation?",
+      "a": "It is forbidden and fails with grave consequences",
+      "angle": "theme"
+    },
+    {
+      "q": "Who teaches Tanjiro Sun Breathing truths?",
+      "a": "Inherited from Hinokami Kagura via memory; linked to Yoriichi",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the origin of the Sharingan according to myth?",
+      "a": "Descended from Kaguya Otsutsuki's chakra through Hagoromo",
+      "angle": "lore"
+    },
+    {
+      "q": "Who built the giant robot EVA units?",
+      "a": "NERV under Gendo Ikari using Adam/Lilith tech",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Senku's goal in Dr. Stone?",
+      "a": "Rebuild civilization with science",
+      "angle": "goal"
+    },
+    {
+      "q": "Who is the author of Attack on Titan manga?",
+      "a": "Hajime Isayama",
+      "angle": "creator"
+    },
+    {
+      "q": "What is the true nature of the Philosopher's Stone in FMA?",
+      "a": "Created from human lives/souls",
+      "angle": "lore"
+    },
+    {
+      "q": "What curse grade is Sukuna originally?",
+      "a": "Special Grade (King of Curses)",
+      "angle": "system"
+    },
+    {
+      "q": "Who is the Straw Hat Pirate musician?",
+      "a": "Brook",
+      "angle": "crew"
+    },
+    {
+      "q": "What is the real name of Zero Two?",
+      "a": "002 (Partner of Hiro) called Zero Two",
+      "angle": "identity"
+    },
+    {
+      "q": "What does AOT's basement reveal contain?",
+      "a": "Grisha's journals about Marley and Titans",
+      "angle": "plot"
     }
   ]
 }

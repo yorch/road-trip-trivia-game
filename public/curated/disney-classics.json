@@ -149,6 +149,131 @@
       "q": "What fruit poisons Snow White?",
       "a": "An apple",
       "angle": "plot"
+    },
+    {
+      "q": "What is Simba destined to become?",
+      "a": "King of the Pride Lands",
+      "angle": "character"
+    },
+    {
+      "q": "Who is Mickey Mouse's girlfriend?",
+      "a": "Minnie Mouse",
+      "angle": "characters"
+    },
+    {
+      "q": "What princess loses a glass slipper?",
+      "a": "Cinderella",
+      "angle": "characters"
+    },
+    {
+      "q": "What fishy friend helps Ariel?",
+      "a": "Flounder",
+      "angle": "characters"
+    },
+    {
+      "q": "What genie grants three wishes?",
+      "a": "The Genie (Aladdin)",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the wooden puppet who wants to be real?",
+      "a": "Pinocchio",
+      "angle": "characters"
+    },
+    {
+      "q": "What flying carpet helps Aladdin?",
+      "a": "Magic Carpet",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the toy cowboy in Toy Story?",
+      "a": "Woody",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the space ranger toy?",
+      "a": "Buzz Lightyear",
+      "angle": "characters"
+    },
+    {
+      "q": "What song urges Hakuna Matata?",
+      "a": "Hakuna Matata from The Lion King",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is the ice queen in Frozen?",
+      "a": "Elsa",
+      "angle": "characters"
+    },
+    {
+      "q": "What snowman loves warm hugs?",
+      "a": "Olaf",
+      "angle": "characters"
+    },
+    {
+      "q": "What deer grows up in the forest?",
+      "a": "Bambi",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the beauty in Beauty and the Beast?",
+      "a": "Belle",
+      "angle": "characters"
+    },
+    {
+      "q": "What beast must learn to love?",
+      "a": "The Beast / Prince Adam",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the villain lion in The Lion King?",
+      "a": "Scar",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the crab who sings Under the Sea?",
+      "a": "Sebastian",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the fairy who helps Peter Pan?",
+      "a": "Tinker Bell",
+      "angle": "characters"
+    },
+    {
+      "q": "What pirate opposes Peter Pan?",
+      "a": "Captain Hook",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the fairy godmother helping Cinderella?",
+      "a": "The Fairy Godmother",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the dalmatian mom?",
+      "a": "Perdita (101 Dalmatians)",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the enchanted rose in Beauty and the Beast?",
+      "a": "A rose that counts down the curse",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the lion cub that befriends Simba?",
+      "a": "Nala",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the feathered friend of Aladdin?",
+      "a": "Iago the parrot",
+      "angle": "characters"
+    },
+    {
+      "q": "What musical instrument does Prince Eric play?",
+      "a": "He plays the flute",
+      "angle": "details"
     }
   ],
   "medium": [
@@ -300,6 +425,131 @@
     {
       "q": "What is the name of the kingdom in Tangled?",
       "a": "Corona",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the advisor bird to Mufasa?",
+      "a": "Zazu the hornbill",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the name of Aladdin's monkey?",
+      "a": "Abu",
+      "angle": "characters"
+    },
+    {
+      "q": "Who raises Tarzan?",
+      "a": "Kala the gorilla",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the restaurant Tiana wants to open?",
+      "a": "Tiana's Place",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the curse deadline in Beauty and the Beast?",
+      "a": "Before the last petal falls",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the villain in The Little Mermaid?",
+      "a": "Ursula",
+      "angle": "villains"
+    },
+    {
+      "q": "Who transforms into a dragon in Sleeping Beauty?",
+      "a": "Maleficent",
+      "angle": "villains"
+    },
+    {
+      "q": "What does Mulan use to light the fireworks?",
+      "a": "Mushu helps ignite the rocket",
+      "angle": "plot"
+    },
+    {
+      "q": "What song does Elsa sing to build her ice castle?",
+      "a": "Let It Go",
+      "angle": "songs"
+    },
+    {
+      "q": "What is the name of Moana's demigod companion?",
+      "a": "Maui",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the villain in 101 Dalmatians?",
+      "a": "Cruella de Vil",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the sorcerer in Fantasia?",
+      "a": "Yen Sid",
+      "angle": "characters"
+    },
+    {
+      "q": "Who voices the Genie in the 1992 Aladdin?",
+      "a": "Robin Williams",
+      "angle": "cast"
+    },
+    {
+      "q": "What does Rafiki hold up at Pride Rock?",
+      "a": "Newborn Simba",
+      "angle": "scene"
+    },
+    {
+      "q": "What glass object encases the rose?",
+      "a": "A bell jar",
+      "angle": "props"
+    },
+    {
+      "q": "What is the name of Ariel's father?",
+      "a": "King Triton",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the queen in Snow White?",
+      "a": "The Evil Queen / Queen Grimhilde",
+      "angle": "villains"
+    },
+    {
+      "q": "What dance do Belle and Beast share?",
+      "a": "A ballroom waltz",
+      "angle": "scene"
+    },
+    {
+      "q": "What does Pinocchio's nose do when he lies?",
+      "a": "It grows longer",
+      "angle": "plot"
+    },
+    {
+      "q": "Who gifts Rapunzel magic hair?",
+      "a": "It comes from the sundrop flower",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the villain in Tangled?",
+      "a": "Mother Gothel",
+      "angle": "villains"
+    },
+    {
+      "q": "Who trains Hercules?",
+      "a": "Philoctetes (Phil)",
+      "angle": "mentor"
+    },
+    {
+      "q": "What is Hercules' father in myth?",
+      "a": "Zeus",
+      "angle": "lore"
+    },
+    {
+      "q": "Who sings \"You've Got a Friend in Me\"?",
+      "a": "Randy Newman (Toy Story theme)",
+      "angle": "songs"
+    },
+    {
+      "q": "What is the name of Lightning McQueen's town?",
+      "a": "Radiator Springs",
       "angle": "setting"
     }
   ],
@@ -453,6 +703,131 @@
       "q": "Which film premiered the character Oswald the Lucky Rabbit?",
       "a": "\"Trolley Troubles\" (1927)",
       "angle": "history"
+    },
+    {
+      "q": "What year did Snow White and the Seven Dwarfs release?",
+      "a": "1937",
+      "angle": "history"
+    },
+    {
+      "q": "Who directed The Lion King (1994)?",
+      "a": "Roger Allers and Rob Minkoff",
+      "angle": "crew"
+    },
+    {
+      "q": "What Broadway songwriting duo wrote Frozen songs?",
+      "a": "Robert Lopez and Kristen Anderson-Lopez",
+      "angle": "music"
+    },
+    {
+      "q": "What is the name of the Magic Kingdom's castle based on?",
+      "a": "Cinderella Castle inspired by Neuschwanstein",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the in-universe author of the book in Beauty and the Beast prologue?",
+      "a": "Narrated storybook; no named author in film",
+      "angle": "detail"
+    },
+    {
+      "q": "Who composed the score for The Little Mermaid?",
+      "a": "Alan Menken",
+      "angle": "music"
+    },
+    {
+      "q": "Who animated the ballroom scene tech in Beauty and the Beast?",
+      "a": "Pioneering CGI + hand-drawn by Disney Feature Animation",
+      "angle": "production"
+    },
+    {
+      "q": "What Disney film introduced the multiplane camera?",
+      "a": "Snow White and the Seven Dwarfs (feature use; earlier short The Old Mill)",
+      "angle": "history"
+    },
+    {
+      "q": "What was Walt Disney's first feature-length animated film?",
+      "a": "Snow White and the Seven Dwarfs",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the voice of Scar?",
+      "a": "Jeremy Irons",
+      "angle": "cast"
+    },
+    {
+      "q": "Who is the voice of Mulan (speaking)?",
+      "a": "Ming-Na Wen",
+      "angle": "cast"
+    },
+    {
+      "q": "What Hawaiian concept is central to Lilo & Stitch?",
+      "a": "\"Ohana means family\"",
+      "angle": "theme"
+    },
+    {
+      "q": "Who directed Moana?",
+      "a": "Ron Clements and John Musker (with co-directors)",
+      "angle": "crew"
+    },
+    {
+      "q": "What song won the Oscar for Aladdin (1992)?",
+      "a": "A Whole New World",
+      "angle": "awards"
+    },
+    {
+      "q": "What is the name of the lamp shop in Aladdin?",
+      "a": "The lamp is in the Cave of Wonders (no shop)",
+      "angle": "plot"
+    },
+    {
+      "q": "Who wrote the music for The Lion King (score)?",
+      "a": "Hans Zimmer",
+      "angle": "music"
+    },
+    {
+      "q": "Which film first used CAPS digital ink-and-paint system?",
+      "a": "The Rescuers Down Under",
+      "angle": "production"
+    },
+    {
+      "q": "Who is the villain in The Great Mouse Detective?",
+      "a": "Professor Ratigan",
+      "angle": "villains"
+    },
+    {
+      "q": "What year did Cinderella release?",
+      "a": "1950",
+      "angle": "history"
+    },
+    {
+      "q": "What is the sword in The Sword in the Stone called?",
+      "a": "Excalibur",
+      "angle": "lore"
+    },
+    {
+      "q": "What mythical creature is Mulan's guardian?",
+      "a": "A small dragon (Mushu)",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the name of Belle's inventor father?",
+      "a": "Maurice",
+      "angle": "characters"
+    },
+    {
+      "q": "Who wrote the song \"Let It Go\"?",
+      "a": "Kristen Anderson-Lopez and Robert Lopez",
+      "angle": "music"
+    },
+    {
+      "q": "Who directed The Little Mermaid?",
+      "a": "Ron Clements and John Musker",
+      "angle": "crew"
+    },
+    {
+      "q": "What island nation inspired Moana's culture?",
+      "a": "Polynesian cultures (Samoa, Fiji, Tahiti influences)",
+      "angle": "lore"
     }
   ]
 }

@@ -306,6 +306,12 @@
     "tags": ["grand prix", "pit stops", "circuits", "drivers"]
   },
   {
+    "id": "f1",
+    "name": "Formula 1",
+    "category": "Sports & Games",
+    "tags": ["grand prix", "constructors", "pit strategy", "circuits"]
+  },
+  {
     "id": "board-games",
     "name": "Board Games",
     "category": "Sports & Games",

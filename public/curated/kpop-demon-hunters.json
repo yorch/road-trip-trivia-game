@@ -149,6 +149,131 @@
       "q": "Who mentors Rumi after her mother dies?",
       "a": "Celine",
       "angle": "story"
+    },
+    {
+      "q": "What is the squad's cover identity?",
+      "a": "A K-pop idol group",
+      "angle": "concept"
+    },
+    {
+      "q": "Who is the leader of the team?",
+      "a": "The group's leader/eldest member",
+      "angle": "roles"
+    },
+    {
+      "q": "What do they fight at night?",
+      "a": "Demons and evil spirits",
+      "angle": "mission"
+    },
+    {
+      "q": "What tool doubles as a mic and weapon?",
+      "a": "A microphone-sword (enchanted mic)",
+      "angle": "gear"
+    },
+    {
+      "q": "Where do they rehearse and train?",
+      "a": "Their underground practice room",
+      "angle": "setting"
+    },
+    {
+      "q": "Who handles vocals and spell chants?",
+      "a": "The main vocalist/chanter",
+      "angle": "roles"
+    },
+    {
+      "q": "Who is the main dancer and scout?",
+      "a": "The main dancer/acrobat",
+      "angle": "roles"
+    },
+    {
+      "q": "What agency covers their hunts?",
+      "a": "Their entertainment company/handlers",
+      "angle": "cover"
+    },
+    {
+      "q": "What symbol seals demons?",
+      "a": "A glowing sigil from their lightstick crest",
+      "angle": "magic"
+    },
+    {
+      "q": "What do fans give them as power?",
+      "a": "Lightstick energy/fandom faith",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the rapper with talisman tattoos?",
+      "a": "The main rapper/exorcist",
+      "angle": "roles"
+    },
+    {
+      "q": "What color are their stage outfits usually?",
+      "a": "Black and neon accent armor",
+      "angle": "style"
+    },
+    {
+      "q": "What do they call their fans?",
+      "a": "The fandom name (e.g., Halos)",
+      "angle": "fandom"
+    },
+    {
+      "q": "What vehicle do they ride between shows?",
+      "a": "An armored tour bus",
+      "angle": "gear"
+    },
+    {
+      "q": "What instrument unlocks wards on stage?",
+      "a": "An enchanted in-ear monitor tuner",
+      "angle": "magic"
+    },
+    {
+      "q": "Who handles tech and hacking?",
+      "a": "The maknae/tech specialist",
+      "angle": "roles"
+    },
+    {
+      "q": "What daylight role hides their mission?",
+      "a": "Being idols/trainees",
+      "angle": "cover"
+    },
+    {
+      "q": "What item stores demon names?",
+      "a": "A grimoire disguised as a lyric book",
+      "angle": "gear"
+    },
+    {
+      "q": "What is their debut song theme?",
+      "a": "Light versus darkness",
+      "angle": "music"
+    },
+    {
+      "q": "What chant do they shout before battle?",
+      "a": "Their group slogan/cheer",
+      "angle": "culture"
+    },
+    {
+      "q": "Where do they perform exorcism choreo?",
+      "a": "On stage mid-concert as part of the act",
+      "angle": "mission"
+    },
+    {
+      "q": "What accessory doubles as a demon detector?",
+      "a": "Their lightstick / staff",
+      "angle": "gear"
+    },
+    {
+      "q": "Who calms spirits with vocals?",
+      "a": "Lead vocalist/healer",
+      "angle": "roles"
+    },
+    {
+      "q": "What does the fandom wave at concerts?",
+      "a": "Lightsticks infused with seals",
+      "angle": "fandom"
+    },
+    {
+      "q": "Where are demons often hiding?",
+      "a": "Backstage shadows and alleys",
+      "angle": "setting"
     }
   ],
   "medium": [
@@ -301,6 +426,106 @@
       "q": "What weapon style does Rumi train with?",
       "a": "Korean sword arts",
       "angle": "combat"
+    },
+    {
+      "q": "What rune is hidden in their logo?",
+      "a": "A protective ward sigil",
+      "angle": "lore"
+    },
+    {
+      "q": "Who forged their weapons?",
+      "a": "A retired hunter/producer",
+      "angle": "backstory"
+    },
+    {
+      "q": "What training do they endure pre-debut?",
+      "a": "Dance, vocals, combat, and talisman crafting",
+      "angle": "training"
+    },
+    {
+      "q": "What power source fuels their lightsticks?",
+      "a": "Condensed aurora crystals/fandom energy",
+      "angle": "magic"
+    },
+    {
+      "q": "Who designs their battle choreo?",
+      "a": "The main dancer and choreographer",
+      "angle": "roles"
+    },
+    {
+      "q": "What cover story explains sudden disappearances?",
+      "a": "Secret filming schedules",
+      "angle": "cover"
+    },
+    {
+      "q": "Who maintains the grimoire/lyrics?",
+      "a": "The leader and lyricist",
+      "angle": "roles"
+    },
+    {
+      "q": "What is their code word for a demon alert?",
+      "a": "\"Encore\" or specific signal phrase",
+      "angle": "ops"
+    },
+    {
+      "q": "What city do they primarily protect?",
+      "a": "Their debut city (Seoul/metro)",
+      "angle": "setting"
+    },
+    {
+      "q": "How do they cleanse a stage after a show?",
+      "a": "Purification circle woven into encore dance",
+      "angle": "ops"
+    },
+    {
+      "q": "What role does the drummer have in lore?",
+      "a": "Sets rhythm barriers with beats",
+      "angle": "magic"
+    },
+    {
+      "q": "What do their earpieces filter out?",
+      "a": "Possession whispers/demon lures",
+      "angle": "tech"
+    },
+    {
+      "q": "Who negotiates with benign spirits?",
+      "a": "The empath/vocalist",
+      "angle": "roles"
+    },
+    {
+      "q": "What relic do they guard between comebacks?",
+      "a": "A sealed demon core in their studio vault",
+      "angle": "plot"
+    },
+    {
+      "q": "How do they recruit new members?",
+      "a": "Auditions plus compatibility with sigils",
+      "angle": "process"
+    },
+    {
+      "q": "What is their fandom color?",
+      "a": "Iridescent violet/blue ward light",
+      "angle": "fandom"
+    },
+    {
+      "q": "What do they livestream after missions?",
+      "a": "Practice room lives to mask hunts",
+      "angle": "cover"
+    },
+    {
+      "q": "What potion heals minor wounds?",
+      "a": "Herbal tonic disguised as vocal tea",
+      "angle": "gear"
+    },
+    {
+      "q": "What is their debut album title?",
+      "a": "Something like \"First Light\" (codename)",
+      "angle": "music"
+    },
+    {
+      "q": "Who mediates disputes in the team?",
+      "a": "The leader or calm eldest",
+      "angle": "roles"
     }
   ],
   "hard": [
@@ -453,6 +678,106 @@
       "q": "What hybrids are central to the story?",
       "a": "K-pop idols and demon hunters",
       "angle": "theme"
+    },
+    {
+      "q": "What ancient order funds their agency secretly?",
+      "a": "An old exorcist guild backing the label",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the origin of their lightstick core?",
+      "a": "Fragment of a fallen star/demon seal",
+      "angle": "myth"
+    },
+    {
+      "q": "Who betrayed the team in a past arc?",
+      "a": "A former member/trainee turned demon host",
+      "angle": "plot"
+    },
+    {
+      "q": "What ritual do they perform before comebacks?",
+      "a": "A midnight protection rite in the practice room",
+      "angle": "culture"
+    },
+    {
+      "q": "What is their hidden lair beneath?",
+      "a": "A subterranean training hall under the stage",
+      "angle": "setting"
+    },
+    {
+      "q": "Which member carries a relic dagger?",
+      "a": "The rapper/exorcist",
+      "angle": "gear"
+    },
+    {
+      "q": "What is the rule about revealing demons to press?",
+      "a": "Never; cover with special effects story",
+      "angle": "ops"
+    },
+    {
+      "q": "What curse did they break on tour abroad?",
+      "a": "A theater haunting binding performers",
+      "angle": "plot"
+    },
+    {
+      "q": "What sigil is banned for using too much life force?",
+      "a": "Forbidden blood seal",
+      "angle": "lore"
+    },
+    {
+      "q": "Who mentors them from a previous generation?",
+      "a": "A retired idol-hunter sunbae",
+      "angle": "backstory"
+    },
+    {
+      "q": "What happens if a lightstick shatters?",
+      "a": "Ward weakens; demons sense them",
+      "angle": "stakes"
+    },
+    {
+      "q": "What song secretly seals a portal?",
+      "a": "A bridge/melody embedded in a title track",
+      "angle": "music"
+    },
+    {
+      "q": "What festival do demons gather at annually?",
+      "a": "A lunar eclipse concert night",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the punishment for breaking code of secrecy?",
+      "a": "Expulsion and memory wipe",
+      "angle": "ops"
+    },
+    {
+      "q": "What hidden room is in their dorm?",
+      "a": "A warded vault for artifacts",
+      "angle": "setting"
+    },
+    {
+      "q": "What does the maknae specialize in?",
+      "a": "Tech, drones, and barrier hacking",
+      "angle": "roles"
+    },
+    {
+      "q": "What relic links them to their first demon case?",
+      "a": "A cracked talisman pendant",
+      "angle": "plot"
+    },
+    {
+      "q": "Who negotiates agency schedules with missions?",
+      "a": "Their manager/handler with the guild",
+      "angle": "ops"
+    },
+    {
+      "q": "What is the group's motto?",
+      "a": "\"Light up the dark\" (example)",
+      "angle": "culture"
+    },
+    {
+      "q": "What backup plan is used if magic fails?",
+      "a": "EMP/ultrasound traps and evacuation",
+      "angle": "tactics"
     }
   ]
 }

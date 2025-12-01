@@ -149,6 +149,131 @@
       "q": "What company made Sonic?",
       "a": "Sega",
       "angle": "platformers"
+    },
+    {
+      "q": "Who is the plumber hero in Super Mario Bros.?",
+      "a": "Mario",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Mario's brother?",
+      "a": "Luigi",
+      "angle": "characters"
+    },
+    {
+      "q": "What company made the NES?",
+      "a": "Nintendo",
+      "angle": "platforms"
+    },
+    {
+      "q": "What yellow character eats pellets in a maze?",
+      "a": "Pac-Man",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the blue hedgehog?",
+      "a": "Sonic",
+      "angle": "characters"
+    },
+    {
+      "q": "What game features falling blocks?",
+      "a": "Tetris",
+      "angle": "games"
+    },
+    {
+      "q": "What princess does Mario often rescue?",
+      "a": "Princess Peach",
+      "angle": "characters"
+    },
+    {
+      "q": "What classic shooter has a ship called Vic Viper?",
+      "a": "Gradius",
+      "angle": "games"
+    },
+    {
+      "q": "What console used cartridges and had Sonic?",
+      "a": "Sega Genesis / Mega Drive",
+      "angle": "platforms"
+    },
+    {
+      "q": "What arcade game has ghosts Blinky, Pinky, Inky, Clyde?",
+      "a": "Pac-Man",
+      "angle": "characters"
+    },
+    {
+      "q": "What character collects rings?",
+      "a": "Sonic the Hedgehog",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the hero of The Legend of Zelda?",
+      "a": "Link",
+      "angle": "characters"
+    },
+    {
+      "q": "What item saves the princess in Zelda?",
+      "a": "Triforce quest",
+      "angle": "items"
+    },
+    {
+      "q": "What ghost-hunting game stars Luigi?",
+      "a": "Luigi's Mansion (later era, but Luigi",
+      "angle": "characters"
+    },
+    {
+      "q": "What frog crosses a road avoiding traffic?",
+      "a": "Frogger",
+      "angle": "games"
+    },
+    {
+      "q": "What game has a paddle and ball breaking bricks?",
+      "a": "Breakout/Arkanoid",
+      "angle": "games"
+    },
+    {
+      "q": "What princess needs saving in Donkey Kong arcade?",
+      "a": "Pauline",
+      "angle": "characters"
+    },
+    {
+      "q": "What game uses a light gun on NES?",
+      "a": "Duck Hunt",
+      "angle": "hardware"
+    },
+    {
+      "q": "What handheld did Pokémon debut on?",
+      "a": "Game Boy",
+      "angle": "platforms"
+    },
+    {
+      "q": "Who is the bounty hunter in Metroid?",
+      "a": "Samus Aran",
+      "angle": "characters"
+    },
+    {
+      "q": "What game had a \"Konami Code\" cheat?",
+      "a": "Contra (also others)",
+      "angle": "codes"
+    },
+    {
+      "q": "What item lets Mario grow bigger?",
+      "a": "Super Mushroom",
+      "angle": "items"
+    },
+    {
+      "q": "What are the collectibles in Donkey Kong Country?",
+      "a": "Bananas",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the pink puffball who inhales enemies?",
+      "a": "Kirby",
+      "angle": "characters"
+    },
+    {
+      "q": "What game is known for \"Finish Him!\"?",
+      "a": "Mortal Kombat",
+      "angle": "phrases"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "What game first featured SHODAN?",
       "a": "System Shock",
       "angle": "story"
+    },
+    {
+      "q": "What year did the NES launch in North America?",
+      "a": "1985",
+      "angle": "dates"
+    },
+    {
+      "q": "What is the highest-scoring fruit in Pac-Man?",
+      "a": "Keys (late levels)",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What was the original name of Dr. Robotnik?",
+      "a": "Eggman (Dr. Ivo Robotnik)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created Super Mario Bros.?",
+      "a": "Shigeru Miyamoto",
+      "angle": "creators"
+    },
+    {
+      "q": "What is the 30 life code in Contra?",
+      "a": "Up Up Down Down Left Right Left Right B A Start",
+      "angle": "codes"
+    },
+    {
+      "q": "What arcade game first used the Konami Code?",
+      "a": "Gradius (1986)",
+      "angle": "history"
+    },
+    {
+      "q": "What game features the line \"All your base are belong to us\"?",
+      "a": "Zero Wing",
+      "angle": "memes"
+    },
+    {
+      "q": "What is the name of Link's sword?",
+      "a": "Master Sword",
+      "angle": "items"
+    },
+    {
+      "q": "What game introduced Samus Aran?",
+      "a": "Metroid (1986)",
+      "angle": "history"
+    },
+    {
+      "q": "What villain steals Pauline in Donkey Kong?",
+      "a": "Donkey Kong (arcade)",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the name of Mega Man in Japan?",
+      "a": "Rockman",
+      "angle": "lore"
+    },
+    {
+      "q": "What company made the Atari 2600?",
+      "a": "Atari",
+      "angle": "platforms"
+    },
+    {
+      "q": "What fighting game introduced Hadouken?",
+      "a": "Street Fighter (SF2 popularized)",
+      "angle": "moves"
+    },
+    {
+      "q": "What game system used HUcards?",
+      "a": "TurboGrafx-16/PC Engine",
+      "angle": "hardware"
+    },
+    {
+      "q": "What are the collectible rings in Sonic used for?",
+      "a": "Health buffer; 100 rings give extra life",
+      "angle": "mechanics"
+    },
+    {
+      "q": "Who is Zelda?",
+      "a": "The princess of Hyrule",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the dog's reaction in Duck Hunt when you miss?",
+      "a": "He laughs",
+      "angle": "behavior"
+    },
+    {
+      "q": "What is the power-up that gives Mario fireballs?",
+      "a": "Fire Flower",
+      "angle": "items"
+    },
+    {
+      "q": "What game starred a yellow circle eating dots?",
+      "a": "Pac-Man",
+      "angle": "games"
+    },
+    {
+      "q": "What is the classic RPG with slimes on NES?",
+      "a": "Dragon Quest (Dragon Warrior)",
+      "angle": "games"
+    },
+    {
+      "q": "What puzzle game uses tetrominoes?",
+      "a": "Tetris",
+      "angle": "games"
+    },
+    {
+      "q": "What shooter series features R-Type?",
+      "a": "R-Type series by Irem",
+      "angle": "games"
+    },
+    {
+      "q": "What was Sega's handheld console?",
+      "a": "Game Gear",
+      "angle": "platforms"
+    },
+    {
+      "q": "What NES accessory let you run in Track & Field?",
+      "a": "Power Pad",
+      "angle": "hardware"
+    },
+    {
+      "q": "What classic game featured the quote \"It's dangerous to go alone\"?",
+      "a": "The Legend of Zelda",
+      "angle": "quotes"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "What was the cartridge size limit challenge for N64 RPGs?",
       "a": "Limited MBs forced compression (e.g., 32-64MB)",
       "angle": "tech"
+    },
+    {
+      "q": "What year did the original Game Boy release?",
+      "a": "1989",
+      "angle": "dates"
+    },
+    {
+      "q": "Who composed the Tetris Game Boy theme arrangement?",
+      "a": "Hirokazu Tanaka (Type A from folk Korobeiniki)",
+      "angle": "music"
+    },
+    {
+      "q": "What company developed Castlevania?",
+      "a": "Konami",
+      "angle": "creators"
+    },
+    {
+      "q": "What was the first home console with a 16-bit CPU widely sold?",
+      "a": "TurboGrafx-16/PC Engine (hybrid 8/16), Sega Genesis widely recognized",
+      "angle": "hardware"
+    },
+    {
+      "q": "Who is the creator of Sonic?",
+      "a": "Yuji Naka/Naoto Ohshima (team)",
+      "angle": "creators"
+    },
+    {
+      "q": "What RPG introduced the Job system popularized later by FF?",
+      "a": "Final Fantasy III (NES) expanded jobs",
+      "angle": "history"
+    },
+    {
+      "q": "What is the name of the hero in Metroid II?",
+      "a": "Samus Aran",
+      "angle": "characters"
+    },
+    {
+      "q": "Who composed music for Mega Man series?",
+      "a": "Various, incl. Manami Matsumae",
+      "angle": "music"
+    },
+    {
+      "q": "What was the launch title with R.O.B. on NES?",
+      "a": "Gyromite/Stack-Up",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is the kill screen famous in Pac-Man?",
+      "a": "Level 256 split-screen bug",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the name of the vampire hunter clan in Castlevania?",
+      "a": "Belmont",
+      "angle": "lore"
+    },
+    {
+      "q": "What game used Mode 7 to simulate 3D racing on SNES?",
+      "a": "F-Zero (also Super Mario Kart)",
+      "angle": "tech"
+    },
+    {
+      "q": "What console introduced the Triforce of the Gods title in Japan?",
+      "a": "SNES (A Link to the Past)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the final boss in the first Metroid?",
+      "a": "Mother Brain",
+      "angle": "bosses"
+    },
+    {
+      "q": "What Famicom Disk System game introduced Samus's Justin Bailey rumor?",
+      "a": "Metroid (password system)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the demon in Ghosts \"n Goblins?",
+      "a": "Astaroth (boss) and Satan (Lucifer) in game",
+      "angle": "bosses"
+    },
+    {
+      "q": "What arcade board powered the original Street Fighter II?",
+      "a": "Capcom CPS-1",
+      "angle": "hardware"
+    },
+    {
+      "q": "What NES game featured Mike Tyson?",
+      "a": "Mike Tyson's Punch-Out!!",
+      "angle": "history"
+    },
+    {
+      "q": "What is the rare NES cartridge for competitions?",
+      "a": "Nintendo World Championships cartridge",
+      "angle": "collecting"
+    },
+    {
+      "q": "What accessory let the NES Zapper detect light?",
+      "a": "Photodiode in gun reading CRT flashes",
+      "angle": "tech"
+    },
+    {
+      "q": "What company created the Neo Geo arcade/home system?",
+      "a": "SNK",
+      "angle": "hardware"
+    },
+    {
+      "q": "What home computer platform was Turrican popular on?",
+      "a": "Commodore Amiga",
+      "angle": "history"
+    },
+    {
+      "q": "What was the Japanese name of Contra?",
+      "a": "Gryzor or Contra (Japan); Probotector in EU",
+      "angle": "history"
+    },
+    {
+      "q": "What color swap glitch gave \"Minus World\"?",
+      "a": "World -1 in SMB via level warp bug",
+      "angle": "glitches"
+    },
+    {
+      "q": "What game pioneered rhythm games in 1997 on PlayStation?",
+      "a": "PaRappa the Rapper",
+      "angle": "history"
     }
   ]
 }

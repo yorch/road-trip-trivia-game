@@ -154,6 +154,131 @@
       "q": "Who is the lead singer of Metallica?",
       "a": "James Hetfield",
       "angle": "band"
+    },
+    {
+      "q": "Who is known as the King of Pop?",
+      "a": "Michael Jackson",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is known as the Queen of Pop?",
+      "a": "Madonna",
+      "angle": "titles"
+    },
+    {
+      "q": "Who sang Imagine?",
+      "a": "John Lennon",
+      "angle": "songs"
+    },
+    {
+      "q": "Who fronted Queen?",
+      "a": "Freddie Mercury",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is the lead singer of U2?",
+      "a": "Bono",
+      "angle": "bands"
+    },
+    {
+      "q": "Who sang Purple Rain?",
+      "a": "Prince",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is famous for moonwalking?",
+      "a": "Michael Jackson",
+      "angle": "moves"
+    },
+    {
+      "q": "What band is Mick Jagger in?",
+      "a": "The Rolling Stones",
+      "angle": "bands"
+    },
+    {
+      "q": "Who sang Like a Rolling Stone?",
+      "a": "Bob Dylan",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is the Boss?",
+      "a": "Bruce Springsteen",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is the King of Rock and Roll?",
+      "a": "Elvis Presley",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is known for the song Respect?",
+      "a": "Aretha Franklin",
+      "angle": "songs"
+    },
+    {
+      "q": "Who sang I Will Always Love You (famous cover)?",
+      "a": "Whitney Houston",
+      "angle": "songs"
+    },
+    {
+      "q": "Who sang Thriller?",
+      "a": "Michael Jackson",
+      "angle": "songs"
+    },
+    {
+      "q": "Who played guitar for Guns N' Roses?",
+      "a": "Slash",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is the lead singer of the Beatles?",
+      "a": "Shared; notable John Lennon/Paul McCartney",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is known for high notes in Dream On?",
+      "a": "Steven Tyler (Aerosmith)",
+      "angle": "vocals"
+    },
+    {
+      "q": "Who fronted Nirvana?",
+      "a": "Kurt Cobain",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is the Material Girl?",
+      "a": "Madonna",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is the Rocket Man singer?",
+      "a": "Elton John",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is the Piano Man?",
+      "a": "Billy Joel",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is known as Queen Bey?",
+      "a": "Beyoncé",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is in Destiny's Child with Beyoncé?",
+      "a": "Kelly Rowland and Michelle Williams",
+      "angle": "bands"
+    },
+    {
+      "q": "Who was the Beatle known as the quiet one?",
+      "a": "George Harrison",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who sang Smooth Criminal?",
+      "a": "Michael Jackson",
+      "angle": "songs"
     }
   ],
   "medium": [
@@ -306,6 +431,131 @@
       "q": "Who sang 'My Heart Will Go On'?",
       "a": "Céline Dion",
       "angle": "song"
+    },
+    {
+      "q": "What band did Freddie Mercury front?",
+      "a": "Queen",
+      "angle": "bands"
+    },
+    {
+      "q": "Who wrote and sang Ziggy Stardust?",
+      "a": "David Bowie",
+      "angle": "songs"
+    },
+    {
+      "q": "What guitarist is nicknamed Slowhand?",
+      "a": "Eric Clapton",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is the frontman of Metallica?",
+      "a": "James Hetfield",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is known as the Godfather of Soul?",
+      "a": "James Brown",
+      "angle": "titles"
+    },
+    {
+      "q": "Which singer is called The Voice (90s)?",
+      "a": "Whitney Houston",
+      "angle": "titles"
+    },
+    {
+      "q": "Who wrote Hallelujah (original)?",
+      "a": "Leonard Cohen",
+      "angle": "songs"
+    },
+    {
+      "q": "Who founded Motown Records?",
+      "a": "Berry Gordy",
+      "angle": "industry"
+    },
+    {
+      "q": "Which band did Sting front?",
+      "a": "The Police",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is known as the King of Reggae?",
+      "a": "Bob Marley",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is the guitarist of Pink Floyd known for solos?",
+      "a": "David Gilmour",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is AC/DC's lead guitarist with a schoolboy outfit?",
+      "a": "Angus Young",
+      "angle": "images"
+    },
+    {
+      "q": "Who is known as the Queen of Tejano?",
+      "a": "Selena Quintanilla",
+      "angle": "titles"
+    },
+    {
+      "q": "Who sang Born in the U.S.A.?",
+      "a": "Bruce Springsteen",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is the frontman of The Rolling Stones?",
+      "a": "Mick Jagger",
+      "angle": "bands"
+    },
+    {
+      "q": "Who is famous for Stairway to Heaven?",
+      "a": "Led Zeppelin",
+      "angle": "songs"
+    },
+    {
+      "q": "Who is the bassist/singer of Red Hot Chili Peppers?",
+      "a": "Flea (bassist), Anthony Kiedis (singer)",
+      "angle": "bands"
+    },
+    {
+      "q": "Who was the lead singer of Linkin Park?",
+      "a": "Chester Bennington",
+      "angle": "bands"
+    },
+    {
+      "q": "Which artist is called the Purple One?",
+      "a": "Prince",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is the frontwoman of Fleetwood Mac?",
+      "a": "Stevie Nicks (co-lead with Lindsey Buckingham/Christine McVie)",
+      "angle": "bands"
+    },
+    {
+      "q": "Who produced Thriller album?",
+      "a": "Quincy Jones",
+      "angle": "production"
+    },
+    {
+      "q": "Who is known as the Thin White Duke?",
+      "a": "David Bowie",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is the guitarist called The Edge?",
+      "a": "U2's guitarist",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is known for guitar feedback experiments?",
+      "a": "Jimi Hendrix",
+      "angle": "technique"
+    },
+    {
+      "q": "Who wrote and sang Piano Man?",
+      "a": "Billy Joel",
+      "angle": "songs"
     }
   ],
   "hard": [
@@ -458,6 +708,131 @@
       "q": "Who is credited with creating the 'Wall of Sound'?",
       "a": "Phil Spector",
       "angle": "production"
+    },
+    {
+      "q": "What year did Woodstock take place?",
+      "a": "1969",
+      "angle": "history"
+    },
+    {
+      "q": "Who founded Def Jam Recordings?",
+      "a": "Russell Simmons and Rick Rubin",
+      "angle": "industry"
+    },
+    {
+      "q": "What is Freddie Mercury's birth name?",
+      "a": "Farrokh Bulsara",
+      "angle": "lore"
+    },
+    {
+      "q": "Who was the original drummer of The Beatles?",
+      "a": "Pete Best",
+      "angle": "history"
+    },
+    {
+      "q": "What producer is known as the Fifth Beatle?",
+      "a": "George Martin",
+      "angle": "production"
+    },
+    {
+      "q": "Who wrote Like a Rolling Stone?",
+      "a": "Bob Dylan",
+      "angle": "songs"
+    },
+    {
+      "q": "What city did grunge emerge from?",
+      "a": "Seattle",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the Queen of Soul?",
+      "a": "Aretha Franklin",
+      "angle": "titles"
+    },
+    {
+      "q": "What band was Kurt Cobain in before Nirvana fame?",
+      "a": "Fecal Matter (early project)",
+      "angle": "history"
+    },
+    {
+      "q": "What album is considered Pink Floyd's magnum opus?",
+      "a": "The Dark Side of the Moon",
+      "angle": "albums"
+    },
+    {
+      "q": "Who is known for the wall of sound production?",
+      "a": "Phil Spector",
+      "angle": "production"
+    },
+    {
+      "q": "Who was the original singer for AC/DC before Brian Johnson?",
+      "a": "Bon Scott",
+      "angle": "history"
+    },
+    {
+      "q": "What year did Thriller release?",
+      "a": "1982",
+      "angle": "history"
+    },
+    {
+      "q": "Who is known as the Empress of Soul?",
+      "a": "Gladys Knight",
+      "angle": "titles"
+    },
+    {
+      "q": "Who is the frontman of The Smiths?",
+      "a": "Morrissey",
+      "angle": "bands"
+    },
+    {
+      "q": "Which artist released Lemonade?",
+      "a": "Beyoncé",
+      "angle": "albums"
+    },
+    {
+      "q": "Who wrote and sang Redemption Song?",
+      "a": "Bob Marley",
+      "angle": "songs"
+    },
+    {
+      "q": "What is Prince's famous symbol era called?",
+      "a": "The Love Symbol / Artist Formerly Known as Prince",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created the album The Miseducation of Lauryn Hill?",
+      "a": "Lauryn Hill",
+      "angle": "albums"
+    },
+    {
+      "q": "Who was the lead singer of The Doors?",
+      "a": "Jim Morrison",
+      "angle": "bands"
+    },
+    {
+      "q": "Which artist released the album Purple Rain?",
+      "a": "Prince",
+      "angle": "albums"
+    },
+    {
+      "q": "Who is the Red Rocks live album famous for?",
+      "a": "U2 (Under a Blood Red Sky)",
+      "angle": "live"
+    },
+    {
+      "q": "What jazz trumpeter recorded Kind of Blue?",
+      "a": "Miles Davis",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the guitarist known for Eruption solo?",
+      "a": "Eddie Van Halen",
+      "angle": "technique"
+    },
+    {
+      "q": "What year did Nevermind release?",
+      "a": "1991",
+      "angle": "history"
     }
   ]
 }

@@ -159,6 +159,131 @@
       "q": "Who sang 'Since U Been Gone'?",
       "a": "Kelly Clarkson",
       "angle": "hooks"
+    },
+    {
+      "q": "Who sang Bad Guy?",
+      "a": "Billie Eilish",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Shape of You?",
+      "a": "Ed Sheeran",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Blinding Lights?",
+      "a": "The Weeknd",
+      "angle": "artists"
+    },
+    {
+      "q": "Who is known for the song Rolling in the Deep?",
+      "a": "Adele",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Uptown Funk with Bruno Mars?",
+      "a": "Mark Ronson ft. Bruno Mars",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Call Me Maybe?",
+      "a": "Carly Rae Jepsen",
+      "angle": "artists"
+    },
+    {
+      "q": "Who is the group behind Dynamite?",
+      "a": "BTS",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Firework?",
+      "a": "Katy Perry",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Sorry (2015)?",
+      "a": "Justin Bieber",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Poker Face?",
+      "a": "Lady Gaga",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Shake It Off?",
+      "a": "Taylor Swift",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Royals?",
+      "a": "Lorde",
+      "angle": "artists"
+    },
+    {
+      "q": "Who is known for Havana?",
+      "a": "Camila Cabello",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sings Watermelon Sugar?",
+      "a": "Harry Styles",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Wrecking Ball?",
+      "a": "Miley Cyrus",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Levitating?",
+      "a": "Dua Lipa",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Single Ladies?",
+      "a": "Beyoncé",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Bad Romance?",
+      "a": "Lady Gaga",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Happy?",
+      "a": "Pharrell Williams",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Cheap Thrills?",
+      "a": "Sia",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Peaches?",
+      "a": "Justin Bieber ft. Daniel Caesar, Giveon",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang As It Was?",
+      "a": "Harry Styles",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Stayin' Alive?",
+      "a": "Bee Gees",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Wannabe?",
+      "a": "Spice Girls",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Thriller?",
+      "a": "Michael Jackson",
+      "angle": "artists"
     }
   ],
   "medium": [
@@ -311,6 +436,131 @@
       "q": "Who sang 'Call Your Girlfriend'?",
       "a": "Robyn",
       "angle": "hooks"
+    },
+    {
+      "q": "What album is Bad Guy on?",
+      "a": "When We All Fall Asleep, Where Do We Go?",
+      "angle": "albums"
+    },
+    {
+      "q": "Who produced Uptown Funk?",
+      "a": "Mark Ronson",
+      "angle": "producers"
+    },
+    {
+      "q": "What year did Blinding Lights top charts globally?",
+      "a": "2020 (released 2019)",
+      "angle": "years"
+    },
+    {
+      "q": "Who is the frontman of Maroon 5?",
+      "a": "Adam Levine",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Chandelier?",
+      "a": "Sia",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sings About Damn Time?",
+      "a": "Lizzo",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Shake It Off?",
+      "a": "Taylor Swift",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Roar?",
+      "a": "Katy Perry",
+      "angle": "artists"
+    },
+    {
+      "q": "What duo sang Sunflower for Spider-Verse?",
+      "a": "Post Malone and Swae Lee",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sings Drivers License?",
+      "a": "Olivia Rodrigo",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Dark Horse?",
+      "a": "Katy Perry ft. Juicy J",
+      "angle": "artists"
+    },
+    {
+      "q": "What group sang Butter?",
+      "a": "BTS",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Blank Space?",
+      "a": "Taylor Swift",
+      "angle": "artists"
+    },
+    {
+      "q": "Who is known for TikTok hit Old Town Road?",
+      "a": "Lil Nas X",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Circles?",
+      "a": "Post Malone",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Royals and won a Grammy?",
+      "a": "Lorde",
+      "angle": "artists"
+    },
+    {
+      "q": "Who collaborated on I'm the One?",
+      "a": "DJ Khaled ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Sorry Not Sorry?",
+      "a": "Demi Lovato",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang New Rules?",
+      "a": "Dua Lipa",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Fireflies?",
+      "a": "Owl City",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Timber with Pitbull?",
+      "a": "Kesha ft. Pitbull",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Can't Stop the Feeling!?",
+      "a": "Justin Timberlake",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Let It Go (Frozen)?",
+      "a": "Idina Menzel",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang We Found Love?",
+      "a": "Rihanna ft. Calvin Harris",
+      "angle": "artists"
+    },
+    {
+      "q": "Who sang Bad Habits?",
+      "a": "Ed Sheeran",
+      "angle": "artists"
     }
   ],
   "hard": [
@@ -463,6 +713,131 @@
       "q": "In what year did the Billboard Hot 100 begin?",
       "a": "1958",
       "angle": "history"
+    },
+    {
+      "q": "What producer duo is behind many Weeknd hits?",
+      "a": "Max Martin and Oscar Holter (also DaHeala etc.)",
+      "angle": "production"
+    },
+    {
+      "q": "What album is Rolling in the Deep from?",
+      "a": "21 by Adele",
+      "angle": "albums"
+    },
+    {
+      "q": "What year did Thriller release?",
+      "a": "1982",
+      "angle": "years"
+    },
+    {
+      "q": "Who co-wrote Poker Face?",
+      "a": "Lady Gaga and RedOne",
+      "angle": "writers"
+    },
+    {
+      "q": "What label first signed Billie Eilish?",
+      "a": "Darkroom/Interscope",
+      "angle": "industry"
+    },
+    {
+      "q": "Which synth style inspired Blinding Lights?",
+      "a": "80s synthwave/new wave",
+      "angle": "genre"
+    },
+    {
+      "q": "What song broke Spotify single-day streams in 2022?",
+      "a": "As It Was by Harry Styles (and others later)",
+      "angle": "records"
+    },
+    {
+      "q": "Who directed the music video for Bad Romance?",
+      "a": "Francis Lawrence",
+      "angle": "videos"
+    },
+    {
+      "q": "What song launched Olivia Rodrigo's career?",
+      "a": "Drivers License",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the producer behind many Taylor Swift 1989 tracks?",
+      "a": "Max Martin (and Shellback, Jack Antonoff)",
+      "angle": "production"
+    },
+    {
+      "q": "What group was Abel Tesfaye originally posting as?",
+      "a": "The Weeknd (stage name) anonymously online with House of Balloons mixtape",
+      "angle": "history"
+    },
+    {
+      "q": "What is the tempo feel of Uptown Funk?",
+      "a": "Funk/disco-pop around 115 BPM",
+      "angle": "music"
+    },
+    {
+      "q": "Who sang the hook on Industry Baby?",
+      "a": "Jack Harlow with Lil Nas X",
+      "angle": "artists"
+    },
+    {
+      "q": "Which album features Watermelon Sugar?",
+      "a": "Fine Line by Harry Styles",
+      "angle": "albums"
+    },
+    {
+      "q": "Who produced Wrecking Ball?",
+      "a": "Dr. Luke and Cirkut",
+      "angle": "production"
+    },
+    {
+      "q": "What Swedish producer worked with Britney on ...Baby One More Time?",
+      "a": "Max Martin",
+      "angle": "production"
+    },
+    {
+      "q": "Which artist popularized the moonwalk in 1983 Motown 25?",
+      "a": "Michael Jackson",
+      "angle": "history"
+    },
+    {
+      "q": "What song by Beyoncé was a visual album?",
+      "a": "Lemonade (visual album concept)",
+      "angle": "albums"
+    },
+    {
+      "q": "Who is the DJ producer behind Lean On?",
+      "a": "Major Lazer (Diplo) with DJ Snake and MØ",
+      "angle": "artists"
+    },
+    {
+      "q": "Which song by Dua Lipa features DaBaby?",
+      "a": "Levitating (remix)",
+      "angle": "collab"
+    },
+    {
+      "q": "Who wrote and produced Royals?",
+      "a": "Lorde with Joel Little",
+      "angle": "writers"
+    },
+    {
+      "q": "Which music video features treadmill choreography?",
+      "a": "Here It Goes Again by OK Go (pop rock)",
+      "angle": "videos"
+    },
+    {
+      "q": "What song gave BTS their first Billboard Hot 100 #1?",
+      "a": "Dynamite",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the mastermind producer behind Blinding Lights sound?",
+      "a": "Max Martin",
+      "angle": "production"
+    },
+    {
+      "q": "Which album is Bad Habits part of?",
+      "a": "= (Equals) by Ed Sheeran",
+      "angle": "albums"
     }
   ]
 }

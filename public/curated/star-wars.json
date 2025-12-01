@@ -149,6 +149,131 @@
       "q": "Who is the astromech painted orange and white in the sequels?",
       "a": "BB-8",
       "angle": "sidekick"
+    },
+    {
+      "q": "Who is Luke Skywalker's father?",
+      "a": "Anakin Skywalker (Darth Vader)",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Princess Leia's brother?",
+      "a": "Luke Skywalker",
+      "angle": "characters"
+    },
+    {
+      "q": "What is Han Solo's ship?",
+      "a": "The Millennium Falcon",
+      "angle": "vehicles"
+    },
+    {
+      "q": "Who is the Wookiee co-pilot?",
+      "a": "Chewbacca",
+      "angle": "characters"
+    },
+    {
+      "q": "What weapon do Jedi use?",
+      "a": "Lightsabers",
+      "angle": "items"
+    },
+    {
+      "q": "Who trained Luke?",
+      "a": "Obi-Wan Kenobi and Yoda",
+      "angle": "mentors"
+    },
+    {
+      "q": "What color is Darth Vader's lightsaber?",
+      "a": "Red",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the small green Jedi Master?",
+      "a": "Yoda",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the desert planet Luke is from?",
+      "a": "Tatooine",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is the bounty hunter in Mandalorian armor in OT?",
+      "a": "Boba Fett",
+      "angle": "characters"
+    },
+    {
+      "q": "What droid says \"I am fluent in over six million forms of communication\"?",
+      "a": "C-3PO",
+      "angle": "droids"
+    },
+    {
+      "q": "What astromech droid is blue and white?",
+      "a": "R2-D2",
+      "angle": "droids"
+    },
+    {
+      "q": "Who is the Sith Lord in black armor?",
+      "a": "Darth Vader",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the Rebel Alliance fighting?",
+      "a": "The Galactic Empire",
+      "angle": "factions"
+    },
+    {
+      "q": "What is the giant space station destroyed twice?",
+      "a": "The Death Star",
+      "angle": "vehicles"
+    },
+    {
+      "q": "Who is Kylo Ren's mother?",
+      "a": "Leia Organa",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Rey's scavenger friend on Jakku?",
+      "a": "BB-8",
+      "angle": "droids"
+    },
+    {
+      "q": "What is the icy planet with Rebel base in Episode V?",
+      "a": "Hoth",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the forest moon in Episode VI?",
+      "a": "Endor",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is the smuggler from Corellia?",
+      "a": "Han Solo",
+      "angle": "characters"
+    },
+    {
+      "q": "What does a Jedi use to sense things?",
+      "a": "The Force",
+      "angle": "concept"
+    },
+    {
+      "q": "Who is the Supreme Leader of the First Order (initial)?",
+      "a": "Snoke",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the dark lord in The Phantom Menace?",
+      "a": "Darth Maul",
+      "angle": "villains"
+    },
+    {
+      "q": "What is Obi-Wan's nickname?",
+      "a": "Ben Kenobi",
+      "angle": "identity"
+    },
+    {
+      "q": "What color is Yoda's lightsaber?",
+      "a": "Green",
+      "angle": "items"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "What planet is the Jedi Temple built on?",
       "a": "Coruscant",
       "angle": "lore"
+    },
+    {
+      "q": "Who built C-3PO?",
+      "a": "Anakin Skywalker (as a child)",
+      "angle": "lore"
+    },
+    {
+      "q": "What clone trooper commander worked with Obi-Wan?",
+      "a": "Commander Cody",
+      "angle": "clones"
+    },
+    {
+      "q": "What order commanded clones to kill Jedi?",
+      "a": "Order 66",
+      "angle": "plot"
+    },
+    {
+      "q": "Who said \"I love you\" \"I know\"?",
+      "a": "Leia and Han in Empire Strikes Back",
+      "angle": "quotes"
+    },
+    {
+      "q": "What planet is the Jedi Temple on?",
+      "a": "Coruscant",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is the Mandalorian bounty hunter caring for Grogu?",
+      "a": "Din Djarin",
+      "angle": "characters"
+    },
+    {
+      "q": "What is Mando's ship called (pre-destruction)?",
+      "a": "The Razor Crest",
+      "angle": "vehicles"
+    },
+    {
+      "q": "What material are Mandalorian armors made of?",
+      "a": "Beskar",
+      "angle": "items"
+    },
+    {
+      "q": "Who was Anakin's Padawan in The Clone Wars?",
+      "a": "Ahsoka Tano",
+      "angle": "characters"
+    },
+    {
+      "q": "Who leads the Separatist droid army?",
+      "a": "General Grievous (and Count Dooku behind)",
+      "angle": "villains"
+    },
+    {
+      "q": "What planet is Padmé from?",
+      "a": "Naboo",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is Lando Calrissian?",
+      "a": "Gambler and friend who ran Cloud City",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the casino city in The Last Jedi?",
+      "a": "Canto Bight",
+      "angle": "locations"
+    },
+    {
+      "q": "What blue milk comes from?",
+      "a": "Thala-sirens (Ahch-To) / Banthas on Tatooine",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the Sith homeworld in Legends?",
+      "a": "Korriban (Moraband in canon)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who kills Jabba the Hutt?",
+      "a": "Leia Organa",
+      "angle": "plot"
+    },
+    {
+      "q": "What species is Admiral Ackbar?",
+      "a": "Mon Calamari",
+      "angle": "species"
+    },
+    {
+      "q": "What crime syndicate features Crimson Dawn?",
+      "a": "Crimson Dawn led by Maul (Solo)",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is Finn's stormtrooper designation?",
+      "a": "FN-2187",
+      "angle": "lore"
+    },
+    {
+      "q": "What planet is Rey from initially?",
+      "a": "Jakku",
+      "angle": "planets"
+    },
+    {
+      "q": "Who voices Darth Vader?",
+      "a": "James Earl Jones",
+      "angle": "cast"
+    },
+    {
+      "q": "Who directed The Empire Strikes Back?",
+      "a": "Irvin Kershner",
+      "angle": "crew"
+    },
+    {
+      "q": "What is the lightsaber form focusing on defense (Yoda)?",
+      "a": "Form III Soresu (Obi-Wan), Yoda uses Ataru Form IV",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the group of elite stormtroopers in red?",
+      "a": "The Emperor's Royal Guard (later Sith troopers in IX)",
+      "angle": "factions"
+    },
+    {
+      "q": "Who is Bo-Katan Kryze?",
+      "a": "Mandalorian leader seeking the Darksaber",
+      "angle": "characters"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "What is the designation of Luke's X-wing at Yavin?",
       "a": "Red Five",
       "angle": "battle"
+    },
+    {
+      "q": "What is the name of the hyperspace maneuver Admiral Holdo used?",
+      "a": "The Holdo Maneuver (lightspeed ramming)",
+      "angle": "plot"
+    },
+    {
+      "q": "Who created Star Wars?",
+      "a": "George Lucas",
+      "angle": "creators"
+    },
+    {
+      "q": "What is the name of Darth Vader's flagship?",
+      "a": "Executor (Super Star Destroyer)",
+      "angle": "vehicles"
+    },
+    {
+      "q": "What crystals power lightsabers?",
+      "a": "Kyber crystals",
+      "angle": "items"
+    },
+    {
+      "q": "What is the name of Boba Fett's ship?",
+      "a": "Slave I (Firespray-class) renamed Firespray Gunship",
+      "angle": "vehicles"
+    },
+    {
+      "q": "Who trained Count Dooku as a Jedi?",
+      "a": "Yoda",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Palpatine's Sith name?",
+      "a": "Darth Sidious",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the homeworld of the Wookiees?",
+      "a": "Kashyyyk",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the Mandalorian creed weapon of leadership?",
+      "a": "The Darksaber",
+      "angle": "items"
+    },
+    {
+      "q": "What species is Yoda?",
+      "a": "Unknown species",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the Chiss Grand Admiral?",
+      "a": "Thrawn",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the name of the imperial project for Death Star plans?",
+      "a": "Project Stardust",
+      "angle": "plot"
+    },
+    {
+      "q": "Who dueled Anakin on Mustafar?",
+      "a": "Obi-Wan Kenobi",
+      "angle": "plot"
+    },
+    {
+      "q": "What planet hosts the cloning facilities for the Grand Army?",
+      "a": "Kamino",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is the Jedi librarian in Episode II?",
+      "a": "Jocasta Nu",
+      "angle": "characters"
+    },
+    {
+      "q": "What Sith Darth name did Ben Solo take?",
+      "a": "Kylo Ren (Ren, not Darth title)",
+      "angle": "identity"
+    },
+    {
+      "q": "What did Han Solo make the Kessel Run in?",
+      "a": "Less than twelve parsecs (Millennium Falcon)",
+      "angle": "quotes"
+    },
+    {
+      "q": "What is the capital of the First Order in Episode VII?",
+      "a": "Starkiller Base functions as superweapon; capital not well-defined",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the Nightsister from Dathomir in Clone Wars?",
+      "a": "Asajj Ventress (not Nightsister by birth but aligned)",
+      "angle": "villains"
+    },
+    {
+      "q": "What was Luke's call sign in the Death Star assault?",
+      "a": "Red Five",
+      "angle": "lore"
+    },
+    {
+      "q": "Who was the Jedi Master with a purple lightsaber?",
+      "a": "Mace Windu",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the chant of the Tusken Raiders called?",
+      "a": "Tusken war cries; gaderffii culture (no single chant name)",
+      "angle": "culture"
+    },
+    {
+      "q": "Who commanded the 501st Legion in Clone Wars?",
+      "a": "Anakin Skywalker (General) with Captain Rex",
+      "angle": "lore"
+    },
+    {
+      "q": "What was Leia's rank in the Rebellion?",
+      "a": "Princess and later General of the Resistance",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the armorer in The Mandalorian?",
+      "a": "The Armorer (unnamed) who forges beskar",
+      "angle": "characters"
     }
   ]
 }

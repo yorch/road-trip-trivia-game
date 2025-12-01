@@ -99,6 +99,156 @@
       "q": "What do we call fossilized tree resin?",
       "a": "Amber",
       "angle": "fossils"
+    },
+    {
+      "q": "What period came before the Jurassic?",
+      "a": "The Triassic period",
+      "angle": "time"
+    },
+    {
+      "q": "What big flying reptile is often shown with a crest?",
+      "a": "Pteranodon",
+      "angle": "classification"
+    },
+    {
+      "q": "What dinosaur was called the \"thunder lizard\"?",
+      "a": "Brontosaurus (Apatosaurus)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur had a row of plates on its back?",
+      "a": "Stegosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What do carnivorous dinosaurs use to eat?",
+      "a": "Sharp teeth and claws",
+      "angle": "predators"
+    },
+    {
+      "q": "What period did T-Rex live in?",
+      "a": "Late Cretaceous",
+      "angle": "time"
+    },
+    {
+      "q": "What dinosaur is known for running fast like an ostrich?",
+      "a": "Gallimimus",
+      "angle": "speed"
+    },
+    {
+      "q": "What dinosaur is called \"king of the tyrant lizards\"?",
+      "a": "Tyrannosaurus Rex",
+      "angle": "predators"
+    },
+    {
+      "q": "What do we call fossilized eggs?",
+      "a": "Egg fossils or trace fossils",
+      "angle": "trace"
+    },
+    {
+      "q": "What dinosaur had a big sail and liked fish?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "What dinosaur had a name meaning \"three-horned face\"?",
+      "a": "Triceratops",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What animals today are closest living relatives of dinosaurs?",
+      "a": "Birds",
+      "angle": "transition"
+    },
+    {
+      "q": "What do paleontologists use to carefully dig fossils?",
+      "a": "Brushes and small picks",
+      "angle": "science"
+    },
+    {
+      "q": "What type of fossil records skin or feathers?",
+      "a": "Impression fossils",
+      "angle": "trace"
+    },
+    {
+      "q": "What dinosaur had a long whip-like tail and tiny head?",
+      "a": "Diplodocus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur had a parrot-like beak and head crest?",
+      "a": "Parasaurolophus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What color were many dinosaur fossils originally?",
+      "a": "Bones themselves were mineralized, not the original color",
+      "angle": "fossils"
+    },
+    {
+      "q": "What is the job of removing rock from fossils called?",
+      "a": "Preparation",
+      "angle": "science"
+    },
+    {
+      "q": "What does a museum often mount dinosaurs with?",
+      "a": "Metal armatures to support fossils or casts",
+      "angle": "science"
+    },
+    {
+      "q": "What marks the boundary layer when dinosaurs died out?",
+      "a": "The K-Pg boundary with iridium",
+      "angle": "eras"
+    },
+    {
+      "q": "What small, fast predator name means 'swift thief'?",
+      "a": "Velociraptor",
+      "angle": "predators"
+    },
+    {
+      "q": "What does 'Triceratops' mean?",
+      "a": "Three-horned face",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What tool brushes dust off fossils?",
+      "a": "A soft brush",
+      "angle": "science"
+    },
+    {
+      "q": "What dinosaur had a crest that made a honking sound?",
+      "a": "Parasaurolophus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What era ended with the dinosaur extinction?",
+      "a": "The end of the Cretaceous period",
+      "angle": "time"
+    },
+    {
+      "q": "What is a scientist who studies ancient plants called?",
+      "a": "A paleobotanist",
+      "angle": "science"
+    },
+    {
+      "q": "What dinosaur had armor plates and spikes on its tail?",
+      "a": "Stegosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur name means 'different lizard'?",
+      "a": "Allosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "What is a fossilized dinosaur egg called?",
+      "a": "An egg fossil",
+      "angle": "trace"
+    },
+    {
+      "q": "What animal group survived and evolved into birds?",
+      "a": "Small theropod dinosaurs",
+      "angle": "transition"
     }
   ],
   "medium": [
@@ -201,6 +351,156 @@
       "q": "What is a coprolite?",
       "a": "Fossilized dung",
       "angle": "trace"
+    },
+    {
+      "q": "What famous site in Montana shows T-Rex and Triceratops fossils?",
+      "a": "Hell Creek Formation",
+      "angle": "fossils"
+    },
+    {
+      "q": "What does \"sauropod\" mean?",
+      "a": "Lizard-footed (long-neck dinosaurs)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What does \"theropod\" refer to?",
+      "a": "Beast-footed (mostly carnivorous dinosaurs)",
+      "angle": "predators"
+    },
+    {
+      "q": "What period did Velociraptor live in?",
+      "a": "Late Cretaceous",
+      "angle": "predators"
+    },
+    {
+      "q": "Which dinosaur is known as the \"thunder lizard\"?",
+      "a": "Brontosaurus (Apatosaurus)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What country is the Gobi Desert fossil site located?",
+      "a": "Mongolia",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur name means \"thick-headed lizard\"?",
+      "a": "Pachycephalosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur group evolved into birds?",
+      "a": "Theropod dinosaurs",
+      "angle": "transition"
+    },
+    {
+      "q": "What does \"raptor\" mean in dinosaur names?",
+      "a": "Thief or robber",
+      "angle": "predators"
+    },
+    {
+      "q": "What dinosaur is known from a nearly complete skeleton named Sue?",
+      "a": "Tyrannosaurus Rex",
+      "angle": "fossils"
+    },
+    {
+      "q": "What is the term for warm-bloodedness?",
+      "a": "Endothermy",
+      "angle": "science"
+    },
+    {
+      "q": "What is the term for cold-bloodedness?",
+      "a": "Ectothermy",
+      "angle": "science"
+    },
+    {
+      "q": "What kind of rock are most dinosaur fossils found in?",
+      "a": "Sedimentary rock",
+      "angle": "fossils"
+    },
+    {
+      "q": "Which dinosaur had a sickle claw on each foot in Mongolia?",
+      "a": "Velociraptor",
+      "angle": "predators"
+    },
+    {
+      "q": "What kind of fossil preserves original bone minerals replaced by stone?",
+      "a": "Petrified fossil",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur had a frill and large nasal horn (not Triceratops)?",
+      "a": "Styracosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur had a thumb spike for defense?",
+      "a": "Iguanodon",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What is the name for fossilized dinosaur skin impressions?",
+      "a": "Skin impressions or integument fossils",
+      "angle": "trace"
+    },
+    {
+      "q": "What famous formation in Alberta has many dinosaur bonebeds?",
+      "a": "Dinosaur Provincial Park / Horseshoe Canyon Formation",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur had armor plates and a tail club for defense?",
+      "a": "Ankylosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur name means 'roof lizard'?",
+      "a": "Stegosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Which dinosaur had a sail on its back and likely ate fish?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "Which dinosaur skeleton nicknamed Sue is the largest T-Rex found?",
+      "a": "Sue the Tyrannosaurus Rex",
+      "angle": "fossils"
+    },
+    {
+      "q": "Which dinosaur had a sickle claw and lived in Mongolia?",
+      "a": "Velociraptor",
+      "angle": "predators"
+    },
+    {
+      "q": "What is the name for fossilized dinosaur footprints?",
+      "a": "Trackways or ichnites",
+      "angle": "trace"
+    },
+    {
+      "q": "Which dinosaur had a huge sail and may have swum?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "What does 'Therizinosaurus' mean?",
+      "a": "Scythe lizard",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Which dinosaur had bony armor plates and lived in the Late Cretaceous?",
+      "a": "Ankylosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What Canadian museum is famous for dinosaur research?",
+      "a": "Royal Tyrrell Museum",
+      "angle": "paleontology"
+    },
+    {
+      "q": "What does 'Oviraptor' mean?",
+      "a": "Egg thief",
+      "angle": "behavior"
     }
   ],
   "hard": [
@@ -256,7 +556,7 @@
     },
     {
       "q": "What is the K-Pg boundary?",
-      "a": "Geological layer marking the Cretaceous–Paleogene extinction",
+      "a": "Geological layer marking the Cretaceous\u2013Paleogene extinction",
       "angle": "eras"
     },
     {
@@ -298,6 +598,161 @@
       "q": "What is the longest sauropod neck estimated?",
       "a": "Mamenchisaurus (very long neck)",
       "angle": "herbivores"
+    },
+    {
+      "q": "What period did Stegosaurus live in?",
+      "a": "Late Jurassic",
+      "angle": "time"
+    },
+    {
+      "q": "Which dinosaur had quill knobs indicating feathers?",
+      "a": "Velociraptor",
+      "angle": "transition"
+    },
+    {
+      "q": "What does \"Velociraptor\" mean?",
+      "a": "Swift thief",
+      "angle": "predators"
+    },
+    {
+      "q": "Which dinosaur's name means \"king of the tyrant lizards\"?",
+      "a": "Tyrannosaurus Rex",
+      "angle": "predators"
+    },
+    {
+      "q": "What dating method measures decay of potassium to argon?",
+      "a": "Potassium-argon dating",
+      "angle": "science"
+    },
+    {
+      "q": "What is the famous fossil bed in Montana and Dakotas for late Cretaceous?",
+      "a": "Hell Creek Formation",
+      "angle": "fossils"
+    },
+    {
+      "q": "What rock layer marks the asteroid impact with iridium spike?",
+      "a": "The K-Pg boundary clay layer",
+      "angle": "eras"
+    },
+    {
+      "q": "Which theropod had a large sail and is considered semi-aquatic?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "Which dinosaur fossil showed brooding posture on eggs?",
+      "a": "Oviraptor",
+      "angle": "behavior"
+    },
+    {
+      "q": "What formation in China is famous for feathered dinosaurs?",
+      "a": "Yixian Formation in Liaoning",
+      "angle": "paleontology"
+    },
+    {
+      "q": "What does \"Pachycephalosaurus\" mean?",
+      "a": "Thick-headed lizard",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Which dinosaur is known for the fossil specimen nicknamed Sue?",
+      "a": "Tyrannosaurus Rex",
+      "angle": "fossils"
+    },
+    {
+      "q": "What is the estimated top speed of a T-Rex from recent studies?",
+      "a": "Around 12\u201320 mph (estimates vary, likely not very fast)",
+      "angle": "science"
+    },
+    {
+      "q": "Which paleontologist discovered Deinonychus, changing views on dinosaurs?",
+      "a": "John Ostrom",
+      "angle": "science"
+    },
+    {
+      "q": "What was the Western Interior Seaway?",
+      "a": "An inland sea splitting North America in the Cretaceous",
+      "angle": "geography"
+    },
+    {
+      "q": "Which dinosaur group had beaks and hundreds of teeth for grinding plants?",
+      "a": "Hadrosaurs (duck-billed dinosaurs)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Which dinosaur from Mongolia had huge claws on its hands?",
+      "a": "Therizinosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What is the name for fossilized tree sap with trapped insects?",
+      "a": "Amber with inclusions",
+      "angle": "fossils"
+    },
+    {
+      "q": "Which Triassic dinosaur is one of the earliest known?",
+      "a": "Eoraptor",
+      "angle": "eras"
+    },
+    {
+      "q": "What is the term for an exceptionally well-preserved fossil deposit?",
+      "a": "A Lagerst\u00e4tte",
+      "angle": "paleontology"
+    },
+    {
+      "q": "Which Jurassic site in Portugal is famous for sauropod tracks?",
+      "a": "Lourinh\u00e3 Formation tracksites",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dating method measures potassium decaying to argon?",
+      "a": "Potassium-argon dating",
+      "angle": "science"
+    },
+    {
+      "q": "Which dinosaur fossil showed brooding posture over eggs?",
+      "a": "Oviraptor",
+      "angle": "behavior"
+    },
+    {
+      "q": "What small, early dinosaur name means 'dawn thief'?",
+      "a": "Eoraptor",
+      "angle": "eras"
+    },
+    {
+      "q": "Which feathered dinosaur from China helped link birds and dinosaurs?",
+      "a": "Archaeopteryx (and later Microraptor from Liaoning)",
+      "angle": "transition"
+    },
+    {
+      "q": "What is the name of the iridium-rich layer at the K-Pg boundary?",
+      "a": "The K-Pg boundary clay layer",
+      "angle": "eras"
+    },
+    {
+      "q": "Which Cretaceous inland sea split North America?",
+      "a": "The Western Interior Seaway",
+      "angle": "geography"
+    },
+    {
+      "q": "Which dinosaur's name means 'roofed lizard'?",
+      "a": "Stegosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Which scientist coined 'Dinosauria' in 1842?",
+      "a": "Richard Owen",
+      "angle": "history"
+    },
+    {
+      "q": "Which dating method uses zircon crystals and uranium-lead decay?",
+      "a": "U-Pb dating",
+      "angle": "science"
+    },
+    {
+      "q": "Which small bird-like dinosaur had four wings?",
+      "a": "Microraptor",
+      "angle": "transition"
     }
   ]
 }

@@ -149,6 +149,131 @@
       "q": "Who forges the Fellowship?",
       "a": "Elrond at Rivendell",
       "angle": "council"
+    },
+    {
+      "q": "Who is the Ring-bearer in The Lord of the Rings?",
+      "a": "Frodo Baggins",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Frodo's best friend and gardener?",
+      "a": "Samwise Gamgee",
+      "angle": "characters"
+    },
+    {
+      "q": "What creature does Gollum call the One Ring?",
+      "a": "My precious",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who leads the Fellowship?",
+      "a": "Gandalf (and later Aragorn)",
+      "angle": "team"
+    },
+    {
+      "q": "What race is Legolas?",
+      "a": "Elf",
+      "angle": "races"
+    },
+    {
+      "q": "What weapon does Aragorn wield?",
+      "a": "The reforged sword Andúril",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the dwarf in the Fellowship?",
+      "a": "Gimli son of Glóin",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the dark land of Sauron?",
+      "a": "Mordor",
+      "angle": "locations"
+    },
+    {
+      "q": "What mountain must the Ring be destroyed in?",
+      "a": "Mount Doom",
+      "angle": "locations"
+    },
+    {
+      "q": "What hides Frodo when he wears it?",
+      "a": "Invisibility from the One Ring",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the steward of Gondor during the war?",
+      "a": "Denethor II",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the shieldmaiden of Rohan?",
+      "a": "Éowyn",
+      "angle": "characters"
+    },
+    {
+      "q": "What city is the White City?",
+      "a": "Minas Tirith",
+      "angle": "locations"
+    },
+    {
+      "q": "What creature carries Frodo and Sam from Mount Doom?",
+      "a": "Great Eagles",
+      "angle": "aid"
+    },
+    {
+      "q": "Who rides Shadowfax?",
+      "a": "Gandalf",
+      "angle": "items"
+    },
+    {
+      "q": "Who reforges Narsil into Andúril?",
+      "a": "The smiths of Rivendell/Elves (Elrond's house)",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the Lady of Lothlórien?",
+      "a": "Galadriel",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the elven bread given to the Fellowship?",
+      "a": "Lembas",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the king of Rohan?",
+      "a": "Théoden",
+      "angle": "characters"
+    },
+    {
+      "q": "What word opens the Doors of Durin?",
+      "a": "Mellon (friend)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created the One Ring?",
+      "a": "Sauron",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Arwen's father?",
+      "a": "Elrond",
+      "angle": "characters"
+    },
+    {
+      "q": "What creature says \"You shall not pass\" is yelled to?",
+      "a": "The Balrog",
+      "angle": "scene"
+    },
+    {
+      "q": "What is Gollum's hobbit name?",
+      "a": "Sméagol",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Saruman's master he seeks to join?",
+      "a": "Sauron",
+      "angle": "villain"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "Who commands the Dead Men of Dunharrow?",
       "a": "Aragorn (as Isildur's heir)",
       "angle": "battle"
+    },
+    {
+      "q": "What are the seeing stones called?",
+      "a": "Palantíri",
+      "angle": "items"
+    },
+    {
+      "q": "Who inherits the Shire after Frodo leaves?",
+      "a": "Samwise becomes Mayor; generally the Shire remains with Hobbits",
+      "angle": "plot"
+    },
+    {
+      "q": "Who kills the Witch-king of Angmar?",
+      "a": "Éowyn with Merry's help",
+      "angle": "battle"
+    },
+    {
+      "q": "What language is the Ring inscription in?",
+      "a": "Black Speech of Mordor",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Boromir's brother?",
+      "a": "Faramir",
+      "angle": "characters"
+    },
+    {
+      "q": "What forest do Merry and Pippin meet Treebeard in?",
+      "a": "Fangorn Forest",
+      "angle": "locations"
+    },
+    {
+      "q": "Who is King of the Dead who aids Aragorn?",
+      "a": "The King of the Dead at the Paths of the Dead (unnamed oathbreaker king)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Tom Bombadil's wife called?",
+      "a": "Goldberry",
+      "angle": "characters"
+    },
+    {
+      "q": "Who gives Frodo the phial of light?",
+      "a": "Galadriel",
+      "angle": "items"
+    },
+    {
+      "q": "What river forms a border of the Shire?",
+      "a": "The Brandywine River",
+      "angle": "locations"
+    },
+    {
+      "q": "Who is the Brown wizard?",
+      "a": "Radagast the Brown",
+      "angle": "characters"
+    },
+    {
+      "q": "What are the large wolf-like mounts of orcs called?",
+      "a": "Wargs",
+      "angle": "creatures"
+    },
+    {
+      "q": "Who betrayed Isildur leading to his death?",
+      "a": "Orcs/ambush at Gladden Fields; no single traitor",
+      "angle": "history"
+    },
+    {
+      "q": "What gift does Galadriel give Gimli?",
+      "a": "Three strands of her hair",
+      "angle": "items"
+    },
+    {
+      "q": "What is Elendil's sword named before it broke?",
+      "a": "Narsil",
+      "angle": "items"
+    },
+    {
+      "q": "Who reforges the sword for Aragorn?",
+      "a": "Elven smiths in Rivendell (in film by Elrond's smiths, in book by elves of Rivendell)",
+      "angle": "production"
+    },
+    {
+      "q": "What is the name of the inn at Bree?",
+      "a": "The Prancing Pony",
+      "angle": "locations"
+    },
+    {
+      "q": "Who is the Steward's heir who falls to the Ring?",
+      "a": "Boromir (tempted), Denethor's son",
+      "angle": "plot"
+    },
+    {
+      "q": "What mountain pass do they avoid by going through Moria?",
+      "a": "Caradhras",
+      "angle": "locations"
+    },
+    {
+      "q": "What group is called the Nine Walkers?",
+      "a": "The Fellowship of the Ring",
+      "angle": "team"
+    },
+    {
+      "q": "What star-glass helps Frodo fend off Shelob?",
+      "a": "The Phial of Galadriel",
+      "angle": "items"
+    },
+    {
+      "q": "What is the White Council?",
+      "a": "Council of wizards and elves against Sauron",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the elven haven in the west?",
+      "a": "The Grey Havens (Mithlond)",
+      "angle": "locations"
+    },
+    {
+      "q": "Who is Éomer related to Éowyn?",
+      "a": "Her brother",
+      "angle": "characters"
+    },
+    {
+      "q": "What creature does Legolas count kills with at Helm's Deep?",
+      "a": "Gimli (their contest)",
+      "angle": "scene"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "What is the Elvish word for 'friend' that opens Moria?",
       "a": "Mellon",
       "angle": "language"
+    },
+    {
+      "q": "What year was The Fellowship of the Ring first published?",
+      "a": "1954",
+      "angle": "history"
+    },
+    {
+      "q": "What are the Three Elven Rings called?",
+      "a": "Vilya, Nenya, Narya",
+      "angle": "items"
+    },
+    {
+      "q": "Who originally forged Narsil?",
+      "a": "Telchar of Nogrod (in the First Age)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Gandalf's original Maia name?",
+      "a": "Olórin",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Gollum's relative who found the Ring?",
+      "a": "Déagol",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the father of Boromir and Faramir?",
+      "a": "Denethor II",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the Sindarin name for Rivendell?",
+      "a": "Imladris",
+      "angle": "lore"
+    },
+    {
+      "q": "Who becomes king of Gondor at the end?",
+      "a": "Aragorn II Elessar",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the ranger known as Strider?",
+      "a": "Aragorn",
+      "angle": "identity"
+    },
+    {
+      "q": "What ship takes the Ring-bearers to the West?",
+      "a": "A white ship from the Grey Havens",
+      "angle": "ending"
+    },
+    {
+      "q": "Which Ent summons the Entmoot?",
+      "a": "Treebeard",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the hobbit who first possessed the One Ring after Isildur?",
+      "a": "Déagol (found), then Sméagol took it",
+      "angle": "history"
+    },
+    {
+      "q": "What elven realm does Thranduil rule?",
+      "a": "Woodland Realm of Mirkwood",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the spider in Mirkwood?",
+      "a": "Shelob's kin: giant spiders; in The Hobbit spider is unnamed, Shelob is in Mordor",
+      "angle": "creatures"
+    },
+    {
+      "q": "Who is the father of Legolas?",
+      "a": "Thranduil",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the name of Aragorn's horse?",
+      "a": "Brego (film) / Roheryn (book gift from Arwen)",
+      "angle": "items"
+    },
+    {
+      "q": "Who are the Istari?",
+      "a": "Order of wizards sent by the Valar (Gandalf, Saruman, Radagast, Blue Wizards)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the One Ring's inscription in English?",
+      "a": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them",
+      "angle": "quote"
+    },
+    {
+      "q": "Who slays the Witch-king in the book?",
+      "a": "Éowyn and Merry together",
+      "angle": "battle"
+    },
+    {
+      "q": "What is the name of the watchtower where Frodo is wounded?",
+      "a": "Amon Sûl (Weathertop)",
+      "angle": "locations"
+    },
+    {
+      "q": "Who is the Lady of Rohan that falls for Aragorn?",
+      "a": "Éowyn",
+      "angle": "characters"
+    },
+    {
+      "q": "Who commands the armies of the Dead before they are freed?",
+      "a": "The King of the Dead bound by Isildur's oath",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the high tongue of Númenor called?",
+      "a": "Adûnaic",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the Elvish word for friend?",
+      "a": "Mellon",
+      "angle": "language"
+    },
+    {
+      "q": "What creature kills Boromir?",
+      "a": "Uruk-hai led by Lurtz (film), orcs of Saruman",
+      "angle": "battle"
     }
   ]
 }

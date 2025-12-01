@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "What does F1 stand for?",
+      "a": "Formula One",
+      "angle": "basics"
+    },
+    {
+      "q": "How many drivers does each team field?",
+      "a": "Two drivers",
+      "angle": "basics"
+    },
+    {
+      "q": "How many teams are on the F1 grid?",
+      "a": "10 teams (20 drivers)",
+      "angle": "basics"
+    },
+    {
+      "q": "How many points does a race win give?",
+      "a": "25 points",
+      "angle": "points"
+    },
+    {
+      "q": "How many extra points for fastest lap (top 10 only)?",
+      "a": "1 point",
+      "angle": "points"
+    },
+    {
+      "q": "Which team is nicknamed the Silver Arrows?",
+      "a": "Mercedes",
+      "angle": "teams"
+    },
+    {
+      "q": "Which team races in red from Maranello?",
+      "a": "Scuderia Ferrari",
+      "angle": "teams"
+    },
+    {
+      "q": "Which energy drink company owns a top F1 team?",
+      "a": "Red Bull",
+      "angle": "teams"
+    },
+    {
+      "q": "What does DRS stand for?",
+      "a": "Drag Reduction System",
+      "angle": "rules"
+    },
+    {
+      "q": "What color flag ends a race?",
+      "a": "The chequered flag",
+      "angle": "flags"
+    },
+    {
+      "q": "What does a blue flag mean?",
+      "a": "Move aside for a faster/lapping car",
+      "angle": "flags"
+    },
+    {
+      "q": "What does a yellow flag mean?",
+      "a": "Caution, slow down, no overtaking",
+      "angle": "flags"
+    },
+    {
+      "q": "What does a red flag mean?",
+      "a": "Session stopped",
+      "angle": "flags"
+    },
+    {
+      "q": "What color are Pirelli soft tyres?",
+      "a": "Red sidewall",
+      "angle": "tyres"
+    },
+    {
+      "q": "What color are Pirelli medium tyres?",
+      "a": "Yellow sidewall",
+      "angle": "tyres"
+    },
+    {
+      "q": "What color are Pirelli hard tyres?",
+      "a": "White sidewall",
+      "angle": "tyres"
+    },
+    {
+      "q": "What color are intermediate tyres?",
+      "a": "Green sidewall",
+      "angle": "tyres"
+    },
+    {
+      "q": "What color are full wet tyres?",
+      "a": "Blue sidewall",
+      "angle": "tyres"
+    },
+    {
+      "q": "What protects the driver above the cockpit?",
+      "a": "The halo",
+      "angle": "safety"
+    },
+    {
+      "q": "What is the warm-up lap before lights out?",
+      "a": "The formation lap",
+      "angle": "start"
+    },
+    {
+      "q": "What phrase describes the race start?",
+      "a": "Lights out and away we go",
+      "angle": "start"
+    },
+    {
+      "q": "What is a pit stop mainly for?",
+      "a": "Changing tyres",
+      "angle": "operations"
+    },
+    {
+      "q": "What is the pit lane speed limit during races (typical)?",
+      "a": "About 80 km/h (track dependent)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is pole position?",
+      "a": "Fastest qualifier starting first",
+      "angle": "qualifying"
+    },
+    {
+      "q": "What is a podium finish?",
+      "a": "Finishing in the top three",
+      "angle": "results"
+    },
+    {
+      "q": "How many finishers score points?",
+      "a": "Top 10 finishers",
+      "angle": "points"
+    },
+    {
+      "q": "What is a Safety Car period?",
+      "a": "Neutralized race behind the safety car",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a Virtual Safety Car?",
+      "a": "Neutralized race with set delta time",
+      "angle": "rules"
+    },
+    {
+      "q": "What is parc fermé?",
+      "a": "Locked conditions for cars after qualifying",
+      "angle": "rules"
+    },
+    {
+      "q": "What does FIA stand for?",
+      "a": "Fédération Internationale de l’Automobile",
+      "angle": "governance"
+    },
+    {
+      "q": "What is the name of F1’s tyre supplier (2020s)?",
+      "a": "Pirelli",
+      "angle": "tyres"
+    },
+    {
+      "q": "What circuit hosts the Monaco GP?",
+      "a": "Monte Carlo street circuit",
+      "angle": "circuits"
+    },
+    {
+      "q": "Where is the Italian GP held?",
+      "a": "Monza",
+      "angle": "circuits"
+    },
+    {
+      "q": "Where is the British GP held?",
+      "a": "Silverstone",
+      "angle": "circuits"
+    },
+    {
+      "q": "Where is the Belgian GP held?",
+      "a": "Spa-Francorchamps",
+      "angle": "circuits"
+    },
+    {
+      "q": "Which GP is a night street race in Asia?",
+      "a": "Singapore Grand Prix",
+      "angle": "circuits"
+    },
+    {
+      "q": "Which GP often opens the season in the Middle East?",
+      "a": "Bahrain Grand Prix",
+      "angle": "circuits"
+    },
+    {
+      "q": "Which GP often ends the season in the UAE?",
+      "a": "Abu Dhabi Grand Prix at Yas Marina",
+      "angle": "circuits"
+    },
+    {
+      "q": "What team base is in Milton Keynes, UK?",
+      "a": "Red Bull Racing",
+      "angle": "teams"
+    },
+    {
+      "q": "What team base is in Woking, UK?",
+      "a": "McLaren",
+      "angle": "teams"
+    },
+    {
+      "q": "What device allows drag cut on straights?",
+      "a": "DRS flap on the rear wing",
+      "angle": "tech"
+    },
+    {
+      "q": "How many dry tyre compounds must be used in a dry race?",
+      "a": "At least two different dry compounds",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the age minimum for F1 drivers?",
+      "a": "18 years old",
+      "angle": "rules"
+    },
+    {
+      "q": "What championship do teams fight for?",
+      "a": "Constructors’ Championship",
+      "angle": "championships"
+    },
+    {
+      "q": "What championship do drivers fight for?",
+      "a": "Drivers’ Championship",
+      "angle": "championships"
+    },
+    {
+      "q": "What is the area with team motorhomes called?",
+      "a": "The paddock",
+      "angle": "venues"
+    },
+    {
+      "q": "What is the team command area on pit straight called?",
+      "a": "The pit wall",
+      "angle": "operations"
+    },
+    {
+      "q": "Who is the Spanish two-time champion on the current grid?",
+      "a": "Fernando Alonso",
+      "angle": "drivers"
+    },
+    {
+      "q": "Who is the Dutch multi-time champion since 2021?",
+      "a": "Max Verstappen",
+      "angle": "drivers"
+    },
+    {
+      "q": "Who is the British seven-time champion?",
+      "a": "Lewis Hamilton",
+      "angle": "drivers"
+    },
+    {
+      "q": "What is the Italian team with prancing horse logo?",
+      "a": "Ferrari",
+      "angle": "teams"
+    },
+    {
+      "q": "What is a grid penalty?",
+      "a": "Dropping starting positions for infractions or new parts",
+      "angle": "rules"
+    },
+    {
+      "q": "What do drivers wear for fire protection?",
+      "a": "Nomex fireproof race suit, gloves, balaclava",
+      "angle": "safety"
+    },
+    {
+      "q": "What is the stopwatch session before qualifying called?",
+      "a": "Free Practice (FP1/FP2/FP3)",
+      "angle": "sessions"
+    },
+    {
+      "q": "What does “Scuderia” mean in Ferrari’s name?",
+      "a": "Stable/team (racing team) in Italian",
+      "angle": "teams"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who holds seven world titles alongside Schumacher?",
+      "a": "Lewis Hamilton",
+      "angle": "records"
+    },
+    {
+      "q": "Who won four straight titles from 2010-2013?",
+      "a": "Sebastian Vettel",
+      "angle": "records"
+    },
+    {
+      "q": "Who won the 2021 Drivers’ Championship?",
+      "a": "Max Verstappen",
+      "angle": "recent"
+    },
+    {
+      "q": "Who won the 2016 Drivers’ Championship?",
+      "a": "Nico Rosberg",
+      "angle": "recent"
+    },
+    {
+      "q": "Who won the 2009 title with Brawn GP?",
+      "a": "Jenson Button",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the Ferrari champion in 2007?",
+      "a": "Kimi Räikkönen",
+      "angle": "history"
+    },
+    {
+      "q": "What engine era began in 2014?",
+      "a": "1.6L V6 turbo-hybrid era",
+      "angle": "tech"
+    },
+    {
+      "q": "What era banned refuelling during races?",
+      "a": "Since 2010 races have no refuelling",
+      "angle": "rules"
+    },
+    {
+      "q": "What rule requires a lap within a time to qualify for race?",
+      "a": "107% rule",
+      "angle": "rules"
+    },
+    {
+      "q": "How many Power Unit component types are limited?",
+      "a": "Six (ICE, Turbo, MGU-H, MGU-K, Energy Store, Control Electronics)",
+      "angle": "tech"
+    },
+    {
+      "q": "How many dry tyre compounds are nominated per weekend?",
+      "a": "Three (C1-C5 range, marked soft/medium/hard)",
+      "angle": "tyres"
+    },
+    {
+      "q": "What is a budget cap?",
+      "a": "Spending limit for teams (introduced 2021)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a sprint race weekend?",
+      "a": "Shorter Saturday race with separate qualifying, extra points",
+      "angle": "format"
+    },
+    {
+      "q": "What is Monza nicknamed?",
+      "a": "The Temple of Speed",
+      "angle": "circuits"
+    },
+    {
+      "q": "What famous uphill corner is at Spa?",
+      "a": "Eau Rouge/Raidillon",
+      "angle": "circuits"
+    },
+    {
+      "q": "What famous complex is at Silverstone?",
+      "a": "Maggots-Becketts-Chapel",
+      "angle": "circuits"
+    },
+    {
+      "q": "What chicane is famous in Montreal?",
+      "a": "Wall of Champions chicane",
+      "angle": "circuits"
+    },
+    {
+      "q": "What first corner is at Interlagos?",
+      "a": "The Senna S",
+      "angle": "circuits"
+    },
+    {
+      "q": "Which corner features banking at Zandvoort?",
+      "a": "Turn 14 Arie Luyendyk banking",
+      "angle": "circuits"
+    },
+    {
+      "q": "What is parc fermé primarily for?",
+      "a": "Preventing major setup changes between qualifying and race",
+      "angle": "rules"
+    },
+    {
+      "q": "Who is Red Bull Racing’s long-time team principal?",
+      "a": "Christian Horner",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is Mercedes’ team principal?",
+      "a": "Toto Wolff",
+      "angle": "teams"
+    },
+    {
+      "q": "Where is Ferrari based?",
+      "a": "Maranello, Italy",
+      "angle": "teams"
+    },
+    {
+      "q": "Where is Williams based?",
+      "a": "Grove, UK",
+      "angle": "teams"
+    },
+    {
+      "q": "Where is Aston Martin F1 based?",
+      "a": "Silverstone, UK",
+      "angle": "teams"
+    },
+    {
+      "q": "Where is Alpine (Enstone) based?",
+      "a": "Enstone, UK",
+      "angle": "teams"
+    },
+    {
+      "q": "What is the FIA fuel-flow limit in races?",
+      "a": "100 kg/hour (hybrid era rule)",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the fuel mass limit at race start (since 2019)?",
+      "a": "Up to 110 kg (varies with regs)",
+      "angle": "rules"
+    },
+    {
+      "q": "What does MGU-K do?",
+      "a": "Recovers and deploys kinetic energy",
+      "angle": "tech"
+    },
+    {
+      "q": "What does MGU-H do?",
+      "a": "Recovers energy from turbo exhaust heat",
+      "angle": "tech"
+    },
+    {
+      "q": "How many gear ratios do current F1 cars have?",
+      "a": "8 forward gears plus reverse",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the minimum car+driver weight (2024)?",
+      "a": "Around 798 kg (regulation minimum)",
+      "angle": "regs"
+    },
+    {
+      "q": "How is grid order decided after qualifying?",
+      "a": "By fastest times through Q1/Q2/Q3 elimination",
+      "angle": "qualifying"
+    },
+    {
+      "q": "How many drivers advance to Q3?",
+      "a": "Top 10 from Q2",
+      "angle": "qualifying"
+    },
+    {
+      "q": "What is a drive-through penalty?",
+      "a": "Must drive through pit lane without stopping",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a stop-go penalty?",
+      "a": "Stop in pit box for set time with no work (rare now)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the drag reduction system activation rule?",
+      "a": "Within 1 second of car ahead at detection point and enabled after lap 2",
+      "angle": "rules"
+    },
+    {
+      "q": "What year reintroduced ground-effect style floors?",
+      "a": "2022 regulations",
+      "angle": "tech"
+    },
+    {
+      "q": "What diameter wheels were introduced in 2022?",
+      "a": "18-inch rims",
+      "angle": "tech"
+    },
+    {
+      "q": "Who supplies F1 Safety Cars (2020s)?",
+      "a": "Mercedes-AMG and Aston Martin",
+      "angle": "ops"
+    },
+    {
+      "q": "What is the “plank” under an F1 car?",
+      "a": "Skid block to control ride height/wear",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the sliding scale ATR?",
+      "a": "Aerodynamic Testing Restrictions based on championship position",
+      "angle": "rules"
+    },
+    {
+      "q": "How many sprint points does the winner get (2024 format)?",
+      "a": "8 points",
+      "angle": "points"
+    },
+    {
+      "q": "What is a DNS classification?",
+      "a": "Did Not Start",
+      "angle": "results"
+    },
+    {
+      "q": "What is a DNF classification?",
+      "a": "Did Not Finish",
+      "angle": "results"
+    },
+    {
+      "q": "What is the maximum race time limit including suspensions?",
+      "a": "3 hours overall (2-hour racing time limit)",
+      "angle": "rules"
+    },
+    {
+      "q": "What tyre rule applies in a wet started race?",
+      "a": "Use any wet tyre; two-compound rule waived",
+      "angle": "rules"
+    },
+    {
+      "q": "What is parc fermé weight check for?",
+      "a": "To ensure cars meet minimum weight and legality",
+      "angle": "scrutineering"
+    },
+    {
+      "q": "Who is the FIA race director role?",
+      "a": "Leads race control and safety decisions",
+      "angle": "ops"
+    },
+    {
+      "q": "What is double-stacking in pits?",
+      "a": "Both team cars pitting sequentially in same lap",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is undercut strategy?",
+      "a": "Pitting early to gain time on fresh tyres and jump a rival",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is overcut strategy?",
+      "a": "Staying out longer to gain track position while rival pits",
+      "angle": "strategy"
+    },
+    {
+      "q": "What does FIA super licence require?",
+      "a": "40 points in junior series and age/knowledge tests",
+      "angle": "licensing"
+    },
+    {
+      "q": "Who founded the McLaren racing team?",
+      "a": "Bruce McLaren",
+      "angle": "history"
+    },
+    {
+      "q": "What year introduced the V6 turbo-hybrid power units?",
+      "a": "2014",
+      "angle": "tech"
+    }
+  ],
+  "hard": [
+    {
+      "q": "How many world titles do Schumacher and Hamilton share as the record?",
+      "a": "Seven each",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the most F1 race wins?",
+      "a": "Lewis Hamilton (100+ wins)",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the most F1 pole positions?",
+      "a": "Lewis Hamilton (100+ poles)",
+      "angle": "records"
+    },
+    {
+      "q": "Who won five titles in the 1950s?",
+      "a": "Juan Manuel Fangio",
+      "angle": "history"
+    },
+    {
+      "q": "Who set the highest average qualifying speed lap at Monza 2020?",
+      "a": "Lewis Hamilton (over 264 km/h)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the longest circuit on the calendar?",
+      "a": "Spa-Francorchamps (7.004 km)",
+      "angle": "circuits"
+    },
+    {
+      "q": "What is the shortest circuit on the calendar?",
+      "a": "Monaco (~3.337 km)",
+      "angle": "circuits"
+    },
+    {
+      "q": "What is the highest-altitude circuit?",
+      "a": "Mexico City (Autódromo Hermanos Rodríguez ~2,200 m)",
+      "angle": "circuits"
+    },
+    {
+      "q": "Who was the first F1 world champion?",
+      "a": "Giuseppe Farina (1950)",
+      "angle": "history"
+    },
+    {
+      "q": "What year did the F1 World Championship start?",
+      "a": "1950",
+      "angle": "history"
+    },
+    {
+      "q": "Who has the most Constructors’ titles?",
+      "a": "Ferrari (16)",
+      "angle": "records"
+    },
+    {
+      "q": "Who set the record for most wins in a season (2023)?",
+      "a": "Max Verstappen (19 wins)",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the youngest race winner?",
+      "a": "Max Verstappen (Spain 2016)",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the youngest pole-sitter?",
+      "a": "Sebastian Vettel (Monza 2008)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the rev limit of current F1 engines?",
+      "a": "15,000 rpm",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the maximum MGU-K deployment power?",
+      "a": "120 kW (≈160 hp)",
+      "angle": "tech"
+    },
+    {
+      "q": "How much energy may the MGU-K deploy per lap from the ES?",
+      "a": "4 MJ per lap",
+      "angle": "tech"
+    },
+    {
+      "q": "How much energy may the MGU-K harvest per lap?",
+      "a": "Up to 2 MJ from braking",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the fuel mass flow limit?",
+      "a": "100 kg/h at full throttle (hybrid era rule)",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the typical fuel mass limit at start?",
+      "a": "Up to 110 kg (recent seasons)",
+      "angle": "tech"
+    },
+    {
+      "q": "When was active suspension banned?",
+      "a": "1994 season",
+      "angle": "history"
+    },
+    {
+      "q": "When were ground-effect floors first banned before returning?",
+      "a": "Banned after 1982/1983, returned 2022",
+      "angle": "history"
+    },
+    {
+      "q": "What controversy involved double diffusers?",
+      "a": "2009 double-diffuser loophole (Brawn/Toyota/Williams)",
+      "angle": "history"
+    },
+    {
+      "q": "Which race had only six starters due to tyres?",
+      "a": "2005 United States Grand Prix",
+      "angle": "history"
+    },
+    {
+      "q": "Which tragic weekend at Imola prompted major safety changes?",
+      "a": "1994 San Marino GP (Ratzenberger and Senna deaths)",
+      "angle": "history"
+    },
+    {
+      "q": "Which crash in 1976 led to safety push and Lauda comeback?",
+      "a": "Niki Lauda’s Nürburgring Nordschleife crash",
+      "angle": "history"
+    },
+    {
+      "q": "What material are F1 monocoques made of?",
+      "a": "Carbon fibre composites",
+      "angle": "tech"
+    },
+    {
+      "q": "What device prevents wheel detachment in crashes?",
+      "a": "Wheel tethers",
+      "angle": "safety"
+    },
+    {
+      "q": "What is brake-by-wire used for?",
+      "a": "Electronic control of rear brakes to balance ERS",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the purpose of the skid block (plank)?",
+      "a": "Ensure minimum ride height and control floor wear",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the average minimum pit stop time loss at racing speed?",
+      "a": "Around 20-25 seconds (track dependent)",
+      "angle": "strategy"
+    },
+    {
+      "q": "What race awarded double points once?",
+      "a": "2014 Abu Dhabi Grand Prix",
+      "angle": "history"
+    },
+    {
+      "q": "Who holds the record for most consecutive podiums?",
+      "a": "Michael Schumacher (2001-2002, 19) / Lewis Hamilton matched 16; record 19 by Schu",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the record for most consecutive wins?",
+      "a": "Max Verstappen (10 in 2023)",
+      "angle": "records"
+    },
+    {
+      "q": "Which team has competed in F1 since 1950 continuously?",
+      "a": "Ferrari",
+      "angle": "records"
+    },
+    {
+      "q": "What safety system supports the driver’s head/neck?",
+      "a": "HANS device",
+      "angle": "safety"
+    },
+    {
+      "q": "What is the time delta reduction under VSC?",
+      "a": "About 30-40% slower; drivers follow a set delta",
+      "angle": "rules"
+    },
+    {
+      "q": "When is DRS disabled?",
+      "a": "During yellow flags, under Safety Car/VSC, and first two laps after start/restart",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the minimum weight for a driver plus seat?",
+      "a": "80 kg with ballast if under (recent rule)",
+      "angle": "regs"
+    },
+    {
+      "q": "Who was the first woman to score F1 points?",
+      "a": "Lella Lombardi (0.5 pt, 1975 Spanish GP)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the first black driver in F1?",
+      "a": "Willy T. Ribbs tested; first Black race winner is Lewis Hamilton",
+      "angle": "history"
+    },
+    {
+      "q": "What was the first turbocharged F1 win?",
+      "a": "Renault at 1979 French GP",
+      "angle": "history"
+    },
+    {
+      "q": "What is the legal maximum car width (2024)?",
+      "a": "2000 mm",
+      "angle": "regs"
+    },
+    {
+      "q": "What is the length of a standard F1 race distance?",
+      "a": "305 km minimum (except Monaco ~260 km)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the minimum number of laps to award full points (post-2022)?",
+      "a": "At least 75% distance; scaled points for shorter distances",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the maximum pit crew allowed for tyre change?",
+      "a": "No set max, typically ~20 crew; efficiency governs",
+      "angle": "ops"
+    },
+    {
+      "q": "Which country hosts the Suzuka circuit?",
+      "a": "Japan",
+      "angle": "circuits"
+    },
+    {
+      "q": "Which circuit features the banking at Jeddah Corniche?",
+      "a": "Jeddah Corniche Circuit (high-speed street)",
+      "angle": "circuits"
+    },
+    {
+      "q": "Who supplies standard ECUs to F1?",
+      "a": "McLaren Applied",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the FIA super licence points requirement?",
+      "a": "40 points over 3 years plus tests",
+      "angle": "licensing"
+    },
+    {
+      "q": "What is the ATR baseline percentage for the last-place team?",
+      "a": "115% wind tunnel/CFD allowance (sliding scale)",
+      "angle": "rules"
+    },
+    {
+      "q": "What must teams do if a car is lapped during VSC/SC unlapping?",
+      "a": "May overtake to unlap when race control allows",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a power unit component replacement without penalty under parc fermé?",
+      "a": "Like-for-like swaps allowed if identical spec with approval",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the function of the T-bar camera mount?",
+      "a": "Houses onboard camera above airbox for broadcast",
+      "angle": "tech"
+    },
+    {
+      "q": "How many laps is the Monaco Grand Prix?",
+      "a": "78 laps (shorter total distance exception)",
+      "angle": "circuits"
+    }
+  ]
+}

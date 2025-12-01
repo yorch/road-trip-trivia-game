@@ -99,6 +99,156 @@
       "q": "Which branch makes federal laws?",
       "a": "Congress (Legislative branch)",
       "angle": "civics"
+    },
+    {
+      "q": "Who was the first President of the United States?",
+      "a": "George Washington",
+      "angle": "presidents"
+    },
+    {
+      "q": "What year did the United States declare independence?",
+      "a": "1776",
+      "angle": "dates"
+    },
+    {
+      "q": "What document begins with \"We the People\"?",
+      "a": "The U.S. Constitution",
+      "angle": "documents"
+    },
+    {
+      "q": "Who wrote the Declaration of Independence?",
+      "a": "Thomas Jefferson (principal author)",
+      "angle": "founders"
+    },
+    {
+      "q": "What war was fought between the North and South states?",
+      "a": "The American Civil War",
+      "angle": "wars"
+    },
+    {
+      "q": "Who freed the slaves with the Emancipation Proclamation?",
+      "a": "Abraham Lincoln",
+      "angle": "presidents"
+    },
+    {
+      "q": "What is the U.S. national anthem?",
+      "a": "The Star-Spangled Banner",
+      "angle": "culture"
+    },
+    {
+      "q": "What city is the U.S. capital?",
+      "a": "Washington, D.C.",
+      "angle": "locations"
+    },
+    {
+      "q": "What ship carried the Pilgrims?",
+      "a": "The Mayflower",
+      "angle": "colonial"
+    },
+    {
+      "q": "Who was the primary commander of the Continental Army?",
+      "a": "George Washington",
+      "angle": "revolution"
+    },
+    {
+      "q": "What purchase doubled the size of the U.S. in 1803?",
+      "a": "The Louisiana Purchase",
+      "angle": "expansion"
+    },
+    {
+      "q": "What holiday celebrates U.S. independence?",
+      "a": "Fourth of July",
+      "angle": "culture"
+    },
+    {
+      "q": "Who invented the light bulb commercially?",
+      "a": "Thomas Edison",
+      "angle": "industry"
+    },
+    {
+      "q": "What is the highest court in the U.S.?",
+      "a": "The Supreme Court",
+      "angle": "government"
+    },
+    {
+      "q": "Who was known for the New Deal?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "presidents"
+    },
+    {
+      "q": "Who was president during World War II (majority)?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "presidents"
+    },
+    {
+      "q": "What event started the Great Depression?",
+      "a": "Stock Market Crash of 1929",
+      "angle": "economy"
+    },
+    {
+      "q": "Who gave the \"I Have a Dream\" speech?",
+      "a": "Martin Luther King Jr.",
+      "angle": "civil-rights"
+    },
+    {
+      "q": "What movement ended legal segregation?",
+      "a": "The Civil Rights Movement",
+      "angle": "civil-rights"
+    },
+    {
+      "q": "What was the first successful English colony?",
+      "a": "Jamestown, 1607",
+      "angle": "colonial"
+    },
+    {
+      "q": "Who was the first woman on the Supreme Court?",
+      "a": "Sandra Day O'Connor",
+      "angle": "government"
+    },
+    {
+      "q": "Which state is known as the Golden State?",
+      "a": "California",
+      "angle": "states"
+    },
+    {
+      "q": "Who was the first African American president?",
+      "a": "Barack Obama",
+      "angle": "presidents"
+    },
+    {
+      "q": "What war involved 1950-1953 on the Korean Peninsula?",
+      "a": "The Korean War",
+      "angle": "wars"
+    },
+    {
+      "q": "Who said \"Ask not what your country can do for you\"?",
+      "a": "John F. Kennedy",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who was the third President of the U.S.?",
+      "a": "Thomas Jefferson",
+      "angle": "presidents"
+    },
+    {
+      "q": "What document lists the first ten amendments?",
+      "a": "The Bill of Rights",
+      "angle": "documents"
+    },
+    {
+      "q": "Who delivered the Gettysburg Address?",
+      "a": "Abraham Lincoln",
+      "angle": "speeches"
+    },
+    {
+      "q": "What is the U.S. national bird?",
+      "a": "Bald Eagle",
+      "angle": "symbols"
+    },
+    {
+      "q": "What harbor attack brought the U.S. into WWII?",
+      "a": "Pearl Harbor",
+      "angle": "ww2"
     }
   ],
   "medium": [
@@ -236,6 +386,131 @@
       "q": "What court case established judicial review?",
       "a": "Marbury v. Madison (1803)",
       "angle": "law"
+    },
+    {
+      "q": "What territory deal was called the Alaska Purchase?",
+      "a": "U.S. bought Alaska from Russia in 1867",
+      "angle": "expansion"
+    },
+    {
+      "q": "Who authored the Bill of Rights?",
+      "a": "James Madison",
+      "angle": "documents"
+    },
+    {
+      "q": "What doctrine warned Europe against colonizing the Americas?",
+      "a": "Monroe Doctrine",
+      "angle": "foreign-policy"
+    },
+    {
+      "q": "What was the trail moving Native Americans west in the 1830s?",
+      "a": "The Trail of Tears",
+      "angle": "events"
+    },
+    {
+      "q": "Who led the Underground Railroad?",
+      "a": "Harriet Tubman (conductor)",
+      "angle": "civil-rights"
+    },
+    {
+      "q": "What 1898 war involved Cuba and the Philippines?",
+      "a": "Spanish-American War",
+      "angle": "wars"
+    },
+    {
+      "q": "What canal connects Atlantic and Pacific built under U.S. direction?",
+      "a": "Panama Canal",
+      "angle": "infrastructure"
+    },
+    {
+      "q": "What scandal caused Nixon to resign?",
+      "a": "Watergate",
+      "angle": "politics"
+    },
+    {
+      "q": "Who wrote Common Sense pamphlet?",
+      "a": "Thomas Paine",
+      "angle": "revolution"
+    },
+    {
+      "q": "What act gave free land to settlers in 1862?",
+      "a": "The Homestead Act",
+      "angle": "laws"
+    },
+    {
+      "q": "What battle is turning point of Revolutionary War?",
+      "a": "Battle of Saratoga",
+      "angle": "revolution"
+    },
+    {
+      "q": "What was the bloodiest single day battle in Civil War?",
+      "a": "Battle of Antietam",
+      "angle": "civil-war"
+    },
+    {
+      "q": "Who was Union general that led the March to the Sea?",
+      "a": "William Tecumseh Sherman",
+      "angle": "civil-war"
+    },
+    {
+      "q": "What 19th amendment granted?",
+      "a": "Women's suffrage (right to vote)",
+      "angle": "amendments"
+    },
+    {
+      "q": "What program created Social Security?",
+      "a": "New Deal (Social Security Act 1935)",
+      "angle": "policy"
+    },
+    {
+      "q": "What event attacked naval base in 1941?",
+      "a": "Attack on Pearl Harbor",
+      "angle": "ww2"
+    },
+    {
+      "q": "What project built the atomic bomb?",
+      "a": "The Manhattan Project",
+      "angle": "ww2"
+    },
+    {
+      "q": "Who were the first astronauts to walk on the Moon?",
+      "a": "Neil Armstrong and Buzz Aldrin",
+      "angle": "space"
+    },
+    {
+      "q": "What case ended school segregation?",
+      "a": "Brown v. Board of Education (1954)",
+      "angle": "supreme-court"
+    },
+    {
+      "q": "Who was president during the Louisiana Purchase?",
+      "a": "Thomas Jefferson",
+      "angle": "presidents"
+    },
+    {
+      "q": "What 2001 event led to War on Terror?",
+      "a": "September 11 attacks",
+      "angle": "modern"
+    },
+    {
+      "q": "What policy provided economic aid to rebuild Europe after WWII?",
+      "a": "Marshall Plan",
+      "angle": "foreign-policy"
+    },
+    {
+      "q": "Who was the main author of the Federalist Papers with Hamilton and Madison?",
+      "a": "John Jay (with Hamilton and Madison)",
+      "angle": "documents"
+    },
+    {
+      "q": "What strike and massacre occurred in 1886 in Chicago?",
+      "a": "Haymarket affair",
+      "angle": "labor"
+    },
+    {
+      "q": "Who broke baseball's color barrier in MLB?",
+      "a": "Jackie Robinson (1947)",
+      "angle": "sports"
     }
   ],
   "hard": [
@@ -378,6 +653,131 @@
       "q": "What was the Iran-Contra affair?",
       "a": "Secret arms sales and funding to Contras in 1980s",
       "angle": "scandal"
+    },
+    {
+      "q": "What year did the U.S. enter World War I?",
+      "a": "1917",
+      "angle": "wars"
+    },
+    {
+      "q": "Which compromise counted enslaved people as three-fifths for representation?",
+      "a": "Three-Fifths Compromise",
+      "angle": "constitution"
+    },
+    {
+      "q": "Who was the Chief Justice in Marbury v. Madison?",
+      "a": "John Marshall",
+      "angle": "supreme-court"
+    },
+    {
+      "q": "What rebellion tested the new Constitution in 1794?",
+      "a": "Whiskey Rebellion",
+      "angle": "early-republic"
+    },
+    {
+      "q": "What treaty ended the Revolutionary War?",
+      "a": "Treaty of Paris 1783",
+      "angle": "diplomacy"
+    },
+    {
+      "q": "Who was the only president to serve non-consecutive terms?",
+      "a": "Grover Cleveland",
+      "angle": "presidents"
+    },
+    {
+      "q": "What case established \"separate but equal\"?",
+      "a": "Plessy v. Ferguson (1896)",
+      "angle": "supreme-court"
+    },
+    {
+      "q": "What act restricted Chinese immigration in 1882?",
+      "a": "Chinese Exclusion Act",
+      "angle": "immigration"
+    },
+    {
+      "q": "Who authored \"The Jungle\" exposing meatpacking?",
+      "a": "Upton Sinclair",
+      "angle": "muckraker"
+    },
+    {
+      "q": "What 1890 massacre ended the Indian Wars?",
+      "a": "Wounded Knee Massacre",
+      "angle": "native-history"
+    },
+    {
+      "q": "What plan was proposed to reduce German reparations after WWI?",
+      "a": "Dawes Plan (1924)",
+      "angle": "foreign-policy"
+    },
+    {
+      "q": "What legislation is known as Prohibition?",
+      "a": "18th Amendment and Volstead Act",
+      "angle": "laws"
+    },
+    {
+      "q": "Who were the Freedom Riders?",
+      "a": "Civil rights activists riding buses to desegregate interstate travel",
+      "angle": "civil-rights"
+    },
+    {
+      "q": "What Supreme Court case allowed judicial review?",
+      "a": "Marbury v. Madison",
+      "angle": "supreme-court"
+    },
+    {
+      "q": "What was the codename for D-Day invasion?",
+      "a": "Operation Overlord",
+      "angle": "ww2"
+    },
+    {
+      "q": "Who was the first Secretary of the Treasury?",
+      "a": "Alexander Hamilton",
+      "angle": "cabinet"
+    },
+    {
+      "q": "What program provided GI education benefits post-WWII?",
+      "a": "GI Bill (Servicemen's Readjustment Act)",
+      "angle": "policy"
+    },
+    {
+      "q": "What crisis involved Soviet missiles in Cuba?",
+      "a": "Cuban Missile Crisis (1962)",
+      "angle": "cold-war"
+    },
+    {
+      "q": "What was the name of the first permanent English settlement?",
+      "a": "Jamestown, Virginia",
+      "angle": "colonial"
+    },
+    {
+      "q": "Who was the abolitionist who raided Harpers Ferry?",
+      "a": "John Brown",
+      "angle": "civil-war"
+    },
+    {
+      "q": "What court case ordered Nixon to hand over tapes?",
+      "a": "United States v. Nixon (1974)",
+      "angle": "supreme-court"
+    },
+    {
+      "q": "Which act outlawed discrimination in 1964?",
+      "a": "Civil Rights Act of 1964",
+      "angle": "civil-rights"
+    },
+    {
+      "q": "What movement protested the Vietnam War and supported free speech in Berkeley?",
+      "a": "Free Speech Movement",
+      "angle": "modern"
+    },
+    {
+      "q": "Who was president during the Iran hostage crisis?",
+      "a": "Jimmy Carter",
+      "angle": "presidents"
+    },
+    {
+      "q": "What agreement ceded vast southwestern lands after Mexican-American War?",
+      "a": "Treaty of Guadalupe Hidalgo (1848)",
+      "angle": "diplomacy"
     }
   ]
 }

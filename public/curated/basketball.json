@@ -49,6 +49,206 @@
       "q": "How many points is a shot from behind the arc?",
       "a": "3 points",
       "angle": "rule"
+    },
+    {
+      "q": "How many halves are in college basketball?",
+      "a": "Two 20-minute halves",
+      "angle": "rule"
+    },
+    {
+      "q": "What surface is a basketball court usually made of indoors?",
+      "a": "Hardwood",
+      "angle": "equipment"
+    },
+    {
+      "q": "What is it called when you grab the ball after a missed shot?",
+      "a": "A rebound",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What is the penalty shot taken after certain fouls?",
+      "a": "A free throw",
+      "angle": "rule"
+    },
+    {
+      "q": "What line marks long-range shots in the NBA?",
+      "a": "The three-point line",
+      "angle": "rule"
+    },
+    {
+      "q": "How many personal fouls disqualify an NBA player?",
+      "a": "Six fouls",
+      "angle": "rule"
+    },
+    {
+      "q": "What is dribbling?",
+      "a": "Bouncing the ball while moving",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What team plays at Madison Square Garden?",
+      "a": "New York Knicks",
+      "angle": "teams"
+    },
+    {
+      "q": "What is the semicircle under the basket called?",
+      "a": "The restricted area",
+      "angle": "rule"
+    },
+    {
+      "q": "What position is often the tallest on the team?",
+      "a": "Center",
+      "angle": "positions"
+    },
+    {
+      "q": "What is a pass that leads directly to a made basket called?",
+      "a": "An assist",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What is it called when a defender blocks a shot on its way down?",
+      "a": "Goaltending",
+      "angle": "rule"
+    },
+    {
+      "q": "How long are NBA overtimes?",
+      "a": "5 minutes",
+      "angle": "rule"
+    },
+    {
+      "q": "What is a steal?",
+      "a": "Taking the ball away from the offense",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What team is known as the 'Splash Brothers' duo's team?",
+      "a": "Golden State Warriors",
+      "angle": "teams"
+    },
+    {
+      "q": "What is the nickname for the San Antonio Spurs' Big Three era?",
+      "a": "Duncan, Parker, Ginóbili",
+      "angle": "dynasties"
+    },
+    {
+      "q": "What is a layup?",
+      "a": "A close shot off the backboard",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "How many points is a shot inside the arc worth?",
+      "a": "2 points",
+      "angle": "rule"
+    },
+    {
+      "q": "Who invented basketball in 1891?",
+      "a": "James Naismith",
+      "angle": "history"
+    },
+    {
+      "q": "What orange ball is used to play the game?",
+      "a": "A basketball",
+      "angle": "equipment"
+    },
+    {
+      "q": "How many points is a slam dunk worth?",
+      "a": "Two points",
+      "angle": "rule"
+    },
+    {
+      "q": "What is the diameter of a basketball hoop?",
+      "a": "18 inches (46 cm)",
+      "angle": "equipment"
+    },
+    {
+      "q": "How many personal fouls before disqualification in NCAA?",
+      "a": "Five fouls (men/women NCAA)",
+      "angle": "rule"
+    },
+    {
+      "q": "How long is an NBA quarter?",
+      "a": "12 minutes",
+      "angle": "rule"
+    },
+    {
+      "q": "What is the half-court line called?",
+      "a": "Midcourt or center line",
+      "angle": "court"
+    },
+    {
+      "q": "What is it called when you bounce the ball?",
+      "a": "Dribbling",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "How many free throws after a shooting foul on a two-point attempt?",
+      "a": "Two free throws",
+      "angle": "rule"
+    },
+    {
+      "q": "How many free throws after a made basket plus a foul?",
+      "a": "One free throw (and-one)",
+      "angle": "rule"
+    },
+    {
+      "q": "What is a pass around the defender called?",
+      "a": "Bounce pass",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What is the painted area near the basket called?",
+      "a": "The key or paint",
+      "angle": "court"
+    },
+    {
+      "q": "What is a rebound grabbed after opponent miss?",
+      "a": "Defensive rebound",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "What is the line for three-point shots called?",
+      "a": "The three-point arc",
+      "angle": "court"
+    },
+    {
+      "q": "How many points is a basket from half-court?",
+      "a": "Three points (beyond the arc)",
+      "angle": "rule"
+    },
+    {
+      "q": "What is it called when you move feet without dribbling?",
+      "a": "Traveling",
+      "angle": "rule"
+    },
+    {
+      "q": "What violation is double dribble?",
+      "a": "Stopping dribble then dribbling again or two-handed dribble",
+      "angle": "rule"
+    },
+    {
+      "q": "What is an assist?",
+      "a": "A pass leading directly to a made basket",
+      "angle": "fundamentals"
+    },
+    {
+      "q": "Who tosses the jump ball at game start?",
+      "a": "The referee",
+      "angle": "rule"
+    },
+    {
+      "q": "What is the rectangular board behind the hoop?",
+      "a": "The backboard",
+      "angle": "equipment"
+    },
+    {
+      "q": "What is the distance of the NBA free-throw line?",
+      "a": "15 feet from the backboard",
+      "angle": "court"
+    },
+    {
+      "q": "What is the time to cross half-court in NBA?",
+      "a": "8 seconds",
+      "angle": "rule"
     }
   ],
   "medium": [
@@ -101,6 +301,206 @@
       "q": "What team is in Los Angeles with purple and gold?",
       "a": "Los Angeles Lakers",
       "angle": "dynasties"
+    },
+    {
+      "q": "Who was nicknamed 'The Big Fundamental'?",
+      "a": "Tim Duncan",
+      "angle": "legends"
+    },
+    {
+      "q": "Who is called the 'Logo' of the NBA silhouette?",
+      "a": "Jerry West",
+      "angle": "history"
+    },
+    {
+      "q": "Who coached the Chicago Bulls to six titles?",
+      "a": "Phil Jackson",
+      "angle": "dynasties"
+    },
+    {
+      "q": "What trophy is given to NBA champions?",
+      "a": "Larry O'Brien Championship Trophy",
+      "angle": "championship"
+    },
+    {
+      "q": "Which player was known as 'The Answer'?",
+      "a": "Allen Iverson",
+      "angle": "legends"
+    },
+    {
+      "q": "How many seconds can an offensive player stay in the paint in the NBA?",
+      "a": "Three seconds",
+      "angle": "rule"
+    },
+    {
+      "q": "Who was the first unanimous NBA MVP?",
+      "a": "Stephen Curry (2016)",
+      "angle": "awards"
+    },
+    {
+      "q": "What college did Michael Jordan play for?",
+      "a": "University of North Carolina",
+      "angle": "history"
+    },
+    {
+      "q": "What is a pick-and-roll?",
+      "a": "Offensive play using a screen then roll to the basket",
+      "angle": "tactics"
+    },
+    {
+      "q": "Which franchise drafted Kobe Bryant before he was traded to the Lakers?",
+      "a": "Charlotte Hornets (1996 draft)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was nicknamed 'Diesel' and 'Superman'?",
+      "a": "Shaquille O'Neal",
+      "angle": "legends"
+    },
+    {
+      "q": "Which team went 72-10 in the 1995-96 season?",
+      "a": "Chicago Bulls",
+      "angle": "record"
+    },
+    {
+      "q": "What is a flagrant foul?",
+      "a": "Excessive or unnecessary contact foul",
+      "angle": "rule"
+    },
+    {
+      "q": "What award goes to the NBA's best rookie?",
+      "a": "Rookie of the Year",
+      "angle": "awards"
+    },
+    {
+      "q": "Who leads NBA career 3-pointers made?",
+      "a": "Stephen Curry",
+      "angle": "record"
+    },
+    {
+      "q": "What is the NBA Draft lottery for?",
+      "a": "Determining top draft order among non-playoff teams",
+      "angle": "league"
+    },
+    {
+      "q": "Which team won the 2021 NBA championship?",
+      "a": "Milwaukee Bucks",
+      "angle": "championship"
+    },
+    {
+      "q": "What is a 'bank shot'?",
+      "a": "A shot that bounces off the backboard into the hoop",
+      "angle": "skills"
+    },
+    {
+      "q": "Who is known as 'The Greek Freak'?",
+      "a": "Giannis Antetokounmpo",
+      "angle": "legends"
+    },
+    {
+      "q": "Which team won back-to-back titles in 1994 and 1995?",
+      "a": "Houston Rockets",
+      "angle": "dynasties"
+    },
+    {
+      "q": "Who invented the jump shot?",
+      "a": "Commonly credited to Kenny Sailors in the 1940s",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the NBA logo silhouette based on?",
+      "a": "Jerry West",
+      "angle": "history"
+    },
+    {
+      "q": "Which player recorded a 100-point NBA game?",
+      "a": "Wilt Chamberlain",
+      "angle": "record"
+    },
+    {
+      "q": "Which team drafted Dirk Nowitzki before trading to Dallas?",
+      "a": "Milwaukee Bucks (1998)",
+      "angle": "history"
+    },
+    {
+      "q": "Who won NBA Defensive Player of the Year in 1994 and 1995?",
+      "a": "Dikembe Mutombo (1995) and Hakeem Olajuwon (1994); Olajuwon also MVP/Finals MVP 1994",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is known as The Mailman?",
+      "a": "Karl Malone",
+      "angle": "legends"
+    },
+    {
+      "q": "Who coached the Lakers and Bulls to multiple titles?",
+      "a": "Phil Jackson",
+      "angle": "coaches"
+    },
+    {
+      "q": "Which team had the “Bad Boys” era?",
+      "a": "Detroit Pistons late 1980s-early 90s",
+      "angle": "history"
+    },
+    {
+      "q": "What is the height of an NBA rim from the floor?",
+      "a": "10 feet (3.05 m)",
+      "angle": "court"
+    },
+    {
+      "q": "How long is the NBA three-point line at the arc?",
+      "a": "23 feet 9 inches (22 feet in corners)",
+      "angle": "court"
+    },
+    {
+      "q": "Who is known as The Answer?",
+      "a": "Allen Iverson",
+      "angle": "legends"
+    },
+    {
+      "q": "Which player popularized the skyhook?",
+      "a": "Kareem Abdul-Jabbar",
+      "angle": "legends"
+    },
+    {
+      "q": "Who was called “Big O” and averaged a triple-double in 1961-62?",
+      "a": "Oscar Robertson",
+      "angle": "history"
+    },
+    {
+      "q": "What team drafted Kobe Bryant before trading him?",
+      "a": "Charlotte Hornets (1996)",
+      "angle": "history"
+    },
+    {
+      "q": "What college did Steph Curry play for?",
+      "a": "Davidson College",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the #1 pick in the 2003 NBA draft?",
+      "a": "LeBron James",
+      "angle": "history"
+    },
+    {
+      "q": "Which country’s team did the 1992 Dream Team represent?",
+      "a": "United States at Barcelona Olympics",
+      "angle": "international"
+    },
+    {
+      "q": "What is a flagrant 1 foul?",
+      "a": "Excessive or unnecessary contact",
+      "angle": "rule"
+    },
+    {
+      "q": "What is a backcourt violation?",
+      "a": "Offense returns ball over midcourt after establishing frontcourt",
+      "angle": "rule"
+    },
+    {
+      "q": "How many timeouts per half in NCAA men’s?",
+      "a": "Four 30-second media + one 60-second (rules vary by season)",
+      "angle": "rule"
     }
   ],
   "hard": [
@@ -153,6 +553,206 @@
       "q": "What team had the best regular season record?",
       "a": "2015-16 Golden State Warriors (73-9)",
       "angle": "dynasties"
+    },
+    {
+      "q": "Who was the first NBA player to be unanimously voted MVP?",
+      "a": "Stephen Curry in 2016",
+      "angle": "awards"
+    },
+    {
+      "q": "Which franchise has the longest NBA championship drought among originals?",
+      "a": "Sacramento Kings (dating back to Rochester Royals 1951 title)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the first Finals MVP?",
+      "a": "Jerry West (1969)",
+      "angle": "awards"
+    },
+    {
+      "q": "Which coach has the most NBA championships?",
+      "a": "Phil Jackson (11 as coach)",
+      "angle": "coaching"
+    },
+    {
+      "q": "Who holds the record for most career blocks?",
+      "a": "Hakeem Olajuwon",
+      "angle": "record"
+    },
+    {
+      "q": "When did the NBA merge with the ABA?",
+      "a": "1976",
+      "angle": "history"
+    },
+    {
+      "q": "Which team drafted Dirk Nowitzki before trading him to Dallas?",
+      "a": "Milwaukee Bucks (1998 draft)",
+      "angle": "history"
+    },
+    {
+      "q": "Who has the highest career free throw percentage (min attempts)?",
+      "a": "Steve Nash",
+      "angle": "record"
+    },
+    {
+      "q": "What is the record for most assists in a game?",
+      "a": "30 by Scott Skiles (1990)",
+      "angle": "record"
+    },
+    {
+      "q": "Who is the only coach to win Coach of the Year with three different teams?",
+      "a": "Pat Riley (Lakers, Knicks, Heat)",
+      "angle": "awards"
+    },
+    {
+      "q": "What year was the shot clock introduced in the NBA?",
+      "a": "1954-55 season",
+      "angle": "rule"
+    },
+    {
+      "q": "Who was the first player to average a triple-double for a season?",
+      "a": "Oscar Robertson (1961-62)",
+      "angle": "record"
+    },
+    {
+      "q": "Which player won both NBA MVP and Defensive Player of the Year in the same season first?",
+      "a": "Michael Jordan (1987-88)",
+      "angle": "awards"
+    },
+    {
+      "q": "Which arena is nicknamed 'The Garden' outside New York?",
+      "a": "TD Garden in Boston",
+      "angle": "venues"
+    },
+    {
+      "q": "Who holds the record for most career steals?",
+      "a": "John Stockton",
+      "angle": "record"
+    },
+    {
+      "q": "What is the NBA rule limit for backcourt violation timing?",
+      "a": "8 seconds to cross midcourt",
+      "angle": "rule"
+    },
+    {
+      "q": "Who was the first European-born NBA MVP?",
+      "a": "Dirk Nowitzki (2007)",
+      "angle": "awards"
+    },
+    {
+      "q": "Which player won three consecutive NBA MVP awards in the 1980s?",
+      "a": "Larry Bird (1984-86)",
+      "angle": "awards"
+    },
+    {
+      "q": "Who recorded the first quadruple-double officially recognized?",
+      "a": "Nate Thurmond (1974)",
+      "angle": "record"
+    },
+    {
+      "q": "What height is the NBA free-throw line from the backboard?",
+      "a": "15 feet from the backboard (15 feet from the plane of the hoop)",
+      "angle": "rule"
+    },
+    {
+      "q": "Who holds the NBA record for career triple-doubles?",
+      "a": "Russell Westbrook",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the NBA record for most steals?",
+      "a": "John Stockton",
+      "angle": "records"
+    },
+    {
+      "q": "Which coach has the most regular-season NBA wins?",
+      "a": "Don Nelson (regular season wins leader)",
+      "angle": "records"
+    },
+    {
+      "q": "What year was the NBA-ABA merger?",
+      "a": "1976",
+      "angle": "history"
+    },
+    {
+      "q": "Which team drafted Giannis Antetokounmpo?",
+      "a": "Milwaukee Bucks (2013)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the first unanimous NBA MVP?",
+      "a": "Stephen Curry (2016)",
+      "angle": "awards"
+    },
+    {
+      "q": "Who was the shortest NBA player ever?",
+      "a": "Muggsy Bogues (5’3”)",
+      "angle": "records"
+    },
+    {
+      "q": "Which player had the highest career scoring average?",
+      "a": "Michael Jordan (30.12 ppg, slightly above Wilt Chamberlain 30.07)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the NBA playoff format as of 2024?",
+      "a": "16-team bracket after play-in for seeds 7-10 in each conference",
+      "angle": "rules"
+    },
+    {
+      "q": "Who won Rookie of the Year in 2011?",
+      "a": "Blake Griffin",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is the only player to record a quintuple-double (unofficially)?",
+      "a": "Hakeem Olajuwon reported; none official in NBA",
+      "angle": "records"
+    },
+    {
+      "q": "What is the NBA salary cap type?",
+      "a": "Soft cap with luxury tax",
+      "angle": "rules"
+    },
+    {
+      "q": "Who was the first WNBA draft pick ever?",
+      "a": "Tina Thompson (1997) for Houston Comets",
+      "angle": "wnba"
+    },
+    {
+      "q": "Who is the all-time WNBA scoring leader?",
+      "a": "Diana Taurasi",
+      "angle": "wnba"
+    },
+    {
+      "q": "Which team has the most WNBA championships?",
+      "a": "Minnesota Lynx and Houston Comets (4 each)",
+      "angle": "wnba"
+    },
+    {
+      "q": "What is the Naismith Trophy awarded for?",
+      "a": "College player of the year (Naismith College POY)",
+      "angle": "awards"
+    },
+    {
+      "q": "Which country won FIBA World Cup 2019?",
+      "a": "Spain",
+      "angle": "international"
+    },
+    {
+      "q": "Who won NBA Sixth Man of the Year three times?",
+      "a": "Jamal Crawford and Lou Williams (three each)",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is known for “The Shot” over Craig Ehlo?",
+      "a": "Michael Jordan (1989 playoffs)",
+      "angle": "moments"
+    },
+    {
+      "q": "What is the restricted area radius under the basket?",
+      "a": "Four feet in NBA",
+      "angle": "rules"
     }
   ]
 }

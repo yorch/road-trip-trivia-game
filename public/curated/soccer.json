@@ -149,6 +149,131 @@
       "q": "What is the FIFA women's World Cup cycle?",
       "a": "Every 4 years offset from men's by 2 years",
       "angle": "world cup"
+    },
+    {
+      "q": "How many players on a soccer team on the field?",
+      "a": "11",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the world tournament held every four years?",
+      "a": "FIFA World Cup",
+      "angle": "tournaments"
+    },
+    {
+      "q": "What country won the 2022 World Cup?",
+      "a": "Argentina",
+      "angle": "history"
+    },
+    {
+      "q": "Who is called \"La Pulga\"?",
+      "a": "Lionel Messi",
+      "angle": "players"
+    },
+    {
+      "q": "Who is known as CR7?",
+      "a": "Cristiano Ronaldo",
+      "angle": "players"
+    },
+    {
+      "q": "What is the term for a score in soccer?",
+      "a": "A goal",
+      "angle": "rules"
+    },
+    {
+      "q": "What card sends a player off?",
+      "a": "Red card",
+      "angle": "rules"
+    },
+    {
+      "q": "What color card is a warning?",
+      "a": "Yellow card",
+      "angle": "rules"
+    },
+    {
+      "q": "How long is a standard match?",
+      "a": "90 minutes plus stoppage time",
+      "angle": "rules"
+    },
+    {
+      "q": "What country invented modern soccer rules?",
+      "a": "England",
+      "angle": "history"
+    },
+    {
+      "q": "Who is Brazil's soccer legend known as O Rei?",
+      "a": "Pelé",
+      "angle": "players"
+    },
+    {
+      "q": "Who is Argentina's legend wearing number 10 in 1986?",
+      "a": "Diego Maradona",
+      "angle": "players"
+    },
+    {
+      "q": "What is a hat-trick?",
+      "a": "Scoring three goals in one match",
+      "angle": "terms"
+    },
+    {
+      "q": "What is the position that protects the goal?",
+      "a": "Goalkeeper",
+      "angle": "positions"
+    },
+    {
+      "q": "What European club is known as Los Blancos?",
+      "a": "Real Madrid",
+      "angle": "clubs"
+    },
+    {
+      "q": "What club is known as the Red Devils?",
+      "a": "Manchester United",
+      "angle": "clubs"
+    },
+    {
+      "q": "What is the Champions League trophy?",
+      "a": "The UEFA Champions League trophy (big ears)",
+      "angle": "tournaments"
+    },
+    {
+      "q": "What is the Spanish top league called?",
+      "a": "La Liga",
+      "angle": "leagues"
+    },
+    {
+      "q": "What is the English top league called?",
+      "a": "Premier League",
+      "angle": "leagues"
+    },
+    {
+      "q": "What club does Lionel Messi currently play for (2024-2025)?",
+      "a": "Inter Miami CF (after PSG)",
+      "angle": "clubs"
+    },
+    {
+      "q": "What is the line that divides the field?",
+      "a": "Halfway line",
+      "angle": "field"
+    },
+    {
+      "q": "What is the penalty kick spot distance?",
+      "a": "12 yards from goal",
+      "angle": "rules"
+    },
+    {
+      "q": "What is offside?",
+      "a": "Attacker ahead of ball and second-last defender when played",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the goal area also called?",
+      "a": "Six-yard box",
+      "angle": "field"
+    },
+    {
+      "q": "What tournament decides Europe's national champion?",
+      "a": "UEFA European Championship (Euros)",
+      "angle": "tournaments"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "Who is nicknamed 'El Pibe de Oro'?",
       "a": "Diego Maradona",
       "angle": "stars"
+    },
+    {
+      "q": "Who won the 2010 World Cup?",
+      "a": "Spain",
+      "angle": "history"
+    },
+    {
+      "q": "Who scored the \"Hand of God\" goal?",
+      "a": "Diego Maradona",
+      "angle": "history"
+    },
+    {
+      "q": "What club did Messi debut for?",
+      "a": "FC Barcelona",
+      "angle": "clubs"
+    },
+    {
+      "q": "What club did Cristiano Ronaldo first join outside Portugal?",
+      "a": "Manchester United (2003)",
+      "angle": "clubs"
+    },
+    {
+      "q": "Who holds the record for most World Cup goals?",
+      "a": "Miroslav Klose (16)",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the Egyptian forward nicknamed the Pharaoh?",
+      "a": "Mohamed Salah",
+      "angle": "players"
+    },
+    {
+      "q": "What is VAR used for?",
+      "a": "Video Assistant Referee decisions",
+      "angle": "rules"
+    },
+    {
+      "q": "Who is known as the \"Zizou\"?",
+      "a": "Zinedine Zidane",
+      "angle": "players"
+    },
+    {
+      "q": "Who managed Manchester United for over 26 years?",
+      "a": "Sir Alex Ferguson",
+      "angle": "managers"
+    },
+    {
+      "q": "Which Italian club is nicknamed the Old Lady?",
+      "a": "Juventus",
+      "angle": "clubs"
+    },
+    {
+      "q": "Who is Bayern Munich's home stadium?",
+      "a": "Allianz Arena",
+      "angle": "stadiums"
+    },
+    {
+      "q": "Who captained Spain in 2010 final?",
+      "a": "Iker Casillas (captain/keeper)",
+      "angle": "players"
+    },
+    {
+      "q": "Who is known as the \"Special One\" manager?",
+      "a": "José Mourinho",
+      "angle": "managers"
+    },
+    {
+      "q": "What is the Copa Libertadores?",
+      "a": "South American club championship",
+      "angle": "tournaments"
+    },
+    {
+      "q": "Which club plays at Camp Nou?",
+      "a": "FC Barcelona",
+      "angle": "stadiums"
+    },
+    {
+      "q": "Which club plays at Santiago Bernabéu?",
+      "a": "Real Madrid",
+      "angle": "stadiums"
+    },
+    {
+      "q": "Who is the Belgian midfielder starring for Man City?",
+      "a": "Kevin De Bruyne",
+      "angle": "players"
+    },
+    {
+      "q": "Who is nicknamed El Pistolero?",
+      "a": "Luis Suárez",
+      "angle": "players"
+    },
+    {
+      "q": "Who is Poland's prolific striker?",
+      "a": "Robert Lewandowski",
+      "angle": "players"
+    },
+    {
+      "q": "Who is the tall Swedish striker known for acrobatics?",
+      "a": "Zlatan Ibrahimović",
+      "angle": "players"
+    },
+    {
+      "q": "Who won Euro 2016?",
+      "a": "Portugal",
+      "angle": "history"
+    },
+    {
+      "q": "Who won the 2018 World Cup?",
+      "a": "France",
+      "angle": "history"
+    },
+    {
+      "q": "What African nation reached 2010 World Cup quarterfinals with a Suarez handball incident?",
+      "a": "Uruguay vs Ghana; Ghana reached quarterfinals",
+      "angle": "history"
+    },
+    {
+      "q": "What is a clean sheet?",
+      "a": "Conceding zero goals",
+      "angle": "terms"
+    },
+    {
+      "q": "Which Dutch club is known for total football and youth academy?",
+      "a": "Ajax",
+      "angle": "clubs"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "Who is the only player to score in five different men's World Cups?",
       "a": "Cristiano Ronaldo (as of 2022)",
       "angle": "records"
+    },
+    {
+      "q": "Who scored the fastest World Cup goal?",
+      "a": "Hakan Şükür (Turkey, 11 seconds in 2002)",
+      "angle": "records"
+    },
+    {
+      "q": "Who won the first World Cup in 1930?",
+      "a": "Uruguay",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the only player to win World Cup three times?",
+      "a": "Pelé",
+      "angle": "records"
+    },
+    {
+      "q": "Which club has the most Champions League titles?",
+      "a": "Real Madrid",
+      "angle": "records"
+    },
+    {
+      "q": "Who scored the \"Goal of the Century\" in 1986?",
+      "a": "Diego Maradona vs. England",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the top Champions League scorer?",
+      "a": "Cristiano Ronaldo",
+      "angle": "records"
+    },
+    {
+      "q": "What is the offside law change year for not penalizing level?",
+      "a": "1990 clarification (level not offside)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was awarded the Ballon d'Or for 2023?",
+      "a": "Lionel Messi",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is known as Der Kaiser?",
+      "a": "Franz Beckenbauer",
+      "angle": "legends"
+    },
+    {
+      "q": "Who is the German striker called the Bomber?",
+      "a": "Gerd Müller",
+      "angle": "legends"
+    },
+    {
+      "q": "Which club completed a treble in 1999?",
+      "a": "Manchester United",
+      "angle": "history"
+    },
+    {
+      "q": "Which club completed a sextuple in 2009?",
+      "a": "FC Barcelona",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the youngest World Cup goalscorer?",
+      "a": "Pele in 1958 (17 years)",
+      "angle": "records"
+    },
+    {
+      "q": "Which African player won the Ballon d'Or in 1995?",
+      "a": "George Weah",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is known as El Diego?",
+      "a": "Diego Maradona",
+      "angle": "nicknames"
+    },
+    {
+      "q": "Who is the Portuguese coach nicknamed \"The Special One\"?",
+      "a": "José Mourinho",
+      "angle": "managers"
+    },
+    {
+      "q": "What is the Panenka?",
+      "a": "A chipped penalty down the middle",
+      "angle": "technique"
+    },
+    {
+      "q": "Who scored the \"Panenka\" first?",
+      "a": "Antonín Panenka (Euro 1976 final)",
+      "angle": "history"
+    },
+    {
+      "q": "Who was England manager in 1966 World Cup?",
+      "a": "Alf Ramsey",
+      "angle": "history"
+    },
+    {
+      "q": "Who scored the 2014 World Cup final winning goal?",
+      "a": "Mario Götze (Germany)",
+      "angle": "history"
+    },
+    {
+      "q": "Which club is known as Die Schwarzgelben?",
+      "a": "Borussia Dortmund",
+      "angle": "clubs"
+    },
+    {
+      "q": "Who holds the record for most assists in a single Premier League season?",
+      "a": "Kevin De Bruyne (joint 20 with Thierry Henry)",
+      "angle": "records"
+    },
+    {
+      "q": "What is xG an abbreviation for?",
+      "a": "Expected Goals",
+      "angle": "analytics"
+    },
+    {
+      "q": "Who won the first Women's World Cup?",
+      "a": "United States (1991)",
+      "angle": "history"
+    },
+    {
+      "q": "Which U.S. player scored a famous 1999 WWC final penalty?",
+      "a": "Brandi Chastain",
+      "angle": "history"
     }
   ]
 }

@@ -154,6 +154,136 @@
       "q": "What emblem does Superman wear?",
       "a": "The Kryptonian family crest of El (S-shield)",
       "angle": "metropolis"
+    },
+    {
+      "q": "What is Superman's pet dog's name?",
+      "a": "Krypto the Superdog",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What color energy does Green Lantern's ring create?",
+      "a": "Green",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What does the Bat-Signal do?",
+      "a": "Signals Batman to respond",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who is Batman's police ally and commissioner?",
+      "a": "James Gordon",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What undersea kingdom does Aquaman rule?",
+      "a": "Atlantis",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Wonder Woman's mother?",
+      "a": "Queen Hippolyta",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What vision power lets Superman see through walls?",
+      "a": "X-ray vision",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What throwing weapon does Batman use shaped like a bat?",
+      "a": "A Batarang",
+      "angle": "gear"
+    },
+    {
+      "q": "Who is Superman's cousin?",
+      "a": "Kara Zor-El (Supergirl)",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What city does the Flash protect?",
+      "a": "Central City",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What company does Bruce Wayne own?",
+      "a": "Wayne Enterprises",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What weapon does Aquaman often carry?",
+      "a": "A trident",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What power lets Superman travel through the air?",
+      "a": "Flight",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What does DC stand for?",
+      "a": "Detective Comics",
+      "angle": "comics"
+    },
+    {
+      "q": "Where is Superman's Fortress of Solitude?",
+      "a": "In the Arctic/North Pole",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the editor of the Daily Planet?",
+      "a": "Perry White",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What is Lex Luthor known for?",
+      "a": "Being a bald genius villain",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "Which Martian hero can shapeshift and read minds?",
+      "a": "Martian Manhunter",
+      "angle": "team"
+    },
+    {
+      "q": "What color is Batman's cape usually?",
+      "a": "Black",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What invisible vehicle is linked to Wonder Woman?",
+      "a": "The Invisible Jet",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is the Clown Princess of Crime and Joker's partner?",
+      "a": "Harley Quinn",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What prison hospital holds Gotham's criminals?",
+      "a": "Arkham Asylum",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What planet is Superman originally from?",
+      "a": "Krypton",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who often photographs Superman for the Daily Planet?",
+      "a": "Jimmy Olsen",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What oath starts with 'In brightest day, in blackest night'?",
+      "a": "The Green Lantern oath",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What metal is Superman vulnerable to besides Kryptonite?",
+      "a": "Magic and red sun energy weaken him",
+      "angle": "lore"
     }
   ],
   "medium": [
@@ -311,6 +441,126 @@
       "q": "Who is Aquaman's half-brother antagonist?",
       "a": "Orm / Ocean Master",
       "angle": "villain"
+    },
+    {
+      "q": "Who becomes Nightwing after serving as Robin?",
+      "a": "Dick Grayson",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who is the Batgirl in many comics before becoming Oracle?",
+      "a": "Barbara Gordon",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Which villain famously broke Batman's back?",
+      "a": "Bane",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What creature killed Superman in 'The Death of Superman'?",
+      "a": "Doomsday",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the Red Hood (modern era)?",
+      "a": "Jason Todd",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What Green Lantern sector includes Earth?",
+      "a": "Sector 2814",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is the Justice League's orbital base called?",
+      "a": "The Watchtower",
+      "angle": "team"
+    },
+    {
+      "q": "Who is Reverse-Flash?",
+      "a": "Eobard Thawne",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is the real name of Plastic Man?",
+      "a": "Patrick 'Eel' O'Brian",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who is Batwoman?",
+      "a": "Kate Kane",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What organization is STAR Labs?",
+      "a": "Scientific research group",
+      "angle": "team"
+    },
+    {
+      "q": "Who is Aquaman's arch-enemy with a helmet?",
+      "a": "Black Manta",
+      "angle": "villain"
+    },
+    {
+      "q": "Which Green Lantern is an architect and Corps member?",
+      "a": "John Stewart",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Shazam's classic scientist foe?",
+      "a": "Doctor Sivana",
+      "angle": "villain"
+    },
+    {
+      "q": "Who often leads the Teen Titans?",
+      "a": "Nightwing",
+      "angle": "team"
+    },
+    {
+      "q": "What totem gives Vixen her powers?",
+      "a": "The Tantu totem",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who leads the Doom Patrol?",
+      "a": "Niles Caulder (The Chief)",
+      "angle": "team"
+    },
+    {
+      "q": "Who is Superman's best friend often shown in comics?",
+      "a": "Jimmy Olsen",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What is the Batcomputer?",
+      "a": "Batman\u2019s main computer in the Batcave",
+      "angle": "gear"
+    },
+    {
+      "q": "Who is the demon that bonds with Jason Blood?",
+      "a": "Etrigan",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is Zatanna's father?",
+      "a": "Zatara (Giovanni Zatara)",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is Green Arrow's partner and love interest?",
+      "a": "Black Canary (Dinah Lance)",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who is the archer villain obsessed with trick arrows?",
+      "a": "Merlyn",
+      "angle": "villain"
+    },
+    {
+      "q": "Which villain uses cold technology against Batman?",
+      "a": "Mr. Freeze",
+      "angle": "rogues gallery"
     }
   ],
   "hard": [
@@ -463,6 +713,176 @@
       "q": "Who wrote Watchmen (DC imprint)?",
       "a": "Alan Moore (artist Dave Gibbons)",
       "angle": "comics"
+    },
+    {
+      "q": "In what issue did Batman first appear?",
+      "a": "Detective Comics #27 (1939)",
+      "angle": "history"
+    },
+    {
+      "q": "In what issue did Superman debut?",
+      "a": "Action Comics #1 (1938)",
+      "angle": "history"
+    },
+    {
+      "q": "When was Crisis on Infinite Earths published?",
+      "a": "1985-1986",
+      "angle": "comics"
+    },
+    {
+      "q": "What event reset DC continuity in 2011?",
+      "a": "Flashpoint leading to The New 52",
+      "angle": "comics"
+    },
+    {
+      "q": "Who is the surgeon-turned-villain Hush?",
+      "a": "Dr. Thomas Elliot",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Where was Bane raised?",
+      "a": "Pe\u00f1a Duro prison on Santa Prisca",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What anti-matter world is the Anti-Monitor from?",
+      "a": "Qward",
+      "angle": "cosmic"
+    },
+    {
+      "q": "Who wrote and painted Kingdom Come?",
+      "a": "Mark Waid and Alex Ross",
+      "angle": "comics"
+    },
+    {
+      "q": "Which Green Lantern became Parallax in the 1990s?",
+      "a": "Hal Jordan",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What city did Brainiac shrink and bottle?",
+      "a": "Kandor",
+      "angle": "cosmic"
+    },
+    {
+      "q": "Who is the original human host of the Spectre?",
+      "a": "Jim Corrigan",
+      "angle": "magic"
+    },
+    {
+      "q": "What planet is Lobo from?",
+      "a": "Czarnia",
+      "angle": "cosmic"
+    },
+    {
+      "q": "What scarab empowers the third Blue Beetle Jaime Reyes?",
+      "a": "Reach scarab",
+      "angle": "tech"
+    },
+    {
+      "q": "What massive wall lies at the edge of the DC multiverse?",
+      "a": "The Source Wall",
+      "angle": "cosmic"
+    },
+    {
+      "q": "Who killed the Waynes in most continuities?",
+      "a": "Joe Chill",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What storyline features Batman apparently dying in Final Crisis?",
+      "a": "Batman R.I.P. and Final Crisis (Darkseid's Omega Sanction)",
+      "angle": "comics"
+    },
+    {
+      "q": "Who is the Flash of Earth-2 in the Golden Age?",
+      "a": "Jay Garrick",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the architect of the Court of Owls' Talons program?",
+      "a": "The Court elders using resurrected Talon assassins",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What underwater prison holds Atlantis' worst criminals?",
+      "a": "The Atlantean Pit/Black Stone prisons",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who founded the Suicide Squad in modern comics?",
+      "a": "Amanda Waller",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the archenemy of the Green Lantern Corps wielding fear?",
+      "a": "Sinestro",
+      "angle": "villain"
+    },
+    {
+      "q": "What powerful relic does Doctor Fate wear?",
+      "a": "The Helmet of Nabu",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the current Flash after Barry in many storylines?",
+      "a": "Wally West",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who leads the New Gods of New Genesis?",
+      "a": "Highfather (Izaya)",
+      "angle": "cosmic"
+    },
+    {
+      "q": "Who created Watchmen for DC's imprint?",
+      "a": "Alan Moore and Dave Gibbons",
+      "angle": "comics"
+    },
+    {
+      "q": "What is the Lazarus Pit used for?",
+      "a": "Resurrection and healing in Ra's al Ghul's lore",
+      "angle": "magic"
+    },
+    {
+      "q": "Which villain used the 'Doomsday Clock' metacrossover?",
+      "a": "Doctor Manhattan interacting with the DC Universe",
+      "angle": "comics"
+    },
+    {
+      "q": "What is Superman's evil counterpart from Earth-3?",
+      "a": "Ultraman",
+      "angle": "multiverse"
+    },
+    {
+      "q": "Which Flash villain created the Negative Speed Force?",
+      "a": "Eobard Thawne",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What event features Batman fighting the Court of Owls?",
+      "a": "The New 52 Court of Owls arc (Batman #1-11, 2011-2012)",
+      "angle": "comics"
+    },
+    {
+      "q": "Who is Cassandra Cain also known as?",
+      "a": "Batgirl/Orphan",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Which Green Lantern is from Bolovax Vik?",
+      "a": "Kilowog",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What poison does Joker often use?",
+      "a": "Joker Venom",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is the Anti-Life Equation said to do?",
+      "a": "Remove free will and control minds",
+      "angle": "cosmic"
     }
   ]
 }

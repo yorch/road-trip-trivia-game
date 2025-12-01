@@ -99,6 +99,156 @@
       "q": "Who was the queen during England's Victorian era?",
       "a": "Queen Victoria",
       "angle": "monarch"
+    },
+    {
+      "q": "What ancient wonder was in Egypt?",
+      "a": "The Great Pyramid of Giza",
+      "angle": "wonders"
+    },
+    {
+      "q": "Who conquered much of the ancient world from Macedonia?",
+      "a": "Alexander the Great",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which empire built roads and aqueducts across Europe?",
+      "a": "The Roman Empire",
+      "angle": "empires"
+    },
+    {
+      "q": "Who was the first Emperor of China?",
+      "a": "Qin Shi Huang",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which disease caused the Black Death?",
+      "a": "Bubonic plague",
+      "angle": "disease"
+    },
+    {
+      "q": "Who discovered penicillin?",
+      "a": "Alexander Fleming",
+      "angle": "science"
+    },
+    {
+      "q": "Who led India to independence with nonviolent protest?",
+      "a": "Mahatma Gandhi",
+      "angle": "leaders"
+    },
+    {
+      "q": "What wall divided Berlin until 1989?",
+      "a": "The Berlin Wall",
+      "angle": "modern"
+    },
+    {
+      "q": "Who was known as the Maid of Orléans?",
+      "a": "Joan of Arc",
+      "angle": "figures"
+    },
+    {
+      "q": "What ship sank in 1912 on its maiden voyage?",
+      "a": "The Titanic",
+      "angle": "events"
+    },
+    {
+      "q": "What war was fought between Allies and Axis powers?",
+      "a": "World War II",
+      "angle": "wars"
+    },
+    {
+      "q": "Who painted the Mona Lisa?",
+      "a": "Leonardo da Vinci",
+      "angle": "culture"
+    },
+    {
+      "q": "What revolution began in 1789 in Europe?",
+      "a": "The French Revolution",
+      "angle": "revolutions"
+    },
+    {
+      "q": "Who was the first man in space?",
+      "a": "Yuri Gagarin",
+      "angle": "modern"
+    },
+    {
+      "q": "Which empire used samurai warriors?",
+      "a": "Feudal Japan (samurai class)",
+      "angle": "empires"
+    },
+    {
+      "q": "Who was the pharaoh known for a nearly intact tomb?",
+      "a": "Tutankhamun",
+      "angle": "ancient"
+    },
+    {
+      "q": "What trade route linked China to the Mediterranean?",
+      "a": "The Silk Road",
+      "angle": "trade"
+    },
+    {
+      "q": "Who sailed around the world first (expedition)?",
+      "a": "Ferdinand Magellan's expedition (completed by Elcano)",
+      "angle": "exploration"
+    },
+    {
+      "q": "What city was destroyed by Vesuvius in 79 AD?",
+      "a": "Pompeii",
+      "angle": "events"
+    },
+    {
+      "q": "What is the largest religious monument (Cambodia)?",
+      "a": "Angkor Wat",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who was the Queen of England during the Spanish Armada?",
+      "a": "Queen Elizabeth I",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which empire built Machu Picchu?",
+      "a": "The Inca Empire",
+      "angle": "empires"
+    },
+    {
+      "q": "Who wrote The Communist Manifesto?",
+      "a": "Karl Marx and Friedrich Engels",
+      "angle": "ideology"
+    },
+    {
+      "q": "What conflict was between North and South Korea?",
+      "a": "The Korean War",
+      "angle": "wars"
+    },
+    {
+      "q": "Who was the Egyptian queen with Julius Caesar?",
+      "a": "Cleopatra VII",
+      "angle": "leaders"
+    },
+    {
+      "q": "Who was the famous queen of ancient Egypt with Julius Caesar?",
+      "a": "Cleopatra VII",
+      "angle": "leaders"
+    },
+    {
+      "q": "Who was the first man on the Moon?",
+      "a": "Neil Armstrong",
+      "angle": "modern"
+    },
+    {
+      "q": "What era followed the fall of Rome in Europe?",
+      "a": "The Middle Ages",
+      "angle": "periods"
+    },
+    {
+      "q": "What is the famous wall in China visible from space myth?",
+      "a": "The Great Wall of China (not actually easily visible from space)",
+      "angle": "myths"
+    },
+    {
+      "q": "Who was the leader of the Nazi Party?",
+      "a": "Adolf Hitler",
+      "angle": "leaders"
     }
   ],
   "medium": [
@@ -231,6 +381,186 @@
       "q": "What event started WWII in Europe?",
       "a": "Germany's invasion of Poland (1939)",
       "angle": "conflict"
+    },
+    {
+      "q": "What year did World War I start?",
+      "a": "1914",
+      "angle": "dates"
+    },
+    {
+      "q": "Who was the first Holy Roman Emperor?",
+      "a": "Charlemagne (crowned 800)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What empire used janissaries?",
+      "a": "The Ottoman Empire",
+      "angle": "empires"
+    },
+    {
+      "q": "What dynasty built much of the Great Wall?",
+      "a": "Ming Dynasty (existing walls earlier)",
+      "angle": "china"
+    },
+    {
+      "q": "What document limited the English king in 1215?",
+      "a": "Magna Carta",
+      "angle": "documents"
+    },
+    {
+      "q": "Who led the Bolshevik Revolution?",
+      "a": "Vladimir Lenin",
+      "angle": "revolutions"
+    },
+    {
+      "q": "Who was the Mongol ruler that created a vast empire?",
+      "a": "Genghis Khan",
+      "angle": "leaders"
+    },
+    {
+      "q": "What war was sparked by archduke Franz Ferdinand's assassination?",
+      "a": "World War I",
+      "angle": "wars"
+    },
+    {
+      "q": "What civilization built ziggurats in Mesopotamia?",
+      "a": "Sumerians",
+      "angle": "ancient"
+    },
+    {
+      "q": "Which Chinese philosopher taught filial piety?",
+      "a": "Confucius",
+      "angle": "culture"
+    },
+    {
+      "q": "What was the trade of enslaved Africans across the Atlantic called?",
+      "a": "Transatlantic Slave Trade",
+      "angle": "trade"
+    },
+    {
+      "q": "Who was the last Tsar of Russia?",
+      "a": "Nicholas II",
+      "angle": "leaders"
+    },
+    {
+      "q": "What epidemic killed millions in 14th-century Europe?",
+      "a": "Black Death",
+      "angle": "disease"
+    },
+    {
+      "q": "Which empire built the Hagia Sophia (as church)?",
+      "a": "Byzantine Empire under Justinian I",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who started the Protestant Reformation?",
+      "a": "Martin Luther",
+      "angle": "religion"
+    },
+    {
+      "q": "Which empire ruled India during the Taj Mahal construction?",
+      "a": "Mughal Empire",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who was known as the Sun King?",
+      "a": "Louis XIV of France",
+      "angle": "leaders"
+    },
+    {
+      "q": "Who was the Haitian Revolution leader?",
+      "a": "Toussaint Louverture",
+      "angle": "revolutions"
+    },
+    {
+      "q": "What was the Opium War between Britain and China mainly about?",
+      "a": "Trade and opium import disputes",
+      "angle": "wars"
+    },
+    {
+      "q": "Who unified Japan in the early 1600s?",
+      "a": "Tokugawa Ieyasu",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which conference carved up Africa among European powers?",
+      "a": "Berlin Conference (1884-85)",
+      "angle": "colonial"
+    },
+    {
+      "q": "Who invented the printing press in Europe?",
+      "a": "Johannes Gutenberg",
+      "angle": "technology"
+    },
+    {
+      "q": "What empire was ruled by Cyrus the Great?",
+      "a": "Achaemenid Persian Empire",
+      "angle": "leaders"
+    },
+    {
+      "q": "What treaty ended World War I?",
+      "a": "Treaty of Versailles",
+      "angle": "diplomacy"
+    },
+    {
+      "q": "Who led the Long March in China?",
+      "a": "Mao Zedong",
+      "angle": "modern"
+    },
+    {
+      "q": "Which explorer reached the Cape of Good Hope first?",
+      "a": "Bartolomeu Dias",
+      "angle": "exploration"
+    },
+    {
+      "q": "What 20th-century conflict was called the Great Patriotic War in USSR?",
+      "a": "World War II (Eastern Front)",
+      "angle": "wars"
+    },
+    {
+      "q": "What event sparked the Arab Spring in 2010?",
+      "a": "Tunisian fruit seller Mohamed Bouazizi self-immolation",
+      "angle": "modern"
+    },
+    {
+      "q": "Who was the British PM during WWII?",
+      "a": "Winston Churchill",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which empire built the Colosseum?",
+      "a": "The Roman Empire",
+      "angle": "architecture"
+    },
+    {
+      "q": "What was the ancient Egyptian writing system?",
+      "a": "Hieroglyphics",
+      "angle": "writing"
+    },
+    {
+      "q": "Who commanded the Allied forces on D-Day?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which empire fell in 476 AD traditionally?",
+      "a": "Western Roman Empire",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Meiji Restoration?",
+      "a": "1868 restoration of imperial rule/modernization in Japan",
+      "angle": "modern"
+    },
+    {
+      "q": "Who was the first female British PM?",
+      "a": "Margaret Thatcher",
+      "angle": "modern"
+    },
+    {
+      "q": "What wall in China was meant to deter northern invasions?",
+      "a": "The Great Wall",
+      "angle": "architecture"
     }
   ],
   "hard": [
@@ -378,6 +708,156 @@
       "q": "What was the Great Schism of 1054?",
       "a": "Split between Eastern Orthodox and Roman Catholic Churches",
       "angle": "religion"
+    },
+    {
+      "q": "What was the Thirty Years' War primarily about?",
+      "a": "Religious and political conflict in Central Europe (1618-1648)",
+      "angle": "wars"
+    },
+    {
+      "q": "Who was the Carthaginian general who crossed the Alps with elephants?",
+      "a": "Hannibal Barca",
+      "angle": "leaders"
+    },
+    {
+      "q": "What treaty ended the Napoleonic Wars?",
+      "a": "Congress of Vienna agreements (1815)",
+      "angle": "diplomacy"
+    },
+    {
+      "q": "What empire was ruled by Mansa Musa?",
+      "a": "Mali Empire",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the code name for the German invasion of the USSR?",
+      "a": "Operation Barbarossa",
+      "angle": "ww2"
+    },
+    {
+      "q": "Who was the Chinese admiral that led treasure voyages?",
+      "a": "Zheng He",
+      "angle": "exploration"
+    },
+    {
+      "q": "What year did the Berlin Wall fall?",
+      "a": "1989",
+      "angle": "modern"
+    },
+    {
+      "q": "What was the doctrine of \"sphere of influence\" in China?",
+      "a": "Foreign powers dividing trade/control zones",
+      "angle": "imperialism"
+    },
+    {
+      "q": "Who founded the Maurya Empire in India?",
+      "a": "Chandragupta Maurya",
+      "angle": "leaders"
+    },
+    {
+      "q": "What empire used quipus for record-keeping?",
+      "a": "Inca Empire",
+      "angle": "culture"
+    },
+    {
+      "q": "What was the capital of the Aztec Empire?",
+      "a": "Tenochtitlan",
+      "angle": "history"
+    },
+    {
+      "q": "Which battle stopped Muslim advance into Western Europe in 732?",
+      "a": "Battle of Tours/Poitiers",
+      "angle": "wars"
+    },
+    {
+      "q": "What was the Code of Hammurabi?",
+      "a": "Ancient Babylonian law code",
+      "angle": "law"
+    },
+    {
+      "q": "Who was the first emperor of Rome?",
+      "a": "Augustus (Octavian)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What empire used janissaries?",
+      "a": "Ottoman Empire",
+      "angle": "military"
+    },
+    {
+      "q": "What war featured trench warfare and poison gas?",
+      "a": "World War I",
+      "angle": "wars"
+    },
+    {
+      "q": "What event started World War II in Europe?",
+      "a": "Germany's invasion of Poland in 1939",
+      "angle": "ww2"
+    },
+    {
+      "q": "Who led the Cuban Revolution?",
+      "a": "Fidel Castro (with Che Guevara, others)",
+      "angle": "modern"
+    },
+    {
+      "q": "What was the Boer War about?",
+      "a": "Conflict between British Empire and Boer republics over control in South Africa",
+      "angle": "wars"
+    },
+    {
+      "q": "Who was the first Norman King of England?",
+      "a": "William the Conqueror",
+      "angle": "leaders"
+    },
+    {
+      "q": "What empire called itself the Third Rome?",
+      "a": "Russian Empire/Byzantine legacy claim; Moscow as Third Rome",
+      "angle": "ideology"
+    },
+    {
+      "q": "What was the Taiping Rebellion?",
+      "a": "Massive civil war in China led by Hong Xiuquan (1850-64)",
+      "angle": "rebellions"
+    },
+    {
+      "q": "Who was known as the Iron Chancellor?",
+      "a": "Otto von Bismarck",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the capital of the Eastern Roman Empire?",
+      "a": "Constantinople",
+      "angle": "history"
+    },
+    {
+      "q": "Who invented the spinning jenny?",
+      "a": "James Hargreaves",
+      "angle": "industry"
+    },
+    {
+      "q": "What sparked the Protestant Reformation?",
+      "a": "Martin Luther's 95 Theses in 1517",
+      "angle": "religion"
+    },
+    {
+      "q": "What is the world's oldest continually inhabited city often cited?",
+      "a": "Damascus (disputed), also Jericho, Byblos",
+      "angle": "history"
+    },
+    {
+      "q": "Which treaty ended the Opium War?",
+      "a": "Treaty of Nanjing (1842)",
+      "angle": "diplomacy"
+    },
+    {
+      "q": "Who was emperor during Rome's Pax Romana peak?",
+      "a": "Augustus and successors; height under Trajan/Hadrian",
+      "angle": "history"
+    },
+    {
+      "q": "What was the code name for Allied invasion of North Africa 1942?",
+      "a": "Operation Torch",
+      "angle": "ww2"
     }
   ]
 }

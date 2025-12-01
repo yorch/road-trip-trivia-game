@@ -149,6 +149,106 @@
       "q": "Who is SpongeBob's starfish best friend?",
       "a": "Patrick Star",
       "angle": "friends"
+    },
+    {
+      "q": "What is SpongeBob's pet snail called?",
+      "a": "Gary",
+      "angle": "pets"
+    },
+    {
+      "q": "What sandwich is the Krusty Krab famous for?",
+      "a": "Krabby Patties",
+      "angle": "food"
+    },
+    {
+      "q": "What are the Rugrats twins called?",
+      "a": "Phil and Lil DeVille",
+      "angle": "family"
+    },
+    {
+      "q": "Who is Tommy Pickles' best friend with red hair?",
+      "a": "Chuckie Finster",
+      "angle": "friends"
+    },
+    {
+      "q": "Who drives the Magic School Bus?",
+      "a": "Ms. Frizzle",
+      "angle": "teacher"
+    },
+    {
+      "q": "What instrument does Lisa Simpson play?",
+      "a": "Saxophone",
+      "angle": "music"
+    },
+    {
+      "q": "Who is the red Powerpuff Girl?",
+      "a": "Blossom",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the blue Powerpuff Girl?",
+      "a": "Bubbles",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the green Powerpuff Girl?",
+      "a": "Buttercup",
+      "angle": "team"
+    },
+    {
+      "q": "Which Ninja Turtle wears an orange mask?",
+      "a": "Michelangelo",
+      "angle": "heroes"
+    },
+    {
+      "q": "Which Ninja Turtle wears a red mask?",
+      "a": "Raphael",
+      "angle": "heroes"
+    },
+    {
+      "q": "What Pokémon is known as the electric mouse?",
+      "a": "Pikachu",
+      "angle": "mascot"
+    },
+    {
+      "q": "What is Ash Ketchum's first Pokémon?",
+      "a": "Pikachu",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is SpongeBob's clarinet-playing neighbor?",
+      "a": "Squidward Tentacles",
+      "angle": "neighbors"
+    },
+    {
+      "q": "Who is SpongeBob's squirrel friend from Texas?",
+      "a": "Sandy Cheeks",
+      "angle": "friends"
+    },
+    {
+      "q": "What dog leaves paw prints for clues?",
+      "a": "Blue",
+      "angle": "characters"
+    },
+    {
+      "q": "What animal is Arthur Read?",
+      "a": "An aardvark",
+      "angle": "concept"
+    },
+    {
+      "q": "Who created the Powerpuff Girls in the story?",
+      "a": "Professor Utonium",
+      "angle": "origin"
+    },
+    {
+      "q": "What is the Simpson family's dog named?",
+      "a": "Santa's Little Helper",
+      "angle": "pets"
+    },
+    {
+      "q": "Who is Doug Funnie's dog?",
+      "a": "Porkchop",
+      "angle": "pets"
     }
   ],
   "medium": [
@@ -301,6 +401,106 @@
       "q": "Who is the villain in Darkwing Duck often seen?",
       "a": "Negaduck",
       "angle": "villain"
+    },
+    {
+      "q": "Who voiced Harley Quinn in Batman: The Animated Series?",
+      "a": "Arleen Sorkin",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did Hey Arnold! premiere on Nickelodeon?",
+      "a": "1996",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who created Courage the Cowardly Dog?",
+      "a": "John R. Dilworth",
+      "angle": "creators"
+    },
+    {
+      "q": "What is the name of the school in Recess?",
+      "a": "Third Street School",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the boarding house Arnold lives in called?",
+      "a": "Sunset Arms",
+      "angle": "setting"
+    },
+    {
+      "q": "Who voices Tommy Pickles?",
+      "a": "E.G. Daily",
+      "angle": "voice"
+    },
+    {
+      "q": "Who voices Chuckie Finster?",
+      "a": "Christine Cavanaugh",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did The Powerpuff Girls debut as a series?",
+      "a": "1998",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who created Rocko's Modern Life?",
+      "a": "Joe Murray",
+      "angle": "creators"
+    },
+    {
+      "q": "What town does Courage live in?",
+      "a": "Nowhere, Kansas",
+      "angle": "setting"
+    },
+    {
+      "q": "Who manages Alvin and the Chipmunks?",
+      "a": "Dave Seville",
+      "angle": "cast"
+    },
+    {
+      "q": "Who narrates The Powerpuff Girls episodes?",
+      "a": "Tom Kenny",
+      "angle": "narration"
+    },
+    {
+      "q": "Who created Hey Arnold!?",
+      "a": "Craig Bartlett",
+      "angle": "creators"
+    },
+    {
+      "q": "Who voices Dog in CatDog?",
+      "a": "Tom Kenny",
+      "angle": "voice"
+    },
+    {
+      "q": "What two studios produced Animaniacs?",
+      "a": "Amblin Entertainment and Warner Bros. Animation",
+      "angle": "production"
+    },
+    {
+      "q": "What year did Batman Beyond premiere?",
+      "a": "1999",
+      "angle": "premiere"
+    },
+    {
+      "q": "What is Sailor Moon's talking cat named?",
+      "a": "Luna",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What is Darkwing Duck's civilian alias?",
+      "a": "Drake Mallard",
+      "angle": "identity"
+    },
+    {
+      "q": "Who voices Goliath in Gargoyles?",
+      "a": "Keith David",
+      "angle": "voice"
+    },
+    {
+      "q": "What is the name of Doug's hometown?",
+      "a": "Bluffington",
+      "angle": "setting"
     }
   ],
   "hard": [
@@ -458,6 +658,106 @@
       "q": "Who directed Iron Giant (1999)?",
       "a": "Brad Bird",
       "angle": "film"
+    },
+    {
+      "q": "What was the original student film name that led to The Powerpuff Girls?",
+      "a": "Whoopass Stew! The Whoopass Girls",
+      "angle": "origin"
+    },
+    {
+      "q": "Which Cartoon Network anthology first aired Courage's pilot \"The Chicken from Outer Space\"?",
+      "a": "What a Cartoon!",
+      "angle": "history"
+    },
+    {
+      "q": "Who created the short \"The Chicken from Outer Space\"?",
+      "a": "John R. Dilworth",
+      "angle": "creators"
+    },
+    {
+      "q": "Who composed the Rugrats theme music?",
+      "a": "Mark Mothersbaugh",
+      "angle": "music"
+    },
+    {
+      "q": "Who co-founded Klasky Csupo with Arlene Klasky?",
+      "a": "G\u00e1bor Csup\u00f3",
+      "angle": "production"
+    },
+    {
+      "q": "Who hosted Toonami before TOM?",
+      "a": "Moltar",
+      "angle": "history"
+    },
+    {
+      "q": "What year did The Tick animated series debut?",
+      "a": "1994",
+      "angle": "history"
+    },
+    {
+      "q": "Which studio produced the CGI series ReBoot?",
+      "a": "Mainframe Entertainment",
+      "angle": "production"
+    },
+    {
+      "q": "What was the first aired episode of Ed, Edd n Eddy?",
+      "a": "\"The Ed-Touchables\"",
+      "angle": "episode"
+    },
+    {
+      "q": "Which programming block originally ran Gargoyles daily?",
+      "a": "The Disney Afternoon",
+      "angle": "network"
+    },
+    {
+      "q": "What was the first broadcast episode of Batman: The Animated Series?",
+      "a": "\"On Leather Wings\"",
+      "angle": "episode"
+    },
+    {
+      "q": "Who voiced Wolverine in X-Men: The Animated Series?",
+      "a": "Cal Dodd",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did Beast Wars: Transformers premiere?",
+      "a": "1996",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Nigel Thornberry in The Wild Thornberrys?",
+      "a": "Tim Curry",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did The Angry Beavers premiere?",
+      "a": "1997",
+      "angle": "history"
+    },
+    {
+      "q": "Who created The Angry Beavers?",
+      "a": "Mitch Schauer",
+      "angle": "creators"
+    },
+    {
+      "q": "Who voiced Norbert Beaver?",
+      "a": "Nick Bakay",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did the first Treehouse of Horror air on The Simpsons?",
+      "a": "1990",
+      "angle": "history"
+    },
+    {
+      "q": "In which show did Daria first appear?",
+      "a": "Beavis and Butt-Head",
+      "angle": "origin"
+    },
+    {
+      "q": "What futuristic city does Batman Beyond take place in?",
+      "a": "Neo-Gotham",
+      "angle": "setting"
     }
   ]
 }

@@ -149,6 +149,106 @@
       "q": "Who wore the double crown?",
       "a": "The pharaoh (symbol of unified Egypt)",
       "angle": "pharaohs"
+    },
+    {
+      "q": "What desert surrounds the Nile Valley?",
+      "a": "The Sahara Desert",
+      "angle": "geography"
+    },
+    {
+      "q": "What were pyramids built as?",
+      "a": "Tombs for pharaohs",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What city is near the Giza pyramids today?",
+      "a": "Cairo",
+      "angle": "geography"
+    },
+    {
+      "q": "What famous queen ruled Egypt last?",
+      "a": "Cleopatra VII",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What did Egyptians use to play board games?",
+      "a": "Senet boards and pieces",
+      "angle": "daily life"
+    },
+    {
+      "q": "What goddess had a cat head?",
+      "a": "Bastet",
+      "angle": "myths"
+    },
+    {
+      "q": "What is the name of the Great Sphinx's location?",
+      "a": "Giza Plateau",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What body part did embalmers remove through the nose?",
+      "a": "The brain",
+      "angle": "mummification"
+    },
+    {
+      "q": "What plant grew in the Nile marshes and was used for paper?",
+      "a": "Papyrus",
+      "angle": "nile"
+    },
+    {
+      "q": "What sea does the Nile flow into?",
+      "a": "The Mediterranean Sea",
+      "angle": "geography"
+    },
+    {
+      "q": "What is the lion-bodied, human-headed statue called?",
+      "a": "The Great Sphinx",
+      "angle": "monuments"
+    },
+    {
+      "q": "What material were many houses built from?",
+      "a": "Sun-dried mudbrick",
+      "angle": "daily life"
+    },
+    {
+      "q": "What simple garment did many Egyptians wear?",
+      "a": "A linen kilt or dress",
+      "angle": "daily life"
+    },
+    {
+      "q": "What river tool measured flood levels?",
+      "a": "A nilometer",
+      "angle": "nile"
+    },
+    {
+      "q": "What game used throwing sticks instead of dice?",
+      "a": "Senet",
+      "angle": "culture"
+    },
+    {
+      "q": "What symbol did pharaohs hold crossed on their chest?",
+      "a": "The crook and flail",
+      "angle": "regalia"
+    },
+    {
+      "q": "What animal did Egyptians often mummify as pets or offerings?",
+      "a": "Cats",
+      "angle": "beliefs"
+    },
+    {
+      "q": "What is the famous painted bust from Amarna period?",
+      "a": "The bust of Nefertiti",
+      "angle": "artifact"
+    },
+    {
+      "q": "What was King Tutankhamun's nickname?",
+      "a": "King Tut",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "Which direction were hieroglyphs often written?",
+      "a": "Right to left",
+      "angle": "writing"
     }
   ],
   "medium": [
@@ -301,6 +401,106 @@
       "q": "What is a shenti?",
       "a": "A kilt-like garment worn by men",
       "angle": "daily life"
+    },
+    {
+      "q": "Where is the Step Pyramid of Djoser located?",
+      "a": "Saqqara",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who ordered the construction of the Great Sphinx?",
+      "a": "Pharaoh Khafre (likely)",
+      "angle": "monuments"
+    },
+    {
+      "q": "Which god was linked to the sun disk Aten?",
+      "a": "Aten was worshipped during Akhenaten's reign",
+      "angle": "religion"
+    },
+    {
+      "q": "What temple complex near Luxor honored Amun?",
+      "a": "Karnak Temple",
+      "angle": "monuments"
+    },
+    {
+      "q": "What was the purpose of obelisks?",
+      "a": "Stone monuments dedicated to the sun god",
+      "angle": "architecture"
+    },
+    {
+      "q": "Which pharaoh signed the earliest known peace treaty?",
+      "a": "Ramesses II after the Battle of Kadesh",
+      "angle": "history"
+    },
+    {
+      "q": "What was Akhetaten?",
+      "a": "The capital city built by Akhenaten (modern Amarna)",
+      "angle": "history"
+    },
+    {
+      "q": "What is hieratic script?",
+      "a": "Cursive form of hieroglyphs for daily writing",
+      "angle": "writing"
+    },
+    {
+      "q": "What were pyramid texts meant to do?",
+      "a": "Guide the pharaoh in the afterlife",
+      "angle": "texts"
+    },
+    {
+      "q": "Who was the primary goddess of motherhood and magic?",
+      "a": "Isis",
+      "angle": "myths"
+    },
+    {
+      "q": "What did the double crown symbolize?",
+      "a": "Unification of Upper and Lower Egypt",
+      "angle": "symbol"
+    },
+    {
+      "q": "What did Egyptian builders use instead of mortar in pyramids?",
+      "a": "Fitted limestone blocks (with some gypsum mortar)",
+      "angle": "construction"
+    },
+    {
+      "q": "What was the role of a priest in temples?",
+      "a": "Perform daily rituals and maintain the god's cult statue",
+      "angle": "religion"
+    },
+    {
+      "q": "What was the main metal for tools before the Iron Age in Egypt?",
+      "a": "Copper, later bronze",
+      "angle": "technology"
+    },
+    {
+      "q": "Which festival renewed the pharaoh's power with a sed run?",
+      "a": "The Heb-Sed festival",
+      "angle": "festival"
+    },
+    {
+      "q": "What did Nilotic art commonly show?",
+      "a": "River life with plants, fish, and birds",
+      "angle": "art"
+    },
+    {
+      "q": "What did scribes use for black ink?",
+      "a": "Soot mixed with water and gum",
+      "angle": "writing"
+    },
+    {
+      "q": "What did Egyptians call their country in their language?",
+      "a": "\"Kemet\" meaning Black Land",
+      "angle": "language"
+    },
+    {
+      "q": "What did the white crown (hedjet) represent?",
+      "a": "Upper Egypt",
+      "angle": "symbol"
+    },
+    {
+      "q": "Who was the architect traditionally credited for the Great Pyramid?",
+      "a": "Hemiunu",
+      "angle": "figures"
     }
   ],
   "hard": [
@@ -453,6 +653,106 @@
       "q": "What is the oldest known pyramid text location?",
       "a": "Pyramid Texts in Unas's pyramid at Saqqara",
       "angle": "texts"
+    },
+    {
+      "q": "Which dynasty began the New Kingdom?",
+      "a": "18th Dynasty",
+      "angle": "history"
+    },
+    {
+      "q": "Which pharaoh restored traditional gods after Akhenaten?",
+      "a": "Tutankhamun",
+      "angle": "religion"
+    },
+    {
+      "q": "What is the Turin King List?",
+      "a": "A papyrus listing Egyptian kings and reign lengths",
+      "angle": "texts"
+    },
+    {
+      "q": "Which military unit guarded pharaohs in the New Kingdom?",
+      "a": "The Medjay (elite Nubian units)",
+      "angle": "military"
+    },
+    {
+      "q": "What quarry supplied granite for obelisks?",
+      "a": "Aswan quarries",
+      "angle": "resources"
+    },
+    {
+      "q": "Which pharaoh's obelisk stands in Paris today?",
+      "a": "Ramesses II's Luxor obelisk",
+      "angle": "monuments"
+    },
+    {
+      "q": "Which vizier wrote The Instructions of Ptahhotep?",
+      "a": "Ptahhotep during the Old Kingdom",
+      "angle": "literature"
+    },
+    {
+      "q": "What was the standard weight measure used in Egypt?",
+      "a": "The deben",
+      "angle": "economy"
+    },
+    {
+      "q": "Which pharaoh completed the Bent Pyramid's successor, the Red Pyramid?",
+      "a": "Sneferu",
+      "angle": "architecture"
+    },
+    {
+      "q": "Which temple housed the famous Dendera Zodiac ceiling?",
+      "a": "Temple of Hathor at Dendera",
+      "angle": "art"
+    },
+    {
+      "q": "What was the principal god of the city of Thebes?",
+      "a": "Amun",
+      "angle": "religion"
+    },
+    {
+      "q": "Which pharaoh fought the Sea Peoples at the Battle of the Delta?",
+      "a": "Ramesses III",
+      "angle": "military"
+    },
+    {
+      "q": "What is the oldest known medical treatise on gynecology?",
+      "a": "Kahun Gynecological Papyrus",
+      "angle": "texts"
+    },
+    {
+      "q": "Which festival involved carrying Amun's barque from Karnak to Luxor?",
+      "a": "The Opet Festival",
+      "angle": "festival"
+    },
+    {
+      "q": "Which pharaoh built the mortuary temple at Deir el-Bahari?",
+      "a": "Hatshepsut",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is the name of the unfinished obelisk site?",
+      "a": "Aswan Unfinished Obelisk",
+      "angle": "monuments"
+    },
+    {
+      "q": "Which pharaoh's reign marks the start of the Late Period?",
+      "a": "Psamtik I (26th Dynasty)",
+      "angle": "history"
+    },
+    {
+      "q": "Which god was worshipped at Edfu Temple?",
+      "a": "Horus",
+      "angle": "religion"
+    },
+    {
+      "q": "What text collection includes spells 1–190 for the afterlife?",
+      "a": "The Book of the Dead (Papyrus of Ani type)",
+      "angle": "texts"
+    },
+    {
+      "q": "In what year was the Battle of Kadesh fought?",
+      "a": "1274 BCE",
+      "angle": "military"
     }
   ]
 }

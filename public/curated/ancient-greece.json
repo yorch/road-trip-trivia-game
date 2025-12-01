@@ -42,8 +42,8 @@
     },
     {
       "q": "What did ancient Greeks wear?",
-      "a": "Togas / Tunics",
-      "angle": "city-states"
+      "a": "Chitons and himations (linen or wool garments)",
+      "angle": "daily life"
     },
     {
       "q": "Who was the Greek hero with great strength?",
@@ -99,6 +99,161 @@
       "q": "What horse did the Greeks use to enter Troy?",
       "a": "The Trojan Horse",
       "angle": "myths"
+    },
+    {
+      "q": "What alphabet did ancient Greeks use?",
+      "a": "The Greek alphabet",
+      "angle": "writing"
+    },
+    {
+      "q": "What were Greek marketplace squares called?",
+      "a": "Agoras",
+      "angle": "daily life"
+    },
+    {
+      "q": "What were Greek ships with three rows of oars called?",
+      "a": "Triremes",
+      "angle": "navy"
+    },
+    {
+      "q": "Who was the Greek sun god often shown with a lyre?",
+      "a": "Apollo",
+      "angle": "gods"
+    },
+    {
+      "q": "Who was the goddess of the hunt?",
+      "a": "Artemis",
+      "angle": "gods"
+    },
+    {
+      "q": "What monster had snakes for hair?",
+      "a": "Medusa",
+      "angle": "myths"
+    },
+    {
+      "q": "What is the name for half man, half horse creatures?",
+      "a": "Centaurs",
+      "angle": "myths"
+    },
+    {
+      "q": "What is the open-air performance space called?",
+      "a": "An amphitheater",
+      "angle": "culture"
+    },
+    {
+      "q": "What word means \"many gods\" worship?",
+      "a": "Polytheism",
+      "angle": "religion"
+    },
+    {
+      "q": "Who was the wine and theater god?",
+      "a": "Dionysus",
+      "angle": "gods"
+    },
+    {
+      "q": "Which hero slew the Minotaur?",
+      "a": "Theseus",
+      "angle": "myths"
+    },
+    {
+      "q": "What mythical horse could fly?",
+      "a": "Pegasus",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the Greek goddess of harvests?",
+      "a": "Demeter",
+      "angle": "gods"
+    },
+    {
+      "q": "Who opened a box releasing troubles into the world?",
+      "a": "Pandora",
+      "angle": "myths"
+    },
+    {
+      "q": "What famous hill holds the Parthenon?",
+      "a": "The Acropolis of Athens",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is the Greek word for city-state?",
+      "a": "Polis",
+      "angle": "politics"
+    },
+    {
+      "q": "What clothing item was a long cloak in Greece?",
+      "a": "A himation",
+      "angle": "daily life"
+    },
+    {
+      "q": "Who was the god of the underworld?",
+      "a": "Hades",
+      "angle": "gods"
+    },
+    {
+      "q": "What sport involved discus, javelin, long jump, running, and wrestling?",
+      "a": "The ancient pentathlon",
+      "angle": "olympics"
+    },
+    {
+      "q": "What were long Greek adventure poems like the Iliad called?",
+      "a": "Epics",
+      "angle": "literature"
+    },
+    {
+      "q": "What were Greek columns with scroll tops called?",
+      "a": "Ionic columns",
+      "angle": "architecture"
+    },
+    {
+      "q": "What were Greek columns with plain tops called?",
+      "a": "Doric columns",
+      "angle": "architecture"
+    },
+    {
+      "q": "What were Greek columns decorated with acanthus leaves called?",
+      "a": "Corinthian columns",
+      "angle": "architecture"
+    },
+    {
+      "q": "What goddess is the Parthenon dedicated to?",
+      "a": "Athena",
+      "angle": "gods"
+    },
+    {
+      "q": "What festival honored Athena in Athens?",
+      "a": "The Panathenaic Festival",
+      "angle": "culture"
+    },
+    {
+      "q": "What armor did hoplites wear on their heads?",
+      "a": "A bronze helmet",
+      "angle": "military"
+    },
+    {
+      "q": "What Greek city-state focused on art and democracy?",
+      "a": "Athens",
+      "angle": "city-states"
+    },
+    {
+      "q": "What Greek city-state focused on military training?",
+      "a": "Sparta",
+      "angle": "city-states"
+    },
+    {
+      "q": "What island was home to King Minos and the Minotaur myth?",
+      "a": "Crete",
+      "angle": "myths"
+    },
+    {
+      "q": "What were Greek ships with three rows of oars called?",
+      "a": "Triremes",
+      "angle": "navy"
+    },
+    {
+      "q": "What were Greek marketplace squares called?",
+      "a": "Agoras",
+      "angle": "daily life"
     }
   ],
   "medium": [
@@ -226,6 +381,131 @@
       "q": "What temple is dedicated to Athena in Athens?",
       "a": "The Parthenon",
       "angle": "architecture"
+    },
+    {
+      "q": "What oath did Greek doctors swear?",
+      "a": "The Hippocratic Oath",
+      "angle": "medicine"
+    },
+    {
+      "q": "What was the highest hill in Athens with a court of law?",
+      "a": "The Areopagus",
+      "angle": "politics"
+    },
+    {
+      "q": "Who was the playwright of Oedipus Rex?",
+      "a": "Sophocles",
+      "angle": "drama"
+    },
+    {
+      "q": "Which battle saved Athens right after Marathon?",
+      "a": "Battle of Salamis",
+      "angle": "wars"
+    },
+    {
+      "q": "What alliance did Sparta lead?",
+      "a": "The Peloponnesian League",
+      "angle": "politics"
+    },
+    {
+      "q": "Who wrote The Histories describing Persia vs Greece?",
+      "a": "Herodotus",
+      "angle": "history"
+    },
+    {
+      "q": "Who developed the method of questioning now named after him?",
+      "a": "Socrates",
+      "angle": "philosophy"
+    },
+    {
+      "q": "What was the sacred truce during the Olympic Games called?",
+      "a": "The ekecheiria",
+      "angle": "olympics"
+    },
+    {
+      "q": "Who wrote comedy plays like Lysistrata?",
+      "a": "Aristophanes",
+      "angle": "drama"
+    },
+    {
+      "q": "Which city-state had the naval power in the 5th century BC?",
+      "a": "Athens",
+      "angle": "navy"
+    },
+    {
+      "q": "What metal armor did hoplites wear on the torso?",
+      "a": "A bronze cuirass",
+      "angle": "military"
+    },
+    {
+      "q": "Who was the Macedonian general who split Alexander's empire in Egypt?",
+      "a": "Ptolemy I Soter",
+      "angle": "history"
+    },
+    {
+      "q": "What harbor served ancient Athens?",
+      "a": "Piraeus",
+      "angle": "economy"
+    },
+    {
+      "q": "Who was the Greek god of smithing and fire?",
+      "a": "Hephaestus",
+      "angle": "myths"
+    },
+    {
+      "q": "What poetic meter did Homer often use?",
+      "a": "Dactylic hexameter",
+      "angle": "literature"
+    },
+    {
+      "q": "What was the sacred treasury island for the Delian League?",
+      "a": "Delos",
+      "angle": "politics"
+    },
+    {
+      "q": "What region of Greece did the Oracle of Delphi lie in?",
+      "a": "Phocis (on Mount Parnassus slopes)",
+      "angle": "geography"
+    },
+    {
+      "q": "Who founded the school called the Lyceum?",
+      "a": "Aristotle",
+      "angle": "philosophy"
+    },
+    {
+      "q": "What coin was common silver currency in Athens?",
+      "a": "The drachma (notably the Athenian owl tetradrachm)",
+      "angle": "economy"
+    },
+    {
+      "q": "Who led Athens during its Golden Age building program?",
+      "a": "Pericles",
+      "angle": "politics"
+    },
+    {
+      "q": "Who wrote the tragedy Medea?",
+      "a": "Euripides",
+      "angle": "drama"
+    },
+    {
+      "q": "Which alliance did Philip II create to invade Persia?",
+      "a": "The League of Corinth",
+      "angle": "politics"
+    },
+    {
+      "q": "What was the Greek infantry shield called?",
+      "a": "Aspis (hoplon)",
+      "angle": "military"
+    },
+    {
+      "q": "Who was the Greek god of music and healing?",
+      "a": "Apollo",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the sacred island that held the Delian League treasury?",
+      "a": "Delos",
+      "angle": "politics"
     }
   ],
   "hard": [
@@ -265,9 +545,9 @@
       "angle": "city-states"
     },
     {
-      "q": "What was Greek fire?",
-      "a": "Ancient incendiary weapon",
-      "angle": "city-states"
+      "q": "What was a hoplite's main spear called?",
+      "a": "A dory",
+      "angle": "military"
     },
     {
       "q": "Who wrote 'The Republic'?",
@@ -290,8 +570,8 @@
       "angle": "philosophy"
     },
     {
-      "q": "Who tutored Alexander besides Aristotle's lineage?",
-      "a": "Aristotle himself tutored Alexander",
+      "q": "Who tutored Alexander the Great in philosophy and science?",
+      "a": "Aristotle",
       "angle": "history"
     },
     {
@@ -330,8 +610,8 @@
       "angle": "culture"
     },
     {
-      "q": "Who was the last king of Sparta (battle of Leuctra era)?",
-      "a": "Cleombrotus I died at Leuctra; later Agesilaus II notable",
+      "q": "Which Spartan king was killed at the Battle of Leuctra?",
+      "a": "Cleombrotus I",
       "angle": "history"
     },
     {
@@ -353,6 +633,131 @@
       "q": "What mathematical work is attributed to Euclid?",
       "a": "'Elements'",
       "angle": "math"
+    },
+    {
+      "q": "What year did the Battle of Thermopylae occur?",
+      "a": "480 BC",
+      "angle": "wars"
+    },
+    {
+      "q": "Who led the Theban Sacred Band at Leuctra?",
+      "a": "Epaminondas (with Pelopidas as commander of the Band)",
+      "angle": "military"
+    },
+    {
+      "q": "What city hosted the Isthmian Games?",
+      "a": "Corinth",
+      "angle": "olympics"
+    },
+    {
+      "q": "What is Aristotle's work on ethics called?",
+      "a": "Nicomachean Ethics",
+      "angle": "philosophy"
+    },
+    {
+      "q": "Who compiled the Elements of geometry before Euclid's school in Alexandria?",
+      "a": "Euclid at Alexandria around 300 BC (building on earlier Greek math)",
+      "angle": "math"
+    },
+    {
+      "q": "What was the decisive battle ending the Greco-Persian Wars?",
+      "a": "Battle of Plataea (479 BC)",
+      "angle": "wars"
+    },
+    {
+      "q": "Who described the Peloponnesian War firsthand?",
+      "a": "Thucydides",
+      "angle": "history"
+    },
+    {
+      "q": "Which philosopher founded the Cynic school?",
+      "a": "Diogenes of Sinope",
+      "angle": "philosophy"
+    },
+    {
+      "q": "Which Athenian orator opposed Philip II's expansion?",
+      "a": "Demosthenes",
+      "angle": "politics"
+    },
+    {
+      "q": "What is the Doric order known for?",
+      "a": "Plain column capitals and no base",
+      "angle": "architecture"
+    },
+    {
+      "q": "Which temple housed the Elgin Marbles originally?",
+      "a": "The Parthenon",
+      "angle": "art"
+    },
+    {
+      "q": "Who was sentenced to drink hemlock in 399 BC?",
+      "a": "Socrates",
+      "angle": "history"
+    },
+    {
+      "q": "What was the major plague during the Peloponnesian War?",
+      "a": "The Plague of Athens (430 BC)",
+      "angle": "history"
+    },
+    {
+      "q": "Which Greek tragedian wrote the Oresteia trilogy?",
+      "a": "Aeschylus",
+      "angle": "drama"
+    },
+    {
+      "q": "Who measured Earth's circumference with shadows?",
+      "a": "Eratosthenes",
+      "angle": "science"
+    },
+    {
+      "q": "What ancient Greek device predicted eclipses?",
+      "a": "The Antikythera mechanism",
+      "angle": "technology"
+    },
+    {
+      "q": "Which treaty ended the Peloponnesian War?",
+      "a": "The Peace of Nicias was earlier; final surrender in 404 BC imposed Spartan terms",
+      "angle": "politics"
+    },
+    {
+      "q": "Who founded the medical school on Cos?",
+      "a": "Hippocrates",
+      "angle": "medicine"
+    },
+    {
+      "q": "What Greek historian wrote about Alexander's campaigns later?",
+      "a": "Arrian (Anabasis of Alexander)",
+      "angle": "history"
+    },
+    {
+      "q": "What major battle in 338 BC brought Greek city-states under Macedon?",
+      "a": "The Battle of Chaeronea",
+      "angle": "wars"
+    },
+    {
+      "q": "Who reformed Athens' laws with harsh penalties before Solon?",
+      "a": "Draco",
+      "angle": "law"
+    },
+    {
+      "q": "Around what year did Solon's reforms begin?",
+      "a": "Circa 594 BC",
+      "angle": "politics"
+    },
+    {
+      "q": "Who led the Athenian navy at Salamis?",
+      "a": "Themistocles",
+      "angle": "wars"
+    },
+    {
+      "q": "What Greek mathematician wrote On the Sphere and Cylinder?",
+      "a": "Archimedes",
+      "angle": "math"
+    },
+    {
+      "q": "Which Athenian statesman rebuilt the Acropolis after the Persian Wars?",
+      "a": "Pericles",
+      "angle": "history"
     }
   ]
 }

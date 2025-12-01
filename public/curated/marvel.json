@@ -149,6 +149,131 @@
       "q": "What AI becomes Vision?",
       "a": "J.A.R.V.I.S.",
       "angle": "tech"
+    },
+    {
+      "q": "Who is Iron Man's alter ego?",
+      "a": "Tony Stark",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who is Captain America?",
+      "a": "Steve Rogers",
+      "angle": "heroes"
+    },
+    {
+      "q": "What metal covers Wolverine's claws?",
+      "a": "Adamantium",
+      "angle": "powers"
+    },
+    {
+      "q": "What is Thor's hammer called?",
+      "a": "Mjolnir",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the green Avenger with immense strength?",
+      "a": "Hulk (Bruce Banner)",
+      "angle": "heroes"
+    },
+    {
+      "q": "What superhero wears a red and blue spider suit?",
+      "a": "Spider-Man (Peter Parker)",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who leads the X-Men?",
+      "a": "Professor Charles Xavier",
+      "angle": "teams"
+    },
+    {
+      "q": "What is Black Panther's nation?",
+      "a": "Wakanda",
+      "angle": "setting"
+    },
+    {
+      "q": "Who says \"I am Groot\"?",
+      "a": "Groot",
+      "angle": "heroes"
+    },
+    {
+      "q": "What infinity stone does Vision have in his forehead?",
+      "a": "Mind Stone",
+      "angle": "items"
+    },
+    {
+      "q": "Who is Iron Man's AI assistant?",
+      "a": "JARVIS (later FRIDAY)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who is the Winter Soldier?",
+      "a": "Bucky Barnes",
+      "angle": "heroes"
+    },
+    {
+      "q": "What shield is Captain America's made of?",
+      "a": "Vibranium",
+      "angle": "items"
+    },
+    {
+      "q": "Who is Hawkeye?",
+      "a": "Clint Barton",
+      "angle": "heroes"
+    },
+    {
+      "q": "What is Doctor Strange's title?",
+      "a": "Sorcerer Supreme",
+      "angle": "magic"
+    },
+    {
+      "q": "What is the name of Thor's axe?",
+      "a": "Stormbreaker",
+      "angle": "items"
+    },
+    {
+      "q": "Who is Natasha Romanoff?",
+      "a": "Black Widow",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who is the king of Wakanda before T'Challa?",
+      "a": "T'Chaka",
+      "angle": "lore"
+    },
+    {
+      "q": "What team is Rocket Raccoon on?",
+      "a": "Guardians of the Galaxy",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is Peter Quill also known as?",
+      "a": "Star-Lord",
+      "angle": "heroes"
+    },
+    {
+      "q": "What animal is Rocket?",
+      "a": "A genetically modified raccoon",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Wanda Maximoff's hero name?",
+      "a": "Scarlet Witch",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who is Peter Parker's aunt?",
+      "a": "Aunt May",
+      "angle": "support"
+    },
+    {
+      "q": "What metal is in Wakanda?",
+      "a": "Vibranium",
+      "angle": "setting"
+    },
+    {
+      "q": "What is Spider-Man's hometown?",
+      "a": "Queens, New York",
+      "angle": "setting"
     }
   ],
   "medium": [
@@ -301,6 +426,131 @@
       "q": "Who is the leader of Wakanda's Dora Milaje?",
       "a": "Okoye",
       "angle": "team"
+    },
+    {
+      "q": "Who created Captain America in comics?",
+      "a": "Joe Simon and Jack Kirby",
+      "angle": "creators"
+    },
+    {
+      "q": "Who plays Iron Man in the MCU?",
+      "a": "Robert Downey Jr.",
+      "angle": "cast"
+    },
+    {
+      "q": "What is S.H.I.E.L.D.'s director?",
+      "a": "Nick Fury",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the villain in Black Panther?",
+      "a": "Erik Killmonger",
+      "angle": "villains"
+    },
+    {
+      "q": "What infinity stone does the Tesseract house?",
+      "a": "Space Stone",
+      "angle": "items"
+    },
+    {
+      "q": "What stone was in Loki's scepter?",
+      "a": "Mind Stone",
+      "angle": "items"
+    },
+    {
+      "q": "Who is Gamora's adoptive father?",
+      "a": "Thanos",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the name of Thor's mischievous brother?",
+      "a": "Loki",
+      "angle": "characters"
+    },
+    {
+      "q": "Who built Ultron?",
+      "a": "Tony Stark (and Bruce Banner) in MCU; Hank Pym in comics",
+      "angle": "plot"
+    },
+    {
+      "q": "What is Doctor Strange's relic cloak called?",
+      "a": "Cloak of Levitation",
+      "angle": "items"
+    },
+    {
+      "q": "Who are the children of Magneto?",
+      "a": "Scarlet Witch and Quicksilver (in comics)",
+      "angle": "lore"
+    },
+    {
+      "q": "What newspaper does Peter Parker work for traditionally?",
+      "a": "Daily Bugle",
+      "angle": "setting"
+    },
+    {
+      "q": "What is Wolverine's real name?",
+      "a": "James Howlett / Logan",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Daredevil's civilian name?",
+      "a": "Matt Murdock",
+      "angle": "heroes"
+    },
+    {
+      "q": "What is the metal in Captain America's shield?",
+      "a": "Vibranium (and alloy)",
+      "angle": "items"
+    },
+    {
+      "q": "What is the Avengers HQ called in upstate New York?",
+      "a": "The Avengers Compound",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Ant-Man's mentor in MCU?",
+      "a": "Hank Pym",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of Peter Parker's best friend in MCU?",
+      "a": "Ned Leeds",
+      "angle": "support"
+    },
+    {
+      "q": "Who is the AI in Spider-Man's suit from Stark?",
+      "a": "Karen (in MCU)",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the super-soldier serum creator's name?",
+      "a": "Dr. Abraham Erskine",
+      "angle": "lore"
+    },
+    {
+      "q": "Who leads the Dora Milaje?",
+      "a": "Okoye",
+      "angle": "support"
+    },
+    {
+      "q": "Who is the Falcon?",
+      "a": "Sam Wilson",
+      "angle": "heroes"
+    },
+    {
+      "q": "What organization is Hydra's motto?",
+      "a": "\"Cut off one head, two more shall take its place\"",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the Ancient One?",
+      "a": "Former Sorcerer Supreme (Celtic monk in MCU)",
+      "angle": "magic"
+    },
+    {
+      "q": "What metal are the Mandarin's Ten Rings made of in comics?",
+      "a": "Alien tech rings (Makluan)",
+      "angle": "items"
     }
   ],
   "hard": [
@@ -453,6 +703,131 @@
       "q": "Which Iron Man suit first has flight stabilizers and repulsor tech?",
       "a": "Mark II/Mark III",
       "angle": "tech"
+    },
+    {
+      "q": "What was the first MCU film released?",
+      "a": "Iron Man (2008)",
+      "angle": "films"
+    },
+    {
+      "q": "Who created Spider-Man?",
+      "a": "Stan Lee and Steve Ditko",
+      "angle": "creators"
+    },
+    {
+      "q": "What year did the Fantastic Four debut?",
+      "a": "1961",
+      "angle": "history"
+    },
+    {
+      "q": "What comic issue debuted Wolverine?",
+      "a": "The Incredible Hulk #180 cameo/#181 full (1974)",
+      "angle": "history"
+    },
+    {
+      "q": "Who killed Gwen Stacy in comics?",
+      "a": "Green Goblin (Norman Osborn) indirectly via fall",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the real name of Black Panther?",
+      "a": "T'Challa",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of Tony Stark's company?",
+      "a": "Stark Industries",
+      "angle": "setting"
+    },
+    {
+      "q": "What alien race invades in the first Avengers film?",
+      "a": "Chitauri",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the Sokovia Accords?",
+      "a": "UN oversight agreement for enhanced individuals",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is Peggy Carter's niece?",
+      "a": "Sharon Carter",
+      "angle": "characters"
+    },
+    {
+      "q": "What is Adamantium bonded to Wolverine called?",
+      "a": "Adamantium skeleton",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the king of the Inhumans?",
+      "a": "Black Bolt",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Doctor Doom's homeland?",
+      "a": "Latveria",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is the leader of the Eternals in many iterations?",
+      "a": "Ajak (varies)",
+      "angle": "lore"
+    },
+    {
+      "q": "What Infinity Stone was in Vision?",
+      "a": "Mind Stone",
+      "angle": "items"
+    },
+    {
+      "q": "Who is Thanos' brother with Eternals heritage?",
+      "a": "Starfox (Eros)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of Captain America's original shield shape?",
+      "a": "Heater-shaped shield (triangular) in early comics",
+      "angle": "history"
+    },
+    {
+      "q": "Who founded the X-Men?",
+      "a": "Professor X (Charles Xavier)",
+      "angle": "team"
+    },
+    {
+      "q": "What is the mutant ability of Kitty Pryde?",
+      "a": "Phasing through solid matter",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the Herald of Galactus who wields the Power Cosmic?",
+      "a": "Silver Surfer",
+      "angle": "cosmic"
+    },
+    {
+      "q": "What is Surtur in Norse myth within Marvel?",
+      "a": "Fire giant who triggers Ragnarok",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the son of Odin besides Thor in MCU?",
+      "a": "Loki (adopted), also Hela (in MCU retcon)",
+      "angle": "family"
+    },
+    {
+      "q": "What material is Captain America's shield in the MCU retconned to?",
+      "a": "Pure vibranium",
+      "angle": "items"
+    },
+    {
+      "q": "Which film introduced Black Panther in MCU?",
+      "a": "Captain America: Civil War (2016)",
+      "angle": "films"
+    },
+    {
+      "q": "What is the Kree warrior name of Captain Marvel?",
+      "a": "Vers (Carol Danvers in Kree Starforce)",
+      "angle": "identity"
     }
   ]
 }

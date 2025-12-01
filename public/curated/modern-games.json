@@ -159,6 +159,131 @@
       "q": "What console series is called 'Xbox'?",
       "a": "Microsoft's console line",
       "angle": "platform"
+    },
+    {
+      "q": "Who is the main plumber hero in many Nintendo games?",
+      "a": "Mario",
+      "angle": "characters"
+    },
+    {
+      "q": "What game features the Master Chief?",
+      "a": "Halo",
+      "angle": "franchises"
+    },
+    {
+      "q": "What is the block-building game by Mojang?",
+      "a": "Minecraft",
+      "angle": "franchises"
+    },
+    {
+      "q": "What battle royale drops 100 players onto an island?",
+      "a": "Fortnite",
+      "angle": "genres"
+    },
+    {
+      "q": "What is Link's sword called?",
+      "a": "Master Sword",
+      "angle": "items"
+    },
+    {
+      "q": "Which game series has Poké Balls?",
+      "a": "Pokémon",
+      "angle": "items"
+    },
+    {
+      "q": "What Italian plumber's brother wears green?",
+      "a": "Luigi",
+      "angle": "characters"
+    },
+    {
+      "q": "What game has the phrase \"Winner Winner Chicken Dinner\"?",
+      "a": "PUBG",
+      "angle": "phrases"
+    },
+    {
+      "q": "What shooter has heroes like Tracer and Mercy?",
+      "a": "Overwatch",
+      "angle": "franchises"
+    },
+    {
+      "q": "What company makes PlayStation?",
+      "a": "Sony",
+      "angle": "platforms"
+    },
+    {
+      "q": "What console family includes the Switch?",
+      "a": "Nintendo",
+      "angle": "platforms"
+    },
+    {
+      "q": "What is the blue blur hedgehog?",
+      "a": "Sonic",
+      "angle": "characters"
+    },
+    {
+      "q": "What game lets you catch pocket monsters?",
+      "a": "Pokémon",
+      "angle": "franchises"
+    },
+    {
+      "q": "What series features Kratos?",
+      "a": "God of War",
+      "angle": "characters"
+    },
+    {
+      "q": "What game features villagers and Tom Nook?",
+      "a": "Animal Crossing",
+      "angle": "franchises"
+    },
+    {
+      "q": "What is the main currency in Fortnite?",
+      "a": "V-Bucks",
+      "angle": "items"
+    },
+    {
+      "q": "What is the name of the electric mouse Pokémon?",
+      "a": "Pikachu",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the princess often rescued by Mario?",
+      "a": "Princess Peach",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the most popular MOBA with Radiant vs Dire?",
+      "a": "Dota 2",
+      "angle": "genres"
+    },
+    {
+      "q": "What is the most popular MOBA with Summoner's Rift?",
+      "a": "League of Legends",
+      "angle": "genres"
+    },
+    {
+      "q": "What handheld console succeeded the 3DS?",
+      "a": "Nintendo Switch (hybrid, replaced 3DS line)",
+      "angle": "platforms"
+    },
+    {
+      "q": "What game has a spell called Kamehameha crossover emote?",
+      "a": "Fortnite events",
+      "angle": "events"
+    },
+    {
+      "q": "What 3D sandbox lets you mine and craft blocks?",
+      "a": "Minecraft",
+      "angle": "franchises"
+    },
+    {
+      "q": "What racing series uses blue shells?",
+      "a": "Mario Kart",
+      "angle": "items"
+    },
+    {
+      "q": "What company publishes Call of Duty?",
+      "a": "Activision",
+      "angle": "publishers"
     }
   ],
   "medium": [
@@ -311,6 +436,131 @@
       "q": "What is Geralt of Rivia's profession?",
       "a": "A witcher (professional monster hunter)",
       "angle": "lore"
+    },
+    {
+      "q": "What studio developed The Legend of Zelda: Breath of the Wild?",
+      "a": "Nintendo EPD",
+      "angle": "developers"
+    },
+    {
+      "q": "What year did Fortnite Battle Royale launch?",
+      "a": "2017",
+      "angle": "dates"
+    },
+    {
+      "q": "Who is the creator of Minecraft?",
+      "a": "Markus Persson (Notch)",
+      "angle": "creators"
+    },
+    {
+      "q": "What is the island name in Animal Crossing: New Horizons?",
+      "a": "Player-named island; set on deserted island by Nook Inc.",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the main antagonist AI in Portal?",
+      "a": "GLaDOS",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the currency in Animal Crossing?",
+      "a": "Bells (and Nook Miles)",
+      "angle": "items"
+    },
+    {
+      "q": "Which game series stars Master Chief?",
+      "a": "Halo",
+      "angle": "franchises"
+    },
+    {
+      "q": "What studio makes League of Legends?",
+      "a": "Riot Games",
+      "angle": "developers"
+    },
+    {
+      "q": "What is the main map in PUBG called?",
+      "a": "Erangel (original map)",
+      "angle": "maps"
+    },
+    {
+      "q": "Which game features Geralt of Rivia?",
+      "a": "The Witcher series",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is the playable racer in Mario Kart known as a dinosaur?",
+      "a": "Yoshi",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the card type system in Gwent from The Witcher?",
+      "a": "Factions like Northern Realms, Nilfgaard",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What game has Vaults and Pip-Boys?",
+      "a": "Fallout series",
+      "angle": "items"
+    },
+    {
+      "q": "What power armor appears in Halo?",
+      "a": "MJOLNIR armor",
+      "angle": "items"
+    },
+    {
+      "q": "What battle royale features Legends like Wraith and Pathfinder?",
+      "a": "Apex Legends",
+      "angle": "franchises"
+    },
+    {
+      "q": "Who is the Norse son of Kratos?",
+      "a": "Atreus",
+      "angle": "characters"
+    },
+    {
+      "q": "What item do players drop to respawn in Apex Legends?",
+      "a": "Banner cards to respawn at beacons",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What year did the Nintendo Switch release?",
+      "a": "2017",
+      "angle": "dates"
+    },
+    {
+      "q": "What sci-fi horror game features Isaac Clarke?",
+      "a": "Dead Space",
+      "angle": "characters"
+    },
+    {
+      "q": "What ink-shooting multiplayer game stars Inklings?",
+      "a": "Splatoon",
+      "angle": "franchises"
+    },
+    {
+      "q": "Which game has the map \"Summoner's Rift\"?",
+      "a": "League of Legends",
+      "angle": "maps"
+    },
+    {
+      "q": "What genre is Civilization VI?",
+      "a": "Turn-based 4X strategy",
+      "angle": "genres"
+    },
+    {
+      "q": "What is the cat companion in Stray?",
+      "a": "You play as the cat protagonist",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is Aloy?",
+      "a": "Protagonist of Horizon series",
+      "angle": "characters"
+    },
+    {
+      "q": "Which game is known for building automation with conveyor belts?",
+      "a": "Factorio",
+      "angle": "mechanics"
     }
   ],
   "hard": [
@@ -463,6 +713,131 @@
       "q": "What handheld PC did Valve release in 2022?",
       "a": "Steam Deck",
       "angle": "hardware"
+    },
+    {
+      "q": "Who directed the game The Last of Us?",
+      "a": "Neil Druckmann (with Bruce Straley for Part I)",
+      "angle": "developers"
+    },
+    {
+      "q": "What engine does Fortnite use?",
+      "a": "Unreal Engine (currently UE5)",
+      "angle": "tech"
+    },
+    {
+      "q": "What studio developed Hades?",
+      "a": "Supergiant Games",
+      "angle": "developers"
+    },
+    {
+      "q": "Who composed music for The Witcher 3?",
+      "a": "Marcin Przybyłowicz, Mikolai Stroinski",
+      "angle": "music"
+    },
+    {
+      "q": "What is the subtitle of Zelda: BOTW sequel?",
+      "a": "Tears of the Kingdom",
+      "angle": "titles"
+    },
+    {
+      "q": "What battle royale map introduced the train in Apex Legends?",
+      "a": "Worlds Edge (Season 3)",
+      "angle": "maps"
+    },
+    {
+      "q": "What is the rarest material used to upgrade armor in BOTW?",
+      "a": "Star Fragments/Dragon parts for some armor",
+      "angle": "items"
+    },
+    {
+      "q": "Who is the CEO of Valve?",
+      "a": "Gabe Newell",
+      "angle": "figures"
+    },
+    {
+      "q": "What weapon class does Reinhardt use in Overwatch?",
+      "a": "Rocket hammer",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the developer of Hollow Knight?",
+      "a": "Team Cherry",
+      "angle": "developers"
+    },
+    {
+      "q": "What planetary system hosts Mass Effect's Citadel?",
+      "a": "The Widow system in the Serpent Nebula",
+      "angle": "lore"
+    },
+    {
+      "q": "What company publishes Elden Ring?",
+      "a": "Bandai Namco",
+      "angle": "publishers"
+    },
+    {
+      "q": "Who designed Dark Souls series?",
+      "a": "Hidetaka Miyazaki",
+      "angle": "creators"
+    },
+    {
+      "q": "What is the name of the ship in Outer Wilds?",
+      "a": "The spaceship/ship used by the Hearthians called the Nomai shuttle? The player ship is unnamed; often called the timber hearth ship",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the main resource color for Valorant credits?",
+      "a": "Creds (white numeric, not color)",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the highest rarity color in Fortnite?",
+      "a": "Mythic (gold/yellow)",
+      "angle": "items"
+    },
+    {
+      "q": "Who voices Kratos in the 2018 God of War?",
+      "a": "Christopher Judge",
+      "angle": "cast"
+    },
+    {
+      "q": "What studio makes Destiny 2?",
+      "a": "Bungie",
+      "angle": "developers"
+    },
+    {
+      "q": "What is the prison planet in Guardians of the Galaxy game?",
+      "a": "The Kyln (Marvel lore), in game Nova Corps prison",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the setting city in Cyberpunk 2077?",
+      "a": "Night City",
+      "angle": "setting"
+    },
+    {
+      "q": "What system are Korok seeds used for?",
+      "a": "Expanding inventory slots in BOTW",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is the name of the main island in Ghost of Tsushima?",
+      "a": "Tsushima Island",
+      "angle": "setting"
+    },
+    {
+      "q": "What color portal launches objects forward in Portal?",
+      "a": "The orange portal pairs with blue",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What company created the Frostbite engine?",
+      "a": "EA DICE",
+      "angle": "tech"
+    },
+    {
+      "q": "What DLC expanded The Witcher 3 with Toussaint?",
+      "a": "Blood and Wine",
+      "angle": "titles"
     }
   ]
 }
