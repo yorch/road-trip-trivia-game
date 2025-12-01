@@ -1,31 +1,157 @@
-[
-  "90s-cartoons",
-  "ancient-egypt",
-  "ancient-greece",
-  "anime-heroes",
-  "basketball",
-  "dc-comics",
-  "dinosaurs",
-  "disney-classics",
-  "f1",
-  "harry-potter",
-  "kpop-demon-hunters",
-  "lotr",
-  "marvel",
-  "modern-games",
-  "music-legends",
-  "mythology",
-  "pokemon",
-  "pop-hits",
-  "racing",
-  "retro-games",
-  "movie-soundtracks",
-  "soccer",
-  "space-exploration",
-  "star-wars",
-  "tech-giants",
-  "us-history",
-  "world-capitals",
-  "world-landmarks",
-  "world-history"
-]
+{
+  "90s-cartoons": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "ancient-egypt": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "ancient-greece": {
+    "easy": 56,
+    "medium": 55,
+    "hard": 55
+  },
+  "anime-heroes": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "basketball": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "dc-comics": {
+    "easy": 57,
+    "medium": 55,
+    "hard": 64
+  },
+  "dinosaurs": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "disney-classics": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "f1": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "harry-potter": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "kpop-demon-hunters": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "lotr": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "marvel": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "modern-games": {
+    "easy": 57,
+    "medium": 55,
+    "hard": 55
+  },
+  "movie-soundtracks": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "music-legends": {
+    "easy": 56,
+    "medium": 55,
+    "hard": 55
+  },
+  "mythology": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "pokemon": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "pop-hits": {
+    "easy": 57,
+    "medium": 55,
+    "hard": 55
+  },
+  "racing": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "retro-games": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "robotics": {
+    "easy": 51,
+    "medium": 42,
+    "hard": 48
+  },
+  "soccer": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "space-exploration": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "star-wars": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "tech-giants": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "tech-innovations": {
+    "easy": 43,
+    "medium": 40,
+    "hard": 41
+  },
+  "us-history": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "world-capitals": {
+    "easy": 40,
+    "medium": 40,
+    "hard": 40
+  },
+  "world-history": {
+    "easy": 55,
+    "medium": 62,
+    "hard": 59
+  },
+  "world-landmarks": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  }
+}

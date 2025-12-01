@@ -1,0 +1,713 @@
+{
+  "easy": [
+    {
+      "q": "What is a robot vacuum used for?",
+      "a": "Automatically cleaning floors",
+      "angle": "home robot"
+    },
+    {
+      "q": "What do industrial robotic arms often do?",
+      "a": "Automate tasks like welding or assembly",
+      "angle": "factory use"
+    },
+    {
+      "q": "What sensors help robots avoid obstacles?",
+      "a": "Cameras, lidar, or ultrasonic sensors",
+      "angle": "sensors"
+    },
+    {
+      "q": "What does AI help robots do?",
+      "a": "Perceive, plan, and make decisions",
+      "angle": "ai assist"
+    },
+    {
+      "q": "What is a drone?",
+      "a": "An unmanned aerial vehicle often used for photos or inspection",
+      "angle": "platform"
+    },
+    {
+      "q": "What is a humanoid robot shaped like?",
+      "a": "A human body form",
+      "angle": "form factor"
+    },
+    {
+      "q": "What is a warehouse picking robot for?",
+      "a": "Grabbing items for orders",
+      "angle": "logistics"
+    },
+    {
+      "q": "What is a delivery robot's job?",
+      "a": "Carrying packages or food to customers",
+      "angle": "delivery"
+    },
+    {
+      "q": "What do robotic exoskeletons assist with?",
+      "a": "Supporting or augmenting human movement",
+      "angle": "assistive"
+    },
+    {
+      "q": "What is teleoperation?",
+      "a": "Controlling a robot remotely",
+      "angle": "control"
+    },
+    {
+      "q": "What is a gripper on a robot arm?",
+      "a": "An end effector for holding objects",
+      "angle": "hardware"
+    },
+    {
+      "q": "What powers most small mobile robots?",
+      "a": "Rechargeable batteries",
+      "angle": "power"
+    },
+    {
+      "q": "What is a line-following robot?",
+      "a": "A robot that tracks a line on the ground",
+      "angle": "education"
+    },
+    {
+      "q": "What is a cobot?",
+      "a": "A collaborative robot designed to work with people",
+      "angle": "safety"
+    },
+    {
+      "q": "What is path planning in robotics?",
+      "a": "Computing a safe path from point A to B",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a mobile robot base?",
+      "a": "The chassis and wheels or tracks that move a robot",
+      "angle": "hardware"
+    },
+    {
+      "q": "Why do robots use depth cameras?",
+      "a": "To understand distance and 3D structure",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is object detection?",
+      "a": "Recognizing and locating items in images",
+      "angle": "perception"
+    },
+    {
+      "q": "What is a drone gimbal for?",
+      "a": "Stabilizing a camera",
+      "angle": "camera"
+    },
+    {
+      "q": "What is ROS in robotics?",
+      "a": "Robot Operating System middleware",
+      "angle": "software"
+    },
+    {
+      "q": "What is SLAM?",
+      "a": "Simultaneous localization and mapping",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a servo motor?",
+      "a": "A motor with position control feedback",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is haptics in robotics?",
+      "a": "Touch feedback or sensing",
+      "angle": "interaction"
+    },
+    {
+      "q": "What are robot actuators for?",
+      "a": "Producing movement",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is a quadruped robot?",
+      "a": "A four-legged robot",
+      "angle": "form factor"
+    },
+    {
+      "q": "What is an AGV?",
+      "a": "Automated guided vehicle",
+      "angle": "logistics"
+    },
+    {
+      "q": "What is geofencing for drones?",
+      "a": "Restricting flight within certain areas",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a robotic lawn mower?",
+      "a": "A mower that cuts grass autonomously",
+      "angle": "home robot"
+    },
+    {
+      "q": "What is computer vision used for in robots?",
+      "a": "Interpreting images to understand the environment",
+      "angle": "perception"
+    },
+    {
+      "q": "What do ultrasonic sensors measure?",
+      "a": "Distance using sound waves",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is an end effector?",
+      "a": "The tool attached to a robot arm's end",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is waypoint navigation?",
+      "a": "Moving through a series of set points",
+      "angle": "navigation"
+    },
+    {
+      "q": "What does autonomy mean in robots?",
+      "a": "Operating with minimal human control",
+      "angle": "capability"
+    },
+    {
+      "q": "What is a drone propeller for?",
+      "a": "Generating lift and thrust",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is a proximity sensor?",
+      "a": "A sensor that detects nearby objects",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is a robotic kit for students?",
+      "a": "A set of parts to build and program a robot",
+      "angle": "education"
+    },
+    {
+      "q": "What is a pick-and-place task?",
+      "a": "Picking up an item and placing it elsewhere",
+      "angle": "manipulation"
+    },
+    {
+      "q": "What is a motion capture marker used for?",
+      "a": "Tracking robot or human movement for control",
+      "angle": "tracking"
+    },
+    {
+      "q": "What is a mobile manipulator?",
+      "a": "A robot with wheels and an arm",
+      "angle": "platform"
+    },
+    {
+      "q": "What is obstacle avoidance?",
+      "a": "Avoiding collisions while moving",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a battery swap for drones?",
+      "a": "Replacing a depleted pack quickly",
+      "angle": "operations"
+    },
+    {
+      "q": "What is a GPS waypoint?",
+      "a": "A latitude/longitude point for navigation",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a joystick used for with robots?",
+      "a": "Manual control input",
+      "angle": "control"
+    },
+    {
+      "q": "What is calibration in robotics?",
+      "a": "Aligning sensors or joints for accuracy",
+      "angle": "setup"
+    },
+    {
+      "q": "What is a payload on a robot?",
+      "a": "The weight or tool it can carry",
+      "angle": "spec"
+    },
+    {
+      "q": "What is an IMU used for?",
+      "a": "Measuring acceleration and rotation",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is waypoint following in drones?",
+      "a": "Flying a programmed route",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is line of sight for drone pilots?",
+      "a": "Being able to see the drone directly",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a failsafe return-to-home?",
+      "a": "Automatic return when signal or battery is low",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a manipulator joint called?",
+      "a": "A robotic joint or axis",
+      "angle": "hardware"
+    },
+    {
+      "q": "What is a tool changer on a robot?",
+      "a": "A system to swap end effectors quickly",
+      "angle": "productivity"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What does inverse kinematics solve in a robot arm?",
+      "a": "Joint angles needed to reach a position",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is forward kinematics?",
+      "a": "Computing end effector position from joint states",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is a URDF file in ROS?",
+      "a": "A robot description format for links and joints",
+      "angle": "software"
+    },
+    {
+      "q": "What do PID controllers do in robotics?",
+      "a": "Stabilize motion using proportional, integral, derivative terms",
+      "angle": "control"
+    },
+    {
+      "q": "What is occupancy mapping?",
+      "a": "Building a map of free and occupied space",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is a point cloud?",
+      "a": "A set of 3D points from sensors like lidar",
+      "angle": "perception"
+    },
+    {
+      "q": "What is path smoothing?",
+      "a": "Reducing sharp turns in a planned path",
+      "angle": "planning"
+    },
+    {
+      "q": "What does a Kalman filter help with?",
+      "a": "Estimating state from noisy sensor data",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is a mecanum wheel useful for?",
+      "a": "Enabling omnidirectional drive",
+      "angle": "mobility"
+    },
+    {
+      "q": "What are ROS topics?",
+      "a": "Publish/subscribe channels for robot data",
+      "angle": "software"
+    },
+    {
+      "q": "What is SLAM loop closure?",
+      "a": "Recognizing previously visited places to correct the map",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is telepresence robotics for?",
+      "a": "Letting people attend remotely with a mobile robot",
+      "angle": "use case"
+    },
+    {
+      "q": "What is force sensing on a gripper?",
+      "a": "Measuring applied force to avoid damage",
+      "angle": "manipulation"
+    },
+    {
+      "q": "What is trajectory planning?",
+      "a": "Timing and shaping motion between waypoints",
+      "angle": "planning"
+    },
+    {
+      "q": "What is dynamic obstacle avoidance?",
+      "a": "Avoiding moving objects in real time",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is swarm robotics?",
+      "a": "Many robots coordinating as a group",
+      "angle": "multi-robot"
+    },
+    {
+      "q": "What is a ROS bag file?",
+      "a": "Recorded sensor and topic data for playback",
+      "angle": "software"
+    },
+    {
+      "q": "What is a teach pendant used for?",
+      "a": "Programming and jogging industrial robots",
+      "angle": "factory"
+    },
+    {
+      "q": "What is localization drift?",
+      "a": "Gradual position error accumulating over time",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is visual odometry?",
+      "a": "Estimating motion from camera frames",
+      "angle": "perception"
+    },
+    {
+      "q": "What is a safety light curtain?",
+      "a": "Sensors that stop robots when a beam is broken",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a force-torque sensor for?",
+      "a": "Measuring forces at a robot wrist",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is a vacuum gripper good for?",
+      "a": "Picking flat or smooth objects with suction",
+      "angle": "manipulation"
+    },
+    {
+      "q": "What is impedance control?",
+      "a": "Controlling how stiff or compliant a robot behaves",
+      "angle": "control"
+    },
+    {
+      "q": "What is a PLC in automation?",
+      "a": "Programmable logic controller",
+      "angle": "factory"
+    },
+    {
+      "q": "What is time-of-flight sensing?",
+      "a": "Measuring distance by timing light pulses",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is a digital twin for robots?",
+      "a": "A virtual model used to simulate robot systems",
+      "angle": "simulation"
+    },
+    {
+      "q": "What is a redundant robot arm?",
+      "a": "One with more joints than necessary for positioning",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What does ROS 2 add over ROS 1?",
+      "a": "DDS messaging, real-time improvements, and security",
+      "angle": "software"
+    },
+    {
+      "q": "What is perception latency?",
+      "a": "Delay between sensing and usable information",
+      "angle": "performance"
+    },
+    {
+      "q": "What is a waypoint graph?",
+      "a": "A network of points connected for navigation",
+      "angle": "planning"
+    },
+    {
+      "q": "What is LIDAR short for?",
+      "a": "Light detection and ranging",
+      "angle": "sensors"
+    },
+    {
+      "q": "What is a 6-DOF arm?",
+      "a": "An arm with six degrees of freedom for positioning",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is nonholonomic constraint?",
+      "a": "A motion limit like no sideways sliding on wheels",
+      "angle": "mobility"
+    },
+    {
+      "q": "What is waypoint replanning?",
+      "a": "Updating the path as conditions change",
+      "angle": "planning"
+    },
+    {
+      "q": "What is a gripper fingertip design for?",
+      "a": "Tailoring contact for specific objects",
+      "angle": "manipulation"
+    },
+    {
+      "q": "What is occupancy grid resolution?",
+      "a": "The cell size in a map representation",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is an industrial robot safety cage for?",
+      "a": "Physically separating humans from robot motion",
+      "angle": "safety"
+    },
+    {
+      "q": "What are AMRs in warehouses?",
+      "a": "Autonomous mobile robots moving goods",
+      "angle": "logistics"
+    },
+    {
+      "q": "What is palletizing automation?",
+      "a": "Stacking boxes or bags onto pallets with robots",
+      "angle": "factory"
+    },
+    {
+      "q": "What is cobot force limiting?",
+      "a": "Limiting power and force to reduce injury risk",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a SLAM back end?",
+      "a": "Optimization that refines the map and trajectory",
+      "angle": "mapping"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What algorithm underpins probabilistic roadmap planning?",
+      "a": "Sampling random nodes and connecting feasible edges",
+      "angle": "planning"
+    },
+    {
+      "q": "What does RRT stand for?",
+      "a": "Rapidly-exploring Random Tree",
+      "angle": "planning"
+    },
+    {
+      "q": "What is RRT*'s advantage over RRT?",
+      "a": "It rewires for asymptotically optimal paths",
+      "angle": "planning"
+    },
+    {
+      "q": "What is the Jacobian used for in robotics?",
+      "a": "Relating joint velocities to end-effector velocities",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is operational space control?",
+      "a": "Controlling motion in task space rather than joint space",
+      "angle": "control"
+    },
+    {
+      "q": "What is the difference between serial and parallel manipulators?",
+      "a": "Serial links connect in a chain; parallel use multiple arms to one platform",
+      "angle": "mechanisms"
+    },
+    {
+      "q": "What does PID gain tuning affect?",
+      "a": "Stability, overshoot, and response speed",
+      "angle": "control"
+    },
+    {
+      "q": "What is dynamic stability in legged robots?",
+      "a": "Maintaining balance while moving with changing support polygons",
+      "angle": "locomotion"
+    },
+    {
+      "q": "What is MPC in robotics?",
+      "a": "Model predictive control for constrained optimization",
+      "angle": "control"
+    },
+    {
+      "q": "What is a Kalman filter assumption about noise?",
+      "a": "Gaussian noise with known covariance",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is factor graph optimization used for in SLAM?",
+      "a": "Representing constraints to solve for poses and landmarks",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is ICP alignment?",
+      "a": "Iterative closest point aligning point clouds",
+      "angle": "perception"
+    },
+    {
+      "q": "What is a voxel map used for?",
+      "a": "3D occupancy representation",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is sensor fusion?",
+      "a": "Combining multiple sensors to improve estimates",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is time synchronization in sensor suites?",
+      "a": "Aligning timestamps so data fuses correctly",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is backdrivability?",
+      "a": "Ability to move a joint by external force",
+      "angle": "mechanisms"
+    },
+    {
+      "q": "What is impedance vs admittance control difference?",
+      "a": "Impedance sets force response; admittance sets motion response to force",
+      "angle": "control"
+    },
+    {
+      "q": "What is proprioception in robots?",
+      "a": "Sensing internal state like joint positions and torques",
+      "angle": "sensing"
+    },
+    {
+      "q": "What is tactile sensing?",
+      "a": "Measuring contact forces or textures at end effectors",
+      "angle": "sensing"
+    },
+    {
+      "q": "What is a UR5 robot an example of?",
+      "a": "A 6-axis collaborative arm",
+      "angle": "platform"
+    },
+    {
+      "q": "What is EtherCAT used for in robots?",
+      "a": "Real-time industrial fieldbus communication",
+      "angle": "networking"
+    },
+    {
+      "q": "What are ROS message types defined in?",
+      "a": ".msg files specifying fields",
+      "angle": "software"
+    },
+    {
+      "q": "What is ROS action server used for?",
+      "a": "Handling long-running goals with feedback",
+      "angle": "software"
+    },
+    {
+      "q": "What is a SLAM front end responsible for?",
+      "a": "Feature extraction and data association",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is a Kalman filter innovation term?",
+      "a": "The difference between predicted and measured values",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is singularity in manipulators?",
+      "a": "A configuration where motion becomes limited or unstable",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is redundancy resolution?",
+      "a": "Choosing joint motions when multiple solutions exist",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is a Jacobian transpose control method?",
+      "a": "Using the transpose to map desired forces to joint torques",
+      "angle": "control"
+    },
+    {
+      "q": "What is a wrench in robotics?",
+      "a": "Combined forces and torques vector",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What is minimum jerk trajectory planning?",
+      "a": "Creating smooth motion minimizing jerk",
+      "angle": "planning"
+    },
+    {
+      "q": "What is hybrid force/motion control?",
+      "a": "Controlling force along some axes and position along others",
+      "angle": "control"
+    },
+    {
+      "q": "What is a compliant joint?",
+      "a": "One that allows some give or elasticity",
+      "angle": "mechanisms"
+    },
+    {
+      "q": "What is teleoperation latency risk?",
+      "a": "Delay causing control overshoot or instability",
+      "angle": "safety"
+    },
+    {
+      "q": "What is actuator saturation?",
+      "a": "When a motor hits its torque or speed limits",
+      "angle": "limits"
+    },
+    {
+      "q": "What is kinematic singularity avoidance?",
+      "a": "Planning motions to stay away from problematic poses",
+      "angle": "planning"
+    },
+    {
+      "q": "What is an occupancy voxel inflation radius?",
+      "a": "Margin added around obstacles for safety",
+      "angle": "planning"
+    },
+    {
+      "q": "What is ROS tf used for?",
+      "a": "Managing coordinate frame transforms",
+      "angle": "software"
+    },
+    {
+      "q": "What is a URDF transmission element?",
+      "a": "Defines how actuators drive joints",
+      "angle": "software"
+    },
+    {
+      "q": "What is the Denavit-Hartenberg convention?",
+      "a": "A standard way to describe robot link geometry",
+      "angle": "kinematics"
+    },
+    {
+      "q": "What is torque control on a motor?",
+      "a": "Commanding torque rather than speed or position",
+      "angle": "control"
+    },
+    {
+      "q": "What is a safety PLC used for?",
+      "a": "Certified control for emergency stops and safety logic",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a robot's workspace?",
+      "a": "The volume the end effector can reach",
+      "angle": "spec"
+    },
+    {
+      "q": "What is SLAM graph sparsification?",
+      "a": "Reducing factors to speed up optimization",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is visual servoing?",
+      "a": "Using camera feedback to control motion",
+      "angle": "control"
+    },
+    {
+      "q": "What is the purpose of a teach mode speed limit?",
+      "a": "Slow movement when humans program robots",
+      "angle": "safety"
+    },
+    {
+      "q": "What is RTK GPS used for?",
+      "a": "Centimeter-level positioning with corrections",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a compliant grasp?",
+      "a": "Allowing slight motion to conform to object shape",
+      "angle": "manipulation"
+    },
+    {
+      "q": "What is a proprioceptive sensor example?",
+      "a": "Joint encoders or torque sensors",
+      "angle": "sensing"
+    }
+  ]
+}

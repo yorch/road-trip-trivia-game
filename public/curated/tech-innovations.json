@@ -1,0 +1,628 @@
+{
+  "easy": [
+    {
+      "q": "What company makes the iPhone?",
+      "a": "Apple",
+      "angle": "product maker"
+    },
+    {
+      "q": "Who co-founded Microsoft?",
+      "a": "Bill Gates and Paul Allen",
+      "angle": "founders"
+    },
+    {
+      "q": "What does VR stand for?",
+      "a": "Virtual reality",
+      "angle": "acronym"
+    },
+    {
+      "q": "What wearable counts your steps and heart rate?",
+      "a": "A fitness tracker or smartwatch",
+      "angle": "consumer device"
+    },
+    {
+      "q": "What device is famous for Alexa voice control?",
+      "a": "Amazon Echo smart speaker",
+      "angle": "voice assistant"
+    },
+    {
+      "q": "What does 5G refer to?",
+      "a": "Fifth-generation mobile networks",
+      "angle": "connectivity"
+    },
+    {
+      "q": "Who makes the Galaxy smartphone line?",
+      "a": "Samsung",
+      "angle": "product maker"
+    },
+    {
+      "q": "What is cloud storage commonly used for?",
+      "a": "Saving files online for access anywhere",
+      "angle": "use case"
+    },
+    {
+      "q": "What is the purpose of a drone?",
+      "a": "An unmanned aerial vehicle for photos, delivery, or inspection",
+      "angle": "device use"
+    },
+    {
+      "q": "What company makes PlayStation consoles?",
+      "a": "Sony",
+      "angle": "product maker"
+    },
+    {
+      "q": "What does USB-C describe?",
+      "a": "A reversible connector standard for data and power",
+      "angle": "standard"
+    },
+    {
+      "q": "What company created the Kindle e-reader?",
+      "a": "Amazon",
+      "angle": "product maker"
+    },
+    {
+      "q": "What is a smart home hub for?",
+      "a": "Controlling lights, locks, and devices centrally",
+      "angle": "use case"
+    },
+    {
+      "q": "What is Face ID used for on phones?",
+      "a": "Unlocking with facial recognition",
+      "angle": "security feature"
+    },
+    {
+      "q": "What chip brand powers many gaming PCs?",
+      "a": "AMD or Intel",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What does HDMI connect?",
+      "a": "Audio and video between devices like consoles and TVs",
+      "angle": "standard"
+    },
+    {
+      "q": "What is a streaming stick used for?",
+      "a": "Turning a TV into a smart TV for apps and video",
+      "angle": "use case"
+    },
+    {
+      "q": "What type of car runs only on battery power?",
+      "a": "An electric vehicle (EV)",
+      "angle": "clean tech"
+    },
+    {
+      "q": "What is AirPods an example of?",
+      "a": "Wireless earbuds",
+      "angle": "wearable audio"
+    },
+    {
+      "q": "What does GPS provide?",
+      "a": "Location and navigation data",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a laptop 2-in-1?",
+      "a": "A device that works as both laptop and tablet",
+      "angle": "form factor"
+    },
+    {
+      "q": "What company makes the Switch console?",
+      "a": "Nintendo",
+      "angle": "product maker"
+    },
+    {
+      "q": "What is Wi-Fi used for?",
+      "a": "Wireless internet connectivity",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What are noise-cancelling headphones for?",
+      "a": "Reducing background noise while listening",
+      "angle": "audio tech"
+    },
+    {
+      "q": "What is Bluetooth used for?",
+      "a": "Short-range wireless connections between devices",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What company built the Surface laptop line?",
+      "a": "Microsoft",
+      "angle": "product maker"
+    },
+    {
+      "q": "What does LED stand for in displays?",
+      "a": "Light-emitting diode",
+      "angle": "display tech"
+    },
+    {
+      "q": "What is a smart thermostat?",
+      "a": "A thermostat that adjusts temperature automatically or remotely",
+      "angle": "smart home"
+    },
+    {
+      "q": "What does AR stand for?",
+      "a": "Augmented reality",
+      "angle": "acronym"
+    },
+    {
+      "q": "What mobile payment lets you tap your phone at checkout?",
+      "a": "Contactless pay like Apple Pay or Google Pay",
+      "angle": "payments"
+    },
+    {
+      "q": "What company created the Chromebook concept?",
+      "a": "Google",
+      "angle": "product maker"
+    },
+    {
+      "q": "What is a solar panel used for?",
+      "a": "Converting sunlight into electricity",
+      "angle": "clean tech"
+    },
+    {
+      "q": "What is a power bank?",
+      "a": "A portable battery to recharge devices",
+      "angle": "battery"
+    },
+    {
+      "q": "What are earbuds with a charging case called?",
+      "a": "True wireless earbuds",
+      "angle": "wearable audio"
+    },
+    {
+      "q": "What is a webcam used for?",
+      "a": "Video calls and streaming",
+      "angle": "use case"
+    },
+    {
+      "q": "What does SSD mean for storage?",
+      "a": "Solid-state drive",
+      "angle": "storage"
+    },
+    {
+      "q": "What device uses e-ink to display books?",
+      "a": "An e-reader",
+      "angle": "display tech"
+    },
+    {
+      "q": "What is smart lighting?",
+      "a": "Bulbs that can change color or be controlled remotely",
+      "angle": "smart home"
+    },
+    {
+      "q": "What is biometric unlock?",
+      "a": "Using fingerprint or face to unlock devices",
+      "angle": "security feature"
+    },
+    {
+      "q": "What does USB PD enable?",
+      "a": "Fast power delivery over USB",
+      "angle": "charging"
+    },
+    {
+      "q": "What is a mesh Wi-Fi system?",
+      "a": "Multiple routers working together for better coverage",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What is Chromecast used for?",
+      "a": "Casting video or apps to a TV",
+      "angle": "use case"
+    },
+    {
+      "q": "What is wireless charging often called?",
+      "a": "Qi charging",
+      "angle": "charging"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who co-founded Google?",
+      "a": "Larry Page and Sergey Brin",
+      "angle": "founders"
+    },
+    {
+      "q": "What chip architecture dominates smartphones?",
+      "a": "ARM architecture",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is a neural network accelerator in phones called?",
+      "a": "A neural processing unit (NPU)",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What launch introduced the M1 chip to Macs?",
+      "a": "Apple's 2020 Mac lineup",
+      "angle": "product launch"
+    },
+    {
+      "q": "What does LiDAR do on devices?",
+      "a": "Measures distance with lasers for depth mapping",
+      "angle": "sensor"
+    },
+    {
+      "q": "What is OLED's advantage over LCD?",
+      "a": "Self-lit pixels for better contrast and blacks",
+      "angle": "display tech"
+    },
+    {
+      "q": "What tech enables folding phones?",
+      "a": "Flexible OLED displays and hinge systems",
+      "angle": "form factor"
+    },
+    {
+      "q": "What is RISC-V?",
+      "a": "An open instruction set architecture",
+      "angle": "architecture"
+    },
+    {
+      "q": "What does SaaS stand for?",
+      "a": "Software as a Service",
+      "angle": "cloud"
+    },
+    {
+      "q": "What is edge computing?",
+      "a": "Processing data near the source instead of only in the cloud",
+      "angle": "cloud"
+    },
+    {
+      "q": "What battery chemistry powers most phones?",
+      "a": "Lithium-ion",
+      "angle": "battery"
+    },
+    {
+      "q": "What is Wi-Fi 6 also known as?",
+      "a": "802.11ax",
+      "angle": "standard"
+    },
+    {
+      "q": "What is Matter in smart homes?",
+      "a": "A unified connectivity standard for devices",
+      "angle": "standard"
+    },
+    {
+      "q": "What is quantum computing's basic unit called?",
+      "a": "A qubit",
+      "angle": "research"
+    },
+    {
+      "q": "What is blockchain mainly used for?",
+      "a": "Decentralized ledgers like cryptocurrencies or supply tracking",
+      "angle": "distributed tech"
+    },
+    {
+      "q": "What does GPU acceleration help with beyond graphics?",
+      "a": "AI, simulations, and compute workloads",
+      "angle": "compute"
+    },
+    {
+      "q": "What is a system-on-chip?",
+      "a": "Multiple components like CPU, GPU, modem on one chip",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What is a fabless chip company?",
+      "a": "Designing chips but outsourcing manufacturing",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What is battery energy density?",
+      "a": "Energy stored per unit mass or volume",
+      "angle": "battery"
+    },
+    {
+      "q": "What is a heat pipe in laptops for?",
+      "a": "Moving heat away from processors to coolers",
+      "angle": "thermal"
+    },
+    {
+      "q": "What does UWB enable on devices?",
+      "a": "Precise short-range positioning",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What is FDM in 3D printing?",
+      "a": "Fused deposition modeling",
+      "angle": "3d print"
+    },
+    {
+      "q": "What is CNC machining used for in hardware?",
+      "a": "Computer-controlled cutting of parts",
+      "angle": "manufacturing"
+    },
+    {
+      "q": "What is an SoC die shrink?",
+      "a": "Moving to a smaller fabrication node for efficiency",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What does NVMe improve?",
+      "a": "Faster storage access over PCIe for SSDs",
+      "angle": "storage"
+    },
+    {
+      "q": "What is Wi-Fi mesh backhaul?",
+      "a": "The wireless link between mesh nodes",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What is multi-factor authentication?",
+      "a": "Using two or more verification methods to log in",
+      "angle": "security"
+    },
+    {
+      "q": "What is zero trust in security?",
+      "a": "Never assume trust; always verify devices and users",
+      "angle": "security"
+    },
+    {
+      "q": "What is a PWA?",
+      "a": "A Progressive Web App",
+      "angle": "web tech"
+    },
+    {
+      "q": "What is serverless computing?",
+      "a": "Running code without managing servers, billed per execution",
+      "angle": "cloud"
+    },
+    {
+      "q": "What is haptic feedback?",
+      "a": "Tactile vibrations to simulate touch response",
+      "angle": "interaction"
+    },
+    {
+      "q": "What is optical image stabilization?",
+      "a": "Hardware that counters shake for clearer photos",
+      "angle": "camera"
+    },
+    {
+      "q": "What is end-to-end encryption?",
+      "a": "Only senders and recipients can read the data",
+      "angle": "security"
+    },
+    {
+      "q": "What is containerization?",
+      "a": "Packaging software with dependencies to run consistently",
+      "angle": "cloud"
+    },
+    {
+      "q": "What is GraphQL used for?",
+      "a": "Querying APIs with flexible requests",
+      "angle": "web tech"
+    },
+    {
+      "q": "What is a photonic chip exploring?",
+      "a": "Using light instead of electrons for compute or interconnect",
+      "angle": "research"
+    },
+    {
+      "q": "What is mmWave 5G known for?",
+      "a": "Very fast speeds but short range",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What is a privacy sandbox in browsers?",
+      "a": "APIs to reduce third-party tracking while allowing ads",
+      "angle": "privacy"
+    },
+    {
+      "q": "What is passkey login?",
+      "a": "Passwordless authentication using device-bound keys",
+      "angle": "security"
+    },
+    {
+      "q": "What does Dolby Vision provide?",
+      "a": "Dynamic HDR metadata for better picture quality",
+      "angle": "display tech"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What node size launched with Apple A17 Pro?",
+      "a": "A 3 nm process",
+      "angle": "process node"
+    },
+    {
+      "q": "What company pioneered EUV lithography tools?",
+      "a": "ASML",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What is chiplet architecture?",
+      "a": "Combining multiple smaller dies in one package",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What is HBM memory used for?",
+      "a": "High-bandwidth memory stacked near processors",
+      "angle": "memory"
+    },
+    {
+      "q": "What is PCIe 5.0's main benefit?",
+      "a": "Twice the throughput of PCIe 4.0",
+      "angle": "interface"
+    },
+    {
+      "q": "What does ARMv9 add over ARMv8?",
+      "a": "Enhanced security and ML features",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is ray tracing hardware for?",
+      "a": "Accelerating realistic light and shadow rendering",
+      "angle": "graphics"
+    },
+    {
+      "q": "What is tensor core hardware?",
+      "a": "Specialized units for matrix math in AI workloads",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What is chip binning?",
+      "a": "Sorting chips by performance and power characteristics",
+      "angle": "manufacturing"
+    },
+    {
+      "q": "What is photolithography?",
+      "a": "Using light to pattern circuits on silicon wafers",
+      "angle": "manufacturing"
+    },
+    {
+      "q": "What packaging links dies with silicon interposers?",
+      "a": "2.5D packaging",
+      "angle": "packaging"
+    },
+    {
+      "q": "What is Foveros?",
+      "a": "Intel's 3D chip stacking technology",
+      "angle": "packaging"
+    },
+    {
+      "q": "What is gate-all-around?",
+      "a": "A transistor design wrapping the gate around the channel",
+      "angle": "device architecture"
+    },
+    {
+      "q": "What is MLOps?",
+      "a": "Practices for deploying and maintaining machine learning models",
+      "angle": "ai ops"
+    },
+    {
+      "q": "What is a transformer model known for?",
+      "a": "Attention mechanisms for sequence tasks",
+      "angle": "ai model"
+    },
+    {
+      "q": "What is diffusion used for in generative AI?",
+      "a": "Iteratively denoising to create images or audio",
+      "angle": "ai model"
+    },
+    {
+      "q": "What does RISC stand for?",
+      "a": "Reduced Instruction Set Computer",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is ARM's big.LITTLE design?",
+      "a": "Mixing high-performance and efficiency cores",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is NVLink for?",
+      "a": "High-speed GPU-to-GPU interconnect",
+      "angle": "interconnect"
+    },
+    {
+      "q": "What is CXL used for?",
+      "a": "Coherent interconnect for CPUs, GPUs, and memory pooling",
+      "angle": "interconnect"
+    },
+    {
+      "q": "What is LPDDR5X known for?",
+      "a": "Low-power, fast mobile memory",
+      "angle": "memory"
+    },
+    {
+      "q": "What is a TPM used for?",
+      "a": "Trusted Platform Module for secure keys and boot",
+      "angle": "security"
+    },
+    {
+      "q": "What is zero-knowledge proof technology for?",
+      "a": "Verifying information without revealing the data",
+      "angle": "privacy"
+    },
+    {
+      "q": "What is the role of a baseband modem?",
+      "a": "Handling radio communications and signal processing",
+      "angle": "wireless"
+    },
+    {
+      "q": "What is photonic interconnect research aiming at?",
+      "a": "Using light to move data between chips faster and cooler",
+      "angle": "research"
+    },
+    {
+      "q": "What is V2G in EVs?",
+      "a": "Vehicle-to-grid power flow",
+      "angle": "energy"
+    },
+    {
+      "q": "What is silicon anode research targeting?",
+      "a": "Higher capacity lithium batteries",
+      "angle": "battery research"
+    },
+    {
+      "q": "What is solid-state battery tech?",
+      "a": "Batteries using solid electrolytes for safety and density",
+      "angle": "battery research"
+    },
+    {
+      "q": "What does MIMO improve in wireless?",
+      "a": "Throughput and reliability using multiple antennas",
+      "angle": "wireless"
+    },
+    {
+      "q": "What is OFDM in 5G?",
+      "a": "Orthogonal frequency-division multiplexing modulation",
+      "angle": "wireless"
+    },
+    {
+      "q": "What is an AI accelerator card used for?",
+      "a": "Offloading machine learning inference or training",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What is wafer-scale integration?",
+      "a": "Building a massive processor across almost a whole wafer",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "What is Open RAN?",
+      "a": "Disaggregated, interoperable radio access network architecture",
+      "angle": "wireless"
+    },
+    {
+      "q": "What is edge TPU hardware for?",
+      "a": "Running ML at the edge with low power",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What is Federated Learning?",
+      "a": "Training models across devices without centralizing data",
+      "angle": "ai privacy"
+    },
+    {
+      "q": "What is homomorphic encryption's promise?",
+      "a": "Computing on encrypted data without decrypting",
+      "angle": "privacy"
+    },
+    {
+      "q": "What is a microLED display?",
+      "a": "Self-emissive tiny LEDs for bright, efficient screens",
+      "angle": "display tech"
+    },
+    {
+      "q": "What does AV1 improve?",
+      "a": "Video compression efficiency over older codecs",
+      "angle": "media"
+    },
+    {
+      "q": "What is volumetric capture?",
+      "a": "Recording 3D scenes for immersive playback",
+      "angle": "xr"
+    },
+    {
+      "q": "What is a digital twin used for?",
+      "a": "A virtual model of a physical system for simulation",
+      "angle": "simulation"
+    },
+    {
+      "q": "What is neuromorphic computing exploring?",
+      "a": "Brain-inspired hardware for efficient AI",
+      "angle": "research"
+    }
+  ]
+}
