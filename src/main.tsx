@@ -7,7 +7,6 @@ import { effect } from '@preact/signals';
 import { render } from 'preact';
 import { App } from './components/App';
 import {
-  answerExamples,
   categoryAngles,
   difficulties,
   loadStaticData,
@@ -16,19 +15,21 @@ import {
 } from './data/data';
 import {
   askedSignal,
+  difficultySignal,
   loadDifficulty,
   loadLastTopic,
   loadProgress,
   loadQuestionMode,
   loadScoreboard,
   progress,
+  questionModeSignal,
   scoreSignal,
   showTopicPickerSignal,
-  state,
   streakSignal,
+  topicIdSignal,
 } from './state';
+import { nextQuestion } from './state/game-logic';
 import type { ScoreboardData } from './types';
-import { nextQuestion } from './ui/question-flow';
 import { ErrorHandler, ToastManager } from './utils';
 
 // Track if localStorage warning has been shown this session
@@ -116,18 +117,9 @@ async function init(): Promise<void> {
     return;
   }
 
-  // Expose to window for backward compatibility with existing code
-  window.topicList = topicList;
-  window.difficulties = difficulties;
-  window.categoryAngles = categoryAngles;
-  window.promptTemplates = promptTemplates;
-  window.answerExamples = answerExamples;
-
   // Load saved preferences from localStorage
-  Object.assign(state, {
-    questionMode: loadQuestionMode(),
-    difficulty: loadDifficulty(),
-  });
+  questionModeSignal.value = loadQuestionMode();
+  difficultySignal.value = loadDifficulty();
 
   // Load progress and scoreboard
   const loadedProgress = loadProgress();
@@ -149,7 +141,7 @@ async function init(): Promise<void> {
   const lastTopic = loadLastTopic();
   if (lastTopic && topicList.find((t) => t.id === lastTopic)) {
     // Resume with saved topic
-    state.topicId = lastTopic; // This updates the signal
+    topicIdSignal.value = lastTopic;
     nextQuestion();
   } else {
     // First visit or invalid saved topic - show picker

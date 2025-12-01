@@ -2,7 +2,8 @@
 // Maintains backward compatibility while organizing code into focused modules
 
 import { type Signal, signal } from '@preact/signals';
-import type { Difficulty, Question, QuestionMode, State } from '../types';
+import { difficulties } from '../data/data';
+import type { Difficulty, Question, QuestionMode } from '../types';
 import { DIFFICULTY_LEVELS, QUESTION_MODES } from '../utils';
 
 export * from './curated-cache';
@@ -46,53 +47,6 @@ export const endStateSignal: Signal<{ title: string; message: string } | null> =
 export const showTopicPickerSignal: Signal<boolean> = signal(false);
 export const showCuratedListSignal: Signal<boolean> = signal(false);
 
-// Global state with reactive properties
-export const state: State = {
-  get topicId(): string | null {
-    return topicIdSignal.value;
-  },
-  set topicId(val: string | null) {
-    topicIdSignal.value = val;
-  },
-  get difficulty(): Difficulty {
-    return difficultySignal.value;
-  },
-  set difficulty(val: Difficulty) {
-    difficultySignal.value = val;
-  },
-  get questionMode(): QuestionMode {
-    return questionModeSignal.value;
-  },
-  set questionMode(val: QuestionMode) {
-    questionModeSignal.value = val;
-  },
-  get revealed(): boolean {
-    return revealedSignal.value;
-  },
-  set revealed(val: boolean) {
-    revealedSignal.value = val;
-  },
-  // Use getters/setters to sync with signals for backward compatibility
-  get score(): number {
-    return scoreSignal.value;
-  },
-  set score(val: number) {
-    scoreSignal.value = val;
-  },
-  get streak(): number {
-    return streakSignal.value;
-  },
-  set streak(val: number) {
-    streakSignal.value = val;
-  },
-  get asked(): number {
-    return askedSignal.value;
-  },
-  set asked(val: number) {
-    askedSignal.value = val;
-  },
-};
-
 // Wrapper for saveProgress to maintain existing API
 export function saveProgress(): void {
   persistProgress(progress);
@@ -100,25 +54,25 @@ export function saveProgress(): void {
 
 // Wrapper for rebuildQuestionBank to maintain existing API
 export function rebuildQuestionBank(): void {
-  rebuildBank(state.topicId, progress);
+  rebuildBank(topicIdSignal.value, progress);
   persistProgress(progress);
 }
 
 // Wrapper for resetProgressAll to maintain existing API
 export function resetProgressAll(): void {
-  resetAllProgress(window.difficulties as Difficulty[]);
-  state.score = 0;
-  state.streak = 0;
-  state.asked = 0;
+  resetAllProgress(difficulties);
+  scoreSignal.value = 0;
+  streakSignal.value = 0;
+  askedSignal.value = 0;
   persistProgress(progress);
 }
 
 // Re-export loadScoreboard but make it update state for backward compatibility
 export function loadScoreboard(): void {
   const data = loadScoreboardData();
-  state.score = data.score;
-  state.streak = data.streak;
-  state.asked = data.asked;
+  scoreSignal.value = data.score;
+  streakSignal.value = data.streak;
+  askedSignal.value = data.asked;
 }
 
 // Initialize progress from persistence

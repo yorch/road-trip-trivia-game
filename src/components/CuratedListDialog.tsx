@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import { topicList } from '../data/data';
 import { loadCuratedTopicIndex, showCuratedListSignal } from '../state';
 import type { Topic } from '../types';
 
@@ -27,9 +28,9 @@ export function CuratedListDialog() {
 
   async function loadStats() {
     await loadCuratedTopicIndex();
-    const topicList = window.topicList || [];
+    const topics = topicList || [];
 
-    const promises = topicList.map(async (topic: Topic) => {
+    const promises = topics.map(async (topic: Topic) => {
       try {
         const response = await fetch(`curated/${topic.id}.json`);
         if (!response.ok) return null;

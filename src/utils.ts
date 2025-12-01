@@ -1,3 +1,4 @@
+import { categoryAngles } from './data/data';
 import type { Difficulty, QuestionMode, Topic } from './types';
 
 // Constants
@@ -67,7 +68,7 @@ export function shuffleIndices(length: number, seedBase = 1): number[] {
 
 // Build angles for a topic
 export function buildAngles(topic: Topic): string[] {
-  const base = window.categoryAngles[topic.category] || [];
+  const base = categoryAngles[topic.category] || [];
   const general = [
     'origin',
     'favorite',

@@ -1,36 +1,38 @@
-// Question navigation and flow logic
-// Handles question progression, scoring, and skipping
+// Game business logic: navigation, scoring, and flow control
 
+import { topicList } from '../data/data';
+import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
 import {
+  askedSignal,
   currentQuestionSignal,
+  difficultySignal,
   endStateSignal,
   getOrCreateQuestions,
   getProgress,
-  resetProgressAll as resetAllProgress,
+  questionModeSignal,
+  revealedSignal,
   saveLastTopic,
   saveProgress,
-  state,
-} from '../state';
-import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
+  scoreSignal,
+  showTopicPickerSignal,
+  streakSignal,
+  topicIdSignal,
+} from './index';
 
 // Get next question
 export async function nextQuestion(): Promise<void> {
-  if (!state.topicId) {
+  const topicId = topicIdSignal.value;
+  const difficulty = difficultySignal.value;
+  const questionMode = questionModeSignal.value;
+
+  if (!topicId) {
     ErrorHandler.critical('No topic selected');
     return;
   }
 
-  const prog = await getProgress(
-    state.topicId,
-    state.difficulty,
-    state.questionMode,
-  );
+  const prog = await getProgress(topicId, difficulty, questionMode);
   // Lazy load: get or create questions for current topic/difficulty/mode
-  const bank = await getOrCreateQuestions(
-    state.topicId,
-    state.difficulty,
-    state.questionMode,
-  );
+  const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
@@ -75,8 +77,8 @@ export async function nextQuestion(): Promise<void> {
   }
 
   prog.cursor += 1;
-  state.asked += 1;
-  state.revealed = false;
+  askedSignal.value += 1;
+  revealedSignal.value = false;
   saveProgress();
 
   endStateSignal.value = null;
@@ -85,42 +87,59 @@ export async function nextQuestion(): Promise<void> {
 
 // Mark answer as correct
 export function markCorrect(): void {
-  state.score += 1;
-  state.streak += 1;
+  scoreSignal.value += 1;
+  streakSignal.value += 1;
   nextQuestion();
 }
 
 // Skip question
 export function skipQuestion(): void {
-  state.streak = 0;
+  streakSignal.value = 0;
   nextQuestion();
 }
 
 // Reset progress
 export function resetProgress(): void {
-  resetAllProgress();
-  nextQuestion();
+  const topicId = topicIdSignal.value;
+  if (!topicId) return;
+
+  // We don't actually clear the progress object, just mark it for reshuffle
+  // This preserves the "seen" status if we wanted to track that later
+  // For now, we just reset the cursor and generate a new shuffle order
+  getProgress(topicId, difficultySignal.value, questionModeSignal.value).then(
+    (prog) => {
+      prog.cursor = 0;
+      const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
+      // We need the bank size to shuffle
+      getOrCreateQuestions(
+        topicId,
+        difficultySignal.value,
+        questionModeSignal.value,
+      ).then((bank) => {
+        prog.order = shuffleIndices(bank.length, seed);
+        saveProgress();
+        nextQuestion();
+        ErrorHandler.success('Progress reset for this topic!');
+      });
+    },
+  );
 }
 
 // Select topic and start
 export function selectTopicAndStart(topicId: string): void {
-  // Check if topic has answer examples or curated questions
-  const hasAnswerExamples = window.answerExamples?.[topicId];
-  const hasCuratedQuestions =
-    typeof window.curatedQuestions !== 'undefined' &&
-    window.curatedQuestions[topicId];
-
-  // Warn if topic has neither answer examples nor curated questions
-  if (!hasAnswerExamples && !hasCuratedQuestions) {
-    const topic = window.topicList.find((t) => t.id === topicId);
-    const topicName = topic ? topic.name : topicId;
-    ErrorHandler.warn(
-      `"${topicName}" has limited content. Questions use generic templates and may be less refined.`,
-    );
+  const topic = topicList.find((t) => t.id === topicId);
+  if (!topic) {
+    ErrorHandler.critical(`Topic not found: ${topicId}`);
+    return;
   }
 
-  state.topicId = topicId;
-  state.streak = 0;
+  topicIdSignal.value = topicId;
+  streakSignal.value = 0;
+  showTopicPickerSignal.value = false;
   saveLastTopic(topicId);
+
+  // Check if we have answer examples for this topic
+  // If not, and we're in "All" mode, we might want to warn or switch to curated?
+  // For now, just proceed - the generator will handle it
   nextQuestion();
 }

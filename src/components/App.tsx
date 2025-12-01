@@ -1,3 +1,4 @@
+import { topicList } from '../data/data';
 import {
   difficultySignal,
   questionModeSignal,
@@ -5,14 +6,14 @@ import {
   saveDifficulty,
   saveQuestionMode,
   showTopicPickerSignal,
-  state,
+  streakSignal,
 } from '../state';
-import type { Difficulty, QuestionMode } from '../types';
 import {
   nextQuestion,
   resetProgress,
   selectTopicAndStart,
-} from '../ui/question-flow';
+} from '../state/game-logic';
+import type { Difficulty, QuestionMode } from '../types';
 import { CuratedListDialog } from './CuratedListDialog';
 import { QuestionCard } from './QuestionCard';
 import { Scoreboard } from './Scoreboard';
@@ -23,24 +24,24 @@ export function App() {
   const questionMode = questionModeSignal.value;
 
   const handleDifficultyChange = (diff: Difficulty) => {
-    state.difficulty = diff;
-    state.streak = 0;
+    difficultySignal.value = diff;
+    streakSignal.value = 0;
     saveDifficulty(diff);
     nextQuestion();
   };
 
   const handleModeChange = (mode: QuestionMode) => {
-    state.questionMode = mode;
-    state.streak = 0;
+    questionModeSignal.value = mode;
+    streakSignal.value = 0;
     saveQuestionMode(mode);
     rebuildQuestionBank();
     nextQuestion();
   };
 
   const handleRandomTopic = () => {
-    const topics = window.topicList;
-    if (topics && topics.length > 0) {
-      const randomTopic = topics[Math.floor(Math.random() * topics.length)];
+    if (topicList && topicList.length > 0) {
+      const randomTopic =
+        topicList[Math.floor(Math.random() * topicList.length)];
       selectTopicAndStart(randomTopic.id);
     }
   };

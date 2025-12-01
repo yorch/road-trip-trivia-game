@@ -1,6 +1,12 @@
 // Question generation and banking
 // Handles question creation from templates and curated sources
 
+import {
+  answerExamples,
+  loadAnswerExamples,
+  promptTemplates,
+  topicList,
+} from '../data/data';
 import type {
   CuratedQuestion,
   Difficulty,
@@ -94,7 +100,7 @@ export async function getOrCreateQuestions(
 
   // Lazily create questions for this difficulty and mode if not already created
   if (!questionBank[topicId][cacheKey]) {
-    const topic = window.topicList.find((t: Topic) => t.id === topicId);
+    const topic = topicList.find((t: Topic) => t.id === topicId);
     if (topic) {
       questionBank[topicId][cacheKey] = await createQuestions(
         topic,
@@ -116,19 +122,18 @@ async function createQuestions(
   difficulty: Difficulty,
   mode: QuestionMode = QUESTION_MODES.ALL,
 ): Promise<Question[]> {
-  const prompts = window.promptTemplates[difficulty];
+  const prompts = promptTemplates[difficulty];
   const allAngles = buildAngles(topic);
   const bank: Question[] = [];
 
   // Lazy load curated questions for this specific topic and answer examples
-  const { loadAnswerExamples } = await import('../data/data');
   const [topicCurated] = await Promise.all([
     loadTopicCuratedQuestions(topic.id),
     loadAnswerExamples(),
   ]);
 
   const curated = topicCurated[difficulty] || [];
-  const examples = window.answerExamples?.[topic.id] || {};
+  const examples = answerExamples?.[topic.id] || {};
 
   // If curated-only mode and no curated questions exist, return empty
   if (mode === QUESTION_MODES.CURATED && curated.length === 0) {

@@ -1,3 +1,4 @@
+import { topicList } from '../data/data';
 import {
   currentQuestionSignal,
   difficultySignal,
@@ -5,8 +6,8 @@ import {
   revealedSignal,
   topicIdSignal,
 } from '../state';
+import { markCorrect, nextQuestion, skipQuestion } from '../state/game-logic';
 import type { Topic } from '../types';
-import { markCorrect, nextQuestion, skipQuestion } from '../ui/question-flow';
 
 export function QuestionCard() {
   const question = currentQuestionSignal.value;
@@ -16,7 +17,7 @@ export function QuestionCard() {
   const difficulty = difficultySignal.value;
 
   // Find topic name
-  const topic = window.topicList?.find((t: Topic) => t.id === topicId);
+  const topic = topicList?.find((t: Topic) => t.id === topicId);
 
   if (endState) {
     return (

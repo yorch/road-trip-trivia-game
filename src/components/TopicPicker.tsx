@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
-import { loadAnswerExamples } from '../data/data';
+import { answerExamples, loadAnswerExamples, topicList } from '../data/data';
 import {
   hasCuratedQuestions,
   loadCuratedTopicIndex,
   showCuratedListSignal,
   showTopicPickerSignal,
 } from '../state';
+import { selectTopicAndStart } from '../state/game-logic';
 import type { Topic } from '../types';
-import { selectTopicAndStart } from '../ui/question-flow';
 
 export function TopicPicker() {
   const show = showTopicPickerSignal.value;
@@ -33,9 +33,9 @@ export function TopicPicker() {
   }, [show]);
 
   const filteredTopics = useMemo(() => {
-    if (!window.topicList) return [];
+    if (!topicList) return [];
 
-    let topics = window.topicList;
+    let topics = topicList;
 
     // Filter by search
     if (search) {
@@ -53,8 +53,7 @@ export function TopicPicker() {
       topics = topics.filter((t: Topic) => hasCuratedQuestions(t.id));
     } else if (filter === 'quality') {
       topics = topics.filter(
-        (t: Topic) =>
-          hasCuratedQuestions(t.id) || window.answerExamples?.[t.id],
+        (t: Topic) => hasCuratedQuestions(t.id) || answerExamples?.[t.id],
       );
     }
 
@@ -171,7 +170,7 @@ export function TopicPicker() {
                 <div class="topic-grid">
                   {groupedTopics[category].map((topic: Topic) => {
                     const isCurated = hasCuratedQuestions(topic.id);
-                    const hasExamples = window.answerExamples?.[topic.id];
+                    const hasExamples = answerExamples?.[topic.id];
 
                     return (
                       <button
