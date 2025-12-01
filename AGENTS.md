@@ -39,20 +39,19 @@ yarn format           # Format code with Biome
 
 ### Module Structure (TypeScript + ES6 Modules via Vite)
 
-**src/main.ts** (191 lines) - Application entry point
+**src/main.tsx** - Application entry point
 
 - Initialization orchestration and PWA registration via vite-plugin-pwa
-- Data validation and dependency checks
-- Session restoration (last topic, difficulty, question mode, scoreboard)
-- Exposes globals to `window` for backward compatibility
+- Renders the root `<App />` component
+- Initializes game state via `initGame()`
 
-**src/types.ts** (81 lines) - TypeScript type definitions
+**src/types.ts** - TypeScript type definitions
 
 - Core types: `Topic`, `Difficulty`, `QuestionMode`, `Question`, `State`, `Progress`
 - Type guards and utility types for runtime safety
 - Shared interfaces across all modules
 
-**src/utils.ts** (203 lines) - Pure utility functions
+**src/utils.ts** - Pure utility functions
 
 - `shuffleIndices()`: Deterministic shuffle using linear congruential generator
 - `fillTemplate()`: Template string replacement for question generation
@@ -61,57 +60,43 @@ yarn format           # Format code with Biome
 - `escapeHtml()`: XSS protection for user-facing content
 - Constants: difficulty levels, question modes, debounce timings
 
-**State Module** (576 lines total across 5 files) - Reactive state management
+**State Module** (`src/state/`) - Reactive state management
 
-- `src/state/index.ts` (85 lines): Main state exports and Preact Signals integration
+- `index.ts`: Main state exports and Preact Signals integration
   - `state` signal: Current session (topicId, difficulty, questionMode, revealed)
   - `scoreboard` signal: Reactive score, streak, asked tracking
   - Signal effects for automatic UI updates
-
-- `src/state/questions.ts` (181 lines): Question bank and generation logic
+- `questions.ts`: Question bank and generation logic
   - `questionBank` cache: Questions by topic/difficulty/mode
   - Lazy question generation: Creates questions only when needed
-  - Template-based generation with angle selection
-
-- `src/state/persistence.ts` (137 lines): localStorage integration
+- `persistence.ts`: localStorage integration
   - Progress persistence across sessions
   - Preference storage (topic, difficulty, mode)
-  - Scoreboard state saving/restoration
-
-- `src/state/progress.ts` (94 lines): Question tracking
+- `progress.ts`: Question tracking
   - Per-topic/difficulty progress (order, cursor)
   - Deterministic shuffle management
-  - Progress reset and reshuffle logic
-
-- `src/state/curated-cache.ts` (79 lines): Curated questions management
+- `curated-cache.ts`: Curated questions management
   - Async loading from `/public/curated/[topic-id].json`
-  - Parallel topic file fetching for better performance
-  - AbortController for cancellable fetches
-  - Cache invalidation and reload support
+- `game-logic.ts`: Core game actions
+  - `nextQuestion()`, `revealAnswer()`, `resetProgress()`
+  - Encapsulates game rules and state transitions
+- `init.ts`: App initialization
+  - `initGame()`: Loads data, restores session, sets up effects
 
-**UI Module** (720 lines total across 5 files) - DOM manipulation and rendering
+**Components Module** (`src/components/`) - Preact UI components
 
-- `src/ui/index.ts` (8 lines): UI exports barrel file
-
-- `src/ui/renderer.ts` (95 lines): Core rendering logic
-  - Question card rendering with HTML escaping for security
-  - Scoreboard display updates via signal effects
-  - Difficulty and mode button state management
-
-- `src/ui/event-handlers.ts` (296 lines): Event binding and handlers
-  - All user interaction handlers (reveal, next, reset, etc.)
-  - Difficulty and mode switching
-  - Debounced operations to prevent excessive updates
-
-- `src/ui/topic-picker.ts` (217 lines): Topic selection modal
-  - Topic search and filtering (all topics vs curated only)
+- `App.tsx`: Main application shell
+  - Layout structure
+  - Conditional rendering based on loading state
+- `QuestionCard.tsx`: Displays current question and answer
+  - Handles reveal/next interactions
+  - Renders HTML-escaped content safely
+- `Scoreboard.tsx`: Displays score, streak, and progress
+  - Reacts to `scoreboard` signal changes
+- `TopicPicker.tsx`: Topic selection modal
+  - Search and filtering (all topics vs curated only)
   - Category-based organization
-  - Curated questions reload functionality
-
-- `src/ui/question-flow.ts` (104 lines): Question progression logic
-  - Next question advancement
-  - Answer reveal mechanics
-  - End-of-questions handling
+- `CuratedListDialog.tsx`: Dialog to show available curated questions
 
 **src/data/data.ts** (203 lines) - Data module and loader
 

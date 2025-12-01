@@ -71,21 +71,23 @@ road-trip-trivia/
 ├── src/
 │   ├── css/
 │   │   └── style.css          # All styling
-│   ├── state/                 # State management (5 files)
+│   ├── state/                 # State management
 │   │   ├── index.ts           # Preact Signals & exports
 │   │   ├── questions.ts       # Question bank & generation
 │   │   ├── persistence.ts     # localStorage integration
 │   │   ├── progress.ts        # Question tracking
-│   │   └── curated-cache.ts   # Curated questions loader
-│   ├── ui/                    # UI components (5 files)
-│   │   ├── index.ts           # UI exports
-│   │   ├── renderer.ts        # Question card & scoreboard
-│   │   ├── event-handlers.ts  # User interactions
-│   │   ├── topic-picker.ts    # Topic selection modal
-│   │   └── question-flow.ts   # Question progression
+│   │   ├── curated-cache.ts   # Curated questions loader
+│   │   ├── game-logic.ts      # Core game actions
+│   │   └── init.ts            # App initialization
+│   ├── components/            # Preact UI components
+│   │   ├── App.tsx            # Main application component
+│   │   ├── QuestionCard.tsx   # Question display
+│   │   ├── Scoreboard.tsx     # Score and stats
+│   │   ├── TopicPicker.tsx    # Topic selection modal
+│   │   └── CuratedListDialog.tsx # Curated questions list
 │   ├── data/
 │   │   └── data.ts            # Data loader, templates (topics/examples in JSON)
-│   ├── main.ts                # App initialization & PWA setup
+│   ├── main.tsx               # App entry point
 │   ├── utils.ts               # Utility functions
 │   └── types.ts               # TypeScript type definitions
 ├── public/
