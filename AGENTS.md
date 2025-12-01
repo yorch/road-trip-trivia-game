@@ -4,7 +4,7 @@ This file provides guidance to AI Agents when working with code in this reposito
 
 ## Project Overview
 
-Road Trip Trivia is a vanilla JavaScript trivia game application built with Vite. Features:
+Road Trip Trivia is a TypeScript trivia game application built with Vite. Features:
 
 - 81 topics across 9 categories (Movies & TV, Books & Lore, Music, Theater, History, Science & Nature, Sports & Games, Travel & Places, Lifestyle & Fun)
 - Three difficulty levels (easy, medium, hard) with 80 questions each
@@ -12,7 +12,8 @@ Road Trip Trivia is a vanilla JavaScript trivia game application built with Vite
 - Generated questions using templates and real answer examples
 - Question mode toggle: "All questions" vs "Curated only"
 - Score tracking, streak management, and progress persistence via localStorage
-- Offline support with service worker
+- Offline support with PWA (Progressive Web App) via vite-plugin-pwa
+- Reactive state management using Preact Signals
 - Client-side only implementation with no backend
 
 ## Commands
@@ -35,33 +36,22 @@ yarn format           # Format code with Biome
 
 ## Architecture
 
-### Module Structure (ES6 Modules via Vite)
+### Module Structure (TypeScript + ES6 Modules via Vite)
 
-**src/js/main.js** (157 lines) - Application entry point
+**src/main.ts** (191 lines) - Application entry point
 
-- Initialization orchestration and service worker registration
+- Initialization orchestration and PWA registration via vite-plugin-pwa
 - Data validation and dependency checks
 - Session restoration (last topic, difficulty, question mode, scoreboard)
 - Exposes globals to `window` for backward compatibility
 
-**src/js/state.js** (424 lines) - State management
+**src/types.ts** (81 lines) - TypeScript type definitions
 
-- `state` object: Current session (topicId, difficulty, questionMode, score, streak, asked, revealed)
-- `progress` object: Per-topic/difficulty question tracking (order, cursor)
-- `questionBank` object: Cached questions by topic/difficulty/mode
-- localStorage persistence for progress, preferences, and scoreboard
-- Lazy question generation: Creates questions only when needed
-- Async curated questions loading from `/public/curated-questions.json`
+- Core types: `Topic`, `Difficulty`, `QuestionMode`, `Question`, `State`, `Progress`
+- Type guards and utility types for runtime safety
+- Shared interfaces across all modules
 
-**src/js/ui.js** (557 lines) - DOM manipulation and rendering
-
-- Question card rendering with HTML escaping for security
-- Topic picker modal with search and filtering (all topics vs curated only)
-- Event binding for all user interactions
-- Scoreboard updates and difficulty/mode button management
-- Debounced search and mode changes to prevent excessive operations
-
-**src/js/utils.js** (172 lines) - Pure utility functions
+**src/utils.ts** (203 lines) - Pure utility functions
 
 - `shuffleIndices()`: Deterministic shuffle using linear congruential generator
 - `fillTemplate()`: Template string replacement for question generation
@@ -70,7 +60,58 @@ yarn format           # Format code with Biome
 - `escapeHtml()`: XSS protection for user-facing content
 - Constants: difficulty levels, question modes, debounce timings
 
-**src/data/data.js** (1147 lines) - Static game data
+**State Module** (576 lines total across 5 files) - Reactive state management
+
+- `src/state/index.ts` (85 lines): Main state exports and Preact Signals integration
+  - `state` signal: Current session (topicId, difficulty, questionMode, revealed)
+  - `scoreboard` signal: Reactive score, streak, asked tracking
+  - Signal effects for automatic UI updates
+
+- `src/state/questions.ts` (181 lines): Question bank and generation logic
+  - `questionBank` cache: Questions by topic/difficulty/mode
+  - Lazy question generation: Creates questions only when needed
+  - Template-based generation with angle selection
+
+- `src/state/persistence.ts` (137 lines): localStorage integration
+  - Progress persistence across sessions
+  - Preference storage (topic, difficulty, mode)
+  - Scoreboard state saving/restoration
+
+- `src/state/progress.ts` (94 lines): Question tracking
+  - Per-topic/difficulty progress (order, cursor)
+  - Deterministic shuffle management
+  - Progress reset and reshuffle logic
+
+- `src/state/curated-cache.ts` (79 lines): Curated questions management
+  - Async loading from `/public/curated-questions.json`
+  - AbortController for cancellable fetches
+  - Cache invalidation and reload support
+
+**UI Module** (720 lines total across 5 files) - DOM manipulation and rendering
+
+- `src/ui/index.ts` (8 lines): UI exports barrel file
+
+- `src/ui/renderer.ts` (95 lines): Core rendering logic
+  - Question card rendering with HTML escaping for security
+  - Scoreboard display updates via signal effects
+  - Difficulty and mode button state management
+
+- `src/ui/event-handlers.ts` (296 lines): Event binding and handlers
+  - All user interaction handlers (reveal, next, reset, etc.)
+  - Difficulty and mode switching
+  - Debounced operations to prevent excessive updates
+
+- `src/ui/topic-picker.ts` (217 lines): Topic selection modal
+  - Topic search and filtering (all topics vs curated only)
+  - Category-based organization
+  - Curated questions reload functionality
+
+- `src/ui/question-flow.ts` (104 lines): Question progression logic
+  - Next question advancement
+  - Answer reveal mechanics
+  - End-of-questions handling
+
+**src/data/data.ts** (1155 lines) - Static game data
 
 - `topicList`: 81 topics with id, name, category, tags
 - `categoryAngles`: Category-specific question perspectives
@@ -106,13 +147,14 @@ yarn format           # Format code with Biome
 4. When cursor reaches end → show "questions exhausted" state
 5. Reset progress → mark for lazy reshuffle (`needsReshuffle: true`)
 
-**State Persistence**
+**State Persistence (via Preact Signals Effects)**
 
 - `localStorage.setItem('questionProgress', JSON.stringify(progress))` - After cursor advances
-- `localStorage.setItem('scoreboard', JSON.stringify({ score, streak, asked }))` - After score changes
+- `localStorage.setItem('scoreboard', JSON.stringify(scoreboard.value))` - Reactive updates via signal effects
 - `localStorage.setItem('lastTopicId', topicId)` - When topic selected
 - `localStorage.setItem('difficulty', difficulty)` - When difficulty changed
 - `localStorage.setItem('questionMode', mode)` - When question mode toggled
+- Automatic persistence triggered by signal mutations (no manual saveState() calls needed)
 
 ### Important Implementation Details
 
@@ -155,12 +197,15 @@ Based on commit history:
 
 ## Code Style
 
+- **TypeScript**: Strict mode enabled, explicit types for public APIs
 - **No semicolons**: Enforced by Biome linter
 - **ES6+ modules**: `import`/`export`, arrow functions, template literals, `const`/`let`
-- **Functional approach**: Pure functions in utils.js, state mutations isolated in state.js
-- **Naming conventions**: camelCase for variables/functions, SCREAMING_SNAKE_CASE for constants
+- **Functional approach**: Pure functions in utils.ts, state mutations via Preact Signals
+- **Naming conventions**: camelCase for variables/functions, SCREAMING_SNAKE_CASE for constants, PascalCase for types
+- **Type safety**: Prefer type inference where clear, explicit types for function boundaries
 - **Comments**: Explain non-obvious logic, magic numbers, and architectural decisions
 - **HTML escaping**: Always escape user-facing content via `escapeHtml()`
+- **Reactive patterns**: Use Preact Signals for state, effects for side effects (persistence, DOM updates)
 
 ## Vite Configuration
 
@@ -168,16 +213,21 @@ Based on commit history:
 - **Output directory**: `dist/`
 - **Source maps**: Enabled in production builds
 - **Dev server**: Port 3000 with auto-open browser
-- **Module imports**: CSS imported in main.js, processed by Vite
-- **Public directory**: Static assets (curated-questions.json, service-worker.js)
+- **Module imports**: CSS imported in main.ts, processed by Vite
+- **Public directory**: Static assets (curated-questions.json, icons)
+- **PWA Plugin**: vite-plugin-pwa with Workbox
+  - Auto-update strategy for service worker
+  - Runtime caching for JSON files (1 week expiration)
+  - Offline support with manifest.json generation
+  - Asset precaching for JS, CSS, HTML, JSON
 
 ## Adding Content
 
 ### New Topics
 
-1. Add to `src/data/data.js` in `topicList`:
+1. Add to `src/data/data.ts` in `topicList`:
 
-   ```javascript
+   ```typescript
    {
      id: "unique-id",
      name: "Display Name",
@@ -187,7 +237,7 @@ Based on commit history:
    ```
 
 2. Optionally add curated questions to `public/curated-questions.json`
-3. Optionally add answer examples to `answerExamples` in `src/data/data.js`
+3. Optionally add answer examples to `answerExamples` in `src/data/data.ts`
 
 ### Curated Questions
 
@@ -209,9 +259,9 @@ Users can reload curated questions without redeploying via "↻ Reload" button i
 
 ### Answer Examples
 
-Add to `answerExamples` in `src/data/data.js`:
+Add to `answerExamples` in `src/data/data.ts`:
 
-```javascript
+```typescript
 "topic-id": {
   "angle-name": [
     "Real example 1",
@@ -222,3 +272,11 @@ Add to `answerExamples` in `src/data/data.js`:
 ```
 
 These are used when generating template-based questions to provide factual content instead of generic placeholders.
+
+## Key Technologies
+
+- **TypeScript 5.9.3**: Type-safe development with strict mode
+- **Vite 7.2.4**: Fast build tool and dev server
+- **Preact Signals 1.12.1**: Fine-grained reactive state management
+- **Biome 2.3.8**: Fast linting and formatting
+- **vite-plugin-pwa 1.2.0**: Progressive Web App capabilities with Workbox

@@ -1,6 +1,6 @@
 # 🚗 Road Trip Trivia
 
-A lightweight, offline-capable trivia game designed to keep your road trips entertaining. No backend required, no ads, just pure trivia fun for the whole car.
+A lightweight TypeScript trivia game with offline PWA capabilities, designed to keep your road trips entertaining. No backend required, no ads, just pure trivia fun for the whole car.
 
 ## ✨ Features
 
@@ -12,8 +12,10 @@ A lightweight, offline-capable trivia game designed to keep your road trips ente
   - **All Questions**: Mix of curated and generated content (80 questions per topic/difficulty)
   - **Curated Only**: Play exclusively hand-written trivia questions
 - **Progress Tracking**: Scores, streaks, and question history saved locally
-- **Offline Support**: Works without internet connection via service worker
+- **Reactive State**: Preact Signals for efficient UI updates and automatic persistence
+- **PWA Support**: Installable progressive web app with offline capabilities via vite-plugin-pwa
 - **Live Reload**: Update curated questions without redeploying the app
+- **Type Safety**: Full TypeScript implementation with strict mode
 - **Clean Interface**: Card-based design optimized for mobile and desktop
 
 ## 🎮 How to Play
@@ -66,16 +68,26 @@ road-trip-trivia/
 ├── src/
 │   ├── css/
 │   │   └── style.css          # All styling
-│   ├── js/
-│   │   ├── main.js            # App initialization
-│   │   ├── state.js           # State management & localStorage
-│   │   ├── ui.js              # DOM manipulation & rendering
-│   │   └── utils.js           # Utility functions
-│   └── data/
-│       └── data.js            # Topics, templates, answer examples
+│   ├── state/                 # State management (5 files)
+│   │   ├── index.ts           # Preact Signals & exports
+│   │   ├── questions.ts       # Question bank & generation
+│   │   ├── persistence.ts     # localStorage integration
+│   │   ├── progress.ts        # Question tracking
+│   │   └── curated-cache.ts   # Curated questions loader
+│   ├── ui/                    # UI components (5 files)
+│   │   ├── index.ts           # UI exports
+│   │   ├── renderer.ts        # Question card & scoreboard
+│   │   ├── event-handlers.ts  # User interactions
+│   │   ├── topic-picker.ts    # Topic selection modal
+│   │   └── question-flow.ts   # Question progression
+│   ├── data/
+│   │   └── data.ts            # Topics, templates, answer examples
+│   ├── main.ts                # App initialization & PWA setup
+│   ├── utils.ts               # Utility functions
+│   └── types.ts               # TypeScript type definitions
 ├── public/
 │   ├── curated-questions.json # Hand-written trivia (reloadable)
-│   └── service-worker.js      # Offline support
+│   └── icon-*.png             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
 ```
@@ -97,9 +109,9 @@ yarn format
 
 #### New Topics
 
-Edit `src/data/data.js` and add to `topicList`:
+Edit `src/data/data.ts` and add to `topicList`:
 
-```javascript
+```typescript
 {
   id: "your-topic-id",
   name: "Display Name",
@@ -128,9 +140,9 @@ Users can reload curated questions in the app without redeploying using the "↻
 
 #### Answer Examples
 
-Add real-world examples to `answerExamples` in `src/data/data.js`:
+Add real-world examples to `answerExamples` in `src/data/data.ts`:
 
-```javascript
+```typescript
 "your-topic-id": {
   "character name": [
     "Luke Skywalker",
@@ -144,34 +156,41 @@ These examples are used when generating template-based questions to provide fact
 
 ## 🏗️ Built With
 
-- **Vite** - Build tool and dev server
-- **Vanilla JavaScript** - ES6+ modules, no frameworks
-- **Service Workers** - Offline functionality
-- **localStorage** - Progress persistence
-- **Biome** - Linting and formatting
+- **TypeScript 5.9.3** - Type-safe development with strict mode
+- **Vite 7.2.4** - Fast build tool and dev server
+- **Preact Signals 1.12.1** - Fine-grained reactive state management
+- **vite-plugin-pwa 1.2.0** - Progressive Web App with Workbox service worker
+- **Biome 2.3.8** - Fast linting and formatting
+- **localStorage** - Progress persistence with automatic signal-based updates
 
 ## 📝 Architecture Highlights
 
+- **Reactive State Management**: Preact Signals for automatic UI updates and persistence
+- **Modular TypeScript**: Organized into state, UI, data, and utility modules with strict types
 - **Lazy Loading**: Questions generated only when needed
 - **Smart Caching**: Avoids regenerating questions for same topic/difficulty/mode
-- **Deterministic Shuffle**: Consistent question order across sessions
+- **Deterministic Shuffle**: Consistent question order across sessions using LCG algorithm
+- **PWA Architecture**: Auto-generated service worker with Workbox for offline support
 - **XSS Protection**: All user-facing content HTML-escaped
 - **Error Recovery**: Graceful fallbacks for missing data or localStorage failures
 - **Debounced Operations**: Search and mode changes optimized to prevent excessive calculations
 
 ## 🎯 Design Philosophy
 
-1. **Curated First**: Prioritize hand-written factual questions over generated ones
-2. **No Backend**: Everything runs client-side for simplicity and privacy
-3. **Offline-Ready**: Works in areas with poor/no connectivity (perfect for road trips)
-4. **Progressive Enhancement**: Generated questions fill gaps in curated content
-5. **Real Examples**: Use actual answers (movie scenes, song titles, historical events) instead of placeholders
+1. **Type Safety First**: TypeScript ensures reliability and maintainability
+2. **Curated Quality**: Prioritize hand-written factual questions over generated ones
+3. **No Backend**: Everything runs client-side for simplicity and privacy
+4. **Offline-Ready**: PWA with service worker works in areas with poor/no connectivity
+5. **Reactive by Default**: Preact Signals provide automatic UI updates without manual DOM manipulation
+6. **Progressive Enhancement**: Generated questions fill gaps in curated content
+7. **Real Examples**: Use actual answers (movie scenes, song titles, historical events) instead of placeholders
 
 ## 📱 Browser Support
 
-- Modern browsers with ES6+ module support
-- Service workers for offline functionality (optional enhancement)
+- Modern browsers with ES6+ module support and TypeScript compilation
+- PWA capabilities including service workers, manifest, and installability
 - localStorage for progress tracking (gracefully degrades if unavailable)
+- Recommended: Chrome, Firefox, Safari, Edge (latest versions)
 
 ## 🤝 Contributing
 
