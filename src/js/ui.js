@@ -29,8 +29,14 @@ import {
 // AbortController for reload curated questions fetch
 let reloadCuratedController = null;
 
+// Timeout for reload button state reset
+let reloadButtonTimeout = null;
+
 // WeakMap for element-specific search debounce timeouts
 const searchTimeouts = new WeakMap();
+
+// Track focus for modal accessibility
+let previousFocus = null;
 
 // Update difficulty buttons
 export function updateDifficultyButtons() {
@@ -271,14 +277,65 @@ export function selectTopicAndStart(topicId) {
   nextQuestion();
 }
 
+// Focus trap for modal accessibility
+function trapFocus(e) {
+  if (e.key !== 'Tab') return;
+
+  const modal = document.getElementById('topicPicker');
+  const focusableElements = modal.querySelectorAll(
+    'button:not([disabled]), input:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+  );
+
+  const firstFocusable = focusableElements[0];
+  const lastFocusable = focusableElements[focusableElements.length - 1];
+
+  if (e.shiftKey && document.activeElement === firstFocusable) {
+    e.preventDefault();
+    lastFocusable.focus();
+  } else if (!e.shiftKey && document.activeElement === lastFocusable) {
+    e.preventDefault();
+    firstFocusable.focus();
+  }
+}
+
 // Show topic picker
 export function showTopicPicker() {
-  document.getElementById('topicPicker').classList.remove('hidden');
+  previousFocus = document.activeElement;
+  const modal = document.getElementById('topicPicker');
+  modal.classList.remove('hidden');
+
+  // Move focus to search input
+  const searchInput = document.getElementById('topicSearch');
+  if (searchInput) {
+    searchInput.focus();
+  }
+
+  // Add focus trap and escape key handler
+  modal.addEventListener('keydown', trapFocus);
 }
 
 // Hide topic picker
 export function hideTopicPicker() {
-  document.getElementById('topicPicker').classList.add('hidden');
+  const modal = document.getElementById('topicPicker');
+
+  // Clear search timeout if picker is being hidden
+  const searchInput = document.getElementById('topicSearch');
+  if (searchInput) {
+    const existingTimeout = searchTimeouts.get(searchInput);
+    if (existingTimeout) {
+      clearTimeout(existingTimeout);
+      searchTimeouts.delete(searchInput);
+    }
+  }
+
+  modal.classList.add('hidden');
+  modal.removeEventListener('keydown', trapFocus);
+
+  // Restore focus to element that opened modal
+  if (previousFocus) {
+    previousFocus.focus();
+    previousFocus = null;
+  }
 }
 
 // Handle topic search
@@ -415,6 +472,16 @@ export function bindEvents() {
     closePickerBtn.addEventListener('click', hideTopicPicker);
   }
 
+  // Escape key closes modal
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const picker = document.getElementById('topicPicker');
+      if (!picker.classList.contains('hidden')) {
+        hideTopicPicker();
+      }
+    }
+  });
+
   // Debounced search to avoid running on every keystroke
   const topicSearchInput = document.getElementById('topicSearch');
   if (topicSearchInput) {
@@ -471,6 +538,12 @@ export function bindEvents() {
       btn.textContent = 'Loading...';
       btn.disabled = true;
 
+      // Clear any pending timeout
+      if (reloadButtonTimeout) {
+        clearTimeout(reloadButtonTimeout);
+        reloadButtonTimeout = null;
+      }
+
       try {
         // Cancel previous request if exists
         if (reloadCuratedController) {
@@ -516,9 +589,10 @@ export function bindEvents() {
 
         btn.textContent = '✓ Reloaded';
         ErrorHandler.success('Curated questions reloaded successfully');
-        setTimeout(() => {
+        reloadButtonTimeout = setTimeout(() => {
           btn.textContent = originalText;
           btn.disabled = false;
+          reloadButtonTimeout = null;
         }, RELOAD_SUCCESS_DISPLAY_MS);
       } catch (error) {
         // Ignore abort errors - they're expected when cancelling
@@ -530,9 +604,10 @@ export function bindEvents() {
 
         ErrorHandler.critical('Failed to reload curated questions', error);
         btn.textContent = '✗ Failed';
-        setTimeout(() => {
+        reloadButtonTimeout = setTimeout(() => {
           btn.textContent = originalText;
           btn.disabled = false;
+          reloadButtonTimeout = null;
         }, RELOAD_SUCCESS_DISPLAY_MS);
       }
     });

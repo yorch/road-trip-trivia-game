@@ -85,25 +85,33 @@ export async function getOrCalculateCuratedCounts() {
 
   // Mark as calculating and perform the operation
   _isCalculating = true;
-  const curatedCounts = new Map();
 
-  window.topicList.forEach((topic) => {
-    let count = 0;
-    if (
-      typeof window.curatedQuestions !== 'undefined' &&
-      window.curatedQuestions[topic.id]
-    ) {
-      const easy = window.curatedQuestions[topic.id].easy?.length || 0;
-      const medium = window.curatedQuestions[topic.id].medium?.length || 0;
-      const hard = window.curatedQuestions[topic.id].hard?.length || 0;
-      count = easy + medium + hard;
-    }
-    curatedCounts.set(topic.id, count);
-  });
+  try {
+    const curatedCounts = new Map();
 
-  _globalCuratedCounts = curatedCounts;
-  _isCalculating = false;
-  return curatedCounts;
+    window.topicList.forEach((topic) => {
+      let count = 0;
+      if (
+        typeof window.curatedQuestions !== 'undefined' &&
+        window.curatedQuestions[topic.id]
+      ) {
+        const easy = window.curatedQuestions[topic.id].easy?.length || 0;
+        const medium = window.curatedQuestions[topic.id].medium?.length || 0;
+        const hard = window.curatedQuestions[topic.id].hard?.length || 0;
+        count = easy + medium + hard;
+      }
+      curatedCounts.set(topic.id, count);
+    });
+
+    _globalCuratedCounts = curatedCounts;
+    return curatedCounts;
+  } catch (error) {
+    ErrorHandler.warn('Failed to calculate curated counts', error);
+    _globalCuratedCounts = new Map();
+    return _globalCuratedCounts;
+  } finally {
+    _isCalculating = false;
+  }
 }
 
 export const globalCuratedCounts = {

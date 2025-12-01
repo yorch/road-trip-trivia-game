@@ -9,16 +9,16 @@
 
 <body>
   <!-- Topic Picker Modal -->
-  <div class="topic-picker-overlay hidden" id="topicPicker">
+  <div class="topic-picker-overlay hidden" id="topicPicker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">
     <div class="topic-picker">
       <div class="topic-picker-header">
         <div>
-          <h2>Choose Your Topic</h2>
+          <h2 id="pickerTitle">Choose Your Topic</h2>
           <p class="topic-picker-lede">Pick any topic to start your trivia journey</p>
         </div>
         <div class="picker-header-actions">
-          <button class="pill ghost" id="reloadCurated">↻ Reload</button>
-          <button class="pill ghost" id="closePicker">Close</button>
+          <button class="pill ghost" id="reloadCurated" aria-label="Reload curated questions">↻ Reload</button>
+          <button class="pill ghost" id="closePicker" aria-label="Close topic picker">Close</button>
         </div>
       </div>
       <div class="topic-picker-search">
@@ -50,18 +50,18 @@
           <button class="pill ghost" id="resetProgress">Reset progress</button>
         </div>
       </div>
-      <div class="scoreboard">
+      <div class="scoreboard" role="region" aria-label="Game Statistics">
         <div class="stat">
           <span class="label">Score</span>
-          <span class="value" id="scoreValue">0</span>
+          <span class="value" id="scoreValue" aria-live="polite" aria-atomic="true">0</span>
         </div>
         <div class="stat">
           <span class="label">Streak</span>
-          <span class="value" id="streakValue">0</span>
+          <span class="value" id="streakValue" aria-live="polite" aria-atomic="true">0</span>
         </div>
         <div class="stat">
           <span class="label">Asked</span>
-          <span class="value" id="askedValue">0</span>
+          <span class="value" id="askedValue" aria-live="polite" aria-atomic="true">0</span>
         </div>
       </div>
     </header>

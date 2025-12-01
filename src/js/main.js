@@ -36,6 +36,9 @@ import {
 } from './ui.js';
 import { ErrorHandler, ToastManager } from './utils.js';
 
+// Track if localStorage warning has been shown this session
+let localStorageWarningShown = false;
+
 async function init() {
   // Show loading state
   document.body.classList.add('loading');
@@ -76,11 +79,17 @@ async function init() {
         'scoreboard',
         JSON.stringify({ score, streak, asked }),
       );
+      localStorageWarningShown = false; // Reset on success
     } catch (e) {
-      ErrorHandler.warn(
-        'Failed to save scoreboard - scores may not be preserved',
-        e,
-      );
+      // Only show warning once per session to avoid toast spam
+      if (!localStorageWarningShown) {
+        ErrorHandler.warn(
+          'Unable to save progress - localStorage unavailable',
+          e,
+        );
+        localStorageWarningShown = true;
+      }
+      console.error('localStorage save failed:', e);
     }
   });
 
@@ -183,16 +192,6 @@ async function init() {
   } else {
     // First visit or invalid saved topic - show picker
     showTopicPicker();
-  }
-
-  // Register service worker for offline support
-  if ('serviceWorker' in navigator) {
-    try {
-      await navigator.serviceWorker.register('/service-worker.js');
-      console.log('Service Worker registered successfully');
-    } catch (error) {
-      console.warn('Service Worker registration failed:', error);
-    }
   }
 }
 
