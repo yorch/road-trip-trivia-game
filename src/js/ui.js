@@ -11,7 +11,6 @@ import {
   saveLastTopic,
   saveProgress,
   saveQuestionMode,
-  saveScoreboard,
   state,
 } from './state.js';
 
@@ -32,14 +31,6 @@ let reloadCuratedController = null;
 
 // WeakMap for element-specific search debounce timeouts
 const searchTimeouts = new WeakMap();
-
-// Update scoreboard display
-export function updateScoreboard() {
-  document.getElementById('scoreValue').textContent = state.score;
-  document.getElementById('streakValue').textContent = state.streak;
-  document.getElementById('askedValue').textContent = state.asked;
-  saveScoreboard();
-}
 
 // Update difficulty buttons
 export function updateDifficultyButtons() {
@@ -169,7 +160,6 @@ export function nextQuestion() {
   state.asked += 1;
   state.revealed = false;
   saveProgress();
-  updateScoreboard();
   renderCard(bank[idx]);
 }
 
@@ -189,21 +179,18 @@ export function toggleAnswer(forceVisible) {
 export function markCorrect() {
   state.score += 1;
   state.streak += 1;
-  updateScoreboard();
   nextQuestion();
 }
 
 // Skip question
 export function skipQuestion() {
   state.streak = 0;
-  updateScoreboard();
   nextQuestion();
 }
 
 // Reset progress
 export function resetProgress() {
   resetProgressAll();
-  updateScoreboard();
   nextQuestion();
 }
 
@@ -279,7 +266,6 @@ export async function populateTopicPicker(filterMode = 'all') {
 export function selectTopicAndStart(topicId) {
   state.topicId = topicId;
   state.streak = 0;
-  updateScoreboard();
   saveLastTopic(topicId);
   hideTopicPicker();
   nextQuestion();
@@ -329,7 +315,6 @@ export function bindEvents() {
       state.streak = 0;
       saveDifficulty(state.difficulty);
       updateDifficultyButtons();
-      updateScoreboard();
       nextQuestion();
       // Reset flag after a brief delay to allow nextQuestion to complete
       setTimeout(() => {
@@ -352,7 +337,6 @@ export function bindEvents() {
       saveQuestionMode(state.questionMode);
       updateQuestionModeButtons();
       rebuildQuestionBank();
-      updateScoreboard();
       nextQuestion();
       // Reset flag after a brief delay to allow rebuild and nextQuestion to complete
       setTimeout(() => {
@@ -400,7 +384,6 @@ export function bindEvents() {
       state.topicId = random.id;
       state.streak = 0;
       saveLastTopic(random.id);
-      updateScoreboard();
       nextQuestion();
     });
   }

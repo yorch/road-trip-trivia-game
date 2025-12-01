@@ -4,6 +4,7 @@
 // Import CSS (Vite will process this)
 import '../css/style.css';
 
+import { effect } from '@preact/signals-core';
 import {
   answerExamples,
   answerTemplates,
@@ -13,6 +14,7 @@ import {
   topicList,
 } from '../data/data.js';
 import {
+  askedSignal,
   loadCuratedQuestions,
   loadDifficulty,
   loadLastTopic,
@@ -20,7 +22,9 @@ import {
   loadQuestionMode,
   loadScoreboard,
   progress,
+  scoreSignal,
   state,
+  streakSignal,
 } from './state.js';
 import {
   bindEvents,
@@ -29,7 +33,6 @@ import {
   showTopicPicker,
   updateDifficultyButtons,
   updateQuestionModeButtons,
-  updateScoreboard,
 } from './ui.js';
 import { ErrorHandler, ToastManager } from './utils.js';
 
@@ -39,6 +42,47 @@ async function init() {
 
   // Initialize toast notification system
   ToastManager.init();
+
+  // Set up reactive scoreboard updates (automatic UI sync)
+  effect(() => {
+    const scoreEl = document.getElementById('scoreValue');
+    if (scoreEl) {
+      scoreEl.textContent = scoreSignal.value;
+    }
+  });
+
+  effect(() => {
+    const streakEl = document.getElementById('streakValue');
+    if (streakEl) {
+      streakEl.textContent = streakSignal.value;
+    }
+  });
+
+  effect(() => {
+    const askedEl = document.getElementById('askedValue');
+    if (askedEl) {
+      askedEl.textContent = askedSignal.value;
+    }
+  });
+
+  // Auto-save scoreboard to localStorage when any value changes
+  effect(() => {
+    const score = scoreSignal.value;
+    const streak = streakSignal.value;
+    const asked = askedSignal.value;
+
+    try {
+      localStorage.setItem(
+        'scoreboard',
+        JSON.stringify({ score, streak, asked }),
+      );
+    } catch (e) {
+      ErrorHandler.warn(
+        'Failed to save scoreboard - scores may not be preserved',
+        e,
+      );
+    }
+  });
 
   // Load curated questions first (async)
   const curatedLoaded = await loadCuratedQuestions();
@@ -109,12 +153,11 @@ async function init() {
   // Load progress and scoreboard
   const loadedProgress = loadProgress();
   Object.assign(progress, loadedProgress);
-  loadScoreboard();
+  loadScoreboard(); // Will trigger reactive effects automatically
 
   // Update UI to reflect loaded state
   updateDifficultyButtons();
   updateQuestionModeButtons();
-  updateScoreboard();
   await populateTopicPicker();
   bindEvents();
 

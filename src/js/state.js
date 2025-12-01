@@ -1,5 +1,6 @@
 // State management for Road Trip Trivia
 
+import { signal } from '@preact/signals-core';
 import {
   buildAngles,
   DIFFICULTY_LEVELS,
@@ -11,14 +12,35 @@ import {
   shuffleIndices,
 } from './utils.js';
 
-// Global state
+// Reactive signals for scoreboard (automatically update UI)
+export const scoreSignal = signal(0);
+export const streakSignal = signal(0);
+export const askedSignal = signal(0);
+
+// Global state with reactive properties
 export const state = {
   topicId: null,
   difficulty: DIFFICULTY_LEVELS.EASY,
   questionMode: QUESTION_MODES.ALL,
-  score: 0,
-  streak: 0,
-  asked: 0,
+  // Use getters/setters to sync with signals for backward compatibility
+  get score() {
+    return scoreSignal.value;
+  },
+  set score(val) {
+    scoreSignal.value = val;
+  },
+  get streak() {
+    return streakSignal.value;
+  },
+  set streak(val) {
+    streakSignal.value = val;
+  },
+  get asked() {
+    return askedSignal.value;
+  },
+  set asked(val) {
+    askedSignal.value = val;
+  },
   revealed: false,
   isChangingMode: false,
 };
@@ -188,24 +210,6 @@ export function loadDifficulty() {
     return window.difficulties.includes(saved) ? saved : DIFFICULTY_LEVELS.EASY;
   } catch (_e) {
     return DIFFICULTY_LEVELS.EASY;
-  }
-}
-
-export function saveScoreboard() {
-  try {
-    localStorage.setItem(
-      'scoreboard',
-      JSON.stringify({
-        score: state.score,
-        streak: state.streak,
-        asked: state.asked,
-      }),
-    );
-  } catch (e) {
-    ErrorHandler.warn(
-      'Failed to save scoreboard - scores may not be preserved',
-      e,
-    );
   }
 }
 
