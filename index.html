@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
   <meta charset="UTF-8">
@@ -66,7 +66,7 @@
       </div>
     </header>
 
-    <section class="controls" style="opacity: 0;">
+    <section class="controls">
       <div class="control difficulty-control">
         <span>Difficulty</span>
         <div class="difficulty-buttons">
@@ -84,7 +84,7 @@
       </div>
     </section>
 
-    <main class="board" style="opacity: 0;">
+    <main class="board">
       <div class="card">
         <div class="card-head">
           <div>
@@ -112,6 +112,13 @@
       </div>
     </main>
   </div>
+
+  <noscript>
+    <div style="padding: 2rem; text-align: center;">
+      <h2>JavaScript Required</h2>
+      <p>This application requires JavaScript to run. Please enable JavaScript in your browser.</p>
+    </div>
+  </noscript>
 
   <!-- Main application using ES6 modules -->
   <script type="module" src="/src/js/main.js"></script>

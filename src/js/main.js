@@ -170,15 +170,8 @@ async function init() {
   await populateTopicPicker();
   bindEvents();
 
-  // Show the UI now that preferences are loaded
-  const controls = document.querySelector('.controls');
-  const board = document.querySelector('.board');
-  if (controls) {
-    controls.style.opacity = '1';
-  }
-  if (board) {
-    board.style.opacity = '1';
-  }
+  // Remove no-js class to show UI (CSS will handle opacity)
+  document.documentElement.classList.remove('no-js');
 
   // Remove loading state
   document.body.classList.remove('loading');

@@ -38,6 +38,9 @@ const searchTimeouts = new WeakMap();
 // Track focus for modal accessibility
 let previousFocus = null;
 
+// Track last mode change for better debouncing
+let lastModeChange = { type: null, timestamp: 0 };
+
 // Update difficulty buttons
 export function updateDifficultyButtons() {
   document.querySelectorAll('.difficulty').forEach((btn) => {
@@ -361,44 +364,44 @@ export function handleTopicSearch(searchTerm) {
 export function bindEvents() {
   document.querySelectorAll('.difficulty').forEach((btn) => {
     btn.addEventListener('click', () => {
-      // Prevent race conditions from rapid clicking
-      if (state.isChangingMode) {
+      // Prevent race conditions from rapid clicking of same type
+      const now = Date.now();
+      if (
+        lastModeChange.type === 'difficulty' &&
+        now - lastModeChange.timestamp < MODE_CHANGE_DEBOUNCE_MS
+      ) {
         ErrorHandler.info('Please wait for current operation to complete');
         return;
       }
 
-      state.isChangingMode = true;
+      lastModeChange = { type: 'difficulty', timestamp: now };
       state.difficulty = btn.dataset.difficulty;
       state.streak = 0;
       saveDifficulty(state.difficulty);
       updateDifficultyButtons();
       nextQuestion();
-      // Reset flag after a brief delay to allow nextQuestion to complete
-      setTimeout(() => {
-        state.isChangingMode = false;
-      }, MODE_CHANGE_DEBOUNCE_MS);
     });
   });
 
   document.querySelectorAll('.question-mode').forEach((btn) => {
     btn.addEventListener('click', () => {
-      // Prevent race conditions from rapid clicking
-      if (state.isChangingMode) {
+      // Prevent race conditions from rapid clicking of same type
+      const now = Date.now();
+      if (
+        lastModeChange.type === 'questionMode' &&
+        now - lastModeChange.timestamp < MODE_CHANGE_DEBOUNCE_MS
+      ) {
         ErrorHandler.info('Please wait for current operation to complete');
         return;
       }
 
-      state.isChangingMode = true;
+      lastModeChange = { type: 'questionMode', timestamp: now };
       state.questionMode = btn.dataset.mode;
       state.streak = 0;
       saveQuestionMode(state.questionMode);
       updateQuestionModeButtons();
       rebuildQuestionBank();
       nextQuestion();
-      // Reset flag after a brief delay to allow rebuild and nextQuestion to complete
-      setTimeout(() => {
-        state.isChangingMode = false;
-      }, MODE_CHANGE_DEBOUNCE_MS);
     });
   });
 

@@ -193,6 +193,12 @@ select {
   transition: opacity 0.2s ease;
 }
 
+/* Hide controls and board until JavaScript loads */
+.no-js .controls,
+.no-js .board {
+  opacity: 0;
+}
+
 .card {
   background: var(--card);
   border-radius: var(--radius);

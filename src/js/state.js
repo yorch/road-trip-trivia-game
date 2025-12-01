@@ -42,7 +42,6 @@ export const state = {
     askedSignal.value = val;
   },
   revealed: false,
-  isChangingMode: false,
 };
 
 // Progress tracking
@@ -53,7 +52,7 @@ export let questionBank = {};
 
 // Global cache for curated question counts
 let _globalCuratedCounts = null;
-let _isCalculating = false;
+let _calculationPromise = null;
 
 export function getCuratedCountsCache() {
   return _globalCuratedCounts;
@@ -65,7 +64,7 @@ export function setCuratedCountsCache(cache) {
 
 export function resetCuratedCountsCache() {
   _globalCuratedCounts = null;
-  _isCalculating = false;
+  _calculationPromise = null;
 }
 
 // Atomic operation to get or calculate curated counts
@@ -75,43 +74,42 @@ export async function getOrCalculateCuratedCounts() {
     return _globalCuratedCounts;
   }
 
-  // If already calculating, wait for completion
-  if (_isCalculating) {
-    while (_isCalculating) {
-      await new Promise((resolve) => setTimeout(resolve, 10));
+  // If calculation in progress, wait for it
+  if (_calculationPromise) {
+    return _calculationPromise;
+  }
+
+  // Start new calculation
+  _calculationPromise = (async () => {
+    try {
+      const curatedCounts = new Map();
+
+      window.topicList.forEach((topic) => {
+        let count = 0;
+        if (
+          typeof window.curatedQuestions !== 'undefined' &&
+          window.curatedQuestions[topic.id]
+        ) {
+          const easy = window.curatedQuestions[topic.id].easy?.length || 0;
+          const medium = window.curatedQuestions[topic.id].medium?.length || 0;
+          const hard = window.curatedQuestions[topic.id].hard?.length || 0;
+          count = easy + medium + hard;
+        }
+        curatedCounts.set(topic.id, count);
+      });
+
+      _globalCuratedCounts = curatedCounts;
+      return curatedCounts;
+    } catch (error) {
+      ErrorHandler.warn('Failed to calculate curated counts', error);
+      _globalCuratedCounts = new Map();
+      return _globalCuratedCounts;
+    } finally {
+      _calculationPromise = null;
     }
-    return _globalCuratedCounts;
-  }
+  })();
 
-  // Mark as calculating and perform the operation
-  _isCalculating = true;
-
-  try {
-    const curatedCounts = new Map();
-
-    window.topicList.forEach((topic) => {
-      let count = 0;
-      if (
-        typeof window.curatedQuestions !== 'undefined' &&
-        window.curatedQuestions[topic.id]
-      ) {
-        const easy = window.curatedQuestions[topic.id].easy?.length || 0;
-        const medium = window.curatedQuestions[topic.id].medium?.length || 0;
-        const hard = window.curatedQuestions[topic.id].hard?.length || 0;
-        count = easy + medium + hard;
-      }
-      curatedCounts.set(topic.id, count);
-    });
-
-    _globalCuratedCounts = curatedCounts;
-    return curatedCounts;
-  } catch (error) {
-    ErrorHandler.warn('Failed to calculate curated counts', error);
-    _globalCuratedCounts = new Map();
-    return _globalCuratedCounts;
-  } finally {
-    _isCalculating = false;
-  }
+  return _calculationPromise;
 }
 
 export const globalCuratedCounts = {
@@ -253,13 +251,30 @@ export function getProgress(topicId, difficulty) {
     saveProgress();
   }
 
-  // Handle lazy reshuffle from resetProgress()
   const prog = progress[topicId][difficulty];
+
+  // Detect empty progress and rebuild if questions now available
+  if (prog.order.length === 0) {
+    const bank = getOrCreateQuestions(topicId, difficulty, state.questionMode);
+    if (bank.length > 0) {
+      // Questions available now, rebuild progress
+      const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
+      prog.order = shuffleIndices(bank.length, seed);
+      prog.cursor = 0;
+      saveProgress();
+    }
+  }
+
+  // Handle lazy reshuffle from mode changes
   if (prog.needsReshuffle) {
     const bank = getOrCreateQuestions(topicId, difficulty, state.questionMode);
     const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
-    prog.order = shuffleIndices(bank.length, seed);
-    prog.cursor = 0;
+    const newOrder = shuffleIndices(bank.length, seed);
+    // Preserve cursor position if possible, otherwise reset
+    prog.order = newOrder;
+    if (prog.cursor >= newOrder.length) {
+      prog.cursor = 0; // Reset only if cursor is out of bounds
+    }
     delete prog.needsReshuffle;
     saveProgress();
   }
@@ -386,10 +401,13 @@ function createQuestions(topic, difficulty, mode = QUESTION_MODES.ALL) {
 export function rebuildQuestionBank() {
   // Clear question bank - questions will be lazily regenerated with new mode
   questionBank = {};
-  // Only clear current topic's progress when switching modes
-  // This preserves progress in other topics
+  // Mark current topic's progress for reshuffle instead of deleting
+  // This preserves the cursor position so users don't restart at question #1
   if (progress[state.topicId]) {
-    delete progress[state.topicId];
+    Object.keys(progress[state.topicId]).forEach((difficulty) => {
+      progress[state.topicId][difficulty].needsReshuffle = true;
+      // Don't reset cursor - let user continue from same position
+    });
   }
   saveProgress();
 }
