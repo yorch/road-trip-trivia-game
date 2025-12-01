@@ -24,28 +24,10 @@
     "tags": ["gods", "city-states", "olympics", "philosophers"]
   },
   {
-    "id": "animals",
-    "name": "Animals of the World",
-    "category": "Science & Nature",
-    "tags": ["habitats", "tracks", "adaptations", "sounds"]
-  },
-  {
     "id": "anime-heroes",
     "name": "Anime Heroes",
     "category": "Movies & TV",
     "tags": ["power-ups", "teams", "arcs", "rivals"]
-  },
-  {
-    "id": "architecture",
-    "name": "Architecture",
-    "category": "Lifestyle & Fun",
-    "tags": ["styles", "materials", "cityscapes", "skylines"]
-  },
-  {
-    "id": "aviation",
-    "name": "Aviation & Flight",
-    "category": "Travel & Places",
-    "tags": ["cockpits", "pilots", "airshows", "routes"]
   },
   {
     "id": "baseball",
@@ -60,34 +42,10 @@
     "tags": ["playoffs", "dunks", "point guards", "dynasties"]
   },
   {
-    "id": "board-games",
-    "name": "Board Games",
-    "category": "Sports & Games",
-    "tags": ["strategy", "dice", "co-op", "family night"]
-  },
-  {
-    "id": "broadway",
-    "name": "Broadway Musicals",
-    "category": "Theater",
-    "tags": ["show tunes", "ensembles", "opening numbers", "curtain calls"]
-  },
-  {
-    "id": "camping",
-    "name": "Camping & Hiking",
-    "category": "Lifestyle & Fun",
-    "tags": ["trail snacks", "tents", "maps", "campfire stories"]
-  },
-  {
     "id": "racing",
     "name": "Cars & Racing",
     "category": "Sports & Games",
     "tags": ["grand prix", "pit stops", "circuits", "drivers"]
-  },
-  {
-    "id": "civil-rights",
-    "name": "Civil Rights Movement",
-    "category": "History",
-    "tags": ["marches", "leaders", "landmark cases", "protests"]
   },
   {
     "id": "classical-composers",
@@ -96,46 +54,10 @@
     "tags": ["symphonies", "concertos", "motifs", "orchestras"]
   },
   {
-    "id": "coffee-tea",
-    "name": "Coffee & Tea",
-    "category": "Lifestyle & Fun",
-    "tags": ["brews", "roasts", "ceremony", "pairings"]
-  },
-  {
-    "id": "cooking",
-    "name": "Cooking Basics",
-    "category": "Lifestyle & Fun",
-    "tags": ["knife skills", "spices", "sauces", "kitchen tools"]
-  },
-  {
-    "id": "country-roads",
-    "name": "Country Roads",
-    "category": "Music",
-    "tags": ["story songs", "fiddles", "line dancing", "highways"]
-  },
-  {
     "id": "dc-comics",
     "name": "DC Comics",
     "category": "Movies & TV",
     "tags": ["Justice League", "Gotham", "metropolis", "rogues gallery"]
-  },
-  {
-    "id": "deserts-mountains",
-    "name": "Deserts & Mountains",
-    "category": "Travel & Places",
-    "tags": ["summits", "dunes", "base camps", "routes"]
-  },
-  {
-    "id": "desserts",
-    "name": "Desserts",
-    "category": "Lifestyle & Fun",
-    "tags": ["cakes", "cookies", "frosting", "fruit treats"]
-  },
-  {
-    "id": "detective-mysteries",
-    "name": "Detective Mysteries",
-    "category": "Books & Lore",
-    "tags": ["sleuths", "clues", "cases", "twists"]
   },
   {
     "id": "dinosaurs",
@@ -150,42 +72,6 @@
     "tags": ["animation", "songs", "sidekicks", "castles"]
   },
   {
-    "id": "earth-science",
-    "name": "Earth Science",
-    "category": "Science & Nature",
-    "tags": ["rocks", "tectonics", "oceans", "atmosphere"]
-  },
-  {
-    "id": "eco-living",
-    "name": "Eco Living",
-    "category": "Lifestyle & Fun",
-    "tags": ["recycling", "energy", "habits", "green swaps"]
-  },
-  {
-    "id": "edm",
-    "name": "Electronic Dance",
-    "category": "Music",
-    "tags": ["drops", "synth leads", "club nights", "festivals"]
-  },
-  {
-    "id": "esports",
-    "name": "Esports",
-    "category": "Sports & Games",
-    "tags": ["tournaments", "metas", "casters", "big plays"]
-  },
-  {
-    "id": "fashion",
-    "name": "Fashion History",
-    "category": "Lifestyle & Fun",
-    "tags": ["runways", "decades", "designers", "silhouettes"]
-  },
-  {
-    "id": "folk-music",
-    "name": "Folk Music",
-    "category": "Music",
-    "tags": ["ballads", "acoustic tales", "traditions", "campfire songs"]
-  },
-  {
     "id": "food-world",
     "name": "Food Around the World",
     "category": "Travel & Places",
@@ -196,12 +82,6 @@
     "name": "Formula 1",
     "category": "Sports & Games",
     "tags": ["grand prix", "constructors", "pit strategy", "circuits"]
-  },
-  {
-    "id": "gardening",
-    "name": "Gardening",
-    "category": "Lifestyle & Fun",
-    "tags": ["soil", "seasons", "pollinators", "harvest"]
   },
   {
     "id": "harry-potter",
@@ -216,27 +96,9 @@
     "tags": ["organs", "systems", "health", "senses"]
   },
   {
-    "id": "inventors",
-    "name": "Inventions & Inventors",
-    "category": "History",
-    "tags": ["breakthroughs", "patents", "prototypes", "eureka moments"]
-  },
-  {
-    "id": "islands-oceans",
-    "name": "Islands & Oceans",
-    "category": "Travel & Places",
-    "tags": ["archipelagos", "reefs", "ferries", "lagoon"]
-  },
-  {
-    "id": "jazz-blues",
-    "name": "Jazz & Blues",
-    "category": "Music",
-    "tags": ["improv solos", "standards", "blue notes", "club nights"]
-  },
-  {
     "id": "kpop-demon-hunters",
     "name": "K-Pop Demon Hunters",
-    "category": "Music & TV",
+    "category": "Movies & TV",
     "tags": ["stage battles", "idols", "mythic rivals", "dance breaks"]
   },
   {
@@ -246,22 +108,10 @@
     "tags": ["Middle-earth", "rings", "quests", "fellowship"]
   },
   {
-    "id": "martial-arts",
-    "name": "Martial Arts",
-    "category": "Sports & Games",
-    "tags": ["forms", "sparring", "belts", "philosophy"]
-  },
-  {
     "id": "marvel",
     "name": "Marvel Universe",
     "category": "Movies & TV",
     "tags": ["Avengers", "multiverse", "villains", "origin stories"]
-  },
-  {
-    "id": "medieval-europe",
-    "name": "Medieval Europe",
-    "category": "History",
-    "tags": ["castles", "knights", "guilds", "legends"]
   },
   {
     "id": "movie-soundtracks",
@@ -276,28 +126,10 @@
     "tags": ["guitar solos", "iconic tours", "chart toppers", "signature songs"]
   },
   {
-    "id": "ocean-life",
-    "name": "Ocean Life",
-    "category": "Science & Nature",
-    "tags": ["coral reefs", "currents", "creatures", "deep sea"]
-  },
-  {
     "id": "olympics",
     "name": "Olympics",
     "category": "Sports & Games",
     "tags": ["host cities", "opening ceremonies", "records", "events"]
-  },
-  {
-    "id": "photography",
-    "name": "Photography",
-    "category": "Lifestyle & Fun",
-    "tags": ["lenses", "light", "subjects", "angles"]
-  },
-  {
-    "id": "pirate-adventures",
-    "name": "Pirate Adventures",
-    "category": "Books & Lore",
-    "tags": ["treasure maps", "ships", "captains", "legends"]
   },
   {
     "id": "pokemon",
@@ -312,18 +144,6 @@
     "tags": ["choruses", "hooks", "dance tracks", "radio moments"]
   },
   {
-    "id": "rainforest",
-    "name": "Rainforest",
-    "category": "Science & Nature",
-    "tags": ["canopy", "biodiversity", "rivers", "wildlife"]
-  },
-  {
-    "id": "renaissance",
-    "name": "Renaissance Art",
-    "category": "History",
-    "tags": ["masters", "patrons", "workshops", "perspective"]
-  },
-  {
     "id": "robotics",
     "name": "Robotics & AI",
     "category": "Science & Nature",
@@ -334,12 +154,6 @@
     "name": "Rock History",
     "category": "Music",
     "tags": ["anthems", "guitar riffs", "festival lore", "classic albums"]
-  },
-  {
-    "id": "sailing",
-    "name": "Sailing & Sea",
-    "category": "Travel & Places",
-    "tags": ["harbors", "regattas", "navigation", "knots"]
   },
   {
     "id": "soccer",
@@ -360,28 +174,10 @@
     "tags": ["missions", "rovers", "telescopes", "planets"]
   },
   {
-    "id": "space-race",
-    "name": "Space Race",
-    "category": "History",
-    "tags": ["rockets", "moonshots", "astronauts", "rivalry"]
-  },
-  {
-    "id": "space-sci-fi",
-    "name": "Space Sci-Fi",
-    "category": "Movies & TV",
-    "tags": ["starships", "captains", "alien worlds", "warp drives"]
-  },
-  {
     "id": "star-wars",
     "name": "Star Wars",
     "category": "Movies & TV",
     "tags": ["Jedi", "Force", "rebellion", "lightsaber"]
-  },
-  {
-    "id": "survival",
-    "name": "Survival Skills",
-    "category": "Lifestyle & Fun",
-    "tags": ["signals", "first aid", "shelter", "fire craft"]
   },
   {
     "id": "tech-giants",
@@ -400,12 +196,6 @@
     "name": "Time Travel Tales",
     "category": "Books & Lore",
     "tags": ["paradoxes", "timelines", "devices", "future stakes"]
-  },
-  {
-    "id": "trains-travel",
-    "name": "Trains & Travel",
-    "category": "Travel & Places",
-    "tags": ["stations", "rail lore", "night routes", "scenic rides"]
   },
   {
     "id": "us-history",
@@ -438,22 +228,10 @@
     "tags": ["storms", "seasons", "patterns", "forecasts"]
   },
   {
-    "id": "women-history",
-    "name": "Women in History",
-    "category": "History",
-    "tags": ["trailblazers", "movements", "discoveries", "firsts"]
-  },
-  {
     "id": "world-capitals",
     "name": "World Capitals",
     "category": "Travel & Places",
     "tags": ["rivers", "city squares", "monuments", "embassies"]
-  },
-  {
-    "id": "world-cultures",
-    "name": "World Cultures",
-    "category": "Travel & Places",
-    "tags": ["festivals", "languages", "traditions", "recipes"]
   },
   {
     "id": "world-history",
@@ -462,7 +240,7 @@
     "tags": ["ancient empires", "trade routes", "conflicts", "peace accords"]
   },
   {
-    "id": "landmarks",
+    "id": "world-landmarks",
     "name": "World Landmarks",
     "category": "Travel & Places",
     "tags": ["towers", "bridges", "temples", "statues"]

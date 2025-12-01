@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Where is the Eiffel Tower located?",
+      "a": "Paris, France",
+      "angle": "iconic site"
+    },
+    {
+      "q": "Where can you walk along the Great Wall of China?",
+      "a": "Northern China",
+      "angle": "ancient wonder"
+    },
+    {
+      "q": "In which city is the Colosseum found?",
+      "a": "Rome, Italy",
+      "angle": "historic arena"
+    },
+    {
+      "q": "Where does the Statue of Liberty stand?",
+      "a": "New York City, USA",
+      "angle": "cultural icon"
+    },
+    {
+      "q": "In which city can you see Big Ben and the Houses of Parliament?",
+      "a": "London, England",
+      "angle": "clock tower"
+    },
+    {
+      "q": "Where is Machu Picchu located?",
+      "a": "Peru's Andes Mountains",
+      "angle": "ancient citadel"
+    },
+    {
+      "q": "What country is home to the Taj Mahal?",
+      "a": "India (Agra)",
+      "angle": "love monument"
+    },
+    {
+      "q": "Where are the Pyramids of Giza found?",
+      "a": "Giza, Egypt",
+      "angle": "ancient wonder"
+    },
+    {
+      "q": "In which harbor is the Sydney Opera House located?",
+      "a": "Sydney Harbour, Australia",
+      "angle": "modern icon"
+    },
+    {
+      "q": "Where is Christ the Redeemer situated?",
+      "a": "Rio de Janeiro, Brazil",
+      "angle": "hilltop statue"
+    },
+    {
+      "q": "Which city is famous for the Golden Gate Bridge?",
+      "a": "San Francisco, USA",
+      "angle": "engineering icon"
+    },
+    {
+      "q": "Where can you see Mount Fuji?",
+      "a": "Honshu, Japan",
+      "angle": "natural wonder"
+    },
+    {
+      "q": "Where is Angkor Wat located?",
+      "a": "Siem Reap, Cambodia",
+      "angle": "temple complex"
+    },
+    {
+      "q": "In which country can you explore Petra's rock-cut facades?",
+      "a": "Jordan",
+      "angle": "rock city"
+    },
+    {
+      "q": "Where is Stonehenge located?",
+      "a": "Wiltshire, England",
+      "angle": "prehistoric circle"
+    },
+    {
+      "q": "Where can you see Mount Rushmore?",
+      "a": "South Dakota, USA",
+      "angle": "carved monument"
+    },
+    {
+      "q": "Where is the Grand Canyon found?",
+      "a": "Arizona, USA",
+      "angle": "natural wonder"
+    },
+    {
+      "q": "Which border is home to Niagara Falls?",
+      "a": "United States–Canada border",
+      "angle": "waterfall"
+    },
+    {
+      "q": "Where does Table Mountain overlook a city?",
+      "a": "Cape Town, South Africa",
+      "angle": "scenic overlook"
+    },
+    {
+      "q": "In which city can you visit the Burj Khalifa?",
+      "a": "Dubai, UAE",
+      "angle": "skyscraper"
+    },
+    {
+      "q": "Where is the Leaning Tower located?",
+      "a": "Pisa, Italy",
+      "angle": "medieval tower"
+    },
+    {
+      "q": "Where is the Acropolis perched above a city?",
+      "a": "Athens, Greece",
+      "angle": "hilltop ruins"
+    },
+    {
+      "q": "Where is the Sagrada Familia being built?",
+      "a": "Barcelona, Spain",
+      "angle": "unfinished basilica"
+    },
+    {
+      "q": "Where is Chichen Itza located?",
+      "a": "Yucatán, Mexico",
+      "angle": "maya pyramid"
+    },
+    {
+      "q": "In which country is Mount Kilimanjaro?",
+      "a": "Tanzania",
+      "angle": "mountain peak"
+    },
+    {
+      "q": "Where can you see Neuschwanstein Castle?",
+      "a": "Bavaria, Germany",
+      "angle": "fairytale castle"
+    },
+    {
+      "q": "Where is the Alhambra palace complex?",
+      "a": "Granada, Spain",
+      "angle": "palace fortress"
+    },
+    {
+      "q": "Where is Mount Everest located?",
+      "a": "Himalayas on the Nepal–China border",
+      "angle": "tallest peak"
+    },
+    {
+      "q": "Which country is home to the Great Barrier Reef?",
+      "a": "Australia",
+      "angle": "marine wonder"
+    },
+    {
+      "q": "Where are the plains of Serengeti National Park?",
+      "a": "Tanzania",
+      "angle": "safari plains"
+    },
+    {
+      "q": "Where can you visit the Louvre Museum?",
+      "a": "Paris, France",
+      "angle": "art museum"
+    },
+    {
+      "q": "Where is Times Square located?",
+      "a": "New York City, USA",
+      "angle": "city landmark"
+    },
+    {
+      "q": "Where can you tour the Kremlin?",
+      "a": "Moscow, Russia",
+      "angle": "fortress complex"
+    },
+    {
+      "q": "Where is the Forbidden City situated?",
+      "a": "Beijing, China",
+      "angle": "imperial palace"
+    },
+    {
+      "q": "Where can you walk the ruins of Pompeii?",
+      "a": "Near Naples, Italy",
+      "angle": "preserved ruins"
+    },
+    {
+      "q": "Where are Iguazu Falls located?",
+      "a": "Border of Argentina and Brazil",
+      "angle": "waterfall"
+    },
+    {
+      "q": "Where is Edinburgh Castle found?",
+      "a": "Edinburgh, Scotland",
+      "angle": "hilltop fortress"
+    },
+    {
+      "q": "Where does Victoria Falls thunder down?",
+      "a": "Border of Zimbabwe and Zambia",
+      "angle": "waterfall"
+    },
+    {
+      "q": "Which city features the CN Tower?",
+      "a": "Toronto, Canada",
+      "angle": "observation tower"
+    },
+    {
+      "q": "Where can you hike Yosemite Valley?",
+      "a": "California, USA",
+      "angle": "granite valley"
+    },
+    {
+      "q": "Where is the Blue Mosque located?",
+      "a": "Istanbul, Turkey",
+      "angle": "domed mosque"
+    },
+    {
+      "q": "Where can you visit Hagia Sophia?",
+      "a": "Istanbul, Turkey",
+      "angle": "domed landmark"
+    },
+    {
+      "q": "Where is Shwedagon Pagoda found?",
+      "a": "Yangon, Myanmar",
+      "angle": "golden stupa"
+    },
+    {
+      "q": "Where do the Moai statues stand?",
+      "a": "Easter Island, Chile",
+      "angle": "carved statues"
+    },
+    {
+      "q": "Where is the Grand Palace located?",
+      "a": "Bangkok, Thailand",
+      "angle": "royal palace"
+    },
+    {
+      "q": "Where can you tour the Palace of Versailles?",
+      "a": "Versailles, France",
+      "angle": "royal palace"
+    },
+    {
+      "q": "Which city features the Brandenburg Gate?",
+      "a": "Berlin, Germany",
+      "angle": "city gate"
+    },
+    {
+      "q": "Where do monasteries sit atop cliffs called Meteora?",
+      "a": "Thessaly, Greece",
+      "angle": "cliff monasteries"
+    },
+    {
+      "q": "Where are the rock spires of Cappadocia?",
+      "a": "Central Turkey",
+      "angle": "rock spires"
+    },
+    {
+      "q": "Where is Mont Saint-Michel located?",
+      "a": "Normandy, France",
+      "angle": "tidal island"
+    },
+    {
+      "q": "Where is Uluru found?",
+      "a": "Northern Territory, Australia",
+      "angle": "sacred monolith"
+    },
+    {
+      "q": "Where is the Palm Jumeirah?",
+      "a": "Dubai, UAE",
+      "angle": "man-made island"
+    },
+    {
+      "q": "Where is Ha Long Bay located?",
+      "a": "Northeast Vietnam",
+      "angle": "karst bay"
+    },
+    {
+      "q": "Which US state is home to Denali?",
+      "a": "Alaska, USA",
+      "angle": "alpine summit"
+    },
+    {
+      "q": "Which ancient guardian sits near the Giza pyramids?",
+      "a": "The Great Sphinx in Giza, Egypt",
+      "angle": "guardian statue"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Where can you see the Abu Simbel temples?",
+      "a": "Southern Egypt near Lake Nasser",
+      "angle": "carved temples"
+    },
+    {
+      "q": "Where is Borobudur located?",
+      "a": "Central Java, Indonesia",
+      "angle": "temple complex"
+    },
+    {
+      "q": "Where are the Banaue Rice Terraces?",
+      "a": "Luzon, Philippines",
+      "angle": "terraced slopes"
+    },
+    {
+      "q": "Where are the temples of Bagan found?",
+      "a": "Central Myanmar",
+      "angle": "temple plain"
+    },
+    {
+      "q": "Where is the Blue Lagoon located?",
+      "a": "Reykjanes Peninsula, Iceland",
+      "angle": "geothermal spa"
+    },
+    {
+      "q": "Where can you see the hoodoos of Bryce Canyon?",
+      "a": "Utah, USA",
+      "angle": "sandstone spires"
+    },
+    {
+      "q": "Where are the travertine pools of Pamukkale?",
+      "a": "Denizli Province, Turkey",
+      "angle": "thermal terraces"
+    },
+    {
+      "q": "Where are the Cliffs of Moher?",
+      "a": "County Clare, Ireland",
+      "angle": "sea cliffs"
+    },
+    {
+      "q": "Where is the Cradle of Humankind site?",
+      "a": "Gauteng, South Africa",
+      "angle": "fossil site"
+    },
+    {
+      "q": "Where can you walk Dubrovnik's old walls?",
+      "a": "Dubrovnik, Croatia",
+      "angle": "walled city"
+    },
+    {
+      "q": "Where are the ruins of Ephesus located?",
+      "a": "Near Selçuk, Turkey",
+      "angle": "ancient port"
+    },
+    {
+      "q": "Where is the Giant's Causeway found?",
+      "a": "County Antrim, Northern Ireland",
+      "angle": "basalt columns"
+    },
+    {
+      "q": "Where is Going-to-the-Sun Road?",
+      "a": "Glacier National Park, USA",
+      "angle": "mountain pass"
+    },
+    {
+      "q": "Where can you see the Twelve Apostles sea stacks?",
+      "a": "Great Ocean Road, Australia",
+      "angle": "coastal stacks"
+    },
+    {
+      "q": "Where are the Bahá'í Gardens terraced on a hill?",
+      "a": "Haifa, Israel",
+      "angle": "terraced gardens"
+    },
+    {
+      "q": "Where is the Malecón seaside promenade?",
+      "a": "Havana, Cuba",
+      "angle": "coastal boulevard"
+    },
+    {
+      "q": "Where is Jeita Grotto located?",
+      "a": "Near Beirut, Lebanon",
+      "angle": "limestone caves"
+    },
+    {
+      "q": "Where do visitors ride the Jungfraujoch railway?",
+      "a": "Bernese Alps, Switzerland",
+      "angle": "alpine pass"
+    },
+    {
+      "q": "Where is Kiyomizu-dera temple found?",
+      "a": "Kyoto, Japan",
+      "angle": "hillside temple"
+    },
+    {
+      "q": "Where is Lake Bled located?",
+      "a": "Slovenia",
+      "angle": "island chapel"
+    },
+    {
+      "q": "Where is Lake Baikal situated?",
+      "a": "Siberia, Russia",
+      "angle": "deep lake"
+    },
+    {
+      "q": "Where is Milford Sound located?",
+      "a": "Fiordland, New Zealand",
+      "angle": "fjord cliffs"
+    },
+    {
+      "q": "Where can you see Moraine Lake's blue water?",
+      "a": "Banff National Park, Canada",
+      "angle": "glacial lake"
+    },
+    {
+      "q": "Where is Mount Sinai found?",
+      "a": "Sinai Peninsula, Egypt",
+      "angle": "pilgrimage peak"
+    },
+    {
+      "q": "Where is Mount Rainier located?",
+      "a": "Washington State, USA",
+      "angle": "volcanic peak"
+    },
+    {
+      "q": "Where is Mount Roraima?",
+      "a": "Border of Venezuela, Guyana, and Brazil",
+      "angle": "tabletop mountain"
+    },
+    {
+      "q": "Where is Ngorongoro Crater located?",
+      "a": "Northern Tanzania",
+      "angle": "caldera rim"
+    },
+    {
+      "q": "Where are the Plitvice Lakes?",
+      "a": "Central Croatia",
+      "angle": "turquoise cascades"
+    },
+    {
+      "q": "Where is Red Square and St. Basil's Cathedral?",
+      "a": "Moscow, Russia",
+      "angle": "historic square"
+    },
+    {
+      "q": "Where is Redwood National Park?",
+      "a": "Northern California, USA",
+      "angle": "towering forest"
+    },
+    {
+      "q": "Where is Hallgrímskirkja located?",
+      "a": "Reykjavík, Iceland",
+      "angle": "modern church"
+    },
+    {
+      "q": "Where is the Salar de Uyuni found?",
+      "a": "Southwest Bolivia",
+      "angle": "salt flat"
+    },
+    {
+      "q": "Where is the Santorini caldera?",
+      "a": "Cyclades, Greece",
+      "angle": "volcanic rim"
+    },
+    {
+      "q": "Where is the General Sherman tree?",
+      "a": "Sequoia National Park, USA",
+      "angle": "giant sequoia"
+    },
+    {
+      "q": "Where is the Sheikh Zayed Grand Mosque?",
+      "a": "Abu Dhabi, UAE",
+      "angle": "white domes"
+    },
+    {
+      "q": "Where is Sigiriya Rock Fortress located?",
+      "a": "Central Sri Lanka",
+      "angle": "rock citadel"
+    },
+    {
+      "q": "Where is St. Peter's Basilica found?",
+      "a": "Vatican City",
+      "angle": "pilgrimage basilica"
+    },
+    {
+      "q": "Where is St. Mark's Basilica located?",
+      "a": "Venice, Italy",
+      "angle": "lagoon basilica"
+    },
+    {
+      "q": "Where is the Tiger's Nest monastery perched?",
+      "a": "Paro Valley, Bhutan",
+      "angle": "cliff monastery"
+    },
+    {
+      "q": "Where is Teotihuacan located?",
+      "a": "Near Mexico City, Mexico",
+      "angle": "pyramid complex"
+    },
+    {
+      "q": "Where is the Terracotta Army buried?",
+      "a": "Xi'an, China",
+      "angle": "buried warriors"
+    },
+    {
+      "q": "Where is Tikal found?",
+      "a": "Petén, Guatemala",
+      "angle": "jungle temples"
+    },
+    {
+      "q": "Where is the Valley of the Kings?",
+      "a": "Luxor, Egypt",
+      "angle": "ancient tombs"
+    },
+    {
+      "q": "Where do people take in the view from Victoria Peak?",
+      "a": "Hong Kong",
+      "angle": "city overlook"
+    },
+    {
+      "q": "Where is Wat Arun located?",
+      "a": "Bangkok, Thailand",
+      "angle": "river temple"
+    },
+    {
+      "q": "Where are the White Cliffs of Dover?",
+      "a": "Kent, England",
+      "angle": "chalk cliffs"
+    },
+    {
+      "q": "Where are the sandstone pillars of Zhangjiajie?",
+      "a": "Hunan, China",
+      "angle": "sandstone pillars"
+    },
+    {
+      "q": "Where is Zion Canyon located?",
+      "a": "Utah, USA",
+      "angle": "red canyon"
+    },
+    {
+      "q": "Where does the Okavango Delta fan out?",
+      "a": "Botswana",
+      "angle": "inland delta"
+    },
+    {
+      "q": "Where are the cliff dwellings of Mesa Verde?",
+      "a": "Colorado, USA",
+      "angle": "cliff dwellings"
+    },
+    {
+      "q": "Where is the Leshan Giant Buddha carved?",
+      "a": "Sichuan Province, China",
+      "angle": "rock carving"
+    },
+    {
+      "q": "Where is Isla del Sol on Lake Titicaca?",
+      "a": "Bolivia",
+      "angle": "sacred island"
+    },
+    {
+      "q": "Where is Mount Athos located?",
+      "a": "Chalkidiki, Greece",
+      "angle": "monastic peninsula"
+    },
+    {
+      "q": "Where can you see Delicate Arch?",
+      "a": "Arches National Park, Utah, USA",
+      "angle": "stone arch"
+    },
+    {
+      "q": "Where is Lake Louise found?",
+      "a": "Banff National Park, Canada",
+      "angle": "emerald lake"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Where is Ait Benhaddou located?",
+      "a": "Ouarzazate Province, Morocco",
+      "angle": "earthen ksar"
+    },
+    {
+      "q": "Where are the Ajanta Caves found?",
+      "a": "Maharashtra, India",
+      "angle": "rock-cut caves"
+    },
+    {
+      "q": "Where is the Bam Citadel situated?",
+      "a": "Kerman Province, Iran",
+      "angle": "adobe fortress"
+    },
+    {
+      "q": "Where is the Bastei Bridge?",
+      "a": "Saxon Switzerland, Germany",
+      "angle": "sandstone bridge"
+    },
+    {
+      "q": "Where is the Bromo Tengger Semeru landscape?",
+      "a": "East Java, Indonesia",
+      "angle": "volcanic caldera"
+    },
+    {
+      "q": "Where is the ancient city of Caral-Supe?",
+      "a": "Supe Valley, Peru",
+      "angle": "pyramid plateau"
+    },
+    {
+      "q": "Where is Chand Baori stepwell?",
+      "a": "Abhaneri, Rajasthan, India",
+      "angle": "stepped well"
+    },
+    {
+      "q": "Where is the Darvaza gas crater burning?",
+      "a": "Karakum Desert, Turkmenistan",
+      "angle": "fiery crater"
+    },
+    {
+      "q": "Where is Derawar Fort located?",
+      "a": "Punjab, Pakistan",
+      "angle": "desert fort"
+    },
+    {
+      "q": "Where are the sea cliffs of the Faroe Islands?",
+      "a": "North Atlantic, Faroe Islands",
+      "angle": "ocean cliffs"
+    },
+    {
+      "q": "Where is Göbekli Tepe found?",
+      "a": "Southeastern Turkey",
+      "angle": "prehistoric sanctuary"
+    },
+    {
+      "q": "Where are the caves of Gunung Mulu?",
+      "a": "Sarawak, Malaysia (Borneo)",
+      "angle": "limestone karst"
+    },
+    {
+      "q": "Where are the Flaming Cliffs located?",
+      "a": "Gobi Desert, Mongolia",
+      "angle": "fossil cliffs"
+    },
+    {
+      "q": "Where are the ruins of Great Zimbabwe?",
+      "a": "Masvingo Province, Zimbabwe",
+      "angle": "stone enclosure"
+    },
+    {
+      "q": "Where is the Ilulissat Icefjord?",
+      "a": "West coast of Greenland",
+      "angle": "glacier fjord"
+    },
+    {
+      "q": "Where is Jiayuguan Fort?",
+      "a": "Gansu Province, China",
+      "angle": "frontier fort"
+    },
+    {
+      "q": "Where is Jiuzhaigou Valley located?",
+      "a": "Sichuan Province, China",
+      "angle": "multicolored lakes"
+    },
+    {
+      "q": "Where do climbers gather at K2 base camp?",
+      "a": "Karakoram Range on the Pakistan–China border",
+      "angle": "high-altitude trek"
+    },
+    {
+      "q": "Where is the Valley of Geysers?",
+      "a": "Kamchatka Peninsula, Russia",
+      "angle": "geothermal valley"
+    },
+    {
+      "q": "Where are the rock-hewn churches of Lalibela?",
+      "a": "Amhara Region, Ethiopia",
+      "angle": "carved churches"
+    },
+    {
+      "q": "Where is the pink Lake Hillier located?",
+      "a": "Middle Island, Western Australia",
+      "angle": "colored lake"
+    },
+    {
+      "q": "Where is Lake Natron found?",
+      "a": "Northern Tanzania near the Kenyan border",
+      "angle": "alkaline lake"
+    },
+    {
+      "q": "Where is Mada'in Saleh (AlUla)?",
+      "a": "Al Madinah Region, Saudi Arabia",
+      "angle": "rock tombs"
+    },
+    {
+      "q": "Where is the fortress of Masada?",
+      "a": "Judean Desert, Israel",
+      "angle": "desert mesa"
+    },
+    {
+      "q": "Where is Mount Fitz Roy located?",
+      "a": "Patagonia on the Argentina–Chile border",
+      "angle": "jagged peak"
+    },
+    {
+      "q": "Where is Mount Kailash situated?",
+      "a": "Tibet Autonomous Region, China",
+      "angle": "sacred peak"
+    },
+    {
+      "q": "Where is Mount Nemrut found?",
+      "a": "Adiyaman Province, Turkey",
+      "angle": "summit statues"
+    },
+    {
+      "q": "Where is Navagio shipwreck beach?",
+      "a": "Zakynthos, Greece",
+      "angle": "hidden cove"
+    },
+    {
+      "q": "Where are the Nubian pyramids of Meroe?",
+      "a": "Sudan",
+      "angle": "desert pyramids"
+    },
+    {
+      "q": "Where are the ruins of Palmyra located?",
+      "a": "Homs Governorate, Syria",
+      "angle": "oasis ruins"
+    },
+    {
+      "q": "Where can you stand on Preikestolen (Pulpit Rock)?",
+      "a": "Lysefjord, Norway",
+      "angle": "fjord cliff"
+    },
+    {
+      "q": "Where is Rainbow Mountain (Vinicunca)?",
+      "a": "Cusco Region, Peru",
+      "angle": "striped ridge"
+    },
+    {
+      "q": "Where is the Rano Raraku quarry?",
+      "a": "Easter Island, Chile",
+      "angle": "moai quarry"
+    },
+    {
+      "q": "Where do turtles nest at Ras al Jinz?",
+      "a": "Oman",
+      "angle": "turtle beach"
+    },
+    {
+      "q": "Where is Rila Monastery located?",
+      "a": "Rila Mountains, Bulgaria",
+      "angle": "mountain monastery"
+    },
+    {
+      "q": "Where are the Rock Islands?",
+      "a": "Palau, western Pacific",
+      "angle": "limestone islets"
+    },
+    {
+      "q": "Where are the dunes of Sossusvlei?",
+      "a": "Namib Desert, Namibia",
+      "angle": "red dunes"
+    },
+    {
+      "q": "Where is Seljalandsfoss waterfall?",
+      "a": "South Coast of Iceland",
+      "angle": "walk-behind falls"
+    },
+    {
+      "q": "Where are the Simien Mountains?",
+      "a": "Northern Ethiopia",
+      "angle": "highland peaks"
+    },
+    {
+      "q": "Where is the Skeleton Coast located?",
+      "a": "Northern Namibia",
+      "angle": "foggy shores"
+    },
+    {
+      "q": "Where can you find Socotra's dragon blood trees?",
+      "a": "Socotra, Yemen",
+      "angle": "alien island"
+    },
+    {
+      "q": "Where is Tsingy de Bemaraha?",
+      "a": "Western Madagascar",
+      "angle": "limestone needles"
+    },
+    {
+      "q": "Where are the Tsodilo Hills?",
+      "a": "Northwest Botswana",
+      "angle": "painted hills"
+    },
+    {
+      "q": "Where are the ancient manuscripts of Timbuktu?",
+      "a": "Timbuktu, Mali",
+      "angle": "desert scholarship"
+    },
+    {
+      "q": "Where is Torres del Paine?",
+      "a": "Patagonia, Chile",
+      "angle": "granite towers"
+    },
+    {
+      "q": "Where is the Valley of Flowers?",
+      "a": "Uttarakhand, India",
+      "angle": "alpine meadow"
+    },
+    {
+      "q": "Where is Chile's Valley of the Moon located?",
+      "a": "Atacama Desert, Chile",
+      "angle": "desert moonscape"
+    },
+    {
+      "q": "Where is Wadi Rum found?",
+      "a": "Southern Jordan",
+      "angle": "sandstone desert"
+    },
+    {
+      "q": "Where are the ruins of Ani located?",
+      "a": "Near Kars, Turkey",
+      "angle": "silk road ruins"
+    },
+    {
+      "q": "Where is Yazd's old city?",
+      "a": "Yazd, Iran",
+      "angle": "mudbrick maze"
+    },
+    {
+      "q": "Where is Yakushima's cedar forest?",
+      "a": "Kagoshima Prefecture, Japan",
+      "angle": "ancient forest"
+    },
+    {
+      "q": "Where are the Zhangye Danxia landforms?",
+      "a": "Gansu Province, China",
+      "angle": "painted hills"
+    },
+    {
+      "q": "Where is the Ziggurat of Ur located?",
+      "a": "Dhi Qar Governorate, Iraq",
+      "angle": "stepped ziggurat"
+    },
+    {
+      "q": "Where is San Agustín Archaeological Park?",
+      "a": "Huila Department, Colombia",
+      "angle": "stone statues"
+    },
+    {
+      "q": "Where is Ohrid's old town and lakeshore?",
+      "a": "Lake Ohrid, North Macedonia",
+      "angle": "lakeside heritage"
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "easy": [
+    {
+      "q": "Where is the Monaco Grand Prix run?",
+      "a": "Monte Carlo, Monaco",
+      "angle": "street circuit"
+    },
+    {
+      "q": "Which race is called The Greatest Spectacle in Racing?",
+      "a": "Indianapolis 500",
+      "angle": "oval classic"
+    },
+    {
+      "q": "What color flag starts a race?",
+      "a": "Green flag",
+      "angle": "flag"
+    },
+    {
+      "q": "What do crews mainly change during a pit stop?",
+      "a": "Tires and sometimes fuel",
+      "angle": "pit basics"
+    },
+    {
+      "q": "Which F1 driver is known as The Iceman?",
+      "a": "Kimi Raikkonen",
+      "angle": "driver nickname"
+    },
+    {
+      "q": "Which company builds the Mustang?",
+      "a": "Ford",
+      "angle": "iconic car"
+    },
+    {
+      "q": "What brand supplies the F1 safety car?",
+      "a": "Mercedes-AMG",
+      "angle": "safety car"
+    },
+    {
+      "q": "Which superspeedway is famous for its huge oval speeds in NASCAR?",
+      "a": "Talladega Superspeedway",
+      "angle": "oval"
+    },
+    {
+      "q": "What does NASCAR stand for?",
+      "a": "National Association for Stock Car Auto Racing",
+      "angle": "acronym"
+    },
+    {
+      "q": "What kind of event is the 24 Hours of Le Mans?",
+      "a": "An endurance sports car race",
+      "angle": "endurance"
+    },
+    {
+      "q": "Which Italian circuit is called the Temple of Speed?",
+      "a": "Monza",
+      "angle": "circuit"
+    },
+    {
+      "q": "What is pole position?",
+      "a": "The fastest qualifier's spot on the grid",
+      "angle": "grid"
+    },
+    {
+      "q": "What flag ends a race?",
+      "a": "The checkered flag",
+      "angle": "flag"
+    },
+    {
+      "q": "What does DRS stand for?",
+      "a": "Drag Reduction System",
+      "angle": "aero tool"
+    },
+    {
+      "q": "Which team uses the prancing horse logo?",
+      "a": "Ferrari",
+      "angle": "team icon"
+    },
+    {
+      "q": "What nickname does the Nurburgring Nordschleife have?",
+      "a": "The Green Hell",
+      "angle": "circuit nickname"
+    },
+    {
+      "q": "Where is the Yard of Bricks on a famous oval?",
+      "a": "On the start/finish line at Indianapolis Motor Speedway",
+      "angle": "tradition"
+    },
+    {
+      "q": "Which series races V8 touring cars in Australia?",
+      "a": "The Supercars Championship",
+      "angle": "series"
+    },
+    {
+      "q": "What is a chicane?",
+      "a": "A tight S-shaped set of bends to slow cars",
+      "angle": "track feature"
+    },
+    {
+      "q": "What license do drivers need to race in F1?",
+      "a": "An FIA Super Licence",
+      "angle": "license"
+    },
+    {
+      "q": "What does the pit limiter do?",
+      "a": "Caps speed in the pit lane",
+      "angle": "safety"
+    },
+    {
+      "q": "What is slipstreaming or drafting?",
+      "a": "Following closely to reduce drag",
+      "angle": "aero tactic"
+    },
+    {
+      "q": "Who drives F1 car number 44?",
+      "a": "Lewis Hamilton",
+      "angle": "race number"
+    },
+    {
+      "q": "What fuel blend do current F1 cars use?",
+      "a": "E10 gasoline (10% ethanol)",
+      "angle": "fuel blend"
+    },
+    {
+      "q": "How many wheels does a standard race car have?",
+      "a": "Four",
+      "angle": "car basics"
+    },
+    {
+      "q": "What does the halo device protect?",
+      "a": "The driver's head",
+      "angle": "safety"
+    },
+    {
+      "q": "What 24-hour race runs on the Nordschleife?",
+      "a": "The 24 Hours of Nurburgring",
+      "angle": "endurance"
+    },
+    {
+      "q": "What is a stock car?",
+      "a": "A race car built to resemble a production model",
+      "angle": "car type"
+    },
+    {
+      "q": "Where is the Bathurst 1000 held?",
+      "a": "Mount Panorama Circuit in Australia",
+      "angle": "endurance"
+    },
+    {
+      "q": "What does FIA stand for?",
+      "a": "Fédération Internationale de l'Automobile",
+      "angle": "governing body"
+    },
+    {
+      "q": "Which oval is nicknamed The Lady in Black?",
+      "a": "Darlington Raceway",
+      "angle": "oval nickname"
+    },
+    {
+      "q": "Why is there a pit lane speed limit?",
+      "a": "To keep crews and officials safe",
+      "angle": "safety"
+    },
+    {
+      "q": "What tool rapidly removes F1 wheels?",
+      "a": "A single wheel gun with quick-release nuts",
+      "angle": "pit basics"
+    },
+    {
+      "q": "Which country hosts Suzuka Circuit?",
+      "a": "Japan",
+      "angle": "circuit location"
+    },
+    {
+      "q": "How long is a traditional quarter-mile drag strip?",
+      "a": "About 402 meters",
+      "angle": "drag racing"
+    },
+    {
+      "q": "What is the NASCAR Cup Series champion's trophy called?",
+      "a": "The Bill France Cup",
+      "angle": "trophy"
+    },
+    {
+      "q": "Which endurance race is part of the Triple Crown?",
+      "a": "The 24 Hours of Le Mans",
+      "angle": "triple crown"
+    },
+    {
+      "q": "Which F1 race is part of the Triple Crown target?",
+      "a": "The Monaco Grand Prix",
+      "angle": "triple crown"
+    },
+    {
+      "q": "What is a formation or pace lap?",
+      "a": "A lap before the start to warm up and form the grid",
+      "angle": "race phase"
+    },
+    {
+      "q": "Which brand runs the M Performance badge?",
+      "a": "BMW",
+      "angle": "manufacturer"
+    },
+    {
+      "q": "What is karting?",
+      "a": "Entry-level racing with small karts",
+      "angle": "intro"
+    },
+    {
+      "q": "What device tracks lap times automatically?",
+      "a": "A timing transponder",
+      "angle": "timing"
+    },
+    {
+      "q": "What is the pit wall?",
+      "a": "The team command stand along the start/finish",
+      "angle": "team ops"
+    },
+    {
+      "q": "Which city hosts the Long Beach Grand Prix?",
+      "a": "Long Beach, California",
+      "angle": "street circuit"
+    },
+    {
+      "q": "What are full wet tires?",
+      "a": "Grooved rain tires for heavy wet conditions",
+      "angle": "tires"
+    },
+    {
+      "q": "Which F1 team is nicknamed the Silver Arrows?",
+      "a": "Mercedes",
+      "angle": "team nickname"
+    },
+    {
+      "q": "What is a burnout used for in drag racing?",
+      "a": "To heat tires before a launch",
+      "angle": "drag start"
+    },
+    {
+      "q": "What does a yellow flag mean?",
+      "a": "Caution and no passing in that sector",
+      "angle": "flag"
+    },
+    {
+      "q": "What is the apex of a corner?",
+      "a": "The innermost point of the racing line",
+      "angle": "driving line"
+    },
+    {
+      "q": "Which series runs the Rolex 24 at Daytona?",
+      "a": "IMSA WeatherTech SportsCar Championship",
+      "angle": "endurance"
+    },
+    {
+      "q": "What is a pit board?",
+      "a": "A sign showing lap and gap info to the driver",
+      "angle": "team comms"
+    },
+    {
+      "q": "Which Japanese series runs GT500 and GT300 classes?",
+      "a": "Super GT",
+      "angle": "series"
+    },
+    {
+      "q": "What is a backmarker?",
+      "a": "A car being lapped by the leaders",
+      "angle": "race position"
+    },
+    {
+      "q": "What is a Virtual Safety Car?",
+      "a": "A mode that slows the field to a set delta time",
+      "angle": "race control"
+    },
+    { "q": "What do slick tires lack?", "a": "Tread grooves", "angle": "tires" }
+  ],
+  "medium": [
+    {
+      "q": "Which F1 circuit has a figure-eight layout?",
+      "a": "Suzuka Circuit",
+      "angle": "circuit design"
+    },
+    {
+      "q": "What is understeer?",
+      "a": "When a car turns less than the driver intends",
+      "angle": "handling"
+    },
+    {
+      "q": "What is oversteer?",
+      "a": "When the rear steps out and the car turns more than intended",
+      "angle": "handling"
+    },
+    {
+      "q": "What is an undercut strategy?",
+      "a": "Pitting earlier to gain time on fresh tires",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is an overcut strategy?",
+      "a": "Staying out longer to gain time while others pit",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is parc ferme?",
+      "a": "Impound conditions where cars cannot be freely changed after qualifying",
+      "angle": "rules"
+    },
+    {
+      "q": "What does a blue flag signal?",
+      "a": "A slower or lapped car must let a faster car through",
+      "angle": "flag"
+    },
+    {
+      "q": "What does the black-and-orange meatball flag mean?",
+      "a": "A car has damage and must pit for repairs",
+      "angle": "flag"
+    },
+    {
+      "q": "What does the safety car do?",
+      "a": "Neutralizes the race and bunches the field behind it",
+      "angle": "race control"
+    },
+    {
+      "q": "What does a Virtual Safety Car require?",
+      "a": "Drivers maintain a set delta time at reduced speed",
+      "angle": "race control"
+    },
+    {
+      "q": "How long is the 24 Hours of Le Mans?",
+      "a": "Twenty-four hours of continuous racing",
+      "angle": "endurance basics"
+    },
+    {
+      "q": "What is a GT3 car?",
+      "a": "A customer-focused grand touring race car balanced by BoP",
+      "angle": "car class"
+    },
+    {
+      "q": "How do slick tires differ from intermediates?",
+      "a": "Slicks have no grooves; intermediates have tread for light rain",
+      "angle": "tires"
+    },
+    {
+      "q": "What does the wooden plank under F1 cars check?",
+      "a": "Ride height legality through skid wear",
+      "angle": "scrutineering"
+    },
+    {
+      "q": "What is push-to-pass in IndyCar?",
+      "a": "A temporary horsepower boost for overtaking",
+      "angle": "overtake aid"
+    },
+    {
+      "q": "When can F1 drivers open DRS?",
+      "a": "Within one second of a car ahead in DRS zones",
+      "angle": "overtake aid"
+    },
+    {
+      "q": "What does LMP stand for?",
+      "a": "Le Mans Prototype",
+      "angle": "car class"
+    },
+    {
+      "q": "What does WTCR stand for?",
+      "a": "World Touring Car Cup",
+      "angle": "acronym"
+    },
+    {
+      "q": "What is IMSA WeatherTech?",
+      "a": "A North American sports car series",
+      "angle": "series"
+    },
+    {
+      "q": "What is Balance of Performance?",
+      "a": "Adjusting power, weight, or aero to equalize cars",
+      "angle": "BoP"
+    },
+    {
+      "q": "What is scrutineering?",
+      "a": "Technical inspection to ensure rules compliance",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a rolling start?",
+      "a": "Starting racing while moving behind the pace car",
+      "angle": "start format"
+    },
+    {
+      "q": "What is a standing start?",
+      "a": "Launching from the grid when the lights go out",
+      "angle": "start format"
+    },
+    {
+      "q": "What is a pit window?",
+      "a": "The planned lap range when stops should occur",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is a stint?",
+      "a": "The time a driver spends in the car between stops",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is double-stinting tires?",
+      "a": "Reusing the same set for another run to save time",
+      "angle": "strategy"
+    },
+    {
+      "q": "What is ERS?",
+      "a": "A system that harvests and deploys hybrid energy",
+      "angle": "hybrid"
+    },
+    {
+      "q": "What was KERS?",
+      "a": "An early kinetic energy recovery boost system",
+      "angle": "hybrid"
+    },
+    {
+      "q": "What does the MGU-K do?",
+      "a": "Harvests and deploys kinetic energy to the power unit",
+      "angle": "hybrid"
+    },
+    {
+      "q": "What happens for repeated track limits violations?",
+      "a": "Laps are deleted and time penalties can be given",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the paddock?",
+      "a": "The garage and team operations area behind the pits",
+      "angle": "venue"
+    },
+    {
+      "q": "What is a paddock pass?",
+      "a": "A credential that grants access to team areas",
+      "angle": "venue"
+    },
+    {
+      "q": "What does a softer tire compound provide?",
+      "a": "More grip but quicker wear",
+      "angle": "tires"
+    },
+    {
+      "q": "What is a delta time?",
+      "a": "A target pace used under VSC or full-course cautions",
+      "angle": "race control"
+    },
+    {
+      "q": "What are marbles on a track?",
+      "a": "Rubber debris off the racing line",
+      "angle": "track surface"
+    },
+    {
+      "q": "What is a flat spot?",
+      "a": "A worn patch on a tire from locking brakes",
+      "angle": "braking"
+    },
+    {
+      "q": "What is brake bias?",
+      "a": "The balance of braking force between front and rear",
+      "angle": "setup"
+    },
+    {
+      "q": "What is lift and coast?",
+      "a": "Backing off early to save fuel and brakes",
+      "angle": "fuel save"
+    },
+    {
+      "q": "What is a joker lap?",
+      "a": "A longer mandatory lap in rallycross used once per race",
+      "angle": "format"
+    },
+    {
+      "q": "What is homologation?",
+      "a": "Official approval that a car meets the rules",
+      "angle": "regulation"
+    },
+    {
+      "q": "What is a sequential gearbox?",
+      "a": "A box that shifts up or down only one gear at a time",
+      "angle": "drivetrain"
+    },
+    {
+      "q": "What is a rain light for?",
+      "a": "To improve visibility in spray or darkness",
+      "angle": "safety"
+    },
+    {
+      "q": "Where is the Eau Rouge/Raidillon complex?",
+      "a": "At Spa-Francorchamps",
+      "angle": "corner"
+    },
+    {
+      "q": "Why is Sebring International Raceway so bumpy?",
+      "a": "Its concrete surface comes from old airfield pavement",
+      "angle": "track surface"
+    },
+    {
+      "q": "What is the Goodwood Festival of Speed?",
+      "a": "A hillclimb event at Goodwood House",
+      "angle": "event"
+    },
+    {
+      "q": "What are pace notes?",
+      "a": "Co-driver callouts describing the road in rally",
+      "angle": "rally"
+    },
+    {
+      "q": "Why use studded tires?",
+      "a": "For grip on snow or ice rallies",
+      "angle": "tires"
+    },
+    {
+      "q": "What does drag coefficient measure?",
+      "a": "How aerodynamic a car is against the air",
+      "angle": "aero metric"
+    },
+    {
+      "q": "What is telemetry?",
+      "a": "Live car data sent to engineers",
+      "angle": "data"
+    },
+    {
+      "q": "What limits a fuel stint length?",
+      "a": "Tank size and fuel consumption rate",
+      "angle": "strategy"
+    },
+    {
+      "q": "What does the radio call 'Box' mean?",
+      "a": "Pit now",
+      "angle": "team comms"
+    },
+    {
+      "q": "What is a green-white-checkered finish?",
+      "a": "A NASCAR overtime restart to reach the checkered flag",
+      "angle": "race format"
+    },
+    {
+      "q": "What is the Lucky Dog rule?",
+      "a": "First car one lap down gets a free pass under caution",
+      "angle": "race control"
+    },
+    {
+      "q": "What is a wave around?",
+      "a": "Allowing certain lapped cars to pass the safety car to regain track position",
+      "angle": "race control"
+    },
+    {
+      "q": "What happens if a team breaks parc ferme after qualifying?",
+      "a": "The car starts from the pit lane or can be disqualified",
+      "angle": "rules"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Where was the first Grand Prix in 1906 held?",
+      "a": "Le Mans, France",
+      "angle": "history"
+    },
+    {
+      "q": "How long is the Monaco Grand Prix circuit?",
+      "a": "About 3.337 km per lap",
+      "angle": "circuit spec"
+    },
+    {
+      "q": "What is the current Spa-Francorchamps lap length?",
+      "a": "About 7.004 km",
+      "angle": "circuit spec"
+    },
+    {
+      "q": "How long is the Indianapolis Motor Speedway oval?",
+      "a": "2.5 miles (about 4.02 km)",
+      "angle": "oval spec"
+    },
+    {
+      "q": "How long is Circuit de la Sarthe at Le Mans?",
+      "a": "About 13.626 km per lap",
+      "angle": "circuit spec"
+    },
+    {
+      "q": "What is the lap length of the Nurburgring Nordschleife?",
+      "a": "About 20.8 km",
+      "angle": "circuit spec"
+    },
+    {
+      "q": "What is the minimum weight of a current F1 car with driver?",
+      "a": "798 kg",
+      "angle": "regulation"
+    },
+    {
+      "q": "What engines power modern IndyCars?",
+      "a": "2.2-liter twin-turbo V6 engines",
+      "angle": "spec"
+    },
+    {
+      "q": "What is the displacement of a NASCAR Cup engine?",
+      "a": "358 cubic inches (about 5.9 liters)",
+      "angle": "spec"
+    },
+    {
+      "q": "What is the standard F1 pit lane speed limit at most tracks?",
+      "a": "80 km/h",
+      "angle": "regulation"
+    },
+    {
+      "q": "Who holds the record for most Le Mans wins?",
+      "a": "Tom Kristensen with 9",
+      "angle": "record"
+    },
+    {
+      "q": "Who holds the most F1 championships?",
+      "a": "Michael Schumacher and Lewis Hamilton with 7 each",
+      "angle": "record"
+    },
+    {
+      "q": "Which driver reached four Indianapolis 500 wins in 2021?",
+      "a": "Helio Castroneves",
+      "angle": "record"
+    },
+    {
+      "q": "Who is the only driver to complete the Triple Crown of Motorsport?",
+      "a": "Graham Hill",
+      "angle": "record"
+    },
+    {
+      "q": "When were chicanes added to the Mulsanne Straight?",
+      "a": "1990",
+      "angle": "regulation change"
+    },
+    {
+      "q": "How steep is the Daytona banking in the turns?",
+      "a": "31 degrees",
+      "angle": "oval spec"
+    },
+    {
+      "q": "How steep is the Talladega banking?",
+      "a": "33 degrees",
+      "angle": "oval spec"
+    },
+    {
+      "q": "About how fast are cars on Conrod Straight at Bathurst?",
+      "a": "Around 300 km/h",
+      "angle": "speed trap"
+    },
+    {
+      "q": "Above what temperature do carbon brakes work best?",
+      "a": "Roughly above 400°C",
+      "angle": "brake tech"
+    },
+    {
+      "q": "What does the HANS device protect against?",
+      "a": "Neck injuries during crashes",
+      "angle": "safety"
+    },
+    {
+      "q": "What is brake-by-wire?",
+      "a": "Electronic control of rear brakes working with energy recovery",
+      "angle": "braking tech"
+    },
+    {
+      "q": "What does a heave spring or third element manage?",
+      "a": "Vertical ride and aero platform stability",
+      "angle": "suspension"
+    },
+    {
+      "q": "What does an anti-roll bar do?",
+      "a": "Resists body roll in corners",
+      "angle": "suspension"
+    },
+    {
+      "q": "What is camber used for?",
+      "a": "Tilting wheels to improve cornering grip",
+      "angle": "setup"
+    },
+    {
+      "q": "What is toe angle?",
+      "a": "Setting wheels slightly in or out for stability or turn-in",
+      "angle": "setup"
+    },
+    {
+      "q": "What is rake on a race car?",
+      "a": "Running the rear ride height higher than the front",
+      "angle": "aero setup"
+    },
+    {
+      "q": "What is porpoising?",
+      "a": "Ground-effect aero oscillation as the floor stalls and reattaches",
+      "angle": "aero issue"
+    },
+    {
+      "q": "How much fuel must be available for an FIA sample after sessions?",
+      "a": "At least 1 liter",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the maximum starting fuel load allowed in F1 races?",
+      "a": "110 kg",
+      "angle": "fuel rule"
+    },
+    {
+      "q": "What does the 107% rule enforce?",
+      "a": "Drivers must qualify within 107% to start the race",
+      "angle": "rules"
+    },
+    {
+      "q": "What happens if a team changes setup under parc ferme?",
+      "a": "The car must start from the pit lane",
+      "angle": "rules"
+    },
+    {
+      "q": "Which engine powers LMP2 cars?",
+      "a": "A spec 4.2L Gibson V8",
+      "angle": "class spec"
+    },
+    {
+      "q": "What two architectures run in the WEC Hypercar class?",
+      "a": "LMH and LMDh",
+      "angle": "class rules"
+    },
+    {
+      "q": "What is IMSA's top class called?",
+      "a": "GTP, using LMDh cars",
+      "angle": "class rules"
+    },
+    {
+      "q": "What is a Code 60 procedure?",
+      "a": "A full-course 60 km/h speed limit",
+      "angle": "race control"
+    },
+    {
+      "q": "How fast is a WEC full-course yellow?",
+      "a": "80 km/h neutralization",
+      "angle": "race control"
+    },
+    {
+      "q": "What are slow zones at Le Mans?",
+      "a": "Localized 80 km/h controlled sections",
+      "angle": "race control"
+    },
+    {
+      "q": "What is NASCAR stage racing?",
+      "a": "Races split into stages with points and cautions",
+      "angle": "race format"
+    },
+    {
+      "q": "What limits horsepower at NASCAR superspeedways?",
+      "a": "A tapered spacer (formerly restrictor plates)",
+      "angle": "engine rule"
+    },
+    {
+      "q": "What fuel do IndyCars run?",
+      "a": "An E85 ethanol blend",
+      "angle": "fuel"
+    },
+    {
+      "q": "Who supplies F1 tires currently?",
+      "a": "Pirelli",
+      "angle": "supplier"
+    },
+    {
+      "q": "Who supplies IndyCar tires?",
+      "a": "Firestone",
+      "angle": "supplier"
+    },
+    {
+      "q": "What tool does BTCC use to balance success?",
+      "a": "Success ballast weight",
+      "angle": "BoP"
+    },
+    {
+      "q": "How does Formula E Attack Mode work?",
+      "a": "Drivers activate extra power by driving off line through an activation zone",
+      "angle": "overtake aid"
+    },
+    {
+      "q": "What era cars run at the Goodwood Revival?",
+      "a": "Historic machinery mainly from before 1966",
+      "angle": "historic"
+    },
+    {
+      "q": "What layout does the Nurburgring 24H use?",
+      "a": "The Nordschleife plus the GP loop",
+      "angle": "layout"
+    },
+    {
+      "q": "How are IMSA restarts split?",
+      "a": "Prototypes restart separately ahead of GT classes",
+      "angle": "race control"
+    },
+    {
+      "q": "What do lapped cars do before an F1 safety car restart?",
+      "a": "Unlap themselves past the leader when instructed",
+      "angle": "rules"
+    },
+    {
+      "q": "How long is the Dakar Rally typically?",
+      "a": "Roughly two weeks and about 8000 km of stages",
+      "angle": "rally raid"
+    },
+    {
+      "q": "What distance defines the Baja 1000?",
+      "a": "Roughly 1000 miles across Mexico's Baja peninsula",
+      "angle": "off-road"
+    },
+    {
+      "q": "What is the finish elevation of Pikes Peak Hill Climb?",
+      "a": "14,115 feet (about 4300 meters)",
+      "angle": "hillclimb"
+    },
+    {
+      "q": "What is the elevation gain through Eau Rouge and Raidillon?",
+      "a": "About 30 meters uphill",
+      "angle": "circuit feature"
+    },
+    {
+      "q": "How long is Baku City Circuit's main straight?",
+      "a": "About 2.2 km",
+      "angle": "circuit spec"
+    },
+    {
+      "q": "Who holds the record for Monaco GP wins?",
+      "a": "Ayrton Senna with 6",
+      "angle": "record"
+    },
+    {
+      "q": "What is Le Mans Garage 56 reserved for?",
+      "a": "An innovative or experimental entry outside the classes",
+      "angle": "innovation"
+    }
+  ]
+}

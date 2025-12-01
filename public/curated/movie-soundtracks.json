@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Which film features the song \"My Heart Will Go On\"?",
+      "a": "Titanic",
+      "angle": "songs"
+    },
+    {
+      "q": "Who sings \"My Heart Will Go On\"?",
+      "a": "Celine Dion",
+      "angle": "artists"
+    },
+    {
+      "q": "Which film features the song \"Let It Go\"?",
+      "a": "Frozen",
+      "angle": "songs"
+    },
+    {
+      "q": "Who sings \"Let It Go\" in Frozen?",
+      "a": "Idina Menzel",
+      "angle": "artists"
+    },
+    {
+      "q": "Which film features \"Circle of Life\"?",
+      "a": "The Lion King",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Hakuna Matata\"?",
+      "a": "The Lion King",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"A Whole New World\"?",
+      "a": "Aladdin",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Beauty and the Beast\" (title song)?",
+      "a": "Beauty and the Beast",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Can You Feel the Love Tonight\"?",
+      "a": "The Lion King",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Into the Unknown\"?",
+      "a": "Frozen II",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"You’ve Got a Friend in Me\"?",
+      "a": "Toy Story",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Shallow\"?",
+      "a": "A Star Is Born (2018)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"City of Stars\"?",
+      "a": "La La Land",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Skyfall\"?",
+      "a": "Skyfall (James Bond)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Writing’s on the Wall\"?",
+      "a": "Spectre (James Bond)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Remember Me\"?",
+      "a": "Coco",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Everything Is Awesome\"?",
+      "a": "The Lego Movie",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Footloose\" (title song)?",
+      "a": "Footloose",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Eye of the Tiger\"?",
+      "a": "Rocky III",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Staying Alive\"?",
+      "a": "Saturday Night Fever",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"I Will Always Love You\" (famous cover)?",
+      "a": "The Bodyguard",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Men in Black\" (title song)?",
+      "a": "Men in Black",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Lose Yourself\"?",
+      "a": "8 Mile",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Danger Zone\"?",
+      "a": "Top Gun",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Take My Breath Away\"?",
+      "a": "Top Gun",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Moon River\"?",
+      "a": "Breakfast at Tiffany’s",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Over the Rainbow\"?",
+      "a": "The Wizard of Oz",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"When You Wish Upon a Star\"?",
+      "a": "Pinocchio",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Bare Necessities\"?",
+      "a": "The Jungle Book",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"The Power of Love\" by Huey Lewis?",
+      "a": "Back to the Future",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Ghostbusters\" (title song)?",
+      "a": "Ghostbusters",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Gonna Fly Now\"?",
+      "a": "Rocky",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Happy\" by Pharrell Williams?",
+      "a": "Despicable Me 2",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"All Star\" by Smash Mouth?",
+      "a": "Shrek",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"I See the Light\"?",
+      "a": "Tangled",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Colors of the Wind\"?",
+      "a": "Pocahontas",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"You’ll Be in My Heart\"?",
+      "a": "Tarzan (1999)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Evermore\" by Dan Stevens?",
+      "a": "Beauty and the Beast (2017)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"I Just Can’t Wait to Be King\"?",
+      "a": "The Lion King",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Do-Re-Mi\"?",
+      "a": "The Sound of Music",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Time of My Life\"?",
+      "a": "Dirty Dancing",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"9 to 5\"?",
+      "a": "9 to 5",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"As Time Goes By\"?",
+      "a": "Casablanca",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"White Christmas\"?",
+      "a": "Holiday Inn / White Christmas",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"No Time to Die\"?",
+      "a": "No Time to Die (James Bond)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Under the Sea\"?",
+      "a": "The Little Mermaid",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Part of Your World\"?",
+      "a": "The Little Mermaid",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Man or Muppet\"?",
+      "a": "The Muppets (2011)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"This Is Me\"?",
+      "a": "The Greatest Showman",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Another Day of Sun\"?",
+      "a": "La La Land",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"I’m a Believer\" cover by Smash Mouth?",
+      "a": "Shrek",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Reindeers Are Better Than People\"?",
+      "a": "Frozen",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Love Is an Open Door\"?",
+      "a": "Frozen",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"We Don’t Talk About Bruno\"?",
+      "a": "Encanto",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Surface Pressure\"?",
+      "a": "Encanto",
+      "angle": "songs"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who composed the score for Star Wars?",
+      "a": "John Williams",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Jurassic Park?",
+      "a": "John Williams",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Harry Potter and the Sorcerer’s Stone?",
+      "a": "John Williams",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Pirates of the Caribbean (original theme)?",
+      "a": "Klaus Badelt with Hans Zimmer producing/expanding",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Inception?",
+      "a": "Hans Zimmer",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Dark Knight?",
+      "a": "Hans Zimmer and James Newton Howard",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Lion King (1994)?",
+      "a": "Hans Zimmer",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the songs for Frozen?",
+      "a": "Kristen Anderson-Lopez and Robert Lopez",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed the songs for The Little Mermaid (1989)?",
+      "a": "Alan Menken and Howard Ashman",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed the score for Titanic?",
+      "a": "James Horner",
+      "angle": "composers"
+    },
+    {
+      "q": "Who wrote \"My Heart Will Go On\" lyrics?",
+      "a": "Will Jennings",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed \"Skyfall\" theme?",
+      "a": "Adele and Paul Epworth (performance/writing); produced by Paul Epworth",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed \"Writing’s on the Wall\"?",
+      "a": "Sam Smith and Jimmy Napes",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed \"No Time to Die\"?",
+      "a": "Billie Eilish and Finneas O’Connell",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed \"Shallow\"?",
+      "a": "Lady Gaga, Andrew Wyatt, Anthony Rossomando, Mark Ronson",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Who composed the score for Interstellar?",
+      "a": "Hans Zimmer",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Gladiator?",
+      "a": "Hans Zimmer and Lisa Gerrard (vocals)",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"The Pink Panther\" theme?",
+      "a": "Henry Mancini",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"The Godfather\" theme?",
+      "a": "Nino Rota",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"Back to the Future\" theme?",
+      "a": "Alan Silvestri",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"Avengers\" main theme?",
+      "a": "Alan Silvestri",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"Doctor Who\" theme originally?",
+      "a": "Ron Grainer and the BBC Radiophonic Workshop (Delia Derbyshire)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which song won Best Original Song for Frozen?",
+      "a": "Let It Go",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for A Star Is Born (2018)?",
+      "a": "Shallow",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for Skyfall?",
+      "a": "Skyfall",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for Spectre?",
+      "a": "Writing’s on the Wall",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for Coco?",
+      "a": "Remember Me",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for The Lego Movie?",
+      "a": "It did not win; nominated: \"Everything Is Awesome\"",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for Encanto?",
+      "a": "No song from Encanto won; \"Dos Oruguitas\" nominated",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which score won for The Lion King (1994)?",
+      "a": "Hans Zimmer won Best Original Score",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which score won for Schindler’s List?",
+      "a": "John Williams",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which score won for The Shape of Water?",
+      "a": "Alexandre Desplat",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which score won for The Lord of the Rings: The Return of the King?",
+      "a": "Howard Shore",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for The Lord of the Rings: The Return of the King?",
+      "a": "Into the West",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which composer is known for \"Mission: Impossible\" theme in films?",
+      "a": "Original Lalo Schifrin; film arrangements by various incl. Danny Elfman",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed \"He’s a Pirate\"?",
+      "a": "Klaus Badelt (with Hans Zimmer producing)",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Up?",
+      "a": "Michael Giacchino",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Ratatouille?",
+      "a": "Michael Giacchino",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Incredibles?",
+      "a": "Michael Giacchino",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Social Network?",
+      "a": "Trent Reznor and Atticus Ross",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Grand Budapest Hotel?",
+      "a": "Alexandre Desplat",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Crouching Tiger, Hidden Dragon?",
+      "a": "Tan Dun (cello Yo-Yo Ma)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which song from 8 Mile won the Oscar?",
+      "a": "Lose Yourself",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which movie featured \"Blaze of Glory\" by Jon Bon Jovi?",
+      "a": "Young Guns II",
+      "angle": "songs"
+    },
+    {
+      "q": "Which movie featured \"Against All Odds\" by Phil Collins?",
+      "a": "Against All Odds",
+      "angle": "songs"
+    },
+    {
+      "q": "Which movie featured \"I Don’t Want to Miss a Thing\"?",
+      "a": "Armageddon",
+      "angle": "songs"
+    },
+    {
+      "q": "Which movie featured \"Unchained Melody\" resurgence?",
+      "a": "Ghost",
+      "angle": "songs"
+    },
+    {
+      "q": "Which movie featured \"Kiss from a Rose\"?",
+      "a": "Batman Forever",
+      "angle": "songs"
+    },
+    {
+      "q": "Who composed the score for Dune (2021)?",
+      "a": "Hans Zimmer",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Black Panther?",
+      "a": "Ludwig Göransson",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Oppenheimer?",
+      "a": "Ludwig Göransson",
+      "angle": "composers"
+    },
+    {
+      "q": "Which song won Best Original Song for Slumdog Millionaire?",
+      "a": "Jai Ho",
+      "angle": "oscars"
+    },
+    {
+      "q": "Who composed music for Slumdog Millionaire?",
+      "a": "A. R. Rahman",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Jaws?",
+      "a": "John Williams",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for E.T.?",
+      "a": "John Williams",
+      "angle": "composers"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year did The Lord of the Rings: The Return of the King win Best Original Score?",
+      "a": "2004 ceremony (2003 film year)",
+      "angle": "oscars"
+    },
+    {
+      "q": "How many Oscars did Titanic win including Best Original Song?",
+      "a": "11 total; song win for My Heart Will Go On",
+      "angle": "oscars"
+    },
+    {
+      "q": "What key motif is used for the Shire in LOTR?",
+      "a": "Tin whistle/uilleann pipes pastoral theme by Howard Shore",
+      "angle": "themes"
+    },
+    {
+      "q": "What unusual instrument did Hans Zimmer feature in Gladiator?",
+      "a": "Voice of Lisa Gerrard; also duduk (Armenian woodwind)",
+      "angle": "orchestration"
+    },
+    {
+      "q": "Which composer popularized the BRAAAM sound in trailers via Inception score?",
+      "a": "Hans Zimmer",
+      "angle": "culture"
+    },
+    {
+      "q": "What time signature is the Mission: Impossible theme?",
+      "a": "5/4 time",
+      "angle": "music"
+    },
+    {
+      "q": "What song introduced the whip crack in Raiders of the Lost Ark score motif?",
+      "a": "Raiders March by John Williams",
+      "angle": "themes"
+    },
+    {
+      "q": "What Middle-earth language lyrics are used in the LOTR scores?",
+      "a": "Sindarin/Quenya/Black Speech; multiple languages",
+      "angle": "languages"
+    },
+    {
+      "q": "Who conducted the original Star Wars recording in 1977?",
+      "a": "John Williams with the London Symphony Orchestra",
+      "angle": "production"
+    },
+    {
+      "q": "What instrument leads the opening of Jaws?",
+      "a": "Low cellos/basses two-note motif",
+      "angle": "orchestration"
+    },
+    {
+      "q": "What composer is known for the \"Burton/Elfman\" sound in Batman (1989)?",
+      "a": "Danny Elfman",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Good, the Bad and the Ugly?",
+      "a": "Ennio Morricone",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Cinema Paradiso?",
+      "a": "Ennio Morricone",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Hateful Eight?",
+      "a": "Ennio Morricone",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored the Dollars Trilogy?",
+      "a": "Ennio Morricone",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Dark Knight Trilogy?",
+      "a": "Hans Zimmer (with James Newton Howard on Begins/TDK)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Interstellar’s organ-heavy soundtrack?",
+      "a": "Hans Zimmer",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Pan’s Labyrinth?",
+      "a": "Javier Navarrete",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Shape of Water?",
+      "a": "Alexandre Desplat",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Grand Budapest Hotel?",
+      "a": "Alexandre Desplat",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Birdman (mostly drums)?",
+      "a": "Antonio Sánchez",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Tron: Legacy?",
+      "a": "Daft Punk",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Mandalorian?",
+      "a": "Ludwig Göransson",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Black Panther?",
+      "a": "Ludwig Göransson",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Social Network?",
+      "a": "Trent Reznor and Atticus Ross",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Requiem for a Dream?",
+      "a": "Clint Mansell",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the name of the Requiem for a Dream main theme?",
+      "a": "Lux Aeterna",
+      "angle": "themes"
+    },
+    {
+      "q": "Which composer scored Chariots of Fire?",
+      "a": "Vangelis",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Blade Runner (1982)?",
+      "a": "Vangelis",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Bladerunner 2049?",
+      "a": "Hans Zimmer and Benjamin Wallfisch",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Sicario?",
+      "a": "Jóhann Jóhannsson",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Arrival?",
+      "a": "Jóhann Jóhannsson",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Moonlight?",
+      "a": "Nicholas Britell",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored If Beale Street Could Talk?",
+      "a": "Nicholas Britell",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Up and won an Oscar?",
+      "a": "Michael Giacchino",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song from Monsters, Inc. won an Oscar?",
+      "a": "If I Didn’t Have You",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won the first Best Original Song Oscar?",
+      "a": "The Continental (1934)",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which song won Best Original Song for The Sound of Music?",
+      "a": "No song won; score won only",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which composer has the most Oscar wins for Original Score?",
+      "a": "Alfred Newman (9 wins)",
+      "angle": "records"
+    },
+    {
+      "q": "Which composer has the most Oscar nominations for Original Score?",
+      "a": "John Williams (50+ score nominations)",
+      "angle": "records"
+    },
+    {
+      "q": "Which composer wrote the James Bond theme?",
+      "a": "Monty Norman (arranged by John Barry)",
+      "angle": "themes"
+    },
+    {
+      "q": "Which singer performed \"Live and Let Die\" Bond theme?",
+      "a": "Paul McCartney & Wings",
+      "angle": "artists"
+    },
+    {
+      "q": "Which song was the first Bond theme to win an Oscar?",
+      "a": "Skyfall",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which score famously uses \"Adagio in D minor\" by John Murphy?",
+      "a": "Sunshine (also reused in Kick-Ass)",
+      "angle": "themes"
+    },
+    {
+      "q": "Which film uses \"Lux Aeterna\" re-orchestrated for trailers?",
+      "a": "Often used in trailers (e.g., Two Towers trailer)",
+      "angle": "culture"
+    },
+    {
+      "q": "Which film features the song \"Pure Imagination\"?",
+      "a": "Willy Wonka & the Chocolate Factory (1971)",
+      "angle": "songs"
+    },
+    {
+      "q": "Which composer scored Her (2013)?",
+      "a": "Arcade Fire (Win Butler/Owen Pallett)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Last Emperor?",
+      "a": "Ryuichi Sakamoto, David Byrne, Cong Su",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Merry Christmas, Mr. Lawrence?",
+      "a": "Ryuichi Sakamoto",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Mission (1986)?",
+      "a": "Ennio Morricone",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Schindler’s List violin solos?",
+      "a": "Itzhak Perlman performed (score by John Williams)",
+      "angle": "performance"
+    },
+    {
+      "q": "Which instrument leads \"Once Upon a Time in the West\" theme?",
+      "a": "Soprano voice/harmonica/guitar motifs (Morricone)",
+      "angle": "orchestration"
+    },
+    {
+      "q": "What song did Eminem perform that won Best Original Song?",
+      "a": "Lose Yourself",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which movie featured \"Falling Slowly\" (Oscar winner)?",
+      "a": "Once",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which songwriter duo wrote many Disney Renaissance songs?",
+      "a": "Alan Menken and Howard Ashman",
+      "angle": "songwriters"
+    }
+  ]
+}
