@@ -1,79 +1,51 @@
-// Curated question counts cache management
-// Atomic cache operations to prevent race conditions
+// Curated question index cache management
+// Manages the list of topics that have curated questions available
 
-import type { Topic } from '../types';
-import { ErrorHandler } from '../utils';
+import { loadCuratedQuestionsIndex } from './questions';
 
-// Global cache for curated question counts
-let _globalCuratedCounts: Map<string, number> | null = null;
-let _calculationPromise: Promise<Map<string, number>> | null = null;
+// Set of topic IDs that have curated questions (loaded from index.json)
+let _curatedTopicIds: Set<string> | null = null;
+let _loadPromise: Promise<Set<string>> | null = null;
 
-export function getCuratedCountsCache(): Map<string, number> | null {
-  return _globalCuratedCounts;
+export function getCuratedTopicIds(): Set<string> | null {
+  return _curatedTopicIds;
 }
 
-export function setCuratedCountsCache(cache: Map<string, number>): void {
-  _globalCuratedCounts = cache;
+export function resetCuratedTopicIds(): void {
+  _curatedTopicIds = null;
+  _loadPromise = null;
 }
 
-export function resetCuratedCountsCache(): void {
-  _globalCuratedCounts = null;
-  _calculationPromise = null;
-}
-
-// Atomic operation to get or calculate curated counts
-export async function getOrCalculateCuratedCounts(): Promise<
-  Map<string, number>
-> {
+// Load the curated questions index (just topic IDs, not actual questions)
+export async function loadCuratedTopicIndex(): Promise<Set<string>> {
   // Return cached value if available
-  if (_globalCuratedCounts) {
-    return _globalCuratedCounts;
+  if (_curatedTopicIds) {
+    return _curatedTopicIds;
   }
 
-  // If calculation in progress, wait for it
-  if (_calculationPromise) {
-    return _calculationPromise;
+  // If load in progress, wait for it
+  if (_loadPromise) {
+    return _loadPromise;
   }
 
-  // Start new calculation
-  _calculationPromise = (async (): Promise<Map<string, number>> => {
+  // Start new load
+  _loadPromise = (async (): Promise<Set<string>> => {
     try {
-      const curatedCounts = new Map<string, number>();
-
-      window.topicList.forEach((topic: Topic) => {
-        let count = 0;
-        if (
-          typeof window.curatedQuestions !== 'undefined' &&
-          window.curatedQuestions[topic.id]
-        ) {
-          const easy = window.curatedQuestions[topic.id].easy?.length || 0;
-          const medium = window.curatedQuestions[topic.id].medium?.length || 0;
-          const hard = window.curatedQuestions[topic.id].hard?.length || 0;
-          count = easy + medium + hard;
-        }
-        curatedCounts.set(topic.id, count);
-      });
-
-      _globalCuratedCounts = curatedCounts;
-      return curatedCounts;
-    } catch (error) {
-      ErrorHandler.warn('Failed to calculate curated counts', error);
-      _globalCuratedCounts = new Map();
-      return _globalCuratedCounts;
+      const topicIds = await loadCuratedQuestionsIndex();
+      _curatedTopicIds = new Set(topicIds);
+      return _curatedTopicIds;
+    } catch {
+      _curatedTopicIds = new Set();
+      return _curatedTopicIds;
     } finally {
-      _calculationPromise = null;
+      _loadPromise = null;
     }
   })();
 
-  return _calculationPromise;
+  return _loadPromise;
 }
 
-// Proxy object for backward compatibility
-export const globalCuratedCounts = {
-  get value(): Map<string, number> | null {
-    return _globalCuratedCounts;
-  },
-  set value(val: Map<string, number> | null) {
-    _globalCuratedCounts = val;
-  },
-};
+// Check if a topic has curated questions
+export function hasCuratedQuestions(topicId: string): boolean {
+  return _curatedTopicIds?.has(topicId) ?? false;
+}

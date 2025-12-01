@@ -55,6 +55,11 @@ export const state: State = {
   revealed: false,
 };
 
+// Wrapper for saveProgress to maintain existing API
+export function saveProgress(): void {
+  persistProgress(progress);
+}
+
 // Wrapper for rebuildQuestionBank to maintain existing API
 export function rebuildQuestionBank(): void {
   rebuildBank(state.topicId, progress);

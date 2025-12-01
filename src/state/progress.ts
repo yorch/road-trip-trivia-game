@@ -15,15 +15,15 @@ import { getOrCreateQuestions } from './questions';
 export const progress: ProgressData = {};
 
 // Get or create progress for a topic/difficulty
-export function getProgress(
+export async function getProgress(
   topicId: string,
   difficulty: Difficulty,
   questionMode: QuestionMode,
-): Progress {
+): Promise<Progress> {
   if (!progress[topicId]) progress[topicId] = {};
   if (!progress[topicId][difficulty]) {
     // Lazy load: create questions only when needed
-    const bank = getOrCreateQuestions(topicId, difficulty, questionMode);
+    const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
     const bankSize = bank.length;
     if (bankSize === 0) {
       return { order: [], cursor: 0 };
@@ -40,7 +40,7 @@ export function getProgress(
 
   // Detect empty progress and rebuild if questions now available
   if (prog.order.length === 0) {
-    const bank = getOrCreateQuestions(topicId, difficulty, questionMode);
+    const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
     if (bank.length > 0) {
       // Questions available now, rebuild progress
       const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
@@ -52,7 +52,7 @@ export function getProgress(
 
   // Handle lazy reshuffle from mode changes
   if (prog.needsReshuffle) {
-    const bank = getOrCreateQuestions(topicId, difficulty, questionMode);
+    const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
     const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
     const newOrder = shuffleIndices(bank.length, seed);
     // Preserve cursor position if possible, otherwise reset

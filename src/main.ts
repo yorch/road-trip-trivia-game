@@ -15,7 +15,6 @@ import {
 } from './data/data';
 import {
   askedSignal,
-  loadCuratedQuestions,
   loadDifficulty,
   loadLastTopic,
   loadProgress,
@@ -47,7 +46,7 @@ async function init(): Promise<void> {
   // Initialize toast notification system
   ToastManager.init();
 
-  // Load static data from JSON files (topics and answer examples)
+  // Load topics (answer examples loaded lazily when needed)
   try {
     await loadStaticData();
   } catch (error) {
@@ -55,7 +54,7 @@ async function init(): Promise<void> {
       'Failed to load game data. Please check your internet connection and refresh the page.',
       error instanceof Error ? error : undefined,
     );
-    console.error('Static data loading failed:', error);
+    console.error('Topics loading failed:', error);
     return;
   }
 
@@ -110,7 +109,6 @@ async function init(): Promise<void> {
     { name: 'difficulties', data: difficulties, type: 'array' },
     { name: 'categoryAngles', data: categoryAngles, type: 'object' },
     { name: 'promptTemplates', data: promptTemplates, type: 'object' },
-    { name: 'answerExamples', data: answerExamples, type: 'object' },
   ];
 
   const missing: string[] = [];
@@ -151,16 +149,6 @@ async function init(): Promise<void> {
   window.categoryAngles = categoryAngles;
   window.promptTemplates = promptTemplates;
   window.answerExamples = answerExamples;
-
-  // Load curated questions after window.topicList is available
-  const curatedLoaded = await loadCuratedQuestions();
-
-  // Notify user if curated questions failed to load
-  if (!curatedLoaded) {
-    ErrorHandler.info(
-      'Curated questions unavailable - using generated questions only',
-    );
-  }
 
   // Load saved preferences from localStorage
   Object.assign(state, {

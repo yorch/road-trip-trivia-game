@@ -1,7 +1,8 @@
 // Topic picker modal management
 // Handles modal display, search, filtering, and focus trap
 
-import { getOrCalculateCuratedCounts } from '../state';
+import { loadAnswerExamples } from '../data/data';
+import { hasCuratedQuestions, loadCuratedTopicIndex } from '../state';
 import type { Topic } from '../types';
 import { escapeHtml, SEARCH_DEBOUNCE_MS } from '../utils';
 import { selectTopicAndStart } from './question-flow';
@@ -94,8 +95,8 @@ export async function populateTopicPicker(
     ...new Set(window.topicList.map((t: Topic) => t.category)),
   ].sort() as string[];
 
-  // Use atomic cache operation to prevent race conditions
-  const curatedCounts = await getOrCalculateCuratedCounts();
+  // Lazy load answer examples and curated questions index (not the actual questions)
+  await Promise.all([loadAnswerExamples(), loadCuratedTopicIndex()]);
 
   container.innerHTML = categories
     .map((category: string) => {
@@ -106,13 +107,13 @@ export async function populateTopicPicker(
       // Filter by mode
       if (filterMode === 'curated') {
         // Only topics with curated questions
-        categoryTopics = categoryTopics.filter(
-          (t: Topic) => (curatedCounts.get(t.id) || 0) > 0,
+        categoryTopics = categoryTopics.filter((t: Topic) =>
+          hasCuratedQuestions(t.id),
         );
       } else if (filterMode === 'quality') {
         // Topics with curated questions OR answer examples
         categoryTopics = categoryTopics.filter((t: Topic) => {
-          const hasCurated = (curatedCounts.get(t.id) || 0) > 0;
+          const hasCurated = hasCuratedQuestions(t.id);
           const hasExamples = window.answerExamples?.[t.id];
           return hasCurated || hasExamples;
         });
@@ -131,8 +132,7 @@ export async function populateTopicPicker(
         <div class="topic-grid">
           ${categoryTopics
             .map((topic: Topic) => {
-              const curatedCount = curatedCounts.get(topic.id) || 0;
-              const hasCurated = curatedCount > 0;
+              const hasCurated = hasCuratedQuestions(topic.id);
               const hasExamples = window.answerExamples?.[topic.id];
               const hasQualityContent = hasCurated || hasExamples;
 
@@ -144,7 +144,7 @@ export async function populateTopicPicker(
                    data-has-quality="${hasQualityContent}">
                 <div class="topic-card-name">
                   ${escapeHtml(topic.name)}
-                  ${hasCurated ? `<span class="curated-count">${curatedCount} curated</span>` : hasExamples ? '<span class="quality-badge">✓</span>' : ''}
+                  ${hasCurated ? '<span class="curated-badge">⭐ Curated</span>' : hasExamples ? '<span class="quality-badge">✓</span>' : ''}
                 </div>
                 <div class="topic-card-tags">
                   ${topic.tags

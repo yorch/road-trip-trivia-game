@@ -11,38 +11,60 @@ const difficulties: Difficulty[] = ['easy', 'medium', 'hard'];
 const topicList: Topic[] = [];
 const answerExamples: AnswerExamples = {};
 
-// Async loader for static data from JSON files
-// Populates topicList and answerExamples in-place and returns the data
+// Track if answer examples have been loaded
+let answerExamplesLoaded = false;
+
+// Async loader for topics from JSON file
+// Populates topicList in-place and returns the data
 async function loadStaticData(): Promise<{
   topics: Topic[];
-  examples: AnswerExamples;
 }> {
   try {
-    const [topicsResponse, examplesResponse] = await Promise.all([
-      fetch('/data/topics.json'),
-      fetch('/data/answer-examples.json'),
-    ]);
+    const topicsResponse = await fetch('/data/topics.json');
 
-    if (!topicsResponse.ok || !examplesResponse.ok) {
-      throw new Error('Failed to load static data files');
+    if (!topicsResponse.ok) {
+      throw new Error('Failed to load topics file');
     }
 
     const topics = (await topicsResponse.json()) as Topic[];
-    const examples = (await examplesResponse.json()) as AnswerExamples;
 
     // Populate module-level variables in-place
     topicList.length = 0;
     topicList.push(...topics);
+
+    return { topics };
+  } catch (error) {
+    console.error('Error loading topics:', error);
+    throw error;
+  }
+}
+
+// Lazy loader for answer examples - only loads when needed
+async function loadAnswerExamples(): Promise<AnswerExamples> {
+  // Return cached if already loaded
+  if (answerExamplesLoaded) {
+    return answerExamples;
+  }
+
+  try {
+    const examplesResponse = await fetch('/data/answer-examples.json');
+
+    if (!examplesResponse.ok) {
+      throw new Error('Failed to load answer examples file');
+    }
+
+    const examples = (await examplesResponse.json()) as AnswerExamples;
 
     // Clear and repopulate answerExamples
     for (const key in answerExamples) {
       delete answerExamples[key];
     }
     Object.assign(answerExamples, examples);
+    answerExamplesLoaded = true;
 
-    return { topics, examples };
+    return answerExamples;
   } catch (error) {
-    console.error('Error loading static data:', error);
+    console.error('Error loading answer examples:', error);
     throw error;
   }
 }
@@ -188,4 +210,5 @@ export {
   promptTemplates,
   answerExamples,
   loadStaticData,
+  loadAnswerExamples,
 };

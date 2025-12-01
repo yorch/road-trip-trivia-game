@@ -13,15 +13,19 @@ import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
 import { renderCard, renderEndState, toggleAnswer } from './renderer';
 
 // Get next question
-export function nextQuestion(): void {
+export async function nextQuestion(): Promise<void> {
   if (!state.topicId) {
     ErrorHandler.critical('No topic selected');
     return;
   }
 
-  const prog = getProgress(state.topicId, state.difficulty, state.questionMode);
+  const prog = await getProgress(
+    state.topicId,
+    state.difficulty,
+    state.questionMode,
+  );
   // Lazy load: get or create questions for current topic/difficulty/mode
-  const bank = getOrCreateQuestions(
+  const bank = await getOrCreateQuestions(
     state.topicId,
     state.difficulty,
     state.questionMode,

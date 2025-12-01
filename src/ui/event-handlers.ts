@@ -3,21 +3,15 @@
 
 import {
   rebuildQuestionBank,
-  resetCuratedCountsCache,
+  resetCuratedTopicIds,
   saveDifficulty,
   saveLastTopic,
   saveQuestionMode,
   state,
 } from '../state';
-import type {
-  CuratedQuestions,
-  Difficulty,
-  QuestionMode,
-  Topic,
-} from '../types';
+import type { Difficulty, QuestionMode, Topic } from '../types';
 import {
   ErrorHandler,
-  getCuratedQuestionsUrl,
   MODE_CHANGE_DEBOUNCE_MS,
   QUESTION_MODES,
   RELOAD_SUCCESS_DISPLAY_MS,
@@ -37,9 +31,6 @@ import {
   setupTopicPickerEvents,
   showTopicPicker,
 } from './topic-picker';
-
-// AbortController for reload curated questions fetch
-let reloadCuratedController: AbortController | null = null;
 
 // Timeout for reload button state reset
 let reloadButtonTimeout: number | null = null;
@@ -221,36 +212,10 @@ export function bindEvents(): void {
       }
 
       try {
-        // Cancel previous request if exists
-        if (reloadCuratedController) {
-          reloadCuratedController.abort();
-        }
+        // Clear cached curated topic IDs to force reload from index
+        resetCuratedTopicIds();
 
-        // Reload the curated-questions.json file (secure JSON format)
-        reloadCuratedController = new AbortController();
-        const response = await fetch(getCuratedQuestionsUrl(true), {
-          signal: reloadCuratedController.signal,
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-
-        // Parse JSON safely - no code execution risk
-        const data: CuratedQuestions = await response.json();
-
-        // Validate basic structure
-        if (!data || typeof data !== 'object') {
-          throw new Error('Invalid curated questions format - expected object');
-        }
-
-        // Update global curatedQuestions variable
-        window.curatedQuestions = data;
-
-        // Clear cached curated counts to force recalculation
-        resetCuratedCountsCache();
-
-        // Repopulate the picker with updated data
+        // Repopulate the picker with updated data (will reload index)
         const activeBtn = document.querySelector(
           '.filter-btn.active',
         ) as HTMLElement;
@@ -258,31 +223,24 @@ export function bindEvents(): void {
           | 'quality'
           | 'curated'
           | 'all';
-        populateTopicPicker(activeFilter);
+        await populateTopicPicker(activeFilter);
 
         // Rebuild question bank to incorporate new curated questions
         rebuildQuestionBank();
 
         // If currently playing in curated mode, refresh the current question
         if (state.topicId && state.questionMode === QUESTION_MODES.CURATED) {
-          nextQuestion();
+          await nextQuestion();
         }
 
         btn.textContent = '✓ Reloaded';
-        ErrorHandler.success('Curated questions reloaded successfully');
+        ErrorHandler.success('Curated questions index reloaded successfully');
         reloadButtonTimeout = window.setTimeout(() => {
           btn.textContent = originalText;
           btn.disabled = false;
           reloadButtonTimeout = null;
         }, RELOAD_SUCCESS_DISPLAY_MS);
       } catch (error) {
-        // Ignore abort errors - they're expected when cancelling
-        if (error instanceof Error && error.name === 'AbortError') {
-          btn.textContent = originalText;
-          btn.disabled = false;
-          return;
-        }
-
         ErrorHandler.critical(
           'Failed to reload curated questions',
           error instanceof Error ? error : new Error(String(error)),

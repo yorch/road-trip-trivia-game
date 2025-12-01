@@ -570,6 +570,17 @@ button.ghost {
   margin-left: 6px;
 }
 
+.curated-badge {
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  font-weight: 600;
+  margin-left: 6px;
+}
+
 .topic-card-tags {
   display: flex;
   flex-wrap: wrap;

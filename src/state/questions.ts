@@ -3,32 +3,87 @@
 
 import type {
   CuratedQuestion,
-  CuratedQuestions,
   Difficulty,
   Question,
   QuestionBank,
   QuestionMode,
   Topic,
 } from '../types';
-import {
-  buildAngles,
-  ErrorHandler,
-  fillTemplate,
-  QUESTION_MODES,
-} from '../utils';
+import { buildAngles, fillTemplate, QUESTION_MODES } from '../utils';
 
 // Question bank storage
 export let questionBank: QuestionBank = {};
 
+// Cache for loaded curated questions per topic
+const curatedQuestionsCache: Record<
+  string,
+  {
+    easy: CuratedQuestion[];
+    medium: CuratedQuestion[];
+    hard: CuratedQuestion[];
+  }
+> = {};
+
 // AbortController for fetch requests
 let curatedQuestionsController: AbortController | null = null;
 
+// Lazy load curated questions for a specific topic
+async function loadTopicCuratedQuestions(topicId: string): Promise<{
+  easy: CuratedQuestion[];
+  medium: CuratedQuestion[];
+  hard: CuratedQuestion[];
+}> {
+  // Return cached if already loaded
+  if (curatedQuestionsCache[topicId]) {
+    return curatedQuestionsCache[topicId];
+  }
+
+  try {
+    // Cancel previous request if exists
+    if (curatedQuestionsController) {
+      curatedQuestionsController.abort();
+    }
+
+    curatedQuestionsController = new AbortController();
+
+    const response = await fetch(`/curated/${topicId}.json`, {
+      signal: curatedQuestionsController.signal,
+    });
+
+    if (!response.ok) {
+      // Topic doesn't have curated questions - return empty
+      return { easy: [], medium: [], hard: [] };
+    }
+
+    const data = await response.json();
+
+    // Validate structure
+    if (!data.easy || !data.medium || !data.hard) {
+      console.warn(
+        `Invalid structure in ${topicId}.json - missing difficulty levels`,
+      );
+      return { easy: [], medium: [], hard: [] };
+    }
+
+    // Cache for future use
+    curatedQuestionsCache[topicId] = data;
+    return data;
+  } catch (error) {
+    // Ignore abort errors - they're expected when cancelling
+    if (error instanceof Error && error.name === 'AbortError') {
+      return { easy: [], medium: [], hard: [] };
+    }
+    // Silently return empty on other errors
+    return { easy: [], medium: [], hard: [] };
+  }
+}
+
 // Lazy loading: Only generate questions when needed for a specific topic/difficulty/mode
-export function getOrCreateQuestions(
+export async function getOrCreateQuestions(
   topicId: string,
   difficulty: Difficulty,
   mode: QuestionMode,
-): Question[] {
+): Promise<Question[]> {
   // Ensure topic exists in question bank
   if (!questionBank[topicId]) {
     questionBank[topicId] = {};
@@ -41,7 +96,7 @@ export function getOrCreateQuestions(
   if (!questionBank[topicId][cacheKey]) {
     const topic = window.topicList.find((t: Topic) => t.id === topicId);
     if (topic) {
-      questionBank[topicId][cacheKey] = createQuestions(
+      questionBank[topicId][cacheKey] = await createQuestions(
         topic,
         difficulty,
         mode,
@@ -56,21 +111,24 @@ export function getOrCreateQuestions(
 }
 
 // Create questions for a topic
-function createQuestions(
+async function createQuestions(
   topic: Topic,
   difficulty: Difficulty,
   mode: QuestionMode = QUESTION_MODES.ALL,
-): Question[] {
+): Promise<Question[]> {
   const prompts = window.promptTemplates[difficulty];
   const allAngles = buildAngles(topic);
   const bank: Question[] = [];
 
-  // Get curated questions if available (with safety check for curatedQuestions global)
-  const curated =
-    (typeof window.curatedQuestions !== 'undefined' &&
-      window.curatedQuestions[topic.id]?.[difficulty]) ||
-    [];
-  const examples = window.answerExamples[topic.id] || {};
+  // Lazy load curated questions for this specific topic and answer examples
+  const { loadAnswerExamples } = await import('../data/data');
+  const [topicCurated] = await Promise.all([
+    loadTopicCuratedQuestions(topic.id),
+    loadAnswerExamples(),
+  ]);
+
+  const curated = topicCurated[difficulty] || [];
+  const examples = window.answerExamples?.[topic.id] || {};
 
   // If curated-only mode and no curated questions exist, return empty
   if (mode === QUESTION_MODES.CURATED && curated.length === 0) {
@@ -137,127 +195,17 @@ export function rebuildQuestionBank(
   }
 }
 
-// Load curated questions from individual topic files
-// Returns true if successful, false if failed
-export async function loadCuratedQuestions(): Promise<boolean> {
+// Load curated questions index (just the list of topic IDs, not the actual questions)
+// This is used by the topic picker to show which topics have curated content
+// The actual questions are lazy loaded per-topic when needed
+export async function loadCuratedQuestionsIndex(): Promise<string[]> {
   try {
-    // Cancel previous request if exists
-    if (curatedQuestionsController) {
-      curatedQuestionsController.abort();
+    const indexResponse = await fetch('/curated/index.json');
+    if (indexResponse.ok) {
+      return await indexResponse.json();
     }
-
-    curatedQuestionsController = new AbortController();
-
-    // Load from per-topic structure
-    const loadedFromTopics = await loadCuratedQuestionsFromTopics(
-      curatedQuestionsController.signal,
-    );
-
-    if (!loadedFromTopics) {
-      ErrorHandler.warn(
-        'Failed to load curated questions - using generated questions only',
-      );
-      window.curatedQuestions = {};
-      return false;
-    }
-
-    return true;
-  } catch (error) {
-    // Ignore abort errors - they're expected when cancelling
-    if (error instanceof Error && error.name === 'AbortError') {
-      return false;
-    }
-    ErrorHandler.warn(
-      'Failed to load curated questions - using generated questions only',
-      error instanceof Error ? error : new Error(String(error)),
-    );
-    window.curatedQuestions = {};
-    return false;
-  }
-}
-
-// Load curated questions from individual topic files
-async function loadCuratedQuestionsFromTopics(
-  signal: AbortSignal,
-): Promise<boolean> {
-  try {
-    const curatedData: CuratedQuestions = {};
-    let successCount = 0;
-
-    // First, try to load the index file to know which topics have curated questions
-    let availableTopicIds: string[] = [];
-    try {
-      const indexResponse = await fetch('/curated/index.json', { signal });
-      if (indexResponse.ok) {
-        availableTopicIds = await indexResponse.json();
-      }
-    } catch {
-      // Index file not found or failed to load - will try all topics
-    }
-
-    // Determine which topics to load
-    const topicsToLoad =
-      availableTopicIds.length > 0
-        ? window.topicList.filter((topic) =>
-            availableTopicIds.includes(topic.id),
-          )
-        : window.topicList; // Fallback: try all topics if no index
-
-    // Load curated questions for available topics
-    const loadPromises = topicsToLoad.map(async (topic) => {
-      try {
-        const response = await fetch(`/curated/${topic.id}.json`, { signal });
-        if (!response.ok) {
-          // Silently ignore 404s - not all topics have curated questions
-          // Only warn on other errors (server errors, network issues, etc.)
-          if (response.status !== 404) {
-            console.warn(`Failed to load ${topic.id}.json: ${response.status}`);
-          }
-          return null;
-        }
-        const data = await response.json();
-        // Files are structured as { easy, medium, hard }
-        if (!data.easy || !data.medium || !data.hard) {
-          console.warn(
-            `Invalid structure in ${topic.id}.json - missing difficulty levels`,
-          );
-          return null;
-        }
-        return { topicId: topic.id, data };
-      } catch {
-        // Silently ignore fetch errors (file not found is expected)
-        return null;
-      }
-    });
-
-    const results = await Promise.all(loadPromises);
-
-    // Merge successful loads
-    results.forEach((result) => {
-      if (result?.data) {
-        curatedData[result.topicId] = result.data;
-        successCount++;
-      }
-    });
-
-    if (successCount > 0) {
-      console.log(
-        `Loaded curated questions for ${successCount} topic${successCount !== 1 ? 's' : ''}`,
-      );
-    }
-
-    // Only use topic-based loading if we successfully loaded at least one topic
-    if (successCount > 0) {
-      window.curatedQuestions = curatedData;
-      return true;
-    }
-
-    return false;
-  } catch (error) {
-    if (error instanceof Error && error.name === 'AbortError') {
-      return false;
-    }
-    console.error('Error in loadCuratedQuestionsFromTopics:', error);
-    return false;
+    return [];
+  } catch {
+    return [];
   }
 }
