@@ -1,8 +1,8 @@
-// State management barrel export for Road Trip Trivia
+// State management barrel export
 // Maintains backward compatibility while organizing code into focused modules
 
-import { type Signal, signal } from '@preact/signals-core';
-import type { Difficulty, State } from '../types';
+import { type Signal, signal } from '@preact/signals';
+import type { Difficulty, Question, QuestionMode, State } from '../types';
 import { DIFFICULTY_LEVELS, QUESTION_MODES } from '../utils';
 
 export * from './curated-cache';
@@ -28,11 +28,49 @@ export const scoreSignal: Signal<number> = signal(0);
 export const streakSignal: Signal<number> = signal(0);
 export const askedSignal: Signal<number> = signal(0);
 
+// Reactive signals for app state
+export const topicIdSignal: Signal<string | null> = signal(null);
+export const difficultySignal: Signal<Difficulty> = signal(
+  DIFFICULTY_LEVELS.EASY,
+);
+export const questionModeSignal: Signal<QuestionMode> = signal(
+  QUESTION_MODES.ALL,
+);
+export const revealedSignal: Signal<boolean> = signal(false);
+
+export const currentQuestionSignal: Signal<Question | null> = signal(null);
+export const endStateSignal: Signal<{ title: string; message: string } | null> =
+  signal(null);
+
+export const showTopicPickerSignal: Signal<boolean> = signal(false);
+export const showCuratedListSignal: Signal<boolean> = signal(false);
+
 // Global state with reactive properties
 export const state: State = {
-  topicId: null,
-  difficulty: DIFFICULTY_LEVELS.EASY,
-  questionMode: QUESTION_MODES.ALL,
+  get topicId(): string | null {
+    return topicIdSignal.value;
+  },
+  set topicId(val: string | null) {
+    topicIdSignal.value = val;
+  },
+  get difficulty(): Difficulty {
+    return difficultySignal.value;
+  },
+  set difficulty(val: Difficulty) {
+    difficultySignal.value = val;
+  },
+  get questionMode(): QuestionMode {
+    return questionModeSignal.value;
+  },
+  set questionMode(val: QuestionMode) {
+    questionModeSignal.value = val;
+  },
+  get revealed(): boolean {
+    return revealedSignal.value;
+  },
+  set revealed(val: boolean) {
+    revealedSignal.value = val;
+  },
   // Use getters/setters to sync with signals for backward compatibility
   get score(): number {
     return scoreSignal.value;
@@ -52,7 +90,6 @@ export const state: State = {
   set asked(val: number) {
     askedSignal.value = val;
   },
-  revealed: false,
 };
 
 // Wrapper for saveProgress to maintain existing API

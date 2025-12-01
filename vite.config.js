@@ -1,3 +1,4 @@
+import preact from '@preact/preset-vite';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
@@ -13,6 +14,7 @@ export default defineConfig({
     open: true,
   },
   plugins: [
+    preact(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['curated/*.json', 'data/*.json'],

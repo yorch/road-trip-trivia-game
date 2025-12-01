@@ -2,6 +2,8 @@
 // Handles question progression, scoring, and skipping
 
 import {
+  currentQuestionSignal,
+  endStateSignal,
   getOrCreateQuestions,
   getProgress,
   resetProgressAll as resetAllProgress,
@@ -10,7 +12,6 @@ import {
   state,
 } from '../state';
 import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
-import { renderCard, renderEndState, toggleAnswer } from './renderer';
 
 // Get next question
 export async function nextQuestion(): Promise<void> {
@@ -33,18 +34,21 @@ export async function nextQuestion(): Promise<void> {
 
   // Check if topic has no questions in current mode
   if (!bank || bank.length === 0) {
-    renderEndState(
-      'No curated questions available!',
-      "This topic doesn't have curated questions yet. Switch to 'All questions' mode.",
-    );
+    endStateSignal.value = {
+      title: 'No curated questions available!',
+      message:
+        "This topic doesn't have curated questions yet. Switch to 'All questions' mode.",
+    };
+    currentQuestionSignal.value = null;
     return;
   }
 
   if (prog.cursor >= bank.length) {
-    renderEndState(
-      'All questions used up!',
-      'Reset progress or switch difficulty to keep rolling.',
-    );
+    endStateSignal.value = {
+      title: 'All questions used up!',
+      message: 'Reset progress or switch difficulty to keep rolling.',
+    };
+    currentQuestionSignal.value = null;
     return;
   }
 
@@ -74,7 +78,9 @@ export async function nextQuestion(): Promise<void> {
   state.asked += 1;
   state.revealed = false;
   saveProgress();
-  renderCard(bank[idx]);
+
+  endStateSignal.value = null;
+  currentQuestionSignal.value = bank[idx];
 }
 
 // Mark answer as correct
@@ -118,6 +124,3 @@ export function selectTopicAndStart(topicId: string): void {
   saveLastTopic(topicId);
   nextQuestion();
 }
-
-// Export toggleAnswer from renderer for convenience
-export { toggleAnswer };

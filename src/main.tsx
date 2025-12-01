@@ -1,10 +1,11 @@
-// Main entry point for Road Trip Trivia
 // This file orchestrates the initialization of all modules
 
 // Import CSS (Vite will process this)
 import './css/style.css';
 
-import { effect } from '@preact/signals-core';
+import { effect } from '@preact/signals';
+import { render } from 'preact';
+import { App } from './components/App';
 import {
   answerExamples,
   categoryAngles,
@@ -22,18 +23,12 @@ import {
   loadScoreboard,
   progress,
   scoreSignal,
+  showTopicPickerSignal,
   state,
   streakSignal,
 } from './state';
 import type { ScoreboardData } from './types';
-import {
-  bindEvents,
-  nextQuestion,
-  populateTopicPicker,
-  showTopicPicker,
-  updateDifficultyButtons,
-  updateQuestionModeButtons,
-} from './ui';
+import { nextQuestion } from './ui/question-flow';
 import { ErrorHandler, ToastManager } from './utils';
 
 // Track if localStorage warning has been shown this session
@@ -57,28 +52,6 @@ async function init(): Promise<void> {
     console.error('Topics loading failed:', error);
     return;
   }
-
-  // Set up reactive scoreboard updates (automatic UI sync)
-  effect(() => {
-    const scoreEl = document.getElementById('scoreValue');
-    if (scoreEl) {
-      scoreEl.textContent = String(scoreSignal.value);
-    }
-  });
-
-  effect(() => {
-    const streakEl = document.getElementById('streakValue');
-    if (streakEl) {
-      streakEl.textContent = String(streakSignal.value);
-    }
-  });
-
-  effect(() => {
-    const askedEl = document.getElementById('askedValue');
-    if (askedEl) {
-      askedEl.textContent = String(askedSignal.value);
-    }
-  });
 
   // Auto-save scoreboard to localStorage when any value changes
   effect(() => {
@@ -161,27 +134,26 @@ async function init(): Promise<void> {
   Object.assign(progress, loadedProgress);
   loadScoreboard(); // Will trigger reactive effects automatically
 
-  // Update UI to reflect loaded state
-  updateDifficultyButtons();
-  updateQuestionModeButtons();
-  await populateTopicPicker();
-  bindEvents();
-
   // Remove no-js class to show UI (CSS will handle opacity)
   document.documentElement.classList.remove('no-js');
 
   // Remove loading state
   document.body.classList.remove('loading');
 
+  // Render App
+  const appRoot = document.getElementById('app');
+  if (!appRoot) throw new Error('Root element #app not found');
+  render(<App />, appRoot);
+
   // Check if there's a saved topic from last session
   const lastTopic = loadLastTopic();
-  if (lastTopic && window.topicList.find((t) => t.id === lastTopic)) {
+  if (lastTopic && topicList.find((t) => t.id === lastTopic)) {
     // Resume with saved topic
-    state.topicId = lastTopic;
+    state.topicId = lastTopic; // This updates the signal
     nextQuestion();
   } else {
     // First visit or invalid saved topic - show picker
-    showTopicPicker();
+    showTopicPickerSignal.value = true;
   }
 }
 

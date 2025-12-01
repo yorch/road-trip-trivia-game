@@ -8,130 +8,7 @@
 </head>
 
 <body>
-  <!-- Topic Picker Modal -->
-  <div class="topic-picker-overlay hidden" id="topicPicker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">
-    <div class="topic-picker">
-      <div class="topic-picker-header">
-        <div>
-          <h2 id="pickerTitle">Choose Your Topic</h2>
-          <p class="topic-picker-lede">Pick any topic to start your trivia journey</p>
-        </div>
-        <div class="picker-header-actions">
-          <button class="pill ghost" id="viewCuratedList" aria-label="View curated questions list">📋 Curated List</button>
-          <button class="pill ghost" id="reloadCurated" aria-label="Reload curated questions">↻ Reload</button>
-          <button class="pill ghost" id="closePicker" aria-label="Close topic picker">Close</button>
-        </div>
-      </div>
-      <div class="topic-picker-search">
-        <input type="text" id="topicSearch" placeholder="Search topics..." />
-      </div>
-      <div class="topic-picker-filters">
-        <span>Show:</span>
-        <div class="filter-buttons">
-          <button data-filter="quality" class="filter-btn active">Quality content</button>
-          <button data-filter="curated" class="filter-btn">Curated only</button>
-          <button data-filter="all" class="filter-btn">All topics</button>
-        </div>
-      </div>
-      <div class="topic-picker-content" id="topicPickerContent">
-        <!-- Topics will be populated here -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Curated Questions List Modal -->
-  <div class="topic-picker-overlay hidden" id="curatedListModal" role="dialog" aria-modal="true" aria-labelledby="curatedListTitle">
-    <div class="topic-picker curated-list-dialog">
-      <div class="topic-picker-header">
-        <div>
-          <h2 id="curatedListTitle">Curated Questions</h2>
-          <p class="topic-picker-lede">Topics with curated factual questions</p>
-        </div>
-        <div class="picker-header-actions">
-          <button class="pill ghost" id="closeCuratedList" aria-label="Close curated list">Close</button>
-        </div>
-      </div>
-      <div class="curated-list-content" id="curatedListContent">
-        <p class="loading-message">Loading curated questions data...</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="page">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">Road Trip Game</p>
-        <h1>Trivia Drive</h1>
-        <p class="lede">Pick a topic, choose your difficulty, and keep the car buzzing with rapid-fire questions
-          everyone can enjoy.</p>
-        <div class="hero-actions">
-          <button class="pill" id="chooseTopic">Choose topic</button>
-          <button class="pill ghost" id="randomTopic">Surprise me</button>
-          <button class="pill ghost" id="resetProgress">Reset progress</button>
-        </div>
-      </div>
-      <div class="scoreboard" role="region" aria-label="Game Statistics">
-        <div class="stat">
-          <span class="label">Score</span>
-          <span class="value" id="scoreValue" aria-live="polite" aria-atomic="true">0</span>
-        </div>
-        <div class="stat">
-          <span class="label">Streak</span>
-          <span class="value" id="streakValue" aria-live="polite" aria-atomic="true">0</span>
-        </div>
-        <div class="stat">
-          <span class="label">Asked</span>
-          <span class="value" id="askedValue" aria-live="polite" aria-atomic="true">0</span>
-        </div>
-      </div>
-    </header>
-
-    <section class="controls">
-      <div class="control difficulty-control">
-        <span>Difficulty</span>
-        <div class="difficulty-buttons">
-          <button data-difficulty="easy" class="difficulty">Easy</button>
-          <button data-difficulty="medium" class="difficulty">Medium</button>
-          <button data-difficulty="hard" class="difficulty">Hard</button>
-        </div>
-      </div>
-      <div class="control question-mode-control">
-        <span>Question Type</span>
-        <div class="question-mode-buttons">
-          <button data-mode="all" class="question-mode">All questions</button>
-          <button data-mode="curated" class="question-mode">Curated only</button>
-        </div>
-      </div>
-    </section>
-
-    <main class="board">
-      <div class="card">
-        <div class="card-head">
-          <div>
-            <p class="card-kicker" id="cardTopic">Topic</p>
-            <h2 id="cardTitle">Question will appear here</h2>
-            <p class="card-meta" id="cardMeta">Pick a topic to start</p>
-          </div>
-          <div class="chip" id="cardDifficulty">Easy</div>
-        </div>
-        <p class="card-body" id="cardBody">Press “Next question” to kick things off.</p>
-        <div class="answer" id="cardAnswer">
-          <p class="answer-label">Answer</p>
-          <p id="answerText">Hidden</p>
-        </div>
-        <div class="actions">
-          <button id="toggleAnswer" class="ghost">Show answer</button>
-          <div class="spacer"></div>
-          <button id="skipQuestion" class="ghost">Skip</button>
-          <button id="markCorrect" class="primary">I got it</button>
-        </div>
-      </div>
-      <div class="next">
-        <p>Ready for the next one?</p>
-        <button id="nextQuestion">Next question</button>
-      </div>
-    </main>
-  </div>
+  <div id="app"></div>
 
   <noscript>
     <div style="padding: 2rem; text-align: center;">
@@ -141,7 +18,7 @@
   </noscript>
 
   <!-- Main application using ES6 modules -->
-  <script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>

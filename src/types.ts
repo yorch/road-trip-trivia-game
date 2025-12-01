@@ -1,5 +1,3 @@
-// Type definitions for Road Trip Trivia
-
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export type QuestionMode = 'all' | 'curated';

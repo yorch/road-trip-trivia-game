@@ -1,4 +1,3 @@
-// Progress tracking for Road Trip Trivia
 // Manages question order shuffling and cursor position
 
 import type {

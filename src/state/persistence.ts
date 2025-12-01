@@ -1,4 +1,4 @@
-// LocalStorage persistence operations for Road Trip Trivia
+// LocalStorage persistence operations
 // Pure localStorage operations with error handling
 
 import type {

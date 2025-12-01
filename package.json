@@ -14,10 +14,12 @@
     "update-index": "cd public/curated && ls *.json | grep -v index.json | sed 's/.json$//' | jq -R -s 'split(\"\\n\") | map(select(length > 0))' > index.json && echo 'Updated curated/index.json'"
   },
   "dependencies": {
-    "@preact/signals-core": "1.12.1"
+    "@preact/signals": "2.5.1",
+    "preact": "10.27.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.8",
+    "@preact/preset-vite": "2.10.2",
     "@types/node": "24.10.1",
     "typescript": "5.9.3",
     "vite": "7.2.4",

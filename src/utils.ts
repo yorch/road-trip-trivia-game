@@ -1,6 +1,4 @@
-// Utility functions for Road Trip Trivia
-
-import type { Difficulty, QuestionMode, Topic } from '../types';
+import type { Difficulty, QuestionMode, Topic } from './types';
 
 // Constants
 export const QUESTION_BANK_SIZE = 80;
