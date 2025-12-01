@@ -7,7 +7,6 @@ import './css/style.css';
 import { effect } from '@preact/signals-core';
 import {
   answerExamples,
-  answerTemplates,
   categoryAngles,
   difficulties,
   loadStaticData,
@@ -111,7 +110,6 @@ async function init(): Promise<void> {
     { name: 'difficulties', data: difficulties, type: 'array' },
     { name: 'categoryAngles', data: categoryAngles, type: 'object' },
     { name: 'promptTemplates', data: promptTemplates, type: 'object' },
-    { name: 'answerTemplates', data: answerTemplates, type: 'object' },
     { name: 'answerExamples', data: answerExamples, type: 'object' },
   ];
 
@@ -152,7 +150,6 @@ async function init(): Promise<void> {
   window.difficulties = difficulties;
   window.categoryAngles = categoryAngles;
   window.promptTemplates = promptTemplates;
-  window.answerTemplates = answerTemplates;
   window.answerExamples = answerExamples;
 
   // Load curated questions after window.topicList is available

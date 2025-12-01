@@ -1,12 +1,12 @@
 // Global type declarations for window object
 
 import type {
-  Topic,
-  Difficulty,
-  CategoryAngles,
-  TemplateSet,
   AnswerExamples,
+  CategoryAngles,
   CuratedQuestions,
+  Difficulty,
+  TemplateSet,
+  Topic,
 } from './types';
 
 declare global {
@@ -15,7 +15,6 @@ declare global {
     difficulties: Difficulty[];
     categoryAngles: CategoryAngles;
     promptTemplates: TemplateSet;
-    answerTemplates: TemplateSet;
     answerExamples: AnswerExamples;
     curatedQuestions: CuratedQuestions;
   }

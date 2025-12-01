@@ -94,6 +94,21 @@ export function resetProgress(): void {
 
 // Select topic and start
 export function selectTopicAndStart(topicId: string): void {
+  // Check if topic has answer examples or curated questions
+  const hasAnswerExamples = window.answerExamples?.[topicId];
+  const hasCuratedQuestions =
+    typeof window.curatedQuestions !== 'undefined' &&
+    window.curatedQuestions[topicId];
+
+  // Warn if topic has neither answer examples nor curated questions
+  if (!hasAnswerExamples && !hasCuratedQuestions) {
+    const topic = window.topicList.find((t) => t.id === topicId);
+    const topicName = topic ? topic.name : topicId;
+    ErrorHandler.warn(
+      `"${topicName}" has limited content. Questions use generic templates and may be less refined.`,
+    );
+  }
+
   state.topicId = topicId;
   state.streak = 0;
   saveLastTopic(topicId);

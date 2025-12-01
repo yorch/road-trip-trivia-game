@@ -559,6 +559,17 @@ button.ghost {
   font-weight: 600;
 }
 
+.quality-badge {
+  background: rgba(77, 225, 193, 0.15);
+  color: var(--accent-2);
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(77, 225, 193, 0.3);
+  font-weight: 600;
+  margin-left: 6px;
+}
+
 .topic-card-tags {
   display: flex;
   flex-wrap: wrap;

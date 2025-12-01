@@ -195,9 +195,10 @@ export function bindEvents(): void {
       btn.classList.add('active');
 
       // Repopulate with filter
-      const filterMode = ((btn as HTMLElement).dataset.filter || 'all') as
-        | 'all'
-        | 'curated';
+      const filterMode = ((btn as HTMLElement).dataset.filter || 'quality') as
+        | 'quality'
+        | 'curated'
+        | 'all';
       populateTopicPicker(filterMode);
     });
   });
@@ -253,8 +254,10 @@ export function bindEvents(): void {
         const activeBtn = document.querySelector(
           '.filter-btn.active',
         ) as HTMLElement;
-        const activeFilter = (activeBtn?.dataset.filter ||
-          QUESTION_MODES.ALL) as 'all' | 'curated';
+        const activeFilter = (activeBtn?.dataset.filter || 'quality') as
+          | 'quality'
+          | 'curated'
+          | 'all';
         populateTopicPicker(activeFilter);
 
         // Rebuild question bank to incorporate new curated questions

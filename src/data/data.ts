@@ -180,31 +180,12 @@ const promptTemplates: TemplateSet = {
   ],
 };
 
-const answerTemplates: TemplateSet = {
-  easy: [
-    '{angle} (classic pick).',
-    '{angle} is a safe bet.',
-    '{angle} fits here.',
-  ],
-  medium: [
-    '{angle} — core to {topic}.',
-    '{angle}, a defining element.',
-    '{angle} stands out.',
-  ],
-  hard: [
-    '{angle}, often debated.',
-    '{angle} — deep cut.',
-    '{angle}, niche but valid.',
-  ],
-};
-
 // Export as ES modules for Vite
 export {
   difficulties,
   topicList,
   categoryAngles,
   promptTemplates,
-  answerTemplates,
   answerExamples,
   loadStaticData,
 };

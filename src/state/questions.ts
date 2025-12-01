@@ -62,7 +62,6 @@ function createQuestions(
   mode: QuestionMode = QUESTION_MODES.ALL,
 ): Question[] {
   const prompts = window.promptTemplates[difficulty];
-  const answers = window.answerTemplates[difficulty];
   const allAngles = buildAngles(topic);
   const bank: Question[] = [];
 
@@ -88,19 +87,21 @@ function createQuestions(
     return bank;
   }
 
-  // For "all" mode, fill remaining slots with generated questions
-  // Filter to only use angles that have real answer examples
+  // For "all" mode, generate questions ONLY for angles with real answer examples
+  // This ensures we never show placeholder answers
   const anglesWithExamples = allAngles.filter(
     (angle) => examples[angle] && examples[angle].length > 0,
   );
 
-  // Use filtered angles if available, otherwise fall back to all angles
-  const angles = anglesWithExamples.length > 0 ? anglesWithExamples : allAngles;
+  // If no angles have examples, return only curated questions (if any)
+  if (anglesWithExamples.length === 0) {
+    return bank;
+  }
 
-  // Fill remaining slots with generated questions
+  // Fill remaining slots with generated questions using real answer examples
   const remaining = 80 - curated.length; // QUESTION_BANK_SIZE
   for (let i = 0; i < remaining; i += 1) {
-    const angle = angles[i % angles.length];
+    const angle = anglesWithExamples[i % anglesWithExamples.length];
     const prompt = fillTemplate(
       prompts[i % prompts.length],
       topic.name,
@@ -108,13 +109,8 @@ function createQuestions(
       i,
     );
 
-    // Use real answer examples if available for this angle
-    let answer: string;
-    if (examples[angle] && examples[angle].length > 0) {
-      answer = examples[angle][i % examples[angle].length];
-    } else {
-      answer = fillTemplate(answers[i % answers.length], topic.name, angle, i);
-    }
+    // Use real answer example (guaranteed to exist since we filtered for it)
+    const answer = examples[angle][i % examples[angle].length];
 
     bank.push({ prompt, answer, angle, difficulty });
   }

@@ -356,6 +356,44 @@
       "Io - Jupiter's volcanic moon"
     ]
   },
+  "solar-system": {
+    "planets": [
+      "Mars - the red planet",
+      "Jupiter - largest planet with Great Red Spot",
+      "Saturn - famous for its ring system",
+      "Venus - hottest planet, thick atmosphere",
+      "Neptune - ice giant with dark storms",
+      "Mercury - smallest, closest to the Sun",
+      "Uranus - tilted ice giant",
+      "Earth - our home world"
+    ],
+    "moons": [
+      "Europa - Jupiter's icy moon, potential ocean",
+      "Titan - Saturn's largest moon with atmosphere",
+      "Ganymede - largest moon in solar system",
+      "Io - Jupiter's volcanic moon",
+      "Enceladus - Saturn moon with water geysers",
+      "Triton - Neptune's retrograde moon",
+      "Callisto - ancient cratered moon",
+      "Phobos - Martian moon"
+    ],
+    "orbits": [
+      "Elliptical paths around the Sun",
+      "Halley's Comet 76-year orbit",
+      "Earth's 365-day orbit",
+      "Mercury's 88-day orbit - fastest",
+      "Neptune's 165-year orbit - slowest",
+      "Pluto's eccentric tilted orbit"
+    ],
+    "asteroids": [
+      "Ceres - largest in asteroid belt",
+      "Vesta - brightest asteroid visible from Earth",
+      "Pallas - massive irregular asteroid",
+      "Hygiea - fourth-largest asteroid",
+      "Eros - first asteroid orbited by spacecraft",
+      "Bennu - target of OSIRIS-REx mission"
+    ]
+  },
   "soccer": {
     "World Cup": [
       "Brazil won 5 World Cups (most)",
@@ -516,6 +554,464 @@
       "Congress of Vienna (1815)",
       "Camp David Accords (1978)",
       "Good Friday Agreement (1998)"
+    ]
+  },
+  "dc-comics": {
+    "Justice League": [
+      "Batman - Dark Knight detective",
+      "Superman - Man of Steel",
+      "Wonder Woman - Amazon warrior",
+      "The Flash - Fastest man alive",
+      "Aquaman - King of Atlantis",
+      "Green Lantern - Willpower ring bearer"
+    ],
+    "Gotham": [
+      "Wayne Manor - Bruce Wayne's estate",
+      "Arkham Asylum - home for criminals",
+      "Gotham City Police Department - GCPD",
+      "Crime Alley - where Wayne parents died",
+      "Batcave - Batman's headquarters"
+    ],
+    "rogues gallery": [
+      "Joker - Clown Prince of Crime",
+      "Harley Quinn - Joker's accomplice",
+      "Lex Luthor - Superman's nemesis",
+      "Darkseid - New Gods villain",
+      "Reverse-Flash - Flash's rival"
+    ]
+  },
+  "anime-heroes": {
+    "power-ups": [
+      "Super Saiyan - Dragon Ball transformation",
+      "Bankai - Bleach ultimate release",
+      "Gear Fourth - One Piece Luffy form",
+      "Nine-Tails Chakra - Naruto power",
+      "Titan Shift - Attack on Titan"
+    ],
+    "teams": [
+      "Straw Hat Pirates - One Piece crew",
+      "Team 7 - Naruto squad",
+      "Survey Corps - Attack on Titan",
+      "Z Fighters - Dragon Ball warriors",
+      "Phantom Thieves - Persona 5"
+    ],
+    "rivals": [
+      "Vegeta vs Goku - Dragon Ball rivalry",
+      "Sasuke vs Naruto - lifelong competition",
+      "Zoro vs Sanji - One Piece banter",
+      "Bakugo vs Midoriya - My Hero Academia"
+    ]
+  },
+  "90s-cartoons": {
+    "theme songs": [
+      "Pokémon - Gotta Catch 'Em All",
+      "Power Rangers - Go Go Power Rangers",
+      "DuckTales - Woo-oo!",
+      "X-Men animated theme",
+      "Animaniacs - zany to the max"
+    ],
+    "retro heroes": [
+      "Ash Ketchum - Pokémon trainer",
+      "Tommy Oliver - Green/White Ranger",
+      "Batman - Animated Series",
+      "Sailor Moon - magical girl",
+      "Dexter - boy genius"
+    ]
+  },
+  "dinosaurs": {
+    "predators": [
+      "Tyrannosaurus Rex - king of dinosaurs",
+      "Velociraptor - pack hunter",
+      "Spinosaurus - largest carnivore",
+      "Allosaurus - Jurassic predator",
+      "Carnotaurus - horned hunter"
+    ],
+    "herbivores": [
+      "Triceratops - three-horned face",
+      "Brachiosaurus - long-necked giant",
+      "Stegosaurus - plated dinosaur",
+      "Ankylosaurus - armored tank",
+      "Parasaurolophus - crested hadrosaur"
+    ],
+    "eras": [
+      "Triassic Period - 252-201 million years ago",
+      "Jurassic Period - 201-145 million years ago",
+      "Cretaceous Period - 145-66 million years ago",
+      "K-T Extinction - asteroid impact 66 MYA"
+    ],
+    "fossils": [
+      "Sue - largest T. Rex fossil",
+      "Archaeopteryx - bird-dinosaur link",
+      "Fossilized eggs and nests",
+      "Amber-preserved DNA (disputed)",
+      "Dinosaur trackways and footprints"
+    ]
+  },
+  "basketball": {
+    "dynasties": [
+      "Chicago Bulls - Jordan's 6 championships",
+      "Golden State Warriors - Curry era",
+      "LA Lakers - Showtime and Kobe eras",
+      "Boston Celtics - 17 championships",
+      "San Antonio Spurs - Tim Duncan era"
+    ],
+    "dunks": [
+      "Michael Jordan - free throw line dunk",
+      "Vince Carter - 2000 Dunk Contest",
+      "LeBron James - poster dunks",
+      "Blake Griffin - over-the-car dunk",
+      "Dominique Wilkins - windmill dunks"
+    ],
+    "point guards": [
+      "Magic Johnson - Showtime Lakers",
+      "Stephen Curry - three-point revolution",
+      "Chris Paul - assist master",
+      "John Stockton - all-time assists leader",
+      "Steve Nash - two-time MVP"
+    ]
+  },
+  "baseball": {
+    "legends": [
+      "Babe Ruth - Sultan of Swat",
+      "Willie Mays - The Say Hey Kid",
+      "Hank Aaron - home run king",
+      "Jackie Robinson - broke color barrier",
+      "Ted Williams - last .400 hitter"
+    ],
+    "ballparks": [
+      "Fenway Park - Green Monster",
+      "Wrigley Field - ivy-covered walls",
+      "Yankee Stadium - House that Ruth Built",
+      "Dodger Stadium - Chavez Ravine",
+      "Camden Yards - retro classic"
+    ],
+    "stats": [
+      "Barry Bonds - 762 career home runs",
+      "Cy Young - 511 career wins",
+      "Rickey Henderson - stolen base king",
+      "Pete Rose - 4,256 career hits",
+      "Nolan Ryan - 7 no-hitters"
+    ]
+  },
+  "presidents": {
+    "campaigns": [
+      "JFK vs Nixon - first TV debates (1960)",
+      "Reagan's 'Morning in America' (1984)",
+      "Obama's 'Hope and Change' (2008)",
+      "Trump's 'Make America Great Again' (2016)",
+      "Lincoln's 1860 election - Civil War trigger"
+    ],
+    "quotes": [
+      "Ask not what your country can do for you - JFK",
+      "The only thing we have to fear is fear itself - FDR",
+      "Tear down this wall - Reagan at Berlin",
+      "Four score and seven years ago - Lincoln Gettysburg",
+      "Speak softly and carry a big stick - Teddy Roosevelt"
+    ],
+    "eras": [
+      "Founding Era - Washington, Adams, Jefferson",
+      "Progressive Era - Teddy Roosevelt, Taft, Wilson",
+      "New Deal - FDR's Depression response",
+      "Cold War - Truman through Reagan",
+      "Modern Era - Clinton through Biden"
+    ]
+  },
+  "pop-hits": {
+    "choruses": [
+      "Shake It Off - Taylor Swift",
+      "Uptown Funk - Bruno Mars",
+      "Rolling in the Deep - Adele",
+      "Happy - Pharrell Williams",
+      "Poker Face - Lady Gaga"
+    ],
+    "hooks": [
+      "Call Me Maybe - Carly Rae Jepsen",
+      "Shape of You - Ed Sheeran",
+      "Bad Guy - Billie Eilish",
+      "Levitating - Dua Lipa",
+      "Blinding Lights - The Weeknd"
+    ],
+    "dance tracks": [
+      "Can't Stop the Feeling - Justin Timberlake",
+      "24K Magic - Bruno Mars",
+      "Don't Start Now - Dua Lipa",
+      "Dynamite - BTS",
+      "Levitating - Dua Lipa"
+    ]
+  },
+  "rock-history": {
+    "anthems": [
+      "Stairway to Heaven - Led Zeppelin",
+      "Bohemian Rhapsody - Queen",
+      "Born to Run - Bruce Springsteen",
+      "Sweet Child O' Mine - Guns N' Roses",
+      "Smells Like Teen Spirit - Nirvana"
+    ],
+    "guitar riffs": [
+      "Smoke on the Water - Deep Purple",
+      "Sunshine of Your Love - Cream",
+      "Iron Man - Black Sabbath",
+      "Enter Sandman - Metallica",
+      "Seven Nation Army - White Stripes"
+    ],
+    "classic albums": [
+      "Led Zeppelin IV (1971)",
+      "Dark Side of the Moon - Pink Floyd (1973)",
+      "Abbey Road - The Beatles (1969)",
+      "Nevermind - Nirvana (1991)",
+      "Back in Black - AC/DC (1980)"
+    ]
+  },
+  "classical-composers": {
+    "symphonies": [
+      "Beethoven's 5th - iconic four notes",
+      "Mozart's Symphony No. 40",
+      "Brahms' Symphony No. 1",
+      "Tchaikovsky's 6th - Pathétique",
+      "Mahler's Symphony No. 2 - Resurrection"
+    ],
+    "concertos": [
+      "Tchaikovsky Piano Concerto No. 1",
+      "Rachmaninoff Piano Concerto No. 2",
+      "Beethoven Violin Concerto",
+      "Mozart Piano Concerto No. 21",
+      "Vivaldi's Four Seasons"
+    ],
+    "orchestras": [
+      "Vienna Philharmonic - Austria",
+      "Berlin Philharmonic - Germany",
+      "London Symphony Orchestra",
+      "New York Philharmonic",
+      "Boston Symphony Orchestra"
+    ]
+  },
+  "olympics": {
+    "records": [
+      "Usain Bolt - 100m world record 9.58s",
+      "Michael Phelps - 23 gold medals",
+      "Simone Biles - most decorated gymnast",
+      "Nadia Comăneci - first perfect 10",
+      "Jesse Owens - 4 golds in 1936 Berlin"
+    ],
+    "host cities": [
+      "Athens 2004 - return to Greece",
+      "Beijing 2008 - Bird's Nest stadium",
+      "London 2012 - modern Olympics",
+      "Rio 2016 - South America first",
+      "Tokyo 2020 - pandemic games"
+    ],
+    "events": [
+      "100m sprint - fastest humans",
+      "Marathon - 26.2 miles endurance",
+      "Swimming - multiple stroke events",
+      "Gymnastics - floor, vault, bars",
+      "Figure skating - Winter Olympics"
+    ]
+  },
+  "human-body": {
+    "organs": [
+      "Heart - pumps blood throughout body",
+      "Brain - control center and consciousness",
+      "Lungs - oxygen exchange",
+      "Liver - detoxification and metabolism",
+      "Kidneys - filter waste from blood"
+    ],
+    "systems": [
+      "Circulatory - heart and blood vessels",
+      "Nervous - brain, spinal cord, nerves",
+      "Respiratory - lungs and airways",
+      "Digestive - stomach, intestines",
+      "Skeletal - bones and joints"
+    ],
+    "senses": [
+      "Vision - eyes detect light",
+      "Hearing - ears detect sound waves",
+      "Touch - skin receptors",
+      "Taste - tongue taste buds",
+      "Smell - nose olfactory receptors"
+    ]
+  },
+  "weather": {
+    "storms": [
+      "Hurricane Katrina - 2005 devastation",
+      "Tornado Alley - central US",
+      "Typhoons - Pacific hurricanes",
+      "Blizzards - severe winter storms",
+      "Thunderstorms - lightning and rain"
+    ],
+    "seasons": [
+      "Summer - warmest season, long days",
+      "Winter - coldest season, short days",
+      "Spring - rebirth and warming",
+      "Fall/Autumn - cooling and harvest",
+      "Monsoon - seasonal rain pattern"
+    ],
+    "patterns": [
+      "El Niño - Pacific warming pattern",
+      "La Niña - Pacific cooling pattern",
+      "Jet stream - high-altitude winds",
+      "Trade winds - tropical patterns",
+      "Prevailing westerlies - mid-latitudes"
+    ]
+  },
+  "time-travel": {
+    "paradoxes": [
+      "Grandfather paradox - killing your ancestor",
+      "Bootstrap paradox - information loop",
+      "Predestination paradox - causing the past",
+      "Butterfly effect - small changes, big impact",
+      "Temporal causality loop"
+    ],
+    "timelines": [
+      "Alternate timeline - branching reality",
+      "Fixed timeline - unchangeable past",
+      "Multiverse timeline - parallel worlds",
+      "Closed timelike curve",
+      "Timeline convergence"
+    ],
+    "devices": [
+      "DeLorean time machine (Back to the Future)",
+      "TARDIS (Doctor Who)",
+      "Time Turner (Harry Potter)",
+      "Phone booth time machine (Bill & Ted)",
+      "Time displacement equipment"
+    ]
+  },
+  "ancient-egypt": {
+    "pharaohs": [
+      "Tutankhamun - boy king's tomb",
+      "Cleopatra VII - last pharaoh",
+      "Ramses II - greatest builder",
+      "Khufu - Great Pyramid builder",
+      "Hatshepsut - female pharaoh"
+    ],
+    "pyramids": [
+      "Great Pyramid of Giza - Khufu's tomb",
+      "Pyramid of Khafre - second largest",
+      "Step Pyramid - first pyramid",
+      "Bent Pyramid - architectural experiment",
+      "Red Pyramid - first smooth-sided"
+    ],
+    "myths": [
+      "Ra - sun god creator",
+      "Osiris - god of afterlife",
+      "Anubis - jackal-headed death god",
+      "Isis - goddess of magic",
+      "Book of the Dead - afterlife guide"
+    ]
+  },
+  "ancient-greece": {
+    "gods": [
+      "Zeus - king of gods, thunder",
+      "Athena - wisdom and warfare",
+      "Poseidon - god of the sea",
+      "Apollo - sun, music, prophecy",
+      "Aphrodite - goddess of love"
+    ],
+    "city-states": [
+      "Athens - democracy and philosophy",
+      "Sparta - warrior society",
+      "Corinth - trade center",
+      "Thebes - military power",
+      "Delphi - Oracle's home"
+    ],
+    "philosophers": [
+      "Socrates - question everything",
+      "Plato - Theory of Forms",
+      "Aristotle - logic and science",
+      "Pythagoras - mathematics",
+      "Heraclitus - change is constant"
+    ]
+  },
+  "ww2": {
+    "allies": [
+      "United States - industrial power",
+      "United Kingdom - Churchill leadership",
+      "Soviet Union - Eastern Front",
+      "France - resistance movement",
+      "China - Asian theater"
+    ],
+    "turning points": [
+      "D-Day invasion - June 6, 1944",
+      "Battle of Stalingrad - Soviet victory",
+      "Midway - Pacific naval battle",
+      "Pearl Harbor - US entry",
+      "Battle of Britain - air defense"
+    ],
+    "axis": [
+      "Nazi Germany - Hitler regime",
+      "Imperial Japan - Pacific expansion",
+      "Fascist Italy - Mussolini",
+      "Axis alliance - tripartite pact"
+    ]
+  },
+  "retro-games": {
+    "arcades": [
+      "Pac-Man - highest-earning arcade game",
+      "Space Invaders - shooter classic",
+      "Donkey Kong - Mario's debut",
+      "Street Fighter II - fighting game king",
+      "Galaga - shoot 'em up"
+    ],
+    "platformers": [
+      "Super Mario Bros - saved gaming",
+      "Sonic the Hedgehog - Sega mascot",
+      "Mega Man - robot master battles",
+      "Castlevania - vampire hunting",
+      "Metroid - exploration action"
+    ],
+    "cheat codes": [
+      "Konami Code - up up down down",
+      "IDDQD - Doom god mode",
+      "All your base - Zero Wing meme",
+      "Justin Bailey - Metroid password",
+      "Blood Code - Mortal Kombat"
+    ]
+  },
+  "national-parks": {
+    "trails": [
+      "Angels Landing - Zion cliffside",
+      "Half Dome cables - Yosemite challenge",
+      "Bright Angel Trail - Grand Canyon",
+      "The Narrows - river walk",
+      "Mist Trail - waterfall climb"
+    ],
+    "vistas": [
+      "Grand Canyon overlooks",
+      "Yosemite Valley view",
+      "Old Faithful geyser",
+      "Glacier Point panorama",
+      "Mesa Arch sunrise"
+    ],
+    "rangers": [
+      "Park ranger programs",
+      "Junior Ranger badges",
+      "Ranger-led hikes",
+      "Wildlife safety talks",
+      "Evening campfire programs"
+    ]
+  },
+  "food-world": {
+    "street food": [
+      "Tacos - Mexico",
+      "Pad Thai - Thailand",
+      "Falafel - Middle East",
+      "Empanadas - Latin America",
+      "Banh mi - Vietnam"
+    ],
+    "spices": [
+      "Saffron - world's most expensive",
+      "Turmeric - golden spice",
+      "Cumin - earthy warmth",
+      "Cinnamon - sweet and spicy",
+      "Cardamom - complex flavor"
+    ],
+    "desserts": [
+      "Tiramisu - Italian coffee cake",
+      "Baklava - honeyed phyllo",
+      "Crème brûlée - French custard",
+      "Mochi - Japanese rice cake",
+      "Churros - Spanish fritters"
     ]
   }
 }

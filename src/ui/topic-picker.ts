@@ -85,7 +85,7 @@ export function hideTopicPicker(): void {
 
 // Populate topic picker
 export async function populateTopicPicker(
-  filterMode: 'all' | 'curated' = 'all',
+  filterMode: 'quality' | 'curated' | 'all' = 'quality',
 ): Promise<void> {
   const container = document.getElementById('topicPickerContent');
   if (!container) return;
@@ -103,12 +103,21 @@ export async function populateTopicPicker(
         (t: Topic) => t.category === category,
       );
 
-      // Filter by curated if needed (using cached counts)
+      // Filter by mode
       if (filterMode === 'curated') {
+        // Only topics with curated questions
         categoryTopics = categoryTopics.filter(
           (t: Topic) => (curatedCounts.get(t.id) || 0) > 0,
         );
+      } else if (filterMode === 'quality') {
+        // Topics with curated questions OR answer examples
+        categoryTopics = categoryTopics.filter((t: Topic) => {
+          const hasCurated = (curatedCounts.get(t.id) || 0) > 0;
+          const hasExamples = window.answerExamples?.[t.id];
+          return hasCurated || hasExamples;
+        });
       }
+      // filterMode === 'all' shows all topics (no filtering)
 
       // Skip empty categories
       if (categoryTopics.length === 0) return '';
@@ -124,14 +133,18 @@ export async function populateTopicPicker(
             .map((topic: Topic) => {
               const curatedCount = curatedCounts.get(topic.id) || 0;
               const hasCurated = curatedCount > 0;
+              const hasExamples = window.answerExamples?.[topic.id];
+              const hasQualityContent = hasCurated || hasExamples;
+
               return `
               <div class="topic-card"
                    data-topic-id="${escapeHtml(topic.id)}"
                    data-topic-name="${escapeHtml(topic.name.toLowerCase())}"
-                   data-has-curated="${hasCurated}">
+                   data-has-curated="${hasCurated}"
+                   data-has-quality="${hasQualityContent}">
                 <div class="topic-card-name">
                   ${escapeHtml(topic.name)}
-                  ${hasCurated ? `<span class="curated-count">${curatedCount} curated</span>` : ''}
+                  ${hasCurated ? `<span class="curated-count">${curatedCount} curated</span>` : hasExamples ? '<span class="quality-badge">✓</span>' : ''}
                 </div>
                 <div class="topic-card-tags">
                   ${topic.tags
