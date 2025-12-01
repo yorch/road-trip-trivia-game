@@ -12,6 +12,7 @@ export * from './progress';
 export * from './questions';
 
 import {
+  loadProgress,
   loadScoreboard as loadScoreboardData,
   saveProgress as persistProgress,
 } from './persistence';
@@ -122,6 +123,6 @@ export function loadScoreboard(): void {
 
 // Initialize progress from persistence
 export function initializeProgress(): void {
-  const loadedProgress = require('./persistence').loadProgress();
+  const loadedProgress = loadProgress();
   loadProgressData(loadedProgress);
 }

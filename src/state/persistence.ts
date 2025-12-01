@@ -15,7 +15,7 @@ export function saveLastTopic(topicId: string): void {
   try {
     localStorage.setItem('lastTopicId', topicId);
   } catch (e) {
-    ErrorHandler.warn('Failed to save last topic to localStorage', e);
+    ErrorHandler.warn('Failed to save last topic to localStorage', e as Error);
   }
 }
 
@@ -31,7 +31,10 @@ export function clearLastTopic(): void {
   try {
     localStorage.removeItem('lastTopicId');
   } catch (e) {
-    ErrorHandler.warn('Failed to clear last topic from localStorage', e);
+    ErrorHandler.warn(
+      'Failed to clear last topic from localStorage',
+      e as Error,
+    );
   }
 }
 
@@ -42,7 +45,7 @@ export function saveProgress(progress: ProgressData): void {
   } catch (e) {
     ErrorHandler.warn(
       'Failed to save progress - your progress may not be preserved',
-      e,
+      e as Error,
     );
   }
 }
@@ -70,7 +73,7 @@ export function clearProgress(): void {
   try {
     localStorage.removeItem('questionProgress');
   } catch (e) {
-    ErrorHandler.warn('Failed to clear progress from localStorage', e);
+    ErrorHandler.warn('Failed to clear progress from localStorage', e as Error);
   }
 }
 
@@ -79,7 +82,7 @@ export function saveQuestionMode(mode: QuestionMode): void {
   try {
     localStorage.setItem('questionMode', mode);
   } catch (e) {
-    ErrorHandler.warn('Failed to save question mode preference', e);
+    ErrorHandler.warn('Failed to save question mode preference', e as Error);
   }
 }
 
@@ -103,14 +106,14 @@ export function saveDifficulty(difficulty: Difficulty): void {
   try {
     localStorage.setItem('difficulty', difficulty);
   } catch (e) {
-    ErrorHandler.warn('Failed to save difficulty preference', e);
+    ErrorHandler.warn('Failed to save difficulty preference', e as Error);
   }
 }
 
 export function loadDifficulty(): Difficulty {
   try {
     const saved = localStorage.getItem('difficulty');
-    return window.difficulties.includes(saved)
+    return saved && window.difficulties.includes(saved as Difficulty)
       ? (saved as Difficulty)
       : DIFFICULTY_LEVELS.EASY;
   } catch (_e) {
