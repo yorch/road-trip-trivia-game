@@ -1,5 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
-import { answerExamples, loadAnswerExamples, topicList } from '../data/data';
+import {
+  answerExamplesSignal,
+  loadAnswerExamples,
+  topicListSignal,
+} from '../data/data';
 import {
   hasCuratedQuestions,
   loadCuratedTopicIndex,
@@ -11,6 +15,8 @@ import type { Topic } from '../types';
 
 export function TopicPicker() {
   const show = showTopicPickerSignal.value;
+  const topicList = topicListSignal.value;
+  const answerExamples = answerExamplesSignal.value;
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState<'quality' | 'curated' | 'all'>(
     'quality',
@@ -58,7 +64,7 @@ export function TopicPicker() {
     }
 
     return topics;
-  }, [search, filter, loading]); // loading dependency to re-run after data load
+  }, [search, filter, loading, topicList, answerExamples]); // loading dependency to re-run after data load
 
   // Group by category
   const groupedTopics = useMemo(() => {

@@ -21,17 +21,6 @@ export const DIFFICULTY_LEVELS: Record<string, Difficulty> = Object.freeze({
   HARD: 'hard',
 });
 
-// Curated questions path (relative to the HTML page location)
-// fetch() resolves relative URLs from the document location, not the module
-export const CURATED_QUESTIONS_PATH = '/curated-questions.json';
-
-// Get curated questions URL with optional cache busting
-export function getCuratedQuestionsUrl(bustCache = false): string {
-  return bustCache
-    ? `${CURATED_QUESTIONS_PATH}?${Date.now()}`
-    : CURATED_QUESTIONS_PATH;
-}
-
 // Security: HTML escaping helper to prevent XSS
 export function escapeHtml(str: string): string {
   const div = document.createElement('div');

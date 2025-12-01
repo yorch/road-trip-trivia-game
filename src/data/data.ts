@@ -1,3 +1,4 @@
+import { signal } from '@preact/signals';
 import type {
   AnswerExamples,
   CategoryAngles,
@@ -8,14 +9,14 @@ import type {
 
 const difficulties: Difficulty[] = ['easy', 'medium', 'hard'];
 
-const topicList: Topic[] = [];
-const answerExamples: AnswerExamples = {};
+export const topicListSignal = signal<Topic[]>([]);
+export const answerExamplesSignal = signal<AnswerExamples>({});
 
 // Track if answer examples have been loaded
 let answerExamplesLoaded = false;
 
 // Async loader for topics from JSON file
-// Populates topicList in-place and returns the data
+// Populates topicListSignal and returns the data
 async function loadStaticData(): Promise<{
   topics: Topic[];
 }> {
@@ -28,9 +29,8 @@ async function loadStaticData(): Promise<{
 
     const topics = (await topicsResponse.json()) as Topic[];
 
-    // Populate module-level variables in-place
-    topicList.length = 0;
-    topicList.push(...topics);
+    // Populate signal
+    topicListSignal.value = topics;
 
     return { topics };
   } catch (error) {
@@ -43,7 +43,7 @@ async function loadStaticData(): Promise<{
 async function loadAnswerExamples(): Promise<AnswerExamples> {
   // Return cached if already loaded
   if (answerExamplesLoaded) {
-    return answerExamples;
+    return answerExamplesSignal.value;
   }
 
   try {
@@ -55,14 +55,11 @@ async function loadAnswerExamples(): Promise<AnswerExamples> {
 
     const examples = (await examplesResponse.json()) as AnswerExamples;
 
-    // Clear and repopulate answerExamples
-    for (const key in answerExamples) {
-      delete answerExamples[key];
-    }
-    Object.assign(answerExamples, examples);
+    // Populate signal
+    answerExamplesSignal.value = examples;
     answerExamplesLoaded = true;
 
-    return answerExamples;
+    return examples;
   } catch (error) {
     console.error('Error loading answer examples:', error);
     throw error;
@@ -205,10 +202,8 @@ const promptTemplates: TemplateSet = {
 // Export as ES modules for Vite
 export {
   difficulties,
-  topicList,
   categoryAngles,
   promptTemplates,
-  answerExamples,
   loadStaticData,
   loadAnswerExamples,
 };

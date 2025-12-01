@@ -2,10 +2,10 @@
 // Handles question creation from templates and curated sources
 
 import {
-  answerExamples,
+  answerExamplesSignal,
   loadAnswerExamples,
   promptTemplates,
-  topicList,
+  topicListSignal,
 } from '../data/data';
 import type {
   CuratedQuestion,
@@ -100,7 +100,7 @@ export async function getOrCreateQuestions(
 
   // Lazily create questions for this difficulty and mode if not already created
   if (!questionBank[topicId][cacheKey]) {
-    const topic = topicList.find((t: Topic) => t.id === topicId);
+    const topic = topicListSignal.value.find((t: Topic) => t.id === topicId);
     if (topic) {
       questionBank[topicId][cacheKey] = await createQuestions(
         topic,
@@ -133,7 +133,7 @@ async function createQuestions(
   ]);
 
   const curated = topicCurated[difficulty] || [];
-  const examples = answerExamples?.[topic.id] || {};
+  const examples = answerExamplesSignal.value?.[topic.id] || {};
 
   // If curated-only mode and no curated questions exist, return empty
   if (mode === QUESTION_MODES.CURATED && curated.length === 0) {
@@ -203,14 +203,22 @@ export function rebuildQuestionBank(
 // Load curated questions index (just the list of topic IDs, not the actual questions)
 // This is used by the topic picker to show which topics have curated content
 // The actual questions are lazy loaded per-topic when needed
-export async function loadCuratedQuestionsIndex(): Promise<string[]> {
+export interface CuratedIndexStats {
+  easy: number;
+  medium: number;
+  hard: number;
+}
+
+export type CuratedIndex = Record<string, CuratedIndexStats>;
+
+export async function loadCuratedQuestionsIndex(): Promise<CuratedIndex> {
   try {
     const indexResponse = await fetch('/curated/index.json');
     if (indexResponse.ok) {
       return await indexResponse.json();
     }
-    return [];
+    return {};
   } catch {
-    return [];
+    return {};
   }
 }

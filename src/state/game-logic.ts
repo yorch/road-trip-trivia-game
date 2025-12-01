@@ -1,6 +1,6 @@
 // Game business logic: navigation, scoring, and flow control
 
-import { topicList } from '../data/data';
+import { topicListSignal } from '../data/data';
 import { ErrorHandler, MAX_SEED_VALUE, shuffleIndices } from '../utils';
 import {
   askedSignal,
@@ -30,59 +30,64 @@ export async function nextQuestion(): Promise<void> {
     return;
   }
 
-  const prog = await getProgress(topicId, difficulty, questionMode);
-  // Lazy load: get or create questions for current topic/difficulty/mode
-  const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
+  // Loop to handle invalid index reset without recursion
+  while (true) {
+    const prog = await getProgress(topicId, difficulty, questionMode);
+    // Lazy load: get or create questions for current topic/difficulty/mode
+    const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
 
-  // Check if topic has no questions in current mode
-  if (!bank || bank.length === 0) {
-    endStateSignal.value = {
-      title: 'No curated questions available!',
-      message:
-        "This topic doesn't have curated questions yet. Switch to 'All questions' mode.",
-    };
-    currentQuestionSignal.value = null;
-    return;
-  }
+    // Check if topic has no questions in current mode
+    if (!bank || bank.length === 0) {
+      endStateSignal.value = {
+        title: 'No curated questions available!',
+        message:
+          "This topic doesn't have curated questions yet. Switch to 'All questions' mode.",
+      };
+      currentQuestionSignal.value = null;
+      return;
+    }
 
-  if (prog.cursor >= bank.length) {
-    endStateSignal.value = {
-      title: 'All questions used up!',
-      message: 'Reset progress or switch difficulty to keep rolling.',
-    };
-    currentQuestionSignal.value = null;
-    return;
-  }
+    if (prog.cursor >= bank.length) {
+      endStateSignal.value = {
+        title: 'All questions used up!',
+        message: 'Reset progress or switch difficulty to keep rolling.',
+      };
+      currentQuestionSignal.value = null;
+      return;
+    }
 
-  const idx = prog.order[prog.cursor];
+    const idx = prog.order[prog.cursor];
 
-  // Validate index is within bounds (can be invalid after mode switch)
-  if (idx >= bank.length) {
-    ErrorHandler.warn(
-      `Invalid question index ${idx} for bank size ${bank.length}. Progress reset for current topic.`,
-    );
+    // Validate index is within bounds (can be invalid after mode switch)
+    if (idx >= bank.length) {
+      ErrorHandler.warn(
+        `Invalid question index ${idx} for bank size ${bank.length}. Progress reset for current topic.`,
+      );
 
-    // Reset progress for this topic/difficulty
-    const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
-    prog.order = shuffleIndices(bank.length, seed);
-    prog.cursor = 0;
+      // Reset progress for this topic/difficulty
+      const seed = Math.floor(Math.random() * MAX_SEED_VALUE);
+      prog.order = shuffleIndices(bank.length, seed);
+      prog.cursor = 0;
+      saveProgress();
+
+      // Notify user about the reset
+      ErrorHandler.info(
+        'Question bank changed - progress reset for this topic',
+      );
+
+      // Continue loop to retry with new progress
+      continue;
+    }
+
+    prog.cursor += 1;
+    askedSignal.value += 1;
+    revealedSignal.value = false;
     saveProgress();
 
-    // Notify user about the reset
-    ErrorHandler.info('Question bank changed - progress reset for this topic');
-
-    // Use setTimeout to break recursion chain and prevent stack overflow
-    setTimeout(() => nextQuestion(), 0);
-    return;
+    endStateSignal.value = null;
+    currentQuestionSignal.value = bank[idx];
+    break;
   }
-
-  prog.cursor += 1;
-  askedSignal.value += 1;
-  revealedSignal.value = false;
-  saveProgress();
-
-  endStateSignal.value = null;
-  currentQuestionSignal.value = bank[idx];
 }
 
 // Mark answer as correct
@@ -127,7 +132,7 @@ export function resetProgress(): void {
 
 // Select topic and start
 export function selectTopicAndStart(topicId: string): void {
-  const topic = topicList.find((t) => t.id === topicId);
+  const topic = topicListSignal.value.find((t) => t.id === topicId);
   if (!topic) {
     ErrorHandler.critical(`Topic not found: ${topicId}`);
     return;

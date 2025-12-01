@@ -56,16 +56,6 @@ export interface ProgressData {
   };
 }
 
-export interface State {
-  topicId: string | null;
-  difficulty: Difficulty;
-  questionMode: QuestionMode;
-  score: number;
-  streak: number;
-  asked: number;
-  revealed: boolean;
-}
-
 export interface QuestionBank {
   [topicId: string]: {
     [difficulty: string]: Question[];

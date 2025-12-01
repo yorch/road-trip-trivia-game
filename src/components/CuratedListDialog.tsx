@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'preact/hooks';
-import { topicList } from '../data/data';
-import { loadCuratedTopicIndex, showCuratedListSignal } from '../state';
+import { topicListSignal } from '../data/data';
+import {
+  getCuratedTopicStats,
+  loadCuratedTopicIndex,
+  showCuratedListSignal,
+} from '../state';
 import type { Topic } from '../types';
 
 interface CuratedTopicStats {
@@ -28,17 +32,15 @@ export function CuratedListDialog() {
 
   async function loadStats() {
     await loadCuratedTopicIndex();
-    const topics = topicList || [];
+    const topics = topicListSignal.value || [];
+    const statsData = getCuratedTopicStats();
 
-    const promises = topics.map(async (topic: Topic) => {
-      try {
-        const response = await fetch(`curated/${topic.id}.json`);
-        if (!response.ok) return null;
-        const data = await response.json();
+    const stats = topics
+      .map((topic: Topic) => {
+        const topicStats = statsData?.[topic.id];
+        if (!topicStats) return null;
 
-        const easy = data.easy?.length || 0;
-        const medium = data.medium?.length || 0;
-        const hard = data.hard?.length || 0;
+        const { easy, medium, hard } = topicStats;
         const total = easy + medium + hard;
 
         if (total === 0) return null;
@@ -50,15 +52,11 @@ export function CuratedListDialog() {
           hard,
           total,
         };
-      } catch {
-        return null;
-      }
-    });
-
-    const results = await Promise.all(promises);
-    return results
-      .filter((r): r is CuratedTopicStats => r !== null)
+      })
+      .filter((item): item is CuratedTopicStats => item !== null)
       .sort((a, b) => b.total - a.total);
+
+    return stats;
   }
 
   if (!show) return null;

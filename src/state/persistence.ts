@@ -1,7 +1,7 @@
 // LocalStorage persistence operations
 // Pure localStorage operations with error handling
 
-import { difficulties, topicList } from '../data/data';
+import { difficulties, topicListSignal } from '../data/data';
 import type {
   Difficulty,
   ProgressData,
@@ -57,7 +57,9 @@ export function loadProgress(): ProgressData {
     const loaded: ProgressData = saved ? JSON.parse(saved) : {};
 
     // Validate and clean progress - remove topics that no longer exist
-    const validTopicIds = new Set(topicList.map((t: Topic) => t.id));
+    const validTopicIds = new Set(
+      topicListSignal.value.map((t: Topic) => t.id),
+    );
     Object.keys(loaded).forEach((topicId) => {
       if (!validTopicIds.has(topicId)) {
         delete loaded[topicId];

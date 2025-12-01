@@ -1,4 +1,4 @@
-import { topicList } from '../data/data';
+import { topicListSignal } from '../data/data';
 import {
   difficultySignal,
   questionModeSignal,
@@ -39,6 +39,7 @@ export function App() {
   };
 
   const handleRandomTopic = () => {
+    const topicList = topicListSignal.value;
     if (topicList && topicList.length > 0) {
       const randomTopic =
         topicList[Math.floor(Math.random() * topicList.length)];

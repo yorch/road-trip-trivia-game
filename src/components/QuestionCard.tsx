@@ -1,4 +1,4 @@
-import { topicList } from '../data/data';
+import { topicListSignal } from '../data/data';
 import {
   currentQuestionSignal,
   difficultySignal,
@@ -17,7 +17,7 @@ export function QuestionCard() {
   const difficulty = difficultySignal.value;
 
   // Find topic name
-  const topic = topicList?.find((t: Topic) => t.id === topicId);
+  const topic = topicListSignal.value?.find((t: Topic) => t.id === topicId);
 
   if (endState) {
     return (
