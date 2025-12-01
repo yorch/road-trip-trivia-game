@@ -1,0 +1,468 @@
+{
+  "easy": [
+    {
+      "q": "What is Batman's real name?",
+      "a": "Bruce Wayne",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What city does Batman protect?",
+      "a": "Gotham City",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is Superman's weakness?",
+      "a": "Kryptonite",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What is Wonder Woman's weapon?",
+      "a": "Lasso of Truth",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is the Flash?",
+      "a": "Barry Allen (most common)",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is Superman's symbol?",
+      "a": "S (House of El symbol)",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is Batman's sidekick?",
+      "a": "Robin",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Joker's real name?",
+      "a": "Unknown / Multiple origins",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "Where is Superman from?",
+      "a": "Planet Krypton",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What does Aquaman control?",
+      "a": "Sea creatures / The ocean",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Batman's greatest enemy?",
+      "a": "The Joker",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Superman's civilian name?",
+      "a": "Clark Kent",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What team does Batman belong to?",
+      "a": "Justice League",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is the color of Superman's cape?",
+      "a": "Red",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who wears the power ring?",
+      "a": "Green Lantern",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What animal is Batman's symbol?",
+      "a": "Bat",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who is Superman's girlfriend?",
+      "a": "Lois Lane",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What is Batman's cave headquarters called?",
+      "a": "Batcave",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who can run super fast?",
+      "a": "The Flash",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What gender is Wonder Woman?",
+      "a": "Female/Woman",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What planet is Green Lantern Hal Jordan's Corps from?",
+      "a": "Oa (Green Lantern Corps HQ)",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Aquaman's Atlantean queen partner?",
+      "a": "Mera",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is Superman's home city?",
+      "a": "Metropolis",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is Batman's butler?",
+      "a": "Alfred Pennyworth",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Flash's lightning bolt color?",
+      "a": "Yellow on a red suit",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Diana Prince?",
+      "a": "Wonder Woman",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is Clark Kent's job?",
+      "a": "Reporter at the Daily Planet",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the clown prince of crime?",
+      "a": "The Joker",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What metal are Wonder Woman's bracelets made of?",
+      "a": "Amazonium/indestructible metal",
+      "angle": "gear"
+    },
+    {
+      "q": "Who is Green Lantern Hal Jordan's mentor?",
+      "a": "Abin Sur (predecessor)",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What emblem does Superman wear?",
+      "a": "The Kryptonian family crest of El (S-shield)",
+      "angle": "metropolis"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is Batman's butler's name?",
+      "a": "Alfred Pennyworth",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Flash's superpower?",
+      "a": "Super speed",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Superman's arch-nemesis?",
+      "a": "Lex Luthor",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Wonder Woman's home?",
+      "a": "Themyscira / Paradise Island",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who created Batman?",
+      "a": "Bob Kane and Bill Finger",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is Green Lantern's power source?",
+      "a": "Power ring fueled by willpower",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Harley Quinn's boyfriend?",
+      "a": "The Joker",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Batman's vehicle called?",
+      "a": "Batmobile",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who paralyzed Barbara Gordon?",
+      "a": "The Joker",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What year did Superman first appear?",
+      "a": "1938",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the Penguin?",
+      "a": "Batman villain (Oswald Cobblepot)",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Aquaman's real name?",
+      "a": "Arthur Curry",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Catwoman?",
+      "a": "Selina Kyle (Batman's frenemy)",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Green Lantern oath first line?",
+      "a": "In brightest day, in blackest night",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Batman's son?",
+      "a": "Damian Wayne",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is Superman's home city?",
+      "a": "Metropolis",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the Riddler?",
+      "a": "Edward Nygma (Batman villain)",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Wonder Woman's tiara made of?",
+      "a": "Amazonium/indestructible metal",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Batman's first Robin?",
+      "a": "Dick Grayson",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Flash's real job?",
+      "a": "Forensic scientist",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who founded the Justice League in many versions?",
+      "a": "Superman, Batman, Wonder Woman, Flash, Green Lantern, Aquaman, Martian Manhunter",
+      "angle": "team"
+    },
+    {
+      "q": "Who is Cyborg?",
+      "a": "Victor Stone",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What villain runs Arkham Asylum?",
+      "a": "No single villain; Arkham is run as an institution (Jeremiah Arkham director)",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Ra's al Ghul?",
+      "a": "Leader of the League of Assassins",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is Deadshot?",
+      "a": "Floyd Lawton, expert marksman",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is Shazam's alter ego?",
+      "a": "Billy Batson",
+      "angle": "magic"
+    },
+    {
+      "q": "What city does Green Arrow protect?",
+      "a": "Star City (Starling in Arrow TV)",
+      "angle": "city"
+    },
+    {
+      "q": "Who is John Constantine?",
+      "a": "Occult detective/magician",
+      "angle": "magic"
+    },
+    {
+      "q": "Which Lantern wears a yellow ring?",
+      "a": "Sinestro (Sinestro Corps)",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is Harley Quinn's partner-in-crime friend?",
+      "a": "Poison Ivy",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "Who is Aquaman's half-brother antagonist?",
+      "a": "Orm / Ocean Master",
+      "angle": "villain"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the real name of the current Robin?",
+      "a": "Damian Wayne (varies by era)",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Speed Force?",
+      "a": "Energy field that gives speedsters their powers",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is the villain in 'The Killing Joke'?",
+      "a": "The Joker",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Superman's Kryptonian name?",
+      "a": "Kal-El",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who is the first Green Lantern?",
+      "a": "Alan Scott (Golden Age)",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is Batman's contingency plan for the Justice League?",
+      "a": "Tower of Babel protocols",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is the main villain in 'Crisis on Infinite Earths'?",
+      "a": "Anti-Monitor",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Wonder Woman's secret identity?",
+      "a": "Diana Prince",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who killed Jason Todd (second Robin)?",
+      "a": "The Joker",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Phantom Zone?",
+      "a": "Kryptonian prison dimension",
+      "angle": "metropolis"
+    },
+    {
+      "q": "What is the Court of Owls?",
+      "a": "Secret society controlling Gotham",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who becomes the second Flash?",
+      "a": "Barry Allen (after Jay Garrick)",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is Darkseid searching for?",
+      "a": "The Anti-Life Equation",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "Who is the Black Adam?",
+      "a": "Shazam's nemesis (Teth-Adam)",
+      "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Batman's IQ?",
+      "a": "192 (genius level)",
+      "angle": "Gotham"
+    },
+    {
+      "q": "Who voices Batman in the animated series?",
+      "a": "Kevin Conroy",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is the Mobius Chair?",
+      "a": "All-knowing chair from New Gods",
+      "angle": "Justice League"
+    },
+    {
+      "q": "Who is Oracle?",
+      "a": "Barbara Gordon after being paralyzed",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What is Superman's Fortress of Solitude location?",
+      "a": "Arctic/North Pole",
+      "angle": "metropolis"
+    },
+    {
+      "q": "Who created Wonder Woman (in real life)?",
+      "a": "William Moulton Marston",
+      "angle": "Justice League"
+    },
+    {
+      "q": "What is the name of Batman's mother?",
+      "a": "Martha Wayne",
+      "angle": "Gotham"
+    },
+    {
+      "q": "What detective is known as The Question?",
+      "a": "Vic Sage (or Renee Montoya in later runs)",
+      "angle": "heroes"
+    },
+    {
+      "q": "Who forged the Batarang in some continuities?",
+      "a": "Batman/Wayne tech; sometimes Lucius Fox supplies gear",
+      "angle": "tech"
+    },
+    {
+      "q": "What is Superman's greatest vulnerability besides kryptonite?",
+      "a": "Red sun radiation/magic",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Zatanna's father?",
+      "a": "Zatara (Giovanni Zatara)",
+      "angle": "magic"
+    },
+    {
+      "q": "Which Green Lantern became a Red Lantern briefly?",
+      "a": "Guy Gardner (and others in arcs)",
+      "angle": "arc"
+    },
+    {
+      "q": "Who is the Martian in the Justice League?",
+      "a": "Martian Manhunter (J'onn J'onzz)",
+      "angle": "team"
+    },
+    {
+      "q": "What is the Batfamily tech expert?",
+      "a": "Oracle/Barbara Gordon; also Lucius Fox",
+      "angle": "support"
+    },
+    {
+      "q": "What is the planet Apokolips ruled by?",
+      "a": "Darkseid",
+      "angle": "cosmic"
+    },
+    {
+      "q": "Who wrote Watchmen (DC imprint)?",
+      "a": "Alan Moore (artist Dave Gibbons)",
+      "angle": "comics"
+    }
+  ]
+}

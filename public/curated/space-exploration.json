@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What planet is known as the Red Planet?",
+      "a": "Mars",
+      "angle": "planet"
+    },
+    {
+      "q": "Who was the first person in space?",
+      "a": "Yuri Gagarin",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What does NASA stand for?",
+      "a": "National Aeronautics and Space Administration",
+      "angle": "mission"
+    },
+    {
+      "q": "How many planets are in our solar system?",
+      "a": "8",
+      "angle": "planet"
+    },
+    {
+      "q": "What is the largest planet?",
+      "a": "Jupiter",
+      "angle": "planet"
+    },
+    {
+      "q": "What spacecraft landed on Mars?",
+      "a": "Rovers like Curiosity and Perseverance",
+      "angle": "rover"
+    },
+    {
+      "q": "What is Earth's only natural satellite?",
+      "a": "The Moon",
+      "angle": "moon"
+    },
+    {
+      "q": "Who was the first American in space?",
+      "a": "Alan Shepard",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What is the closest planet to the Sun?",
+      "a": "Mercury",
+      "angle": "planet"
+    },
+    {
+      "q": "What galaxy do we live in?",
+      "a": "The Milky Way",
+      "angle": "planet"
+    },
+    {
+      "q": "Which planet has prominent rings?",
+      "a": "Saturn",
+      "angle": "planet"
+    },
+    {
+      "q": "What do astronauts wear on spacewalks?",
+      "a": "Spacesuits",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What was the first artificial satellite?",
+      "a": "Sputnik 1",
+      "angle": "mission"
+    },
+    {
+      "q": "What planet is famous for its giant storm called the Great Red Spot?",
+      "a": "Jupiter",
+      "angle": "planet"
+    },
+    {
+      "q": "What is the name of our star?",
+      "a": "The Sun",
+      "angle": "star"
+    },
+    {
+      "q": "Which dwarf planet was reclassified in 2006?",
+      "a": "Pluto",
+      "angle": "planet"
+    },
+    {
+      "q": "What is the name of NASA's next-gen space telescope after Hubble?",
+      "a": "James Webb Space Telescope",
+      "angle": "telescope"
+    },
+    {
+      "q": "What is the term for a space traveler from the US?",
+      "a": "Astronaut",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What rocket carried Apollo 11?",
+      "a": "Saturn V",
+      "angle": "mission"
+    },
+    {
+      "q": "Which planet is called Earth's twin in size?",
+      "a": "Venus",
+      "angle": "planet"
+    },
+    {
+      "q": "Which rover landed on Mars in 2021?",
+      "a": "Perseverance",
+      "angle": "rover"
+    },
+    {
+      "q": "What moon orbits Earth?",
+      "a": "The Moon (Luna)",
+      "angle": "moon"
+    },
+    {
+      "q": "What country launched Sputnik?",
+      "a": "The Soviet Union",
+      "angle": "mission"
+    },
+    {
+      "q": "What is a meteor called before it enters atmosphere?",
+      "a": "A meteoroid",
+      "angle": "space objects"
+    },
+    {
+      "q": "What are shooting stars actually?",
+      "a": "Meteors burning up in the atmosphere",
+      "angle": "space objects"
+    },
+    {
+      "q": "Which planet is known for its icy rings besides Saturn?",
+      "a": "Uranus and Neptune also have rings",
+      "angle": "planet"
+    },
+    {
+      "q": "What is the name of Mars' two small moons?",
+      "a": "Phobos and Deimos",
+      "angle": "moon"
+    },
+    {
+      "q": "Which agency runs the ESA?",
+      "a": "European Space Agency (member states)",
+      "angle": "agency"
+    },
+    {
+      "q": "What vehicle launches astronauts to orbit?",
+      "a": "A rocket",
+      "angle": "mission"
+    },
+    {
+      "q": "What mission showed the famous Earthrise photo?",
+      "a": "Apollo 8",
+      "angle": "mission"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did humans first land on the moon?",
+      "a": "1969",
+      "angle": "mission"
+    },
+    {
+      "q": "What is the name of NASA's moon program?",
+      "a": "Apollo Program",
+      "angle": "mission"
+    },
+    {
+      "q": "How long does it take Earth to orbit the Sun?",
+      "a": "365.25 days (1 year)",
+      "angle": "orbit"
+    },
+    {
+      "q": "What is the International Space Station's abbreviation?",
+      "a": "ISS",
+      "angle": "mission"
+    },
+    {
+      "q": "Which planet has the most moons?",
+      "a": "Saturn (or Jupiter, depending on recent discoveries)",
+      "angle": "moon"
+    },
+    {
+      "q": "What space telescope launched in 1990?",
+      "a": "Hubble Space Telescope",
+      "angle": "telescope"
+    },
+    {
+      "q": "What is a rover?",
+      "a": "A robotic vehicle designed to explore planetary surfaces",
+      "angle": "rover"
+    },
+    {
+      "q": "Who said 'That's one small step for man'?",
+      "a": "Neil Armstrong",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What planet has the Great Red Spot?",
+      "a": "Jupiter",
+      "angle": "planet"
+    },
+    {
+      "q": "What company does Elon Musk own for space travel?",
+      "a": "SpaceX",
+      "angle": "mission"
+    },
+    {
+      "q": "What program aims to return humans to the Moon?",
+      "a": "NASA's Artemis program",
+      "angle": "mission"
+    },
+    {
+      "q": "Name two Mars rovers still operational in 2024-25.",
+      "a": "Curiosity and Perseverance",
+      "angle": "rover"
+    },
+    {
+      "q": "What is the Mars helicopter called?",
+      "a": "Ingenuity",
+      "angle": "technology"
+    },
+    {
+      "q": "What agency is JAXA?",
+      "a": "Japan Aerospace Exploration Agency",
+      "angle": "agency"
+    },
+    {
+      "q": "When did JWST launch?",
+      "a": "December 25, 2021",
+      "angle": "telescope"
+    },
+    {
+      "q": "What is a light-year?",
+      "a": "Distance light travels in one year",
+      "angle": "measurement"
+    },
+    {
+      "q": "Which mission brought back the first moon rocks?",
+      "a": "Apollo 11",
+      "angle": "science"
+    },
+    {
+      "q": "What reusable rockets land vertically?",
+      "a": "SpaceX Falcon 9 boosters (and Falcon Heavy side cores)",
+      "angle": "tech"
+    },
+    {
+      "q": "Which probe visited Pluto in 2015?",
+      "a": "New Horizons",
+      "angle": "mission"
+    },
+    {
+      "q": "What is the main goal of the Voyager Golden Record?",
+      "a": "To provide sounds/images of Earth for potential discoverers",
+      "angle": "culture"
+    },
+    {
+      "q": "What does EVA stand for?",
+      "a": "Extravehicular Activity",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What was the first US space station?",
+      "a": "Skylab",
+      "angle": "mission"
+    },
+    {
+      "q": "What does ISS stand for?",
+      "a": "International Space Station",
+      "angle": "mission"
+    },
+    {
+      "q": "Which country landed Chang'e probes on the Moon?",
+      "a": "China (CNSA)",
+      "angle": "mission"
+    },
+    {
+      "q": "What asteroid sample-return mission returned in 2023?",
+      "a": "OSIRIS-REx (sample from Bennu)",
+      "angle": "mission"
+    },
+    {
+      "q": "What is a supernova?",
+      "a": "An exploding star",
+      "angle": "astronomy"
+    },
+    {
+      "q": "What is the name of NASA's planned Mars sample return rover partner?",
+      "a": "Mars Sample Return campaign (with Perseverance caching samples)",
+      "angle": "future"
+    },
+    {
+      "q": "Which telescope observes in infrared from L2?",
+      "a": "James Webb Space Telescope",
+      "angle": "telescope"
+    },
+    {
+      "q": "What crew capsule carries NASA astronauts commercially?",
+      "a": "SpaceX Crew Dragon",
+      "angle": "mission"
+    },
+    {
+      "q": "What uncrewed test orbited the Moon in 2022?",
+      "a": "Artemis I (Orion spacecraft)",
+      "angle": "mission"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was the first artificial satellite?",
+      "a": "Sputnik 1",
+      "angle": "mission"
+    },
+    {
+      "q": "Which Apollo mission successfully landed on the moon?",
+      "a": "Apollo 11",
+      "angle": "mission"
+    },
+    {
+      "q": "What year did the Challenger disaster occur?",
+      "a": "1986",
+      "angle": "mission"
+    },
+    {
+      "q": "How many people have walked on the moon?",
+      "a": "12",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What is the Voyager spacecraft's mission?",
+      "a": "To explore the outer solar system and beyond",
+      "angle": "mission"
+    },
+    {
+      "q": "What dwarf planet was reclassified in 2006?",
+      "a": "Pluto",
+      "angle": "planet"
+    },
+    {
+      "q": "Who was the first woman in space?",
+      "a": "Valentina Tereshkova",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What is the Karman line?",
+      "a": "The boundary between Earth's atmosphere and outer space (100 km)",
+      "angle": "mission"
+    },
+    {
+      "q": "What Mars rover lasted 15 years?",
+      "a": "Opportunity",
+      "angle": "rover"
+    },
+    {
+      "q": "What telescope replaced Hubble?",
+      "a": "James Webb Space Telescope",
+      "angle": "telescope"
+    },
+    {
+      "q": "What was the first crewed mission to dock two spacecraft?",
+      "a": "Gemini 8 (1966)",
+      "angle": "mission"
+    },
+    {
+      "q": "Which mission was called 'a successful failure'?",
+      "a": "Apollo 13",
+      "angle": "mission"
+    },
+    {
+      "q": "What was the first US orbital human spaceflight?",
+      "a": "John Glenn's Friendship 7 (Mercury-Atlas 6, 1962)",
+      "angle": "history"
+    },
+    {
+      "q": "What is the only space shuttle orbiter that never flew?",
+      "a": "Enterprise (used for tests)",
+      "angle": "fleet"
+    },
+    {
+      "q": "Which probe entered interstellar space first?",
+      "a": "Voyager 1 (2012)",
+      "angle": "milestone"
+    },
+    {
+      "q": "What was the first soft landing on the Moon?",
+      "a": "Luna 9 (1966, USSR)",
+      "angle": "history"
+    },
+    {
+      "q": "Which Mars mission found evidence of ancient water with hematite spherules?",
+      "a": "Mars rover Opportunity",
+      "angle": "science"
+    },
+    {
+      "q": "What is the name of Saturn's largest moon?",
+      "a": "Titan",
+      "angle": "moon"
+    },
+    {
+      "q": "Which mission landed the first rover on a comet?",
+      "a": "Rosetta/Philae on 67P in 2014",
+      "angle": "mission"
+    },
+    {
+      "q": "What is the approximate orbital altitude of the ISS?",
+      "a": "About 400 km (varying)",
+      "angle": "orbit"
+    },
+    {
+      "q": "Who was the first American woman in space?",
+      "a": "Sally Ride",
+      "angle": "astronaut"
+    },
+    {
+      "q": "Which mission returned samples from asteroid Ryugu?",
+      "a": "Hayabusa2 (JAXA)",
+      "angle": "mission"
+    },
+    {
+      "q": "Which radio telescope discovered pulsars?",
+      "a": "Jodrell Bank and Cambridge; discovery by Jocelyn Bell Burnell using Cambridge array",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Deep Space Network?",
+      "a": "Worldwide antennas supporting interplanetary missions",
+      "angle": "infrastructure"
+    },
+    {
+      "q": "What launch vehicle carries crew to ISS for NASA since 2020?",
+      "a": "SpaceX Falcon 9/Dragon (Crew Dragon)",
+      "angle": "transport"
+    },
+    {
+      "q": "What planet did the Cassini mission study?",
+      "a": "Saturn",
+      "angle": "mission"
+    },
+    {
+      "q": "What is the Kuiper Belt?",
+      "a": "Region of icy bodies beyond Neptune",
+      "angle": "astronomy"
+    },
+    {
+      "q": "Which mission provided the first images of a black hole's shadow?",
+      "a": "Event Horizon Telescope (interferometer network)",
+      "angle": "astronomy"
+    },
+    {
+      "q": "Who performed the first spacewalk?",
+      "a": "Alexei Leonov in 1965",
+      "angle": "astronaut"
+    },
+    {
+      "q": "What shuttle mission flew first?",
+      "a": "STS-1 Columbia in 1981",
+      "angle": "history"
+    }
+  ]
+}

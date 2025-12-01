@@ -24,6 +24,7 @@ Road Trip Trivia is a TypeScript trivia game application built with Vite. Featur
 yarn dev              # Start Vite dev server on port 3000
 yarn build            # Build production bundle to dist/
 yarn preview          # Preview production build
+yarn update-index     # Update curated questions index
 ```
 
 ### Code Quality
@@ -83,7 +84,8 @@ yarn format           # Format code with Biome
   - Progress reset and reshuffle logic
 
 - `src/state/curated-cache.ts` (79 lines): Curated questions management
-  - Async loading from `/public/curated-questions.json`
+  - Async loading from `/public/curated/[topic-id].json`
+  - Parallel topic file fetching for better performance
   - AbortController for cancellable fetches
   - Cache invalidation and reload support
 
@@ -119,12 +121,19 @@ yarn format           # Format code with Biome
 - `answerTemplates`: Generic answer templates (fallback when no examples exist)
 - `answerExamples`: Real-world answers organized by topic → angle (e.g., Star Wars → iconic scene)
 
-**public/curated-questions.json** (234 KB) - Factual Q&A
+**Curated Questions** - Factual Q&A
 
-- Hand-written trivia with verifiable answers
-- Structure: `{ "topic-id": { "easy": [], "medium": [], "hard": [] } }`
+- **public/curated/index.json** - Index file listing available topic IDs (automatically maintained)
+- **public/curated/[topic-id].json** (21 individual files, 4-12 KB each)
+- Loaded on-demand per topic for better performance
+- Index prevents unnecessary 404 errors for topics without curated questions
+- Structure per file: `{ "easy": [], "medium": [], "hard": [] }`
+
+Question structure:
+
 - Each question: `{ q: "question", a: "answer", angle: "category angle" }`
-- Loaded asynchronously at app initialization with AbortController
+- Loaded asynchronously with AbortController and parallel fetching
+- Index-based loading: fetches index first, then only loads available topic files
 
 ### Key Data Flow
 
@@ -167,6 +176,8 @@ yarn format           # Format code with Biome
 **Performance Optimizations**
 
 - Lazy loading: Questions generated only when topic/difficulty accessed
+- Modular loading: Individual curated topic files (4-12 KB each)
+- Parallel fetching: All topic files loaded concurrently for faster initialization
 - Caching: Generated questions cached per `${difficulty}_${mode}` to avoid regeneration
 - Debouncing: Search input (300ms), mode changes (150ms), reload button (2000ms cooldown)
 - AbortController: Cancels previous fetch requests when reloading curated questions
@@ -182,7 +193,7 @@ yarn format           # Format code with Biome
 
 - Toast notification system with 3 levels: info (blue), warn (orange), critical (red)
 - localStorage failures logged but don't crash app
-- Missing curated questions file → graceful fallback to generated questions only
+- Missing curated question files → graceful fallback to generated questions only
 - Invalid topic recovery → attempts reset to first available topic
 
 ## Git Workflow
@@ -236,23 +247,27 @@ Based on commit history:
    }
    ```
 
-2. Optionally add curated questions to `public/curated-questions.json`
+2. Optionally add curated questions to `public/curated/[topic-id].json`
 3. Optionally add answer examples to `answerExamples` in `src/data/data.ts`
 
 ### Curated Questions
 
-Edit `public/curated-questions.json`:
+Edit individual topic file in `public/curated/[topic-id].json`:
 
 ```json
 {
-  "topic-id": {
-    "easy": [
-      { "q": "Question?", "a": "Answer", "angle": "quote" }
-    ],
-    "medium": [...],
-    "hard": [...]
-  }
+  "easy": [
+    { "q": "Question?", "a": "Answer", "angle": "quote" }
+  ],
+  "medium": [...],
+  "hard": [...]
 }
+```
+
+After adding a new topic file, update the index:
+
+```bash
+yarn update-index
 ```
 
 Users can reload curated questions without redeploying via "↻ Reload" button in topic picker.

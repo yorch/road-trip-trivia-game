@@ -1,0 +1,358 @@
+{
+  "easy": [
+    {
+      "q": "What games did ancient Greece create?",
+      "a": "Olympic Games",
+      "angle": "olympics"
+    },
+    {
+      "q": "Who was the king of the Greek gods?",
+      "a": "Zeus",
+      "angle": "gods"
+    },
+    {
+      "q": "What city-state was known for warriors?",
+      "a": "Sparta",
+      "angle": "city-states"
+    },
+    {
+      "q": "What building is on the Acropolis?",
+      "a": "Parthenon",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was the goddess of wisdom?",
+      "a": "Athena",
+      "angle": "gods"
+    },
+    {
+      "q": "What is Greek mythology?",
+      "a": "Ancient Greek religious stories and legends",
+      "angle": "gods"
+    },
+    {
+      "q": "What is a city-state?",
+      "a": "Independent city with its own government",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was the god of the sea?",
+      "a": "Poseidon",
+      "angle": "gods"
+    },
+    {
+      "q": "What did ancient Greeks wear?",
+      "a": "Togas / Tunics",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was the Greek hero with great strength?",
+      "a": "Hercules (Heracles)",
+      "angle": "gods"
+    },
+    {
+      "q": "What mountain did the gods live on?",
+      "a": "Mount Olympus",
+      "angle": "gods"
+    },
+    {
+      "q": "Who is the messenger of the gods?",
+      "a": "Hermes",
+      "angle": "gods"
+    },
+    {
+      "q": "What did ancient Greeks write with?",
+      "a": "Stylus on wax tablets or ink on papyrus",
+      "angle": "daily life"
+    },
+    {
+      "q": "What is the Greek underworld called?",
+      "a": "Hades",
+      "angle": "myths"
+    },
+    {
+      "q": "Who is the Greek god of war?",
+      "a": "Ares",
+      "angle": "gods"
+    },
+    {
+      "q": "Who is the goddess of love?",
+      "a": "Aphrodite",
+      "angle": "gods"
+    },
+    {
+      "q": "What is a hoplite's shield called?",
+      "a": "Aspis (hoplon)",
+      "angle": "military"
+    },
+    {
+      "q": "Who was the hero of the Odyssey?",
+      "a": "Odysseus",
+      "angle": "myths"
+    },
+    {
+      "q": "What creature has a bull's head and man's body?",
+      "a": "The Minotaur",
+      "angle": "myths"
+    },
+    {
+      "q": "What horse did the Greeks use to enter Troy?",
+      "a": "The Trojan Horse",
+      "angle": "myths"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What was the Trojan War about?",
+      "a": "War between Greeks and Troy (Helen of Troy)",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who wrote the Iliad and Odyssey?",
+      "a": "Homer",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What was an agora?",
+      "a": "Public gathering place / marketplace",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was Socrates?",
+      "a": "Ancient Greek philosopher",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What did the Oracle of Delphi do?",
+      "a": "Give prophecies and advice",
+      "angle": "gods"
+    },
+    {
+      "q": "What is democracy?",
+      "a": "Government by the people",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was Alexander the Great?",
+      "a": "Macedonian king who conquered much of known world",
+      "angle": "city-states"
+    },
+    {
+      "q": "What were Greek theaters shaped like?",
+      "a": "Semi-circles / amphitheaters",
+      "angle": "olympics"
+    },
+    {
+      "q": "Who taught Alexander the Great?",
+      "a": "Aristotle",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What mountain did the gods live on?",
+      "a": "Mount Olympus",
+      "angle": "gods"
+    },
+    {
+      "q": "What battle stopped the first Persian invasion?",
+      "a": "Battle of Marathon (490 BC)",
+      "angle": "wars"
+    },
+    {
+      "q": "Who was the ruler of Macedonia before Alexander?",
+      "a": "Philip II",
+      "angle": "history"
+    },
+    {
+      "q": "What league did Athens lead?",
+      "a": "The Delian League",
+      "angle": "politics"
+    },
+    {
+      "q": "Who was the lawgiver of Sparta?",
+      "a": "Lycurgus (legendary)",
+      "angle": "law"
+    },
+    {
+      "q": "What was the main citizen assembly in Athens?",
+      "a": "The Ecclesia",
+      "angle": "politics"
+    },
+    {
+      "q": "Who is the father of history?",
+      "a": "Herodotus",
+      "angle": "historians"
+    },
+    {
+      "q": "What mathematician invented a famous theorem on right triangles?",
+      "a": "Pythagoras",
+      "angle": "math"
+    },
+    {
+      "q": "What is a phalanx?",
+      "a": "Greek infantry formation with overlapping shields and spears",
+      "angle": "military"
+    },
+    {
+      "q": "Who was the Spartan queen who married Leonidas?",
+      "a": "Gorgo",
+      "angle": "history"
+    },
+    {
+      "q": "Who built the giant statue at Olympia?",
+      "a": "Phidias built the Statue of Zeus",
+      "angle": "art"
+    },
+    {
+      "q": "What is ostracism?",
+      "a": "Athenian vote to exile a citizen for 10 years",
+      "angle": "politics"
+    },
+    {
+      "q": "Who was the tyrant before Cleisthenes' reforms?",
+      "a": "Hippias (and Hipparchus) of Athens",
+      "angle": "history"
+    },
+    {
+      "q": "Who was the blind prophet in Greek myths?",
+      "a": "Tiresias",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the Persian king during Thermopylae?",
+      "a": "Xerxes I",
+      "angle": "wars"
+    },
+    {
+      "q": "What temple is dedicated to Athena in Athens?",
+      "a": "The Parthenon",
+      "angle": "architecture"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year were the first Olympics?",
+      "a": "776 BC",
+      "angle": "olympics"
+    },
+    {
+      "q": "What was Plato's famous school?",
+      "a": "The Academy",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What was the Peloponnesian War?",
+      "a": "War between Athens and Sparta (431-404 BC)",
+      "angle": "city-states"
+    },
+    {
+      "q": "What did Pythagoras study?",
+      "a": "Mathematics (Pythagorean theorem)",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What was the Spartan military training called?",
+      "a": "Agoge",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who was the goddess born from sea foam?",
+      "a": "Aphrodite",
+      "angle": "gods"
+    },
+    {
+      "q": "What is the Parthenon dedicated to?",
+      "a": "Athena (goddess)",
+      "angle": "city-states"
+    },
+    {
+      "q": "What was Greek fire?",
+      "a": "Ancient incendiary weapon",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who wrote 'The Republic'?",
+      "a": "Plato",
+      "angle": "philosophers"
+    },
+    {
+      "q": "What was a hoplite?",
+      "a": "Greek citizen-soldier",
+      "angle": "city-states"
+    },
+    {
+      "q": "Who chronicled the Peloponnesian War?",
+      "a": "Thucydides",
+      "angle": "history"
+    },
+    {
+      "q": "What is the name of Socrates' student who founded the Academy?",
+      "a": "Plato",
+      "angle": "philosophy"
+    },
+    {
+      "q": "Who tutored Alexander besides Aristotle's lineage?",
+      "a": "Aristotle himself tutored Alexander",
+      "angle": "history"
+    },
+    {
+      "q": "What naval battle turned the tide against Persia?",
+      "a": "Battle of Salamis (480 BC)",
+      "angle": "wars"
+    },
+    {
+      "q": "Who sculpted the Discobolus?",
+      "a": "Myron",
+      "angle": "art"
+    },
+    {
+      "q": "What is the Hippocratic Oath associated with?",
+      "a": "Medical ethics (Hippocrates)",
+      "angle": "medicine"
+    },
+    {
+      "q": "Who founded Stoicism?",
+      "a": "Zeno of Citium",
+      "angle": "philosophy"
+    },
+    {
+      "q": "What does 'arete' mean in Greek ethos?",
+      "a": "Excellence/virtue",
+      "angle": "culture"
+    },
+    {
+      "q": "What Greek historian traveled widely and wrote 'Histories'?",
+      "a": "Herodotus",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Delphic maxim 'Know thyself' tied to?",
+      "a": "Inscription at Temple of Apollo at Delphi",
+      "angle": "culture"
+    },
+    {
+      "q": "Who was the last king of Sparta (battle of Leuctra era)?",
+      "a": "Cleombrotus I died at Leuctra; later Agesilaus II notable",
+      "angle": "history"
+    },
+    {
+      "q": "What league opposed the Delian League?",
+      "a": "The Peloponnesian League",
+      "angle": "politics"
+    },
+    {
+      "q": "What philosopher was Alexander's tutor?",
+      "a": "Aristotle",
+      "angle": "history"
+    },
+    {
+      "q": "Who founded Epicureanism?",
+      "a": "Epicurus",
+      "angle": "philosophy"
+    },
+    {
+      "q": "What mathematical work is attributed to Euclid?",
+      "a": "'Elements'",
+      "angle": "math"
+    }
+  ]
+}

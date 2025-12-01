@@ -1,0 +1,383 @@
+{
+  "easy": [
+    {
+      "q": "Who was the first President of the United States?",
+      "a": "George Washington",
+      "angle": "founding"
+    },
+    {
+      "q": "What year did America declare independence?",
+      "a": "1776",
+      "angle": "revolution"
+    },
+    {
+      "q": "How many stars are on the American flag?",
+      "a": "50",
+      "angle": "amendment"
+    },
+    {
+      "q": "What is the capital of the United States?",
+      "a": "Washington, D.C.",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who wrote the Declaration of Independence?",
+      "a": "Thomas Jefferson",
+      "angle": "founding"
+    },
+    {
+      "q": "What war was fought between the North and South?",
+      "a": "The Civil War",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who was president during the Civil War?",
+      "a": "Abraham Lincoln",
+      "angle": "founding"
+    },
+    {
+      "q": "What document freed the slaves?",
+      "a": "Emancipation Proclamation",
+      "angle": "amendment"
+    },
+    {
+      "q": "How many amendments are in the Bill of Rights?",
+      "a": "10",
+      "angle": "amendment"
+    },
+    {
+      "q": "What country did America gain independence from?",
+      "a": "Great Britain (England)",
+      "angle": "revolution"
+    },
+    {
+      "q": "What song is the US national anthem?",
+      "a": "\"The Star-Spangled Banner\"",
+      "angle": "symbol"
+    },
+    {
+      "q": "What bird symbolizes the US?",
+      "a": "Bald eagle",
+      "angle": "symbol"
+    },
+    {
+      "q": "What holiday celebrates independence?",
+      "a": "Fourth of July",
+      "angle": "holiday"
+    },
+    {
+      "q": "Who is on the $1 bill?",
+      "a": "George Washington",
+      "angle": "currency"
+    },
+    {
+      "q": "What is the US motto?",
+      "a": "\"In God We Trust\" (official); \"E Pluribus Unum\" (traditional)",
+      "angle": "symbol"
+    },
+    {
+      "q": "Who freed the Confederate states' enslaved people?",
+      "a": "Emancipation Proclamation (1863)",
+      "angle": "amendment"
+    },
+    {
+      "q": "What building do presidents live in?",
+      "a": "The White House",
+      "angle": "symbol"
+    },
+    {
+      "q": "Who was the first female Supreme Court Justice?",
+      "a": "Sandra Day O'Connor",
+      "angle": "milestone"
+    },
+    {
+      "q": "How many stripes are on the US flag?",
+      "a": "13 stripes",
+      "angle": "symbol"
+    },
+    {
+      "q": "Which branch makes federal laws?",
+      "a": "Congress (Legislative branch)",
+      "angle": "civics"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did the United States land on the moon?",
+      "a": "1969",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who was the longest-serving US President?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "founding"
+    },
+    {
+      "q": "What purchase doubled the size of the US in 1803?",
+      "a": "Louisiana Purchase",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who assassinated Abraham Lincoln?",
+      "a": "John Wilkes Booth",
+      "angle": "conflict"
+    },
+    {
+      "q": "What amendment gave women the right to vote?",
+      "a": "19th Amendment",
+      "angle": "amendment"
+    },
+    {
+      "q": "What year did the Great Depression begin?",
+      "a": "1929",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who was the first man on the moon?",
+      "a": "Neil Armstrong",
+      "angle": "milestone"
+    },
+    {
+      "q": "What war began in 1861?",
+      "a": "The American Civil War",
+      "angle": "conflict"
+    },
+    {
+      "q": "What city was the first US capital?",
+      "a": "New York City (then Philadelphia)",
+      "angle": "founding"
+    },
+    {
+      "q": "Who invented the light bulb?",
+      "a": "Thomas Edison",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who wrote the Preamble \"We the People\"?",
+      "a": "The Constitutional Convention; Gouverneur Morris credited with penning final text",
+      "angle": "founding"
+    },
+    {
+      "q": "What document outlines US government structure?",
+      "a": "The Constitution",
+      "angle": "civics"
+    },
+    {
+      "q": "What was Prohibition?",
+      "a": "Nationwide alcohol ban (1920-1933)",
+      "angle": "law"
+    },
+    {
+      "q": "Who led the March on Washington?",
+      "a": "Civil rights leaders; Martin Luther King Jr. key figure",
+      "angle": "civil rights"
+    },
+    {
+      "q": "What president signed the Civil Rights Act of 1964?",
+      "a": "Lyndon B. Johnson",
+      "angle": "law"
+    },
+    {
+      "q": "What US conflict is called \"The Forgotten War\"?",
+      "a": "The Korean War",
+      "angle": "conflict"
+    },
+    {
+      "q": "What was the New Deal?",
+      "a": "FDR's programs to fight the Great Depression",
+      "angle": "policy"
+    },
+    {
+      "q": "Who purchased Alaska for the US?",
+      "a": "Secretary of State William H. Seward",
+      "angle": "expansion"
+    },
+    {
+      "q": "What was the Monroe Doctrine?",
+      "a": "Policy opposing European colonization in the Americas",
+      "angle": "policy"
+    },
+    {
+      "q": "What is Manifest Destiny?",
+      "a": "Belief that US should expand westward",
+      "angle": "ideology"
+    },
+    {
+      "q": "What was the Trail of Tears?",
+      "a": "Forced relocation of Cherokee and other tribes",
+      "angle": "history"
+    },
+    {
+      "q": "Which amendment abolished slavery?",
+      "a": "13th Amendment",
+      "angle": "constitution"
+    },
+    {
+      "q": "Who was the first US Secretary of the Treasury?",
+      "a": "Alexander Hamilton",
+      "angle": "founding"
+    },
+    {
+      "q": "What was the Manhattan Project?",
+      "a": "WWII program to develop atomic bombs",
+      "angle": "war"
+    },
+    {
+      "q": "What year did the US enter WWI?",
+      "a": "1917",
+      "angle": "war"
+    },
+    {
+      "q": "Who was president during the Louisiana Purchase?",
+      "a": "Thomas Jefferson",
+      "angle": "history"
+    },
+    {
+      "q": "What court case established judicial review?",
+      "a": "Marbury v. Madison (1803)",
+      "angle": "law"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What Supreme Court case ended segregation in schools?",
+      "a": "Brown v. Board of Education",
+      "angle": "amendment"
+    },
+    {
+      "q": "Who was president during the Louisiana Purchase?",
+      "a": "Thomas Jefferson",
+      "angle": "milestone"
+    },
+    {
+      "q": "What year was the Constitution ratified?",
+      "a": "1788",
+      "angle": "founding"
+    },
+    {
+      "q": "Who was the only president to resign?",
+      "a": "Richard Nixon",
+      "angle": "founding"
+    },
+    {
+      "q": "What amendment abolished slavery?",
+      "a": "13th Amendment",
+      "angle": "amendment"
+    },
+    {
+      "q": "What treaty ended the American Revolution?",
+      "a": "Treaty of Paris (1783)",
+      "angle": "revolution"
+    },
+    {
+      "q": "Who was president during World War I?",
+      "a": "Woodwood Wilson",
+      "angle": "conflict"
+    },
+    {
+      "q": "What year did Alaska become a state?",
+      "a": "1959",
+      "angle": "milestone"
+    },
+    {
+      "q": "Who wrote the Federalist Papers with Hamilton and Jay?",
+      "a": "James Madison",
+      "angle": "founding"
+    },
+    {
+      "q": "What scandal led to Nixon's resignation?",
+      "a": "Watergate",
+      "angle": "founding"
+    },
+    {
+      "q": "What rebellion tested federal power in 1794?",
+      "a": "The Whiskey Rebellion",
+      "angle": "history"
+    },
+    {
+      "q": "Who argued \"separate but equal\" in Plessy v. Ferguson?",
+      "a": "Majority opinion by Justice Henry Billings Brown (1896)",
+      "angle": "law"
+    },
+    {
+      "q": "What case overturned Plessy v. Ferguson?",
+      "a": "Brown v. Board of Education (1954)",
+      "angle": "law"
+    },
+    {
+      "q": "What was the Zimmerman Telegram?",
+      "a": "German proposal to Mexico for alliance in WWI",
+      "angle": "war"
+    },
+    {
+      "q": "Which president gave the Four Freedoms speech?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "policy"
+    },
+    {
+      "q": "What act created the interstate highway system?",
+      "a": "Federal-Aid Highway Act of 1956",
+      "angle": "infrastructure"
+    },
+    {
+      "q": "What was the GI Bill?",
+      "a": "Servicemen's Readjustment Act of 1944 (education/benefits)",
+      "angle": "policy"
+    },
+    {
+      "q": "What court case mandated Miranda rights?",
+      "a": "Miranda v. Arizona (1966)",
+      "angle": "law"
+    },
+    {
+      "q": "What 1898 war expanded US overseas territory?",
+      "a": "Spanish–American War",
+      "angle": "war"
+    },
+    {
+      "q": "What doctrine warned Europe against new colonization in Americas?",
+      "a": "Monroe Doctrine",
+      "angle": "policy"
+    },
+    {
+      "q": "Who led the Union Army to victory in Civil War?",
+      "a": "Ulysses S. Grant",
+      "angle": "war"
+    },
+    {
+      "q": "What was the first permanent English settlement?",
+      "a": "Jamestown, 1607",
+      "angle": "colonial"
+    },
+    {
+      "q": "Who was the principal author of the Bill of Rights?",
+      "a": "James Madison",
+      "angle": "founding"
+    },
+    {
+      "q": "Which amendment guarantees free speech?",
+      "a": "First Amendment",
+      "angle": "constitution"
+    },
+    {
+      "q": "What was the Seneca Falls Convention about?",
+      "a": "Women's rights/women's suffrage (1848)",
+      "angle": "civil rights"
+    },
+    {
+      "q": "What is the Great Migration in US history?",
+      "a": "Movement of African Americans from South to North/West (20th century)",
+      "angle": "demographic"
+    },
+    {
+      "q": "Who delivered the \"I Have a Dream\" speech?",
+      "a": "Martin Luther King Jr.",
+      "angle": "civil rights"
+    },
+    {
+      "q": "What was the Iran-Contra affair?",
+      "a": "Secret arms sales and funding to Contras in 1980s",
+      "angle": "scandal"
+    }
+  ]
+}

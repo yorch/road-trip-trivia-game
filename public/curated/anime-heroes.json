@@ -1,0 +1,463 @@
+{
+  "easy": [
+    {
+      "q": "What ninja wants to become Hokage?",
+      "a": "Naruto Uzumaki",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What food does Goku love?",
+      "a": "Food in general (especially rice and meat)",
+      "angle": "rivals"
+    },
+    {
+      "q": "What do ninjas in Naruto use for jutsu?",
+      "a": "Hand signs and chakra",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What is a Super Saiyan transformation?",
+      "a": "A power-up in Dragon Ball with golden hair",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What does Pikachu say?",
+      "a": "Pikachu!",
+      "angle": "teams"
+    },
+    {
+      "q": "What is the name of the notebook in Death Note?",
+      "a": "Death Note",
+      "angle": "arcs"
+    },
+    {
+      "q": "What do heroes in My Hero Academia have?",
+      "a": "Quirks (superpowers)",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What is Luffy's dream in One Piece?",
+      "a": "To become King of the Pirates",
+      "angle": "arcs"
+    },
+    {
+      "q": "What color is Sailor Moon's outfit?",
+      "a": "White and blue (with red)",
+      "angle": "teams"
+    },
+    {
+      "q": "What does Ash want to be in Pokémon?",
+      "a": "Pokémon Master",
+      "angle": "arcs"
+    },
+    {
+      "q": "Who is Ichigo Kurosaki?",
+      "a": "Soul Reaper protagonist of Bleach",
+      "angle": "powers"
+    },
+    {
+      "q": "Who hunts devils with Denji?",
+      "a": "Power and Aki (Chainsaw Man)",
+      "angle": "teams"
+    },
+    {
+      "q": "What titan power does Eren have?",
+      "a": "Attack Titan (and later Founding)",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the Fullmetal Alchemist?",
+      "a": "Edward Elric",
+      "angle": "title"
+    },
+    {
+      "q": "What device lets scouts swing in Attack on Titan?",
+      "a": "ODM gear",
+      "angle": "tech"
+    },
+    {
+      "q": "Who is the pink-haired ninja in Naruto's team?",
+      "a": "Sakura Haruno",
+      "angle": "team"
+    },
+    {
+      "q": "What is Gon searching for?",
+      "a": "His father, Ging Freecss",
+      "angle": "goal"
+    },
+    {
+      "q": "Who is the Symbol of Peace?",
+      "a": "All Might",
+      "angle": "hero"
+    },
+    {
+      "q": "What does Kamehameha refer to?",
+      "a": "Goku's signature energy wave",
+      "angle": "move"
+    },
+    {
+      "q": "Who is the Pirate King that inspires Luffy?",
+      "a": "Gol D. Roger",
+      "angle": "legend"
+    },
+    {
+      "q": "Who wears orange gi and loves to fight?",
+      "a": "Goku",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is Deku's idol?",
+      "a": "All Might",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who is Sailor Moon's talking cat?",
+      "a": "Luna",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the Uchiha with a Sharingan?",
+      "a": "Sasuke Uchiha",
+      "angle": "rivals"
+    },
+    {
+      "q": "Who is the pink-haired pirate doctor?",
+      "a": "Tony Tony Chopper (One Piece)",
+      "angle": "teams"
+    },
+    {
+      "q": "What is Ash's first partner Pokémon?",
+      "a": "Pikachu",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the substitute Soul Reaper?",
+      "a": "Ichigo Kurosaki",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the alchemist with metal arm?",
+      "a": "Edward Elric",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the boy with a straw hat crew?",
+      "a": "Monkey D. Luffy",
+      "angle": "teams"
+    },
+    {
+      "q": "Who yells 'United States of Smash'?",
+      "a": "All Might",
+      "angle": "catchphrase"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is Vegeta's relationship to Goku?",
+      "a": "Rival (and fellow Saiyan)",
+      "angle": "rivals"
+    },
+    {
+      "q": "What is the Survey Corps fighting in Attack on Titan?",
+      "a": "Titans",
+      "angle": "teams"
+    },
+    {
+      "q": "What is Kakashi's signature jutsu?",
+      "a": "Chidori / Lightning Blade",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What type of fruit gives Luffy his powers?",
+      "a": "Gum-Gum Fruit (Devil Fruit)",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is the main rival in Pokémon?",
+      "a": "Gary Oak (originally)",
+      "angle": "rivals"
+    },
+    {
+      "q": "What is the name of the exam to become a Hunter?",
+      "a": "Hunter Exam (Hunter x Hunter)",
+      "angle": "arcs"
+    },
+    {
+      "q": "What does Deku inherit from All Might?",
+      "a": "One For All (quirk)",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What organization does Light fight against?",
+      "a": "L and the Task Force",
+      "angle": "rivals"
+    },
+    {
+      "q": "What is the Chunin Exam in Naruto?",
+      "a": "A test to advance ninja rank",
+      "angle": "arcs"
+    },
+    {
+      "q": "Who is Edward Elric's brother?",
+      "a": "Alphonse Elric",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the Flame Hashira?",
+      "a": "Kyojuro Rengoku (Demon Slayer)",
+      "angle": "role"
+    },
+    {
+      "q": "What guild does Natsu belong to?",
+      "a": "Fairy Tail",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the captain of the Black Bulls?",
+      "a": "Yami Sukehiro (Black Clover)",
+      "angle": "leader"
+    },
+    {
+      "q": "What is Tanjiro's sword style?",
+      "a": "Water Breathing (later Sun Breathing)",
+      "angle": "combat"
+    },
+    {
+      "q": "Who is Killua's best friend?",
+      "a": "Gon Freecss",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the head of the Zoldyck family?",
+      "a": "Silva Zoldyck",
+      "angle": "family"
+    },
+    {
+      "q": "Who pilots the EVA-01?",
+      "a": "Shinji Ikari",
+      "angle": "mecha"
+    },
+    {
+      "q": "What is Levi Ackerman known for?",
+      "a": "Humanity's strongest soldier",
+      "angle": "title"
+    },
+    {
+      "q": "Who is the captain of the Straw Hat Pirates' swordsman?",
+      "a": "Roronoa Zoro",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the tailed beast inside Naruto?",
+      "a": "Kurama (Nine-Tails)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created Fullmetal Alchemist manga?",
+      "a": "Hiromu Arakawa",
+      "angle": "creator"
+    },
+    {
+      "q": "What school does Deku attend?",
+      "a": "U.A. High School",
+      "angle": "setting"
+    },
+    {
+      "q": "What is All Might's real name?",
+      "a": "Toshinori Yagi",
+      "angle": "identity"
+    },
+    {
+      "q": "Who is the main JoJo in Stardust Crusaders?",
+      "a": "Jotaro Kujo",
+      "angle": "protagonist"
+    },
+    {
+      "q": "What is L's real first name?",
+      "a": "L Lawliet (full)",
+      "angle": "identity"
+    },
+    {
+      "q": "What is the Philosopher's Stone price in FMA?",
+      "a": "Requires human lives/souls",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the Fire Force hero with devil's footprints?",
+      "a": "Shinra Kusakabe",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the spear-wielding Hashira?",
+      "a": "Sanemi (Wind) / Uzui (Sound) use blades; Kyojuro Rengoku (Flame) uses katana",
+      "angle": "roles"
+    },
+    {
+      "q": "Who is the Survey Corps commander after Erwin?",
+      "a": "Hange Zoë",
+      "angle": "leadership"
+    },
+    {
+      "q": "What quirk does Shoto Todoroki have?",
+      "a": "Half-hot, half-cold",
+      "angle": "powers"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the true nature of Goku's Ultra Instinct?",
+      "a": "Body moves independently of thought",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What happened to Nina Tucker in Fullmetal Alchemist?",
+      "a": "Fused with her dog by her father",
+      "angle": "arcs"
+    },
+    {
+      "q": "What is the Will of D in One Piece?",
+      "a": "A mysterious inherited will (still unexplained)",
+      "angle": "arcs"
+    },
+    {
+      "q": "Who voices Spike Spiegel in Cowboy Bebop (English)?",
+      "a": "Steve Blum",
+      "angle": "teams"
+    },
+    {
+      "q": "What is the true identity of Tobi?",
+      "a": "Obito Uchiha",
+      "angle": "rivals"
+    },
+    {
+      "q": "What does 'Neon Genesis Evangelion' critique?",
+      "a": "Human connection and existentialism",
+      "angle": "arcs"
+    },
+    {
+      "q": "Who created the first Pokémon?",
+      "a": "Arceus (in Pokémon lore)",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What is Lelouch's Geass power?",
+      "a": "Absolute obedience command",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What year did Dragon Ball first air?",
+      "a": "1986",
+      "angle": "arcs"
+    },
+    {
+      "q": "What is the Philosopher's Stone made from?",
+      "a": "Human souls",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who killed the Third Hokage?",
+      "a": "Orochimaru (during Konoha invasion)",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the name of Eren's basement secret?",
+      "a": "Grisha's journals revealing Marley/eldian history",
+      "angle": "plot"
+    },
+    {
+      "q": "What stand does Dio use in Stardust Crusaders?",
+      "a": "The World (Za Warudo)",
+      "angle": "powers"
+    },
+    {
+      "q": "What are the homunculi named after in FMA?",
+      "a": "The seven deadly sins",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Gojo Satoru's signature domain?",
+      "a": "Unlimited Void",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is the Anti-Magic kid in Black Clover?",
+      "a": "Asta",
+      "angle": "powers"
+    },
+    {
+      "q": "What is the name of the hidden leaf's ANBU masks animal theme?",
+      "a": "Animal-themed masks (wolf/fox etc.)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the equivalent exchange rule?",
+      "a": "To obtain, something of equal value must be lost",
+      "angle": "theme"
+    },
+    {
+      "q": "Who is the Pillar Man leader in JoJo Part 2?",
+      "a": "Kars",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the captain of the Soul Society's 13th Division?",
+      "a": "Jūshirō Ukitake (early Bleach)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Tanjiro's breathing technique upgrade?",
+      "a": "Hinokami Kagura / Sun Breathing",
+      "angle": "power-ups"
+    },
+    {
+      "q": "Who is Meruem in Hunter x Hunter?",
+      "a": "Chimera Ant King",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the Gate of Truth?",
+      "a": "Metaphysical gateway in FMA when using alchemy",
+      "angle": "lore"
+    },
+    {
+      "q": "Who wrote Attack on Titan manga?",
+      "a": "Hajime Isayama",
+      "angle": "creator"
+    },
+    {
+      "q": "What does 'Plus Ultra' mean in MHA?",
+      "a": "Further beyond (U.A.'s motto)",
+      "angle": "theme"
+    },
+    {
+      "q": "Who is the leader of the Phantom Troupe?",
+      "a": "Chrollo Lucilfer",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the curse energy system called in Jujutsu Kaisen?",
+      "a": "Cursed energy and techniques",
+      "angle": "system"
+    },
+    {
+      "q": "Who trained Guts with the Band of the Hawk?",
+      "a": "He learned through battles; Gambino early life; no formal mentor",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Spirited Away's protagonist's real name?",
+      "a": "Chihiro Ogino",
+      "angle": "identity"
+    },
+    {
+      "q": "Who is the mangaka of One Piece?",
+      "a": "Eiichiro Oda",
+      "angle": "creator"
+    },
+    {
+      "q": "What is Kurapika's clan known for?",
+      "a": "Scarlet Eyes of the Kurta Clan",
+      "angle": "lore"
+    }
+  ]
+}

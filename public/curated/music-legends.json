@@ -1,0 +1,463 @@
+{
+  "easy": [
+    {
+      "q": "Who is known as the King of Pop?",
+      "a": "Michael Jackson",
+      "angle": "iconic tour"
+    },
+    {
+      "q": "What band were John, Paul, George, and Ringo in?",
+      "a": "The Beatles",
+      "angle": "chart topper"
+    },
+    {
+      "q": "Who sang 'Purple Rain'?",
+      "a": "Prince",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who is the Queen of Soul?",
+      "a": "Aretha Franklin",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who sang 'Imagine'?",
+      "a": "John Lennon",
+      "angle": "signature song"
+    },
+    {
+      "q": "What does 'LP' stand for?",
+      "a": "Long Play (album)",
+      "angle": "classic album"
+    },
+    {
+      "q": "Who is called 'The Boss'?",
+      "a": "Bruce Springsteen",
+      "angle": "iconic tour"
+    },
+    {
+      "q": "What genre is Bob Marley famous for?",
+      "a": "Reggae",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who is the King of Rock and Roll?",
+      "a": "Elvis Presley",
+      "angle": "chart topper"
+    },
+    {
+      "q": "Who sang 'Respect'?",
+      "a": "Aretha Franklin",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who fronted the band Queen?",
+      "a": "Freddie Mercury",
+      "angle": "iconic tour"
+    },
+    {
+      "q": "Who is known for the 'moonwalk' dance?",
+      "a": "Michael Jackson",
+      "angle": "performance"
+    },
+    {
+      "q": "What instrument did Jimi Hendrix play?",
+      "a": "Guitar",
+      "angle": "guitar solo"
+    },
+    {
+      "q": "Who sang 'Like a Rolling Stone'?",
+      "a": "Bob Dylan",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who sang 'Hound Dog' and 'Jailhouse Rock'?",
+      "a": "Elvis Presley",
+      "angle": "chart topper"
+    },
+    {
+      "q": "What genre is Taylor Swift primarily known for now?",
+      "a": "Pop (after country beginnings)",
+      "angle": "modern"
+    },
+    {
+      "q": "Who sang 'Hotel California'?",
+      "a": "Eagles",
+      "angle": "classic rock"
+    },
+    {
+      "q": "Who sang 'I Will Always Love You' (1992 hit)?",
+      "a": "Whitney Houston",
+      "angle": "vocal"
+    },
+    {
+      "q": "Who is the Piano Man?",
+      "a": "Billy Joel",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who sang 'Hey Jude'?",
+      "a": "The Beatles",
+      "angle": "chart topper"
+    },
+    {
+      "q": "Who is Bono the lead singer of?",
+      "a": "U2",
+      "angle": "band"
+    },
+    {
+      "q": "What genre is Johnny Cash associated with?",
+      "a": "Country",
+      "angle": "genre"
+    },
+    {
+      "q": "Who sang 'Rolling in the Deep'?",
+      "a": "Adele",
+      "angle": "modern"
+    },
+    {
+      "q": "Who sang 'Single Ladies (Put a Ring on It)'?",
+      "a": "Beyoncé",
+      "angle": "modern"
+    },
+    {
+      "q": "Who is known as the Godfather of Soul?",
+      "a": "James Brown",
+      "angle": "title"
+    },
+    {
+      "q": "Who sang 'Smells Like Teen Spirit'?",
+      "a": "Nirvana",
+      "angle": "grunge"
+    },
+    {
+      "q": "What band features Mick Jagger as lead singer?",
+      "a": "The Rolling Stones",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'Like a Virgin'?",
+      "a": "Madonna",
+      "angle": "pop"
+    },
+    {
+      "q": "Who led The Jackson 5?",
+      "a": "Young Michael Jackson",
+      "angle": "group"
+    },
+    {
+      "q": "Who is known for 'Rocket Man'?",
+      "a": "Elton John",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who is the lead singer of Metallica?",
+      "a": "James Hetfield",
+      "angle": "band"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did Elvis Presley die?",
+      "a": "1977",
+      "angle": "chart topper"
+    },
+    {
+      "q": "What was The Beatles' first US #1?",
+      "a": "\"I Want to Hold Your Hand\" (1964)",
+      "angle": "chart topper"
+    },
+    {
+      "q": "Who wrote 'Bohemian Rhapsody'?",
+      "a": "Freddie Mercury",
+      "angle": "signature song"
+    },
+    {
+      "q": "What is Elvis Presley's middle name?",
+      "a": "Aaron",
+      "angle": "bio"
+    },
+    {
+      "q": "Who is the best-selling female solo artist?",
+      "a": "Madonna (globally)",
+      "angle": "sales"
+    },
+    {
+      "q": "Who played guitar left-handed famously?",
+      "a": "Jimi Hendrix",
+      "angle": "guitar"
+    },
+    {
+      "q": "What decade birthed rock and roll?",
+      "a": "1950s",
+      "angle": "era"
+    },
+    {
+      "q": "Who sang 'What's Going On'?",
+      "a": "Marvin Gaye",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who is known as Ziggy Stardust?",
+      "a": "David Bowie alter ego",
+      "angle": "persona"
+    },
+    {
+      "q": "Who formed Wings after The Beatles?",
+      "a": "Paul McCartney",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'Superstition'?",
+      "a": "Stevie Wonder",
+      "angle": "signature song"
+    },
+    {
+      "q": "What year did Michael Jackson release 'Thriller'?",
+      "a": "1982",
+      "angle": "album"
+    },
+    {
+      "q": "Who produced 'Thriller' with MJ?",
+      "a": "Quincy Jones",
+      "angle": "producer"
+    },
+    {
+      "q": "Who sang 'Born in the U.S.A.'?",
+      "a": "Bruce Springsteen",
+      "angle": "song"
+    },
+    {
+      "q": "Who sang 'Like a Prayer'?",
+      "a": "Madonna",
+      "angle": "song"
+    },
+    {
+      "q": "Who is AC/DC's lead guitarist known for the schoolboy outfit?",
+      "a": "Angus Young",
+      "angle": "stage"
+    },
+    {
+      "q": "Who sang 'Respect' originally?",
+      "a": "Otis Redding (Aretha Franklin made it iconic)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the frontman of Aerosmith?",
+      "a": "Steven Tyler",
+      "angle": "band"
+    },
+    {
+      "q": "What band is Axl Rose from?",
+      "a": "Guns N' Roses",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'Purple Haze'?",
+      "a": "Jimi Hendrix",
+      "angle": "song"
+    },
+    {
+      "q": "What year was Woodstock held?",
+      "a": "1969",
+      "angle": "festival"
+    },
+    {
+      "q": "Who sang 'Boogie Wonderland'?",
+      "a": "Earth, Wind & Fire with The Emotions",
+      "angle": "song"
+    },
+    {
+      "q": "Who is known for the album '21'?",
+      "a": "Adele",
+      "angle": "album"
+    },
+    {
+      "q": "Which Beatle was known as the 'Quiet Beatle'?",
+      "a": "George Harrison",
+      "angle": "bio"
+    },
+    {
+      "q": "Who sang 'Piano Man'?",
+      "a": "Billy Joel",
+      "angle": "song"
+    },
+    {
+      "q": "Which group recorded 'Stayin' Alive'?",
+      "a": "Bee Gees",
+      "angle": "song"
+    },
+    {
+      "q": "Who wrote 'Hallelujah'?",
+      "a": "Leonard Cohen",
+      "angle": "song"
+    },
+    {
+      "q": "What band was Kurt Cobain in?",
+      "a": "Nirvana",
+      "angle": "band"
+    },
+    {
+      "q": "Who is known for 'The Wall' album?",
+      "a": "Pink Floyd",
+      "angle": "album"
+    },
+    {
+      "q": "Who sang 'My Heart Will Go On'?",
+      "a": "Céline Dion",
+      "angle": "song"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was David Bowie's birth name?",
+      "a": "David Robert Jones",
+      "angle": "bio"
+    },
+    {
+      "q": "How many Grammys did Michael Jackson win in 1984?",
+      "a": "Eight (for Thriller era)",
+      "angle": "awards"
+    },
+    {
+      "q": "What album is the all-time bestseller?",
+      "a": "Thriller by Michael Jackson",
+      "angle": "sales"
+    },
+    {
+      "q": "Who was the first woman inducted into the Rock Hall?",
+      "a": "Aretha Franklin (1987)",
+      "angle": "hall of fame"
+    },
+    {
+      "q": "What guitar did B.B. King name 'Lucille'?",
+      "a": "Gibson ES-355",
+      "angle": "gear"
+    },
+    {
+      "q": "Who wrote 'Stairway to Heaven'?",
+      "a": "Jimmy Page and Robert Plant",
+      "angle": "writing"
+    },
+    {
+      "q": "What was Prince's unpronounceable symbol called?",
+      "a": "The Love Symbol",
+      "angle": "persona"
+    },
+    {
+      "q": "What year did MTV launch?",
+      "a": "1981",
+      "angle": "history"
+    },
+    {
+      "q": "Who played the 'Beat It' guitar solo?",
+      "a": "Eddie Van Halen",
+      "angle": "collab"
+    },
+    {
+      "q": "What was The Beatles' first US number one?",
+      "a": "\"I Want to Hold Your Hand\"",
+      "angle": "chart"
+    },
+    {
+      "q": "Who performed the legendary Live Aid set at Wembley?",
+      "a": "Queen (1985)",
+      "angle": "live"
+    },
+    {
+      "q": "Who produced 'Born to Run' with Springsteen?",
+      "a": "Bruce Springsteen, Mike Appel, Jon Landau",
+      "angle": "production"
+    },
+    {
+      "q": "What year did Jimi Hendrix die?",
+      "a": "1970",
+      "angle": "bio"
+    },
+    {
+      "q": "Who wrote 'Like a Rolling Stone'?",
+      "a": "Bob Dylan",
+      "angle": "songwriting"
+    },
+    {
+      "q": "What album is nicknamed 'The Black Album'?",
+      "a": "Metallica's 1991 self-titled",
+      "angle": "album"
+    },
+    {
+      "q": "What singer is known as 'Ol' Blue Eyes'?",
+      "a": "Frank Sinatra",
+      "angle": "nickname"
+    },
+    {
+      "q": "Who was the primary lyricist for Led Zeppelin?",
+      "a": "Robert Plant",
+      "angle": "writing"
+    },
+    {
+      "q": "What band did David Gilmour join in 1967-68?",
+      "a": "Pink Floyd",
+      "angle": "band"
+    },
+    {
+      "q": "What Miles Davis album birthed jazz fusion?",
+      "a": "\"Bitches Brew\" (1970)",
+      "angle": "jazz"
+    },
+    {
+      "q": "Who composed 'Rhapsody in Blue'?",
+      "a": "George Gershwin",
+      "angle": "composer"
+    },
+    {
+      "q": "What singer holds the highest certified RIAA album in US?",
+      "a": "Eagles, Their Greatest Hits 1971–1975 (US sales)",
+      "angle": "certification"
+    },
+    {
+      "q": "Who is the best-selling band in history?",
+      "a": "The Beatles",
+      "angle": "records"
+    },
+    {
+      "q": "Who wrote 'Hurt' originally?",
+      "a": "Trent Reznor (Nine Inch Nails)",
+      "angle": "songwriting"
+    },
+    {
+      "q": "Which singer is known as the 'Queen of Disco'?",
+      "a": "Donna Summer",
+      "angle": "title"
+    },
+    {
+      "q": "Who was Motown's founder?",
+      "a": "Berry Gordy",
+      "angle": "industry"
+    },
+    {
+      "q": "What guitar model is associated with Slash?",
+      "a": "Gibson Les Paul",
+      "angle": "gear"
+    },
+    {
+      "q": "Who sang 'Rehab'?",
+      "a": "Amy Winehouse",
+      "angle": "song"
+    },
+    {
+      "q": "Who wrote and sang 'Redemption Song'?",
+      "a": "Bob Marley",
+      "angle": "songwriting"
+    },
+    {
+      "q": "What band did Phil Collins drum and sing for?",
+      "a": "Genesis",
+      "angle": "band"
+    },
+    {
+      "q": "Who is credited with creating the 'Wall of Sound'?",
+      "a": "Phil Spector",
+      "angle": "production"
+    }
+  ]
+}

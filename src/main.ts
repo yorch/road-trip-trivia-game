@@ -92,16 +92,6 @@ async function init(): Promise<void> {
     }
   });
 
-  // Load curated questions first (async)
-  const curatedLoaded = await loadCuratedQuestions();
-
-  // Notify user if curated questions failed to load
-  if (!curatedLoaded) {
-    ErrorHandler.info(
-      'Curated questions unavailable - using generated questions only',
-    );
-  }
-
   // Comprehensive validation: ensure all required data.js dependencies loaded correctly
   const requiredData = [
     { name: 'topicList', data: topicList, type: 'array' },
@@ -151,6 +141,16 @@ async function init(): Promise<void> {
   window.promptTemplates = promptTemplates;
   window.answerTemplates = answerTemplates;
   window.answerExamples = answerExamples;
+
+  // Load curated questions after window.topicList is available
+  const curatedLoaded = await loadCuratedQuestions();
+
+  // Notify user if curated questions failed to load
+  if (!curatedLoaded) {
+    ErrorHandler.info(
+      'Curated questions unavailable - using generated questions only',
+    );
+  }
 
   // Load saved preferences from localStorage
   Object.assign(state, {

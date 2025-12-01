@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "Who wrote The Lord of the Rings?",
+      "a": "J.R.R. Tolkien",
+      "angle": "author"
+    },
+    {
+      "q": "What is the name of the ring to be destroyed?",
+      "a": "The One Ring",
+      "angle": "artifact"
+    },
+    {
+      "q": "Who is Frodo's loyal gardener?",
+      "a": "Samwise Gamgee",
+      "angle": "fellowship"
+    },
+    {
+      "q": "What order are Gandalf and Saruman part of?",
+      "a": "The Istari (wizards)",
+      "angle": "lore"
+    },
+    {
+      "q": "Where must the Ring be destroyed?",
+      "a": "Mount Doom in Mordor",
+      "angle": "quest"
+    },
+    {
+      "q": "What type of being is Gimli?",
+      "a": "A Dwarf",
+      "angle": "fellowship"
+    },
+    {
+      "q": "What type of being is Legolas?",
+      "a": "An Elf",
+      "angle": "fellowship"
+    },
+    {
+      "q": "Who is heir to Gondor's throne?",
+      "a": "Aragorn (Isildur's heir)",
+      "angle": "royalty"
+    },
+    {
+      "q": "What creature was Gollum originally?",
+      "a": "A Stoor hobbit named Sméagol",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Frodo's surname?",
+      "a": "Baggins",
+      "angle": "hobbit"
+    },
+    {
+      "q": "Where do hobbits live?",
+      "a": "The Shire",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the Dark Lord?",
+      "a": "Sauron",
+      "angle": "villain"
+    },
+    {
+      "q": "What color are Gandalf the Grey's robes?",
+      "a": "Grey",
+      "angle": "iconic"
+    },
+    {
+      "q": "What are the walking tree-herds called?",
+      "a": "Ents",
+      "angle": "creature"
+    },
+    {
+      "q": "Who is Bilbo to Frodo?",
+      "a": "His cousin (called uncle informally)",
+      "angle": "family"
+    },
+    {
+      "q": "What does Gollum call 'my precious'?",
+      "a": "The One Ring",
+      "angle": "obsession"
+    },
+    {
+      "q": "How many meals do hobbits love each day?",
+      "a": "At least six (breakfast, second breakfast, elevenses, lunch, tea, supper)",
+      "angle": "culture"
+    },
+    {
+      "q": "What race is Aragorn?",
+      "a": "A Man (Dúnedain ranger)",
+      "angle": "lineage"
+    },
+    {
+      "q": "Who becomes Gandalf the White?",
+      "a": "Gandalf after returning from Moria",
+      "angle": "rebirth"
+    },
+    {
+      "q": "Who are the nine undead servants of Sauron?",
+      "a": "Nazgûl / Ringwraiths",
+      "angle": "villain"
+    },
+    {
+      "q": "What pony carries the hobbits out of the Shire?",
+      "a": "Bill the Pony",
+      "angle": "ally"
+    },
+    {
+      "q": "Who rules Rohan during Saruman's influence?",
+      "a": "King Théoden (under Wormtongue's sway)",
+      "angle": "kingdom"
+    },
+    {
+      "q": "What is the name of Aragorn's ranger alias?",
+      "a": "Strider",
+      "angle": "identity"
+    },
+    {
+      "q": "Who is the steward ruling Gondor at the War's start?",
+      "a": "Denethor II",
+      "angle": "leadership"
+    },
+    {
+      "q": "What bird aids Gandalf as a rescuer?",
+      "a": "The Great Eagles (led by Gwaihir)",
+      "angle": "ally"
+    },
+    {
+      "q": "Who is the Lady of Lórien?",
+      "a": "Galadriel",
+      "angle": "elves"
+    },
+    {
+      "q": "What creature does Frodo ride briefly in the Shire?",
+      "a": "A pony",
+      "angle": "travel"
+    },
+    {
+      "q": "Who is Sam's love interest back home?",
+      "a": "Rosie Cotton",
+      "angle": "home"
+    },
+    {
+      "q": "What city is called the White City?",
+      "a": "Minas Tirith",
+      "angle": "setting"
+    },
+    {
+      "q": "Who forges the Fellowship?",
+      "a": "Elrond at Rivendell",
+      "angle": "council"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is Gandalf's horse called?",
+      "a": "Shadowfax",
+      "angle": "ally"
+    },
+    {
+      "q": "What is the Black Speech inscription opening line?",
+      "a": "\"Ash nazg durbatulûk\" (One Ring to rule them all)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who leads the Nazgûl?",
+      "a": "The Witch-king of Angmar",
+      "angle": "villain"
+    },
+    {
+      "q": "What is Aragorn's reforged sword named?",
+      "a": "Andúril (from Narsil)",
+      "angle": "weapon"
+    },
+    {
+      "q": "What forest do the Ents guard?",
+      "a": "Fangorn Forest",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the volcano of the Ring called by Elves?",
+      "a": "Orodruin (Mount Doom)",
+      "angle": "lore"
+    },
+    {
+      "q": "How many Rings of Power went to Men?",
+      "a": "Nine",
+      "angle": "rings"
+    },
+    {
+      "q": "How many Rings of Power went to Dwarves?",
+      "a": "Seven",
+      "angle": "rings"
+    },
+    {
+      "q": "How many Rings of Power went to Elves?",
+      "a": "Three",
+      "angle": "rings"
+    },
+    {
+      "q": "Who kills the Witch-king?",
+      "a": "Éowyn with Merry's help",
+      "angle": "battle"
+    },
+    {
+      "q": "Who are Merry and Pippin?",
+      "a": "Meriadoc Brandybuck and Peregrin Took, hobbits",
+      "angle": "fellowship"
+    },
+    {
+      "q": "What inn does the hobbits meet Strider in?",
+      "a": "The Prancing Pony at Bree",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Arwen Undómiel?",
+      "a": "Elven princess, Aragorn's love, daughter of Elrond",
+      "angle": "elves"
+    },
+    {
+      "q": "Who is Boromir's brother?",
+      "a": "Faramir",
+      "angle": "family"
+    },
+    {
+      "q": "What creature confronts Gandalf in Moria?",
+      "a": "The Balrog of Morgoth",
+      "angle": "creature"
+    },
+    {
+      "q": "Who plays Gandalf in the film trilogy?",
+      "a": "Ian McKellen",
+      "angle": "casting"
+    },
+    {
+      "q": "What is Legolas's primary weapon?",
+      "a": "Bow and arrows",
+      "angle": "skills"
+    },
+    {
+      "q": "What is Gimli's primary weapon?",
+      "a": "An axe",
+      "angle": "skills"
+    },
+    {
+      "q": "What river borders Lothlórien?",
+      "a": "The River Anduin (and the Nimrodel nearby)",
+      "angle": "setting"
+    },
+    {
+      "q": "What gift does Galadriel give Frodo?",
+      "a": "The Phial of Galadriel (light of Eärendil)",
+      "angle": "gift"
+    },
+    {
+      "q": "What path do Aragorn, Legolas, and Gimli take to seek help from the dead?",
+      "a": "The Paths of the Dead",
+      "angle": "quest"
+    },
+    {
+      "q": "What is Théoden's hall called?",
+      "a": "Meduseld",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Saruman's spy in Rohan?",
+      "a": "Gríma Wormtongue",
+      "angle": "villain"
+    },
+    {
+      "q": "What city in ruin do Frodo and Sam pass in Mordor?",
+      "a": "Minas Morgul",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the name of Elrond's refuge?",
+      "a": "Rivendell (Imladris)",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the Elvish waybread called?",
+      "a": "Lembas",
+      "angle": "lore"
+    },
+    {
+      "q": "What creature saves Frodo and Sam from Mordor after the Ring's destruction?",
+      "a": "The Great Eagles",
+      "angle": "rescue"
+    },
+    {
+      "q": "Who is Treebeard?",
+      "a": "An Ent shepherd of Fangorn",
+      "angle": "creature"
+    },
+    {
+      "q": "What is the palantír?",
+      "a": "A seeing-stone for communication and vision",
+      "angle": "artifact"
+    },
+    {
+      "q": "Who commands the Dead Men of Dunharrow?",
+      "a": "Aragorn (as Isildur's heir)",
+      "angle": "battle"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was Gandalf's original name in Valinor?",
+      "a": "Olórin",
+      "angle": "lore"
+    },
+    {
+      "q": "How many members are in the Fellowship?",
+      "a": "Nine",
+      "angle": "fellowship"
+    },
+    {
+      "q": "What is Gollum's original name?",
+      "a": "Sméagol",
+      "angle": "identity"
+    },
+    {
+      "q": "When was The Fellowship of the Ring published?",
+      "a": "1954",
+      "angle": "publication"
+    },
+    {
+      "q": "What prophecy concerns the Witch-king?",
+      "a": "\"No living man may hinder me\" (no man can kill him)",
+      "angle": "prophecy"
+    },
+    {
+      "q": "Who is Tom Bombadil?",
+      "a": "An enigmatic spirit/master of the Old Forest",
+      "angle": "mystery"
+    },
+    {
+      "q": "What is Frodo's Elvish blade called?",
+      "a": "Sting",
+      "angle": "artifact"
+    },
+    {
+      "q": "What is Saruman's tower named?",
+      "a": "Orthanc",
+      "angle": "setting"
+    },
+    {
+      "q": "Who carries Frodo up Mount Doom?",
+      "a": "Samwise Gamgee",
+      "angle": "heroism"
+    },
+    {
+      "q": "Recite the One Ring inscription (English).",
+      "a": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Elrond Half-elven's brother?",
+      "a": "Elros (first king of Númenor)",
+      "angle": "lineage"
+    },
+    {
+      "q": "Name the three Elven Rings.",
+      "a": "Vilya, Nenya, Narya",
+      "angle": "rings"
+    },
+    {
+      "q": "Who directed the LOTR film trilogy?",
+      "a": "Peter Jackson",
+      "angle": "production"
+    },
+    {
+      "q": "What does 'Gandalf' mean?",
+      "a": "Elf of the Wand (from Norse etymology)",
+      "angle": "name"
+    },
+    {
+      "q": "What are the Two Trees of Valinor called?",
+      "a": "Telperion and Laurelin",
+      "angle": "legendarium"
+    },
+    {
+      "q": "Who is the father of Boromir and Faramir?",
+      "a": "Denethor II",
+      "angle": "family"
+    },
+    {
+      "q": "What is the secret pass into Mordor used by Frodo and Sam?",
+      "a": "Cirith Ungol (with Shelob's tunnel)",
+      "angle": "route"
+    },
+    {
+      "q": "What river do the Argonath statues overlook?",
+      "a": "The River Anduin",
+      "angle": "geography"
+    },
+    {
+      "q": "Who reforged Narsil into Andúril?",
+      "a": "The Elves of Rivendell (Elrond's smiths)",
+      "angle": "craft"
+    },
+    {
+      "q": "What is the name of the first Dark Lord before Sauron?",
+      "a": "Morgoth (Melkor)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is Glorfindel?",
+      "a": "An Elf-lord of Rivendell who helps Frodo; same name as First Age hero",
+      "angle": "ally"
+    },
+    {
+      "q": "What is the palantír that Pippin touches?",
+      "a": "The Orthanc-stone",
+      "angle": "artifact"
+    },
+    {
+      "q": "Who is the King of the Dead under the Dwimorberg?",
+      "a": "The King of the Oathbreakers (unnamed, swore to Isildur)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Shelob?",
+      "a": "A giant spider, last child of Ungoliant",
+      "angle": "creature"
+    },
+    {
+      "q": "What is Galadriel's Ring called?",
+      "a": "Nenya, the Ring of Water",
+      "angle": "rings"
+    },
+    {
+      "q": "What ship carries Frodo to the Undying Lands?",
+      "a": "A Grey Ship from the Grey Havens",
+      "angle": "ending"
+    },
+    {
+      "q": "What year did the first LOTR film release?",
+      "a": "2001",
+      "angle": "film"
+    },
+    {
+      "q": "What is the name of Sauron's great wolf that Huan slew?",
+      "a": "Carcharoth (in the Silmarillion)",
+      "angle": "deep lore"
+    },
+    {
+      "q": "Who was the steward when the White Tree first withered?",
+      "a": "Steward Mardil Voronwë (after King Eärnur)",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Elvish word for 'friend' that opens Moria?",
+      "a": "Mellon",
+      "angle": "language"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "easy": [
+    {
+      "q": "How many players are on a basketball team on the court?",
+      "a": "5 players",
+      "angle": "rule"
+    },
+    {
+      "q": "What is it called when you score in basketball?",
+      "a": "A basket / field goal",
+      "angle": "championship"
+    },
+    {
+      "q": "Who is considered the greatest basketball player?",
+      "a": "Michael Jordan (commonly)",
+      "angle": "legends"
+    },
+    {
+      "q": "How many points is a free throw worth?",
+      "a": "1 point",
+      "angle": "rule"
+    },
+    {
+      "q": "What does NBA stand for?",
+      "a": "National Basketball Association",
+      "angle": "dynasties"
+    },
+    {
+      "q": "How many quarters are in an NBA game?",
+      "a": "4 quarters",
+      "angle": "rule"
+    },
+    {
+      "q": "What team did Michael Jordan play for?",
+      "a": "Chicago Bulls (mostly)",
+      "angle": "dynasties"
+    },
+    {
+      "q": "What is a slam dunk?",
+      "a": "Jumping and forcefully putting ball through hoop",
+      "angle": "dunks"
+    },
+    {
+      "q": "What position did Shaquille O'Neal play?",
+      "a": "Center",
+      "angle": "point guards"
+    },
+    {
+      "q": "How many points is a shot from behind the arc?",
+      "a": "3 points",
+      "angle": "rule"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who holds the record for most points in a single game?",
+      "a": "Wilt Chamberlain (100 points)",
+      "angle": "record"
+    },
+    {
+      "q": "What year was the NBA founded?",
+      "a": "1946",
+      "angle": "dynasties"
+    },
+    {
+      "q": "Which team has won the most championships?",
+      "a": "Boston Celtics (17 titles)",
+      "angle": "dynasties"
+    },
+    {
+      "q": "What is a triple-double?",
+      "a": "Double digits in three statistical categories",
+      "angle": "record"
+    },
+    {
+      "q": "Who is the NBA's all-time leading scorer?",
+      "a": "LeBron James (passed Kareem Abdul-Jabbar)",
+      "angle": "legends"
+    },
+    {
+      "q": "What does traveling mean?",
+      "a": "Moving without dribbling the ball",
+      "angle": "rule"
+    },
+    {
+      "q": "What position did Magic Johnson play?",
+      "a": "Point guard",
+      "angle": "point guards"
+    },
+    {
+      "q": "How long is an NBA shot clock?",
+      "a": "24 seconds",
+      "angle": "rule"
+    },
+    {
+      "q": "Who is known as 'The King'?",
+      "a": "LeBron James",
+      "angle": "legends"
+    },
+    {
+      "q": "What team is in Los Angeles with purple and gold?",
+      "a": "Los Angeles Lakers",
+      "angle": "dynasties"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Who has the most assists in NBA history?",
+      "a": "John Stockton",
+      "angle": "record"
+    },
+    {
+      "q": "What is the vertical distance from floor to rim?",
+      "a": "10 feet",
+      "angle": "rule"
+    },
+    {
+      "q": "Who won the first NBA championship?",
+      "a": "Philadelphia Warriors (1947)",
+      "angle": "dynasties"
+    },
+    {
+      "q": "What is the 'Shaq Rule'?",
+      "a": "Zone defense change allowing hand-checking",
+      "angle": "legends"
+    },
+    {
+      "q": "Who has the most career rebounds?",
+      "a": "Wilt Chamberlain",
+      "angle": "record"
+    },
+    {
+      "q": "What year did the 3-point line debut in NBA?",
+      "a": "1979-80 season",
+      "angle": "rule"
+    },
+    {
+      "q": "Who was the shortest player to win a dunk contest?",
+      "a": "Spud Webb (5'6\")",
+      "angle": "dunks"
+    },
+    {
+      "q": "What is a clear path foul?",
+      "a": "Defensive foul with no defender between offensive player and basket",
+      "angle": "rule"
+    },
+    {
+      "q": "Who scored 13 points in 35 seconds?",
+      "a": "Tracy McGrady",
+      "angle": "record"
+    },
+    {
+      "q": "What team had the best regular season record?",
+      "a": "2015-16 Golden State Warriors (73-9)",
+      "angle": "dynasties"
+    }
+  ]
+}

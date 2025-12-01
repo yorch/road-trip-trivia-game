@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What is Iron Man's real name?",
+      "a": "Tony Stark",
+      "angle": "origin"
+    },
+    {
+      "q": "What is Captain America's shield made of?",
+      "a": "Vibranium",
+      "angle": "gear"
+    },
+    {
+      "q": "Who is the God of Thunder?",
+      "a": "Thor",
+      "angle": "Avengers"
+    },
+    {
+      "q": "What color is the Hulk?",
+      "a": "Green",
+      "angle": "Avengers"
+    },
+    {
+      "q": "What is Spider-Man's real name?",
+      "a": "Peter Parker",
+      "angle": "origin"
+    },
+    {
+      "q": "Who snaps the Infinity Gauntlet in Endgame?",
+      "a": "Tony Stark",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "What is Black Widow's real name?",
+      "a": "Natasha Romanoff",
+      "angle": "Avengers"
+    },
+    {
+      "q": "Which Avenger uses a bow and arrow?",
+      "a": "Hawkeye (Clint Barton)",
+      "angle": "Avengers"
+    },
+    {
+      "q": "What realm is Thor from?",
+      "a": "Asgard",
+      "angle": "mythic"
+    },
+    {
+      "q": "Who is Tony Stark's AI butler?",
+      "a": "J.A.R.V.I.S.",
+      "angle": "tech"
+    },
+    {
+      "q": "Who is the purple Infinity Stone collector?",
+      "a": "Thanos",
+      "angle": "villain"
+    },
+    {
+      "q": "Who says 'I am Iron Man' first?",
+      "a": "Tony Stark in 2008 Iron Man",
+      "angle": "quote"
+    },
+    {
+      "q": "Who wears a black cat suit and claws?",
+      "a": "Black Panther (T'Challa)",
+      "angle": "hero"
+    },
+    {
+      "q": "Who shrinks and rides ants?",
+      "a": "Ant-Man (Scott Lang)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who guards the Sanctum Sanctorum?",
+      "a": "Doctor Strange",
+      "angle": "magic"
+    },
+    {
+      "q": "What is Thor's hammer called?",
+      "a": "Mjolnir",
+      "angle": "gear"
+    },
+    {
+      "q": "Who leads the Guardians of the Galaxy?",
+      "a": "Peter Quill / Star-Lord",
+      "angle": "team"
+    },
+    {
+      "q": "What metal arm hero fights alongside Cap?",
+      "a": "The Winter Soldier (Bucky Barnes)",
+      "angle": "Avengers"
+    },
+    {
+      "q": "Who wears a red-and-gold suit with an arc reactor?",
+      "a": "Iron Man",
+      "angle": "iconic"
+    },
+    {
+      "q": "What insect is in the title of a flying winged hero?",
+      "a": "The Wasp",
+      "angle": "team"
+    },
+    {
+      "q": "Who is the Sorcerer Supreme by title?",
+      "a": "Doctor Strange",
+      "angle": "magic"
+    },
+    {
+      "q": "Which Avenger can shrink and grow giant?",
+      "a": "Ant-Man",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is Gamora's adoptive father?",
+      "a": "Thanos",
+      "angle": "villain"
+    },
+    {
+      "q": "What does SHIELD stand for?",
+      "a": "Strategic Homeland Intervention, Enforcement and Logistics Division",
+      "angle": "org"
+    },
+    {
+      "q": "Who is Captain America before the serum?",
+      "a": "Steve Rogers",
+      "angle": "origin"
+    },
+    {
+      "q": "What does Hulk say when angry?",
+      "a": "\"Hulk smash!\"",
+      "angle": "quote"
+    },
+    {
+      "q": "Who is the Wakandan princess and tech genius?",
+      "a": "Shuri",
+      "angle": "hero"
+    },
+    {
+      "q": "What does the Bifrost do?",
+      "a": "Transports between realms",
+      "angle": "mythic"
+    },
+    {
+      "q": "Who is the red-skinned villain guarding the Soul Stone?",
+      "a": "Red Skull on Vormir",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "What AI becomes Vision?",
+      "a": "J.A.R.V.I.S.",
+      "angle": "tech"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who is the villain in the first Avengers movie?",
+      "a": "Loki",
+      "angle": "villain"
+    },
+    {
+      "q": "What are the six Infinity Stones?",
+      "a": "Space, Mind, Reality, Power, Time, Soul",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "Who plays Tony Stark in the MCU?",
+      "a": "Robert Downey Jr.",
+      "angle": "casting"
+    },
+    {
+      "q": "What is the name of Black Panther's nation?",
+      "a": "Wakanda",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is Peter Quill's celestial father?",
+      "a": "Ego the Living Planet",
+      "angle": "Guardians"
+    },
+    {
+      "q": "What is Doctor Strange's first name?",
+      "a": "Stephen",
+      "angle": "magic"
+    },
+    {
+      "q": "Which Avenger is a master spy and assassin?",
+      "a": "Black Widow (Natasha Romanoff)",
+      "angle": "skills"
+    },
+    {
+      "q": "What year did Iron Man release?",
+      "a": "2008",
+      "angle": "MCU start"
+    },
+    {
+      "q": "Who leads S.H.I.E.L.D. at the start?",
+      "a": "Nick Fury",
+      "angle": "org"
+    },
+    {
+      "q": "What is Captain America's real name?",
+      "a": "Steve Rogers",
+      "angle": "origin"
+    },
+    {
+      "q": "Who is Thor's adopted brother?",
+      "a": "Loki",
+      "angle": "family"
+    },
+    {
+      "q": "What stone is in Vision's forehead?",
+      "a": "The Mind Stone",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "Who is the talking raccoon with Groot?",
+      "a": "Rocket",
+      "angle": "Guardians"
+    },
+    {
+      "q": "What planet is Thanos from?",
+      "a": "Titan",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the Winter Soldier?",
+      "a": "Bucky Barnes",
+      "angle": "twist"
+    },
+    {
+      "q": "What is Spider-Man's academic team called?",
+      "a": "The Midtown School decathlon team",
+      "angle": "supporting"
+    },
+    {
+      "q": "What is the Wakandan metal besides Vibranium called?",
+      "a": "There is only Vibranium; no second metal canonically",
+      "angle": "trick"
+    },
+    {
+      "q": "Who directs Avengers: Infinity War?",
+      "a": "Anthony and Joe Russo",
+      "angle": "production"
+    },
+    {
+      "q": "What color is the Time Stone?",
+      "a": "Green",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "Who is Captain Marvel's Air Force call sign?",
+      "a": "\"Avenger\" (Carol Danvers)",
+      "angle": "origin"
+    },
+    {
+      "q": "What city does Doctor Strange protect?",
+      "a": "New York Sanctum (among three)",
+      "angle": "magic"
+    },
+    {
+      "q": "Who replaces Jarvis as Stark's AI in Age of Ultron?",
+      "a": "FRIDAY",
+      "angle": "tech"
+    },
+    {
+      "q": "What does SHIELD call its helicarrier camo tech?",
+      "a": "Project Insight cloaking panels",
+      "angle": "tech"
+    },
+    {
+      "q": "Who is the older Maximoff twin?",
+      "a": "Pietro Maximoff",
+      "angle": "family"
+    },
+    {
+      "q": "Where is Peter Parker's neighborhood?",
+      "a": "Queens, New York",
+      "angle": "setting"
+    },
+    {
+      "q": "What does Mjolnir's inscription promise?",
+      "a": "Whosoever holds this hammer, if worthy, shall possess the power of Thor",
+      "angle": "lore"
+    },
+    {
+      "q": "Who created Ultron in the MCU?",
+      "a": "Tony Stark and Bruce Banner (with the Mind Stone)",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the Sorcerer Supreme after Endgame?",
+      "a": "Technically Wong (per No Way Home)",
+      "angle": "status"
+    },
+    {
+      "q": "What is Valkyrie's first name?",
+      "a": "Brunnhilde (implied in lore)",
+      "angle": "Asgard"
+    },
+    {
+      "q": "Who is the leader of Wakanda's Dora Milaje?",
+      "a": "Okoye",
+      "angle": "team"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the name of Tony Stark's father?",
+      "a": "Howard Stark",
+      "angle": "family"
+    },
+    {
+      "q": "Who created the Infinity Stones in MCU lore?",
+      "a": "They predate the universe; forged by cosmic forces in the Big Bang",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Thanos's home planet?",
+      "a": "Titan",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the name of Thor's axe in Infinity War?",
+      "a": "Stormbreaker",
+      "angle": "gear"
+    },
+    {
+      "q": "Who directed the first two Avengers films?",
+      "a": "Joss Whedon",
+      "angle": "production"
+    },
+    {
+      "q": "What is Scarlet Witch's real name?",
+      "a": "Wanda Maximoff",
+      "angle": "identity"
+    },
+    {
+      "q": "Who is Ant-Man in the MCU?",
+      "a": "Scott Lang (Hank Pym is the original)",
+      "angle": "legacy"
+    },
+    {
+      "q": "Who voices Groot?",
+      "a": "Vin Diesel",
+      "angle": "casting"
+    },
+    {
+      "q": "What is Peter Parker's aunt's name?",
+      "a": "May Parker",
+      "angle": "family"
+    },
+    {
+      "q": "What is Hulk's original alter ego profession?",
+      "a": "Nuclear physicist/biochemist Bruce Banner",
+      "angle": "origin"
+    },
+    {
+      "q": "Who directed Avengers: Endgame?",
+      "a": "Anthony and Joe Russo",
+      "angle": "production"
+    },
+    {
+      "q": "What is Captain Marvel's real name?",
+      "a": "Carol Danvers",
+      "angle": "identity"
+    },
+    {
+      "q": "Who is T'Challa's sister?",
+      "a": "Shuri",
+      "angle": "family"
+    },
+    {
+      "q": "What organization does Hydra infiltrate heavily?",
+      "a": "S.H.I.E.L.D.",
+      "angle": "villain"
+    },
+    {
+      "q": "What is Pepper Potts's armored alias?",
+      "a": "Rescue",
+      "angle": "gear"
+    },
+    {
+      "q": "Who wields the Aether before the Collector?",
+      "a": "Malekith of the Dark Elves",
+      "angle": "villain"
+    },
+    {
+      "q": "Where is the Soul Stone hidden?",
+      "a": "Vormir",
+      "angle": "Infinity Saga"
+    },
+    {
+      "q": "What prison holds enhanced villains in the ocean?",
+      "a": "The Raft",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the first MCU character chronologically with a solo film?",
+      "a": "Captain America (The First Avenger set in WWII)",
+      "angle": "timeline"
+    },
+    {
+      "q": "What is the super-soldier serum creator's name?",
+      "a": "Dr. Abraham Erskine",
+      "angle": "origin"
+    },
+    {
+      "q": "Who plays Kingpin in Daredevil/MCU canon?",
+      "a": "Vincent D'Onofrio",
+      "angle": "casting"
+    },
+    {
+      "q": "Which Avenger lifts Mjolnir briefly in Age of Ultron?",
+      "a": "Captain America budges it (fully lifts in Endgame)",
+      "angle": "moment"
+    },
+    {
+      "q": "What is the Sokovia Accords named after?",
+      "a": "The country Sokovia, destroyed in Age of Ultron",
+      "angle": "law"
+    },
+    {
+      "q": "Who is the main villain in Black Panther?",
+      "a": "Erik Killmonger",
+      "angle": "villain"
+    },
+    {
+      "q": "What metal powers Tony's original arc reactor?",
+      "a": "Palladium (later replaced by a new element)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who created the White Wolf moniker?",
+      "a": "The Wakandans for Bucky Barnes",
+      "angle": "ally"
+    },
+    {
+      "q": "What alien race invades in the Battle of New York?",
+      "a": "The Chitauri",
+      "angle": "battle"
+    },
+    {
+      "q": "Who is the Ancient One's successor as Sorcerer Supreme (comic vs MCU)?",
+      "a": "MCU: Wong by No Way Home; Comics: Doctor Strange",
+      "angle": "title"
+    },
+    {
+      "q": "What is the Red Room?",
+      "a": "Soviet/Russian program that trained Black Widows",
+      "angle": "origin"
+    },
+    {
+      "q": "Which Iron Man suit first has flight stabilizers and repulsor tech?",
+      "a": "Mark II/Mark III",
+      "angle": "tech"
+    }
+  ]
+}

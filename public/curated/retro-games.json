@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What plumber jumps on turtles?",
+      "a": "Mario",
+      "angle": "platformers"
+    },
+    {
+      "q": "What does Pac-Man eat?",
+      "a": "Dots / pellets",
+      "angle": "arcades"
+    },
+    {
+      "q": "What color is Sonic the Hedgehog?",
+      "a": "Blue",
+      "angle": "platformers"
+    },
+    {
+      "q": "What game features falling blocks you must arrange?",
+      "a": "Tetris",
+      "angle": "arcades"
+    },
+    {
+      "q": "Who is Mario's brother?",
+      "a": "Luigi",
+      "angle": "platformers"
+    },
+    {
+      "q": "What do you collect in Sonic games?",
+      "a": "Rings",
+      "angle": "platformers"
+    },
+    {
+      "q": "What does Mario hit to get coins?",
+      "a": "Question blocks",
+      "angle": "platformers"
+    },
+    {
+      "q": "What console was the NES?",
+      "a": "Nintendo Entertainment System",
+      "angle": "8-bit"
+    },
+    {
+      "q": "Who is Link trying to save?",
+      "a": "Princess Zelda",
+      "angle": "platformers"
+    },
+    {
+      "q": "What are the ghosts' names in Pac-Man?",
+      "a": "Blinky, Pinky, Inky, Clyde",
+      "angle": "arcades"
+    },
+    {
+      "q": "What handheld had a green screen?",
+      "a": "Original Game Boy",
+      "angle": "hardware"
+    },
+    {
+      "q": "Who is Sonic's fox sidekick?",
+      "a": "Tails (Miles Prower)",
+      "angle": "platformers"
+    },
+    {
+      "q": "What fruit-shaped power-up gives Pac-Man invincibility?",
+      "a": "Power pellet (not fruit)",
+      "angle": "arcades"
+    },
+    {
+      "q": "What shape are Tetris pieces called?",
+      "a": "Tetrominoes",
+      "angle": "arcades"
+    },
+    {
+      "q": "What power-up lets Mario throw fire?",
+      "a": "Fire Flower",
+      "angle": "power-ups"
+    },
+    {
+      "q": "What dinosaur is Mario's friend?",
+      "a": "Yoshi",
+      "angle": "platformers"
+    },
+    {
+      "q": "What animal is Bub in Bubble Bobble?",
+      "a": "A bubble-blowing dinosaur",
+      "angle": "arcades"
+    },
+    {
+      "q": "What animal is Q*bert?",
+      "a": "An orange, long-nosed creature (unknown species)",
+      "angle": "arcades"
+    },
+    {
+      "q": "What do you collect in Donkey Kong Country?",
+      "a": "Bananas",
+      "angle": "platformers"
+    },
+    {
+      "q": "What console launched with Super Mario World?",
+      "a": "Super Nintendo (SNES)",
+      "angle": "hardware"
+    },
+    {
+      "q": "What racing series has shells and bananas?",
+      "a": "Mario Kart",
+      "angle": "racing"
+    },
+    {
+      "q": "Who is the blue bomber?",
+      "a": "Mega Man",
+      "angle": "platformers"
+    },
+    {
+      "q": "What shoots barrels at Mario?",
+      "a": "Donkey Kong",
+      "angle": "arcades"
+    },
+    {
+      "q": "What do rings grant at 100 in Sonic?",
+      "a": "An extra life",
+      "angle": "platformers"
+    },
+    {
+      "q": "What game has a frog crossing traffic?",
+      "a": "Frogger",
+      "angle": "arcades"
+    },
+    {
+      "q": "Who inhales enemies in Dream Land?",
+      "a": "Kirby",
+      "angle": "platformers"
+    },
+    {
+      "q": "What alien shooter has rows of invaders?",
+      "a": "Space Invaders",
+      "angle": "arcades"
+    },
+    {
+      "q": "What game is Pong about?",
+      "a": "Table-tennis simulation",
+      "angle": "arcades"
+    },
+    {
+      "q": "What is Samus Aran's ship called?",
+      "a": "The Gunship",
+      "angle": "platformers"
+    },
+    {
+      "q": "What company made Sonic?",
+      "a": "Sega",
+      "angle": "platformers"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What was the first home video game console?",
+      "a": "Magnavox Odyssey (1972)",
+      "angle": "history"
+    },
+    {
+      "q": "What code gives you 30 lives in Contra?",
+      "a": "Up, Up, Down, Down, Left, Right, Left, Right, B, A",
+      "angle": "cheat codes"
+    },
+    {
+      "q": "What year did the NES launch in North America?",
+      "a": "1985",
+      "angle": "history"
+    },
+    {
+      "q": "What is Mario's original profession?",
+      "a": "Carpenter (in Donkey Kong)",
+      "angle": "platformers"
+    },
+    {
+      "q": "What game caused the 1983 video game crash?",
+      "a": "E.T. the Extra-Terrestrial (among factors)",
+      "angle": "history"
+    },
+    {
+      "q": "What company created Donkey Kong?",
+      "a": "Nintendo",
+      "angle": "history"
+    },
+    {
+      "q": "What was Sega's first console?",
+      "a": "SG-1000 (1983)",
+      "angle": "hardware"
+    },
+    {
+      "q": "Who is the main villain in Mega Man?",
+      "a": "Dr. Wily",
+      "angle": "platformers"
+    },
+    {
+      "q": "What arcade game features a frog crossing traffic?",
+      "a": "Frogger",
+      "angle": "arcades"
+    },
+    {
+      "q": "What game uses a paddle to break bricks?",
+      "a": "Breakout/Arkanoid",
+      "angle": "arcades"
+    },
+    {
+      "q": "What was Atari's hit table-tennis game?",
+      "a": "Pong",
+      "angle": "arcades"
+    },
+    {
+      "q": "What is the goal in Lemmings?",
+      "a": "Guide lemmings safely to the exit",
+      "angle": "puzzle"
+    },
+    {
+      "q": "What was Nintendo's 16-bit console?",
+      "a": "Super Nintendo (SNES)",
+      "angle": "hardware"
+    },
+    {
+      "q": "What adventure game featured Guybrush Threepwood?",
+      "a": "Monkey Island series",
+      "angle": "adventure"
+    },
+    {
+      "q": "What system did Sonic debut on?",
+      "a": "Sega Genesis / Mega Drive",
+      "angle": "hardware"
+    },
+    {
+      "q": "What year did Space Invaders launch?",
+      "a": "1978",
+      "angle": "arcades"
+    },
+    {
+      "q": "What sequel gave Mario a raccoon tail?",
+      "a": "Super Mario Bros. 3",
+      "angle": "platformers"
+    },
+    {
+      "q": "What NES peripheral was a light gun?",
+      "a": "The NES Zapper",
+      "angle": "hardware"
+    },
+    {
+      "q": "What input is a Hadouken in Street Fighter?",
+      "a": "Quarter-circle forward + punch",
+      "angle": "fighting"
+    },
+    {
+      "q": "What console used HuCards?",
+      "a": "TurboGrafx-16 / PC Engine",
+      "angle": "hardware"
+    },
+    {
+      "q": "What game introduced the Master Sword?",
+      "a": "The Legend of Zelda: A Link to the Past",
+      "angle": "adventure"
+    },
+    {
+      "q": "What handheld rivalry did Sega launch?",
+      "a": "Game Gear",
+      "angle": "hardware"
+    },
+    {
+      "q": "What was the first Mario Kart?",
+      "a": "Super Mario Kart (SNES, 1992)",
+      "angle": "racing"
+    },
+    {
+      "q": "What fighting game fatality culture rose in arcades?",
+      "a": "Mortal Kombat series",
+      "angle": "fighting"
+    },
+    {
+      "q": "What JRPG featured a mute hero Crono?",
+      "a": "Chrono Trigger",
+      "angle": "rpg"
+    },
+    {
+      "q": "What company made the Neo Geo?",
+      "a": "SNK",
+      "angle": "hardware"
+    },
+    {
+      "q": "What 3D platformer debuted analog control on N64?",
+      "a": "Super Mario 64",
+      "angle": "platformers"
+    },
+    {
+      "q": "Who composed Zelda and Mario themes?",
+      "a": "Koji Kondo",
+      "angle": "music"
+    },
+    {
+      "q": "What game popularized first-person 3D shooting in 1992?",
+      "a": "Wolfenstein 3D",
+      "angle": "fps"
+    },
+    {
+      "q": "What game first featured SHODAN?",
+      "a": "System Shock",
+      "angle": "story"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was the Game Boy's screen resolution?",
+      "a": "160 × 144 pixels",
+      "angle": "hardware"
+    },
+    {
+      "q": "What year did the arcade game Pong release?",
+      "a": "1972",
+      "angle": "history"
+    },
+    {
+      "q": "What is the highest score possible in Pac-Man?",
+      "a": "3,333,360 points",
+      "angle": "arcades"
+    },
+    {
+      "q": "Who created Pac-Man?",
+      "a": "Toru Iwatani",
+      "angle": "arcades"
+    },
+    {
+      "q": "What was the first game with a cheat code?",
+      "a": "Gradius (Konami Code, 1986)",
+      "angle": "cheat codes"
+    },
+    {
+      "q": "What does 'IDDQD' do in Doom?",
+      "a": "God mode / invincibility",
+      "angle": "cheat codes"
+    },
+    {
+      "q": "What was Mario's original name?",
+      "a": "Jumpman",
+      "angle": "platformers"
+    },
+    {
+      "q": "How many copies did E.T. for Atari sell?",
+      "a": "About 1.5 million (4 million produced)",
+      "angle": "history"
+    },
+    {
+      "q": "What is the fastest speedrun time for Super Mario Bros.?",
+      "a": "Under 5 minutes (records improve)",
+      "angle": "speedrun"
+    },
+    {
+      "q": "What arcade game had a 'kill screen' at level 256?",
+      "a": "Pac-Man",
+      "angle": "arcades"
+    },
+    {
+      "q": "Who composed the Tetris Game Boy theme?",
+      "a": "Adapted by Hirokazu Tanaka from Korobeiniki",
+      "angle": "music"
+    },
+    {
+      "q": "What company made the TurboGrafx-16?",
+      "a": "NEC with Hudson Soft",
+      "angle": "hardware"
+    },
+    {
+      "q": "What year did the Sega Genesis release in NA?",
+      "a": "1989",
+      "angle": "history"
+    },
+    {
+      "q": "What was the first Metroid game platform?",
+      "a": "NES (1986)",
+      "angle": "platformers"
+    },
+    {
+      "q": "What chip enabled Star Fox on SNES?",
+      "a": "Super FX chip",
+      "angle": "hardware"
+    },
+    {
+      "q": "What arcade cabinet used dual joysticks for tanks?",
+      "a": "Battlezone (Robotron 2084 also dual-stick)",
+      "angle": "arcades"
+    },
+    {
+      "q": "Who co-founded id Software and led Doom tech?",
+      "a": "John Carmack (with Romero et al.)",
+      "angle": "history"
+    },
+    {
+      "q": "What survival horror landmark hit PS1 in 1996?",
+      "a": "Resident Evil",
+      "angle": "genre"
+    },
+    {
+      "q": "What N64 shooter popularized console FPS multiplayer?",
+      "a": "GoldenEye 007",
+      "angle": "fps"
+    },
+    {
+      "q": "What game introduced the \"minus world\" glitch?",
+      "a": "Super Mario Bros.",
+      "angle": "glitch"
+    },
+    {
+      "q": "What RPG used Mode 7 for world map rotation?",
+      "a": "Final Fantasy VI/Chrono Trigger used Mode 7 (SNES)",
+      "angle": "tech"
+    },
+    {
+      "q": "What AI antagonist is in System Shock?",
+      "a": "SHODAN",
+      "angle": "story"
+    },
+    {
+      "q": "When did the Dreamcast launch in North America?",
+      "a": "September 9, 1999 (9/9/99)",
+      "angle": "hardware"
+    },
+    {
+      "q": "What was Atari's founder's name?",
+      "a": "Nolan Bushnell",
+      "angle": "history"
+    },
+    {
+      "q": "What was the first 3D Zelda title?",
+      "a": "Ocarina of Time (1998)",
+      "angle": "adventure"
+    },
+    {
+      "q": "Which PlayStation introduced dual analog sticks first?",
+      "a": "Dual Analog Controller then DualShock (1997-1998)",
+      "angle": "hardware"
+    },
+    {
+      "q": "What game first used the Build engine's 2.5D tech?",
+      "a": "Duke Nukem 3D (also Shadow Warrior)",
+      "angle": "engine"
+    },
+    {
+      "q": "What port introduced the phrase \"All your base are belong to us\"?",
+      "a": "Zero Wing (Genesis/Mega Drive)",
+      "angle": "memes"
+    },
+    {
+      "q": "What series introduced the BFG 9000?",
+      "a": "Doom",
+      "angle": "weapons"
+    },
+    {
+      "q": "What was the cartridge size limit challenge for N64 RPGs?",
+      "a": "Limited MBs forced compression (e.g., 32-64MB)",
+      "angle": "tech"
+    }
+  ]
+}

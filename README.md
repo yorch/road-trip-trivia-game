@@ -55,6 +55,9 @@ yarn build
 
 # Preview production build
 yarn preview
+
+# Update curated questions index
+yarn update-index
 ```
 
 The app will open automatically at `http://localhost:3000`
@@ -86,7 +89,11 @@ road-trip-trivia/
 │   ├── utils.ts               # Utility functions
 │   └── types.ts               # TypeScript type definitions
 ├── public/
-│   ├── curated-questions.json # Hand-written trivia (reloadable)
+│   ├── curated/               # Individual topic question files
+│   │   ├── index.json         # Index of available topics
+│   │   ├── star-wars.json     # Per-topic curated questions (4-12 KB each)
+│   │   ├── marvel.json
+│   │   └── ...                # 21 topic files total
 │   └── icon-*.png             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
@@ -122,18 +129,22 @@ Edit `src/data/data.ts` and add to `topicList`:
 
 #### Curated Questions
 
-Edit `public/curated-questions.json`:
+Edit individual topic files in `public/curated/[topic-id].json`:
 
 ```json
 {
-  "your-topic-id": {
-    "easy": [
-      { "q": "Your question?", "a": "The answer", "angle": "quote" }
-    ],
-    "medium": [...],
-    "hard": [...]
-  }
+  "easy": [
+    { "q": "Your question?", "a": "The answer", "angle": "quote" }
+  ],
+  "medium": [...],
+  "hard": [...]
 }
+```
+
+After adding a new topic file, update the index:
+
+```bash
+yarn update-index
 ```
 
 Users can reload curated questions in the app without redeploying using the "↻ Reload" button.
@@ -167,6 +178,7 @@ These examples are used when generating template-based questions to provide fact
 
 - **Reactive State Management**: Preact Signals for automatic UI updates and persistence
 - **Modular TypeScript**: Organized into state, UI, data, and utility modules with strict types
+- **Modular Data Loading**: Individual 4-12 KB topic files loaded in parallel
 - **Lazy Loading**: Questions generated only when needed
 - **Smart Caching**: Avoids regenerating questions for same topic/difficulty/mode
 - **Deterministic Shuffle**: Consistent question order across sessions using LCG algorithm
@@ -196,7 +208,7 @@ These examples are used when generating template-based questions to provide fact
 
 Contributions welcome! Focus areas:
 
-- **Curated Questions**: Add factual trivia to `public/curated-questions.json`
+- **Curated Questions**: Add factual trivia to `public/curated/[topic-id].json`
 - **New Topics**: Expand the topic list with interesting categories
 - **Answer Examples**: Provide real-world answers for better generated questions
 - **Bug Fixes**: Report and fix issues

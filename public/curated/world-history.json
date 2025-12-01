@@ -1,0 +1,383 @@
+{
+  "easy": [
+    {
+      "q": "What ancient wonder is in Egypt?",
+      "a": "The Pyramids (Great Pyramid of Giza)",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "Who was the first emperor of Rome?",
+      "a": "Augustus Caesar",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What famous wall is often incorrectly said to be visible from space?",
+      "a": "The Great Wall of China",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "Who painted the Mona Lisa?",
+      "a": "Leonardo da Vinci",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What ship sank in 1912?",
+      "a": "The Titanic",
+      "angle": "conflict"
+    },
+    {
+      "q": "What country did Napoleon rule?",
+      "a": "France",
+      "angle": "conflict"
+    },
+    {
+      "q": "What is the oldest religion?",
+      "a": "Hinduism (generally considered)",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "Who discovered America in 1492?",
+      "a": "Christopher Columbus",
+      "angle": "trade route"
+    },
+    {
+      "q": "What event started World War I?",
+      "a": "Assassination of Archduke Franz Ferdinand",
+      "angle": "conflict"
+    },
+    {
+      "q": "What was the deadliest plague in history?",
+      "a": "The Black Death (Bubonic Plague)",
+      "angle": "conflict"
+    },
+    {
+      "q": "What empire built Machu Picchu?",
+      "a": "The Inca Empire",
+      "angle": "empire"
+    },
+    {
+      "q": "What ocean did Zheng He explore?",
+      "a": "Indian Ocean",
+      "angle": "exploration"
+    },
+    {
+      "q": "Who was the Macedonian who conquered Persia?",
+      "a": "Alexander the Great",
+      "angle": "empire"
+    },
+    {
+      "q": "What ancient civilization built ziggurats?",
+      "a": "The Sumerians",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "Who led nonviolent resistance in India?",
+      "a": "Mahatma Gandhi",
+      "angle": "independence"
+    },
+    {
+      "q": "What war ended with the Treaty of Versailles?",
+      "a": "World War I",
+      "angle": "treaty"
+    },
+    {
+      "q": "What was the Renaissance?",
+      "a": "European cultural rebirth (14th-17th century)",
+      "angle": "culture"
+    },
+    {
+      "q": "Who crossed the Rubicon River?",
+      "a": "Julius Caesar",
+      "angle": "empire"
+    },
+    {
+      "q": "What revolution began in 1917 Russia?",
+      "a": "The Russian Revolution",
+      "angle": "revolution"
+    },
+    {
+      "q": "Who was the queen during England's Victorian era?",
+      "a": "Queen Victoria",
+      "angle": "monarch"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did the Roman Empire fall?",
+      "a": "476 AD (Western Roman Empire)",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "Who was the longest-reigning British monarch?",
+      "a": "Queen Elizabeth II",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What route connected Europe and Asia for trade?",
+      "a": "The Silk Road",
+      "angle": "trade route"
+    },
+    {
+      "q": "What year did World War II end?",
+      "a": "1945",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who was the first person to circumnavigate the globe?",
+      "a": "Ferdinand Magellan's expedition (completed by Juan Sebastián Elcano)",
+      "angle": "trade route"
+    },
+    {
+      "q": "What empire did Genghis Khan create?",
+      "a": "The Mongol Empire",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What treaty ended World War I?",
+      "a": "Treaty of Versailles",
+      "angle": "peace accord"
+    },
+    {
+      "q": "What year did the Berlin Wall fall?",
+      "a": "1989",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who wrote 'The Communist Manifesto'?",
+      "a": "Karl Marx and Friedrich Engels",
+      "angle": "conflict"
+    },
+    {
+      "q": "What was the Renaissance?",
+      "a": "A period of cultural rebirth in Europe (14th-17th century)",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What dynasty built much of the Great Wall?",
+      "a": "Ming Dynasty",
+      "angle": "empire"
+    },
+    {
+      "q": "What empire used samurai as warriors?",
+      "a": "Feudal Japan (shogunate era)",
+      "angle": "military"
+    },
+    {
+      "q": "Who was the Sun King of France?",
+      "a": "Louis XIV",
+      "angle": "monarch"
+    },
+    {
+      "q": "What 19th-century conflict was also called the Great War?",
+      "a": "World War I",
+      "angle": "conflict"
+    },
+    {
+      "q": "What empire was ruled from Constantinople?",
+      "a": "The Byzantine Empire",
+      "angle": "empire"
+    },
+    {
+      "q": "What trade moved enslaved Africans to the Americas?",
+      "a": "Transatlantic slave trade",
+      "angle": "trade route"
+    },
+    {
+      "q": "What country colonized large parts of Latin America?",
+      "a": "Spain (and Portugal)",
+      "angle": "empire"
+    },
+    {
+      "q": "Who unified the German states in 1871?",
+      "a": "Otto von Bismarck",
+      "angle": "unification"
+    },
+    {
+      "q": "What was the Cold War primarily between?",
+      "a": "USA and USSR (ideological and geopolitical rivalry)",
+      "angle": "conflict"
+    },
+    {
+      "q": "What event started the French Revolution?",
+      "a": "Storming of the Bastille (1789)",
+      "angle": "revolution"
+    },
+    {
+      "q": "Who was the Mongol leader after Genghis?",
+      "a": "Ögedei Khan (third son)",
+      "angle": "empire"
+    },
+    {
+      "q": "What empire is known for road system in Andes?",
+      "a": "Inca Empire",
+      "angle": "infrastructure"
+    },
+    {
+      "q": "Who led the Protestant Reformation?",
+      "a": "Martin Luther",
+      "angle": "religion"
+    },
+    {
+      "q": "What is the Meiji Restoration?",
+      "a": "Modernization and imperial restoration in Japan (1868)",
+      "angle": "reform"
+    },
+    {
+      "q": "Who was the first emperor of unified China?",
+      "a": "Qin Shi Huang",
+      "angle": "empire"
+    },
+    {
+      "q": "What event started WWII in Europe?",
+      "a": "Germany's invasion of Poland (1939)",
+      "angle": "conflict"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year was the Magna Carta signed?",
+      "a": "1215",
+      "angle": "peace accord"
+    },
+    {
+      "q": "Who was the last Tsar of Russia?",
+      "a": "Nicholas II",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What empire was ruled by Suleiman the Magnificent?",
+      "a": "Ottoman Empire",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What year did the French Revolution begin?",
+      "a": "1789",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who unified Germany in 1871?",
+      "a": "Otto von Bismarck",
+      "angle": "peace accord"
+    },
+    {
+      "q": "What was the Hanseatic League?",
+      "a": "Medieval commercial alliance of merchant guilds",
+      "angle": "trade route"
+    },
+    {
+      "q": "What year did Constantinople fall?",
+      "a": "1453",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who was the first Holy Roman Emperor?",
+      "a": "Charlemagne (800 AD)",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What treaty divided the New World between Spain and Portugal?",
+      "a": "Treaty of Tordesillas (1494)",
+      "angle": "peace accord"
+    },
+    {
+      "q": "What was the Thirty Years' War fought over?",
+      "a": "Religious conflict between Catholics and Protestants",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who led the Haitian Revolution?",
+      "a": "Toussaint Louverture (later Dessalines continued)",
+      "angle": "revolution"
+    },
+    {
+      "q": "What empire controlled the Spice Islands?",
+      "a": "Various: Portuguese then Dutch (Dutch East India Company)",
+      "angle": "trade"
+    },
+    {
+      "q": "What is the Edict of Nantes?",
+      "a": "1598 decree granting rights to French Huguenots",
+      "angle": "law"
+    },
+    {
+      "q": "Who was known as the Iron Chancellor?",
+      "a": "Otto von Bismarck",
+      "angle": "title"
+    },
+    {
+      "q": "What empire did Tamerlane (Timur) found?",
+      "a": "Timurid Empire",
+      "angle": "empire"
+    },
+    {
+      "q": "Which city was sacked by Crusaders in 1204?",
+      "a": "Constantinople (Fourth Crusade)",
+      "angle": "conflict"
+    },
+    {
+      "q": "What event triggered the Taiping Rebellion?",
+      "a": "Hong Xiuquan's movement in Qing China (1850)",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who discovered penicillin?",
+      "a": "Alexander Fleming (1928)",
+      "angle": "science"
+    },
+    {
+      "q": "Which pharaoh fought at the Battle of Kadesh?",
+      "a": "Ramesses II",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What empire used the Cyrillic script initially?",
+      "a": "First Bulgarian Empire (devised by Saints Cyril and Methodius)",
+      "angle": "culture"
+    },
+    {
+      "q": "Who issued the Edict of Milan?",
+      "a": "Emperor Constantine in 313 AD",
+      "angle": "religion"
+    },
+    {
+      "q": "What caused the Opium Wars?",
+      "a": "British opium trade and Qing resistance",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who was Mansa Musa?",
+      "a": "Emperor of Mali known for wealth and pilgrimage",
+      "angle": "empire"
+    },
+    {
+      "q": "What empire was centered at Tenochtitlan?",
+      "a": "Aztec Empire",
+      "angle": "empire"
+    },
+    {
+      "q": "Who led the Bolsheviks in 1917?",
+      "a": "Vladimir Lenin",
+      "angle": "revolution"
+    },
+    {
+      "q": "What battle halted Arab expansion into France?",
+      "a": "Battle of Tours/Poitiers (732)",
+      "angle": "conflict"
+    },
+    {
+      "q": "What was the Boxer Rebellion?",
+      "a": "Anti-foreign/Christian uprising in China (1899-1901)",
+      "angle": "conflict"
+    },
+    {
+      "q": "What empire's law code is known as the Code of Hammurabi?",
+      "a": "Babylonian Empire",
+      "angle": "law"
+    },
+    {
+      "q": "What was the Great Schism of 1054?",
+      "a": "Split between Eastern Orthodox and Roman Catholic Churches",
+      "angle": "religion"
+    }
+  ]
+}

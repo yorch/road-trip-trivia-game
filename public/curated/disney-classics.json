@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What was Disney's first full-length animated film?",
+      "a": "Snow White and the Seven Dwarfs (1937)",
+      "angle": "history"
+    },
+    {
+      "q": "What animal is Mickey Mouse?",
+      "a": "A mouse",
+      "angle": "iconic"
+    },
+    {
+      "q": "Which princess has magical long hair?",
+      "a": "Rapunzel",
+      "angle": "princess"
+    },
+    {
+      "q": "Who is Simba's father?",
+      "a": "Mufasa",
+      "angle": "family"
+    },
+    {
+      "q": "What does Cinderella lose at the ball?",
+      "a": "Her glass slipper",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the name of Aladdin's monkey?",
+      "a": "Abu",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who is the snowman in Frozen?",
+      "a": "Olaf",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What color is Snow White's bow?",
+      "a": "Red",
+      "angle": "iconic"
+    },
+    {
+      "q": "What does Ariel wish to become?",
+      "a": "Human",
+      "angle": "dreams"
+    },
+    {
+      "q": "Who is Belle's inventor father?",
+      "a": "Maurice",
+      "angle": "family"
+    },
+    {
+      "q": "Who is the cowboy toy in Toy Story?",
+      "a": "Woody",
+      "angle": "pixar"
+    },
+    {
+      "q": "Who is Mickey's girlfriend?",
+      "a": "Minnie Mouse",
+      "angle": "classic"
+    },
+    {
+      "q": "Who is the fairy in Peter Pan?",
+      "a": "Tinker Bell",
+      "angle": "magic"
+    },
+    {
+      "q": "What animal is Dumbo?",
+      "a": "An elephant",
+      "angle": "classic"
+    },
+    {
+      "q": "Who sings 'Let It Go'?",
+      "a": "Elsa",
+      "angle": "song"
+    },
+    {
+      "q": "What is the name of Simba's kingdom?",
+      "a": "The Pride Lands",
+      "angle": "setting"
+    },
+    {
+      "q": "What is Pinocchio made of?",
+      "a": "Wood (a wooden puppet)",
+      "angle": "plot"
+    },
+    {
+      "q": "What does the Genie live in?",
+      "a": "A lamp",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the mermaid princess?",
+      "a": "Ariel",
+      "angle": "princess"
+    },
+    {
+      "q": "What object wakes Sleeping Beauty?",
+      "a": "A true love's kiss breaks the spell after a spindle prick",
+      "angle": "plot"
+    },
+    {
+      "q": "Who trains Hercules?",
+      "a": "Phil (Philoctetes)",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who is Mulan's dragon friend?",
+      "a": "Mushu",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What toy is Buzz Lightyear?",
+      "a": "A space ranger action figure",
+      "angle": "pixar"
+    },
+    {
+      "q": "What is Bambi?",
+      "a": "A deer (fawn)",
+      "angle": "classic"
+    },
+    {
+      "q": "What does the Fairy Godmother use?",
+      "a": "A magic wand and 'Bibbidi-Bobbidi-Boo'",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is Pocahontas's raccoon friend?",
+      "a": "Meeko",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What is the name of the Dalmatian parents?",
+      "a": "Pongo and Perdita",
+      "angle": "classic"
+    },
+    {
+      "q": "Which princess has seven dwarf friends?",
+      "a": "Snow White",
+      "angle": "princess"
+    },
+    {
+      "q": "Who is the lion villain in The Lion King?",
+      "a": "Scar",
+      "angle": "villain"
+    },
+    {
+      "q": "What fruit poisons Snow White?",
+      "a": "An apple",
+      "angle": "plot"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did The Lion King release?",
+      "a": "1994",
+      "angle": "release"
+    },
+    {
+      "q": "Who voices Woody in Toy Story?",
+      "a": "Tom Hanks",
+      "angle": "casting"
+    },
+    {
+      "q": "What song does Elsa sing?",
+      "a": "\"Let It Go\"",
+      "angle": "song"
+    },
+    {
+      "q": "What castle is at Disney World (Magic Kingdom)?",
+      "a": "Cinderella Castle",
+      "angle": "park"
+    },
+    {
+      "q": "Who is the villain in Sleeping Beauty?",
+      "a": "Maleficent",
+      "angle": "villain"
+    },
+    {
+      "q": "What does 'Hakuna Matata' mean?",
+      "a": "\"No worries\"",
+      "angle": "song"
+    },
+    {
+      "q": "What is Andy's neighbor boy's name in Toy Story?",
+      "a": "Sid Phillips",
+      "angle": "character"
+    },
+    {
+      "q": "How many dwarfs accompany Snow White?",
+      "a": "Seven",
+      "angle": "classic"
+    },
+    {
+      "q": "What is Moana's rooster called?",
+      "a": "Heihei",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who voiced Genie in 1992's Aladdin?",
+      "a": "Robin Williams",
+      "angle": "casting"
+    },
+    {
+      "q": "What instrument does Sebastian play?",
+      "a": "Conducts and plays in Under the Sea (crab conductor)",
+      "angle": "music"
+    },
+    {
+      "q": "Where is Belle's province set?",
+      "a": "A small French village",
+      "angle": "setting"
+    },
+    {
+      "q": "Who wrote the music for The Little Mermaid (songs)?",
+      "a": "Alan Menken with lyrics by Howard Ashman",
+      "angle": "music"
+    },
+    {
+      "q": "What is the name of the island in Moana?",
+      "a": "Motunui",
+      "angle": "setting"
+    },
+    {
+      "q": "Who rescues Quasimodo at the festival?",
+      "a": "Esmeralda",
+      "angle": "plot"
+    },
+    {
+      "q": "Which movie features \"You'll Be in My Heart\"?",
+      "a": "Tarzan (1999)",
+      "angle": "song"
+    },
+    {
+      "q": "What kind of animal is Baloo?",
+      "a": "A bear",
+      "angle": "character"
+    },
+    {
+      "q": "Who is the villain hunter in Bambi?",
+      "a": "\"Man\" (the unseen hunter)",
+      "angle": "villain"
+    },
+    {
+      "q": "What year did Snow White premiere?",
+      "a": "1937",
+      "angle": "history"
+    },
+    {
+      "q": "Who voices Simba (adult) in the 1994 film?",
+      "a": "Matthew Broderick",
+      "angle": "casting"
+    },
+    {
+      "q": "What is the name of Ariel's father?",
+      "a": "King Triton",
+      "angle": "family"
+    },
+    {
+      "q": "Who composed the score for The Lion King?",
+      "a": "Hans Zimmer (songs by Elton John/Tim Rice)",
+      "angle": "music"
+    },
+    {
+      "q": "What princess has a tiger named Rajah?",
+      "a": "Jasmine",
+      "angle": "princess"
+    },
+    {
+      "q": "Where is Aladdin set?",
+      "a": "Agrabah",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the villain in The Little Mermaid?",
+      "a": "Ursula",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is Pocahontas's hummingbird friend?",
+      "a": "Flit",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What song opens Beauty and the Beast?",
+      "a": "\"Belle\"",
+      "angle": "song"
+    },
+    {
+      "q": "What year did Frozen release?",
+      "a": "2013",
+      "angle": "release"
+    },
+    {
+      "q": "Who is the fashion designer in The Incredibles?",
+      "a": "Edna Mode",
+      "angle": "character"
+    },
+    {
+      "q": "What is the name of the kingdom in Tangled?",
+      "a": "Corona",
+      "angle": "setting"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was Pixar's first feature film?",
+      "a": "Toy Story (1995)",
+      "angle": "history"
+    },
+    {
+      "q": "What year did Disneyland open?",
+      "a": "1955",
+      "angle": "parks"
+    },
+    {
+      "q": "What was Disney's first animated sequel?",
+      "a": "The Rescuers Down Under (1990)",
+      "angle": "history"
+    },
+    {
+      "q": "What is the longest original Disney animated feature?",
+      "a": "Fantasia (~126 minutes)",
+      "angle": "records"
+    },
+    {
+      "q": "How many official Disney Princess lineup members are there as of 2024?",
+      "a": "12 (if Moana/Raya not officially added) or 13 including Raya; commonly cited 12-13",
+      "angle": "lore"
+    },
+    {
+      "q": "Who wrote and directed The Little Mermaid's songs?",
+      "a": "Songs by Alan Menken (music) and Howard Ashman (lyrics)",
+      "angle": "music"
+    },
+    {
+      "q": "Which castle is Disneyland (Anaheim) centered around?",
+      "a": "Sleeping Beauty Castle",
+      "angle": "parks"
+    },
+    {
+      "q": "Which castle is in Disney World (Magic Kingdom)?",
+      "a": "Cinderella Castle",
+      "angle": "parks"
+    },
+    {
+      "q": "What was the first Disney film nominated for Best Picture Oscar?",
+      "a": "Beauty and the Beast (1991)",
+      "angle": "awards"
+    },
+    {
+      "q": "Who was Walt Disney's first sound cartoon star?",
+      "a": "Mickey Mouse (Steamboat Willie, 1928)",
+      "angle": "history"
+    },
+    {
+      "q": "Who composed the score for Up?",
+      "a": "Michael Giacchino",
+      "angle": "music"
+    },
+    {
+      "q": "What inspired the design of Disney's castle logo?",
+      "a": "Neuschwanstein Castle in Germany",
+      "angle": "design"
+    },
+    {
+      "q": "What is the highest-grossing Disney animated film (pre-Disney/Pixar combined)?",
+      "a": "Frozen II (2019)",
+      "angle": "box office"
+    },
+    {
+      "q": "What early short introduced Mickey's gloves?",
+      "a": "\"The Opry House\" (1929)",
+      "angle": "history"
+    },
+    {
+      "q": "Which Disney feature used the multiplane camera extensively after Snow White?",
+      "a": "Pinocchio and Bambi (notably)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who was the supervising animator for Genie?",
+      "a": "Eric Goldberg",
+      "angle": "production"
+    },
+    {
+      "q": "What film marked the start of the Disney Renaissance?",
+      "a": "The Little Mermaid (1989)",
+      "angle": "history"
+    },
+    {
+      "q": "Who directed Beauty and the Beast (1991)?",
+      "a": "Gary Trousdale and Kirk Wise",
+      "angle": "production"
+    },
+    {
+      "q": "What is the name of the song that won an Oscar in Coco?",
+      "a": "\"Remember Me\"",
+      "angle": "awards"
+    },
+    {
+      "q": "Who voices Scar in The Lion King (1994)?",
+      "a": "Jeremy Irons",
+      "angle": "casting"
+    },
+    {
+      "q": "Which Disney animated film first used widescreen CinemaScope?",
+      "a": "Lady and the Tramp (1955)",
+      "angle": "tech"
+    },
+    {
+      "q": "What was the first feature in Disney's \"Silver Age\"?",
+      "a": "Cinderella (1950)",
+      "angle": "history"
+    },
+    {
+      "q": "Which film used CAPS digital ink-and-paint first in full?",
+      "a": "The Rescuers Down Under (1990)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who provided the original speaking voice for Mickey Mouse?",
+      "a": "Walt Disney himself",
+      "angle": "history"
+    },
+    {
+      "q": "What film introduced the character Jiminy Cricket?",
+      "a": "Pinocchio (1940)",
+      "angle": "character"
+    },
+    {
+      "q": "Which short film won Disney's first Oscar?",
+      "a": "\"Flowers and Trees\" (1932, Silly Symphony)",
+      "angle": "awards"
+    },
+    {
+      "q": "What is the name of the demon in Fantasia's \"Night on Bald Mountain\" segment?",
+      "a": "Chernabog",
+      "angle": "villain"
+    },
+    {
+      "q": "Which Disney film features the song \"When You Wish Upon a Star\"?",
+      "a": "Pinocchio",
+      "angle": "song"
+    },
+    {
+      "q": "What was the working title for Frozen?",
+      "a": "\"Anna and the Snow Queen\" (based on Andersen's tale)",
+      "angle": "production"
+    },
+    {
+      "q": "Which film premiered the character Oswald the Lucky Rabbit?",
+      "a": "\"Trolley Troubles\" (1927)",
+      "angle": "history"
+    }
+  ]
+}

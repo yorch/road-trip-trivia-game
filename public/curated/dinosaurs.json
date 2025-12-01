@@ -1,0 +1,303 @@
+{
+  "easy": [
+    {
+      "q": "What is the most famous dinosaur?",
+      "a": "Tyrannosaurus Rex (T-Rex)",
+      "angle": "predators"
+    },
+    {
+      "q": "What does 'dinosaur' mean?",
+      "a": "Terrible lizard",
+      "angle": "fossils"
+    },
+    {
+      "q": "Were dinosaurs reptiles or mammals?",
+      "a": "Reptiles",
+      "angle": "eras"
+    },
+    {
+      "q": "What killed the dinosaurs?",
+      "a": "Asteroid impact (most likely)",
+      "angle": "eras"
+    },
+    {
+      "q": "What do we call dinosaur bones we find today?",
+      "a": "Fossils",
+      "angle": "fossils"
+    },
+    {
+      "q": "What did herbivore dinosaurs eat?",
+      "a": "Plants",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur had a long neck?",
+      "a": "Brachiosaurus / Diplodocus / Sauropods",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Did humans and dinosaurs live together?",
+      "a": "No",
+      "angle": "eras"
+    },
+    {
+      "q": "What dinosaur had three horns?",
+      "a": "Triceratops",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What does 'T-Rex' stand for?",
+      "a": "Tyrannosaurus Rex",
+      "angle": "predators"
+    },
+    {
+      "q": "What era did dinosaurs live in?",
+      "a": "The Mesozoic Era",
+      "angle": "time"
+    },
+    {
+      "q": "What period came after the Jurassic?",
+      "a": "The Cretaceous period",
+      "angle": "time"
+    },
+    {
+      "q": "What is a baby dinosaur skeleton called when fossilized?",
+      "a": "A juvenile fossil",
+      "angle": "fossils"
+    },
+    {
+      "q": "What animal group did pterodactyls belong to?",
+      "a": "Pterosaurs (flying reptiles, not dinosaurs)",
+      "angle": "classification"
+    },
+    {
+      "q": "What dinosaur had a bony club tail?",
+      "a": "Ankylosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What did carnivores eat?",
+      "a": "Meat/other animals",
+      "angle": "predators"
+    },
+    {
+      "q": "What does a paleontologist study?",
+      "a": "Fossils and ancient life",
+      "angle": "science"
+    },
+    {
+      "q": "What is a fossilized footprint called?",
+      "a": "A track or trace fossil",
+      "angle": "trace"
+    },
+    {
+      "q": "What dinosaur had a sail-like fin on its back?",
+      "a": "Spinosaurus",
+      "angle": "predators"
+    },
+    {
+      "q": "What do we call fossilized tree resin?",
+      "a": "Amber",
+      "angle": "fossils"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What era did dinosaurs live in?",
+      "a": "Mesozoic Era",
+      "angle": "eras"
+    },
+    {
+      "q": "What are the three periods of the Mesozoic Era?",
+      "a": "Triassic, Jurassic, Cretaceous",
+      "angle": "eras"
+    },
+    {
+      "q": "What was the largest dinosaur?",
+      "a": "Argentinosaurus (possibly)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What dinosaur had the smallest brain?",
+      "a": "Stegosaurus (for its size)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Were pterodactyls dinosaurs?",
+      "a": "No, they were flying reptiles",
+      "angle": "eras"
+    },
+    {
+      "q": "What dinosaur name means 'swift thief'?",
+      "a": "Velociraptor",
+      "angle": "predators"
+    },
+    {
+      "q": "How many teeth did T-Rex have?",
+      "a": "About 50-60 teeth",
+      "angle": "predators"
+    },
+    {
+      "q": "What is paleontology?",
+      "a": "The study of fossils and prehistoric life",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur had the longest tail?",
+      "a": "Diplodocus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What does the word 'fossil' mean?",
+      "a": "Dug up",
+      "angle": "fossils"
+    },
+    {
+      "q": "What was the fastest likely dinosaur group?",
+      "a": "Ornithomimids (ostrich-like)",
+      "angle": "speed"
+    },
+    {
+      "q": "What dinosaur had a frill and three horns?",
+      "a": "Triceratops",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What sauropod is known for massive size and long neck?",
+      "a": "Argentinosaurus/Patagotitan",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What evidence shows dinosaurs cared for young?",
+      "a": "Nest sites and trackways",
+      "angle": "behavior"
+    },
+    {
+      "q": "What dinosaur had a dome skull?",
+      "a": "Pachycephalosaurus",
+      "angle": "herbivores"
+    },
+    {
+      "q": "Were mosasaurs dinosaurs?",
+      "a": "No, they were marine reptiles",
+      "angle": "classification"
+    },
+    {
+      "q": "What dinosaur is known for sickle claws?",
+      "a": "Deinonychus/Velociraptor (raptors)",
+      "angle": "predators"
+    },
+    {
+      "q": "What period ended with the mass extinction?",
+      "a": "Cretaceous period",
+      "angle": "eras"
+    },
+    {
+      "q": "What dinosaur fossil famously showed feathers?",
+      "a": "Archaeopteryx (early bird)",
+      "angle": "transition"
+    },
+    {
+      "q": "What is a coprolite?",
+      "a": "Fossilized dung",
+      "angle": "trace"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year did dinosaurs go extinct?",
+      "a": "65 million years ago (end of Cretaceous)",
+      "angle": "eras"
+    },
+    {
+      "q": "Who named the first dinosaur?",
+      "a": "Richard Owen coined 'Dinosauria' (1842)",
+      "angle": "fossils"
+    },
+    {
+      "q": "What was the fastest dinosaur?",
+      "a": "Possibly ornithomimids (ostrich-like, 50 mph)",
+      "angle": "predators"
+    },
+    {
+      "q": "What is the smallest known dinosaur?",
+      "a": "Microraptor (crow-sized)",
+      "angle": "predators"
+    },
+    {
+      "q": "What dinosaur had the most teeth?",
+      "a": "Hadrosaurs (duck-bills, up to 1000)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What is the study of trace fossils called?",
+      "a": "Ichnology",
+      "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur was discovered in 1824?",
+      "a": "Megalosaurus (first formally described)",
+      "angle": "fossils"
+    },
+    {
+      "q": "What is the Chicxulub crater?",
+      "a": "Impact site that killed dinosaurs (Mexico)",
+      "angle": "eras"
+    },
+    {
+      "q": "What does 'Allosaurus' mean?",
+      "a": "Different lizard / other lizard",
+      "angle": "predators"
+    },
+    {
+      "q": "What percent of dinosaurs were carnivores?",
+      "a": "About 35% were meat-eaters",
+      "angle": "predators"
+    },
+    {
+      "q": "What is the K-Pg boundary?",
+      "a": "Geological layer marking the Cretaceous–Paleogene extinction",
+      "angle": "eras"
+    },
+    {
+      "q": "Which theropod had sickle claws and pack-hunt evidence?",
+      "a": "Deinonychus",
+      "angle": "behavior"
+    },
+    {
+      "q": "What is the largest known carnivorous dinosaur?",
+      "a": "Spinosaurus (by some estimates)",
+      "angle": "predators"
+    },
+    {
+      "q": "What is the oldest confirmed bird?",
+      "a": "Archaeopteryx (late Jurassic)",
+      "angle": "transition"
+    },
+    {
+      "q": "What dating method measures volcanic layers?",
+      "a": "Radiometric dating (e.g., Argon-Argon)",
+      "angle": "science"
+    },
+    {
+      "q": "Who proposed the asteroid impact hypothesis?",
+      "a": "Luis and Walter Alvarez (Alvarez hypothesis)",
+      "angle": "science"
+    },
+    {
+      "q": "What are gastroliths?",
+      "a": "Stones swallowed to aid digestion",
+      "angle": "behavior"
+    },
+    {
+      "q": "What fossil site in China preserves feathered dinosaurs?",
+      "a": "Liaoning deposits (Yixian Formation)",
+      "angle": "paleontology"
+    },
+    {
+      "q": "What is the longest sauropod neck estimated?",
+      "a": "Mamenchisaurus (very long neck)",
+      "angle": "herbivores"
+    }
+  ]
+}

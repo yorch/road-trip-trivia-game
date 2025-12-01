@@ -14,7 +14,6 @@ import {
   buildAngles,
   ErrorHandler,
   fillTemplate,
-  getCuratedQuestionsUrl,
   QUESTION_MODES,
 } from '../utils';
 
@@ -142,7 +141,7 @@ export function rebuildQuestionBank(
   }
 }
 
-// Load curated questions from JSON
+// Load curated questions from individual topic files
 // Returns true if successful, false if failed
 export async function loadCuratedQuestions(): Promise<boolean> {
   try {
@@ -152,19 +151,20 @@ export async function loadCuratedQuestions(): Promise<boolean> {
     }
 
     curatedQuestionsController = new AbortController();
-    const response = await fetch(getCuratedQuestionsUrl(false), {
-      signal: curatedQuestionsController.signal,
-    });
 
-    if (!response.ok) {
+    // Load from per-topic structure
+    const loadedFromTopics = await loadCuratedQuestionsFromTopics(
+      curatedQuestionsController.signal,
+    );
+
+    if (!loadedFromTopics) {
       ErrorHandler.warn(
-        'Curated questions file not found - using generated questions only',
+        'Failed to load curated questions - using generated questions only',
       );
       window.curatedQuestions = {};
       return false;
     }
-    const data: CuratedQuestions = await response.json();
-    window.curatedQuestions = data;
+
     return true;
   } catch (error) {
     // Ignore abort errors - they're expected when cancelling
@@ -176,6 +176,92 @@ export async function loadCuratedQuestions(): Promise<boolean> {
       error instanceof Error ? error : new Error(String(error)),
     );
     window.curatedQuestions = {};
+    return false;
+  }
+}
+
+// Load curated questions from individual topic files
+async function loadCuratedQuestionsFromTopics(
+  signal: AbortSignal,
+): Promise<boolean> {
+  try {
+    const curatedData: CuratedQuestions = {};
+    let successCount = 0;
+
+    // First, try to load the index file to know which topics have curated questions
+    let availableTopicIds: string[] = [];
+    try {
+      const indexResponse = await fetch('/curated/index.json', { signal });
+      if (indexResponse.ok) {
+        availableTopicIds = await indexResponse.json();
+      }
+    } catch {
+      // Index file not found or failed to load - will try all topics
+    }
+
+    // Determine which topics to load
+    const topicsToLoad =
+      availableTopicIds.length > 0
+        ? window.topicList.filter((topic) =>
+            availableTopicIds.includes(topic.id),
+          )
+        : window.topicList; // Fallback: try all topics if no index
+
+    // Load curated questions for available topics
+    const loadPromises = topicsToLoad.map(async (topic) => {
+      try {
+        const response = await fetch(`/curated/${topic.id}.json`, { signal });
+        if (!response.ok) {
+          // Silently ignore 404s - not all topics have curated questions
+          // Only warn on other errors (server errors, network issues, etc.)
+          if (response.status !== 404) {
+            console.warn(`Failed to load ${topic.id}.json: ${response.status}`);
+          }
+          return null;
+        }
+        const data = await response.json();
+        // Files are structured as { easy, medium, hard }
+        if (!data.easy || !data.medium || !data.hard) {
+          console.warn(
+            `Invalid structure in ${topic.id}.json - missing difficulty levels`,
+          );
+          return null;
+        }
+        return { topicId: topic.id, data };
+      } catch {
+        // Silently ignore fetch errors (file not found is expected)
+        return null;
+      }
+    });
+
+    const results = await Promise.all(loadPromises);
+
+    // Merge successful loads
+    results.forEach((result) => {
+      if (result?.data) {
+        curatedData[result.topicId] = result.data;
+        successCount++;
+      }
+    });
+
+    if (successCount > 0) {
+      console.log(
+        `Loaded curated questions for ${successCount} topic${successCount !== 1 ? 's' : ''}`,
+      );
+    }
+
+    // Only use topic-based loading if we successfully loaded at least one topic
+    if (successCount > 0) {
+      window.curatedQuestions = curatedData;
+      return true;
+    }
+
+    return false;
+  } catch (error) {
+    if (error instanceof Error && error.name === 'AbortError') {
+      return false;
+    }
+    console.error('Error in loadCuratedQuestionsFromTopics:', error);
     return false;
   }
 }

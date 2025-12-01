@@ -1,0 +1,468 @@
+{
+  "easy": [
+    {
+      "q": "Who sang 'Shake It Off'?",
+      "a": "Taylor Swift",
+      "angle": "choruses"
+    },
+    {
+      "q": "What does 'pop music' stand for?",
+      "a": "Popular music",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Happy'?",
+      "a": "Pharrell Williams",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who is known as the 'Princess of Pop'?",
+      "a": "Britney Spears",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Rolling in the Deep'?",
+      "a": "Adele",
+      "angle": "hooks"
+    },
+    {
+      "q": "What boy band had Harry Styles?",
+      "a": "One Direction",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Bad Guy'?",
+      "a": "Billie Eilish",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Uptown Funk'?",
+      "a": "Bruno Mars (featuring Mark Ronson)",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Blank Space'?",
+      "a": "Taylor Swift",
+      "angle": "radio moments"
+    },
+    {
+      "q": "What artist goes by 'The Weeknd'?",
+      "a": "Abel Tesfaye",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Firework'?",
+      "a": "Katy Perry",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Royals'?",
+      "a": "Lorde",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Shape of You'?",
+      "a": "Ed Sheeran",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Hips Don't Lie'?",
+      "a": "Shakira featuring Wyclef Jean",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Sorry' (2015 hit)?",
+      "a": "Justin Bieber",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Chandelier'?",
+      "a": "Sia",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Levitating'?",
+      "a": "Dua Lipa",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Shake It'?",
+      "a": "Metro Station",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Tik Tok'?",
+      "a": "Kesha",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Call Me Maybe'?",
+      "a": "Carly Rae Jepsen",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Sugar'?",
+      "a": "Maroon 5",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'All About That Bass'?",
+      "a": "Meghan Trainor",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Bad Romance'?",
+      "a": "Lady Gaga",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Wrecking Ball'?",
+      "a": "Miley Cyrus",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Blinding Lights'?",
+      "a": "The Weeknd",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'We Found Love'?",
+      "a": "Rihanna featuring Calvin Harris",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Viva La Vida'?",
+      "a": "Coldplay",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Hello' (2015 hit)?",
+      "a": "Adele",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Shake It Off' and 'Blank Space'?",
+      "a": "Taylor Swift",
+      "angle": "artist"
+    },
+    {
+      "q": "Who sang 'Can't Stop the Feeling!'?",
+      "a": "Justin Timberlake",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Because of You'?",
+      "a": "Kelly Clarkson",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Since U Been Gone'?",
+      "a": "Kelly Clarkson",
+      "angle": "hooks"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year did 'Despacito' become a hit?",
+      "a": "2017",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who has the most Grammy wins?",
+      "a": "Beyoncé (32 wins as of 2023)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "What was the first K-pop song to hit #1 in US?",
+      "a": "Dynamite by BTS",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Someone Like You'?",
+      "a": "Adele",
+      "angle": "hooks"
+    },
+    {
+      "q": "What is the most-streamed song on Spotify?",
+      "a": "Blinding Lights by The Weeknd (as of 2024)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Call Me Maybe'?",
+      "a": "Carly Rae Jepsen",
+      "angle": "choruses"
+    },
+    {
+      "q": "What was Katy Perry's first number-one hit?",
+      "a": "I Kissed a Girl (2008)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who features on 'Perfect Duet'?",
+      "a": "Ed Sheeran and Beyoncé",
+      "angle": "hooks"
+    },
+    {
+      "q": "What year did Lady Gaga release 'Bad Romance'?",
+      "a": "2009",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Thinking Out Loud'?",
+      "a": "Ed Sheeran",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Rolling in the Deep'?",
+      "a": "Adele",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who produced 'Uptown Funk'?",
+      "a": "Mark Ronson featuring Bruno Mars",
+      "angle": "production"
+    },
+    {
+      "q": "Who sang 'Stronger (What Doesn't Kill You)'?",
+      "a": "Kelly Clarkson",
+      "angle": "hooks"
+    },
+    {
+      "q": "Which song by Gotye hit #1 in 2012?",
+      "a": "\"Somebody That I Used to Know\" (feat. Kimbra)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Royals'?",
+      "a": "Lorde",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Happy Together'?",
+      "a": "The Turtles",
+      "angle": "classic"
+    },
+    {
+      "q": "What year did 'Old Town Road' top charts?",
+      "a": "2019",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Truth Hurts'?",
+      "a": "Lizzo",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Dynamite' (K-pop hit)?",
+      "a": "BTS",
+      "angle": "global"
+    },
+    {
+      "q": "Who sang 'Shallow'?",
+      "a": "Lady Gaga and Bradley Cooper",
+      "angle": "duet"
+    },
+    {
+      "q": "Who sang 'Havana'?",
+      "a": "Camila Cabello featuring Young Thug",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Sorry Not Sorry'?",
+      "a": "Demi Lovato",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Someone You Loved'?",
+      "a": "Lewis Capaldi",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Dance Monkey'?",
+      "a": "Tones and I",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Wake Me Up' (2013 hit)?",
+      "a": "Avicii featuring Aloe Blacc",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Counting Stars'?",
+      "a": "OneRepublic",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Timber'?",
+      "a": "Pitbull featuring Kesha",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Moves Like Jagger'?",
+      "a": "Maroon 5 featuring Christina Aguilera",
+      "angle": "hooks"
+    },
+    {
+      "q": "What year did 'Blurred Lines' peak?",
+      "a": "2013",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Call Your Girlfriend'?",
+      "a": "Robyn",
+      "angle": "hooks"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What song spent the most weeks at #1 on Billboard?",
+      "a": "Old Town Road by Lil Nas X (19 weeks)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who wrote 'Baby One More Time'?",
+      "a": "Max Martin",
+      "angle": "hooks"
+    },
+    {
+      "q": "What was the first video on MTV?",
+      "a": "Video Killed the Radio Star",
+      "angle": "radio moments"
+    },
+    {
+      "q": "What year did Auto-Tune become popular?",
+      "a": "Late 1990s (popularized by Cher's 'Believe' 1998)",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who has sold the most records ever?",
+      "a": "The Beatles (over 600 million)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "What was Rihanna's first number-one single?",
+      "a": "SOS (2006)",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who wrote 'Irreplaceable' for Beyoncé?",
+      "a": "Ne-Yo",
+      "angle": "hooks"
+    },
+    {
+      "q": "What is the best-selling single of all time?",
+      "a": "White Christmas by Bing Crosby",
+      "angle": "radio moments"
+    },
+    {
+      "q": "What year did MTV launch?",
+      "a": "1981",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who has the most Diamond certifications?",
+      "a": "The Beatles (6 albums)",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who produced 'Bad' (1987 album)?",
+      "a": "Quincy Jones with Michael Jackson",
+      "angle": "production"
+    },
+    {
+      "q": "Who wrote 'We Found Love'?",
+      "a": "Calvin Harris",
+      "angle": "songwriting"
+    },
+    {
+      "q": "What song holds the Spotify all-time streams record (2024)?",
+      "a": "\"Blinding Lights\" by The Weeknd",
+      "angle": "streaming"
+    },
+    {
+      "q": "What song dethroned 'Despacito' on most YouTube views?",
+      "a": "\"Baby Shark Dance\" (later 'Despacito' regained; fluctuate)",
+      "angle": "stats"
+    },
+    {
+      "q": "Who was the youngest solo artist with a US #1 hit?",
+      "a": "Stevie Wonder at 13 (\"Fingertips Pt. 2\", 1963)",
+      "angle": "records"
+    },
+    {
+      "q": "Who wrote 'Umbrella'?",
+      "a": "The-Dream, Tricky Stewart, Kuk Harrell (performed by Rihanna feat. Jay-Z)",
+      "angle": "songwriting"
+    },
+    {
+      "q": "Which song launched Billie Eilish's breakout?",
+      "a": "\"Ocean Eyes\"",
+      "angle": "career"
+    },
+    {
+      "q": "What album is known as Michael Jackson's follow-up to Thriller?",
+      "a": "Bad (1987)",
+      "angle": "albums"
+    },
+    {
+      "q": "Which producer is known as \"Superstar DJ\" behind 'Titanium'?",
+      "a": "David Guetta (feat. Sia)",
+      "angle": "production"
+    },
+    {
+      "q": "Who wrote 'I Kissed a Girl'?",
+      "a": "Katy Perry, Dr. Luke, Max Martin, Cathy Dennis",
+      "angle": "songwriting"
+    },
+    {
+      "q": "Which song spent 10 weeks at #1 for Whitney Houston in 1992?",
+      "a": "\"I Will Always Love You\"",
+      "angle": "records"
+    },
+    {
+      "q": "Who sang the 80s hit 'Take On Me'?",
+      "a": "a-ha",
+      "angle": "classic"
+    },
+    {
+      "q": "Who is the artist behind 'Future Nostalgia'?",
+      "a": "Dua Lipa",
+      "angle": "albums"
+    },
+    {
+      "q": "What is Taylor Swift's 2020 surprise album?",
+      "a": "Folklore (followed by Evermore)",
+      "angle": "albums"
+    },
+    {
+      "q": "Who wrote 'Creep' (1992)?",
+      "a": "Radiohead (credited to all band members)",
+      "angle": "songwriting"
+    },
+    {
+      "q": "What pop song uses a sample of 'Genius of Love'?",
+      "a": "\"Fantasy\" by Mariah Carey",
+      "angle": "sampling"
+    },
+    {
+      "q": "Which singer set the record for most Hot 100 debuts at #1 in 2020-21?",
+      "a": "BTS and Ariana Grande (multiple #1 debuts)",
+      "angle": "records"
+    },
+    {
+      "q": "Who composed 'Dance Monkey'?",
+      "a": "Toni Watson (Tones and I)",
+      "angle": "songwriting"
+    },
+    {
+      "q": "Which single made Olivia Rodrigo debut at #1?",
+      "a": "\"drivers license\" (2021)",
+      "angle": "records"
+    },
+    {
+      "q": "In what year did the Billboard Hot 100 begin?",
+      "a": "1958",
+      "angle": "history"
+    }
+  ]
+}

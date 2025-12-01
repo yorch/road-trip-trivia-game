@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What is the K-pop girl group in the film called?",
+      "a": "Huntrix (HUNTR/X)",
+      "angle": "idols"
+    },
+    {
+      "q": "What streaming platform carries the film?",
+      "a": "Netflix",
+      "angle": "release"
+    },
+    {
+      "q": "What year does the film debut?",
+      "a": "2025",
+      "angle": "release"
+    },
+    {
+      "q": "What genre mix is the movie?",
+      "a": "Animated musical urban fantasy",
+      "angle": "genre"
+    },
+    {
+      "q": "How many members are in Huntrix?",
+      "a": "Three: Rumi, Mira, Zoey",
+      "angle": "group"
+    },
+    {
+      "q": "Who leads Huntrix?",
+      "a": "Rumi",
+      "angle": "idols"
+    },
+    {
+      "q": "Who is the main character?",
+      "a": "Rumi",
+      "angle": "idols"
+    },
+    {
+      "q": "What demon boy band do they face?",
+      "a": "Saja Boys",
+      "angle": "rivals"
+    },
+    {
+      "q": "What city is the film set in?",
+      "a": "Seoul",
+      "angle": "setting"
+    },
+    {
+      "q": "Who is the Huntrix manager?",
+      "a": "Bobby",
+      "angle": "support"
+    },
+    {
+      "q": "What weapon does Rumi wield?",
+      "a": "A saingeom sword",
+      "angle": "combat"
+    },
+    {
+      "q": "What weapon does Mira use?",
+      "a": "A gokdo polearm",
+      "angle": "combat"
+    },
+    {
+      "q": "What weapon does Zoey favor?",
+      "a": "Throwing knives (shinkal)",
+      "angle": "combat"
+    },
+    {
+      "q": "Who voices Rumi?",
+      "a": "Arden Cho",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Zoey?",
+      "a": "Ji-young Yoo",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Mira?",
+      "a": "May Hong",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices their manager Bobby?",
+      "a": "Ken Jeong",
+      "angle": "cast"
+    },
+    {
+      "q": "Who is the mentor figure?",
+      "a": "Celine",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who voices Celine?",
+      "a": "Yunjin Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Jinu?",
+      "a": "Ahn Hyo-seop",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices villain Gwi-Ma?",
+      "a": "Lee Byung-hun",
+      "angle": "cast"
+    },
+    {
+      "q": "What company produced the film?",
+      "a": "Sony Pictures Animation",
+      "angle": "studio"
+    },
+    {
+      "q": "What music style drives the soundtrack?",
+      "a": "K-pop",
+      "angle": "music"
+    },
+    {
+      "q": "What makes Huntrix unique?",
+      "a": "They are idols and demon hunters",
+      "angle": "hook"
+    },
+    {
+      "q": "What language is the primary release?",
+      "a": "English",
+      "angle": "release"
+    },
+    {
+      "q": "Who is Rumi's rival leader?",
+      "a": "Jinu of Saja Boys",
+      "angle": "rivals"
+    },
+    {
+      "q": "What is the seal they protect?",
+      "a": "The Honmoon",
+      "angle": "lore"
+    },
+    {
+      "q": "Who accompanies Jinu as pets?",
+      "a": "A blue tiger and six-eyed magpie",
+      "angle": "lore"
+    },
+    {
+      "q": "Who are the Saja Boys?",
+      "a": "A demon boy band rival group",
+      "angle": "rivals"
+    },
+    {
+      "q": "Who mentors Rumi after her mother dies?",
+      "a": "Celine",
+      "angle": "story"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What secret does Rumi hide?",
+      "a": "She is half-demon",
+      "angle": "plot"
+    },
+    {
+      "q": "What is Jinu's backstory?",
+      "a": "Human-turned-demon leading Saja Boys",
+      "angle": "rivals"
+    },
+    {
+      "q": "Who trained Rumi after her mother died?",
+      "a": "Celine, a former idol/hunter",
+      "angle": "mentor"
+    },
+    {
+      "q": "What does the Honmoon do?",
+      "a": "Acts as a mystical seal against demons",
+      "angle": "lore"
+    },
+    {
+      "q": "Who voices Healer Han?",
+      "a": "Daniel Dae Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "Who is the demon king antagonist?",
+      "a": "Gwi-Ma",
+      "angle": "villain"
+    },
+    {
+      "q": "What animal companions follow Jinu?",
+      "a": "A blue tiger and six-eyed magpie",
+      "angle": "lore"
+    },
+    {
+      "q": "What role does Zoey fill?",
+      "a": "Main rapper and youngest member",
+      "angle": "group"
+    },
+    {
+      "q": "What role does Mira have?",
+      "a": "Main dancer/visual",
+      "angle": "group"
+    },
+    {
+      "q": "Who voices manager Bobby?",
+      "a": "Ken Jeong",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Celine?",
+      "a": "Yunjin Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices villain Gwi-Ma?",
+      "a": "Lee Byung-hun",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Jinu?",
+      "a": "Ahn Hyo-seop",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Zoey?",
+      "a": "Ji-young Yoo",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Mira?",
+      "a": "May Hong",
+      "angle": "cast"
+    },
+    {
+      "q": "What company distributes the film?",
+      "a": "Netflix",
+      "angle": "release"
+    },
+    {
+      "q": "Who produces the film?",
+      "a": "Sony Pictures Animation",
+      "angle": "studio"
+    },
+    {
+      "q": "What is Rumi's mentor's past career?",
+      "a": "Former K-pop idol and demon hunter",
+      "angle": "mentor"
+    },
+    {
+      "q": "Where do Huntrix perform to strengthen the seal?",
+      "a": "Concert stages in Seoul",
+      "angle": "plot"
+    },
+    {
+      "q": "What causes Jinu's conflict?",
+      "a": "His demon nature and rivalry with Rumi",
+      "angle": "plot"
+    },
+    {
+      "q": "What does the group name Saja reference?",
+      "a": "Korean word for lion/reaper; here a demon boy band",
+      "angle": "lore"
+    },
+    {
+      "q": "What transportation do idols use in the film?",
+      "a": "Tour buses/vans (idol life)",
+      "angle": "setting"
+    },
+    {
+      "q": "What blend of themes drives the film?",
+      "a": "Idol life, friendship, demon-hunting action",
+      "angle": "themes"
+    },
+    {
+      "q": "What animation style is used?",
+      "a": "Stylized CG animated feature",
+      "angle": "animation"
+    },
+    {
+      "q": "What is Rumi's family background?",
+      "a": "Half-human, half-demon",
+      "angle": "plot"
+    },
+    {
+      "q": "What do Huntrix rely on to keep power?",
+      "a": "Fan energy tied to the Honmoon",
+      "angle": "lore"
+    },
+    {
+      "q": "Who voices the mentor Celine in English?",
+      "a": "Yunjin Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "What is the main setting's country?",
+      "a": "South Korea",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the central conflict?",
+      "a": "Protecting the seal from demon boy band rivals",
+      "angle": "plot"
+    },
+    {
+      "q": "What weapon style does Rumi train with?",
+      "a": "Korean sword arts",
+      "angle": "combat"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Who directed the film?",
+      "a": "Maggie Kang and Chris Appelhans",
+      "angle": "direction"
+    },
+    {
+      "q": "Who co-wrote the screenplay?",
+      "a": "Maggie Kang, Chris Appelhans, Danya Jimenez, Hannah McMechan",
+      "angle": "writing"
+    },
+    {
+      "q": "What studio produced the film for Netflix?",
+      "a": "Sony Pictures Animation",
+      "angle": "production"
+    },
+    {
+      "q": "What is the reported production budget?",
+      "a": "Over $100 million",
+      "angle": "budget"
+    },
+    {
+      "q": "What is the reported box office total?",
+      "a": "Around $25 million",
+      "angle": "box office"
+    },
+    {
+      "q": "Who scored the film?",
+      "a": "Marcelo Zarvos",
+      "angle": "music"
+    },
+    {
+      "q": "Which band is composed of demons?",
+      "a": "Saja Boys",
+      "angle": "lore"
+    },
+    {
+      "q": "Name all Huntrix members.",
+      "a": "Rumi, Mira, Zoey",
+      "angle": "group"
+    },
+    {
+      "q": "Name all Saja Boys members.",
+      "a": "Jinu, Mystery, Abby, Baby, Romance",
+      "angle": "group"
+    },
+    {
+      "q": "What mythical seal powers the plot?",
+      "a": "The Honmoon",
+      "angle": "lore"
+    },
+    {
+      "q": "What is Rumi's heritage?",
+      "a": "Half-human, half-demon",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the main villain?",
+      "a": "Gwi-Ma",
+      "angle": "villain"
+    },
+    {
+      "q": "What motivates Jinu's actions?",
+      "a": "Protecting his band and conflicted feelings for Rumi",
+      "angle": "character"
+    },
+    {
+      "q": "Where is the story primarily set?",
+      "a": "Seoul, South Korea",
+      "angle": "setting"
+    },
+    {
+      "q": "What animation medium is used?",
+      "a": "CG animated feature film",
+      "angle": "production"
+    },
+    {
+      "q": "What is the film's primary language release?",
+      "a": "English",
+      "angle": "release"
+    },
+    {
+      "q": "What theme blends pop stardom and myth?",
+      "a": "Idol performances tied to demon hunting",
+      "angle": "theme"
+    },
+    {
+      "q": "Who voices the demon king?",
+      "a": "Lee Byung-hun",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices the healer mentor Han?",
+      "a": "Daniel Dae Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Rumi's mentor Celine?",
+      "a": "Yunjin Kim",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Rumi?",
+      "a": "Arden Cho",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Mira?",
+      "a": "May Hong",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Zoey?",
+      "a": "Ji-young Yoo",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Jinu?",
+      "a": "Ahn Hyo-seop",
+      "angle": "cast"
+    },
+    {
+      "q": "Who voices Bobby the manager?",
+      "a": "Ken Jeong",
+      "angle": "cast"
+    },
+    {
+      "q": "Which company distributes the film globally?",
+      "a": "Netflix",
+      "angle": "distribution"
+    },
+    {
+      "q": "What is the film's core conflict?",
+      "a": "Huntrix protecting the Honmoon from demon rivals",
+      "angle": "plot"
+    },
+    {
+      "q": "What year is listed for release?",
+      "a": "2025",
+      "angle": "release"
+    },
+    {
+      "q": "What country produced the film?",
+      "a": "United States",
+      "angle": "origin"
+    },
+    {
+      "q": "What hybrids are central to the story?",
+      "a": "K-pop idols and demon hunters",
+      "angle": "theme"
+    }
+  ]
+}

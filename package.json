@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "format": "biome format --write",
     "lint": "biome check",
-    "lint:fix": "biome check --write"
+    "lint:fix": "biome check --write",
+    "update-index": "cd public/curated && ls *.json | grep -v index.json | sed 's/.json$//' | jq -R -s 'split(\"\\n\") | map(select(length > 0))' > index.json && echo 'Updated curated/index.json'"
   },
   "dependencies": {
     "@preact/signals-core": "1.12.1"

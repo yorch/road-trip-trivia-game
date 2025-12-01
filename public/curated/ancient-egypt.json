@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What are the large triangle structures called?",
+      "a": "Pyramids",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What river runs through Egypt?",
+      "a": "Nile River",
+      "angle": "nile"
+    },
+    {
+      "q": "What is a pharaoh?",
+      "a": "An ancient Egyptian king",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What is a mummy?",
+      "a": "A preserved dead body",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What animal has a human head in Egyptian statues?",
+      "a": "Sphinx",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What did Egyptians write on?",
+      "a": "Papyrus",
+      "angle": "nile"
+    },
+    {
+      "q": "What is the Egyptian sun god called?",
+      "a": "Ra",
+      "angle": "myths"
+    },
+    {
+      "q": "What is the Great Pyramid of Giza?",
+      "a": "Largest Egyptian pyramid",
+      "angle": "pyramids"
+    },
+    {
+      "q": "Who was the boy king of Egypt?",
+      "a": "Tutankhamun (King Tut)",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What animal was sacred to Egyptians?",
+      "a": "Cats (among others)",
+      "angle": "myths"
+    },
+    {
+      "q": "What direction does the Nile flow?",
+      "a": "North",
+      "angle": "nile"
+    },
+    {
+      "q": "What stone shows hieroglyphs, Demotic, and Greek?",
+      "a": "The Rosetta Stone",
+      "angle": "artifact"
+    },
+    {
+      "q": "What did Egyptians build to honor gods and pharaohs?",
+      "a": "Temples",
+      "angle": "architecture"
+    },
+    {
+      "q": "What was used to preserve bodies?",
+      "a": "Natron salts",
+      "angle": "mummification"
+    },
+    {
+      "q": "Who guards the underworld with a jackal head?",
+      "a": "Anubis",
+      "angle": "myths"
+    },
+    {
+      "q": "What organ was left in the body during mummification?",
+      "a": "The heart",
+      "angle": "beliefs"
+    },
+    {
+      "q": "What plant crowns the pharaoh's staff?",
+      "a": "A papyrus or lotus motif",
+      "angle": "symbol"
+    },
+    {
+      "q": "What do we call Egyptian picture writing?",
+      "a": "Hieroglyphics",
+      "angle": "writing"
+    },
+    {
+      "q": "What was the pharaoh's headdress called?",
+      "a": "The nemes",
+      "angle": "regalia"
+    },
+    {
+      "q": "What was used for light inside tombs?",
+      "a": "Oil lamps",
+      "angle": "daily life"
+    },
+    {
+      "q": "What is the Egyptian writing called?",
+      "a": "Hieroglyphics",
+      "angle": "writing"
+    },
+    {
+      "q": "Who was the jackal-headed god?",
+      "a": "Anubis",
+      "angle": "myths"
+    },
+    {
+      "q": "What is a sarcophagus?",
+      "a": "Stone coffin for mummies",
+      "angle": "burial"
+    },
+    {
+      "q": "Who was the falcon-headed sky god?",
+      "a": "Horus",
+      "angle": "myths"
+    },
+    {
+      "q": "What river enabled Egyptian farming?",
+      "a": "The Nile",
+      "angle": "nile"
+    },
+    {
+      "q": "What plant symbolized Lower Egypt?",
+      "a": "Papyrus",
+      "angle": "symbol"
+    },
+    {
+      "q": "What flower symbolized Upper Egypt?",
+      "a": "Lotus",
+      "angle": "symbol"
+    },
+    {
+      "q": "What did scribes use to write?",
+      "a": "Reed pens on papyrus",
+      "angle": "writing"
+    },
+    {
+      "q": "What is a pyramid shape?",
+      "a": "Triangular sides meeting at a point",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who wore the double crown?",
+      "a": "The pharaoh (symbol of unified Egypt)",
+      "angle": "pharaohs"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What are Egyptian picture writings called?",
+      "a": "Hieroglyphics",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "Who was the last pharaoh of Egypt?",
+      "a": "Cleopatra VII",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What stone helped decode hieroglyphics?",
+      "a": "Rosetta Stone",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What organs were removed during mummification?",
+      "a": "Liver, lungs, stomach, intestines (not heart)",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What is the Egyptian god of the dead called?",
+      "a": "Anubis",
+      "angle": "myths"
+    },
+    {
+      "q": "What are canopic jars?",
+      "a": "Jars for storing mummified organs",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What city was the ancient capital?",
+      "a": "Memphis / Thebes (different periods)",
+      "angle": "nile"
+    },
+    {
+      "q": "What is the afterlife judgment scene called?",
+      "a": "Weighing of the Heart",
+      "angle": "myths"
+    },
+    {
+      "q": "Who built the Great Pyramid?",
+      "a": "Pharaoh Khufu (Cheops)",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What were Egyptian workers called?",
+      "a": "Skilled laborers and crews (often farmers off-season)",
+      "angle": "nile"
+    },
+    {
+      "q": "What goddess is depicted with a throne on her head?",
+      "a": "Isis",
+      "angle": "myths"
+    },
+    {
+      "q": "What is the ankh symbol mean?",
+      "a": "Life",
+      "angle": "symbol"
+    },
+    {
+      "q": "What writing material replaced stone carving?",
+      "a": "Papyrus scrolls",
+      "angle": "writing"
+    },
+    {
+      "q": "What is the name of the falcon-headed god?",
+      "a": "Horus",
+      "angle": "myths"
+    },
+    {
+      "q": "What is a cartouche?",
+      "a": "An oval name frame for royalty",
+      "angle": "writing"
+    },
+    {
+      "q": "What kingdom period built most pyramids?",
+      "a": "Old Kingdom",
+      "angle": "history"
+    },
+    {
+      "q": "What are the three seasons of the Nile cycle?",
+      "a": "Inundation, Emergence, Harvest",
+      "angle": "nile"
+    },
+    {
+      "q": "What did canopic jars store?",
+      "a": "Mummified organs",
+      "angle": "mummification"
+    },
+    {
+      "q": "What was the capital during the Middle Kingdom?",
+      "a": "Thebes (was one of the capitals)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the crocodile-headed god?",
+      "a": "Sobek",
+      "angle": "myths"
+    },
+    {
+      "q": "Who is the ibis-headed god of wisdom?",
+      "a": "Thoth",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the purpose of the Valley of the Kings?",
+      "a": "Royal tombs in the New Kingdom",
+      "angle": "burial"
+    },
+    {
+      "q": "Who decoded the Rosetta Stone?",
+      "a": "Jean-François Champollion",
+      "angle": "history"
+    },
+    {
+      "q": "What is a vizier?",
+      "a": "Chief advisor/administrator to the pharaoh",
+      "angle": "government"
+    },
+    {
+      "q": "Who built Abu Simbel temples?",
+      "a": "Ramesses II",
+      "angle": "monuments"
+    },
+    {
+      "q": "What was the main cereal crop in Egypt?",
+      "a": "Emmer wheat/barley",
+      "angle": "economy"
+    },
+    {
+      "q": "What dynasty period was Cleopatra VII part of?",
+      "a": "Ptolemaic dynasty",
+      "angle": "history"
+    },
+    {
+      "q": "What was the Egyptian solar boat myth linked to?",
+      "a": "Ra traveling the sky and underworld",
+      "angle": "myths"
+    },
+    {
+      "q": "What does the scarab symbolize?",
+      "a": "Rebirth/protection",
+      "angle": "symbol"
+    },
+    {
+      "q": "What is a shenti?",
+      "a": "A kilt-like garment worn by men",
+      "angle": "daily life"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year did Tutankhamun's tomb get discovered?",
+      "a": "1922 (by Howard Carter)",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What is the Egyptian Book of the Dead?",
+      "a": "Collection of funerary texts and spells",
+      "angle": "myths"
+    },
+    {
+      "q": "How long did it take to build the Great Pyramid?",
+      "a": "About 20 years",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What dynasty was Cleopatra from?",
+      "a": "Ptolemaic Dynasty",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What is Ma'at?",
+      "a": "Egyptian concept of truth, balance, and order",
+      "angle": "myths"
+    },
+    {
+      "q": "What caused the Nile's annual floods?",
+      "a": "Ethiopian highlands monsoon rains",
+      "angle": "nile"
+    },
+    {
+      "q": "Who was the female pharaoh who dressed as male?",
+      "a": "Hatshepsut",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "What is the Step Pyramid of Djoser?",
+      "a": "First pyramid built (oldest)",
+      "angle": "pyramids"
+    },
+    {
+      "q": "What animal represents the god Thoth?",
+      "a": "Ibis bird (or baboon)",
+      "angle": "myths"
+    },
+    {
+      "q": "What was the 'inundation' season?",
+      "a": "Annual Nile flooding season",
+      "angle": "nile"
+    },
+    {
+      "q": "What stone crown symbolized Upper Egypt?",
+      "a": "The white hedjet crown",
+      "angle": "symbol"
+    },
+    {
+      "q": "What stone crown symbolized Lower Egypt?",
+      "a": "The red deshret crown",
+      "angle": "symbol"
+    },
+    {
+      "q": "Who was Akhenaten's famous wife?",
+      "a": "Nefertiti",
+      "angle": "pharaohs"
+    },
+    {
+      "q": "Which pharaoh moved the capital to Amarna?",
+      "a": "Akhenaten",
+      "angle": "history"
+    },
+    {
+      "q": "What script was used for everyday writing?",
+      "a": "Demotic (and Hieratic earlier)",
+      "angle": "writing"
+    },
+    {
+      "q": "Who was the last native Egyptian pharaoh?",
+      "a": "Nectanebo II",
+      "angle": "history"
+    },
+    {
+      "q": "What is a shabti?",
+      "a": "Funerary figurine to serve the deceased",
+      "angle": "burial"
+    },
+    {
+      "q": "What is a mastaba?",
+      "a": "Rectangular flat-roof tomb preceding pyramids",
+      "angle": "architecture"
+    },
+    {
+      "q": "Who was Imhotep?",
+      "a": "Architect of Djoser's step pyramid; later deified",
+      "angle": "figures"
+    },
+    {
+      "q": "What period followed the Old Kingdom collapse?",
+      "a": "First Intermediate Period",
+      "angle": "history"
+    },
+    {
+      "q": "What material were commoner coffins often made of?",
+      "a": "Wood plastered and painted",
+      "angle": "burial"
+    },
+    {
+      "q": "Which pharaoh is linked to the Battle of Kadesh treaty?",
+      "a": "Ramesses II (with Hittites)",
+      "angle": "history"
+    },
+    {
+      "q": "What temple complex is near Luxor with hypostyle hall?",
+      "a": "Karnak Temple",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is the oldest known medical papyrus?",
+      "a": "Edwin Smith Papyrus (surgical)",
+      "angle": "texts"
+    },
+    {
+      "q": "What dynasty did Hatshepsut belong to?",
+      "a": "18th Dynasty",
+      "angle": "history"
+    },
+    {
+      "q": "What is the Merneptah Stele notable for?",
+      "a": "Earliest non-biblical mention of Israel",
+      "angle": "texts"
+    },
+    {
+      "q": "Which pharaoh's tomb was nearly intact in 1922?",
+      "a": "Tutankhamun",
+      "angle": "burial"
+    },
+    {
+      "q": "What did the Opet Festival celebrate?",
+      "a": "Amun's rejuvenation and pharaoh's power",
+      "angle": "festival"
+    },
+    {
+      "q": "What canal linked Nile to Red Sea in antiquity?",
+      "a": "Ancient Canal of the Pharaohs (precursor to Suez)",
+      "angle": "infrastructure"
+    },
+    {
+      "q": "What is the oldest known pyramid text location?",
+      "a": "Pyramid Texts in Unas's pyramid at Saqqara",
+      "angle": "texts"
+    }
+  ]
+}

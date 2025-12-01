@@ -1,0 +1,463 @@
+{
+  "easy": [
+    {
+      "q": "What does Scooby-Doo always want?",
+      "a": "Scooby Snacks",
+      "angle": "theme songs"
+    },
+    {
+      "q": "What are the Teenage Mutant Ninja Turtles named after?",
+      "a": "Renaissance artists",
+      "angle": "retro heroes"
+    },
+    {
+      "q": "What does Dexter have in his basement?",
+      "a": "A secret laboratory",
+      "angle": "morning shows"
+    },
+    {
+      "q": "Who lives in a pineapple under the sea?",
+      "a": "SpongeBob SquarePants",
+      "angle": "theme songs"
+    },
+    {
+      "q": "What does Hey Arnold's head look like?",
+      "a": "Football-shaped",
+      "angle": "retro heroes"
+    },
+    {
+      "q": "Who says 'What's up, Doc?'",
+      "a": "Bugs Bunny",
+      "angle": "theme songs"
+    },
+    {
+      "q": "What is Pokémon short for?",
+      "a": "Pocket Monsters",
+      "angle": "toy tie-ins"
+    },
+    {
+      "q": "What are the Powerpuff Girls' names?",
+      "a": "Blossom, Bubbles, Buttercup",
+      "angle": "retro heroes"
+    },
+    {
+      "q": "Who says 'Gotta catch 'em all'?",
+      "a": "Ash Ketchum",
+      "angle": "theme songs"
+    },
+    {
+      "q": "Who are the lab mice trying to take over the world?",
+      "a": "Pinky and the Brain",
+      "angle": "theme songs"
+    },
+    {
+      "q": "What is the Rugrats' dog called?",
+      "a": "Spike",
+      "angle": "pets"
+    },
+    {
+      "q": "Who is Arnold's best friend in Hey Arnold!?",
+      "a": "Gerald",
+      "angle": "friends"
+    },
+    {
+      "q": "What conjoined pet stars in a Nicktoon?",
+      "a": "CatDog",
+      "angle": "concept"
+    },
+    {
+      "q": "Who is the villain monkey in Powerpuff Girls?",
+      "a": "Mojo Jojo",
+      "angle": "villains"
+    },
+    {
+      "q": "What is Courage afraid of?",
+      "a": "Everything",
+      "angle": "theme songs"
+    },
+    {
+      "q": "Who delivers mail in Blues Clues?",
+      "a": "Mailbox",
+      "angle": "characters"
+    },
+    {
+      "q": "What fruit is Hey Arnold's grandma named after?",
+      "a": "Pookie (nickname)",
+      "angle": "humor"
+    },
+    {
+      "q": "Who is the wallaby in Rocko's Modern Life?",
+      "a": "Rocko",
+      "angle": "lead"
+    },
+    {
+      "q": "Who is Rocko's cow friend?",
+      "a": "Heffer Wolfe",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What school bus goes on science trips?",
+      "a": "The Magic School Bus",
+      "angle": "theme songs"
+    },
+    {
+      "q": "Who is Timmy Turner's fairy godparents?",
+      "a": "Cosmo and Wanda",
+      "angle": "magic"
+    },
+    {
+      "q": "Who is the goth girl in Recess?",
+      "a": "Spinelli",
+      "angle": "characters"
+    },
+    {
+      "q": "What color is SpongeBob's tie?",
+      "a": "Red",
+      "angle": "details"
+    },
+    {
+      "q": "Who are the Chipmunks?",
+      "a": "Alvin, Simon, Theodore",
+      "angle": "group"
+    },
+    {
+      "q": "Who is the main boy in Doug?",
+      "a": "Doug Funnie",
+      "angle": "lead"
+    },
+    {
+      "q": "Who is Angelica's doll?",
+      "a": "Cynthia (Rugrats)",
+      "angle": "prop"
+    },
+    {
+      "q": "What are the Eds after in Ed, Edd n Eddy?",
+      "a": "Jawbreakers",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the main villain in Darkwing Duck?",
+      "a": "Negaduck",
+      "angle": "villains"
+    },
+    {
+      "q": "Who runs the Krusty Krab?",
+      "a": "Mr. Krabs",
+      "angle": "characters"
+    },
+    {
+      "q": "Who is SpongeBob's starfish best friend?",
+      "a": "Patrick Star",
+      "angle": "friends"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who created The Powerpuff Girls?",
+      "a": "Craig McCracken",
+      "angle": "creators"
+    },
+    {
+      "q": "What year did Pokémon first air in the US?",
+      "a": "1998",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who voices Rocko?",
+      "a": "Carlos Alazraqui",
+      "angle": "voice"
+    },
+    {
+      "q": "Who is Dexter's sister?",
+      "a": "Dee Dee",
+      "angle": "family"
+    },
+    {
+      "q": "Who is the main antagonist in Samurai Jack?",
+      "a": "Aku",
+      "angle": "villains"
+    },
+    {
+      "q": "What are the Animaniacs' names?",
+      "a": "Yakko, Wakko, Dot",
+      "angle": "cast"
+    },
+    {
+      "q": "Who narrated the Magic School Bus books?",
+      "a": "Ms. Frizzle leads the class",
+      "angle": "teacher"
+    },
+    {
+      "q": "Who is the villainous monkey in Powerpuff Girls?",
+      "a": "Mojo Jojo",
+      "angle": "villains"
+    },
+    {
+      "q": "What city does Batman: The Animated Series take place in?",
+      "a": "Gotham City",
+      "angle": "setting"
+    },
+    {
+      "q": "Who composed the Animaniacs theme?",
+      "a": "Richard Stone (music), Tom Ruegger (lyrics)",
+      "angle": "music"
+    },
+    {
+      "q": "What is the name of Invader Zim's robot?",
+      "a": "GIR",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who are the Eds in Ed, Edd n Eddy?",
+      "a": "Ed, Edd (Double D), Eddy",
+      "angle": "cast"
+    },
+    {
+      "q": "Who created Johnny Bravo?",
+      "a": "Van Partible",
+      "angle": "creators"
+    },
+    {
+      "q": "Who is Helga obsessed with?",
+      "a": "Arnold (Hey Arnold!)",
+      "angle": "plot"
+    },
+    {
+      "q": "Who is the principal in Recess?",
+      "a": "Principal Prickly",
+      "angle": "support"
+    },
+    {
+      "q": "Who provides Pinky and the Brain voices?",
+      "a": "Rob Paulsen (Pinky), Maurice LaMarche (Brain)",
+      "angle": "voice"
+    },
+    {
+      "q": "Who is the voice of SpongeBob?",
+      "a": "Tom Kenny",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did SpongeBob premiere?",
+      "a": "1999",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who created Dexter's Laboratory?",
+      "a": "Genndy Tartakovsky",
+      "angle": "creators"
+    },
+    {
+      "q": "What network aired most Nicktoons?",
+      "a": "Nickelodeon",
+      "angle": "network"
+    },
+    {
+      "q": "Who composed the X-Men animated series theme?",
+      "a": "Ron Wasserman",
+      "angle": "music"
+    },
+    {
+      "q": "What eco-hero show had Planeteers?",
+      "a": "Captain Planet and the Planeteers",
+      "angle": "theme"
+    },
+    {
+      "q": "Who is the villain cat in Rescue Rangers?",
+      "a": "Fat Cat",
+      "angle": "villains"
+    },
+    {
+      "q": "Who is Courage's elderly owner?",
+      "a": "Muriel Bagge",
+      "angle": "characters"
+    },
+    {
+      "q": "Who made a cameo as host in Space Ghost Coast to Coast?",
+      "a": "Space Ghost (parody talk show)",
+      "angle": "concept"
+    },
+    {
+      "q": "What was the first Cartoon Network original?",
+      "a": "The Moxy Show (1993)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the genius antagonist of Dexter?",
+      "a": "Mandark (Susan Astronomonov)",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the alien dog in The Tick?",
+      "a": "Speak",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What show features cow and chicken siblings?",
+      "a": "Cow and Chicken",
+      "angle": "cast"
+    },
+    {
+      "q": "Who is the villain in Darkwing Duck often seen?",
+      "a": "Negaduck",
+      "angle": "villain"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year did Cartoon Network launch?",
+      "a": "1992",
+      "angle": "history"
+    },
+    {
+      "q": "Who created Ren & Stimpy?",
+      "a": "John Kricfalusi",
+      "angle": "creators"
+    },
+    {
+      "q": "What is Ed, Edd n Eddy's cul-de-sac called?",
+      "a": "Peach Creek",
+      "angle": "setting"
+    },
+    {
+      "q": "Who voiced Batman in Batman: TAS?",
+      "a": "Kevin Conroy",
+      "angle": "voice"
+    },
+    {
+      "q": "Who voiced the Joker in Batman: TAS?",
+      "a": "Mark Hamill",
+      "angle": "voice"
+    },
+    {
+      "q": "Who composed the Batman: TAS main theme?",
+      "a": "Danny Elfman",
+      "angle": "music"
+    },
+    {
+      "q": "Who created Samurai Jack?",
+      "a": "Genndy Tartakovsky",
+      "angle": "creators"
+    },
+    {
+      "q": "Who created The Maxx (MTV Oddities)?",
+      "a": "Sam Kieth",
+      "angle": "creators"
+    },
+    {
+      "q": "What studio animated Batman: TAS overseas?",
+      "a": "TMS and others with WB Animation",
+      "angle": "production"
+    },
+    {
+      "q": "What year did Doug first air?",
+      "a": "1991",
+      "angle": "history"
+    },
+    {
+      "q": "What show featured the Omnitrix device?",
+      "a": "Ben 10 (launched 2005, post-90s but related era)",
+      "angle": "device"
+    },
+    {
+      "q": "What was the first Nicktoons lineup year?",
+      "a": "1991 (Doug, Rugrats, Ren & Stimpy)",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Mojo Jojo?",
+      "a": "Roger L. Jackson",
+      "angle": "voice"
+    },
+    {
+      "q": "What was the MTV sci-fi animated series with Aeon?",
+      "a": "Æon Flux",
+      "angle": "animation"
+    },
+    {
+      "q": "Who created Earthworm Jim?",
+      "a": "Doug TenNapel (game/animated series)",
+      "angle": "creators"
+    },
+    {
+      "q": "What city is Hey Arnold! set in?",
+      "a": "Fictional Hillwood",
+      "angle": "setting"
+    },
+    {
+      "q": "Who produced the music for Pinky and the Brain?",
+      "a": "Richard Stone (WB animation composer)",
+      "angle": "music"
+    },
+    {
+      "q": "What studio did Eek! The Cat air on?",
+      "a": "Fox Kids (Savage Steve Holland creation)",
+      "angle": "network"
+    },
+    {
+      "q": "Who is the masked villain in ReBoot?",
+      "a": "Megabyte (and Hexadecimal)",
+      "angle": "villains"
+    },
+    {
+      "q": "What year did Gargoyles premiere?",
+      "a": "1994",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Dot Matrix in ReBoot?",
+      "a": "Kathleen Barr",
+      "angle": "voice"
+    },
+    {
+      "q": "Who created Johnny Bravo?",
+      "a": "Van Partible",
+      "angle": "creators"
+    },
+    {
+      "q": "What was the first Toonami launch year?",
+      "a": "1997 on Cartoon Network",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Stimpy originally?",
+      "a": "Billy West (after John K. pilot)",
+      "angle": "voice"
+    },
+    {
+      "q": "What animated Batman film spun off from TAS in 1993?",
+      "a": "Batman: Mask of the Phantasm",
+      "angle": "film"
+    },
+    {
+      "q": "Who composed the X-Men animated series theme?",
+      "a": "Ron Wasserman",
+      "angle": "music"
+    },
+    {
+      "q": "What show's tagline is \"Smarter than the average bear\" (reruns in 90s blocks)?",
+      "a": "Yogi Bear",
+      "angle": "retro"
+    },
+    {
+      "q": "Who was the main villain in Swat Kats?",
+      "a": "Dark Kat (plus Pastmaster, etc.)",
+      "angle": "villains"
+    },
+    {
+      "q": "Who created The Tick (animated 1994)?",
+      "a": "Ben Edlund",
+      "angle": "creators"
+    },
+    {
+      "q": "What was MTV's animation block name?",
+      "a": "Liquid Television",
+      "angle": "network"
+    },
+    {
+      "q": "Who directed Iron Giant (1999)?",
+      "a": "Brad Bird",
+      "angle": "film"
+    }
+  ]
+}

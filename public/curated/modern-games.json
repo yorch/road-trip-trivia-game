@@ -1,0 +1,468 @@
+{
+  "easy": [
+    {
+      "q": "What game features Steve and blocky graphics?",
+      "a": "Minecraft",
+      "angle": "crafting"
+    },
+    {
+      "q": "What battle royale game has a Victory Royale?",
+      "a": "Fortnite",
+      "angle": "online squad"
+    },
+    {
+      "q": "What company makes PlayStation?",
+      "a": "Sony",
+      "angle": "open world"
+    },
+    {
+      "q": "What game series features Master Chief?",
+      "a": "Halo",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What is the main character in The Legend of Zelda?",
+      "a": "Link",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What sport is FIFA about?",
+      "a": "Soccer/Football",
+      "angle": "online squad"
+    },
+    {
+      "q": "What color is Sonic the Hedgehog?",
+      "a": "Blue",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What game has Creepers that explode?",
+      "a": "Minecraft",
+      "angle": "crafting"
+    },
+    {
+      "q": "What does RPG stand for in gaming?",
+      "a": "Role-Playing Game",
+      "angle": "open world"
+    },
+    {
+      "q": "What company makes Xbox?",
+      "a": "Microsoft",
+      "angle": "online squad"
+    },
+    {
+      "q": "What series stars Master Chief?",
+      "a": "Halo",
+      "angle": "shooter"
+    },
+    {
+      "q": "What plumber races karts with friends?",
+      "a": "Mario (Mario Kart)",
+      "angle": "racing"
+    },
+    {
+      "q": "What animal is Sonic?",
+      "a": "A hedgehog",
+      "angle": "classic"
+    },
+    {
+      "q": "Who is Link trying to save often?",
+      "a": "Princess Zelda",
+      "angle": "adventure"
+    },
+    {
+      "q": "What does XP stand for in games?",
+      "a": "Experience points",
+      "angle": "progression"
+    },
+    {
+      "q": "What device do you play Switch games on?",
+      "a": "Nintendo Switch console",
+      "angle": "platform"
+    },
+    {
+      "q": "What franchise has Pikachu?",
+      "a": "Pokémon",
+      "angle": "monster"
+    },
+    {
+      "q": "What color are Minecraft creepers?",
+      "a": "Green",
+      "angle": "enemy"
+    },
+    {
+      "q": "What is the default dance from?",
+      "a": "Fortnite",
+      "angle": "emote"
+    },
+    {
+      "q": "What game has villagers and blocks but no hunger bar?",
+      "a": "Creative mode Minecraft (no hunger)",
+      "angle": "mode"
+    },
+    {
+      "q": "What does AFK mean?",
+      "a": "Away From Keyboard",
+      "angle": "lingo"
+    },
+    {
+      "q": "Who is the blue-armored Spartan in Halo?",
+      "a": "Master Chief / John-117",
+      "angle": "hero"
+    },
+    {
+      "q": "What game has a Battle Bus?",
+      "a": "Fortnite",
+      "angle": "feature"
+    },
+    {
+      "q": "What console does Mario primarily appear on?",
+      "a": "Nintendo consoles",
+      "angle": "platform"
+    },
+    {
+      "q": "Which game has villagers trading with emeralds?",
+      "a": "Minecraft",
+      "angle": "economy"
+    },
+    {
+      "q": "What is the purple storm in Fortnite?",
+      "a": "The storm circle closing in",
+      "angle": "mechanic"
+    },
+    {
+      "q": "What are loot llamas from?",
+      "a": "Fortnite",
+      "angle": "item"
+    },
+    {
+      "q": "What is the floating bus in Fortnite called?",
+      "a": "The Battle Bus",
+      "angle": "feature"
+    },
+    {
+      "q": "What mobile game launched Pokémon catching AR craze?",
+      "a": "Pokémon GO",
+      "angle": "mobile"
+    },
+    {
+      "q": "Who is Kratos's son in God of War (2018)?",
+      "a": "Atreus",
+      "angle": "story"
+    },
+    {
+      "q": "What game uses pickaxes to gather blocks?",
+      "a": "Minecraft",
+      "angle": "crafting"
+    },
+    {
+      "q": "What console series is called 'Xbox'?",
+      "a": "Microsoft's console line",
+      "angle": "platform"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What year was Minecraft released?",
+      "a": "2011",
+      "angle": "crafting"
+    },
+    {
+      "q": "What game won Game of the Year in 2023?",
+      "a": "Baldur's Gate 3",
+      "angle": "open world"
+    },
+    {
+      "q": "Who is the main character in The Witcher games?",
+      "a": "Geralt of Rivia",
+      "angle": "open world"
+    },
+    {
+      "q": "What does 'GG' mean in gaming?",
+      "a": "Good Game",
+      "angle": "online squad"
+    },
+    {
+      "q": "What game series features the Dragonborn?",
+      "a": "The Elder Scrolls (Skyrim)",
+      "angle": "open world"
+    },
+    {
+      "q": "What battle royale game is set in Apex Games?",
+      "a": "Apex Legends",
+      "angle": "online squad"
+    },
+    {
+      "q": "What is the highest-selling video game of all time?",
+      "a": "Minecraft",
+      "angle": "crafting"
+    },
+    {
+      "q": "What company developed The Last of Us?",
+      "a": "Naughty Dog",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What game popularized battle royale genre?",
+      "a": "PlayerUnknown's Battlegrounds (PUBG)",
+      "angle": "online squad"
+    },
+    {
+      "q": "What is the crafting table used for in Minecraft?",
+      "a": "Creating items and tools",
+      "angle": "crafting"
+    },
+    {
+      "q": "What is the main city in GTA V?",
+      "a": "Los Santos",
+      "angle": "open world"
+    },
+    {
+      "q": "Who is the Doom Slayer's main enemy faction?",
+      "a": "Demons from Hell",
+      "angle": "shooter"
+    },
+    {
+      "q": "What is the name of Aloy's world in Horizon?",
+      "a": "Post-apocalyptic Earth with tribal societies",
+      "angle": "setting"
+    },
+    {
+      "q": "What engine powers Apex Legends?",
+      "a": "Source engine (heavily modified)",
+      "angle": "tech"
+    },
+    {
+      "q": "Who is the Greek god protagonist in Hades?",
+      "a": "Zagreus",
+      "angle": "roguelike"
+    },
+    {
+      "q": "What studio created Elden Ring?",
+      "a": "FromSoftware",
+      "angle": "developer"
+    },
+    {
+      "q": "What is the main objective in Among Us?",
+      "a": "Complete tasks or find impostors",
+      "angle": "social"
+    },
+    {
+      "q": "What color is the Master Sword's blade aura?",
+      "a": "Blue glow",
+      "angle": "lore"
+    },
+    {
+      "q": "What does NPC stand for?",
+      "a": "Non-Player Character",
+      "angle": "terms"
+    },
+    {
+      "q": "What is the name of the cyberpunk city in Cyberpunk 2077?",
+      "a": "Night City",
+      "angle": "setting"
+    },
+    {
+      "q": "What loot rarity color is highest in Fortnite (standard)?",
+      "a": "Gold/Legendary",
+      "angle": "mechanic"
+    },
+    {
+      "q": "Who is Ellie traveling with in TLOU Part I?",
+      "a": "Joel",
+      "angle": "story"
+    },
+    {
+      "q": "What studio makes League of Legends?",
+      "a": "Riot Games",
+      "angle": "developer"
+    },
+    {
+      "q": "What is the name of the ring in Elden Ring's title?",
+      "a": "The Elden Ring (shattered Golden Order)",
+      "angle": "lore"
+    },
+    {
+      "q": "What year did the Nintendo Switch release?",
+      "a": "2017",
+      "angle": "platform"
+    },
+    {
+      "q": "What is Valorant's genre?",
+      "a": "Tactical hero FPS",
+      "angle": "genre"
+    },
+    {
+      "q": "What companion helps you in God of War (2018)?",
+      "a": "Atreus, Kratos's son",
+      "angle": "story"
+    },
+    {
+      "q": "Who is the main villain faction in Halo?",
+      "a": "The Covenant (later Banished)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the default pickaxe in Fortnite called?",
+      "a": "Default harvesting tool",
+      "angle": "item"
+    },
+    {
+      "q": "What is Geralt of Rivia's profession?",
+      "a": "A witcher (professional monster hunter)",
+      "angle": "lore"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Who created Minecraft?",
+      "a": "Markus 'Notch' Persson",
+      "angle": "crafting"
+    },
+    {
+      "q": "What game engine does Fortnite use?",
+      "a": "Unreal Engine",
+      "angle": "online squad"
+    },
+    {
+      "q": "What year did Fortnite Battle Royale launch?",
+      "a": "2017",
+      "angle": "online squad"
+    },
+    {
+      "q": "What is the max level in Elden Ring?",
+      "a": "713",
+      "angle": "boss fight"
+    },
+    {
+      "q": "Who developed Red Dead Redemption 2?",
+      "a": "Rockstar Games",
+      "angle": "open world"
+    },
+    {
+      "q": "What does 'FromSoftware' develop?",
+      "a": "Dark Souls, Elden Ring, Bloodborne series",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What year did the Nintendo Switch launch?",
+      "a": "2017",
+      "angle": "open world"
+    },
+    {
+      "q": "What is the currency in Minecraft?",
+      "a": "Emeralds (trading with villagers)",
+      "angle": "crafting"
+    },
+    {
+      "q": "Who won The Game Awards 2018?",
+      "a": "God of War",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What game has sold over 200 million copies?",
+      "a": "Minecraft",
+      "angle": "crafting"
+    },
+    {
+      "q": "Who composed the music for Halo?",
+      "a": "Martin O'Donnell and Michael Salvatori (original trilogy)",
+      "angle": "music"
+    },
+    {
+      "q": "What is the highest difficulty in Dark Souls games called?",
+      "a": "No official; self-imposed SL1/no-hit runs (NG+ cycles increase)",
+      "angle": "challenge"
+    },
+    {
+      "q": "What was the first commercial battle royale hit?",
+      "a": "PUBG (2017) popularized the mode commercially",
+      "angle": "history"
+    },
+    {
+      "q": "What Soulslike set in Japan released in 2019?",
+      "a": "Sekiro: Shadows Die Twice",
+      "angle": "titles"
+    },
+    {
+      "q": "What studio created Hollow Knight?",
+      "a": "Team Cherry",
+      "angle": "indie"
+    },
+    {
+      "q": "What year did GTA V originally release?",
+      "a": "2013",
+      "angle": "history"
+    },
+    {
+      "q": "What is the map name in Elden Ring's capital?",
+      "a": "Leyndell, Royal Capital",
+      "angle": "lore"
+    },
+    {
+      "q": "What engine powers Call of Duty Warzone (2020)?",
+      "a": "IW engine (Infinity Ward's engine)",
+      "angle": "tech"
+    },
+    {
+      "q": "What is the rank above Platinum in many games?",
+      "a": "Diamond (varies by game)",
+      "angle": "competitive"
+    },
+    {
+      "q": "Who owns Steam platform?",
+      "a": "Valve Corporation",
+      "angle": "industry"
+    },
+    {
+      "q": "What is the name of the Elden Ring world?",
+      "a": "The Lands Between",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the director of Death Stranding?",
+      "a": "Hideo Kojima",
+      "angle": "creator"
+    },
+    {
+      "q": "What year did Half-Life: Alyx release?",
+      "a": "2020",
+      "angle": "history"
+    },
+    {
+      "q": "What is the real-time ray tracing API from NVIDIA called?",
+      "a": "RTX (using DXR/Vulkan extensions)",
+      "angle": "tech"
+    },
+    {
+      "q": "What was the original name of PUBG's designer?",
+      "a": "Brendan \"PlayerUnknown\" Greene",
+      "angle": "creator"
+    },
+    {
+      "q": "Which CS:GO successor launched in 2023?",
+      "a": "Counter-Strike 2",
+      "angle": "history"
+    },
+    {
+      "q": "What is the name of Kratos's axe?",
+      "a": "Leviathan Axe",
+      "angle": "lore"
+    },
+    {
+      "q": "What does DLSS stand for?",
+      "a": "Deep Learning Super Sampling",
+      "angle": "tech"
+    },
+    {
+      "q": "Which Monster Hunter entry introduced the Clutch Claw?",
+      "a": "Monster Hunter World: Iceborne",
+      "angle": "mechanic"
+    },
+    {
+      "q": "What handheld PC did Valve release in 2022?",
+      "a": "Steam Deck",
+      "angle": "hardware"
+    }
+  ]
+}

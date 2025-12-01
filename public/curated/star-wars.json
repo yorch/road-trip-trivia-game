@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "What weapon does a Jedi carry?",
+      "a": "A lightsaber",
+      "angle": "iconic scene"
+    },
+    {
+      "q": "Who is Luke Skywalker's father?",
+      "a": "Darth Vader (Anakin Skywalker)",
+      "angle": "plot twist"
+    },
+    {
+      "q": "What is Han Solo's ship called?",
+      "a": "The Millennium Falcon",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who is Princess Leia's twin brother?",
+      "a": "Luke Skywalker",
+      "angle": "family"
+    },
+    {
+      "q": "Which droid speaks in beeps and whistles?",
+      "a": "R2-D2",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who says 'May the Force be with you' first in A New Hope?",
+      "a": "General Dodonna (then others repeat)",
+      "angle": "quote"
+    },
+    {
+      "q": "What planet has twin suns?",
+      "a": "Tatooine",
+      "angle": "location"
+    },
+    {
+      "q": "What color is Luke's first lightsaber?",
+      "a": "Blue",
+      "angle": "iconic scene"
+    },
+    {
+      "q": "Who trained Luke Skywalker first?",
+      "a": "Obi-Wan Kenobi",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who is Han Solo's Wookiee co-pilot?",
+      "a": "Chewbacca",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What color is Darth Vader's lightsaber?",
+      "a": "Red",
+      "angle": "villain"
+    },
+    {
+      "q": "What do Stormtroopers wear?",
+      "a": "White armor",
+      "angle": "troopers"
+    },
+    {
+      "q": "What small green Jedi Master lives on Dagobah?",
+      "a": "Yoda",
+      "angle": "mentor"
+    },
+    {
+      "q": "What planet is an ice world?",
+      "a": "Hoth",
+      "angle": "location"
+    },
+    {
+      "q": "What does Han Solo get frozen in?",
+      "a": "Carbonite",
+      "angle": "twist"
+    },
+    {
+      "q": "Who is the golden protocol droid?",
+      "a": "C-3PO",
+      "angle": "sidekick"
+    },
+    {
+      "q": "Who is the Mandalorian's foundling?",
+      "a": "Grogu (Baby Yoda)",
+      "angle": "tv"
+    },
+    {
+      "q": "What is the evil government in the original trilogy?",
+      "a": "The Galactic Empire",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the Rebel Alliance princess?",
+      "a": "Leia Organa",
+      "angle": "hero"
+    },
+    {
+      "q": "What fighter does Luke fly in the Death Star trench?",
+      "a": "An X-wing",
+      "angle": "battle"
+    },
+    {
+      "q": "Who owns Cloud City?",
+      "a": "Lando Calrissian",
+      "angle": "ally"
+    },
+    {
+      "q": "What species is Chewbacca?",
+      "a": "Wookiee",
+      "angle": "species"
+    },
+    {
+      "q": "Who shot first in the Mos Eisley cantina?",
+      "a": "Han Solo (original cut)",
+      "angle": "debate"
+    },
+    {
+      "q": "Who is Kylo Ren's mother?",
+      "a": "Leia Organa",
+      "angle": "family"
+    },
+    {
+      "q": "What is Rey's staff weapon later replaced by?",
+      "a": "A yellow-bladed lightsaber",
+      "angle": "sequel"
+    },
+    {
+      "q": "What color is Yoda's lightsaber?",
+      "a": "Green",
+      "angle": "duel"
+    },
+    {
+      "q": "Who commands the Death Star in A New Hope?",
+      "a": "Grand Moff Tarkin",
+      "angle": "villain"
+    },
+    {
+      "q": "Who is the Supreme Leader in the sequels?",
+      "a": "Snoke (then Kylo Ren)",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the First Order's planet-killing base?",
+      "a": "Starkiller Base",
+      "angle": "battle"
+    },
+    {
+      "q": "Who is the astromech painted orange and white in the sequels?",
+      "a": "BB-8",
+      "angle": "sidekick"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Which planet does the first Death Star destroy?",
+      "a": "Alderaan",
+      "angle": "plot twist"
+    },
+    {
+      "q": "Who commands the Rebel assault at the Battle of Hoth?",
+      "a": "General Rieekan and Leia (overall), with Luke leading Rogue Squadron",
+      "angle": "battle"
+    },
+    {
+      "q": "What is the name of Boba Fett's ship?",
+      "a": "Slave I (Firespray-31)",
+      "angle": "bounty hunter"
+    },
+    {
+      "q": "Who directed Star Wars (1977)?",
+      "a": "George Lucas",
+      "angle": "director"
+    },
+    {
+      "q": "What is Coruscant known for?",
+      "a": "Galactic capital and Jedi Temple world",
+      "angle": "location"
+    },
+    {
+      "q": "Which bounty hunter captures Han in Empire?",
+      "a": "Boba Fett",
+      "angle": "villain"
+    },
+    {
+      "q": "In what year did A New Hope release?",
+      "a": "1977",
+      "angle": "history"
+    },
+    {
+      "q": "Who is Anakin Skywalker's secret wife?",
+      "a": "Padmé Amidala",
+      "angle": "plot twist"
+    },
+    {
+      "q": "What is Emperor Palpatine's Sith name?",
+      "a": "Darth Sidious",
+      "angle": "villain"
+    },
+    {
+      "q": "On what desert planet do Rey and Finn meet?",
+      "a": "Jakku",
+      "angle": "sequel"
+    },
+    {
+      "q": "Who is Kylo Ren's father?",
+      "a": "Han Solo",
+      "angle": "family"
+    },
+    {
+      "q": "What species is Ahsoka Tano?",
+      "a": "Togruta",
+      "angle": "animated"
+    },
+    {
+      "q": "What is the Mandalorian's real name?",
+      "a": "Din Djarin",
+      "angle": "tv"
+    },
+    {
+      "q": "Who cuts off Anakin's arm in Episode II?",
+      "a": "Count Dooku",
+      "angle": "duel"
+    },
+    {
+      "q": "What is Finn's stormtrooper designation?",
+      "a": "FN-2187",
+      "angle": "sequel"
+    },
+    {
+      "q": "What forest moon orbits the second Death Star?",
+      "a": "Endor",
+      "angle": "location"
+    },
+    {
+      "q": "Who leads Rogue One's ground team on Scarif?",
+      "a": "Cassian Andor and Jyn Erso",
+      "angle": "spinoff"
+    },
+    {
+      "q": "What material powers lightsabers?",
+      "a": "Kyber crystals",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the clone template for the Grand Army?",
+      "a": "Jango Fett",
+      "angle": "clone wars"
+    },
+    {
+      "q": "What order commands Jedi extermination?",
+      "a": "Order 66",
+      "angle": "twist"
+    },
+    {
+      "q": "Who says 'I find your lack of faith disturbing'?",
+      "a": "Darth Vader",
+      "angle": "quote"
+    },
+    {
+      "q": "What is General Grievous known for collecting?",
+      "a": "Jedi lightsabers",
+      "angle": "villain"
+    },
+    {
+      "q": "Who built C-3PO?",
+      "a": "Anakin Skywalker",
+      "angle": "origin"
+    },
+    {
+      "q": "What is Leia's adoptive home planet?",
+      "a": "Alderaan",
+      "angle": "family"
+    },
+    {
+      "q": "Who trains Rey in The Last Jedi?",
+      "a": "Luke Skywalker (reluctantly)",
+      "angle": "mentor"
+    },
+    {
+      "q": "Who is the Supreme Chancellor before Palpatine?",
+      "a": "Finis Valorum",
+      "angle": "politics"
+    },
+    {
+      "q": "What are the elite guards in red called?",
+      "a": "Imperial Royal Guard (Praetorian in sequels)",
+      "angle": "villain"
+    },
+    {
+      "q": "Who plays Mace Windu?",
+      "a": "Samuel L. Jackson",
+      "angle": "casting"
+    },
+    {
+      "q": "What is the name of Luke's X-wing droid?",
+      "a": "R2-D2",
+      "angle": "sidekick"
+    },
+    {
+      "q": "What planet is the Jedi Temple built on?",
+      "a": "Coruscant",
+      "angle": "lore"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Who trained Qui-Gon Jinn as a Padawan?",
+      "a": "Count Dooku",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the Sith Rule of Two?",
+      "a": "Only two Sith: a master and an apprentice",
+      "angle": "villain"
+    },
+    {
+      "q": "What was Anakin's midi-chlorian count?",
+      "a": "Over 20,000",
+      "angle": "lore"
+    },
+    {
+      "q": "Which film was nearly titled 'Revenge of the Jedi'?",
+      "a": "Return of the Jedi",
+      "angle": "production"
+    },
+    {
+      "q": "What is Yoda's species called?",
+      "a": "Unknown / unnamed",
+      "angle": "mystery"
+    },
+    {
+      "q": "Which actor wore the Vader suit in the OT?",
+      "a": "David Prowse",
+      "angle": "casting"
+    },
+    {
+      "q": "What was Star Wars originally titled?",
+      "a": "The Adventures of Luke Starkiller",
+      "angle": "production"
+    },
+    {
+      "q": "Who said the line correctly: 'No, I am your father'?",
+      "a": "Darth Vader",
+      "angle": "quote"
+    },
+    {
+      "q": "What is Count Dooku's Sith name?",
+      "a": "Darth Tyranus",
+      "angle": "villain"
+    },
+    {
+      "q": "Who first uses Force lightning on screen?",
+      "a": "Emperor Palpatine",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the name of the Mandalorian black-bladed saber?",
+      "a": "The Darksaber",
+      "angle": "artifact"
+    },
+    {
+      "q": "Who killed Qui-Gon Jinn?",
+      "a": "Darth Maul",
+      "angle": "duel"
+    },
+    {
+      "q": "What planet do the Wookiees call home?",
+      "a": "Kashyyyk",
+      "angle": "species"
+    },
+    {
+      "q": "Who voices Darth Vader in the OT?",
+      "a": "James Earl Jones",
+      "angle": "casting"
+    },
+    {
+      "q": "Who is Anakin's mother?",
+      "a": "Shmi Skywalker",
+      "angle": "family"
+    },
+    {
+      "q": "What is the name of the clone inhibitor chip trigger?",
+      "a": "Order 66",
+      "angle": "clone wars"
+    },
+    {
+      "q": "Which clone captain resists Order 66 in Rebels?",
+      "a": "Captain Rex (after removing his chip)",
+      "angle": "animated"
+    },
+    {
+      "q": "Who created the original Star Wars score?",
+      "a": "John Williams",
+      "angle": "music"
+    },
+    {
+      "q": "What bounty hunter killed Jango Fett?",
+      "a": "Mace Windu",
+      "angle": "battle"
+    },
+    {
+      "q": "What planet is Obi-Wan on when he learns of Order 66?",
+      "a": "Utapau",
+      "angle": "lore"
+    },
+    {
+      "q": "What species is Admiral Ackbar?",
+      "a": "Mon Calamari",
+      "angle": "species"
+    },
+    {
+      "q": "Who is the Kaminoan cloner who greets Obi-Wan?",
+      "a": "Taun We",
+      "angle": "lore"
+    },
+    {
+      "q": "What substance powers the Death Star superlaser?",
+      "a": "Kyber crystal energy",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the Grand Admiral with blue skin?",
+      "a": "Thrawn",
+      "angle": "expanded"
+    },
+    {
+      "q": "What is the name of Saw Gerrera's home city on Jedha?",
+      "a": "Jedha City (NiJedha)",
+      "angle": "spinoff"
+    },
+    {
+      "q": "What year did The Phantom Menace release?",
+      "a": "1999",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the Zabrak Sith with double-bladed saber?",
+      "a": "Darth Maul",
+      "angle": "villain"
+    },
+    {
+      "q": "What is Bo-Katan Kryze's faction called in TCW?",
+      "a": "The Nite Owls (and part of Death Watch)",
+      "angle": "lore"
+    },
+    {
+      "q": "Who was the first Jedi to appear on screen chronologically?",
+      "a": "Qui-Gon Jinn in Episode I",
+      "angle": "timeline"
+    },
+    {
+      "q": "What is the designation of Luke's X-wing at Yavin?",
+      "a": "Red Five",
+      "angle": "battle"
+    }
+  ]
+}

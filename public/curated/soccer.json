@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "q": "How many players start per team on the field?",
+      "a": "11",
+      "angle": "rules"
+    },
+    {
+      "q": "What is three goals by one player called?",
+      "a": "A hat trick",
+      "angle": "record"
+    },
+    {
+      "q": "What jersey number is often the playmaker?",
+      "a": "Number 10",
+      "angle": "tradition"
+    },
+    {
+      "q": "Which body parts can't field players use?",
+      "a": "Hands and arms (except throw-ins)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the World Cup trophy called?",
+      "a": "FIFA World Cup Trophy",
+      "angle": "world cup"
+    },
+    {
+      "q": "How long is a standard match?",
+      "a": "90 minutes (two 45-minute halves)",
+      "angle": "rules"
+    },
+    {
+      "q": "What color card ejects a player?",
+      "a": "Red card",
+      "angle": "discipline"
+    },
+    {
+      "q": "What is the keeper's main job?",
+      "a": "Prevent goals / stop shots",
+      "angle": "position"
+    },
+    {
+      "q": "How often is the men's World Cup held?",
+      "a": "Every 4 years",
+      "angle": "world cup"
+    },
+    {
+      "q": "What restarts when ball crosses the sideline?",
+      "a": "Throw-in",
+      "angle": "rules"
+    },
+    {
+      "q": "What restart when attacking team last touches over goal line?",
+      "a": "Goal kick",
+      "angle": "rules"
+    },
+    {
+      "q": "What restart when defenders last touch over goal line?",
+      "a": "Corner kick",
+      "angle": "rules"
+    },
+    {
+      "q": "What shape is a soccer field?",
+      "a": "A rectangle",
+      "angle": "rules"
+    },
+    {
+      "q": "What do we call the biggest international tournament?",
+      "a": "The FIFA World Cup",
+      "angle": "world cup"
+    },
+    {
+      "q": "What does VAR stand for?",
+      "a": "Video Assistant Referee",
+      "angle": "modern"
+    },
+    {
+      "q": "How many substitutes can a team use in most leagues now?",
+      "a": "Five (since 2020-era competitions)",
+      "angle": "rules"
+    },
+    {
+      "q": "What does a yellow card mean?",
+      "a": "A caution",
+      "angle": "discipline"
+    },
+    {
+      "q": "What is the name of the penalty spot distance?",
+      "a": "12 yards (11 meters) from goal line",
+      "angle": "rules"
+    },
+    {
+      "q": "How many points for a win in league play?",
+      "a": "Three points",
+      "angle": "scoring"
+    },
+    {
+      "q": "What is stoppage time?",
+      "a": "Added time at end of each half",
+      "angle": "rules"
+    },
+    {
+      "q": "What is a bicycle kick?",
+      "a": "An overhead acrobatic kick while airborne",
+      "angle": "skills"
+    },
+    {
+      "q": "What is the job of defenders?",
+      "a": "Protect the goal and stop attacks",
+      "angle": "position"
+    },
+    {
+      "q": "What is a clean sheet?",
+      "a": "Conceding zero goals",
+      "angle": "record"
+    },
+    {
+      "q": "What is a nutmeg?",
+      "a": "Playing the ball through an opponent's legs",
+      "angle": "skill"
+    },
+    {
+      "q": "What is a brace?",
+      "a": "Scoring two goals by one player in a match",
+      "angle": "record"
+    },
+    {
+      "q": "What is the penalty for serious foul play?",
+      "a": "Direct red card",
+      "angle": "discipline"
+    },
+    {
+      "q": "What is the minimum number of players to start a match?",
+      "a": "Seven",
+      "angle": "rules"
+    },
+    {
+      "q": "What surface are most top matches played on?",
+      "a": "Grass or high-quality turf",
+      "angle": "context"
+    },
+    {
+      "q": "Where does the goalkeeper take a goal kick from?",
+      "a": "Anywhere in the goal area (6-yard box)",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the FIFA women's World Cup cycle?",
+      "a": "Every 4 years offset from men's by 2 years",
+      "angle": "world cup"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Which country has the most men's World Cups?",
+      "a": "Brazil (5)",
+      "angle": "world cup"
+    },
+    {
+      "q": "What is Lionel Messi's nationality?",
+      "a": "Argentine",
+      "angle": "stars"
+    },
+    {
+      "q": "Which club is nicknamed The Red Devils?",
+      "a": "Manchester United",
+      "angle": "clubs"
+    },
+    {
+      "q": "What is a derby?",
+      "a": "A match between local or historic rivals",
+      "angle": "culture"
+    },
+    {
+      "q": "What does UEFA stand for?",
+      "a": "Union of European Football Associations",
+      "angle": "org"
+    },
+    {
+      "q": "What position links defense and attack?",
+      "a": "Midfielder",
+      "angle": "tactics"
+    },
+    {
+      "q": "What is Europe's top club competition?",
+      "a": "UEFA Champions League",
+      "angle": "trophies"
+    },
+    {
+      "q": "Who hosted the 2022 men's World Cup?",
+      "a": "Qatar",
+      "angle": "world cup"
+    },
+    {
+      "q": "Who won the 2019 Women's World Cup?",
+      "a": "United States",
+      "angle": "world cup"
+    },
+    {
+      "q": "What is the offside rule's key moment?",
+      "a": "Position is judged when the ball is played by a teammate",
+      "angle": "rules"
+    },
+    {
+      "q": "How long is halftime?",
+      "a": "15 minutes",
+      "angle": "rules"
+    },
+    {
+      "q": "What is the standard size of a soccer ball?",
+      "a": "Size 5 for adults",
+      "angle": "equipment"
+    },
+    {
+      "q": "Which club has the most European Cups/Champions Leagues?",
+      "a": "Real Madrid",
+      "angle": "records"
+    },
+    {
+      "q": "What is a treble in club football?",
+      "a": "Winning league, main domestic cup, and Champions League in same season",
+      "angle": "achievements"
+    },
+    {
+      "q": "Who won Ballon d'Or 2023?",
+      "a": "Lionel Messi",
+      "angle": "awards"
+    },
+    {
+      "q": "What is xG an abbreviation for?",
+      "a": "Expected Goals",
+      "angle": "analytics"
+    },
+    {
+      "q": "Who is known as CR7?",
+      "a": "Cristiano Ronaldo",
+      "angle": "stars"
+    },
+    {
+      "q": "Which country won Euro 2016?",
+      "a": "Portugal",
+      "angle": "tournaments"
+    },
+    {
+      "q": "What country hosts El Clásico clubs?",
+      "a": "Spain (Real Madrid vs Barcelona)",
+      "angle": "rivalries"
+    },
+    {
+      "q": "Who managed Manchester United's long dynasty era?",
+      "a": "Sir Alex Ferguson",
+      "angle": "managers"
+    },
+    {
+      "q": "What national team is called the Three Lions?",
+      "a": "England",
+      "angle": "nicknames"
+    },
+    {
+      "q": "What is the handball rule inside your own box for GK?",
+      "a": "Goalkeeper can handle within their own penalty area",
+      "angle": "rules"
+    },
+    {
+      "q": "Which competition uses promotion and relegation widely?",
+      "a": "Most domestic leagues (e.g., Premier League)",
+      "angle": "structure"
+    },
+    {
+      "q": "What is a panenka penalty?",
+      "a": "A chipped penalty down the middle",
+      "angle": "skills"
+    },
+    {
+      "q": "Who scored the 'Hand of God' goal?",
+      "a": "Diego Maradona (1986)",
+      "angle": "history"
+    },
+    {
+      "q": "What club did Pelé famously play for in Brazil?",
+      "a": "Santos FC",
+      "angle": "history"
+    },
+    {
+      "q": "What is the 'double' in club football?",
+      "a": "Winning league and main domestic cup same season",
+      "angle": "achievements"
+    },
+    {
+      "q": "What is a false nine?",
+      "a": "A forward who drops into midfield to create play",
+      "angle": "tactics"
+    },
+    {
+      "q": "Which league is called Serie A?",
+      "a": "Italy's top division",
+      "angle": "leagues"
+    },
+    {
+      "q": "Who is nicknamed 'El Pibe de Oro'?",
+      "a": "Diego Maradona",
+      "angle": "stars"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What year was the first FIFA World Cup held?",
+      "a": "1930",
+      "angle": "history"
+    },
+    {
+      "q": "Who has the most men's World Cup goals?",
+      "a": "Miroslav Klose (16)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the world-record transfer fee?",
+      "a": "€222 million (Neymar to PSG in 2017)",
+      "angle": "transfer"
+    },
+    {
+      "q": "How many Ballon d'Or awards does Lionel Messi have (as of 2023)?",
+      "a": "Eight",
+      "angle": "awards"
+    },
+    {
+      "q": "What stadium is nicknamed The Theatre of Dreams?",
+      "a": "Old Trafford",
+      "angle": "venues"
+    },
+    {
+      "q": "Who won the first World Cup?",
+      "a": "Uruguay (1930)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the all-time UEFA Champions League top scorer?",
+      "a": "Cristiano Ronaldo",
+      "angle": "records"
+    },
+    {
+      "q": "What year did women's soccer become an Olympic medal sport?",
+      "a": "1996 Atlanta Olympics",
+      "angle": "history"
+    },
+    {
+      "q": "Who has the most Champions League titles as a player?",
+      "a": "Paco Gento (6 with Real Madrid)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the fastest World Cup goal?",
+      "a": "Hakan Şükür's 11-second goal in 2002",
+      "angle": "records"
+    },
+    {
+      "q": "Who was the youngest men's World Cup winner?",
+      "a": "Pelé at 17 in 1958",
+      "angle": "records"
+    },
+    {
+      "q": "Which club completed an unbeaten 'Invincibles' Premier League season?",
+      "a": "Arsenal (2003-04)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the only manager to win the UCL with two different clubs twice?",
+      "a": "Carlo Ancelotti (Milan and Real Madrid)",
+      "angle": "managers"
+    },
+    {
+      "q": "What is the 'Bosman ruling'?",
+      "a": "1995 EU ruling allowing free transfers after contract expiry",
+      "angle": "law"
+    },
+    {
+      "q": "Who invented Total Football tactics?",
+      "a": "Rinus Michels (popularized with Ajax/Netherlands)",
+      "angle": "tactics"
+    },
+    {
+      "q": "Which African nation first reached a World Cup quarterfinal?",
+      "a": "Cameroon (1990)",
+      "angle": "history"
+    },
+    {
+      "q": "What is the record Premier League points total?",
+      "a": "100 points (Manchester City 2017-18)",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the most international goals in men's football (as of 2023)?",
+      "a": "Cristiano Ronaldo",
+      "angle": "records"
+    },
+    {
+      "q": "Which club has the most Copa Libertadores titles?",
+      "a": "Independiente (7)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the minimum width of a regulation goal?",
+      "a": "7.32 meters wide (8 yards)",
+      "angle": "laws"
+    },
+    {
+      "q": "Who is known as 'The Pharaoh' in modern football?",
+      "a": "Mohamed Salah",
+      "angle": "stars"
+    },
+    {
+      "q": "Which country hosted the 1950 World Cup?",
+      "a": "Brazil",
+      "angle": "history"
+    },
+    {
+      "q": "Who scored the 'Goal of the Century' in 1986?",
+      "a": "Diego Maradona vs England",
+      "angle": "history"
+    },
+    {
+      "q": "What team won the first Women's World Cup (1991)?",
+      "a": "United States",
+      "angle": "history"
+    },
+    {
+      "q": "Who has the most UEFA Euro titles?",
+      "a": "Germany and Spain (three each)",
+      "angle": "records"
+    },
+    {
+      "q": "What club uses the motto 'Mes que un club'?",
+      "a": "FC Barcelona",
+      "angle": "identity"
+    },
+    {
+      "q": "What is the away goals rule status in UEFA competitions as of 2021-22?",
+      "a": "Abolished; away goals no longer decide ties",
+      "angle": "rules"
+    },
+    {
+      "q": "Who was the first goalkeeper to win the Yashin Trophy (Ballon d'Or GK award)?",
+      "a": "Alisson Becker (2019)",
+      "angle": "awards"
+    },
+    {
+      "q": "Who is the youngest player ever to debut in a World Cup finals match?",
+      "a": "Norman Whiteside (17 years 41 days, 1982)",
+      "angle": "records"
+    },
+    {
+      "q": "Who is the only player to score in five different men's World Cups?",
+      "a": "Cristiano Ronaldo (as of 2022)",
+      "angle": "records"
+    }
+  ]
+}
