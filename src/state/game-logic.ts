@@ -9,12 +9,12 @@ import {
   endStateSignal,
   getOrCreateQuestions,
   getProgress,
+  loadLastTopic,
   questionModeSignal,
   revealedSignal,
   saveLastTopic,
   saveProgress,
   scoreSignal,
-  showTopicPickerSignal,
   streakSignal,
   topicIdSignal,
 } from './index';
@@ -130,21 +130,37 @@ export function resetProgress(): void {
   );
 }
 
-// Select topic and start
-export function selectTopicAndStart(topicId: string): void {
+// Resume game or start new topic based on routing
+export function resumeGame(topicId: string): void {
   const topic = topicListSignal.value.find((t) => t.id === topicId);
   if (!topic) {
     ErrorHandler.critical(`Topic not found: ${topicId}`);
     return;
   }
 
+  const currentTopic = topicIdSignal.value;
+
+  const persistedTopic = loadLastTopic();
+
+  // If we are already on this topic, do nothing
+  if (currentTopic === topicId) return;
+
+  // Logic to determine if we should reset the streak:
+  // 1. Switching from one active topic to another (currentTopic is set and different)
+  // 2. Loading fresh (currentTopic is null), BUT the requested topic is different from the last saved one.
+  const isTopicSwitch = currentTopic && currentTopic !== topicId;
+  const isNewSessionDifferentTopic =
+    !currentTopic && persistedTopic && persistedTopic !== topicId;
+
+  if (isTopicSwitch || isNewSessionDifferentTopic) {
+    streakSignal.value = 0;
+  }
+
+  // If neither above is true, we preserve the streak (restored from localStorage in initGame)
+
   topicIdSignal.value = topicId;
-  streakSignal.value = 0;
-  showTopicPickerSignal.value = false;
   saveLastTopic(topicId);
 
-  // Check if we have answer examples for this topic
-  // If not, and we're in "All" mode, we might want to warn or switch to curated?
-  // For now, just proceed - the generator will handle it
+  // Ensure questions are loaded and ready
   nextQuestion();
 }

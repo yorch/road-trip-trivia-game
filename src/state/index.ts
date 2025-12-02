@@ -44,7 +44,6 @@ export const currentQuestionSignal: Signal<Question | null> = signal(null);
 export const endStateSignal: Signal<{ title: string; message: string } | null> =
   signal(null);
 
-export const showTopicPickerSignal: Signal<boolean> = signal(false);
 export const showCuratedListSignal: Signal<boolean> = signal(false);
 
 // Wrapper for saveProgress to maintain existing API

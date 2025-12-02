@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { useLocation } from 'wouter-preact';
 import {
   answerExamplesSignal,
   loadAnswerExamples,
@@ -8,13 +9,14 @@ import {
   hasCuratedQuestions,
   loadCuratedTopicIndex,
   showCuratedListSignal,
-  showTopicPickerSignal,
+  topicIdSignal,
 } from '../state';
-import { selectTopicAndStart } from '../state/game-logic';
+
 import type { Topic } from '../types';
+import { CuratedListDialog } from './CuratedListDialog';
 
 export function TopicPicker() {
-  const show = showTopicPickerSignal.value;
+  const [, setLocation] = useLocation();
   const topicList = topicListSignal.value;
   const answerExamples = answerExamplesSignal.value;
   const [search, setSearch] = useState('');
@@ -25,18 +27,16 @@ export function TopicPicker() {
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (show) {
-      setLoading(true);
-      Promise.all([loadAnswerExamples(), loadCuratedTopicIndex()]).then(() =>
-        setLoading(false),
-      );
+    setLoading(true);
+    Promise.all([loadAnswerExamples(), loadCuratedTopicIndex()]).then(() =>
+      setLoading(false),
+    );
 
-      // Focus search input
-      if (searchInputRef.current) {
-        searchInputRef.current.focus();
-      }
+    // Focus search input
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
     }
-  }, [show]);
+  }, []);
 
   const filteredTopics = useMemo(() => {
     if (!topicList) return [];
@@ -78,10 +78,8 @@ export function TopicPicker() {
 
   const categories = Object.keys(groupedTopics).sort();
 
-  if (!show) return null;
-
   return (
-    <div class="topic-picker-overlay" role="dialog" aria-modal="true">
+    <div class="topic-picker-page">
       <div class="topic-picker">
         <div class="topic-picker-header">
           <div>
@@ -112,15 +110,19 @@ export function TopicPicker() {
             >
               ↻ Reload
             </button>
-            <button
-              type="button"
-              class="ghost"
-              onClick={() => {
-                showTopicPickerSignal.value = false;
-              }}
-            >
-              Close
-            </button>
+            {topicIdSignal.value && (
+              <button
+                type="button"
+                class="ghost"
+                onClick={() => {
+                  if (topicIdSignal.value) {
+                    setLocation(`/topic/${topicIdSignal.value}`);
+                  }
+                }}
+              >
+                Back to Game
+              </button>
+            )}
           </div>
         </div>
 
@@ -184,8 +186,7 @@ export function TopicPicker() {
                         class="topic-card"
                         key={topic.id}
                         onClick={() => {
-                          selectTopicAndStart(topic.id);
-                          showTopicPickerSignal.value = false;
+                          setLocation(`/topic/${topic.id}`);
                         }}
                       >
                         <span class="topic-card-name">
@@ -228,6 +229,7 @@ export function TopicPicker() {
           )}
         </div>
       </div>
+      <CuratedListDialog />
     </div>
   );
 }

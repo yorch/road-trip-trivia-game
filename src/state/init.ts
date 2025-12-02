@@ -8,21 +8,17 @@ import {
 } from '../data/data';
 import type { ScoreboardData } from '../types';
 import { ErrorHandler, ToastManager } from '../utils';
-import { nextQuestion } from './game-logic';
 import {
   askedSignal,
   difficultySignal,
   loadDifficulty,
-  loadLastTopic,
   loadProgress,
   loadQuestionMode,
   loadScoreboard,
   progress,
   questionModeSignal,
   scoreSignal,
-  showTopicPickerSignal,
   streakSignal,
-  topicIdSignal,
 } from './index';
 
 let localStorageWarningShown = false;
@@ -123,15 +119,4 @@ export async function initGame(): Promise<void> {
 
   // Remove loading state
   document.body.classList.remove('loading');
-
-  // Check if there's a saved topic from last session
-  const lastTopic = loadLastTopic();
-  if (lastTopic && topicListSignal.value.find((t) => t.id === lastTopic)) {
-    // Resume with saved topic
-    topicIdSignal.value = lastTopic;
-    nextQuestion();
-  } else {
-    // First visit or invalid saved topic - show picker
-    showTopicPickerSignal.value = true;
-  }
 }
