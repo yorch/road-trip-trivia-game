@@ -4016,9 +4016,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"road-trip-trivia@workspace:.":
+"road-trip-trivia-game@workspace:.":
   version: 0.0.0-use.local
-  resolution: "road-trip-trivia@workspace:."
+  resolution: "road-trip-trivia-game@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.3.8"
     "@preact/preset-vite": "npm:2.10.2"
