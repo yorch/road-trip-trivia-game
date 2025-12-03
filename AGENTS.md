@@ -6,9 +6,9 @@ This file provides guidance to AI Agents when working with code in this reposito
 
 Road Trip Trivia is a TypeScript trivia game application built with Vite. Features:
 
-- 81 topics across 9 categories (Movies & TV, Books & Lore, Music, Theater, History, Science & Nature, Sports & Games, Travel & Places, Lifestyle & Fun)
+- 43 topics across 7 categories (Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places)
 - Three difficulty levels (easy, medium, hard) with 80 questions each
-- Curated factual questions loaded from JSON (240+ questions across priority topics)
+- 5000+ curated factual questions loaded from JSON (31 priority topics)
 - Generated questions using templates and real answer examples
 - Question mode toggle: "All questions" vs "Curated only"
 - Score tracking, streak management, and progress persistence via localStorage
@@ -101,7 +101,7 @@ yarn format           # Format code with Biome
 **src/data/data.ts** (203 lines) - Data module and loader
 
 - `loadStaticData()`: Async function to load topics and answer examples from JSON files
-- `topicList`: Empty array populated by loadStaticData() - 81 topics with id, name, category, tags
+- `topicList`: Empty array populated by loadStaticData() - 43 topics with id, name, category, tags
 - `answerExamples`: Empty object populated by loadStaticData() - real-world answers by topic → angle
 - `categoryAngles`: Category-specific question perspectives (kept in TypeScript)
 - `promptTemplates`: Question templates by difficulty (kept in TypeScript)
@@ -109,14 +109,14 @@ yarn format           # Format code with Biome
 
 **public/data/topics.json** (12 KB) - Topic list data
 
-- JSON array of 81 topics with id, name, category, tags
+- JSON array of 43 topics with id, name, category, tags
 - Loaded asynchronously at app initialization via fetch()
 - Available offline via PWA service worker caching
 
 **public/data/answer-examples.json** (16 KB) - Answer examples data
 
 - JSON object mapping topics to answer examples by angle
-- Real-world examples for 11 topics (lotr, star-wars, marvel, harry-potter, music-legends, us-history, space-exploration, soccer, disney-classics, modern-games, world-history)
+- Real-world examples for 32 topics
 - Loaded asynchronously at app initialization via fetch()
 - Available offline via PWA service worker caching
 
@@ -292,7 +292,7 @@ These are used when generating template-based questions to provide factual conte
 ## Key Technologies
 
 - **TypeScript 5.9.3**: Type-safe development with strict mode
-- **Vite 7.2.4**: Fast build tool and dev server
-- **Preact Signals 1.12.1**: Fine-grained reactive state management
+- **Vite 7.2.6**: Fast build tool and dev server
+- **Preact Signals 2.5.1**: Fine-grained reactive state management
 - **Biome 2.3.8**: Fast linting and formatting
 - **vite-plugin-pwa 1.2.0**: Progressive Web App capabilities with Workbox

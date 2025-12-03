@@ -4,9 +4,9 @@ A lightweight TypeScript trivia game with offline PWA capabilities, designed to 
 
 ## ✨ Features
 
-- **81 Topics** across 9 categories: Movies & TV, Books & Lore, Music, Theater, History, Science & Nature, Sports & Games, Travel & Places, and Lifestyle & Fun
+- **43 Topics** across 7 categories: Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places
 - **Three Difficulty Levels**: Easy, Medium, and Hard questions to challenge everyone
-- **240+ Curated Questions**: Hand-written factual trivia with verifiable answers
+- **5000+ Curated Questions**: Hand-written factual trivia with verifiable answers
 - **Generated Questions**: Template-based questions with real-world answer examples
 - **Two Question Modes**:
   - **All Questions**: Mix of curated and generated content (80 questions per topic/difficulty)
@@ -37,8 +37,8 @@ A lightweight TypeScript trivia game with offline PWA capabilities, designed to 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd road-trip-trivia
+git clone git@github.com:yorch/road-trip-trivia-game.git
+cd road-trip-trivia-game
 
 # Install dependencies
 yarn install
@@ -97,7 +97,7 @@ road-trip-trivia/
 │   │   │   ├── star-wars.json # Per-topic curated questions (4-12 KB each)
 │   │   │   ├── marvel.json
 │   │   │   └── ...            # 21 topic files total
-│   │   ├── topics.json        # 81 topics (12 KB)
+│   │   ├── topics.json        # 43 topics (12 KB)
 │   │   └── answer-examples.json # Answer examples (16 KB)
 │   └── icon-*.svg             # PWA icons
 ├── dist/                      # Production build output
@@ -206,10 +206,10 @@ These examples are used when generating template-based questions to provide fact
 
 ## 📱 Browser Support
 
-- Modern browsers with ES6+ module support and TypeScript compilation
-- PWA capabilities including service workers, manifest, and installability
-- localStorage for progress tracking (gracefully degrades if unavailable)
-- Recommended: Chrome, Firefox, Safari, Edge (latest versions)
+- **Modern Browsers**: Chrome, Safari, Firefox, Edge (ES2020+ support required)
+- **PWA Support**: Installable on mobile and desktop devices
+- **Offline Capability**: Service workers cache content for use without internet
+- **Storage**: Uses localStorage for saving progress
 
 ## 🤝 Contributing
 
@@ -222,7 +222,7 @@ Contributions welcome! Focus areas:
 
 ## 📄 License
 
-This project is available for personal and educational use.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 

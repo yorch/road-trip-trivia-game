@@ -1,9 +1,18 @@
 {
-  "name": "road-trip-trivia",
+  "name": "road-trip-trivia-game",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "A lightweight vanilla JavaScript trivia game for road trips",
+  "description": "A TypeScript trivia game application built with Vite for those fun road trips.",
+  "author": {
+    "name": "Jorge Barnaby",
+    "email": "jorge.barnaby@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yorch/road-trip-trivia-game.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
