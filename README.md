@@ -99,7 +99,7 @@ road-trip-trivia/
 │   │   │   └── ...            # 21 topic files total
 │   │   ├── topics.json        # 81 topics (12 KB)
 │   │   └── answer-examples.json # Answer examples (16 KB)
-│   └── icon-*.png             # PWA icons
+│   └── icon-*.svg             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
 ```

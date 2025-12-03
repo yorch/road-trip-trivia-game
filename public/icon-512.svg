@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="100%" stop-color="#2a60a2"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad)"/>
+  
+  <!-- Car -->
+  <g transform="translate(56, 150)">
+    <!-- Wheels -->
+    <circle cx="100" cy="210" r="45" fill="#333"/>
+    <circle cx="100" cy="210" r="20" fill="#ccc"/>
+    <circle cx="300" cy="210" r="45" fill="#333"/>
+    <circle cx="300" cy="210" r="20" fill="#ccc"/>
+    
+    <!-- Body -->
+    <path d="M20 120 H380 A20 20 0 0 1 400 140 V190 A20 20 0 0 1 380 210 H20 A20 20 0 0 1 0 190 V140 A20 20 0 0 1 20 120" fill="#fff"/>
+    <!-- Top -->
+    <path d="M60 120 L90 40 A 40 40 0 0 1 310 40 L340 120 Z" fill="#fff"/>
+    <!-- Window -->
+    <path d="M100 110 L120 55 A 20 20 0 0 1 280 55 L300 110 Z" fill="#4a90e2"/>
+  </g>
+  
+  <!-- Speech Bubble -->
+  <g transform="translate(280, 60)">
+    <path d="M0 0 H140 A30 30 0 0 1 170 30 V110 A30 30 0 0 1 140 140 H40 L0 180 L10 140 H0 A30 30 0 0 1 -30 110 V30 A30 30 0 0 1 0 0" fill="#ffcc00"/>
+    <text x="70" y="105" font-family="Arial, sans-serif" font-weight="bold" font-size="100" fill="#333" text-anchor="middle">?</text>
+  </g>
+</svg>
