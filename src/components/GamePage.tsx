@@ -7,7 +7,7 @@ import {
   saveQuestionMode,
   streakSignal,
 } from '../state';
-import { nextQuestion, resetProgress } from '../state/game-logic';
+import { nextQuestion } from '../state/game-logic';
 import type { Difficulty, QuestionMode } from '../types';
 import { QuestionCard } from './QuestionCard';
 import { Scoreboard } from './Scoreboard';
@@ -46,20 +46,16 @@ export function GamePage() {
         <div>
           <p class="eyebrow">Road Trip Game</p>
           <h1>Trivia Drive</h1>
-          <p class="lede">
-            Pick a topic, choose your difficulty, and keep the car buzzing with
-            rapid-fire questions everyone can enjoy.
-          </p>
           <div class="hero-actions">
             <button
               type="button"
-              class="pill"
+              class="pill ghost"
               id="chooseTopic"
               onClick={() => {
                 window.location.hash = '/';
               }}
             >
-              Choose topic
+              Change topic
             </button>
             <button
               type="button"
@@ -68,14 +64,6 @@ export function GamePage() {
               onClick={handleRandomTopic}
             >
               Surprise me
-            </button>
-            <button
-              type="button"
-              class="pill ghost"
-              id="resetProgress"
-              onClick={() => resetProgress()}
-            >
-              Reset progress
             </button>
           </div>
         </div>

@@ -162,5 +162,64 @@ export function resumeGame(topicId: string): void {
   saveLastTopic(topicId);
 
   // Ensure questions are loaded and ready
-  nextQuestion();
+  if (isTopicSwitch || isNewSessionDifferentTopic) {
+    nextQuestion();
+  } else {
+    // Resuming same topic (refresh) - restore state without advancing
+    restoreQuestion();
+  }
+}
+
+// Reset global game stats (Score, Streak, Asked)
+export function startNewTrip(): void {
+  scoreSignal.value = 0;
+  streakSignal.value = 0;
+  askedSignal.value = 0;
+  ErrorHandler.success('New trip started! Scoreboard reset.');
+}
+
+// Restore the current question without advancing stats (for page reloads)
+async function restoreQuestion(): Promise<void> {
+  const topicId = topicIdSignal.value;
+  const difficulty = difficultySignal.value;
+  const questionMode = questionModeSignal.value;
+
+  if (!topicId) return;
+
+  const prog = await getProgress(topicId, difficulty, questionMode);
+
+  // If cursor is 0, we haven't started yet, so get next question
+  if (prog.cursor === 0) {
+    nextQuestion();
+    return;
+  }
+
+  // Otherwise, try to restore the last question (cursor - 1)
+  const bank = await getOrCreateQuestions(topicId, difficulty, questionMode);
+
+  if (!bank || bank.length === 0) {
+    endStateSignal.value = {
+      title: 'No curated questions available!',
+      message:
+        "This topic doesn't have curated questions yet. Switch to 'All questions' mode.",
+    };
+    currentQuestionSignal.value = null;
+    return;
+  }
+
+  // The question we were looking at is at cursor - 1
+  const prevCursor = prog.cursor - 1;
+  const idx = prog.order[prevCursor];
+
+  // Validate index
+  if (idx >= bank.length) {
+    // If invalid, just reset via nextQuestion logic
+    nextQuestion();
+    return;
+  }
+
+  // Restore state without incrementing stats
+  revealedSignal.value = false;
+  endStateSignal.value = null;
+  currentQuestionSignal.value = bank[idx];
 }

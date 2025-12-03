@@ -8,9 +8,11 @@ import {
 import {
   hasCuratedQuestions,
   loadCuratedTopicIndex,
+  scoreSignal,
   showCuratedListSignal,
   topicIdSignal,
 } from '../state';
+import { startNewTrip } from '../state/game-logic';
 
 import type { Topic } from '../types';
 import { CuratedListDialog } from './CuratedListDialog';
@@ -110,6 +112,21 @@ export function TopicPicker() {
             >
               ↻ Reload
             </button>
+            {scoreSignal.value > 0 && (
+              <button
+                type="button"
+                class="ghost"
+                onClick={() => {
+                  if (
+                    confirm('Start a new trip? This will reset your score.')
+                  ) {
+                    startNewTrip();
+                  }
+                }}
+              >
+                New Trip
+              </button>
+            )}
             {topicIdSignal.value && (
               <button
                 type="button"

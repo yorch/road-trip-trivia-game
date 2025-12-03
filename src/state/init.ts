@@ -14,12 +14,12 @@ import {
   loadDifficulty,
   loadProgress,
   loadQuestionMode,
-  loadScoreboard,
   progress,
   questionModeSignal,
   scoreSignal,
   streakSignal,
 } from './index';
+import { loadScoreboard } from './persistence';
 
 let localStorageWarningShown = false;
 
@@ -41,29 +41,6 @@ export async function initGame(): Promise<void> {
     console.error('Topics loading failed:', error);
     return;
   }
-
-  // Auto-save scoreboard to localStorage when any value changes
-  effect(() => {
-    const score = scoreSignal.value;
-    const streak = streakSignal.value;
-    const asked = askedSignal.value;
-
-    try {
-      const scoreboardData: ScoreboardData = { score, streak, asked };
-      localStorage.setItem('scoreboard', JSON.stringify(scoreboardData));
-      localStorageWarningShown = false; // Reset on success
-    } catch (e) {
-      // Only show warning once per session to avoid toast spam
-      if (!localStorageWarningShown) {
-        ErrorHandler.warn(
-          'Unable to save progress - localStorage unavailable',
-          e instanceof Error ? e : undefined,
-        );
-        localStorageWarningShown = true;
-      }
-      console.error('localStorage save failed:', e);
-    }
-  });
 
   // Comprehensive validation: ensure all required data.js dependencies loaded correctly
   const requiredData = [
@@ -112,7 +89,34 @@ export async function initGame(): Promise<void> {
   // Load progress and scoreboard
   const loadedProgress = loadProgress();
   Object.assign(progress, loadedProgress);
-  loadScoreboard(); // Will trigger reactive effects automatically
+
+  const savedScoreboard = loadScoreboard();
+  scoreSignal.value = savedScoreboard.score;
+  streakSignal.value = savedScoreboard.streak;
+  askedSignal.value = savedScoreboard.asked;
+
+  // Auto-save scoreboard to localStorage when any value changes
+  effect(() => {
+    const score = scoreSignal.value;
+    const streak = streakSignal.value;
+    const asked = askedSignal.value;
+
+    try {
+      const scoreboardData: ScoreboardData = { score, streak, asked };
+      localStorage.setItem('scoreboard', JSON.stringify(scoreboardData));
+      localStorageWarningShown = false; // Reset on success
+    } catch (e) {
+      // Only show warning once per session to avoid toast spam
+      if (!localStorageWarningShown) {
+        ErrorHandler.warn(
+          'Unable to save progress - localStorage unavailable',
+          e instanceof Error ? e : undefined,
+        );
+        localStorageWarningShown = true;
+      }
+      console.error('localStorage save failed:', e);
+    }
+  });
 
   // Remove no-js class to show UI (CSS will handle opacity)
   document.documentElement.classList.remove('no-js');
