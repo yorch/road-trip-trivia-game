@@ -10,6 +10,7 @@ import {
   loadCuratedTopicIndex,
   scoreSignal,
   showCuratedListSignal,
+  streakSignal,
   topicIdSignal,
 } from '../state';
 import { startNewTrip } from '../state/game-logic';
@@ -83,6 +84,16 @@ export function TopicPicker() {
   return (
     <div class="topic-picker-page">
       <div class="topic-picker">
+        <div class="app-header">
+          <h1 class="app-title">Road Trip Trivia</h1>
+          {scoreSignal.value > 0 && (
+            <div class="app-stats">
+              <span title="Total Score">🏆 {scoreSignal.value}</span>
+              <span title="Current Streak">🔥 {streakSignal.value}</span>
+            </div>
+          )}
+        </div>
+
         <div class="topic-picker-header">
           <div>
             <h2>Choose Your Topic</h2>

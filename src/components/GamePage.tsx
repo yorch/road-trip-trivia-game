@@ -42,33 +42,31 @@ export function GamePage() {
 
   return (
     <div class="page">
-      <header class="hero">
-        <div>
-          <p class="eyebrow">Road Trip Game</p>
-          <h1>Trivia Drive</h1>
-          <div class="hero-actions">
-            <button
-              type="button"
-              class="pill ghost"
-              id="chooseTopic"
-              onClick={() => {
-                window.location.hash = '/';
-              }}
-            >
-              Change topic
-            </button>
-            <button
-              type="button"
-              class="pill ghost"
-              id="randomTopic"
-              onClick={handleRandomTopic}
-            >
-              Surprise me
-            </button>
-          </div>
-        </div>
+      <header class="app-header">
+        <h1 class="app-title">Road Trip Trivia</h1>
         <Scoreboard />
       </header>
+
+      <div class="hero-actions" style={{ marginBottom: '24px' }}>
+        <button
+          type="button"
+          class="pill ghost"
+          id="chooseTopic"
+          onClick={() => {
+            window.location.hash = '/';
+          }}
+        >
+          Change topic
+        </button>
+        <button
+          type="button"
+          class="pill ghost"
+          id="randomTopic"
+          onClick={handleRandomTopic}
+        >
+          Surprise me
+        </button>
+      </div>
 
       <section class="controls">
         <div class="control difficulty-control">
