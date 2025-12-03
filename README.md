@@ -91,12 +91,12 @@ road-trip-trivia/
 │   ├── utils.ts               # Utility functions
 │   └── types.ts               # TypeScript type definitions
 ├── public/
-│   ├── curated/               # Individual topic question files
-│   │   ├── index.json         # Index of available topics
-│   │   ├── star-wars.json     # Per-topic curated questions (4-12 KB each)
-│   │   ├── marvel.json
-│   │   └── ...                # 21 topic files total
 │   ├── data/                  # Static data files
+│   │   ├── curated/           # Individual topic question files
+│   │   │   ├── index.json     # Index of available topics
+│   │   │   ├── star-wars.json # Per-topic curated questions (4-12 KB each)
+│   │   │   ├── marvel.json
+│   │   │   └── ...            # 21 topic files total
 │   │   ├── topics.json        # 81 topics (12 KB)
 │   │   └── answer-examples.json # Answer examples (16 KB)
 │   └── icon-*.png             # PWA icons
@@ -134,7 +134,7 @@ Edit `public/data/topics.json` and add to the array:
 
 #### Curated Questions
 
-Edit individual topic files in `public/curated/[topic-id].json`:
+Edit individual topic files in `public/data/curated/[topic-id].json`:
 
 ```json
 {
@@ -215,7 +215,7 @@ These examples are used when generating template-based questions to provide fact
 
 Contributions welcome! Focus areas:
 
-- **Curated Questions**: Add factual trivia to `public/curated/[topic-id].json`
+- **Curated Questions**: Add factual trivia to `public/data/curated/[topic-id].json`
 - **New Topics**: Expand the topic list with interesting categories
 - **Answer Examples**: Provide real-world answers for better generated questions
 - **Bug Fixes**: Report and fix issues

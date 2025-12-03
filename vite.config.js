@@ -17,7 +17,7 @@ export default defineConfig({
     preact(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['curated/*.json', 'data/*.json'],
+      includeAssets: ['data/curated/*.json', 'data/*.json'],
       manifest: {
         name: 'Road Trip Trivia',
         short_name: 'Trivia Drive',

@@ -52,7 +52,7 @@ async function loadTopicCuratedQuestions(topicId: string): Promise<{
 
     curatedQuestionsController = new AbortController();
 
-    const response = await fetch(`/curated/${topicId}.json`, {
+    const response = await fetch(`/data/curated/${topicId}.json`, {
       signal: curatedQuestionsController.signal,
     });
 
@@ -213,7 +213,7 @@ export type CuratedIndex = Record<string, CuratedIndexStats>;
 
 export async function loadCuratedQuestionsIndex(): Promise<CuratedIndex> {
   try {
-    const indexResponse = await fetch('/curated/index.json');
+    const indexResponse = await fetch('/data/curated/index.json');
     if (indexResponse.ok) {
       return await indexResponse.json();
     }

@@ -76,7 +76,7 @@ yarn format           # Format code with Biome
   - Per-topic/difficulty progress (order, cursor)
   - Deterministic shuffle management
 - `curated-cache.ts`: Curated questions management
-  - Async loading from `/public/curated/[topic-id].json`
+  - Async loading from `/public/data/curated/[topic-id].json`
 - `game-logic.ts`: Core game actions
   - `nextQuestion()`, `revealAnswer()`, `resetProgress()`
   - Encapsulates game rules and state transitions
@@ -122,8 +122,8 @@ yarn format           # Format code with Biome
 
 **Curated Questions** - Factual Q&A
 
-- **public/curated/index.json** - Index file listing available topic IDs (automatically maintained)
-- **public/curated/[topic-id].json** (21 individual files, 4-12 KB each)
+- **public/data/curated/index.json** - Index file listing available topic IDs (automatically maintained)
+- **public/data/curated/[topic-id].json** (21 individual files, 4-12 KB each)
 - Loaded on-demand per topic for better performance
 - Index prevents unnecessary 404 errors for topics without curated questions
 - Structure per file: `{ "easy": [], "medium": [], "hard": [] }`
@@ -246,12 +246,12 @@ Based on commit history:
    }
    ```
 
-2. Optionally add curated questions to `public/curated/[topic-id].json`
+2. Optionally add curated questions to `public/data/curated/[topic-id].json`
 3. Optionally add answer examples to `public/data/answer-examples.json`
 
 ### Curated Questions
 
-Edit individual topic file in `public/curated/[topic-id].json`:
+Edit individual topic file in `public/data/curated/[topic-id].json`:
 
 ```json
 {

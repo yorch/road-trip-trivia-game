@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const curatedDir = path.join(__dirname, '../public/curated');
+const curatedDir = path.join(__dirname, '../public/data/curated');
 const outputFile = path.join(curatedDir, 'index.json');
 
 // Ensure curated directory exists
