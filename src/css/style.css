@@ -999,3 +999,22 @@ body.loading::after {
   animation: floatUp 0.6s ease-out forwards;
   pointer-events: none;
 }
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+    color: #ef4444;
+  }
+  75% {
+    transform: translateX(5px);
+    color: #ef4444;
+  }
+}
+
+.value.shake {
+  animation: shake 0.4s ease-in-out;
+}

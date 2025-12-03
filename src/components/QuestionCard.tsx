@@ -6,12 +6,7 @@ import {
   revealedSignal,
   topicIdSignal,
 } from '../state';
-import {
-  markCorrect,
-  nextQuestion,
-  resetProgress,
-  skipQuestion,
-} from '../state/game-logic';
+import { markCorrect, resetProgress, skipQuestion } from '../state/game-logic';
 import type { Topic } from '../types';
 
 // --- Helper Components ---
@@ -51,53 +46,50 @@ const CardActions = ({
   revealed,
   disabled,
   onReveal,
-  onSkip,
+  onMissed,
   onCorrect,
 }: {
   revealed: boolean;
   disabled: boolean;
   onReveal: () => void;
-  onSkip: () => void;
+  onMissed: () => void;
   onCorrect: () => void;
 }) => (
   <div class="actions">
-    <button
-      type="button"
-      id="toggleAnswer"
-      class="ghost"
-      disabled={disabled}
-      onClick={onReveal}
-    >
-      {revealed ? 'Hide answer' : 'Show answer'}
-    </button>
-    <div class="spacer"></div>
-    <button
-      type="button"
-      id="skipQuestion"
-      class="ghost"
-      disabled={disabled}
-      onClick={onSkip}
-    >
-      Skip
-    </button>
-    <button
-      type="button"
-      id="markCorrect"
-      class="primary"
-      disabled={disabled}
-      onClick={onCorrect}
-    >
-      I got it
-    </button>
-  </div>
-);
-
-const NextSection = ({ onNext }: { onNext: () => void }) => (
-  <div class="next" style={{ display: 'flex' }}>
-    <p>Ready for the next one?</p>
-    <button type="button" id="nextQuestion" onClick={onNext}>
-      Next question
-    </button>
+    {!revealed ? (
+      <button
+        type="button"
+        id="toggleAnswer"
+        class="primary"
+        disabled={disabled}
+        onClick={onReveal}
+        style={{ width: '100%', justifyContent: 'center' }}
+      >
+        Show answer
+      </button>
+    ) : (
+      <>
+        <button
+          type="button"
+          id="markMissed"
+          class="ghost"
+          disabled={disabled}
+          onClick={onMissed}
+        >
+          Missed it
+        </button>
+        <div class="spacer"></div>
+        <button
+          type="button"
+          id="markCorrect"
+          class="primary"
+          disabled={disabled}
+          onClick={onCorrect}
+        >
+          I got it
+        </button>
+      </>
+    )}
   </div>
 );
 
@@ -171,11 +163,10 @@ export function QuestionCard() {
             revealed={false}
             disabled={true}
             onReveal={() => {}}
-            onSkip={() => {}}
+            onMissed={() => {}}
             onCorrect={() => {}}
           />
         </div>
-        <NextSection onNext={() => nextQuestion()} />
       </main>
     );
   }
@@ -202,14 +193,12 @@ export function QuestionCard() {
           revealed={revealed}
           disabled={false}
           onReveal={() => {
-            revealedSignal.value = !revealed;
+            revealedSignal.value = true;
           }}
-          onSkip={() => skipQuestion()}
+          onMissed={() => skipQuestion()}
           onCorrect={() => markCorrect()}
         />
       </div>
-
-      <NextSection onNext={() => nextQuestion()} />
     </main>
   );
 }

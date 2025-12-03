@@ -144,7 +144,7 @@ export function TopicPicker() {
               class={`filter-btn ${filter === 'quality' ? 'active' : ''}`}
               onClick={() => setFilter('quality')}
             >
-              Quality content
+              Recommended
             </button>
             <button
               type="button"
