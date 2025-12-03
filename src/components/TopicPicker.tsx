@@ -206,7 +206,6 @@ export function TopicPicker() {
                 <div class="topic-grid">
                   {groupedTopics[category].map((topic: Topic) => {
                     const isCurated = hasCuratedQuestions(topic.id);
-                    const hasExamples = answerExamples?.[topic.id];
 
                     return (
                       <button
@@ -225,14 +224,6 @@ export function TopicPicker() {
                               title="Curated questions available"
                             >
                               Curated
-                            </span>
-                          )}
-                          {!isCurated && hasExamples && (
-                            <span
-                              class="quality-badge"
-                              title="Real answer examples"
-                            >
-                              Quality
                             </span>
                           )}
                         </span>
