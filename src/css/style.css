@@ -38,6 +38,18 @@ body {
 .page {
   max-width: 1100px;
   margin: 0 auto;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero {
@@ -241,13 +253,25 @@ select {
   background: rgba(77, 225, 193, 0.08);
   border: 1px dashed var(--accent-2);
   border-radius: 12px;
-  padding: 12px;
-  margin: 12px 0;
-  display: none;
+  overflow: hidden;
+
+  /* Hidden state */
+  max-height: 0;
+  opacity: 0;
+  padding: 0 12px;
+  margin: 0;
+  border-width: 0;
+
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .answer.visible {
-  display: block;
+  /* Visible state */
+  max-height: 500px;
+  opacity: 1;
+  padding: 12px;
+  margin: 12px 0;
+  border-width: 1px;
 }
 
 .answer-label {
@@ -934,4 +958,44 @@ body.loading::after {
   50% {
     opacity: 1;
   }
+}
+
+/* Scoreboard Animation */
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+    color: var(--accent-2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.value.pop {
+  animation: pop 0.3s ease-out;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.score-flash {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  color: var(--accent-2);
+  font-weight: bold;
+  font-size: 14px;
+  animation: floatUp 0.6s ease-out forwards;
+  pointer-events: none;
 }
