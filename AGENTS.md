@@ -76,7 +76,7 @@ yarn format           # Format code with Biome
   - Per-topic/difficulty progress (order, cursor)
   - Deterministic shuffle management
 - `curated-cache.ts`: Curated questions management
-  - Async loading from `/public/data/curated/[topic-id].json`
+  - Async loading from `public/data/curated/[topic-id].json`
 - `game-logic.ts`: Core game actions
   - `nextQuestion()`, `revealAnswer()`, `resetProgress()`
   - Encapsulates game rules and state transitions

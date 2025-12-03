@@ -21,7 +21,7 @@ async function loadStaticData(): Promise<{
   topics: Topic[];
 }> {
   try {
-    const topicsResponse = await fetch('/data/topics.json');
+    const topicsResponse = await fetch('data/topics.json');
 
     if (!topicsResponse.ok) {
       throw new Error('Failed to load topics file');
@@ -47,7 +47,7 @@ async function loadAnswerExamples(): Promise<AnswerExamples> {
   }
 
   try {
-    const examplesResponse = await fetch('/data/answer-examples.json');
+    const examplesResponse = await fetch('data/answer-examples.json');
 
     if (!examplesResponse.ok) {
       throw new Error('Failed to load answer examples file');
