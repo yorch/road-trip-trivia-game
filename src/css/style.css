@@ -372,6 +372,43 @@ label,
   margin-bottom: 0;
 }
 
+.card-head-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.speaker-btn {
+  background: none;
+  border: 1.5px solid var(--border-strong);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0;
+  transition:
+    color 0.15s,
+    border-color 0.15s,
+    background 0.15s;
+}
+
+.speaker-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.speaker-btn.speaking {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
 .card-kicker {
   margin: 0 0 10px;
   text-transform: uppercase;

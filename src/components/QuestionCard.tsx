@@ -7,7 +7,9 @@ import {
   topicIdSignal,
 } from '../state';
 import { markCorrect, resetProgress, skipQuestion } from '../state/game-logic';
+import { isSpeakingSignal, speak, stopSpeech } from '../state/speech';
 import type { Topic } from '../types';
+import { SpeakerIcon, SpeakerOffIcon } from './icons';
 
 // --- Helper Components ---
 
@@ -16,31 +18,53 @@ const CardHeader = ({
   title,
   meta,
   difficulty,
+  onSpeak,
 }: {
   topic?: Topic;
   title: string;
   meta?: string;
   difficulty?: string;
-}) => (
-  <div class="card-head">
-    <div>
-      <p class="card-kicker" id="cardTopic">
-        {topic ? `${topic.name} • ${topic.category}` : 'Unknown Topic'}
-      </p>
-      <h2 id="cardTitle">{title}</h2>
-      {meta && (
-        <p class="card-meta" id="cardMeta">
-          {meta}
+  onSpeak?: () => void;
+}) => {
+  const speaking = isSpeakingSignal.value;
+  return (
+    <div class="card-head">
+      <div>
+        <p class="card-kicker" id="cardTopic">
+          {topic ? `${topic.name} • ${topic.category}` : 'Unknown Topic'}
         </p>
-      )}
-    </div>
-    {difficulty && (
-      <div class="chip" id="cardDifficulty">
-        {difficulty}
+        <h2 id="cardTitle">{title}</h2>
+        {meta && (
+          <p class="card-meta" id="cardMeta">
+            {meta}
+          </p>
+        )}
       </div>
-    )}
-  </div>
-);
+      <div class="card-head-right">
+        {difficulty && (
+          <div class="chip" id="cardDifficulty">
+            {difficulty}
+          </div>
+        )}
+        {onSpeak && (
+          <button
+            type="button"
+            class={`speaker-btn ${speaking ? 'speaking' : ''}`}
+            onClick={speaking ? stopSpeech : onSpeak}
+            aria-label={speaking ? 'Stop reading' : 'Read question aloud'}
+            title={speaking ? 'Stop reading' : 'Read question aloud'}
+          >
+            {speaking ? (
+              <SpeakerOffIcon size={16} />
+            ) : (
+              <SpeakerIcon size={16} />
+            )}
+          </button>
+        )}
+      </div>
+    </div>
+  );
+};
 
 const CardActions = ({
   revealed,
@@ -179,6 +203,7 @@ export function QuestionCard() {
           title={question.prompt}
           meta={`Angle: ${question.angle}`}
           difficulty={difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
+          onSpeak={() => speak(question.prompt)}
         />
         <p class="card-body" id="cardBody">
           Give a short, precise answer, then reveal.
