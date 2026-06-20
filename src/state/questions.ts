@@ -30,10 +30,9 @@ const curatedQuestionsCache: Record<
   }
 > = {};
 
-// AbortController for fetch requests
-let curatedQuestionsController: AbortController | null = null;
-
-// Lazy load curated questions for a specific topic
+// Lazy load curated questions for a specific topic. Results are cached per
+// topic, so concurrent loads for different topics are independent. (A shared
+// AbortController previously let one topic's load cancel another's in flight.)
 async function loadTopicCuratedQuestions(topicId: string): Promise<{
   easy: CuratedQuestion[];
   medium: CuratedQuestion[];
@@ -45,16 +44,7 @@ async function loadTopicCuratedQuestions(topicId: string): Promise<{
   }
 
   try {
-    // Cancel previous request if exists
-    if (curatedQuestionsController) {
-      curatedQuestionsController.abort();
-    }
-
-    curatedQuestionsController = new AbortController();
-
-    const response = await fetch(`data/curated/${topicId}.json`, {
-      signal: curatedQuestionsController.signal,
-    });
+    const response = await fetch(`data/curated/${topicId}.json`);
 
     if (!response.ok) {
       // Topic doesn't have curated questions - return empty
@@ -74,12 +64,8 @@ async function loadTopicCuratedQuestions(topicId: string): Promise<{
     // Cache for future use
     curatedQuestionsCache[topicId] = data;
     return data;
-  } catch (error) {
-    // Ignore abort errors - they're expected when cancelling
-    if (error instanceof Error && error.name === 'AbortError') {
-      return { easy: [], medium: [], hard: [] };
-    }
-    // Silently return empty on other errors
+  } catch {
+    // Silently return empty on error (offline, malformed JSON, etc.)
     return { easy: [], medium: [], hard: [] };
   }
 }
