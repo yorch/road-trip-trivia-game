@@ -1,3 +1,4 @@
+import { useEffect } from 'preact/hooks';
 import { topicListSignal } from '../data/data';
 import {
   currentQuestionSignal,
@@ -123,6 +124,10 @@ export function QuestionCard() {
   const revealed = revealedSignal.value;
   const topicId = topicIdSignal.value;
   const difficulty = difficultySignal.value;
+
+  // Stop any in-progress narration when leaving the game page. The signal
+  // effect in speech.ts only fires on question changes, not route unmounts.
+  useEffect(() => stopSpeech, []);
 
   // Find topic name
   const topic = topicListSignal.value?.find((t: Topic) => t.id === topicId);
