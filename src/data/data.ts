@@ -201,9 +201,9 @@ const promptTemplates: TemplateSet = {
 
 // Export as ES modules for Vite
 export {
-  difficulties,
   categoryAngles,
-  promptTemplates,
-  loadStaticData,
+  difficulties,
   loadAnswerExamples,
+  loadStaticData,
+  promptTemplates,
 };
