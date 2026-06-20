@@ -259,6 +259,21 @@
       "q": "Who is the chipmunk with glasses in Alvin and the Chipmunks?",
       "a": "Simon",
       "angle": "group"
+    },
+    {
+      "q": "What is the name of the leader gargoyle in the Disney animated series Gargoyles?",
+      "a": "Goliath",
+      "angle": "lead"
+    },
+    {
+      "q": "What is Batman's alter ego in Batman: The Animated Series?",
+      "a": "Bruce Wayne",
+      "angle": "identity"
+    },
+    {
+      "q": "What is the name of Buster Bunny's school in Tiny Toon Adventures?",
+      "a": "Acme Looniversity",
+      "angle": "setting"
     }
   ],
   "medium": [
@@ -511,6 +526,31 @@
       "q": "Who voiced Wakko in Animaniacs?",
       "a": "Jess Harnell",
       "angle": "voice"
+    },
+    {
+      "q": "What year did X-Men: The Animated Series premiere?",
+      "a": "1992",
+      "angle": "premiere"
+    },
+    {
+      "q": "Who voiced Dot in Animaniacs?",
+      "a": "Tress MacNeille",
+      "angle": "voice"
+    },
+    {
+      "q": "Who is the main villain opposing the Gargoyles in the animated series?",
+      "a": "David Xanatos",
+      "angle": "villains"
+    },
+    {
+      "q": "What is Sailor Moon's transformation phrase in the English dub?",
+      "a": "Moon Prism Power, Make Up",
+      "angle": "theme"
+    },
+    {
+      "q": "Who created Tiny Toon Adventures?",
+      "a": "Tom Ruegger (developed for Amblin Entertainment / Warner Bros.)",
+      "angle": "creators"
     }
   ],
   "hard": [
@@ -747,6 +787,46 @@
     {
       "q": "What was the original name of Cartoon Network’s What A Cartoon! shorts program?",
       "a": "World Premiere Toons (also called What a Cartoon!)",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Jean Grey in X-Men: The Animated Series?",
+      "a": "Catherine Disher",
+      "angle": "voice"
+    },
+    {
+      "q": "What year did Daria premiere as its own MTV series?",
+      "a": "1997",
+      "angle": "history"
+    },
+    {
+      "q": "Who voiced Captain Planet in the original animated series?",
+      "a": "David Coburn",
+      "angle": "voice"
+    },
+    {
+      "q": "What was the working title of Batman: Mask of the Phantasm before its theatrical release?",
+      "a": "Batman: The Animated Movie",
+      "angle": "film"
+    },
+    {
+      "q": "What network originally aired Swat Kats: The Radical Squadron?",
+      "a": "TBS (Turner Broadcasting System)",
+      "angle": "network"
+    },
+    {
+      "q": "Who composed the Gargoyles animated series score?",
+      "a": "Carl Johnson",
+      "angle": "music"
+    },
+    {
+      "q": "What is the name of the virus villain introduced in ReBoot Season 3?",
+      "a": "Daemon",
+      "angle": "villains"
+    },
+    {
+      "q": "What year did Animaniacs originally debut on Fox Kids?",
+      "a": "1993",
       "angle": "history"
     }
   ]

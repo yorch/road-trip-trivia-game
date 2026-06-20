@@ -214,6 +214,66 @@
       "q": "Who sang Thriller?",
       "a": "Michael Jackson",
       "angle": "artists"
+    },
+    {
+      "q": "Who sang 'Baby One More Time'?",
+      "a": "Britney Spears",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Crazy in Love'?",
+      "a": "Beyoncé featuring Jay-Z",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Take Me to Church'?",
+      "a": "Hozier",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Señorita'?",
+      "a": "Shawn Mendes and Camila Cabello",
+      "angle": "dance tracks"
+    },
+    {
+      "q": "Who sang 'Stay With Me'?",
+      "a": "Sam Smith",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Roar'?",
+      "a": "Katy Perry",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Despacito'?",
+      "a": "Luis Fonsi featuring Daddy Yankee",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Old Town Road'?",
+      "a": "Lil Nas X featuring Billy Ray Cyrus",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'drivers license'?",
+      "a": "Olivia Rodrigo",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Lose Yourself'?",
+      "a": "Eminem",
+      "angle": "hooks"
+    },
+    {
+      "q": "Who sang 'Bohemian Rhapsody'?",
+      "a": "Queen",
+      "angle": "choruses"
+    },
+    {
+      "q": "Who sang 'Stressed Out'?",
+      "a": "Twenty One Pilots",
+      "angle": "radio moments"
     }
   ],
   "medium": [
@@ -471,6 +531,26 @@
       "q": "Who sang Bad Habits?",
       "a": "Ed Sheeran",
       "angle": "artists"
+    },
+    {
+      "q": "Who sang 'Lose You to Love Me'?",
+      "a": "Selena Gomez",
+      "angle": "hooks"
+    },
+    {
+      "q": "What year was 'Uptown Funk' released as a single?",
+      "a": "2014",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Obsessed' (2009 hit)?",
+      "a": "Mariah Carey",
+      "angle": "radio moments"
+    },
+    {
+      "q": "Who sang 'Anti-Hero' (2022 hit)?",
+      "a": "Taylor Swift",
+      "angle": "radio moments"
     }
   ],
   "hard": [
@@ -743,6 +823,11 @@
       "q": "Which album is Bad Habits part of?",
       "a": "= (Equals) by Ed Sheeran",
       "angle": "albums"
+    },
+    {
+      "q": "Which songwriter co-wrote Katy Perry's 'Roar', 'Dark Horse', and 'Wide Awake'?",
+      "a": "Bonnie McKee",
+      "angle": "songwriting"
     }
   ]
 }

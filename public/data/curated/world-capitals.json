@@ -199,6 +199,81 @@
       "q": "What is the capital of Panama?",
       "a": "Panama City",
       "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Ukraine?",
+      "a": "Kyiv",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Singapore?",
+      "a": "Singapore",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Taiwan?",
+      "a": "Taipei",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Nepal?",
+      "a": "Kathmandu",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Ecuador?",
+      "a": "Quito",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Uruguay?",
+      "a": "Montevideo",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Costa Rica?",
+      "a": "San José",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of El Salvador?",
+      "a": "San Salvador",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Honduras?",
+      "a": "Tegucigalpa",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Slovakia?",
+      "a": "Bratislava",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Slovenia?",
+      "a": "Ljubljana",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Lithuania?",
+      "a": "Vilnius",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Latvia?",
+      "a": "Riga",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Estonia?",
+      "a": "Tallinn",
+      "angle": "capital fact"
+    },
+    {
+      "q": "What is the capital of Libya?",
+      "a": "Tripoli",
+      "angle": "capital fact"
     }
   ],
   "medium": [
@@ -401,6 +476,81 @@
       "q": "What is the capital of Namibia?",
       "a": "Windhoek",
       "angle": "highland capital"
+    },
+    {
+      "q": "What is the capital of Sudan?",
+      "a": "Khartoum",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Paraguay?",
+      "a": "Asunción",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Bahrain?",
+      "a": "Manama",
+      "angle": "island capital"
+    },
+    {
+      "q": "What is the capital of Cyprus?",
+      "a": "Nicosia",
+      "angle": "historic capital"
+    },
+    {
+      "q": "What is the capital of North Macedonia?",
+      "a": "Skopje",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Haiti?",
+      "a": "Port-au-Prince",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "What is the capital of Guatemala?",
+      "a": "Guatemala City",
+      "angle": "highland capital"
+    },
+    {
+      "q": "What is the capital of the Democratic Republic of the Congo?",
+      "a": "Kinshasa",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of the Republic of the Congo?",
+      "a": "Brazzaville",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Somalia?",
+      "a": "Mogadishu",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "What is the capital of Mali?",
+      "a": "Bamako",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of South Sudan?",
+      "a": "Juba",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Djibouti?",
+      "a": "Djibouti City",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "What is the capital of Armenia?",
+      "a": "Yerevan",
+      "angle": "historic capital"
+    },
+    {
+      "q": "What is the capital of Moldova?",
+      "a": "Chișinău",
+      "angle": "historic capital"
     }
   ],
   "hard": [
@@ -603,6 +753,81 @@
       "q": "What is the capital of Côte d'Ivoire?",
       "a": "Yamoussoukro",
       "angle": "planned capital"
+    },
+    {
+      "q": "What is the capital of Comoros?",
+      "a": "Moroni",
+      "angle": "island capital"
+    },
+    {
+      "q": "What is the capital of Vanuatu?",
+      "a": "Port Vila",
+      "angle": "island capital"
+    },
+    {
+      "q": "What is the capital of the Marshall Islands?",
+      "a": "Majuro",
+      "angle": "atoll capital"
+    },
+    {
+      "q": "What is the capital of the Federated States of Micronesia?",
+      "a": "Palikir",
+      "angle": "island capital"
+    },
+    {
+      "q": "What is the capital of Kiribati?",
+      "a": "South Tarawa",
+      "angle": "atoll capital"
+    },
+    {
+      "q": "What is the capital of São Tomé and Príncipe?",
+      "a": "São Tomé",
+      "angle": "island capital"
+    },
+    {
+      "q": "What is the capital of Suriname?",
+      "a": "Paramaribo",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "What is the capital of Guinea-Bissau?",
+      "a": "Bissau",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "What is the capital of the Central African Republic?",
+      "a": "Bangui",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Lesotho?",
+      "a": "Maseru",
+      "angle": "highland capital"
+    },
+    {
+      "q": "What is the administrative capital of Eswatini (formerly Swaziland)?",
+      "a": "Mbabane",
+      "angle": "administrative seat"
+    },
+    {
+      "q": "What is the capital of Niger?",
+      "a": "Niamey",
+      "angle": "river capital"
+    },
+    {
+      "q": "What is the capital of Burkina Faso?",
+      "a": "Ouagadougou",
+      "angle": "inland capital"
+    },
+    {
+      "q": "What is the capital of Sierra Leone?",
+      "a": "Freetown",
+      "angle": "coastal capital"
+    },
+    {
+      "q": "Nauru has no official capital — which district serves as its de facto seat of government?",
+      "a": "Yaren",
+      "angle": "island capital"
     }
   ]
 }

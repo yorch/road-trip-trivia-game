@@ -219,6 +219,61 @@
       "q": "What is Obi-Wan's nickname?",
       "a": "Ben Kenobi",
       "angle": "identity"
+    },
+    {
+      "q": "What is the name of the rebel base in A New Hope?",
+      "a": "Yavin 4",
+      "angle": "location"
+    },
+    {
+      "q": "Who is the scruffy-looking nerf herder?",
+      "a": "Han Solo (Leia's insult)",
+      "angle": "quote"
+    },
+    {
+      "q": "What color is the Force lightning used by the Emperor?",
+      "a": "Blue/white (electric blue)",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the name of Luke Skywalker's aunt who raised him on Tatooine?",
+      "a": "Beru Lars",
+      "angle": "family"
+    },
+    {
+      "q": "What is the name of the bar in Mos Eisley where Han and Obi-Wan meet?",
+      "a": "The Cantina (Mos Eisley Cantina)",
+      "angle": "location"
+    },
+    {
+      "q": "What are the small furry bear-like warriors who help defeat the Empire on Endor?",
+      "a": "Ewoks",
+      "angle": "species"
+    },
+    {
+      "q": "What planet is the swamp world where Luke trains with Yoda?",
+      "a": "Dagobah",
+      "angle": "location"
+    },
+    {
+      "q": "Who plays Han Solo in the original trilogy?",
+      "a": "Harrison Ford",
+      "angle": "casting"
+    },
+    {
+      "q": "What is the alien criminal boss that keeps Han Solo frozen?",
+      "a": "Jabba the Hutt",
+      "angle": "villain"
+    },
+    {
+      "q": "What does the phrase 'I've got a bad feeling about this' appear in?",
+      "a": "Every main saga Star Wars film",
+      "angle": "quote"
+    },
+    {
+      "q": "What color lightsaber do Sith typically use?",
+      "a": "Red",
+      "angle": "villain"
     }
   ],
   "medium": [
@@ -446,6 +501,56 @@
       "q": "Who is Bo-Katan Kryze?",
       "a": "Mandalorian leader seeking the Darksaber",
       "angle": "characters"
+    },
+    {
+      "q": "What is the name of Obi-Wan Kenobi's Jedi Master?",
+      "a": "Qui-Gon Jinn",
+      "angle": "mentor"
+    },
+    {
+      "q": "What species is Jabba the Hutt?",
+      "a": "Hutt",
+      "angle": "species"
+    },
+    {
+      "q": "What planet is Chewbacca's homeworld?",
+      "a": "Kashyyyk",
+      "angle": "planets"
+    },
+    {
+      "q": "Who famously says 'It's a trap!' at the Battle of Endor?",
+      "a": "Admiral Ackbar",
+      "angle": "quote"
+    },
+    {
+      "q": "What is the name of Luke Skywalker's uncle who raised him on Tatooine?",
+      "a": "Owen Lars",
+      "angle": "family"
+    },
+    {
+      "q": "Who is Anakin Skywalker's Jedi Master in the prequel trilogy?",
+      "a": "Obi-Wan Kenobi",
+      "angle": "mentor"
+    },
+    {
+      "q": "What volcanic planet is the site of Anakin and Obi-Wan's final duel in Revenge of the Sith?",
+      "a": "Mustafar",
+      "angle": "location"
+    },
+    {
+      "q": "What is the name of Han Solo's homeworld?",
+      "a": "Corellia",
+      "angle": "planets"
+    },
+    {
+      "q": "Who is the leader of the Separatist political movement in the prequel trilogy?",
+      "a": "Count Dooku",
+      "angle": "villains"
+    },
+    {
+      "q": "What is the name of the planet where the Rebel Alliance establishes a base in Rogue One?",
+      "a": "Yavin 4",
+      "angle": "spinoff"
     }
   ],
   "hard": [
@@ -663,6 +768,66 @@
       "q": "Who is the armorer in The Mandalorian?",
       "a": "The Armorer (unnamed) who forges beskar",
       "angle": "characters"
+    },
+    {
+      "q": "What is the name of the ancient Jedi master who created the first Darksaber?",
+      "a": "Tarre Vizsla",
+      "angle": "lore"
+    },
+    {
+      "q": "Who provided the voice of Darth Vader in the original trilogy?",
+      "a": "James Earl Jones",
+      "angle": "casting"
+    },
+    {
+      "q": "What planet is Darth Maul from?",
+      "a": "Dathomir",
+      "angle": "lore"
+    },
+    {
+      "q": "What year was the original Star Wars film released?",
+      "a": "1977",
+      "angle": "production"
+    },
+    {
+      "q": "What is the name of the planet covered entirely in ocean where Luke retreats in The Last Jedi?",
+      "a": "Ahch-To",
+      "angle": "location"
+    },
+    {
+      "q": "What species are the Tusken Raiders also known as?",
+      "a": "Sand People",
+      "angle": "species"
+    },
+    {
+      "q": "What is the name of the Zygerrian Queen who allies with Count Dooku in The Clone Wars?",
+      "a": "Queen Miraj Scintel",
+      "angle": "animated"
+    },
+    {
+      "q": "What Jedi survived Order 66 and later trained Ezra Bridger in Star Wars Rebels?",
+      "a": "Kanan Jarrus (Caleb Dume)",
+      "angle": "animated"
+    },
+    {
+      "q": "What is the name of Darth Vader's personal TIE fighter model?",
+      "a": "TIE Advanced x1",
+      "angle": "vehicles"
+    },
+    {
+      "q": "Who is the Emperor's most loyal Inquisitor tasked with hunting Jedi survivors after Order 66?",
+      "a": "The Grand Inquisitor",
+      "angle": "villains"
+    },
+    {
+      "q": "What ancient Sith artifact holds the key to finding Exegol in The Rise of Skywalker?",
+      "a": "A Sith wayfinder",
+      "angle": "sequel"
+    },
+    {
+      "q": "What is the name of the pirate who leads the Ohnaka Gang in The Clone Wars?",
+      "a": "Hondo Ohnaka",
+      "angle": "animated"
     }
   ]
 }

@@ -244,6 +244,36 @@
       "q": "What are stars mostly made of?",
       "a": "Hydrogen and helium",
       "angle": "science"
+    },
+    {
+      "q": "What mission landed Buzz Aldrin on the Moon alongside Neil Armstrong?",
+      "a": "Apollo 11",
+      "angle": "mission"
+    },
+    {
+      "q": "What is the name of the space station that orbits Earth with crews from many countries?",
+      "a": "International Space Station (ISS)",
+      "angle": "habitat"
+    },
+    {
+      "q": "What U.S. space program sent the first Americans into orbit in the early 1960s?",
+      "a": "Mercury program",
+      "angle": "history"
+    },
+    {
+      "q": "What U.S. program flew two-person crews and practiced spacewalks before Apollo?",
+      "a": "Gemini program",
+      "angle": "history"
+    },
+    {
+      "q": "What is a black hole?",
+      "a": "A region in space where gravity is so strong nothing, not even light, can escape",
+      "angle": "science"
+    },
+    {
+      "q": "What country was first to land humans on the Moon?",
+      "a": "United States",
+      "angle": "history"
     }
   ],
   "medium": [
@@ -511,6 +541,16 @@
       "q": "What vehicle ferried astronauts for Apollo to orbit and back?",
       "a": "Apollo Command Module",
       "angle": "vehicles"
+    },
+    {
+      "q": "What was the name of the first U.S. program to send humans to orbit Earth, flying one-person capsules?",
+      "a": "Project Mercury",
+      "angle": "history"
+    },
+    {
+      "q": "What ESA probe parachuted through Titan's atmosphere and landed on Saturn's moon in 2005?",
+      "a": "Huygens probe",
+      "angle": "missions"
     }
   ],
   "hard": [

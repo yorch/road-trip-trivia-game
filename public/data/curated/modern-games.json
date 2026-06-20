@@ -229,6 +229,51 @@
       "q": "What company publishes Call of Duty?",
       "a": "Activision",
       "angle": "publishers"
+    },
+    {
+      "q": "What farming and life simulation game was created by one developer, ConcernedApe?",
+      "a": "Stardew Valley",
+      "angle": "franchises"
+    },
+    {
+      "q": "What game has you taming and battling creatures in an open world, described as 'Pokémon with guns'?",
+      "a": "Palworld",
+      "angle": "monster"
+    },
+    {
+      "q": "What game series features Agent 47, a bald hitman?",
+      "a": "Hitman",
+      "angle": "characters"
+    },
+    {
+      "q": "What open-world game set in Japan features samurai Jin Sakai?",
+      "a": "Ghost of Tsushima",
+      "angle": "adventure"
+    },
+    {
+      "q": "What studio makes the Spider-Man games on PlayStation?",
+      "a": "Insomniac Games",
+      "angle": "publishers"
+    },
+    {
+      "q": "What is the name of the football simulation series made by EA?",
+      "a": "Madden NFL",
+      "angle": "online squad"
+    },
+    {
+      "q": "What game series lets you build a city as its mayor?",
+      "a": "Cities: Skylines (or SimCity)",
+      "angle": "crafting"
+    },
+    {
+      "q": "What fighting game features Scorpion and Sub-Zero?",
+      "a": "Mortal Kombat",
+      "angle": "boss fight"
+    },
+    {
+      "q": "What game series has you exploring dungeons as a vault hunter?",
+      "a": "Borderlands",
+      "angle": "adventure"
     }
   ],
   "medium": [
@@ -490,6 +535,21 @@
     {
       "q": "Which game is known for building automation with conveyor belts?",
       "a": "Factorio",
+      "angle": "mechanics"
+    },
+    {
+      "q": "What studio developed the Red Dead Redemption series?",
+      "a": "Rockstar Games",
+      "angle": "developer"
+    },
+    {
+      "q": "What is the name of the space station hub in Mass Effect?",
+      "a": "The Citadel",
+      "angle": "setting"
+    },
+    {
+      "q": "What game introduced the 'Nemesis System' that remembers your past encounters?",
+      "a": "Middle-earth: Shadow of Mordor",
       "angle": "mechanics"
     }
   ],
@@ -758,6 +818,16 @@
       "q": "What DLC expanded The Witcher 3 with Toussaint?",
       "a": "Blood and Wine",
       "angle": "titles"
+    },
+    {
+      "q": "What year did Dark Souls 1 originally release in Japan?",
+      "a": "2011",
+      "angle": "history"
+    },
+    {
+      "q": "What is the name of the tutorial island area at the start of Elden Ring?",
+      "a": "Stranded Graveyard (Cave of Knowledge)",
+      "angle": "lore"
     }
   ]
 }

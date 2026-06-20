@@ -269,6 +269,11 @@
       "q": "What game is known for \"Finish Him!\"?",
       "a": "Mortal Kombat",
       "angle": "phrases"
+    },
+    {
+      "q": "What classic Atari arcade game has you shoot floating rocks in space?",
+      "a": "Asteroids",
+      "angle": "arcades"
     }
   ],
   "medium": [
@@ -541,6 +546,11 @@
       "q": "What classic game featured the quote \"It's dangerous to go alone\"?",
       "a": "The Legend of Zelda",
       "angle": "quotes"
+    },
+    {
+      "q": "What NES game was the first to use battery-backed RAM to save your progress?",
+      "a": "The Legend of Zelda",
+      "angle": "history"
     }
   ],
   "hard": [

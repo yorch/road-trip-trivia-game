@@ -556,6 +556,11 @@
       "q": "Which villain uses cold technology against Batman?",
       "a": "Mr. Freeze",
       "angle": "rogues gallery"
+    },
+    {
+      "q": "What is Two-Face's real name before he became a villain?",
+      "a": "Harvey Dent",
+      "angle": "rogues gallery"
     }
   ],
   "hard": [

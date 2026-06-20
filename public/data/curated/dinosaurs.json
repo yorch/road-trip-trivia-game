@@ -259,6 +259,21 @@
       "q": "What flying reptile is often mistaken for a dinosaur?",
       "a": "Pterosaurs like Pteranodon",
       "angle": "classification"
+    },
+    {
+      "q": "What do we call the time period when most large dinosaurs lived?",
+      "a": "The Mesozoic Era",
+      "angle": "time"
+    },
+    {
+      "q": "What continent has the most famous dinosaur fossil sites, including the Badlands?",
+      "a": "North America",
+      "angle": "fossils"
+    },
+    {
+      "q": "What is the name for a dinosaur that walked on two legs?",
+      "a": "Biped",
+      "angle": "classification"
     }
   ],
   "medium": [
@@ -526,6 +541,16 @@
       "q": "What evidence shows some dinosaurs had feathers?",
       "a": "Fossil impressions in sites like Liaoning",
       "angle": "fossils"
+    },
+    {
+      "q": "What dinosaur's name means 'earth-shaker'?",
+      "a": "Seismosaurus (now Diplodocus hallorum)",
+      "angle": "herbivores"
+    },
+    {
+      "q": "What small, feathered dromaeosaurid dinosaur was discovered in southern France and named for fire?",
+      "a": "Pyroraptor",
+      "angle": "predators"
     }
   ],
   "hard": [
@@ -788,6 +813,21 @@
       "q": "Which early bird fossil shows dinosaur-bird transition?",
       "a": "Archaeopteryx",
       "angle": "transition"
+    },
+    {
+      "q": "Which Triassic period formation in Argentina, dating to ~231 million years ago, yielded some of the earliest known dinosaurs?",
+      "a": "Ischigualasto Formation (Valley of the Moon)",
+      "angle": "fossils"
+    },
+    {
+      "q": "Which paleontologist described and named Velociraptor mongoliensis in 1924?",
+      "a": "Henry Fairfield Osborn",
+      "angle": "history"
+    },
+    {
+      "q": "What is the term for a dinosaur embryo still inside a fossilized egg?",
+      "a": "An embryo fossil (in ovo fossil)",
+      "angle": "fossils"
     }
   ]
 }

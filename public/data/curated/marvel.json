@@ -234,6 +234,46 @@
       "q": "What is Spider-Man's hometown?",
       "a": "Queens, New York",
       "angle": "setting"
+    },
+    {
+      "q": "Who is Thor's brother in the MCU?",
+      "a": "Loki",
+      "angle": "mythic"
+    },
+    {
+      "q": "What is the name of Tony Stark's daughter?",
+      "a": "Morgan Stark",
+      "angle": "family"
+    },
+    {
+      "q": "What does Thor use to call lightning?",
+      "a": "Mjolnir (his hammer)",
+      "angle": "powers"
+    },
+    {
+      "q": "Who is the villain that wields the Infinity Gauntlet?",
+      "a": "Thanos",
+      "angle": "villain"
+    },
+    {
+      "q": "What is the name of the MCU's spy organization?",
+      "a": "S.H.I.E.L.D.",
+      "angle": "org"
+    },
+    {
+      "q": "Who plays Captain America in the MCU?",
+      "a": "Chris Evans",
+      "angle": "cast"
+    },
+    {
+      "q": "What is the source of Captain Marvel's powers?",
+      "a": "The Tesseract (Space Stone) energy explosion",
+      "angle": "origin"
+    },
+    {
+      "q": "Who is the raccoon in the Guardians of the Galaxy?",
+      "a": "Rocket",
+      "angle": "characters"
     }
   ],
   "medium": [
@@ -486,6 +526,31 @@
       "q": "What metal are the Mandarin's Ten Rings made of in comics?",
       "a": "Alien tech rings (Makluan)",
       "angle": "items"
+    },
+    {
+      "q": "Who plays Thor in the MCU?",
+      "a": "Chris Hemsworth",
+      "angle": "cast"
+    },
+    {
+      "q": "What is the name of the tree-like Guardian who says only three words?",
+      "a": "Groot",
+      "angle": "Guardians"
+    },
+    {
+      "q": "What is Loki the god of in Marvel mythology?",
+      "a": "Mischief",
+      "angle": "mythic"
+    },
+    {
+      "q": "Which MCU film introduced the concept of the Multiverse?",
+      "a": "Doctor Strange in the Multiverse of Madness (2022)",
+      "angle": "films"
+    },
+    {
+      "q": "Who is the S.H.I.E.L.D. director with an eye patch?",
+      "a": "Nick Fury",
+      "angle": "org"
     }
   ],
   "hard": [

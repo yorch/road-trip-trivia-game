@@ -269,6 +269,11 @@
       "q": "Who taught philosophy by asking questions?",
       "a": "Socrates",
       "angle": "philosophers"
+    },
+    {
+      "q": "What were the two main types of Greek theatrical plays?",
+      "a": "Tragedy and comedy",
+      "angle": "culture"
     }
   ],
   "medium": [
@@ -536,6 +541,16 @@
       "q": "What battle in 479 BC ended Persian invasion?",
       "a": "Battle of Plataea",
       "angle": "wars"
+    },
+    {
+      "q": "Which narrow strait separates the Greek mainland from the island of Euboea?",
+      "a": "The Euripus Strait",
+      "angle": "geography"
+    },
+    {
+      "q": "What famous sculptor created the ivory and gold statue of Athena inside the Parthenon?",
+      "a": "Phidias",
+      "angle": "art"
     }
   ],
   "hard": [

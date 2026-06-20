@@ -259,6 +259,21 @@
       "q": "Which film features \"Surface Pressure\"?",
       "a": "Encanto",
       "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Don't You (Forget About Me)\" by Simple Minds?",
+      "a": "The Breakfast Club",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Bohemian Rhapsody\" famously played in a car scene?",
+      "a": "Wayne's World",
+      "angle": "songs"
+    },
+    {
+      "q": "Which film features \"Old Time Rock and Roll\" in a famous underwear-dancing scene?",
+      "a": "Risky Business",
+      "angle": "songs"
     }
   ],
   "medium": [
@@ -491,6 +506,51 @@
       "q": "Who composed music for Slumdog Millionaire?",
       "a": "A. R. Rahman",
       "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Edward Scissorhands?",
+      "a": "Danny Elfman",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Aladdin (1992)?",
+      "a": "Alan Menken",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for Amélie?",
+      "a": "Yann Tiersen",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the score for The Last of the Mohicans?",
+      "a": "Trevor Jones and Randy Edelman",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the songs for Beauty and the Beast (1991)?",
+      "a": "Alan Menken and Howard Ashman",
+      "angle": "songwriters"
+    },
+    {
+      "q": "Which song won Best Original Song for La La Land?",
+      "a": "City of Stars",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which movie featured \"(Everything I Do) I Do It for You\" by Bryan Adams?",
+      "a": "Robin Hood: Prince of Thieves",
+      "angle": "songs"
+    },
+    {
+      "q": "Who composed the score for The Truman Show?",
+      "a": "Burkhard Dallwitz (with Philip Glass pieces)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which movie featured \"Take My Breath Away\" (Oscar-winning song)?",
+      "a": "Top Gun",
+      "angle": "oscars"
     }
   ],
   "hard": [
@@ -748,6 +808,26 @@
       "q": "Which songwriter duo wrote many Disney Renaissance songs?",
       "a": "Alan Menken and Howard Ashman",
       "angle": "songwriters"
+    },
+    {
+      "q": "Which composer scored 2001: A Space Odyssey's original music (apart from the classical pieces)?",
+      "a": "Alex North (composed but rejected; Kubrick used pre-existing classical works)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored The Life of Pi and won the Oscar for Best Original Score?",
+      "a": "Mychael Danna",
+      "angle": "oscars"
+    },
+    {
+      "q": "Which composer scored Manchester by the Sea?",
+      "a": "Lesley Barber",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer scored Parasite (2019)?",
+      "a": "Jung Jae-il",
+      "angle": "composers"
     }
   ]
 }

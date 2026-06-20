@@ -254,6 +254,26 @@
       "q": "What musical instrument does Prince Eric play?",
       "a": "He plays the flute",
       "angle": "details"
+    },
+    {
+      "q": "What is the name of Cinderella's horse-drawn carriage made from?",
+      "a": "A pumpkin",
+      "angle": "magic"
+    },
+    {
+      "q": "What alien experiment number is Stitch in Lilo & Stitch?",
+      "a": "Experiment 626",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the name of the land where Peter Pan lives?",
+      "a": "Neverland",
+      "angle": "setting"
+    },
+    {
+      "q": "What kind of animal is Dumbo's best friend Timothy?",
+      "a": "A mouse",
+      "angle": "sidekick"
     }
   ],
   "medium": [
@@ -511,6 +531,26 @@
       "q": "What is the name of Lightning McQueen's town?",
       "a": "Radiator Springs",
       "angle": "setting"
+    },
+    {
+      "q": "What year did Aladdin (animated) release?",
+      "a": "1992",
+      "angle": "release"
+    },
+    {
+      "q": "What is the name of the villain in The Hunchback of Notre Dame?",
+      "a": "Judge Claude Frollo",
+      "angle": "villain"
+    },
+    {
+      "q": "Who voices Elsa in Frozen?",
+      "a": "Idina Menzel",
+      "angle": "casting"
+    },
+    {
+      "q": "What is the name of Tiana's best friend in The Princess and the Frog?",
+      "a": "Charlotte La Bouff",
+      "angle": "characters"
     }
   ],
   "hard": [
@@ -783,6 +823,11 @@
       "q": "What island nation inspired Moana's culture?",
       "a": "Polynesian cultures (Samoa, Fiji, Tahiti influences)",
       "angle": "lore"
+    },
+    {
+      "q": "Who directed Bambi (1942)?",
+      "a": "David Hand (supervising director)",
+      "angle": "crew"
     }
   ]
 }

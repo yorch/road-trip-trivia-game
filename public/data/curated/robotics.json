@@ -254,6 +254,26 @@
       "q": "What is a tool changer on a robot?",
       "a": "A system to swap end effectors quickly",
       "angle": "productivity"
+    },
+    {
+      "q": "What famous robot dog is made by Boston Dynamics?",
+      "a": "Spot",
+      "angle": "famous robot"
+    },
+    {
+      "q": "What is the name of NASA's Mars rovers that explored the red planet?",
+      "a": "Spirit, Opportunity, Curiosity, and Perseverance",
+      "angle": "space robot"
+    },
+    {
+      "q": "What does a surgical robot help doctors do?",
+      "a": "Perform precise operations with smaller incisions",
+      "angle": "medical"
+    },
+    {
+      "q": "What is a self-driving car an example of?",
+      "a": "An autonomous ground vehicle",
+      "angle": "autonomy"
     }
   ],
   "medium": [
@@ -465,6 +485,71 @@
     {
       "q": "What is a SLAM back end?",
       "a": "Optimization that refines the map and trajectory",
+      "angle": "mapping"
+    },
+    {
+      "q": "What is the Roomba?",
+      "a": "An autonomous robotic vacuum cleaner made by iRobot",
+      "angle": "famous robot"
+    },
+    {
+      "q": "What is robot learning from demonstration?",
+      "a": "Teaching a robot by showing it actions to imitate",
+      "angle": "ai assist"
+    },
+    {
+      "q": "What is a bipedal robot?",
+      "a": "A robot that walks on two legs",
+      "angle": "form factor"
+    },
+    {
+      "q": "What is Boston Dynamics' Atlas robot known for?",
+      "a": "Impressive acrobatics and human-like agility",
+      "angle": "famous robot"
+    },
+    {
+      "q": "What does an underwater ROV do?",
+      "a": "Explores and inspects underwater environments remotely",
+      "angle": "platform"
+    },
+    {
+      "q": "What is reinforcement learning in robotics?",
+      "a": "Training a robot by rewarding desired behaviors",
+      "angle": "ai assist"
+    },
+    {
+      "q": "What is a delta robot typically used for?",
+      "a": "High-speed picking and packaging in food or pharma",
+      "angle": "factory"
+    },
+    {
+      "q": "What is robot localization?",
+      "a": "Determining where the robot is in its environment",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a robotic surgery system like the da Vinci used for?",
+      "a": "Minimally invasive surgery guided by a surgeon",
+      "angle": "medical"
+    },
+    {
+      "q": "What is a field robot?",
+      "a": "A robot that operates in outdoor unstructured environments",
+      "angle": "platform"
+    },
+    {
+      "q": "What is torque sensing in collaborative robots?",
+      "a": "Measuring force at joints to detect collisions safely",
+      "angle": "safety"
+    },
+    {
+      "q": "What is a map used for in mobile robotics?",
+      "a": "Planning paths and knowing where obstacles are",
+      "angle": "navigation"
+    },
+    {
+      "q": "What is a semantic map in robotics?",
+      "a": "A map that labels areas with meaning, like 'kitchen' or 'door'",
       "angle": "mapping"
     }
   ],
@@ -708,6 +793,41 @@
       "q": "What is a proprioceptive sensor example?",
       "a": "Joint encoders or torque sensors",
       "angle": "sensing"
+    },
+    {
+      "q": "What is the DARPA Robotics Challenge known for testing?",
+      "a": "Humanoid robots performing disaster-response tasks",
+      "angle": "competition"
+    },
+    {
+      "q": "What is the extended Kalman filter advantage over the standard Kalman filter?",
+      "a": "It handles nonlinear systems by linearizing around the current estimate",
+      "angle": "estimation"
+    },
+    {
+      "q": "What is the zero-moment point (ZMP) used for in legged robots?",
+      "a": "Determining if a walking robot will tip over based on ground reaction forces",
+      "angle": "locomotion"
+    },
+    {
+      "q": "What is a behavior tree in robot software?",
+      "a": "A hierarchical structure for composing robot actions and conditions",
+      "angle": "software"
+    },
+    {
+      "q": "What is sim-to-real transfer?",
+      "a": "Applying policies learned in simulation to real hardware",
+      "angle": "ai assist"
+    },
+    {
+      "q": "What is differential drive kinematics?",
+      "a": "Computing robot velocity from two independently driven wheels",
+      "angle": "mobility"
+    },
+    {
+      "q": "What is a manipulability ellipsoid?",
+      "a": "A visual measure of how freely a robot arm can move in each direction at a configuration",
+      "angle": "kinematics"
     }
   ]
 }

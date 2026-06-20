@@ -244,6 +244,36 @@
       "q": "Who is the Titan with armored plates?",
       "a": "Reiner Braun (Armored Titan)",
       "angle": "powers"
+    },
+    {
+      "q": "What is Tanjiro's main weapon in Demon Slayer?",
+      "a": "A black Nichirin sword",
+      "angle": "weapons"
+    },
+    {
+      "q": "What is the name of Goku's home planet?",
+      "a": "Planet Vegeta",
+      "angle": "lore"
+    },
+    {
+      "q": "Who is the captain of the Survey Corps in Attack on Titan?",
+      "a": "Erwin Smith",
+      "angle": "leader"
+    },
+    {
+      "q": "What is the name of the pirate crew in One Piece led by Luffy?",
+      "a": "Straw Hat Pirates",
+      "angle": "teams"
+    },
+    {
+      "q": "Who is the swordsman in the Straw Hat crew?",
+      "a": "Roronoa Zoro",
+      "angle": "crew"
+    },
+    {
+      "q": "Who is the main villain in Dragon Ball Z's Cell saga?",
+      "a": "Cell",
+      "angle": "rivals"
     }
   ],
   "medium": [
@@ -511,6 +541,16 @@
       "q": "Who is the Stone Hashira?",
       "a": "Gyomei Himejima",
       "angle": "roles"
+    },
+    {
+      "q": "What is the name of the cursed spirit Yuji Itadori shares his body with?",
+      "a": "Ryomen Sukuna",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the name of the class in My Hero Academia where Deku and his friends study?",
+      "a": "Class 1-A",
+      "angle": "setting"
     }
   ],
   "hard": [
@@ -778,6 +818,16 @@
       "q": "What is the ultimate Titan power Eren seeks?",
       "a": "Founding Titan power to start the Rumbling",
       "angle": "plot"
+    },
+    {
+      "q": "What is the name of the Elric brothers' childhood friend and later love interest for Ed?",
+      "a": "Winry Rockbell",
+      "angle": "identity"
+    },
+    {
+      "q": "In JoJo's Bizarre Adventure Part 4, what is Yoshikage Kira's Stand called?",
+      "a": "Killer Queen",
+      "angle": "powers"
     }
   ]
 }

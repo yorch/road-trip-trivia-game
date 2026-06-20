@@ -244,6 +244,36 @@
       "q": "Where are demons often hiding?",
       "a": "Backstage shadows and alleys",
       "angle": "setting"
+    },
+    {
+      "q": "Which actress voices Rumi in the English version?",
+      "a": "Arden Cho",
+      "angle": "cast"
+    },
+    {
+      "q": "Who is the leader of the Saja Boys?",
+      "a": "Jinu",
+      "angle": "rivals"
+    },
+    {
+      "q": "Which Huntrix member is the youngest?",
+      "a": "Zoey",
+      "angle": "group"
+    },
+    {
+      "q": "Which Huntrix member is the visual and main dancer?",
+      "a": "Mira",
+      "angle": "group"
+    },
+    {
+      "q": "Who is the primary villain and demon king?",
+      "a": "Gwi-Ma",
+      "angle": "villain"
+    },
+    {
+      "q": "What country is KPop Demon Hunters set in?",
+      "a": "South Korea",
+      "angle": "setting"
     }
   ],
   "medium": [
@@ -496,6 +526,31 @@
       "q": "How do they mask battle scars?",
       "a": "Stage makeup and glam cover-ups",
       "angle": "cover"
+    },
+    {
+      "q": "Who co-directed the film with Chris Appelhans?",
+      "a": "Maggie Kang",
+      "angle": "direction"
+    },
+    {
+      "q": "Who composed the film's score?",
+      "a": "Marcelo Zarvos",
+      "angle": "music"
+    },
+    {
+      "q": "What is the name of the healer character voiced by Daniel Dae Kim?",
+      "a": "Han",
+      "angle": "cast"
+    },
+    {
+      "q": "What is Rumi's role within Huntrix?",
+      "a": "Leader and main vocalist",
+      "angle": "group"
+    },
+    {
+      "q": "Which Huntrix member is a half-demon?",
+      "a": "Rumi",
+      "angle": "plot"
     }
   ],
   "hard": [
@@ -763,6 +818,16 @@
       "q": "What backup chant do they use if tech fails?",
       "a": "A capella warding verse",
       "angle": "tactics"
+    },
+    {
+      "q": "What is the character name of the healer voiced by Daniel Dae Kim?",
+      "a": "Han",
+      "angle": "cast"
+    },
+    {
+      "q": "Which fourth screenwriter co-wrote the film alongside Maggie Kang, Chris Appelhans, and Danya Jimenez?",
+      "a": "Hannah McMechan",
+      "angle": "writing"
     }
   ]
 }

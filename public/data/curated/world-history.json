@@ -244,6 +244,36 @@
       "q": "What wall separated East and West Berlin?",
       "a": "Berlin Wall",
       "angle": "modern"
+    },
+    {
+      "q": "What ancient Greek city-state was famous for its democracy?",
+      "a": "Athens",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What empire ruled much of the Middle East from Constantinople for 600 years?",
+      "a": "The Ottoman Empire",
+      "angle": "empire"
+    },
+    {
+      "q": "Who was the enormously wealthy African king who made a famous pilgrimage to Mecca in 1324?",
+      "a": "Mansa Musa",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the capital city of the Aztec Empire?",
+      "a": "Tenochtitlan",
+      "angle": "ancient empire"
+    },
+    {
+      "q": "What were the medieval religious military expeditions to the Holy Land called?",
+      "a": "The Crusades",
+      "angle": "conflict"
+    },
+    {
+      "q": "Who became South Africa's first Black president in 1994?",
+      "a": "Nelson Mandela",
+      "angle": "modern"
     }
   ],
   "medium": [

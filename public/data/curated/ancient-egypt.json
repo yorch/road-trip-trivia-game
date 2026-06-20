@@ -249,6 +249,31 @@
       "q": "What writing was carved on tomb walls?",
       "a": "Hieroglyphics",
       "angle": "writing"
+    },
+    {
+      "q": "Who was the Egyptian god of the underworld who judged the dead?",
+      "a": "Osiris",
+      "angle": "myths"
+    },
+    {
+      "q": "What tall, pointed stone pillar did Egyptians erect at temple entrances?",
+      "a": "An obelisk",
+      "angle": "architecture"
+    },
+    {
+      "q": "What dark eye makeup did ancient Egyptians wear?",
+      "a": "Kohl",
+      "angle": "daily life"
+    },
+    {
+      "q": "What did the Nile's annual flood deposit that made farmland fertile?",
+      "a": "Rich black silt",
+      "angle": "nile"
+    },
+    {
+      "q": "What precious blue stone did Egyptians import from Afghanistan for jewelry?",
+      "a": "Lapis lazuli",
+      "angle": "culture"
     }
   ],
   "medium": [
@@ -798,6 +823,11 @@
       "q": "What term names the sacred lake beside many temples?",
       "a": "Isheru (temple lake)",
       "angle": "ritual"
+    },
+    {
+      "q": "What ceremonial slate artifact from c. 3100 BCE depicts King Narmer unifying Upper and Lower Egypt?",
+      "a": "The Palette of Narmer",
+      "angle": "artifact"
     }
   ]
 }

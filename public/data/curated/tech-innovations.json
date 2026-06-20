@@ -214,6 +214,66 @@
       "q": "What wireless charging standard, developed by the Wireless Power Consortium, became the most widely adopted?",
       "a": "Qi",
       "angle": "charging"
+    },
+    {
+      "q": "What company created the Android mobile operating system?",
+      "a": "Google",
+      "angle": "product maker"
+    },
+    {
+      "q": "What does QR code stand for?",
+      "a": "Quick Response code",
+      "angle": "acronym"
+    },
+    {
+      "q": "What is a touchscreen?",
+      "a": "A display you control by touching it directly",
+      "angle": "use case"
+    },
+    {
+      "q": "What company makes the MacBook laptop?",
+      "a": "Apple",
+      "angle": "product maker"
+    },
+    {
+      "q": "What is a smart speaker?",
+      "a": "A voice-controlled speaker that connects to the internet",
+      "angle": "smart home"
+    },
+    {
+      "q": "What is NFC used for on phones?",
+      "a": "Short-range communication for tap-to-pay and data sharing",
+      "angle": "connectivity"
+    },
+    {
+      "q": "What company makes the Xperia smartphone line?",
+      "a": "Sony",
+      "angle": "product maker"
+    },
+    {
+      "q": "What does an antivirus program protect against?",
+      "a": "Malware and viruses on your device",
+      "angle": "security feature"
+    },
+    {
+      "q": "What is a VPN used for?",
+      "a": "Encrypting internet traffic and masking your location",
+      "angle": "security feature"
+    },
+    {
+      "q": "What is a RAM chip used for in a computer?",
+      "a": "Temporary memory for running programs",
+      "angle": "storage"
+    },
+    {
+      "q": "What is an app store?",
+      "a": "A marketplace to download apps on phones or devices",
+      "angle": "use case"
+    },
+    {
+      "q": "What company makes the ThinkPad laptop line?",
+      "a": "Lenovo",
+      "angle": "product maker"
     }
   ],
   "medium": [
@@ -416,6 +476,81 @@
       "q": "What does Dolby Vision provide?",
       "a": "Dynamic HDR metadata for better picture quality",
       "angle": "display tech"
+    },
+    {
+      "q": "What is the main function of a TPU in Google's data centers?",
+      "a": "Accelerating machine learning workloads",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What was the name of IBM's chess-playing computer that defeated Garry Kasparov in 1997?",
+      "a": "Deep Blue",
+      "angle": "milestones"
+    },
+    {
+      "q": "What is the open-source Linux kernel's primary license called?",
+      "a": "GPL (GNU General Public License)",
+      "angle": "software"
+    },
+    {
+      "q": "What does USB stand for?",
+      "a": "Universal Serial Bus",
+      "angle": "acronym"
+    },
+    {
+      "q": "What company developed the Swift programming language?",
+      "a": "Apple",
+      "angle": "software"
+    },
+    {
+      "q": "What is Moore's Law?",
+      "a": "The observation that transistor counts on chips roughly double every two years",
+      "angle": "milestones"
+    },
+    {
+      "q": "What does DNS stand for on the internet?",
+      "a": "Domain Name System",
+      "angle": "web tech"
+    },
+    {
+      "q": "What protocol does the internet use to assign addresses to devices on a network?",
+      "a": "DHCP (Dynamic Host Configuration Protocol)",
+      "angle": "standard"
+    },
+    {
+      "q": "What type of storage replaced spinning hard drives in most modern laptops by the 2010s?",
+      "a": "Solid-state drives (SSDs)",
+      "angle": "storage"
+    },
+    {
+      "q": "What is an API?",
+      "a": "An Application Programming Interface — a way for software to communicate with other software",
+      "angle": "software"
+    },
+    {
+      "q": "What is the purpose of a CDN?",
+      "a": "Delivering web content from servers close to the user for faster load times",
+      "angle": "web tech"
+    },
+    {
+      "q": "What is the Git version control system primarily used for?",
+      "a": "Tracking changes in source code and coordinating collaborative software development",
+      "angle": "software"
+    },
+    {
+      "q": "What is a compiler?",
+      "a": "A program that translates source code into machine-executable code",
+      "angle": "software"
+    },
+    {
+      "q": "What year was the first iPhone released?",
+      "a": "2007",
+      "angle": "milestones"
+    },
+    {
+      "q": "What company created the Kotlin programming language?",
+      "a": "JetBrains",
+      "angle": "software"
     }
   ],
   "hard": [
@@ -623,6 +758,76 @@
       "q": "What is neuromorphic computing exploring?",
       "a": "Brain-inspired hardware for efficient AI",
       "angle": "research"
+    },
+    {
+      "q": "What interconnect standard replaced AGP for discrete graphics cards starting in 2004?",
+      "a": "PCI Express (PCIe)",
+      "angle": "interface"
+    },
+    {
+      "q": "What does TSMC stand for?",
+      "a": "Taiwan Semiconductor Manufacturing Company",
+      "angle": "semiconductor"
+    },
+    {
+      "q": "In what year did NVIDIA release its first GPU with dedicated ray tracing cores, the RTX 2000 series?",
+      "a": "2018",
+      "angle": "graphics"
+    },
+    {
+      "q": "What is a FinFET transistor?",
+      "a": "A 3D fin-shaped transistor that reduces leakage current compared to planar designs",
+      "angle": "device architecture"
+    },
+    {
+      "q": "What memory technology does Apple use in M-series chips that places RAM directly on the processor package?",
+      "a": "Unified Memory Architecture (UMA)",
+      "angle": "memory"
+    },
+    {
+      "q": "What is the primary function of Arm's Cortex-X cores compared to its Cortex-A cores?",
+      "a": "Maximum single-thread peak performance at the cost of higher power",
+      "angle": "architecture"
+    },
+    {
+      "q": "What is NAND flash memory named after?",
+      "a": "The NAND logic gate structure used in its cell array",
+      "angle": "storage"
+    },
+    {
+      "q": "What does QLC stand for in NAND flash?",
+      "a": "Quad-Level Cell — four bits stored per cell",
+      "angle": "storage"
+    },
+    {
+      "q": "What company developed the CUDA parallel computing platform for GPU programming?",
+      "a": "NVIDIA",
+      "angle": "ai hardware"
+    },
+    {
+      "q": "What is the purpose of a hardware security enclave like Apple's Secure Enclave or ARM TrustZone?",
+      "a": "Isolating cryptographic operations and sensitive data from the main OS",
+      "angle": "security"
+    },
+    {
+      "q": "What is 3D NAND flash?",
+      "a": "Flash memory that stacks cell layers vertically to increase density without shrinking cell size",
+      "angle": "manufacturing"
+    },
+    {
+      "q": "What does the term 'dark silicon' describe in processor design?",
+      "a": "Transistors that must remain powered off to stay within thermal limits",
+      "angle": "device architecture"
+    },
+    {
+      "q": "What is beamforming in Wi-Fi?",
+      "a": "Directing antenna signals toward a specific client for stronger, more targeted transmission",
+      "angle": "wireless"
+    },
+    {
+      "q": "What is the role of an IOMMU in a computer system?",
+      "a": "Mapping device memory accesses for security and virtualisation isolation",
+      "angle": "architecture"
     }
   ]
 }

@@ -823,6 +823,11 @@
       "q": "Which company purchased Sun Microsystems?",
       "a": "Oracle (2010)",
       "angle": "acquisitions"
+    },
+    {
+      "q": "In what year did Intel release the 4004, the world's first commercial single-chip microprocessor?",
+      "a": "1971",
+      "angle": "history"
     }
   ]
 }

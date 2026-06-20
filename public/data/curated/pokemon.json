@@ -269,6 +269,11 @@
       "q": "What status prevents waking until cured or ends naturally?",
       "a": "Sleep",
       "angle": "status"
+    },
+    {
+      "q": "What city is home to the Kanto Pokémon League and Elite Four?",
+      "a": "Indigo Plateau",
+      "angle": "locations"
     }
   ],
   "medium": [
@@ -531,6 +536,21 @@
       "q": "What item passes five IVs from parents when breeding?",
       "a": "Destiny Knot",
       "angle": "breeding"
+    },
+    {
+      "q": "What games introduced the Sinnoh region?",
+      "a": "Diamond and Pearl",
+      "angle": "regions"
+    },
+    {
+      "q": "What nature raises Special Attack and lowers Attack?",
+      "a": "Modest",
+      "angle": "natures"
+    },
+    {
+      "q": "What item evolves Porygon into Porygon2 when traded?",
+      "a": "Up-Grade",
+      "angle": "evolution"
     }
   ],
   "hard": [

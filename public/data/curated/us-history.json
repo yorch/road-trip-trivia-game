@@ -224,6 +224,56 @@
       "q": "Which territory purchase includes present-day Arizona, New Mexico, California?",
       "a": "Mexican Cession (1848)",
       "angle": "expansion"
+    },
+    {
+      "q": "What is the name of the famous speech Lincoln gave dedicating a Civil War cemetery in 1863?",
+      "a": "Gettysburg Address",
+      "angle": "speeches"
+    },
+    {
+      "q": "What ocean borders the East Coast of the United States?",
+      "a": "Atlantic Ocean",
+      "angle": "geography"
+    },
+    {
+      "q": "What was the name of the first ten amendments to the Constitution?",
+      "a": "The Bill of Rights",
+      "angle": "documents"
+    },
+    {
+      "q": "What was the name of the famous US space program that landed astronauts on the Moon?",
+      "a": "Apollo program",
+      "angle": "milestone"
+    },
+    {
+      "q": "What is the name of the US legislative body made up of the Senate and House of Representatives?",
+      "a": "Congress",
+      "angle": "civics"
+    },
+    {
+      "q": "How many US states are there?",
+      "a": "50",
+      "angle": "civics"
+    },
+    {
+      "q": "Who was the first vice president of the United States?",
+      "a": "John Adams",
+      "angle": "founding"
+    },
+    {
+      "q": "What mountain range runs along the eastern US?",
+      "a": "Appalachian Mountains",
+      "angle": "geography"
+    },
+    {
+      "q": "In what city did the Boston Tea Party take place?",
+      "a": "Boston, Massachusetts",
+      "angle": "revolution"
+    },
+    {
+      "q": "What war did the US fight against North Korea and China in the 1950s?",
+      "a": "Korean War",
+      "angle": "wars"
     }
   ],
   "medium": [
@@ -496,6 +546,11 @@
       "q": "What 1854 act allowed popular sovereignty in Kansas-Nebraska?",
       "a": "Kansas-Nebraska Act",
       "angle": "laws"
+    },
+    {
+      "q": "What 1944 Allied amphibious assault on Normandy, France opened a second front in Europe?",
+      "a": "D-Day (Operation Overlord), June 6, 1944",
+      "angle": "ww2"
     }
   ],
   "hard": [
@@ -768,6 +823,11 @@
       "q": "Who proposed the Fourteen Points after WWI?",
       "a": "Woodrow Wilson",
       "angle": "foreign-policy"
+    },
+    {
+      "q": "What 1973 Supreme Court decision legalized abortion nationwide, and was later overturned in 2022?",
+      "a": "Roe v. Wade",
+      "angle": "supreme-court"
     }
   ]
 }

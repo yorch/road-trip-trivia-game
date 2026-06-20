@@ -259,6 +259,21 @@
       "q": "What is Gollum's hobbit name?",
       "a": "Sméagol",
       "angle": "characters"
+    },
+    {
+      "q": "What is the name of Bilbo's hobbit-hole?",
+      "a": "Bag End",
+      "angle": "setting"
+    },
+    {
+      "q": "What is the name of the sword Frodo inherits from Bilbo that glows blue near orcs?",
+      "a": "Sting",
+      "angle": "artifact"
+    },
+    {
+      "q": "What is the name of Saruman's stronghold?",
+      "a": "Isengard",
+      "angle": "locations"
     }
   ],
   "medium": [
@@ -531,6 +546,11 @@
       "q": "What creature does Legolas count kills with at Helm's Deep?",
       "a": "Gimli (their contest)",
       "angle": "scene"
+    },
+    {
+      "q": "What royal title does Aragorn take upon his coronation?",
+      "a": "King Elessar (Aragorn II Elessar, King of Gondor and Arnor)",
+      "angle": "royalty"
     }
   ],
   "hard": [
@@ -798,6 +818,16 @@
       "q": "What creature kills Boromir?",
       "a": "Uruk-hai led by Lurtz (film), orcs of Saruman",
       "angle": "battle"
+    },
+    {
+      "q": "What are the names of the two Blue Wizards sent to the East?",
+      "a": "Alatar and Pallando (also named Morinehtar and Rómestámo in Tolkien's later writings)",
+      "angle": "lore"
+    },
+    {
+      "q": "What is the Quenya name for the dwarven city whose ruins the Fellowship crosses?",
+      "a": "Khazad-dûm (Moria in Sindarin)",
+      "angle": "language"
     }
   ]
 }

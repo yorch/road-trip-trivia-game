@@ -204,6 +204,71 @@
       "q": "Who was the Beatle known as the quiet one?",
       "a": "George Harrison",
       "angle": "nicknames"
+    },
+    {
+      "q": "What band did Stevie Nicks and Lindsey Buckingham join in 1975?",
+      "a": "Fleetwood Mac",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'Born to Run'?",
+      "a": "Bruce Springsteen",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who is the lead singer of U2?",
+      "a": "Bono",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'What's Love Got to Do with It'?",
+      "a": "Tina Turner",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who performed 'Johnny B. Goode'?",
+      "a": "Chuck Berry",
+      "angle": "classic rock"
+    },
+    {
+      "q": "What genre is David Bowie most associated with?",
+      "a": "Glam rock",
+      "angle": "genre"
+    },
+    {
+      "q": "Who sang 'Superstition'?",
+      "a": "Stevie Wonder",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who fronted Led Zeppelin?",
+      "a": "Robert Plant",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'We Are the Champions'?",
+      "a": "Queen",
+      "angle": "chart topper"
+    },
+    {
+      "q": "Who is the lead singer of AC/DC (current)?",
+      "a": "Brian Johnson",
+      "angle": "band"
+    },
+    {
+      "q": "Who sang 'Jolene'?",
+      "a": "Dolly Parton",
+      "angle": "signature song"
+    },
+    {
+      "q": "Who sang 'Good Vibrations'?",
+      "a": "The Beach Boys",
+      "angle": "chart topper"
+    },
+    {
+      "q": "What instrument is Elton John famous for playing?",
+      "a": "Piano",
+      "angle": "performance"
     }
   ],
   "medium": [
@@ -461,6 +526,26 @@
       "q": "Who wrote and sang Piano Man?",
       "a": "Billy Joel",
       "angle": "songs"
+    },
+    {
+      "q": "What year did The Beatles break up?",
+      "a": "1970",
+      "angle": "era"
+    },
+    {
+      "q": "Who sang 'Respect Yourself' and co-founded Stax Records' sound?",
+      "a": "Staple Singers",
+      "angle": "song"
+    },
+    {
+      "q": "What song opens with the guitar riff 'da-da-da-DA-da' and became the anthem of Woodstock?",
+      "a": "\"Purple Haze\" by Jimi Hendrix",
+      "angle": "performance"
+    },
+    {
+      "q": "Who is the drummer and vocalist for Genesis who went solo in the 1980s?",
+      "a": "Phil Collins",
+      "angle": "band"
     }
   ],
   "hard": [
@@ -713,6 +798,31 @@
       "q": "What year did Nevermind release?",
       "a": "1991",
       "angle": "history"
+    },
+    {
+      "q": "What was the name of Bruce Springsteen's backing band?",
+      "a": "The E Street Band",
+      "angle": "band"
+    },
+    {
+      "q": "On what 1966 Beatles album does 'Eleanor Rigby' appear?",
+      "a": "Revolver",
+      "angle": "albums"
+    },
+    {
+      "q": "Who played keyboards for The Doors?",
+      "a": "Ray Manzarek",
+      "angle": "band"
+    },
+    {
+      "q": "What is the real first name of Elvis Costello?",
+      "a": "Declan (Declan MacManus)",
+      "angle": "bio"
+    },
+    {
+      "q": "Who produced Led Zeppelin's first four albums?",
+      "a": "Jimmy Page",
+      "angle": "production"
     }
   ]
 }

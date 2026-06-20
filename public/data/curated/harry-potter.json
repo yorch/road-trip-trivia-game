@@ -199,6 +199,76 @@
       "q": "What Hogsmeade shop is famous for its sweets?",
       "a": "Honeydukes",
       "angle": "world"
+    },
+    {
+      "q": "What is the name of the magical alley where wizards shop in London?",
+      "a": "Diagon Alley",
+      "angle": "setting"
+    },
+    {
+      "q": "Which Weasley is Harry's best friend?",
+      "a": "Ron Weasley",
+      "angle": "friends"
+    },
+    {
+      "q": "What color robes do Hogwarts students wear?",
+      "a": "Black",
+      "angle": "world"
+    },
+    {
+      "q": "What ball must the Seeker catch to end a Quidditch match?",
+      "a": "The Golden Snitch",
+      "angle": "sports"
+    },
+    {
+      "q": "Who is the author of the Harry Potter series?",
+      "a": "J.K. Rowling",
+      "angle": "iconic"
+    },
+    {
+      "q": "What magical creature is Buckbeak?",
+      "a": "A Hippogriff",
+      "angle": "creature"
+    },
+    {
+      "q": "What subject does Professor McGonagall teach?",
+      "a": "Transfiguration",
+      "angle": "faculty"
+    },
+    {
+      "q": "What is the spell that produces light from a wand tip?",
+      "a": "Lumos",
+      "angle": "spells"
+    },
+    {
+      "q": "What is the enchanted ceiling of the Great Hall said to look like?",
+      "a": "The sky outside",
+      "angle": "setting"
+    },
+    {
+      "q": "What animal is on the Hufflepuff house crest?",
+      "a": "A badger",
+      "angle": "houses"
+    },
+    {
+      "q": "Which book is the first in the Harry Potter series?",
+      "a": "Harry Potter and the Philosopher's Stone (Sorcerer's Stone in the US)",
+      "angle": "iconic"
+    },
+    {
+      "q": "What creature is Nagini?",
+      "a": "A snake",
+      "angle": "creature"
+    },
+    {
+      "q": "Where do Hogwarts students buy their school supplies?",
+      "a": "Diagon Alley",
+      "angle": "world"
+    },
+    {
+      "q": "What is the number of the famous platform at King's Cross?",
+      "a": "Nine and Three-Quarters (9¾)",
+      "angle": "travel"
     }
   ],
   "medium": [
@@ -446,6 +516,36 @@
       "q": "What village hosts the Three Broomsticks pub?",
       "a": "Hogsmeade",
       "angle": "setting"
+    },
+    {
+      "q": "What spell do you cast to repel a Dementor?",
+      "a": "Expecto Patronum",
+      "angle": "spell"
+    },
+    {
+      "q": "Which Hogwarts house is associated with the eagle?",
+      "a": "Ravenclaw",
+      "angle": "houses"
+    },
+    {
+      "q": "What does the spell 'Alohomora' do?",
+      "a": "Unlocks doors",
+      "angle": "spell"
+    },
+    {
+      "q": "Who is the ghost of Hufflepuff house?",
+      "a": "The Fat Friar",
+      "angle": "ghosts"
+    },
+    {
+      "q": "What is the name of the pub in Hogsmeade frequented by students?",
+      "a": "The Three Broomsticks",
+      "angle": "setting"
+    },
+    {
+      "q": "What creature is Remus Lupin?",
+      "a": "A werewolf",
+      "angle": "creature"
     }
   ],
   "hard": [
@@ -698,6 +798,31 @@
       "q": "Who steals the locket Horcrux from Umbridge?",
       "a": "Harry, Ron, and Hermione steal it from Dolores Umbridge",
       "angle": "plot"
+    },
+    {
+      "q": "What is the incantation of the Imperius Curse?",
+      "a": "Imperio",
+      "angle": "dark magic"
+    },
+    {
+      "q": "What is the name of Dumbledore's brother?",
+      "a": "Aberforth Dumbledore",
+      "angle": "family"
+    },
+    {
+      "q": "What Horcrux was hidden in the cave by the sea?",
+      "a": "Slytherin's locket",
+      "angle": "plot"
+    },
+    {
+      "q": "What is the length of Harry's wand?",
+      "a": "Eleven inches",
+      "angle": "wand"
+    },
+    {
+      "q": "Who was the Hufflepuff champion in the Triwizard Tournament?",
+      "a": "Cedric Diggory",
+      "angle": "events"
     }
   ]
 }

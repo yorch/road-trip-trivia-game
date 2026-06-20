@@ -264,6 +264,16 @@
       "q": "What is a chest pass?",
       "a": "A two-hand pass from the chest",
       "angle": "fundamentals"
+    },
+    {
+      "q": "What city do the Lakers originally come from?",
+      "a": "Minneapolis, Minnesota",
+      "angle": "teams"
+    },
+    {
+      "q": "What is it called when one team scores many points quickly in a row?",
+      "a": "A run (or scoring run)",
+      "angle": "fundamentals"
     }
   ],
   "medium": [
@@ -531,6 +541,16 @@
       "q": "Which coach won 4 NBA titles with the Spurs?",
       "a": "Gregg Popovich",
       "angle": "coaching"
+    },
+    {
+      "q": "What is the name of the award given to the NBA Finals MVP?",
+      "a": "Bill Russell NBA Finals Most Valuable Player Award",
+      "angle": "awards"
+    },
+    {
+      "q": "Which player famously said 'I am not a role model' in a 1990s Nike commercial?",
+      "a": "Charles Barkley",
+      "angle": "legends"
     }
   ],
   "hard": [
@@ -793,6 +813,21 @@
       "q": "Who is the WNBA all-time assists leader?",
       "a": "Sue Bird",
       "angle": "wnba"
+    },
+    {
+      "q": "Which player was traded from Seattle to Oklahoma City when the SuperSonics relocated in 2008?",
+      "a": "Kevin Durant (among others)",
+      "angle": "history"
+    },
+    {
+      "q": "What was the original name of the Sacramento Kings franchise?",
+      "a": "Rochester Royals (founded 1945)",
+      "angle": "history"
+    },
+    {
+      "q": "Who is the only player to win the NBA title with the same franchise as both a player and head coach?",
+      "a": "Bill Russell (Boston Celtics, player-coach 1966-69)",
+      "angle": "records"
     }
   ]
 }
