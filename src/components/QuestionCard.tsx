@@ -1,57 +1,43 @@
-import { useEffect } from 'preact/hooks';
-import { topicListSignal } from '../data/data';
-import {
-  currentQuestionSignal,
-  difficultySignal,
-  endStateSignal,
-  revealedSignal,
-  topicIdSignal,
-} from '../state';
-import { markCorrect, resetProgress, skipQuestion } from '../state/game-logic';
-import { isSpeakingSignal, speak, stopSpeech } from '../state/speech';
-import type { Topic } from '../types';
+import type { ComponentChildren } from 'preact';
+import type { Question } from '../types';
 import { SpeakerIcon, SpeakerOffIcon } from './icons';
 
-// --- Helper Components ---
+interface Props {
+  question: Question;
+  revealed: boolean;
+  speaking: boolean;
+  onSpeak: () => void;
+  onStopSpeak: () => void;
+  actions: ComponentChildren;
+}
 
-const CardHeader = ({
-  topic,
-  title,
-  meta,
-  difficulty,
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+export function QuestionCard({
+  question,
+  revealed,
+  speaking,
   onSpeak,
-}: {
-  topic?: Topic;
-  title: string;
-  meta?: string;
-  difficulty?: string;
-  onSpeak?: () => void;
-}) => {
-  const speaking = isSpeakingSignal.value;
+  onStopSpeak,
+  actions,
+}: Props) {
   return (
-    <div class="card-head">
-      <div>
-        <p class="card-kicker" id="cardTopic">
-          {topic ? `${topic.name} • ${topic.category}` : 'Unknown Topic'}
-        </p>
-        <h2 id="cardTitle">{title}</h2>
-        {meta && (
-          <p class="card-meta" id="cardMeta">
-            {meta}
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <p class="card-kicker">
+            {question.topicName} • {question.category}
           </p>
-        )}
-      </div>
-      <div class="card-head-right">
-        {difficulty && (
-          <div class="chip" id="cardDifficulty">
-            {difficulty}
-          </div>
-        )}
-        {onSpeak && (
+          <h2 class="card-title">{question.prompt}</h2>
+        </div>
+        <div class="card-head-right">
+          <span class={`chip chip-${question.difficulty}`}>
+            {cap(question.difficulty)}
+          </span>
           <button
             type="button"
             class={`speaker-btn ${speaking ? 'speaking' : ''}`}
-            onClick={speaking ? stopSpeech : onSpeak}
+            onClick={speaking ? onStopSpeak : onSpeak}
             aria-label={speaking ? 'Stop reading' : 'Read question aloud'}
             title={speaking ? 'Stop reading' : 'Read question aloud'}
           >
@@ -61,199 +47,41 @@ const CardHeader = ({
               <SpeakerIcon size={16} />
             )}
           </button>
+        </div>
+      </div>
+
+      <p class="card-body">
+        {question.generated
+          ? 'Open-ended — say what you can, then reveal a few examples.'
+          : 'Say your answer out loud, then reveal.'}
+      </p>
+
+      {/* Answer is only rendered once revealed, so it never leaks to the
+          accessibility tree or devtools beforehand. */}
+      <div
+        class={`answer ${revealed ? 'visible' : ''}`}
+        aria-hidden={!revealed}
+      >
+        {question.generated && question.examples ? (
+          <>
+            <p class="answer-label">Example answers</p>
+            {revealed && (
+              <ul class="answer-examples">
+                {question.examples.map((ex) => (
+                  <li key={ex}>{ex}</li>
+                ))}
+              </ul>
+            )}
+          </>
+        ) : (
+          <>
+            <p class="answer-label">Answer</p>
+            <p class="answer-text">{revealed ? question.answer : ''}</p>
+          </>
         )}
       </div>
+
+      <div class="actions">{actions}</div>
     </div>
-  );
-};
-
-const CardActions = ({
-  revealed,
-  disabled,
-  onReveal,
-  onMissed,
-  onCorrect,
-}: {
-  revealed: boolean;
-  disabled: boolean;
-  onReveal: () => void;
-  onMissed: () => void;
-  onCorrect: () => void;
-}) => (
-  <div class="actions">
-    {!revealed ? (
-      <button
-        type="button"
-        id="toggleAnswer"
-        class="primary"
-        disabled={disabled}
-        onClick={onReveal}
-        style={{ width: '100%', justifyContent: 'center' }}
-      >
-        Show answer
-      </button>
-    ) : (
-      <>
-        <button
-          type="button"
-          id="markMissed"
-          class="ghost"
-          disabled={disabled}
-          onClick={onMissed}
-        >
-          Missed it
-        </button>
-        <div class="spacer"></div>
-        <button
-          type="button"
-          id="markCorrect"
-          class="primary"
-          disabled={disabled}
-          onClick={onCorrect}
-        >
-          I got it
-        </button>
-      </>
-    )}
-  </div>
-);
-
-export function QuestionCard() {
-  const question = currentQuestionSignal.value;
-  const endState = endStateSignal.value;
-  const revealed = revealedSignal.value;
-  const topicId = topicIdSignal.value;
-  const difficulty = difficultySignal.value;
-
-  // Stop any in-progress narration when leaving the game page. The signal
-  // effect in speech.ts only fires on question changes, not route unmounts.
-  useEffect(() => stopSpeech, []);
-
-  // Find topic name
-  const topic = topicListSignal.value?.find((t: Topic) => t.id === topicId);
-
-  if (endState) {
-    return (
-      <main class="board">
-        <div class="card card-complete">
-          <div class="card-head">
-            <div>
-              <p class="card-kicker" id="cardTopic">
-                {topic ? `${topic.name} • ${topic.category}` : 'Unknown Topic'}
-              </p>
-              <h2 id="cardTitle">{endState.title}</h2>
-            </div>
-          </div>
-          <p class="card-body" id="cardBody">
-            {endState.message}
-          </p>
-          <div class="actions">
-            <button
-              type="button"
-              class="ghost"
-              onClick={() => {
-                window.location.hash = '/';
-              }}
-            >
-              Back to Topics
-            </button>
-            <div class="spacer"></div>
-            <button
-              type="button"
-              class="primary"
-              onClick={() => resetProgress()}
-            >
-              Start Over
-            </button>
-          </div>
-        </div>
-      </main>
-    );
-  }
-
-  if (!question) {
-    // Initial state or loading
-    return (
-      <main class="board">
-        <div class="card">
-          <CardHeader
-            title="Question will appear here"
-            meta="Pick a topic to start"
-            difficulty="Easy"
-          />
-          <p class="card-body" id="cardBody">
-            Press “Next question” to kick things off.
-          </p>
-          <div class="answer" id="cardAnswer">
-            <p class="answer-label">Answer</p>
-            <p id="answerText">Hidden</p>
-          </div>
-          <CardActions
-            revealed={false}
-            disabled={true}
-            onReveal={() => {}}
-            onMissed={() => {}}
-            onCorrect={() => {}}
-          />
-        </div>
-      </main>
-    );
-  }
-
-  return (
-    <main class="board">
-      <div class="card">
-        <CardHeader
-          topic={topic}
-          title={question.prompt}
-          meta={`Angle: ${question.angle}`}
-          difficulty={difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
-          onSpeak={() => speak(question.prompt)}
-        />
-        <p class="card-body" id="cardBody">
-          {question.generated
-            ? 'Open-ended — name what you can, then reveal a few examples.'
-            : 'Give a short, precise answer, then reveal.'}
-        </p>
-
-        {/* Only render the answer once revealed: CSS hides the box visually,
-            but keeping the text in the DOM leaked it to screen readers and
-            devtools before reveal. Generated prompts show example answers (no
-            single correct answer); curated questions show the one answer. */}
-        <div
-          class={`answer ${revealed ? 'visible' : ''}`}
-          id="cardAnswer"
-          aria-hidden={!revealed}
-        >
-          {question.generated && question.examples ? (
-            <>
-              <p class="answer-label">Example answers</p>
-              {revealed && (
-                <ul class="answer-examples" id="answerText">
-                  {question.examples.map((ex) => (
-                    <li key={ex}>{ex}</li>
-                  ))}
-                </ul>
-              )}
-            </>
-          ) : (
-            <>
-              <p class="answer-label">Answer</p>
-              <p id="answerText">{revealed ? question.answer : ''}</p>
-            </>
-          )}
-        </div>
-
-        <CardActions
-          revealed={revealed}
-          disabled={false}
-          onReveal={() => {
-            revealedSignal.value = true;
-          }}
-          onMissed={() => skipQuestion()}
-          onCorrect={() => markCorrect()}
-        />
-      </div>
-    </main>
   );
 }

@@ -140,6 +140,61 @@ export const GearIcon = ({ size = 16, class: cls }: IconProps) => (
   </svg>
 );
 
+export const PlayIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <polygon points="6 3 20 12 6 21 6 3" fill="currentColor" stroke="none" />
+  </svg>
+);
+
+export const BoltIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+  </svg>
+);
+
+export const PlusIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <line x1="12" y1="5" x2="12" y2="19" />
+    <line x1="5" y1="12" x2="19" y2="12" />
+  </svg>
+);
+
+export const CheckIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <polyline points="20 6 9 17 4 12" />
+  </svg>
+);
+
+export const XIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+);
+
+export const ArrowLeftIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <line x1="19" y1="12" x2="5" y2="12" />
+    <polyline points="12 19 5 12 12 5" />
+  </svg>
+);
+
+export const UsersIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+  </svg>
+);
+
+export const ClockIcon = ({ size = 16, class: cls }: IconProps) => (
+  <svg {...iconProps(size, cls)} aria-hidden="true">
+    <circle cx="12" cy="12" r="9" />
+    <polyline points="12 7 12 12 16 14" />
+  </svg>
+);
+
 export const CATEGORY_ICONS: Record<string, (props: IconProps) => JSX.Element> =
   {
     'Movies & TV': FilmIcon,

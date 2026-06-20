@@ -1,6 +1,8 @@
+// ─── Content types ───────────────────────────────────────────────────────
+
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
-export type QuestionMode = 'all' | 'curated';
+export const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 
 export interface Topic {
   id: string;
@@ -9,65 +11,100 @@ export interface Topic {
   tags: string[];
 }
 
-export interface Question {
-  prompt: string;
-  answer: string;
-  angle: string;
-  difficulty: Difficulty;
-  // Template-generated open-ended prompts set these: the question has no single
-  // correct answer, so we show several example answers instead of one.
-  generated?: boolean;
-  examples?: string[];
-}
-
 export interface CuratedQuestion {
   q: string;
   a: string;
   angle: string;
 }
 
-export interface CuratedQuestions {
-  [topicId: string]: {
-    easy: CuratedQuestion[];
-    medium: CuratedQuestion[];
-    hard: CuratedQuestion[];
-  };
+export interface CuratedTopicFile {
+  easy: CuratedQuestion[];
+  medium: CuratedQuestion[];
+  hard: CuratedQuestion[];
 }
 
-export interface TemplateSet {
-  [key: string]: string[];
+export interface AnswerExamples {
+  [topicId: string]: { [angle: string]: string[] };
 }
 
 export interface CategoryAngles {
   [category: string]: string[];
 }
 
-export interface AnswerExamples {
-  [topicId: string]: {
-    [angle: string]: string[];
-  };
+export interface TemplateSet {
+  [difficulty: string]: string[];
 }
 
-export interface Progress {
-  order: number[];
-  cursor: number;
-  needsReshuffle?: boolean;
+// A question as presented in a game. Carries its source topic so a mixed-topic
+// session can show where each question came from.
+export interface Question {
+  id: string;
+  prompt: string;
+  answer: string;
+  angle: string;
+  difficulty: Difficulty;
+  topicId: string;
+  topicName: string;
+  category: string;
+  // Open-ended generated prompts: no single answer, show example answers.
+  generated?: boolean;
+  examples?: string[];
 }
 
-export interface ProgressData {
-  [topicId: string]: {
-    [difficulty: string]: Progress;
-  };
+// ─── Session / game types ────────────────────────────────────────────────
+
+export type EntrantKind = 'players' | 'teams';
+
+export interface Entrant {
+  id: string;
+  name: string;
 }
 
-export interface QuestionBank {
-  [topicId: string]: {
-    [difficulty: string]: Question[];
-  };
+// How a game ends.
+export type EndMode = 'count' | 'race' | 'timed' | 'endless';
+
+export type DifficultyChoice = 'mixed' | Difficulty;
+
+export type ContentMode = 'curated' | 'all';
+
+export interface GameConfig {
+  entrantKind: EntrantKind;
+  entrants: Entrant[];
+  topicIds: string[]; // empty = all topics
+  contentMode: ContentMode;
+  difficulty: DifficultyChoice;
+  endMode: EndMode;
+  // Meaning depends on endMode: question count / target points / seconds.
+  // Ignored for 'endless'.
+  target: number;
 }
 
-export interface ScoreboardData {
+export interface EntrantScore {
   score: number;
   streak: number;
-  asked: number;
+  bestStreak: number;
+  correct: number;
+}
+
+export type SessionStatus = 'active' | 'finished';
+
+export interface AwardResult {
+  entrantId: string | null; // null = nobody got it
+  base: number;
+  bonus: number;
+  difficulty: Difficulty;
+  streak: number;
+}
+
+export interface GameSession {
+  config: GameConfig;
+  seed: number;
+  pool: Question[];
+  cursor: number;
+  revealed: boolean;
+  scores: Record<string, EntrantScore>;
+  status: SessionStatus;
+  startedAt: number;
+  endsAt?: number; // wall-clock deadline for 'timed' mode
+  lastAward: AwardResult | null;
 }

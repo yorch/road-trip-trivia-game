@@ -1,4 +1,4 @@
-import { THEMES, themeSignal } from '../state/theme';
+import { THEMES, themeSignal } from '../theme';
 
 export function ThemeToggle() {
   const current = themeSignal.value;

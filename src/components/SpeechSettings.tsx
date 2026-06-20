@@ -5,7 +5,7 @@ import {
   speak,
   voiceNameSignal,
   voicesSignal,
-} from '../state/speech';
+} from '../speech';
 import { GearIcon } from './icons';
 
 export function SpeechSettings() {

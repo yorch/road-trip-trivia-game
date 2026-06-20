@@ -1,20 +1,38 @@
-// This file orchestrates the initialization of all modules
+// App entry: load content, restore any in-progress game, render.
 
-// Import CSS (Vite will process this)
 import './css/style.css';
-// Import theme early — side-effect applies data-theme to <html> before first render
-import './state/theme';
+// Side effect: applies data-theme to <html> before first render.
+import './theme';
 
 import { render } from 'preact';
-import { App } from './components/App';
-import { initGame } from './state/init';
+import { App } from './App';
+import { loadTopics } from './content/catalog';
+import { loadCuratedIndex } from './content/curated';
+import { toast } from './lib/toast';
+import { resumeSession } from './session/session';
 
 async function main() {
-  await initGame();
-  const appRoot = document.getElementById('app');
-  if (!appRoot) throw new Error('Root element #app not found');
-  render(<App />, appRoot);
+  document.body.classList.add('loading');
+
+  try {
+    await Promise.all([loadTopics(), loadCuratedIndex()]);
+  } catch (err) {
+    toast.error(
+      'Failed to load game data. Check your connection and refresh.',
+      err,
+    );
+    document.body.classList.remove('loading');
+    return;
+  }
+
+  resumeSession();
+
+  document.documentElement.classList.remove('no-js');
+  document.body.classList.remove('loading');
+
+  const root = document.getElementById('app');
+  if (!root) throw new Error('Root element #app not found');
+  render(<App />, root);
 }
 
-// Initialize on DOM content loaded
 document.addEventListener('DOMContentLoaded', main);
