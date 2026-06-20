@@ -25,6 +25,7 @@ import {
   RefreshIcon,
   TrophyIcon,
 } from './icons';
+import { SpeechSettings } from './SpeechSettings';
 import { ThemeToggle } from './ThemeToggle';
 
 export function TopicPicker() {
@@ -117,6 +118,7 @@ export function TopicPicker() {
                 </span>
               </div>
             )}
+            <SpeechSettings />
             <ThemeToggle />
           </div>
         </div>
