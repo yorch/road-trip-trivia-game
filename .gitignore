@@ -2,6 +2,8 @@ node_modules/
 
 dist/
 
+tmp/
+
 # Yarn v2+ Non Zero Installs
 .pnp.*
 .yarn/*

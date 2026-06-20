@@ -2,6 +2,8 @@
 
 // Import CSS (Vite will process this)
 import './css/style.css';
+// Import theme early — side-effect applies data-theme to <html> before first render
+import './state/theme';
 
 import { render } from 'preact';
 import { App } from './components/App';

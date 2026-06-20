@@ -11,6 +11,7 @@ import { nextQuestion } from '../state/game-logic';
 import type { Difficulty, QuestionMode } from '../types';
 import { QuestionCard } from './QuestionCard';
 import { Scoreboard } from './Scoreboard';
+import { ThemeToggle } from './ThemeToggle';
 
 export function GamePage() {
   const difficulty = difficultySignal.value;
@@ -44,10 +45,13 @@ export function GamePage() {
     <div class="page">
       <header class="app-header">
         <h1 class="app-title">Road Trip Trivia</h1>
-        <Scoreboard />
+        <div class="header-right">
+          <Scoreboard />
+          <ThemeToggle />
+        </div>
       </header>
 
-      <div class="hero-actions" style={{ marginBottom: '24px' }}>
+      <div class="hero-actions">
         <button
           type="button"
           class="pill ghost"
@@ -56,7 +60,7 @@ export function GamePage() {
             window.location.hash = '/';
           }}
         >
-          Change topic
+          ← Change topic
         </button>
         <button
           type="button"
@@ -68,6 +72,10 @@ export function GamePage() {
         </button>
       </div>
 
+      {/* Question card is now PRIMARY — shown before controls */}
+      <QuestionCard />
+
+      {/* Controls are secondary — below the question */}
       <section class="controls">
         <div class="control difficulty-control">
           <span>Difficulty</span>
@@ -85,14 +93,14 @@ export function GamePage() {
           </div>
         </div>
         <div class="control question-mode-control">
-          <span>Question Type</span>
+          <span>Questions</span>
           <div class="question-mode-buttons">
             <button
               type="button"
               class={`question-mode ${questionMode === 'all' ? 'active' : ''}`}
               onClick={() => handleModeChange('all')}
             >
-              All questions
+              All
             </button>
             <button
               type="button"
@@ -104,8 +112,6 @@ export function GamePage() {
           </div>
         </div>
       </section>
-
-      <QuestionCard />
     </div>
   );
 }

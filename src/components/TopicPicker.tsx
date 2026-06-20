@@ -17,6 +17,14 @@ import { startNewTrip } from '../state/game-logic';
 
 import type { Topic } from '../types';
 import { CuratedListDialog } from './CuratedListDialog';
+import {
+  CATEGORY_ICONS,
+  ClipboardListIcon,
+  FlameIcon,
+  RefreshIcon,
+  TrophyIcon,
+} from './icons';
+import { ThemeToggle } from './ThemeToggle';
 
 export function TopicPicker() {
   const [, setLocation] = useLocation();
@@ -86,12 +94,19 @@ export function TopicPicker() {
       <div class="topic-picker">
         <div class="app-header">
           <h1 class="app-title">Road Trip Trivia</h1>
-          {scoreSignal.value > 0 && (
-            <div class="app-stats">
-              <span title="Total Score">🏆 {scoreSignal.value}</span>
-              <span title="Current Streak">🔥 {streakSignal.value}</span>
-            </div>
-          )}
+          <div class="header-right">
+            {scoreSignal.value > 0 && (
+              <div class="app-stats">
+                <span title="Total Score">
+                  <TrophyIcon size={15} class="stat-icon" /> {scoreSignal.value}
+                </span>
+                <span title="Current Streak">
+                  <FlameIcon size={15} class="stat-icon" /> {streakSignal.value}
+                </span>
+              </div>
+            )}
+            <ThemeToggle />
+          </div>
         </div>
 
         <div class="topic-picker-header">
@@ -109,7 +124,7 @@ export function TopicPicker() {
                 showCuratedListSignal.value = true;
               }}
             >
-              📋 Curated List
+              <ClipboardListIcon size={14} class="btn-icon" /> Curated List
             </button>
             <button
               type="button"
@@ -121,7 +136,7 @@ export function TopicPicker() {
                 setTimeout(() => setLoading(false), 500);
               }}
             >
-              ↻ Reload
+              <RefreshIcon size={14} class="btn-icon" /> Reload
             </button>
             {scoreSignal.value > 0 && (
               <button
@@ -198,7 +213,15 @@ export function TopicPicker() {
             categories.map((category) => (
               <div class="topic-category" key={category}>
                 <div class="topic-category-header">
-                  <h3>{category}</h3>
+                  <h3>
+                    {(() => {
+                      const Icon = CATEGORY_ICONS[category];
+                      return Icon ? (
+                        <Icon size={14} class="category-icon" />
+                      ) : null;
+                    })()}
+                    {category}
+                  </h3>
                   <span class="topic-category-count">
                     {groupedTopics[category].length}
                   </span>
