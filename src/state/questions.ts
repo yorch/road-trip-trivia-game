@@ -15,7 +15,12 @@ import type {
   QuestionMode,
   Topic,
 } from '../types';
-import { buildAngles, fillTemplate, QUESTION_MODES } from '../utils';
+import {
+  buildAngles,
+  fillTemplate,
+  QUESTION_BANK_SIZE,
+  QUESTION_MODES,
+} from '../utils';
 
 // Question bank storage
 export let questionBank: QuestionBank = {};
@@ -148,7 +153,7 @@ async function createQuestions(
   }
 
   // Fill remaining slots with generated questions using real answer examples
-  const remaining = 80 - curated.length; // QUESTION_BANK_SIZE
+  const remaining = QUESTION_BANK_SIZE - curated.length;
   for (let i = 0; i < remaining; i += 1) {
     const angle = anglesWithExamples[i % anglesWithExamples.length];
     const prompt = fillTemplate(

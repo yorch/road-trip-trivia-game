@@ -16,6 +16,7 @@ import {
 import { startNewTrip } from '../state/game-logic';
 
 import type { Topic } from '../types';
+import { SEARCH_DEBOUNCE_MS } from '../utils';
 import { CuratedListDialog } from './CuratedListDialog';
 import {
   CATEGORY_ICONS,
@@ -31,11 +32,22 @@ export function TopicPicker() {
   const topicList = topicListSignal.value;
   const answerExamples = answerExamplesSignal.value;
   const [search, setSearch] = useState('');
+  // Debounced copy of `search` used for filtering, so each keystroke doesn't
+  // re-run the topic filter immediately. The input stays bound to `search`.
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [filter, setFilter] = useState<'quality' | 'curated' | 'all'>(
     'quality',
   );
   const [loading, setLoading] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const timer = setTimeout(
+      () => setDebouncedSearch(search),
+      SEARCH_DEBOUNCE_MS,
+    );
+    return () => clearTimeout(timer);
+  }, [search]);
 
   useEffect(() => {
     setLoading(true);
@@ -55,8 +67,8 @@ export function TopicPicker() {
     let topics = topicList;
 
     // Filter by search
-    if (search) {
-      const term = search.toLowerCase();
+    if (debouncedSearch) {
+      const term = debouncedSearch.toLowerCase();
       topics = topics.filter(
         (t: Topic) =>
           t.name.toLowerCase().includes(term) ||
@@ -75,7 +87,7 @@ export function TopicPicker() {
     }
 
     return topics;
-  }, [search, filter, loading, topicList, answerExamples]); // loading dependency to re-run after data load
+  }, [debouncedSearch, filter, loading, topicList, answerExamples]); // loading dependency to re-run after data load
 
   // Group by category
   const groupedTopics = useMemo(() => {
