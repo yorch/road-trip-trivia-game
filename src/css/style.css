@@ -863,46 +863,120 @@ select {
 }
 
 .topic-card {
+  position: relative;
+  overflow: hidden;
   background: var(--card);
   border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 16px;
+  border-radius: 12px;
+  padding: 15px 17px 15px 19px;
   cursor: pointer;
-  transition:
-    border-color 0.15s,
-    transform 0.15s,
-    box-shadow 0.15s;
-  box-shadow: var(--shadow-sm);
   text-align: left;
+  box-shadow: var(--shadow-sm);
+  transition:
+    border-color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background-color 0.22s ease;
+  /* gentle staggered entrance; `backwards` keeps hover transform working */
+  animation: cardIn 0.34s ease backwards;
 }
 
-.topic-card:hover {
+/* Route spine: a highlighted "road" down the left edge that fills on hover */
+.topic-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--accent), var(--gold));
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: transform 0.24s ease;
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger the first cards in each category for a layered reveal */
+.topic-grid .topic-card:nth-child(1) {
+  animation-delay: 0.02s;
+}
+.topic-grid .topic-card:nth-child(2) {
+  animation-delay: 0.06s;
+}
+.topic-grid .topic-card:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.topic-grid .topic-card:nth-child(4) {
+  animation-delay: 0.14s;
+}
+.topic-grid .topic-card:nth-child(5) {
+  animation-delay: 0.18s;
+}
+.topic-grid .topic-card:nth-child(6) {
+  animation-delay: 0.22s;
+}
+
+.topic-card:hover,
+.topic-card:focus-visible {
   border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
 
+.topic-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.topic-card:hover::before,
+.topic-card:focus-visible::before {
+  transform: scaleY(1);
+}
+
 .topic-card-name {
-  font-size: 15px;
-  font-weight: 700;
-  margin: 0 0 8px;
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  margin: 0 0 10px;
   color: var(--text);
   display: flex;
   align-items: center;
   gap: 8px;
-  line-height: 1.3;
+  line-height: 1.25;
   flex-wrap: wrap;
+  transition: color 0.18s ease;
+}
+
+.topic-card:hover .topic-card-name {
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .topic-card {
+    animation: none;
+  }
 }
 
 .curated-badge {
+  font-family: var(--font-ui);
   background: var(--accent-light);
   color: var(--accent);
-  font-size: 10px;
-  padding: 2px 7px;
+  font-size: 9px;
+  line-height: 1;
+  padding: 3px 7px;
   border-radius: var(--radius-pill);
-  border: 1.5px solid rgba(200, 70, 26, 0.25);
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   flex-shrink: 0;
 }
@@ -917,12 +991,45 @@ select {
   font-weight: 700;
 }
 
+/* Difficulty meter: three pips on a cool-to-hot scale (easy/medium/hard) */
 .topic-card-counts {
+  display: inline-flex;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+
+.qpip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 11px;
-  font-weight: 600;
-  color: var(--muted);
-  margin: 0 0 8px;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-mid);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2px 8px 2px 7px;
+  border-radius: var(--radius-pill);
+  line-height: 1.45;
+}
+
+.qpip::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--pip);
+  flex-shrink: 0;
+}
+
+.qpip-easy {
+  --pip: var(--blue);
+}
+.qpip-medium {
+  --pip: var(--gold);
+}
+.qpip-hard {
+  --pip: var(--accent);
 }
 
 .topic-card-tags {
@@ -932,12 +1039,14 @@ select {
 }
 
 .topic-tag {
-  background: var(--surface-2);
+  background: transparent;
   color: var(--muted);
-  font-size: 11px;
-  padding: 3px 8px;
+  font-size: 10.5px;
+  letter-spacing: 0.02em;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
   border-radius: var(--radius-pill);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .topic-card.hidden {

@@ -293,11 +293,28 @@ export function TopicPicker() {
                           )}
                         </span>
                         {stats && (
-                          <span
-                            class="topic-card-counts"
-                            title="Curated questions by difficulty (easy / medium / hard)"
-                          >
-                            {stats.easy}E · {stats.medium}M · {stats.hard}H
+                          <span class="topic-card-counts">
+                            <span
+                              class="qpip qpip-easy"
+                              role="img"
+                              aria-label={`${stats.easy} easy questions`}
+                            >
+                              {stats.easy}
+                            </span>
+                            <span
+                              class="qpip qpip-medium"
+                              role="img"
+                              aria-label={`${stats.medium} medium questions`}
+                            >
+                              {stats.medium}
+                            </span>
+                            <span
+                              class="qpip qpip-hard"
+                              role="img"
+                              aria-label={`${stats.hard} hard questions`}
+                            >
+                              {stats.hard}
+                            </span>
                           </span>
                         )}
                         <span class="topic-card-tags">
