@@ -4,20 +4,21 @@ This file provides guidance to AI Agents when working with code in this reposito
 
 ## Project Overview
 
-Road Trip Trivia is a TypeScript trivia game application built with Vite. Features:
+Road Trip Trivia is a TypeScript **quizmaster party game** built with Vite. One
+person (the host) holds the phone, reads each question aloud, and taps who got
+it; players or teams compete across a configurable game to a results screen.
 
-- 43 topics across 7 categories (Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places)
-- Three difficulty levels (easy, medium, hard) with 80 questions each
-- 5000+ curated factual questions loaded from JSON (31 priority topics)
-- Generated questions: open-ended prompts ("All" mode) that reveal several example answers rather than one
-- Question mode toggle: "All questions" vs "Curated only"
-- Score tracking, streak management, and progress persistence via localStorage
-- Hash-based routing (topic picker `/` and game `/topic/:id`) via wouter-preact
-- Multiple themes (Warm Americana, Night Drive, Coastal) with system-preference default
-- Text-to-speech "read aloud" with voice/speed/pitch controls (settings on both pages)
-- Offline support with PWA (Progressive Web App) via vite-plugin-pwa
-- Reactive state management using Preact Signals
-- Client-side only implementation with no backend
+Features:
+
+- **Quizmaster model**: host reads aloud (TTS), taps the entrant who answered; the device is reader + scoreboard
+- **Game flow**: Home (Resume / Quick Play / New Game) → Setup → Game → Results
+- **Configurable setup**: players or teams (solo works), topic scope (everything / pick topics), question source (curated only / include generated), difficulty (mixed or fixed), and end mode (fixed question count / race to N points / timed / endless)
+- **Difficulty-weighted scoring**: easy 1 / medium 2 / hard 3, plus a streak bonus every 3rd consecutive correct (a successful answer breaks everyone else's streak)
+- **Content**: 5000+ curated factual questions (all 43 topics) plus optional open-ended generated prompts that reveal several example answers
+- **Resume & Quick Play**: in-progress game and last-used config persist to localStorage
+- Hash-based routing (`/`, `/setup`, `/game`, `/results`) via wouter-preact
+- Themes (Warm Americana, Night Drive, Coastal) and read-aloud voice/speed/pitch controls
+- Offline support via PWA (vite-plugin-pwa); reactive state via Preact Signals; client-side only, no backend
 
 ## Commands
 
@@ -46,164 +47,68 @@ yarn test:watch       # Run unit tests in watch mode
 
 ## Architecture
 
-### Module Structure (TypeScript + ES6 Modules via Vite)
+`src/` is organized by responsibility. Reactive state uses Preact Signals;
+routing is hash-based via wouter-preact.
 
-**src/main.tsx** - Application entry point
+### Module structure
 
-- Initialization orchestration and PWA registration via vite-plugin-pwa
-- Renders the root `<App />` component
-- Initializes game state via `initGame()`
+**Entry & shell**
 
-**src/types.ts** - TypeScript type definitions
+- `main.tsx` — loads topics + curated index, restores any in-progress game (`resumeSession`), renders `<App />`
+- `App.tsx` — hash router with routes `/` (Home), `/setup` (Setup), `/game` (Game), `/results` (Results)
+- `types.ts` — content types (`Topic`, `Difficulty`, `Question`, …) and session types (`Entrant`, `GameConfig`, `GameSession`, `EntrantScore`, `AwardResult`, `EndMode`, …)
 
-- Core types: `Topic`, `Difficulty`, `QuestionMode`, `Question`, `State`, `Progress`
-- Type guards and utility types for runtime safety
-- Shared interfaces across all modules
+**`lib/`** — framework-agnostic primitives
 
-**src/utils.ts** - Pure utility functions
+- `shuffle.ts` — seeded Fisher-Yates (`shuffleInPlace`/`shuffled`); deterministic per seed
+- `storage.ts` — guarded localStorage helpers (`readJSON`/`writeJSON`/…)
+- `html.ts` — `escapeHtml` (only for the toast `innerHTML` path; Preact escapes JSX)
+- `toast.ts` — `toast.{info,success,warn,error}` notifications
 
-- `shuffleIndices()`: Deterministic shuffle using linear congruential generator
-- `fillTemplate()`: Template string replacement for question generation
-- `buildAngles()`: Combines topic tags + category angles + general angles
-- `ErrorHandler`: Toast notification system (info, warn, critical, success)
-- `escapeHtml()`: XSS protection for the toast `innerHTML` path (Preact escapes JSX automatically elsewhere)
-- Constants: difficulty levels, question modes, `QUESTION_BANK_SIZE`, `SEARCH_DEBOUNCE_MS`, `RELOAD_SUCCESS_DISPLAY_MS`
-- Pure functions are covered by `src/utils.test.ts`
+**`content/`** — question content
 
-**State Module** (`src/state/`) - Reactive state management
+- `catalog.ts` — topics + answer-examples loaders, `categoryAngles`, open-ended `promptTemplates`, `buildAngles`, `fillTemplate`
+- `curated.ts` — curated index + per-topic file loading (cached), `curatedStats`/`hasCurated`
+- `provider.ts` — `buildPool(config, seed)`: gathers curated (+ optional generated) questions across the selected topics/difficulties and deterministically shuffles them into the game's ordered pool
 
-- `index.ts`: Main state exports and Preact Signals integration
-  - `state` signal: Current session (topicId, difficulty, questionMode, revealed)
-  - `scoreboard` signal: Reactive score, streak, asked tracking
-  - Signal effects for automatic UI updates
-- `questions.ts`: Question bank and generation logic
-  - `questionBank` cache: Questions by topic/difficulty/mode
-  - Lazy question generation: Creates questions only when needed
-- `persistence.ts`: localStorage integration
-  - Progress persistence across sessions
-  - Preference storage (topic, difficulty, mode)
-- `progress.ts`: Question tracking
-  - Per-topic/difficulty progress (order, cursor)
-  - Deterministic shuffle management
-- `curated-cache.ts`: Curated questions index management
-  - Tracks which topics have curated questions; `resetCuratedTopicIds()` for reload
-- `game-logic.ts`: Core game actions
-  - `nextQuestion()`, `markCorrect()`, `skipQuestion()`, `resetProgress()`, `resumeGame()`, `startNewTrip()`
-  - Encapsulates game rules and state transitions
-- `theme.ts`: Theme signal + persistence (`warm`/`dark`/`ocean`), applies `data-theme` to `<html>`
-- `speech.ts`: Text-to-speech signals (voice list, selected voice, rate, pitch) and `speak()`/`stopSpeech()`
-- `init.ts`: App initialization
-  - `initGame()`: Loads data, restores session, sets up effects
+**`session/`** — game engine
 
-**Components Module** (`src/components/`) - Preact UI components
+- `scoring.ts` — pure scoring: `basePoints` (1/2/3), `bonusForStreak`, `applyCorrect`. Unit-tested in `scoring.test.ts`
+- `session.ts` — the `sessionSignal` state machine: `startGame`, `reveal`, `award(entrantId|null)`, `finishGame`, `clearSession`, `resumeSession`, `standings`. Persists the active game (Resume) and last config (Quick Play / Rematch)
+- `config.ts` — `defaultConfig`, `genId`, entrant-name defaults
 
-- `App.tsx`: Router shell — hash routing (wouter-preact) for `/` and `/topic/:id`
-  - `RouteHandler` resumes the game (in an effect) when the topic route matches
-- `GamePage.tsx`: Game screen — header, difficulty/mode controls, and the question card
-- `QuestionCard.tsx`: Displays current question and answer
-  - Handles reveal/next interactions; answer text is only rendered once revealed
-- `Scoreboard.tsx`: Displays score, streak, and asked count
-  - Reacts to scoreboard signals
-- `TopicPicker.tsx`: Topic selection page (route `/`)
-  - Debounced search and filtering (recommended / curated only / all)
-  - Category-based organization; "Reload" re-fetches curated data
-- `SpeechSettings.tsx`: Read-aloud popover (voice/speed/pitch); shown on both pages
-- `ThemeToggle.tsx`: Theme switcher
-- `icons.tsx`: Inline SVG icon components and `CATEGORY_ICONS` map
-- `CuratedListDialog.tsx`: Dialog to show available curated questions
+**Screens (`screens/`)** — `Home`, `Setup`, `Game`, `Results`
 
-**src/data/data.ts** - Data module and loader
+**Components (`components/`)** — `QuestionCard`, `Scoreboard` (live HUD), `EntrantButtons` ("who got it?"), plus ported `icons.tsx`, `ThemeToggle`, `SpeechSettings`
 
-- `loadStaticData()`: Async function to load topics from `topics.json` (populates `topicListSignal`)
-- `loadAnswerExamples()`: Lazy loader for `answer-examples.json` (cached; `resetAnswerExamplesCache()` busts it for reload)
-- `categoryAngles`: Category-specific question perspectives (kept in TypeScript)
-- `promptTemplates`: Question templates by difficulty (kept in TypeScript)
+**Root modules** — `theme.ts` (theme signal + `data-theme`), `speech.ts` (TTS signals + `speak`/`stopSpeech`)
 
-**public/data/topics.json** (12 KB) - Topic list data
+### Content data (`public/data/`, unchanged by the rewrite)
 
-- JSON array of 43 topics with id, name, category, tags
-- Loaded asynchronously at app initialization via fetch()
-- Available offline via PWA service worker caching
+- `topics.json` — 43 topics (id, name, category, tags), loaded at startup
+- `answer-examples.json` — real-world examples by topic → angle, loaded lazily (only when generated content is enabled)
+- `curated/index.json` — per-topic counts `{ easy, medium, hard }` (maintained by `yarn update-index`)
+- `curated/[topic-id].json` — `{ easy: [], medium: [], hard: [] }`, each entry `{ q, a, angle }`; loaded on demand, cached per topic
 
-**public/data/answer-examples.json** (16 KB) - Answer examples data
+### Key data flow
 
-- JSON object mapping topics to answer examples by angle
-- Real-world examples for 32 topics
-- Loaded asynchronously at app initialization via fetch()
-- Available offline via PWA service worker caching
+**Starting a game** (`startGame(config)`):
 
-**Curated Questions** - Factual Q&A
+1. Pick a random `seed`, then `buildPool(config, seed)` collects questions from the selected topics × difficulties (curated, plus generated open prompts if `contentMode: 'all'`), tagging each with its source topic.
+2. The pool is shuffled deterministically by `seed` and capped (the target count for `count` mode, else `POOL_CAP`).
+3. A `GameSession` (pool, cursor, per-entrant scores, status, optional `endsAt` for timed) is stored in `sessionSignal` and persisted.
 
-- **public/data/curated/index.json** - Index file listing available topic IDs (automatically maintained)
-- **public/data/curated/[topic-id].json** (one file per curated topic, ~4-12 KB each)
-- Loaded on-demand per topic for better performance and cached per topic
-- Index prevents unnecessary 404 errors for topics without curated questions
-- Structure per file: `{ "easy": [], "medium": [], "hard": [] }`
+**Playing** (per question): `reveal()` shows the answer (or example answers for generated prompts) → host calls `award(entrantId | null)` → scorer gets difficulty-weighted points + any streak bonus, everyone else's streak resets, cursor advances, and `isGameOver` (count / race / timed / endless) flips status to `finished` when met.
 
-Question structure:
+**Persistence**: the active session is written to localStorage on every change (cleared when finished/abandoned) so Home can offer **Resume**; the last `GameConfig` is saved for **Quick Play** and **Rematch**.
 
-- Each question: `{ q: "question", a: "answer", angle: "category angle" }`
-- Index-based loading: fetches the index first, then only loads available topic files
+### Important implementation details
 
-### Key Data Flow
-
-**Question Generation (Lazy + Cached)**
-
-1. User selects topic/difficulty/mode → `getOrCreateQuestions(topicId, difficulty, mode)`
-2. Check cache: `questionBank[topicId][cacheKey]` where `cacheKey = "${difficulty}_${mode}"`
-3. If cache miss → `createQuestions(topic, difficulty, mode)`:
-   - Add curated questions first (from JSON)
-   - If "curated only" mode → return curated questions only
-   - If "all" mode → fill remaining slots (up to `QUESTION_BANK_SIZE`) with open-ended generated prompts
-   - Only angles that have real answer examples are used; each generated question is flagged `generated: true` and carries up to 3 `examples` (no single correct answer)
-4. Cache result and return
-
-**Progress Tracking (Deterministic Shuffle)**
-
-1. First time accessing topic/difficulty → `shuffleIndices(bankSize, seed)` creates random but consistent order
-2. `progress[topicId][difficulty] = { order: [shuffled indices], cursor: 0 }`
-3. Each question advance → increment cursor
-4. When cursor reaches end → show "questions exhausted" state
-5. Reset progress → mark for lazy reshuffle (`needsReshuffle: true`)
-
-**State Persistence (via Preact Signals Effects)**
-
-- `localStorage.setItem('questionProgress', JSON.stringify(progress))` - After cursor advances
-- `localStorage.setItem('scoreboard', JSON.stringify(scoreboard.value))` - Reactive updates via signal effects
-- `localStorage.setItem('lastTopicId', topicId)` - When topic selected
-- `localStorage.setItem('difficulty', difficulty)` - When difficulty changed
-- `localStorage.setItem('questionMode', mode)` - When question mode toggled
-- Automatic persistence triggered by signal mutations (no manual saveState() calls needed)
-
-### Important Implementation Details
-
-**Security**
-
-- Content is rendered via Preact JSX, which escapes text by default (no manual escaping needed in components)
-- `escapeHtml()` is used only where `innerHTML` is built directly (the toast system)
-- Curated questions loaded from static JSON (not executable JS) to prevent code injection
-
-**Performance Optimizations**
-
-- Lazy loading: Questions generated only when topic/difficulty accessed
-- Modular loading: Individual curated topic files (~4-12 KB each), cached per topic
-- Caching: Generated questions cached per `${difficulty}_${mode}` to avoid regeneration
-- Debouncing: Topic search input (`SEARCH_DEBOUNCE_MS`, 300ms)
-- Reload cooldown: "Reload" button is rate-limited (`RELOAD_SUCCESS_DISPLAY_MS`, 2000ms)
-- Lazy reshuffle: Reset progress doesn't regenerate questions immediately
-
-**Mode Switching Behavior**
-
-- Switching "all" ↔ "curated only" clears current topic's progress (not other topics)
-- Rebuilds question bank with new mode
-- If topic has no curated questions in "curated only" mode → shows empty state
-
-**Error Handling**
-
-- Toast notification system with 3 levels: info (blue), warn (orange), critical (red)
-- localStorage failures logged but don't crash app
-- Missing curated question files → graceful fallback to generated questions only
-- Invalid topic recovery → attempts reset to first available topic
+- **Security**: content renders via Preact JSX (auto-escaped); `escapeHtml` is only used for the toast `innerHTML`. Curated questions are static JSON, never executable.
+- **Answer reveal**: the answer/examples are rendered only once `revealed` (kept out of the DOM/accessibility tree beforehand).
+- **Determinism**: a saved game resumes identically because the pool order derives from the stored `seed`.
+- **Reduced motion**: animations collapse under `prefers-reduced-motion`.
+- **Error handling**: storage access is guarded everywhere; a failed initial content load surfaces a toast rather than crashing.
 
 ## Git Workflow
 

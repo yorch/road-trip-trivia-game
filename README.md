@@ -1,33 +1,29 @@
 # 🚗 Road Trip Trivia
 
-A lightweight TypeScript trivia game with offline PWA capabilities, designed to keep your road trips entertaining. No backend required, no ads, just pure trivia fun for the whole car.
+A TypeScript **quizmaster party game** with offline PWA capabilities, designed to keep the whole car entertained. One phone, no backend, no ads — the host reads questions aloud and players (or teams) compete.
 
 ## ✨ Features
 
-- **43 Topics** across 7 categories: Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places
-- **Three Difficulty Levels**: Easy, Medium, and Hard questions to challenge everyone
-- **5000+ Curated Questions**: Hand-written factual trivia with verifiable answers
-- **Generated Questions**: Open-ended prompts that reveal several real-world example answers (no single "correct" answer)
-- **Two Question Modes**:
-  - **All Questions**: Curated questions plus open-ended generated prompts (up to 80 per topic/difficulty)
-  - **Curated Only**: Play exclusively hand-written trivia questions
-- **Progress Tracking**: Scores, streaks, and question history saved locally
-- **Read Aloud**: Text-to-speech for questions with voice, speed, and pitch controls
+- **Quizmaster mode**: one host holds the phone, reads each question aloud, and taps who got it — the device is reader + scoreboard
+- **Players or teams**: set up any number of entrants (solo works too), as individuals or teams
+- **Configurable games**: choose the topic scope, question source, difficulty, and how the game ends
+- **End modes**: fixed question count, race to N points, timed, or endless
+- **Difficulty-weighted scoring**: Easy 1 · Medium 2 · Hard 3, with a streak bonus for hot runs
+- **5000+ Curated Questions**: hand-written factual trivia across all 43 topics (7 categories)
+- **Generated prompts**: optional open-ended questions that reveal several example answers
+- **Quick Play & Resume**: jump back into an in-progress game or restart with your last setup in one tap
+- **Read Aloud**: text-to-speech with voice, speed, and pitch controls
 - **Themes**: Warm Americana, Night Drive, and Coastal (defaults to your system preference)
-- **Reactive State**: Preact Signals for efficient UI updates and automatic persistence
-- **PWA Support**: Installable progressive web app with offline capabilities via vite-plugin-pwa
-- **Live Reload**: Update curated questions without redeploying the app
-- **Type Safety**: Full TypeScript implementation with strict mode
-- **Clean Interface**: Card-based design optimized for mobile and desktop
+- **PWA Support**: installable, works offline via vite-plugin-pwa
+- **Type Safety**: full TypeScript with strict mode; reactive state via Preact Signals
 
 ## 🎮 How to Play
 
-1. **Choose a Topic**: Click "Choose topic" or "Surprise me" for a random selection
-2. **Select Difficulty**: Easy, Medium, or Hard
-3. **Pick Question Mode**: All questions or curated-only
-4. **Answer Questions**: Read the question, think of your answer, then reveal
-5. **Track Progress**: Mark correct answers to build your score and streak
-6. **Keep Going**: 80 questions per topic/difficulty combination
+1. **Start a game**: tap **Quick Play** for an instant 2-team game, or **New Game** to configure it
+2. **Set it up** (New Game): add players or teams, pick topics (or everything), choose difficulty and how the game ends
+3. **Host reads**: the host reads each question aloud (tap 🔊 for text-to-speech), players answer out loud
+4. **Reveal & award**: tap **Reveal answer**, then tap **who got it** (or **Nobody**) — points are scored automatically
+5. **Win**: play to the end mode you chose, then see the **Results** — winner, standings, and best streaks
 
 ## 🚀 Getting Started
 
@@ -71,36 +67,29 @@ The app will open automatically at `http://localhost:3000`
 ```
 road-trip-trivia/
 ├── src/
-│   ├── css/
-│   │   └── style.css          # All styling
-│   ├── state/                 # State management
-│   │   ├── index.ts           # Preact Signals & exports
-│   │   ├── questions.ts       # Question bank & generation
-│   │   ├── persistence.ts     # localStorage integration
-│   │   ├── progress.ts        # Question tracking
-│   │   ├── curated-cache.ts   # Curated questions loader
-│   │   ├── game-logic.ts      # Core game actions
-│   │   └── init.ts            # App initialization
-│   ├── components/            # Preact UI components
-│   │   ├── App.tsx            # Main application component
-│   │   ├── QuestionCard.tsx   # Question display
-│   │   ├── Scoreboard.tsx     # Score and stats
-│   │   ├── TopicPicker.tsx    # Topic selection modal
-│   │   └── CuratedListDialog.tsx # Curated questions list
-│   ├── data/
-│   │   └── data.ts            # Data loader, templates (topics/examples in JSON)
-│   ├── main.tsx               # App entry point
-│   ├── utils.ts               # Utility functions
-│   └── types.ts               # TypeScript type definitions
+│   ├── css/style.css          # All styling (theme tokens + screens)
+│   ├── lib/                   # shuffle, storage, html, toast
+│   ├── content/               # catalog, curated loader, pool builder
+│   │   ├── catalog.ts         # topics/examples loaders, angles, templates
+│   │   ├── curated.ts         # curated index + per-topic loading
+│   │   └── provider.ts        # buildPool(config, seed)
+│   ├── session/               # game engine
+│   │   ├── scoring.ts         # pure scoring (+ scoring.test.ts)
+│   │   ├── session.ts         # session state machine + persistence
+│   │   └── config.ts          # default config & ids
+│   ├── screens/               # Home, Setup, Game, Results
+│   ├── components/            # QuestionCard, Scoreboard, EntrantButtons,
+│   │                          #   icons, ThemeToggle, SpeechSettings
+│   ├── theme.ts               # theme signal + persistence
+│   ├── speech.ts              # text-to-speech
+│   ├── App.tsx                # hash router (/, /setup, /game, /results)
+│   ├── main.tsx               # app entry point
+│   └── types.ts               # content + session types
 ├── public/
-│   ├── data/                  # Static data files
-│   │   ├── curated/           # Individual topic question files
-│   │   │   ├── index.json     # Index of available topics
-│   │   │   ├── star-wars.json # Per-topic curated questions (4-12 KB each)
-│   │   │   ├── marvel.json
-│   │   │   └── ...            # 21 topic files total
-│   │   ├── topics.json        # 43 topics (12 KB)
-│   │   └── answer-examples.json # Answer examples (16 KB)
+│   ├── data/                  # Static content (unchanged across the rewrite)
+│   │   ├── curated/           # index.json + one file per topic
+│   │   ├── topics.json        # 43 topics
+│   │   └── answer-examples.json
 │   └── icon-*.svg             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
@@ -194,13 +183,12 @@ These examples are shown as the sample answers for open-ended generated prompts.
 - **Reactive State Management**: Preact Signals for automatic UI updates and persistence
 - **Modular TypeScript**: Organized into state, UI, data, and utility modules with strict types
 - **Modular Data Loading**: Individual 4-12 KB topic files loaded in parallel
-- **Lazy Loading**: Questions generated only when needed
-- **Smart Caching**: Avoids regenerating questions for same topic/difficulty/mode
-- **Deterministic Shuffle**: Consistent question order across sessions using LCG algorithm
+- **Session engine**: a single `GameSession` signal drives the whole game; pure, unit-tested scoring
+- **Deterministic pool**: each game's question order derives from a stored seed, so a game resumes identically
+- **Lazy content**: curated topic files load on demand and cache; answer examples load only when generated content is enabled
 - **PWA Architecture**: Auto-generated service worker with Workbox for offline support
 - **XSS Protection**: Content rendered via Preact JSX (auto-escaped); `escapeHtml()` for the toast `innerHTML` path
-- **Error Recovery**: Graceful fallbacks for missing data or localStorage failures
-- **Debounced Search**: Topic search filtering is debounced to avoid excessive recalculation
+- **Error Recovery**: Guarded localStorage access; failed initial load surfaces a toast instead of crashing
 
 ## 🎯 Design Philosophy
 
@@ -209,8 +197,8 @@ These examples are shown as the sample answers for open-ended generated prompts.
 3. **No Backend**: Everything runs client-side for simplicity and privacy
 4. **Offline-Ready**: PWA with service worker works in areas with poor/no connectivity
 5. **Reactive by Default**: Preact Signals provide automatic UI updates without manual DOM manipulation
-6. **Progressive Enhancement**: Generated questions fill gaps in curated content
-7. **Real Examples**: Use actual answers (movie scenes, song titles, historical events) instead of placeholders
+6. **Social by design**: built for a carful of people on one device (quizmaster model), not solo play
+7. **Real Examples**: generated prompts reveal actual answers (movie scenes, song titles, historical events), never placeholders
 
 ## 📱 Browser Support
 
