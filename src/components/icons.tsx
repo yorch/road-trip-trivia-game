@@ -1,3 +1,5 @@
+import type { JSX } from 'preact';
+
 interface IconProps {
   size?: number;
   class?: string;

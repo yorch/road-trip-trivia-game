@@ -18,6 +18,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "biome format --write",
+    "typecheck": "tsc --noEmit",
     "lint": "biome check",
     "lint:fix": "biome check --write",
     "update-index": "node scripts/update-curated-index.js"

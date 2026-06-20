@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!!**/dist", "!**/.claude/workflows"]
+    "includes": ["**", "!**/dist/**", "!**/.claude/**"]
   },
   "formatter": {
     "enabled": true,
