@@ -1499,3 +1499,116 @@ select {
     0 0 0 2px var(--surface),
     0 0 0 4px var(--swatch-color, #ccc);
 }
+
+/* ─────────────────────────────────────────────────
+   Read-aloud settings (gear + popover)
+───────────────────────────────────────────────── */
+.speech-settings {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.settings-btn {
+  background: none;
+  border: none;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--muted);
+  border-radius: 50%;
+  transition: color 0.15s ease;
+}
+
+.settings-btn:hover,
+.settings-btn.active {
+  color: var(--accent);
+}
+
+.settings-popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 20;
+  width: 240px;
+  background: var(--card);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: fadeSlideUp 0.18s ease-out;
+}
+
+.settings-title {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.settings-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.settings-row > span {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-mid);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.settings-row > span em {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.settings-row select {
+  width: 100%;
+  padding: 6px 8px;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.settings-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.settings-preview {
+  align-self: flex-start;
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 5px 14px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.settings-preview:hover {
+  border-color: var(--accent);
+}

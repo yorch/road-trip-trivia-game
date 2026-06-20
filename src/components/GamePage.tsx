@@ -11,6 +11,7 @@ import { nextQuestion } from '../state/game-logic';
 import type { Difficulty, QuestionMode } from '../types';
 import { QuestionCard } from './QuestionCard';
 import { Scoreboard } from './Scoreboard';
+import { SpeechSettings } from './SpeechSettings';
 import { ThemeToggle } from './ThemeToggle';
 
 export function GamePage() {
@@ -47,6 +48,7 @@ export function GamePage() {
         <h1 class="app-title">Road Trip Trivia</h1>
         <div class="header-right">
           <Scoreboard />
+          <SpeechSettings />
           <ThemeToggle />
         </div>
       </header>
