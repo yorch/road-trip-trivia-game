@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "How many rings are on the Olympic flag?",
+      "a": "Five",
+      "angle": "traditions"
+    },
+    {
+      "q": "What colors are the five Olympic rings?",
+      "a": "Blue, yellow, black, green, and red",
+      "angle": "traditions"
+    },
+    {
+      "q": "In which ancient Greek city did the Olympic Games originate?",
+      "a": "Olympia",
+      "angle": "traditions"
+    },
+    {
+      "q": "How often are the Summer Olympic Games held?",
+      "a": "Every four years",
+      "angle": "traditions"
+    },
+    {
+      "q": "What is the Olympic motto?",
+      "a": "Faster, Higher, Stronger",
+      "angle": "traditions"
+    },
+    {
+      "q": "What is lit and carried by relay to open every modern Olympic Games?",
+      "a": "The Olympic torch",
+      "angle": "opening ceremonies"
+    },
+    {
+      "q": "Which city hosted the first modern Olympic Games in 1896?",
+      "a": "Athens",
+      "angle": "host cities"
+    },
+    {
+      "q": "In which country did the ancient Olympic Games take place?",
+      "a": "Greece",
+      "angle": "traditions"
+    },
+    {
+      "q": "What is the name of the long-distance race of 26.2 miles run at the Olympics?",
+      "a": "Marathon",
+      "angle": "events"
+    },
+    {
+      "q": "Which swimmer won a record 8 gold medals at the 2008 Beijing Olympics?",
+      "a": "Michael Phelps",
+      "angle": "athletes"
+    },
+    {
+      "q": "What metal is the first-place Olympic medal made of?",
+      "a": "Gold",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which U.S. city hosted the 1996 Summer Olympics?",
+      "a": "Atlanta",
+      "angle": "host cities"
+    },
+    {
+      "q": "What sport uses a shuttlecock at the Olympics?",
+      "a": "Badminton",
+      "angle": "events"
+    },
+    {
+      "q": "Which country marches first in every Olympic opening ceremony parade of nations?",
+      "a": "Greece",
+      "angle": "opening ceremonies"
+    },
+    {
+      "q": "Which sprinter was known as 'The Fastest Man on Earth' after his 2008 and 2012 Olympic sprint wins?",
+      "a": "Usain Bolt",
+      "angle": "athletes"
+    },
+    {
+      "q": "How many events make up the Olympic decathlon?",
+      "a": "Ten",
+      "angle": "events"
+    },
+    {
+      "q": "What city hosted the 2012 Summer Olympics?",
+      "a": "London",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which winter sport involves sliding down an icy track feet-first on a small sled?",
+      "a": "Luge",
+      "angle": "events"
+    },
+    {
+      "q": "In which city were the 2016 Summer Olympics held?",
+      "a": "Rio de Janeiro",
+      "angle": "host cities"
+    },
+    {
+      "q": "What do the five Olympic rings represent?",
+      "a": "The five continents of the world",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which country has won the most Summer Olympic gold medals of all time?",
+      "a": "United States",
+      "angle": "records"
+    },
+    {
+      "q": "What color is the second-place Olympic medal?",
+      "a": "Silver",
+      "angle": "traditions"
+    },
+    {
+      "q": "In which city were the 2020 Summer Olympics (held in 2021) hosted?",
+      "a": "Tokyo",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which Winter Olympics sport involves sweeping ice in front of a sliding stone?",
+      "a": "Curling",
+      "angle": "events"
+    },
+    {
+      "q": "What U.S. gymnast is widely considered the greatest of all time with multiple Olympic and World all-around titles?",
+      "a": "Simone Biles",
+      "angle": "athletes"
+    },
+    {
+      "q": "In which city were the 2004 Summer Olympics held?",
+      "a": "Athens",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which sport was removed from the Olympics after 2008 and added back for 2028?",
+      "a": "Baseball/softball",
+      "angle": "events"
+    },
+    {
+      "q": "What city will host the 2028 Summer Olympics?",
+      "a": "Los Angeles",
+      "angle": "host cities"
+    },
+    {
+      "q": "What color is the third-place Olympic medal?",
+      "a": "Bronze",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which city hosted the first Winter Olympic Games in 1924?",
+      "a": "Chamonix, France",
+      "angle": "host cities"
+    },
+    {
+      "q": "What sport has the disciplines of moguls and halfpipe at the Winter Olympics?",
+      "a": "Freestyle skiing",
+      "angle": "events"
+    },
+    {
+      "q": "In which country were the 2018 Winter Olympics held?",
+      "a": "South Korea",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which U.S. speed skater won 5 gold medals at the 1980 Winter Olympics?",
+      "a": "Eric Heiden",
+      "angle": "athletes"
+    },
+    {
+      "q": "At which Olympics did the 'Miracle on Ice' U.S. hockey team win gold?",
+      "a": "1980 Lake Placid Winter Olympics",
+      "angle": "events"
+    },
+    {
+      "q": "What is the field event in which athletes throw a heavy iron ball?",
+      "a": "Shot put",
+      "angle": "events"
+    },
+    {
+      "q": "Where does the Olympic torch relay traditionally begin?",
+      "a": "Olympia, Greece",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which country hosted the 2022 Winter Olympics?",
+      "a": "China",
+      "angle": "host cities"
+    },
+    {
+      "q": "What aquatic Olympic sport involves synchronized team routines performed in water?",
+      "a": "Artistic swimming",
+      "angle": "events"
+    },
+    {
+      "q": "What city hosted the 1984 Summer Olympics in the United States?",
+      "a": "Los Angeles",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which sprinter won 4 gold medals at the 1936 Berlin Olympics?",
+      "a": "Jesse Owens",
+      "angle": "athletes"
+    },
+    {
+      "q": "What city hosted the 2008 Summer Olympics?",
+      "a": "Beijing",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which winter Olympic event involves a team of two or four athletes sliding down an icy curved track in a sled?",
+      "a": "Bobsled",
+      "angle": "events"
+    },
+    {
+      "q": "What sport features a gymnast performing on a balance beam?",
+      "a": "Artistic gymnastics",
+      "angle": "events"
+    },
+    {
+      "q": "In what year did women first compete in the modern Olympic Games?",
+      "a": "1900",
+      "angle": "traditions"
+    },
+    {
+      "q": "What Olympic swimming stroke requires both arms to move simultaneously over the water?",
+      "a": "Butterfly",
+      "angle": "events"
+    },
+    {
+      "q": "What is the length of a standard Olympic swimming pool?",
+      "a": "50 meters",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 2000 Summer Olympics?",
+      "a": "Sydney",
+      "angle": "host cities"
+    },
+    {
+      "q": "Who lit the Olympic cauldron at the 1996 Atlanta opening ceremony?",
+      "a": "Muhammad Ali",
+      "angle": "opening ceremonies"
+    },
+    {
+      "q": "What track and field event requires athletes to clear a horizontal bar by jumping over it?",
+      "a": "High jump",
+      "angle": "events"
+    },
+    {
+      "q": "What city hosted the 1992 Summer Olympics?",
+      "a": "Barcelona",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which country has won the most Winter Olympic gold medals of all time?",
+      "a": "Norway",
+      "angle": "records"
+    },
+    {
+      "q": "What city hosted the 2014 Winter Olympics?",
+      "a": "Sochi, Russia",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which Winter Olympic sport combines cross-country skiing and rifle shooting?",
+      "a": "Biathlon",
+      "angle": "events"
+    },
+    {
+      "q": "What is the name of the five-event Olympic contest combining shooting, fencing, swimming, equestrian, and running?",
+      "a": "Modern pentathlon",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 2000 Winter Olympics? (Trick: the 2000 Games were Summer only — which city hosted the 2002 Winter Olympics?)",
+      "a": "Salt Lake City",
+      "angle": "host cities"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Which city hosted the 1972 Summer Olympics, where a tragic hostage crisis killed 11 Israeli athletes and coaches?",
+      "a": "Munich",
+      "angle": "host cities"
+    },
+    {
+      "q": "How many gold medals did Michael Phelps win across his entire Olympic career?",
+      "a": "23",
+      "angle": "records"
+    },
+    {
+      "q": "Which female gymnast scored the first perfect 10.0 in Olympic history, at the 1976 Montreal Games?",
+      "a": "Nadia Comaneci",
+      "angle": "records"
+    },
+    {
+      "q": "What city hosted the 1964 Summer Olympics — the first held in Asia?",
+      "a": "Tokyo",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which marathon runner famously entered the 1908 London Olympic stadium first but was disqualified after being helped across the finish line?",
+      "a": "Dorando Pietri",
+      "angle": "events"
+    },
+    {
+      "q": "How many gold medals did Usain Bolt win officially across the 2008, 2012, and 2016 Olympics combined?",
+      "a": "Eight",
+      "angle": "records"
+    },
+    {
+      "q": "Which country has hosted the Summer Olympics the most times?",
+      "a": "United States (1904, 1932, 1984, 1996)",
+      "angle": "host cities"
+    },
+    {
+      "q": "In which city were the 1960 Summer Olympics held, where Cassius Clay won boxing gold?",
+      "a": "Rome",
+      "angle": "host cities"
+    },
+    {
+      "q": "In which years were the Summer Olympics cancelled due to World War II?",
+      "a": "1940 and 1944",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which city hosted the 1994 Winter Olympics — the first held in a year without a Summer Games?",
+      "a": "Lillehammer, Norway",
+      "angle": "host cities"
+    },
+    {
+      "q": "Who was the first athlete to win gold medals at both the Summer and Winter Olympic Games?",
+      "a": "Eddie Eagan (boxing 1920, bobsled 1932)",
+      "angle": "athletes"
+    },
+    {
+      "q": "In what city did Carl Lewis win four gold medals in track and field at the 1984 Olympics?",
+      "a": "Los Angeles",
+      "angle": "athletes"
+    },
+    {
+      "q": "What year did South Korea first host the Summer Olympics?",
+      "a": "1988",
+      "angle": "host cities"
+    },
+    {
+      "q": "Who won back-to-back Olympic marathon gold medals in 1960 and 1964?",
+      "a": "Abebe Bikila",
+      "angle": "athletes"
+    },
+    {
+      "q": "In which city were the 1976 Summer Olympics held, where Nadia Comaneci earned her perfect 10s?",
+      "a": "Montreal",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which new sport debuted at the 2024 Paris Olympics and was then dropped for 2028?",
+      "a": "Breaking (breakdancing)",
+      "angle": "events"
+    },
+    {
+      "q": "Who is the most decorated Winter Olympian of all time by total medal count?",
+      "a": "Marit Bjoergen of Norway (15 medals in cross-country skiing)",
+      "angle": "records"
+    },
+    {
+      "q": "Which swimmer won seven gold medals at the 1972 Munich Olympics, setting seven world records?",
+      "a": "Mark Spitz",
+      "angle": "records"
+    },
+    {
+      "q": "What city hosted the 1988 Winter Olympics, made famous by the Jamaican bobsled team?",
+      "a": "Calgary",
+      "angle": "host cities"
+    },
+    {
+      "q": "In what year did boxing first become an Olympic sport?",
+      "a": "1904",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 1992 Winter Olympics in France?",
+      "a": "Albertville",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which country boycotted the 1984 Los Angeles Olympics in retaliation for the 1980 U.S.-led boycott?",
+      "a": "Soviet Union",
+      "angle": "traditions"
+    },
+    {
+      "q": "In what year did women's boxing debut as an Olympic sport?",
+      "a": "2012",
+      "angle": "events"
+    },
+    {
+      "q": "Which country won the first Olympic gold medal in basketball when it debuted at the 1936 Games?",
+      "a": "United States",
+      "angle": "records"
+    },
+    {
+      "q": "What city will host the 2026 Winter Olympics?",
+      "a": "Milan-Cortina, Italy",
+      "angle": "host cities"
+    },
+    {
+      "q": "In what year did the Summer and Winter Olympics split into separate four-year cycles offset by two years?",
+      "a": "1994 (the Lillehammer Winter Games began the stagger)",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which U.S. city hosted the 1932 Summer Olympics?",
+      "a": "Los Angeles",
+      "angle": "host cities"
+    },
+    {
+      "q": "What Olympic track and field event requires athletes to clear a horizontal bar using a flexible pole?",
+      "a": "Pole vault",
+      "angle": "events"
+    },
+    {
+      "q": "Which Winter Olympic discipline involves jumping from a ramp to score points for distance and style?",
+      "a": "Ski jumping",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 2006 Winter Olympics?",
+      "a": "Turin, Italy",
+      "angle": "host cities"
+    },
+    {
+      "q": "What Olympic field event requires athletes to throw a heavy metal disc as far as possible?",
+      "a": "Discus throw",
+      "angle": "events"
+    },
+    {
+      "q": "Which country dominated biathlon at the 2022 Beijing Winter Olympics, winning the most golds?",
+      "a": "Norway",
+      "angle": "records"
+    },
+    {
+      "q": "Who won the women's heptathlon gold medal at the 1988 Seoul Olympics?",
+      "a": "Jackie Joyner-Kersee",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which country boycotted the 1980 Moscow Olympics, prompting about 65 other nations to join the boycott?",
+      "a": "United States",
+      "angle": "traditions"
+    },
+    {
+      "q": "What was the first Olympics to introduce electronic timing?",
+      "a": "1912 Stockholm Olympics",
+      "angle": "records"
+    },
+    {
+      "q": "Who won the men's 400m at both the 1996 Atlanta and 2000 Sydney Olympics?",
+      "a": "Michael Johnson",
+      "angle": "athletes"
+    },
+    {
+      "q": "At the 1992 Barcelona Olympics, what was the nickname of the U.S. men's basketball team featuring NBA professionals?",
+      "a": "The Dream Team",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which city hosted the 1980 Winter Olympics where the 'Miracle on Ice' took place?",
+      "a": "Lake Placid, New York",
+      "angle": "host cities"
+    },
+    {
+      "q": "What is the name of the relay swimming race in which each of four swimmers uses a different stroke?",
+      "a": "Medley relay",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 2010 Winter Olympics?",
+      "a": "Vancouver, Canada",
+      "angle": "host cities"
+    },
+    {
+      "q": "In what year did tennis return to the Olympics as a full medal sport after a 64-year absence?",
+      "a": "1988",
+      "angle": "events"
+    },
+    {
+      "q": "Which Australian sprinter won the 400m at the 2000 Sydney Olympics in front of a home crowd?",
+      "a": "Cathy Freeman",
+      "angle": "athletes"
+    },
+    {
+      "q": "In what year did South Africa return to the Olympics after being banned for apartheid?",
+      "a": "1992",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which country sent an unlikely bobsled team to the 1988 Calgary Winter Olympics, inspiring the film Cool Runnings?",
+      "a": "Jamaica",
+      "angle": "athletes"
+    },
+    {
+      "q": "What is the name of the Olympic event in which athletes race narrow boats on a straight course using oars?",
+      "a": "Rowing",
+      "angle": "events"
+    },
+    {
+      "q": "Which city hosted the 2002 Winter Olympics, site of a major figure skating judging scandal?",
+      "a": "Salt Lake City",
+      "angle": "host cities"
+    },
+    {
+      "q": "At the 1996 Atlanta Olympics, which gymnast vaulted on an injured ankle to help the U.S. women win team gold?",
+      "a": "Kerri Strug",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which country topped the gold medal table at the 2008 Beijing Summer Olympics, the host nation?",
+      "a": "China (51 golds)",
+      "angle": "records"
+    },
+    {
+      "q": "What is the longest track running event at the Summer Olympics?",
+      "a": "10,000 meters",
+      "angle": "events"
+    },
+    {
+      "q": "In which year did the Olympic Games first feature an Athletes' Village housing all competitors together?",
+      "a": "1932 (Los Angeles)",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which figure skating competition pairs Canadian team was awarded a shared gold after the 2002 Salt Lake judging scandal?",
+      "a": "Jamie Sale and David Pelletier",
+      "angle": "events"
+    },
+    {
+      "q": "Who lit the Olympic cauldron at the 2000 Sydney Olympics opening ceremony?",
+      "a": "Cathy Freeman",
+      "angle": "opening ceremonies"
+    },
+    {
+      "q": "How many gold medals did Katie Ledecky win in swimming at the 2016 Rio Olympics?",
+      "a": "Four",
+      "angle": "records"
+    },
+    {
+      "q": "Which country has competed at every single modern Summer Olympic Games since 1896?",
+      "a": "Greece, Australia, France, Great Britain, and Switzerland have all attended every Summer Games",
+      "angle": "traditions"
+    },
+    {
+      "q": "What city hosted the 1988 Summer Olympics?",
+      "a": "Seoul, South Korea",
+      "angle": "host cities"
+    }
+  ],
+  "hard": [
+    {
+      "q": "In which year was the Olympic five-ring flag first flown at an actual Games, after being designed by Pierre de Coubertin in 1913?",
+      "a": "1920 (Antwerp Olympics)",
+      "angle": "traditions"
+    },
+    {
+      "q": "What is the exact world record time Usain Bolt set in the 100m at the 2009 Berlin World Championships?",
+      "a": "9.58 seconds",
+      "angle": "records"
+    },
+    {
+      "q": "Which country won the most gold medals at the 1980 Moscow Olympics, boycotted by the United States and allies?",
+      "a": "Soviet Union (80 golds)",
+      "angle": "records"
+    },
+    {
+      "q": "Who was the first person to win Olympic gold medals at both the Summer and Winter Games in completely different sports?",
+      "a": "Eddie Eagan (boxing gold 1920 Antwerp; bobsled gold 1932 Lake Placid)",
+      "angle": "athletes"
+    },
+    {
+      "q": "Why was the 1908 London Olympic marathon distance set to 26 miles 385 yards, rather than a round number?",
+      "a": "The start was placed at Windsor Castle so the royal children could watch, and the finish line was moved in front of the royal box in the stadium",
+      "angle": "events"
+    },
+    {
+      "q": "How many times has London hosted the Summer Olympics?",
+      "a": "Three times (1908, 1948, 2012)",
+      "angle": "host cities"
+    },
+    {
+      "q": "What is Michael Phelps's total Olympic medal count including all golds, silvers, and bronzes?",
+      "a": "28 medals (23 gold, 3 silver, 2 bronze)",
+      "angle": "records"
+    },
+    {
+      "q": "In which year was the first torch relay from Olympia to the host city introduced as part of the Olympic Games?",
+      "a": "1936 (Berlin Olympics)",
+      "angle": "traditions"
+    },
+    {
+      "q": "Who set the Olympic long jump record of 8.90 meters at the 1968 Mexico City Games, a mark that stood for 23 years?",
+      "a": "Bob Beamon",
+      "angle": "records"
+    },
+    {
+      "q": "At the 1976 Montreal Olympics, which country topped the gold medal table with 49 golds, ahead of the USA's 34?",
+      "a": "Soviet Union",
+      "angle": "records"
+    },
+    {
+      "q": "What was the name of the first official Olympic mascot, a dachshund introduced at the 1972 Munich Games?",
+      "a": "Waldi",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which sprinter was stripped of his 100m gold medal at the 1988 Seoul Olympics after testing positive for stanozolol?",
+      "a": "Ben Johnson",
+      "angle": "athletes"
+    },
+    {
+      "q": "At the 2002 Salt Lake City Winter Olympics, which nationality was the judge who admitted to vote-swapping in the pairs figure skating?",
+      "a": "French (judge Marie-Reine Le Gougne)",
+      "angle": "events"
+    },
+    {
+      "q": "How many nations participated in the very first modern Olympic Games in Athens in 1896?",
+      "a": "14 nations",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which swimmer won 7 gold medals at the 1972 Munich Olympics, setting a world record in each event?",
+      "a": "Mark Spitz",
+      "angle": "records"
+    },
+    {
+      "q": "What city was originally awarded the 1904 Olympics but had the Games moved to St. Louis after that city's World's Fair lobbied for them?",
+      "a": "Chicago",
+      "angle": "host cities"
+    },
+    {
+      "q": "In what year did Fanny Blankers-Koen of the Netherlands win four gold medals in track and field at a single Olympics?",
+      "a": "1948 (London)",
+      "angle": "athletes"
+    },
+    {
+      "q": "On which specific apparatus did Nadia Comaneci receive the first perfect 10.0 in Olympic gymnastics history?",
+      "a": "Uneven bars",
+      "angle": "records"
+    },
+    {
+      "q": "Who holds the record for most Olympic Games attended by a single athlete, competing in 9 Games between 1964 and 1996?",
+      "a": "Hubert Raudaschl (Austrian sailor)",
+      "angle": "records"
+    },
+    {
+      "q": "What city was originally scheduled to host the 1940 Summer Olympics before they were cancelled due to World War II?",
+      "a": "Tokyo",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which Czech runner won gold in the 5000m, 10000m, and marathon at the 1952 Helsinki Olympics?",
+      "a": "Emil Zatopek",
+      "angle": "athletes"
+    },
+    {
+      "q": "Who won the decathlon gold at both the 1980 Moscow and 1984 Los Angeles Olympics?",
+      "a": "Daley Thompson of Great Britain",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which host country at the 1976 Montreal Olympics became the only host nation in Olympic history to win zero gold medals?",
+      "a": "Canada",
+      "angle": "records"
+    },
+    {
+      "q": "Which unusual team sport was contested at the Olympics from 1900 to 1920, involving teams pulling on a rope?",
+      "a": "Tug of war",
+      "angle": "events"
+    },
+    {
+      "q": "In what year did women's ski jumping make its Olympic debut?",
+      "a": "2014 (Sochi Winter Olympics)",
+      "angle": "events"
+    },
+    {
+      "q": "Who won the first Olympic marathon in 1896, a Greek water carrier from the village of Marousi?",
+      "a": "Spyridon Louis",
+      "angle": "athletes"
+    },
+    {
+      "q": "How many athletes competed in the inaugural 1896 Athens Olympic Games?",
+      "a": "Approximately 241 athletes",
+      "angle": "traditions"
+    },
+    {
+      "q": "What is the Olympic record time for the men's 400m hurdles, set by Karsten Warholm at the 2020 Tokyo Olympics?",
+      "a": "45.94 seconds",
+      "angle": "records"
+    },
+    {
+      "q": "Which American athlete won the very first gold medal contested at the modern Olympics in 1896, in the triple jump?",
+      "a": "James Connolly",
+      "angle": "records"
+    },
+    {
+      "q": "Which figure skater had a rival attacked on her behalf before the 1994 Lillehammer Winter Olympics by her ex-husband's associates?",
+      "a": "Tonya Harding (rival Nancy Kerrigan was attacked)",
+      "angle": "athletes"
+    },
+    {
+      "q": "At what altitude above sea level were the 1968 Mexico City Olympics held, famously helping jumpers and sprinters set records?",
+      "a": "Approximately 2,240 meters (7,350 feet)",
+      "angle": "host cities"
+    },
+    {
+      "q": "Which IOC founder created the five-ring Olympic symbol and organized the revival of the modern Games in 1896?",
+      "a": "Pierre de Coubertin",
+      "angle": "traditions"
+    },
+    {
+      "q": "In what year did the IOC effectively end the strict amateur rule, allowing professionals to compete in most Olympic sports?",
+      "a": "1992",
+      "angle": "traditions"
+    },
+    {
+      "q": "At the 1936 Berlin Olympics, how many gold medals did Jesse Owens win in track and field?",
+      "a": "Four (100m, 200m, long jump, 4x100m relay)",
+      "angle": "athletes"
+    },
+    {
+      "q": "What is the exact world record height for men's pole vault set by Armand Duplantis at the 2024 Paris Olympics?",
+      "a": "6.25 meters",
+      "angle": "records"
+    },
+    {
+      "q": "Which Romanian gymnast won three individual gold medals and scored seven perfect 10s at the 1976 Montreal Olympics?",
+      "a": "Nadia Comaneci",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which Finnish runner known as the 'Flying Finn' won 9 Olympic gold medals in distance events between 1920 and 1928?",
+      "a": "Paavo Nurmi",
+      "angle": "athletes"
+    },
+    {
+      "q": "At the 1968 Mexico City Olympics, which two U.S. sprinters raised gloved fists on the medal podium in a Black Power salute?",
+      "a": "Tommie Smith (gold) and John Carlos (bronze)",
+      "angle": "athletes"
+    },
+    {
+      "q": "In what year did the IOC first introduce drug testing at the Olympic Games?",
+      "a": "1968 (Mexico City)",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which Soviet gymnast won a record 9 individual Olympic gold medals across the 1956, 1960, and 1964 Games?",
+      "a": "Larisa Latynina",
+      "angle": "records"
+    },
+    {
+      "q": "Which U.S. basketball player famously draped an American flag over the Reebok logo on his podium jacket at the 1992 Barcelona Olympics?",
+      "a": "Michael Jordan",
+      "angle": "athletes"
+    },
+    {
+      "q": "What is the Olympic record for the men's 100m sprint, set by Usain Bolt at the 2012 London Olympics?",
+      "a": "9.63 seconds",
+      "angle": "records"
+    },
+    {
+      "q": "Which nation won the most gold medals at the 1984 Los Angeles Olympics, boosted by the Soviet-led boycott?",
+      "a": "United States (83 golds)",
+      "angle": "records"
+    },
+    {
+      "q": "At the 1952 Helsinki Olympics, Emil Zatopek entered the marathon on a whim having never run one before — what was remarkable about his result?",
+      "a": "He won by a large margin and set an Olympic record on his very first marathon attempt",
+      "angle": "athletes"
+    },
+    {
+      "q": "Which city hosted the 1980 Summer Olympics that were boycotted by the United States and approximately 65 other nations?",
+      "a": "Moscow",
+      "angle": "host cities"
+    },
+    {
+      "q": "How many total Olympic medals did Larisa Latynina win across three Games, a record that stood for 48 years until Michael Phelps surpassed it?",
+      "a": "18 medals (9 gold, 5 silver, 4 bronze)",
+      "angle": "records"
+    },
+    {
+      "q": "In what year did the first Winter Olympics take place, separate from the Summer Games?",
+      "a": "1924 (Chamonix)",
+      "angle": "traditions"
+    },
+    {
+      "q": "Which sprinter won gold in the 100m at the 2000 Sydney Olympics before later being stripped of all medals for doping?",
+      "a": "Marion Jones",
+      "angle": "athletes"
+    },
+    {
+      "q": "What was the budget overrun ratio of the 1976 Montreal Olympics, which left the city repaying debt for 30 years?",
+      "a": "Costs ballooned from a projected C$310 million to approximately C$1.5 billion — nearly five times over budget",
+      "angle": "host cities"
+    },
+    {
+      "q": "In what year did sailing first become an Olympic sport?",
+      "a": "1900 (Paris)",
+      "angle": "events"
+    },
+    {
+      "q": "Under what name did athletes with no eligible national Olympic committee compete at the 2016 Rio Olympics for the first time?",
+      "a": "Refugee Olympic Team",
+      "angle": "traditions"
+    },
+    {
+      "q": "At the 2004 Athens Olympics, which South African swimmer became the first African to win an Olympic gold medal in swimming?",
+      "a": "Roland Schoeman (as part of the 4x100m freestyle relay team)",
+      "angle": "records"
+    },
+    {
+      "q": "What world record did Bob Beamon set in the long jump at the 1968 Mexico City Olympics, surpassing the previous record by 55 centimeters?",
+      "a": "8.90 meters (29 feet 2.5 inches)",
+      "angle": "records"
+    },
+    {
+      "q": "Which American runner shocked the world by winning the 10,000m at the 1964 Tokyo Olympics, the first Native American to win an Olympic gold in distance running?",
+      "a": "Billy Mills",
+      "angle": "athletes"
+    },
+    {
+      "q": "In what year did South Korea's Sohn Kee-chung win the Olympic marathon while competing under a Japanese flag due to colonial rule?",
+      "a": "1936 (Berlin Olympics)",
+      "angle": "athletes"
+    }
+  ]
+}

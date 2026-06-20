@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "What surprise attack brought the United States into World War II in December 1941?",
+      "a": "The attack on Pearl Harbor",
+      "angle": "turning points"
+    },
+    {
+      "q": "Who was the British Prime Minister who led the UK through most of World War II?",
+      "a": "Winston Churchill",
+      "angle": "leaders"
+    },
+    {
+      "q": "Who was the leader of Nazi Germany during World War II?",
+      "a": "Adolf Hitler",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the code name for the Allied invasion of Normandy on June 6, 1944?",
+      "a": "D-Day (Operation Overlord)",
+      "angle": "battles"
+    },
+    {
+      "q": "Which two atomic bombs were dropped on Japan to end the Pacific War?",
+      "a": "Hiroshima and Nagasaki",
+      "angle": "turning points"
+    },
+    {
+      "q": "What were the two main alliances in World War II?",
+      "a": "The Allies and the Axis",
+      "angle": "allies"
+    },
+    {
+      "q": "Who was the U.S. President when Japan attacked Pearl Harbor?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "leaders"
+    },
+    {
+      "q": "In what year did World War II begin?",
+      "a": "1939",
+      "angle": "dates"
+    },
+    {
+      "q": "In what year did World War II end?",
+      "a": "1945",
+      "angle": "dates"
+    },
+    {
+      "q": "Germany's rapid military advance strategy in World War II was called what?",
+      "a": "Blitzkrieg (lightning war)",
+      "angle": "battles"
+    },
+    {
+      "q": "What country did Germany invade to start World War II in Europe?",
+      "a": "Poland",
+      "angle": "dates"
+    },
+    {
+      "q": "Who was the Supreme Allied Commander in Europe during the D-Day invasion?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Holocaust?",
+      "a": "The systematic genocide of six million Jews (and millions of others) by Nazi Germany",
+      "angle": "axis"
+    },
+    {
+      "q": "Which country's surrender in September 1945 officially ended World War II?",
+      "a": "Japan",
+      "angle": "turning points"
+    },
+    {
+      "q": "What iconic 'Rosie the Riveter' poster represented during the war?",
+      "a": "Women working in wartime factories on the home front",
+      "angle": "home front"
+    },
+    {
+      "q": "What was the name of Hitler's secret police in Nazi Germany?",
+      "a": "The Gestapo",
+      "angle": "axis"
+    },
+    {
+      "q": "Who was the leader of the Soviet Union during World War II?",
+      "a": "Joseph Stalin",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which Pacific island-hopping campaign aimed to get U.S. forces close enough to bomb Japan?",
+      "a": "The island-hopping (or leapfrogging) campaign",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of the German air force in World War II?",
+      "a": "The Luftwaffe",
+      "angle": "axis"
+    },
+    {
+      "q": "The Allied powers included the United States, the United Kingdom, and which other major power?",
+      "a": "The Soviet Union",
+      "angle": "allies"
+    },
+    {
+      "q": "What did the letters 'VE Day' stand for?",
+      "a": "Victory in Europe Day (May 8, 1945)",
+      "angle": "turning points"
+    },
+    {
+      "q": "What letter designation identified American fighter pilot volunteers who flew for China before the U.S. entered the war?",
+      "a": "The Flying Tigers (AVG)",
+      "angle": "allies"
+    },
+    {
+      "q": "Which French general led the Free French Forces in exile?",
+      "a": "Charles de Gaulle",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was rationing on the home front?",
+      "a": "Government limits on civilians' purchases of scarce goods (food, fuel, rubber, etc.)",
+      "angle": "home front"
+    },
+    {
+      "q": "Germany, Italy, and Japan formed what pact making them the main Axis powers?",
+      "a": "The Tripartite Pact (Axis Pact)",
+      "angle": "axis"
+    },
+    {
+      "q": "What famous speech by Churchill included the line 'We shall fight on the beaches'?",
+      "a": "His 1940 speech to the House of Commons after the Dunkirk evacuation",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the name of the wall of German anti-invasion fortifications along the Atlantic coast?",
+      "a": "The Atlantic Wall",
+      "angle": "axis"
+    },
+    {
+      "q": "Who was Italy's fascist dictator during most of World War II?",
+      "a": "Benito Mussolini",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was VJ Day?",
+      "a": "Victory over Japan Day, marking Japan's surrender (August 15/September 2, 1945)",
+      "angle": "turning points"
+    },
+    {
+      "q": "What wartime slogan warned Americans that 'Loose Lips' do what?",
+      "a": "Sink Ships",
+      "angle": "home front"
+    },
+    {
+      "q": "The Normandy landings took place on which beaches in France?",
+      "a": "Utah, Omaha, Gold, Juno, and Sword",
+      "angle": "battles"
+    },
+    {
+      "q": "What machine did Alan Turing help crack to decode German secret messages?",
+      "a": "The Enigma machine",
+      "angle": "allies"
+    },
+    {
+      "q": "What is the name of the German military strategy of encircling enemy forces?",
+      "a": "Kesselschlacht (cauldron battle) — also accepted: encirclement",
+      "angle": "battles"
+    },
+    {
+      "q": "Which American general was nicknamed 'Old Blood and Guts'?",
+      "a": "General George S. Patton",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Manhattan Project?",
+      "a": "The secret U.S. program to develop the atomic bomb",
+      "angle": "allies"
+    },
+    {
+      "q": "Which major sea battle in 1942 turned the tide against Japan in the Pacific?",
+      "a": "The Battle of Midway",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of Germany's invasion of the Soviet Union in 1941?",
+      "a": "Operation Barbarossa",
+      "angle": "axis"
+    },
+    {
+      "q": "Which country was divided into occupation zones after Germany's defeat?",
+      "a": "Germany",
+      "angle": "turning points"
+    },
+    {
+      "q": "What famous propaganda image showed a sailor kissing a nurse in Times Square on VJ Day?",
+      "a": "The V-J Day in Times Square photograph (by Alfred Eisenstaedt)",
+      "angle": "home front"
+    },
+    {
+      "q": "What branch of the U.S. military was the primary force in the Pacific island campaigns?",
+      "a": "The U.S. Marine Corps (and U.S. Navy / Army)",
+      "angle": "battles"
+    },
+    {
+      "q": "Which battle was the largest tank battle in history, fought on the Eastern Front in 1943?",
+      "a": "The Battle of Kursk",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of the main Nazi concentration and extermination camp complex in Poland?",
+      "a": "Auschwitz",
+      "angle": "axis"
+    },
+    {
+      "q": "What does 'SS' stand for in the context of Nazi Germany?",
+      "a": "Schutzstaffel (Protection Squadron)",
+      "angle": "axis"
+    },
+    {
+      "q": "Which Allied conference in 1945 divided post-war Europe between the Western powers and the Soviet Union?",
+      "a": "The Yalta Conference",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the name of Japan's surprise aerial attack force that flew suicide missions?",
+      "a": "Kamikaze",
+      "angle": "axis"
+    },
+    {
+      "q": "In the European theater, what were the three main Allied nations sometimes called?",
+      "a": "The Big Three (U.S., UK, USSR)",
+      "angle": "allies"
+    },
+    {
+      "q": "Where was Adolf Hitler's mountain retreat in Bavaria?",
+      "a": "The Berghof (on the Obersalzberg near Berchtesgaden)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What year did the United States declare war on Japan after Pearl Harbor?",
+      "a": "1941",
+      "angle": "dates"
+    },
+    {
+      "q": "Which famous American pilot was the first to fly solo across the Atlantic — and also served in the Pacific?",
+      "a": "Charles Lindbergh",
+      "angle": "home front"
+    },
+    {
+      "q": "What did FDR mean when he called December 7, 1941 'a date which will live in infamy'?",
+      "a": "It was the day Japan attacked Pearl Harbor, drawing the U.S. into World War II",
+      "angle": "turning points"
+    },
+    {
+      "q": "What was the name for the massive German Christmas offensive in December 1944?",
+      "a": "The Battle of the Bulge",
+      "angle": "battles"
+    },
+    {
+      "q": "What item of clothing did the Nazis force Jewish people to wear for identification?",
+      "a": "A yellow Star of David",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the war in North Africa primarily fought over?",
+      "a": "Control of the Suez Canal and North African supply routes",
+      "angle": "battles"
+    },
+    {
+      "q": "Who led the German Afrika Korps in North Africa and was called the 'Desert Fox'?",
+      "a": "Field Marshal Erwin Rommel",
+      "angle": "leaders"
+    },
+    {
+      "q": "Which Pacific island battle is famous for the flag-raising photograph on Mount Suribachi?",
+      "a": "The Battle of Iwo Jima",
+      "angle": "battles"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What was the code name for the Allied invasion of North Africa in November 1942?",
+      "a": "Operation Torch",
+      "angle": "battles"
+    },
+    {
+      "q": "Which German field marshal surrendered at Stalingrad in February 1943?",
+      "a": "Field Marshal Friedrich Paulus",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Lend-Lease Act, passed by the U.S. in 1941?",
+      "a": "A program that supplied Allied nations with war materials before the U.S. officially entered the war",
+      "angle": "allies"
+    },
+    {
+      "q": "The Wannsee Conference of January 1942 coordinated what Nazi plan?",
+      "a": "The 'Final Solution' — the systematic extermination of European Jews",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the name of Germany's strategic bombing campaign against British cities in 1940–41?",
+      "a": "The Blitz",
+      "angle": "battles"
+    },
+    {
+      "q": "Which Pacific naval battle in May 1942 was the first fought entirely by aircraft — no ships fired on each other?",
+      "a": "The Battle of the Coral Sea",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the code name for the Allied invasion of Sicily in July 1943?",
+      "a": "Operation Husky",
+      "angle": "battles"
+    },
+    {
+      "q": "What executive order authorized the internment of Japanese Americans during the war?",
+      "a": "Executive Order 9066 (signed by FDR in February 1942)",
+      "angle": "home front"
+    },
+    {
+      "q": "Who commanded the British 8th Army that defeated Rommel at El Alamein?",
+      "a": "General Bernard Montgomery",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the name of Hitler's secret headquarters in East Prussia?",
+      "a": "The Wolf's Lair (Wolfsschanze)",
+      "angle": "axis"
+    },
+    {
+      "q": "Which German battleship was sunk by the Royal Navy in May 1941 after just one major sortie?",
+      "a": "The Bismarck",
+      "angle": "battles"
+    },
+    {
+      "q": "What was Operation Market Garden, launched in September 1944?",
+      "a": "A failed Allied airborne operation to seize bridges in the Netherlands and push into Germany",
+      "angle": "battles"
+    },
+    {
+      "q": "The Japanese attack on Pearl Harbor sank or damaged how many U.S. battleships?",
+      "a": "Eight battleships",
+      "angle": "dates"
+    },
+    {
+      "q": "What was the name of the U.S. Navy's codebreaking unit that was key to the Midway victory?",
+      "a": "Station HYPO (Combat Intelligence Unit, Pearl Harbor)",
+      "angle": "allies"
+    },
+    {
+      "q": "What did 'GI' stand for in the slang used to describe American soldiers?",
+      "a": "Government Issue (or General Issue)",
+      "angle": "home front"
+    },
+    {
+      "q": "The Doolittle Raid of April 1942 saw U.S. bombers launched from a carrier to bomb which city?",
+      "a": "Tokyo (and other Japanese cities)",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the Red Ball Express?",
+      "a": "A trucking convoy system that supplied Allied forces across France after D-Day",
+      "angle": "allies"
+    },
+    {
+      "q": "How did the German U-boat campaign threaten the Allies?",
+      "a": "By sinking Allied supply ships in the Atlantic, disrupting the flow of men and materiel to Britain",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of the top-secret facility in New Mexico where the atomic bomb was designed and built?",
+      "a": "Los Alamos (Laboratory)",
+      "angle": "allies"
+    },
+    {
+      "q": "Who was the commander of Allied forces in the Pacific (Southwest Pacific Area)?",
+      "a": "General Douglas MacArthur",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Nuremberg Trials?",
+      "a": "Post-war military tribunals that prosecuted Nazi war criminals for crimes against humanity",
+      "angle": "turning points"
+    },
+    {
+      "q": "Which country did Germany, Italy, and Japan sign the Tripartite Pact in September 1940 in?",
+      "a": "Berlin (the pact was signed in Berlin)",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the name of the Japanese naval commander who planned the Pearl Harbor attack?",
+      "a": "Admiral Isoroku Yamamoto",
+      "angle": "leaders"
+    },
+    {
+      "q": "The liberation of Paris in August 1944 was led primarily by which Free French force?",
+      "a": "The French 2nd Armored Division (under General Leclerc)",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the purpose of the Women's Army Corps (WAC) in the U.S.?",
+      "a": "To allow women to serve in non-combat military roles, freeing men for combat",
+      "angle": "home front"
+    },
+    {
+      "q": "Which Italian city hosted the signing of the Italian armistice in September 1943?",
+      "a": "Cassibile, Sicily (the armistice was signed there)",
+      "angle": "turning points"
+    },
+    {
+      "q": "What was the Battle of Britain?",
+      "a": "The 1940 air campaign in which the RAF defeated the Luftwaffe's attempt to gain air superiority over Britain",
+      "angle": "battles"
+    },
+    {
+      "q": "What did the Nuremberg Laws of 1935 do?",
+      "a": "Stripped German Jews of citizenship and banned marriage between Jews and non-Jews",
+      "angle": "axis"
+    },
+    {
+      "q": "Which Axis ally switched sides and declared war on Germany in October 1943?",
+      "a": "Italy",
+      "angle": "turning points"
+    },
+    {
+      "q": "What was the name of the German plan to invade France through the Ardennes forest in 1940?",
+      "a": "Fall Gelb (Case Yellow)",
+      "angle": "axis"
+    },
+    {
+      "q": "Which Pacific island battle lasted 36 days and resulted in the highest U.S. Marine casualties of the Pacific war?",
+      "a": "The Battle of Iwo Jima",
+      "angle": "battles"
+    },
+    {
+      "q": "What city was the site of the decisive Soviet victory that turned the tide on the Eastern Front?",
+      "a": "Stalingrad",
+      "angle": "turning points"
+    },
+    {
+      "q": "The 'Phoney War' refers to the period of inactivity in Western Europe between September 1939 and when?",
+      "a": "May 1940 (when Germany launched its offensive in the West)",
+      "angle": "dates"
+    },
+    {
+      "q": "Who led the famous Doolittle Raid on Japan?",
+      "a": "Lieutenant Colonel Jimmy Doolittle",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was Operation Barbarossa's most significant strategic failure?",
+      "a": "Germany failed to capture Moscow or knock the Soviet Union out of the war before winter 1941",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the role of the OSS in World War II?",
+      "a": "The Office of Strategic Services was the U.S. wartime intelligence and special operations agency",
+      "angle": "allies"
+    },
+    {
+      "q": "Which battle in the Philippines in 1944 was the largest naval battle in history?",
+      "a": "The Battle of Leyte Gulf",
+      "angle": "battles"
+    },
+    {
+      "q": "What was a 'war bond' and why did governments sell them?",
+      "a": "Loans from citizens to the government to fund the war effort, sold with patriotic campaigns",
+      "angle": "home front"
+    },
+    {
+      "q": "What German word means the mass killing of civilians used during the Nazi occupation of Eastern Europe?",
+      "a": "Vernichtung (annihilation) — commonly referred to as the Holocaust or Shoah",
+      "angle": "axis"
+    },
+    {
+      "q": "What cargo was the Liberty Ships designed to carry across the Atlantic?",
+      "a": "War supplies, troops, food, and equipment to Allied forces",
+      "angle": "home front"
+    },
+    {
+      "q": "Which Japanese city was the target of the first atomic bomb on August 6, 1945?",
+      "a": "Hiroshima",
+      "angle": "turning points"
+    },
+    {
+      "q": "Who commanded U.S. naval forces during the Battle of Midway?",
+      "a": "Admiral Chester Nimitz (with Rear Admirals Fletcher and Spruance in tactical command)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Resistance in occupied France?",
+      "a": "An underground movement of French civilians and fighters who sabotaged the Nazi occupation",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the name of the German army group that suffered catastrophic defeat at Stalingrad?",
+      "a": "Army Group B (specifically the German 6th Army)",
+      "angle": "axis"
+    },
+    {
+      "q": "What conference in November 1943 saw the first meeting of Roosevelt, Churchill, and Stalin?",
+      "a": "The Tehran Conference",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the 'final solution to the Jewish question' officially known as in German?",
+      "a": "Endlösung der Judenfrage",
+      "angle": "axis"
+    },
+    {
+      "q": "Which island did the U.S. capture in August 1942 in the first major Allied offensive of the Pacific war?",
+      "a": "Guadalcanal",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of the German defensive line in Italy that held up Allied advance in 1943–44?",
+      "a": "The Gustav Line (Winter Line)",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the 'Arsenal of Democracy' speech by FDR calling for?",
+      "a": "For the U.S. to massively increase war production to supply the Allies",
+      "angle": "home front"
+    },
+    {
+      "q": "What was the August 1939 pact between Germany and the Soviet Union that shocked the world?",
+      "a": "The Molotov-Ribbentrop Pact (Nazi-Soviet Non-Aggression Pact)",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the Tuskegee Airmen?",
+      "a": "The first African American military aviators in the U.S. armed forces, who flew in WWII",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the name of the Allied operation to liberate Rome, launched in January 1944?",
+      "a": "Operation Shingle (the Anzio landings)",
+      "angle": "battles"
+    },
+    {
+      "q": "In which year did France fall to Germany?",
+      "a": "1940",
+      "angle": "dates"
+    },
+    {
+      "q": "Who was the U.S. commander of the Central Pacific theater and the naval drive toward Japan?",
+      "a": "Admiral Chester W. Nimitz",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Dunkirk evacuation of May–June 1940?",
+      "a": "The emergency rescue of over 330,000 Allied troops from the beaches of Dunkirk, France",
+      "angle": "turning points"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was the exact date of D-Day, the Allied invasion of Normandy?",
+      "a": "June 6, 1944",
+      "angle": "dates"
+    },
+    {
+      "q": "Operation Overlord was the overall plan for the liberation of Europe. What was the specific code name for the naval portion of D-Day?",
+      "a": "Operation Neptune",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the code name for the German plan to invade Britain, planned but never executed?",
+      "a": "Operation Sea Lion (Unternehmen Seelöwe)",
+      "angle": "axis"
+    },
+    {
+      "q": "The July 20, 1944 assassination attempt on Hitler is known by what name?",
+      "a": "Operation Valkyrie (the July 20 Plot)",
+      "angle": "axis"
+    },
+    {
+      "q": "Who led the July 20, 1944 bomb plot against Hitler?",
+      "a": "Colonel Claus von Stauffenberg",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Baedeker Blitz?",
+      "a": "German retaliatory bombing raids in 1942 targeting English cultural and historic cities (Bath, Exeter, etc.)",
+      "angle": "battles"
+    },
+    {
+      "q": "What date did Japan formally surrender aboard the USS Missouri, ending World War II?",
+      "a": "September 2, 1945",
+      "angle": "dates"
+    },
+    {
+      "q": "What was the name of the bomber that dropped the atomic bomb on Hiroshima?",
+      "a": "The Enola Gay (a B-29 Superfortress)",
+      "angle": "turning points"
+    },
+    {
+      "q": "Who piloted the Enola Gay on the Hiroshima mission?",
+      "a": "Colonel Paul Tibbets",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the name of the second atomic bomb dropped on Nagasaki on August 9, 1945?",
+      "a": "Fat Man (the Hiroshima bomb was 'Little Boy')",
+      "angle": "turning points"
+    },
+    {
+      "q": "Which German general was known as 'Smiling Albert' and commanded Army Group B during the Battle of the Bulge?",
+      "a": "Field Marshal Walter Model",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was Operation Barbarossa's original start date, delayed by the Balkan campaign?",
+      "a": "Originally planned for May 1941; delayed to June 22, 1941",
+      "angle": "dates"
+    },
+    {
+      "q": "What was the 'Butcher of Lyon,' the SS officer responsible for deporting thousands of French Jews?",
+      "a": "Klaus Barbie",
+      "angle": "axis"
+    },
+    {
+      "q": "In the Battle of Midway, how many Japanese aircraft carriers were sunk?",
+      "a": "Four (Akagi, Kaga, Sōryū, and Hiryū)",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the ULTRA secret?",
+      "a": "The Allied intelligence operation that decoded German Enigma communications at Bletchley Park",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the Malmedy Massacre during the Battle of the Bulge?",
+      "a": "The execution of approximately 84 American POWs by the SS Leibstandarte on December 17, 1944",
+      "angle": "battles"
+    },
+    {
+      "q": "What Japanese code name referred to the attack plan on Pearl Harbor?",
+      "a": "Operation Z (also called Operation AI in combined form)",
+      "angle": "axis"
+    },
+    {
+      "q": "Which U.S. cruiser discovered the burning USS Arizona at Pearl Harbor and became the last ship sunk that day?",
+      "a": "USS Nevada (which was the only battleship to get underway during the attack)",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the 'Hunger Winter' (Hongerwinter) of 1944–45?",
+      "a": "A famine in German-occupied Netherlands that killed over 20,000 civilians",
+      "angle": "home front"
+    },
+    {
+      "q": "What was the role of the Navajo Code Talkers in the Pacific war?",
+      "a": "Native American Marines who used the Navajo language as an unbreakable military communications code",
+      "angle": "allies"
+    },
+    {
+      "q": "Which SS unit carried out the Babi Yar massacre in September 1941, killing over 33,000 Jews in two days?",
+      "a": "Einsatzgruppe C (specifically Sonderkommando 4a)",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the name of the top-secret Allied deception operation designed to mislead Germany about the D-Day landing site?",
+      "a": "Operation Fortitude (part of Operation Bodyguard)",
+      "angle": "allies"
+    },
+    {
+      "q": "General Anthony McAuliffe famously replied 'Nuts!' to a German surrender demand during which battle?",
+      "a": "The Battle of the Bulge (specifically the siege of Bastogne)",
+      "angle": "battles"
+    },
+    {
+      "q": "What date did Germany invade Poland, starting World War II in Europe?",
+      "a": "September 1, 1939",
+      "angle": "dates"
+    },
+    {
+      "q": "What was the Japanese military policy of 'bushido' and how did it affect POW treatment?",
+      "a": "The warrior code emphasizing death over surrender led to brutal treatment of Allied prisoners",
+      "angle": "axis"
+    },
+    {
+      "q": "Which German officer commanded the panzer forces that executed the breakthrough at Sedan in May 1940?",
+      "a": "General Heinz Guderian",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the 'Ghost Army' (23rd Headquarters Special Troops) in World War II?",
+      "a": "A secret U.S. Army unit that used inflatable tanks, fake radio signals, and sound effects to deceive the Germans",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the date that Germany surrendered, ending the war in Europe?",
+      "a": "May 8, 1945 (VE Day)",
+      "angle": "dates"
+    },
+    {
+      "q": "What was the exact name of the conference where the 'Big Three' agreed to divide post-war Germany?",
+      "a": "The Potsdam Conference (July–August 1945)",
+      "angle": "allies"
+    },
+    {
+      "q": "Which Soviet Marshal commanded the final assault on Berlin in April–May 1945?",
+      "a": "Marshal Georgy Zhukov (1st Belorussian Front), with Konev's 1st Ukrainian Front",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the Bataan Death March?",
+      "a": "The forced 65-mile march of approximately 75,000 American and Filipino POWs by Japanese forces in April 1942",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the name of the German pocket battleship sunk by her own crew after the Battle of the River Plate?",
+      "a": "The Admiral Graf Spee (scuttled off Montevideo, December 1939)",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the 'Magic' intelligence program?",
+      "a": "The U.S. effort to decode Japanese diplomatic and military communications (JN-25 cipher)",
+      "angle": "allies"
+    },
+    {
+      "q": "What was Operation Anthropoid?",
+      "a": "The 1942 assassination of SS General Reinhard Heydrich in Prague by Czech paratroopers",
+      "angle": "allies"
+    },
+    {
+      "q": "In what month and year did the U.S. begin the liberation of the Philippines?",
+      "a": "October 1944 (MacArthur landed at Leyte on October 20)",
+      "angle": "dates"
+    },
+    {
+      "q": "What German city was firebombed in February 1945, causing enormous civilian casualties in a controversial Allied raid?",
+      "a": "Dresden",
+      "angle": "battles"
+    },
+    {
+      "q": "Which Japanese admiral was killed when his plane was ambushed by U.S. fighters in April 1943?",
+      "a": "Admiral Isoroku Yamamoto",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the 'Bridge Too Far' that the Allies failed to capture in Operation Market Garden?",
+      "a": "The Arnhem bridge over the Rhine in the Netherlands",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the name of the German 1944 offensive at the Battle of the Bulge?",
+      "a": "Operation Wacht am Rhein (Watch on the Rhine)",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the significance of the battle of Khalkhin Gol (Nomonhan) in 1939?",
+      "a": "A decisive Soviet victory over Japan that convinced Japan to expand south into the Pacific rather than attack the USSR",
+      "angle": "turning points"
+    },
+    {
+      "q": "Who was the American scientist who directed the Los Alamos laboratory and is called the 'father of the atomic bomb'?",
+      "a": "J. Robert Oppenheimer",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the 'Murmansk run' during World War II?",
+      "a": "The dangerous Allied convoy route supplying the Soviet Union through the Arctic Ocean to Murmansk",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the 'Tripartite Pact' year of signing?",
+      "a": "September 27, 1940",
+      "angle": "dates"
+    },
+    {
+      "q": "Which Japanese general ordered the Rape of Nanking in December 1937 (preceding the official war start)?",
+      "a": "General Iwane Matsui (commander of the Central China Area Army)",
+      "angle": "axis"
+    },
+    {
+      "q": "What was the 'Hump' that U.S. air forces flew to supply China?",
+      "a": "The eastern Himalayan mountain range, flown to supply Nationalist China after the Burma Road was cut",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the name of the U.S. Army division known as the 'Screaming Eagles' that held Bastogne?",
+      "a": "The 101st Airborne Division",
+      "angle": "battles"
+    },
+    {
+      "q": "Which German general surrendered the German 6th Army at Stalingrad on February 2, 1943?",
+      "a": "Field Marshal Friedrich Paulus (promoted to Field Marshal just before the surrender)",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was Operation Torch's primary strategic purpose?",
+      "a": "To establish a second front in North Africa and relieve pressure on the Soviet Union while training Allied forces",
+      "angle": "allies"
+    },
+    {
+      "q": "What was the code name for the German offensive in the Ardennes in December 1944?",
+      "a": "Unternehmen Herbstnebel (Operation Autumn Mist), commonly called the Battle of the Bulge",
+      "angle": "axis"
+    },
+    {
+      "q": "Which Japanese Zero pilot shot down the most Allied aircraft in World War II?",
+      "a": "Hiroyoshi Nishizawa (with approximately 87 confirmed kills)",
+      "angle": "axis"
+    },
+    {
+      "q": "What year did the Soviet Union sign a neutrality pact with Japan, and why was it strategically important?",
+      "a": "April 1941; it freed Soviet forces in the east to defend against Germany, and Japan to move south",
+      "angle": "turning points"
+    },
+    {
+      "q": "The 'Dambusters Raid' (Operation Chastise) in May 1943 used what special weapon?",
+      "a": "Bouncing bombs (Upkeep mines) designed by Barnes Wallis, to breach the Ruhr dams",
+      "angle": "battles"
+    },
+    {
+      "q": "What was the 'Pact of Steel' signed in May 1939?",
+      "a": "A military alliance between Nazi Germany and Fascist Italy signed before the formal Axis Tripartite Pact",
+      "angle": "axis"
+    },
+    {
+      "q": "Who was the U.S. Secretary of War who oversaw the Manhattan Project and atomic bomb decision?",
+      "a": "Henry L. Stimson",
+      "angle": "leaders"
+    },
+    {
+      "q": "What was the name of the massive Soviet offensive in June 1944 that destroyed Army Group Centre?",
+      "a": "Operation Bagration",
+      "angle": "battles"
+    }
+  ]
+}

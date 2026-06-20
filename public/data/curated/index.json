@@ -1,98 +1,133 @@
 {
   "90s-cartoons": {
-    "easy": 52,
-    "medium": 50,
-    "hard": 47
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "ancient-egypt": {
-    "easy": 50,
+    "easy": 55,
     "medium": 55,
-    "hard": 54
+    "hard": 55
   },
   "ancient-greece": {
-    "easy": 54,
-    "medium": 53,
+    "easy": 55,
+    "medium": 55,
     "hard": 55
   },
   "anime-heroes": {
-    "easy": 49,
-    "medium": 53,
-    "hard": 53
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "baseball": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "basketball": {
-    "easy": 53,
-    "medium": 53,
-    "hard": 52
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "classical-composers": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "dc-comics": {
     "easy": 57,
-    "medium": 54,
+    "medium": 55,
     "hard": 62
   },
   "dinosaurs": {
-    "easy": 52,
-    "medium": 53,
-    "hard": 52
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "disney-classics": {
-    "easy": 51,
-    "medium": 51,
-    "hard": 54
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "f1": {
     "easy": 55,
     "medium": 55,
     "hard": 55
   },
+  "food-world": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
   "harry-potter": {
-    "easy": 40,
-    "medium": 49,
-    "hard": 50
+    "easy": 54,
+    "medium": 55,
+    "hard": 55
+  },
+  "human-body": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "kpop-demon-hunters": {
-    "easy": 49,
-    "medium": 50,
-    "hard": 53
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "lotr": {
-    "easy": 52,
-    "medium": 54,
-    "hard": 53
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "marvel": {
-    "easy": 47,
-    "medium": 50,
+    "easy": 55,
+    "medium": 55,
     "hard": 55
   },
   "modern-games": {
-    "easy": 46,
-    "medium": 52,
-    "hard": 53
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "movie-soundtracks": {
-    "easy": 52,
-    "medium": 46,
-    "hard": 51
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "music-legends": {
-    "easy": 41,
-    "medium": 51,
-    "hard": 50
+    "easy": 54,
+    "medium": 55,
+    "hard": 55
   },
   "mythology": {
     "easy": 55,
     "medium": 55,
     "hard": 55
   },
+  "national-parks": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "olympics": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
   "pokemon": {
-    "easy": 54,
-    "medium": 52,
+    "easy": 55,
+    "medium": 55,
     "hard": 55
   },
   "pop-hits": {
-    "easy": 43,
-    "medium": 51,
-    "hard": 54
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "presidents": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "racing": {
     "easy": 55,
@@ -100,56 +135,81 @@
     "hard": 55
   },
   "retro-games": {
-    "easy": 54,
-    "medium": 54,
+    "easy": 55,
+    "medium": 55,
     "hard": 55
   },
   "robotics": {
-    "easy": 51,
-    "medium": 42,
-    "hard": 48
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "rock-history": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "soccer": {
-    "easy": 53,
-    "medium": 53,
-    "hard": 53
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "solar-system": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "space-exploration": {
-    "easy": 49,
-    "medium": 53,
+    "easy": 55,
+    "medium": 55,
     "hard": 55
   },
   "star-wars": {
-    "easy": 44,
-    "medium": 45,
-    "hard": 43
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "tech-giants": {
     "easy": 55,
     "medium": 55,
-    "hard": 54
+    "hard": 55
   },
   "tech-innovations": {
-    "easy": 43,
-    "medium": 40,
-    "hard": 41
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "time-travel": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "us-history": {
-    "easy": 45,
-    "medium": 54,
-    "hard": 54
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "weather": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "world-capitals": {
-    "easy": 40,
-    "medium": 40,
-    "hard": 40
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
   },
   "world-history": {
-    "easy": 49,
+    "easy": 55,
     "medium": 59,
     "hard": 57
   },
   "world-landmarks": {
+    "easy": 55,
+    "medium": 55,
+    "hard": 55
+  },
+  "ww2": {
     "easy": 55,
     "medium": 55,
     "hard": 55

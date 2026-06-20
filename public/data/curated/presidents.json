@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Who was the first President of the United States?",
+      "a": "George Washington",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president's face is on the quarter?",
+      "a": "George Washington",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president signed the Emancipation Proclamation in 1863?",
+      "a": "Abraham Lincoln",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was known by the nickname 'Honest Abe'?",
+      "a": "Abraham Lincoln",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was president during most of World War II?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president served four terms — more than any other?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president resigned from office amid the Watergate scandal?",
+      "a": "Richard Nixon",
+      "angle": "eras"
+    },
+    {
+      "q": "Who established the Environmental Protection Agency in 1970?",
+      "a": "Richard Nixon",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the youngest person ever elected president of the United States?",
+      "a": "John F. Kennedy",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president said 'Ask not what your country can do for you — ask what you can do for your country'?",
+      "a": "John F. Kennedy",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who was the first African American elected president of the United States?",
+      "a": "Barack Obama",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president won the Nobel Peace Prize in 2009?",
+      "a": "Barack Obama",
+      "angle": "eras"
+    },
+    {
+      "q": "Who wrote the Declaration of Independence and later served as the third president?",
+      "a": "Thomas Jefferson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president purchased the Louisiana Territory from France in 1803?",
+      "a": "Thomas Jefferson",
+      "angle": "policies"
+    },
+    {
+      "q": "Who signed the Civil Rights Act of 1964?",
+      "a": "Lyndon B. Johnson",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president oversaw the Great Society programs, including Medicare and Medicaid?",
+      "a": "Lyndon B. Johnson",
+      "angle": "policies"
+    },
+    {
+      "q": "Who ordered the atomic bombings of Hiroshima and Nagasaki in 1945?",
+      "a": "Harry S. Truman",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was commander-in-chief during the Korean War?",
+      "a": "Harry S. Truman",
+      "angle": "eras"
+    },
+    {
+      "q": "Who survived an assassination attempt in Washington, D.C., in March 1981?",
+      "a": "Ronald Reagan",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president said 'Tear down this wall!' in a 1987 speech at the Berlin Wall?",
+      "a": "Ronald Reagan",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who was president when the United States entered World War I in 1917?",
+      "a": "Woodrow Wilson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was in office when the Panama Canal opened in August 1914?",
+      "a": "Woodrow Wilson",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was a peanut farmer from Plains, Georgia, before becoming president?",
+      "a": "Jimmy Carter",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president negotiated the Camp David Accords between Egypt and Israel in 1978?",
+      "a": "Jimmy Carter",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was in office when the Berlin Wall fell in 1989?",
+      "a": "George H.W. Bush",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was commander-in-chief during the first Gulf War in 1991?",
+      "a": "George H.W. Bush",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was in office during the September 11, 2001 attacks?",
+      "a": "George W. Bush",
+      "angle": "eras"
+    },
+    {
+      "q": "Who won the 2000 presidential election after the Supreme Court halted Florida's recount?",
+      "a": "George W. Bush",
+      "angle": "elections"
+    },
+    {
+      "q": "Who created NASA with the National Aeronautics and Space Act of 1958?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was in office when Alaska and Hawaii became states in 1959?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "eras"
+    },
+    {
+      "q": "Who won the presidential election of 2016?",
+      "a": "Donald Trump",
+      "angle": "elections"
+    },
+    {
+      "q": "Which president was impeached twice — in 2019 and again in 2021?",
+      "a": "Donald Trump",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the oldest person ever inaugurated as U.S. president, taking office at age 78?",
+      "a": "Joe Biden",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president won the 2020 election?",
+      "a": "Joe Biden",
+      "angle": "elections"
+    },
+    {
+      "q": "Who signed NAFTA into law in 1993?",
+      "a": "Bill Clinton",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was impeached by the House in 1998 but acquitted by the Senate?",
+      "a": "Bill Clinton",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the second president of the United States?",
+      "a": "John Adams",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was the first to live in the White House?",
+      "a": "John Adams",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was known as the 'Father of the Constitution'?",
+      "a": "James Madison",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was nicknamed 'Old Hickory' and won the Battle of New Orleans?",
+      "a": "Andrew Jackson",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the first vice president to succeed a president who died in office?",
+      "a": "John Tyler",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president's face is carved into Mount Rushmore alongside Washington, Jefferson, and Lincoln?",
+      "a": "Theodore Roosevelt",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the only U.S. president to serve two non-consecutive terms?",
+      "a": "Grover Cleveland",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was president when the nation celebrated its bicentennial in 1976?",
+      "a": "Gerald Ford",
+      "angle": "eras"
+    },
+    {
+      "q": "Whose name inspired the 'teddy bear' toy, after he refused to shoot a tied-up bear while hunting?",
+      "a": "Theodore Roosevelt",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was the 22nd and 24th — the only person to serve two non-consecutive terms?",
+      "a": "Grover Cleveland",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who became president when Richard Nixon resigned in August 1974?",
+      "a": "Gerald Ford",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president's two terms from 1817 to 1825 were called the 'Era of Good Feelings'?",
+      "a": "James Monroe",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president succeeded William Henry Harrison after 31 days and was expelled from the Whig Party?",
+      "a": "John Tyler",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was president during the Stock Market Crash of 1929 at the start of the Great Depression?",
+      "a": "Herbert Hoover",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president died in office from illness in August 1923, before scandals in his administration were exposed?",
+      "a": "Warren G. Harding",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was shot and killed at a Washington train station six months into his presidency in 1881?",
+      "a": "James A. Garfield",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was assassinated in Buffalo, New York, in September 1901?",
+      "a": "William McKinley",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was born in Kinderhook, New York, and was the first president born a U.S. citizen?",
+      "a": "Martin Van Buren",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was known as 'Old Rough and Ready' and served as president from 1849 to 1850 before dying in office?",
+      "a": "Zachary Taylor",
+      "angle": "eras"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Who was the only president to hold a patent, for a device to lift boats over shallow water?",
+      "a": "Abraham Lincoln",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Federal Aid Highway Act of 1956, creating the Interstate Highway System?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the only president to serve as Chief Justice of the Supreme Court after his presidency?",
+      "a": "William Howard Taft",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president was the first to throw out the ceremonial first pitch at a Major League Baseball game?",
+      "a": "William Howard Taft",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who promoted the 'Square Deal' domestic agenda focused on labor rights and curbing corporate power?",
+      "a": "Theodore Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president set aside more than 230 million acres for national parks, forests, and monuments?",
+      "a": "Theodore Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to be born west of the Mississippi River, in West Branch, Iowa?",
+      "a": "Herbert Hoover",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was president when the U.S. stock market crashed on Black Tuesday in October 1929?",
+      "a": "Herbert Hoover",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the only bachelor president, having never married?",
+      "a": "James Buchanan",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which campaign used the slogan 'Tippecanoe and Tyler Too' in 1840?",
+      "a": "William Henry Harrison",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Which president served the shortest term, dying of pneumonia 31 days after his inauguration?",
+      "a": "William Henry Harrison",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president issued the Monroe Doctrine, warning European powers against colonizing the Americas?",
+      "a": "James Monroe",
+      "angle": "policies"
+    },
+    {
+      "q": "Who signed the Sherman Antitrust Act of 1890?",
+      "a": "Benjamin Harrison",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was the first to be born a U.S. citizen rather than a British colonial subject?",
+      "a": "Martin Van Buren",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was a film and television actor before being elected governor of California and then president?",
+      "a": "Ronald Reagan",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president's 1984 campaign produced the iconic 'It's Morning Again in America' advertisement?",
+      "a": "Ronald Reagan",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Who won the disputed election of 1800 after a House runoff against Aaron Burr?",
+      "a": "Thomas Jefferson",
+      "angle": "elections"
+    },
+    {
+      "q": "Who was president during the Teapot Dome oil bribery scandal?",
+      "a": "Warren G. Harding",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president signed the Americans with Disabilities Act in 1990?",
+      "a": "George H.W. Bush",
+      "angle": "policies"
+    },
+    {
+      "q": "Who ran against Ronald Reagan in the 1984 presidential election?",
+      "a": "Walter Mondale",
+      "angle": "elections"
+    },
+    {
+      "q": "Who was the only president elected unanimously by the Electoral College?",
+      "a": "George Washington",
+      "angle": "elections"
+    },
+    {
+      "q": "Which president coined the phrase 'the only thing we have to fear is fear itself' in his 1933 inaugural address?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who signed the GI Bill of Rights in 1944, giving veterans access to education and housing loans?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president's nickname was 'Ike'?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was the first to debate his opponent on live national television, in September 1960?",
+      "a": "John F. Kennedy",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Who was the only president to earn a Purple Heart, wounded in PT-boat action in the Pacific?",
+      "a": "John F. Kennedy",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president kept a sign reading 'The buck stops here' on his Oval Office desk?",
+      "a": "Harry S. Truman",
+      "angle": "quotes"
+    },
+    {
+      "q": "Who was president when the United States recognized the State of Israel in May 1948?",
+      "a": "Harry S. Truman",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the only president to earn a Ph.D., from Johns Hopkins University?",
+      "a": "Woodrow Wilson",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president established the modern precedent of delivering the State of the Union in person before Congress?",
+      "a": "Woodrow Wilson",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who ran as a major independent candidate in 1992, winning about 19 percent of the popular vote?",
+      "a": "Ross Perot",
+      "angle": "elections"
+    },
+    {
+      "q": "Which president voluntarily stepped down after a single term, as he had pledged during his 1844 campaign?",
+      "a": "James K. Polk",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Who was the last president who had also previously served as Speaker of the House of Representatives?",
+      "a": "James K. Polk",
+      "angle": "eras"
+    },
+    {
+      "q": "Who oversaw Reconstruction after the Civil War and was later impeached over the Tenure of Office Act?",
+      "a": "Andrew Johnson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president ran against and narrowly defeated incumbent George H.W. Bush in 1992?",
+      "a": "Bill Clinton",
+      "angle": "elections"
+    },
+    {
+      "q": "Who ran against George W. Bush in the 2004 presidential election?",
+      "a": "John Kerry",
+      "angle": "elections"
+    },
+    {
+      "q": "Who succeeded to the presidency when Warren Harding died in office in August 1923?",
+      "a": "Calvin Coolidge",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president was the last Whig ever elected to the presidency, winning the 1848 election?",
+      "a": "Zachary Taylor",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was president when the last U.S. combat troops were withdrawn from Vietnam under the Paris Peace Accords?",
+      "a": "Richard Nixon",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president launched the 'War on Drugs' as a formal domestic policy priority in 1971?",
+      "a": "Richard Nixon",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president signed the Immigration Act of 1965, abolishing national-origin immigration quotas?",
+      "a": "Lyndon B. Johnson",
+      "angle": "policies"
+    },
+    {
+      "q": "Who won the 1976 election as a Washington outsider, largely unknown nationally a year before the primaries?",
+      "a": "Jimmy Carter",
+      "angle": "elections"
+    },
+    {
+      "q": "Who was the last president to be born in a log cabin, born in Moreland Hills, Ohio, in 1831?",
+      "a": "James A. Garfield",
+      "angle": "eras"
+    },
+    {
+      "q": "Who signed the Homestead Act of 1862, granting settlers 160 acres of public land?",
+      "a": "Abraham Lincoln",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was president when the United States purchased the Gadsden strip from Mexico in 1853?",
+      "a": "Franklin Pierce",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president's nickname was 'Old Rough and Ready,' earned during the Mexican-American War?",
+      "a": "Zachary Taylor",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the only president never elected to either the presidency or the vice presidency?",
+      "a": "Gerald Ford",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Affordable Care Act into law in March 2010?",
+      "a": "Barack Obama",
+      "angle": "policies"
+    },
+    {
+      "q": "Who signed the USA PATRIOT Act in October 2001, greatly expanding government surveillance powers?",
+      "a": "George W. Bush",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president signed the Missouri Compromise of 1820, temporarily settling slavery in new territories?",
+      "a": "James Monroe",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to be tried for impeachment and acquitted by the Senate, in 1868?",
+      "a": "Andrew Johnson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president won the 2008 election, becoming the first African American to win a major-party presidential nomination?",
+      "a": "Barack Obama",
+      "angle": "elections"
+    },
+    {
+      "q": "Who signed the Civil Rights Act of 1968, also known as the Fair Housing Act, in his final months in office?",
+      "a": "Lyndon B. Johnson",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was impeached by the House in December 2019 but acquitted by the Senate in February 2020?",
+      "a": "Donald Trump",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the only president to serve in Congress after his presidency, dying at his desk on the House floor in 1848?",
+      "a": "John Quincy Adams",
+      "angle": "firsts"
+    }
+  ],
+  "hard": [
+    {
+      "q": "Which president was born on July 4th — the only president born on Independence Day?",
+      "a": "Calvin Coolidge",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president signed the Pendleton Civil Service Reform Act of 1883, creating a merit-based federal employment system?",
+      "a": "Chester A. Arthur",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the only president to serve between Grover Cleveland's two non-consecutive terms?",
+      "a": "Benjamin Harrison",
+      "angle": "eras"
+    },
+    {
+      "q": "Which presidential campaign used the slogan 'He Kept Us Out of War' in 1916?",
+      "a": "Woodrow Wilson",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Which president signed the Morrill Land-Grant Act of 1862, funding the creation of public agricultural colleges?",
+      "a": "Abraham Lincoln",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the only son of a former president also elected to the presidency, before the Bush family?",
+      "a": "John Quincy Adams",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president negotiated the Treaty of Portsmouth in 1905, earning a Nobel Peace Prize for ending the Russo-Japanese War?",
+      "a": "Theodore Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was president when the 17th Amendment providing for direct popular election of senators was ratified in 1913?",
+      "a": "Woodrow Wilson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president oversaw the annexation of Texas just before leaving office in March 1845?",
+      "a": "John Tyler",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to appoint an African American to the Cabinet, naming Robert C. Weaver HUD Secretary in 1966?",
+      "a": "Lyndon B. Johnson",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president delivered the longest inaugural address in U.S. history, speaking for nearly two hours in freezing weather, and died one month later?",
+      "a": "William Henry Harrison",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president signed the Dawes Act of 1887, dividing Native American tribal lands into individual allotments?",
+      "a": "Grover Cleveland",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president's first lady was nicknamed 'Lemonade Lucy' for banning alcohol from White House events?",
+      "a": "Rutherford B. Hayes",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the first president to visit all 50 states while in office?",
+      "a": "Richard Nixon",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president won the disputed 1876 election despite losing the popular vote, after a congressional commission ruled in his favor?",
+      "a": "Rutherford B. Hayes",
+      "angle": "elections"
+    },
+    {
+      "q": "Who was the first president to ride in a submarine, descending in the USS Plunger off the Connecticut coast in 1905?",
+      "a": "Theodore Roosevelt",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Smoot-Hawley Tariff Act of 1930, sharply raising import duties on thousands of goods?",
+      "a": "Herbert Hoover",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the last Whig Party president, assuming office in 1850 after Zachary Taylor died?",
+      "a": "Millard Fillmore",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was president when the U.S. acquired Puerto Rico, Guam, and the Philippines after the Spanish-American War in 1898?",
+      "a": "William McKinley",
+      "angle": "policies"
+    },
+    {
+      "q": "Which presidential campaign used the slogan 'Return to Normalcy' in 1920?",
+      "a": "Warren G. Harding",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Who was the first president to have his voice preserved on audio recording, captured on a wax cylinder?",
+      "a": "Benjamin Harrison",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was the only former president elected to the House of Representatives after leaving the White House, serving 17 years in Congress?",
+      "a": "John Quincy Adams",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was the first president to appoint a woman to the Supreme Court, naming Sandra Day O'Connor in 1981?",
+      "a": "Ronald Reagan",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Missouri Compromise of 1820, temporarily balancing slave and free states?",
+      "a": "James Monroe",
+      "angle": "policies"
+    },
+    {
+      "q": "Who is said to be the only president to receive a speeding citation while in office, for riding his horse too fast through Washington streets?",
+      "a": "Ulysses S. Grant",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president delivered the farewell address warning of the dangers of a 'military-industrial complex' in January 1961?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "quotes"
+    },
+    {
+      "q": "Which president issued Executive Order 9981 in 1948, desegregating the U.S. armed forces?",
+      "a": "Harry S. Truman",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the only president to pardon a predecessor, granting Richard Nixon a full pardon in September 1974?",
+      "a": "Gerald Ford",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president established the two-term precedent by voluntarily declining to seek a third term in 1796?",
+      "a": "George Washington",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president negotiated the Gadsden Purchase of 1853, adding territory that became southern Arizona and New Mexico?",
+      "a": "Franklin Pierce",
+      "angle": "policies"
+    },
+    {
+      "q": "Who signed the Compromise of 1850 piece by piece after assuming office, temporarily averting a secession crisis?",
+      "a": "Millard Fillmore",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president created the Children's Bureau in 1912, the first federal agency dedicated to child welfare?",
+      "a": "William Howard Taft",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to hold an online town hall, via AOL in 1999?",
+      "a": "Bill Clinton",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Treaty of Guadalupe Hidalgo in 1848, ending the Mexican-American War and adding the Southwest to the United States?",
+      "a": "James K. Polk",
+      "angle": "policies"
+    },
+    {
+      "q": "Who ran the famous 'whistlestop' railroad campaign of 1948, defying polls that predicted his defeat?",
+      "a": "Harry S. Truman",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Which president signed the Kansas-Nebraska Act of 1854, repealing the Missouri Compromise and reigniting conflict over slavery?",
+      "a": "Franklin Pierce",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was president when the United States acquired Alaska from Russia in 1867?",
+      "a": "Andrew Johnson",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president's administration coined the term 'détente' to describe its strategy of easing Cold War tensions?",
+      "a": "Richard Nixon",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to be impeached by the House, in 1868, after dismissing his Secretary of War?",
+      "a": "Andrew Johnson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president signed the Indian Removal Act of 1830, forcing the Five Civilized Tribes off their ancestral lands?",
+      "a": "Andrew Jackson",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president born in a hospital, in Plains, Georgia, in 1924?",
+      "a": "Jimmy Carter",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president championed the Open Door Policy toward China in 1899, seeking equal trading rights for all nations?",
+      "a": "William McKinley",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to appoint an openly gay Cabinet secretary, naming Pete Buttigieg as Transportation Secretary in 2021?",
+      "a": "Joe Biden",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Reciprocal Trade Agreements Act of 1934, shifting tariff authority from Congress to the executive branch?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was president when American Marines were sent to Lebanon during the 1958 political crisis?",
+      "a": "Dwight D. Eisenhower",
+      "angle": "policies"
+    },
+    {
+      "q": "Who was the first president to be born east of the Alleghenies outside of Virginia or Massachusetts, born in the Waxhaws region in 1767?",
+      "a": "Andrew Jackson",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Lend-Lease Act of 1941, providing war materials to Allied nations before the U.S. entered the war?",
+      "a": "Franklin D. Roosevelt",
+      "angle": "policies"
+    },
+    {
+      "q": "Who issued the first presidential pardon, granted to leaders of the Whiskey Rebellion in 1795?",
+      "a": "George Washington",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president was the first to campaign successfully using radio broadcasts in 1924?",
+      "a": "Calvin Coolidge",
+      "angle": "campaigns"
+    },
+    {
+      "q": "Who signed the Voting Rights Act of 1965 and announced he would not seek reelection in March 1968?",
+      "a": "Lyndon B. Johnson",
+      "angle": "eras"
+    },
+    {
+      "q": "Which president appointed the first Hispanic Cabinet secretary, naming Lauro Cavazos as Education Secretary in 1988?",
+      "a": "Ronald Reagan",
+      "angle": "firsts"
+    },
+    {
+      "q": "Who was the only president to win election while serving as a sitting member of the House of Representatives?",
+      "a": "James A. Garfield",
+      "angle": "firsts"
+    },
+    {
+      "q": "Which president signed the Panama Canal Treaty of 1977, agreeing to return the canal to Panamanian control?",
+      "a": "Jimmy Carter",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president signed the Sherman Silver Purchase Act of 1890, and later fought to repeal it during a financial crisis?",
+      "a": "Grover Cleveland",
+      "angle": "policies"
+    },
+    {
+      "q": "Which president negotiated the Webster-Ashburton Treaty of 1842, settling the U.S.-Canadian border in the northeast?",
+      "a": "John Tyler",
+      "angle": "policies"
+    }
+  ]
+}

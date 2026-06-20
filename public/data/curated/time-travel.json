@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "What kind of car is the time machine in Back to the Future?",
+      "a": "A DeLorean",
+      "angle": "devices"
+    },
+    {
+      "q": "What speed must the DeLorean reach to activate time travel in Back to the Future?",
+      "a": "88 miles per hour",
+      "angle": "devices"
+    },
+    {
+      "q": "What is the name of Doctor Who's time-traveling spacecraft?",
+      "a": "The TARDIS",
+      "angle": "devices"
+    },
+    {
+      "q": "What does TARDIS stand for in Doctor Who?",
+      "a": "Time And Relative Dimension In Space",
+      "angle": "devices"
+    },
+    {
+      "q": "In Groundhog Day, what day does Phil Connors keep reliving?",
+      "a": "February 2nd (Groundhog Day)",
+      "angle": "timelines"
+    },
+    {
+      "q": "Who plays Phil Connors in the 1993 film Groundhog Day?",
+      "a": "Bill Murray",
+      "angle": "films"
+    },
+    {
+      "q": "In The Terminator, what year does the T-800 travel back to?",
+      "a": "1984",
+      "angle": "timelines"
+    },
+    {
+      "q": "What is the name of the artificial intelligence that sends Terminators back in time?",
+      "a": "Skynet",
+      "angle": "future stakes"
+    },
+    {
+      "q": "What futuristic year does Marty McFly travel to in Back to the Future Part II?",
+      "a": "2015",
+      "angle": "timelines"
+    },
+    {
+      "q": "In H.G. Wells' The Time Machine, what distant future creatures does the Time Traveller encounter?",
+      "a": "The Eloi and the Morlocks",
+      "angle": "future stakes"
+    },
+    {
+      "q": "What small object do Harry and Hermione use to travel back in time in Harry Potter and the Prisoner of Azkaban?",
+      "a": "A Time-Turner",
+      "angle": "devices"
+    },
+    {
+      "q": "In Avengers: Endgame, what do the heroes call their method of traveling through time?",
+      "a": "Time Heist",
+      "angle": "timelines"
+    },
+    {
+      "q": "Who invented the time machine in Back to the Future?",
+      "a": "Dr. Emmett Brown (Doc Brown)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, what device do Bill and Ted use to travel through time?",
+      "a": "A phone booth",
+      "angle": "devices"
+    },
+    {
+      "q": "What is the name of the ruthless assassin sent back in time in Looper?",
+      "a": "A Looper",
+      "angle": "characters"
+    },
+    {
+      "q": "In Doctor Who, the TARDIS is famous for being bigger on the inside than on the outside — what is the Doctor's home planet called?",
+      "a": "Gallifrey",
+      "angle": "characters"
+    },
+    {
+      "q": "In Outlander, what standing stones does Claire Randall touch to travel back in time?",
+      "a": "Craigh na Dun",
+      "angle": "devices"
+    },
+    {
+      "q": "In The Terminator, who does the T-800 travel back in time to kill?",
+      "a": "Sarah Connor",
+      "angle": "characters"
+    },
+    {
+      "q": "In Back to the Future, what year does Marty McFly accidentally travel to?",
+      "a": "1955",
+      "angle": "timelines"
+    },
+    {
+      "q": "What is the name of the time-travel agency in the TV series Timeless?",
+      "a": "Mason Industries",
+      "angle": "devices"
+    },
+    {
+      "q": "What classic novel by H.G. Wells first published in 1895 popularized the phrase 'time machine'?",
+      "a": "The Time Machine",
+      "angle": "devices"
+    },
+    {
+      "q": "In Avengers: Endgame, what substance powers the time travel via the Quantum Realm?",
+      "a": "Pym Particles",
+      "angle": "devices"
+    },
+    {
+      "q": "Who plays Sarah Connor in the original 1984 The Terminator?",
+      "a": "Linda Hamilton",
+      "angle": "films"
+    },
+    {
+      "q": "In Back to the Future, what is the name of the town where Marty lives?",
+      "a": "Hill Valley",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Groundhog Day, what Pennsylvania town is the setting for the time loop?",
+      "a": "Punxsutawney",
+      "angle": "timelines"
+    },
+    {
+      "q": "What is the name of the protagonist in H.G. Wells' The Time Machine?",
+      "a": "The Time Traveller (referred to only as such)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Terminator 2, what model of Terminator is sent back to protect John Connor?",
+      "a": "T-800 (Model 101)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Doctor Who, the TARDIS always appears from the outside as what type of blue box?",
+      "a": "A British police box",
+      "angle": "devices"
+    },
+    {
+      "q": "In Star Trek IV: The Voyage Home, what time period do the Enterprise crew travel back to?",
+      "a": "1986 San Francisco",
+      "angle": "timelines"
+    },
+    {
+      "q": "What 2004 low-budget film features two engineers who accidentally invent a time machine in a garage?",
+      "a": "Primer",
+      "angle": "films"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, which historical figure does Bill say is like the Easter Bunny but for music?",
+      "a": "Napoleon",
+      "angle": "characters"
+    },
+    {
+      "q": "In The Time Traveler's Wife, what causes Henry to involuntarily travel through time?",
+      "a": "A genetic condition (chrono-displacement disorder)",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Outlander, to what century does Claire travel when she passes through the standing stones?",
+      "a": "The 18th century (1743)",
+      "angle": "timelines"
+    },
+    {
+      "q": "What 1980s animated series featured a dog named Einstein who was the first time traveler?",
+      "a": "Back to the Future: The Animated Series",
+      "angle": "films"
+    },
+    {
+      "q": "In Avengers: Endgame, to what year does the team travel to retrieve the Space Stone (Tesseract)?",
+      "a": "1970",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Looper, what year do the crime bosses send victims back to for execution?",
+      "a": "2044",
+      "angle": "timelines"
+    },
+    {
+      "q": "Who plays the young Joe in the 2012 film Looper?",
+      "a": "Joseph Gordon-Levitt",
+      "angle": "films"
+    },
+    {
+      "q": "In Doctor Who, how many times can a Time Lord regenerate (changing their appearance)?",
+      "a": "12 times (giving 13 incarnations)",
+      "angle": "characters"
+    },
+    {
+      "q": "In The Terminator franchise, what date is Judgment Day — the day Skynet becomes self-aware?",
+      "a": "August 29, 1997 (in the original timeline)",
+      "angle": "future stakes"
+    },
+    {
+      "q": "What Back to the Future power source famously required plutonium to generate 1.21 gigawatts?",
+      "a": "The flux capacitor",
+      "angle": "devices"
+    },
+    {
+      "q": "In 12 Monkeys, what year does James Cole travel from when he is sent to investigate the virus?",
+      "a": "2035",
+      "angle": "timelines"
+    },
+    {
+      "q": "Who plays James Cole in the 1995 film 12 Monkeys?",
+      "a": "Bruce Willis",
+      "angle": "films"
+    },
+    {
+      "q": "In Edge of Tomorrow, what alien species has mastered time by resetting the day when they die?",
+      "a": "The Mimics",
+      "angle": "future stakes"
+    },
+    {
+      "q": "What is the time-travel device called in the TV series Dark?",
+      "a": "The passage (a cave connecting three time periods) / the time machine later built by H.G. Tannhaus",
+      "angle": "devices"
+    },
+    {
+      "q": "In the film About Time, how does Tim travel through time?",
+      "a": "He clenches his fists in a dark space and thinks of a moment",
+      "angle": "devices"
+    },
+    {
+      "q": "What color are the time-travel rings in Avengers: Endgame when the Avengers enter the Quantum Realm?",
+      "a": "Orange / gold",
+      "angle": "devices"
+    },
+    {
+      "q": "In Back to the Future, what power source replaced the plutonium-powered flux capacitor by 2015?",
+      "a": "Mr. Fusion (a fusion home energy reactor)",
+      "angle": "devices"
+    },
+    {
+      "q": "What Adam Sandler film features a remote control that lets him fast-forward and rewind through his own life?",
+      "a": "Click (2006)",
+      "angle": "films"
+    },
+    {
+      "q": "In Outlander, what is the name of the Scottish warrior Claire falls in love with in the past?",
+      "a": "Jamie Fraser",
+      "angle": "characters"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, from what era does Bill and Ted's mentor Rufus travel?",
+      "a": "The future (27th century / 2688 AD)",
+      "angle": "timelines"
+    },
+    {
+      "q": "What Japanese animated film features a girl who finds a watch that lets her turn back time three weeks?",
+      "a": "The Girl Who Leapt Through Time (2006)",
+      "angle": "devices"
+    },
+    {
+      "q": "In the TV show Quantum Leap, Dr. Sam Beckett leaps into other people's bodies to fix history — what network originally aired it?",
+      "a": "NBC",
+      "angle": "films"
+    },
+    {
+      "q": "In Interstellar, what causes time to pass more slowly near the black hole Gargantua?",
+      "a": "Gravitational time dilation",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "Who wrote the original novel that inspired the 1995 film 12 Monkeys?",
+      "a": "The film was inspired by Chris Marker's 1962 short film La Jetée",
+      "angle": "films"
+    },
+    {
+      "q": "What Cher song plays in the background during a time-travel scene in Bill & Ted's Excellent Adventure while Napoleon is at a water park?",
+      "a": "'If I Could Turn Back Time'",
+      "angle": "films"
+    }
+  ],
+  "medium": [
+    {
+      "q": "In Back to the Future, what critical component enables time travel and was invented by Doc Brown in a flash of inspiration?",
+      "a": "The flux capacitor",
+      "angle": "devices"
+    },
+    {
+      "q": "In Terminator 2: Judgment Day, what liquid-metal Terminator model is sent to kill the young John Connor?",
+      "a": "T-1000",
+      "angle": "characters"
+    },
+    {
+      "q": "In Doctor Who, what is the name of the Doctor's arch-enemy Time Lord who also travels in time?",
+      "a": "The Master",
+      "angle": "characters"
+    },
+    {
+      "q": "The 'bootstrap paradox' in time travel refers to what situation?",
+      "a": "An object or information that has no clear origin — it is brought from the future to the past, which enables its own creation, creating a causal loop",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Looper, what happens to a Looper who fails to kill their future self, thereby allowing a 'loop' to remain open?",
+      "a": "They are hunted down and killed by the crime organization",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Harry Potter and the Prisoner of Azkaban, how many hours back do Harry and Hermione travel with the Time-Turner?",
+      "a": "Three hours",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Avengers: Endgame, why can't the heroes use the Infinity Stones to travel back and prevent the Snap instead of gathering stones from the past?",
+      "a": "Half of all life had already turned to dust for five years — reversing the Snap, not preventing it, was the plan; preventing it would alter the timeline",
+      "angle": "timelines"
+    },
+    {
+      "q": "What is the name of the underground resistance leader in the Terminator franchise who the machines are desperate to eliminate?",
+      "a": "John Connor",
+      "angle": "characters"
+    },
+    {
+      "q": "In Back to the Future Part III, to what time period do Marty and Doc get stranded without fuel?",
+      "a": "1885 (the American Old West)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the TV show Dark, how many years separate the three main time periods the characters travel between (in the early seasons)?",
+      "a": "33 years (1953, 1986, 2019)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Outlander, through what mechanism does Claire return to her own time from the 18th century?",
+      "a": "She travels back through the standing stones at Craigh na Dun",
+      "angle": "devices"
+    },
+    {
+      "q": "What is the grandfather paradox in time travel?",
+      "a": "If you travel back in time and kill your grandfather before your parent is born, you would never have been born — making it impossible for you to travel back in the first place",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, from what historical period does the duo recruit Napoleon Bonaparte?",
+      "a": "1805 (after the Battle of Austerlitz)",
+      "angle": "timelines"
+    },
+    {
+      "q": "What is the name of the science fiction novel by Audrey Niffenegger that introduced Henry DeTamble, a man with an involuntary time-travel genetic condition?",
+      "a": "The Time Traveler's Wife",
+      "angle": "timelines"
+    },
+    {
+      "q": "In 12 Monkeys, which mental patient does James Cole encounter who later proves crucial to the virus plot?",
+      "a": "Jeffrey Goines (played by Brad Pitt)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Edge of Tomorrow, what does Cage (Tom Cruise) need to do in order to reset the day?",
+      "a": "Die — his blood absorbs Alpha Mimic blood, which resets the day each time he is killed",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Primer, the two engineers discover that their time machine creates a paradox involving multiple copies of themselves. What rule do they establish to avoid meeting their past selves?",
+      "a": "They use the machine before their past selves wake up, staying in the machine for hours to emerge in the past without crossing paths",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In the Back to the Future trilogy, what event does Doc Brown's famous 'on the toilet' inspiration produce a solution for?",
+      "a": "The idea for the flux capacitor — he slipped and hit his head on the toilet while hanging a clock, which gave him the vision",
+      "angle": "devices"
+    },
+    {
+      "q": "In Star Trek: First Contact, the crew of the Enterprise-E travels back in time to prevent the Borg from assimilating Earth in what year?",
+      "a": "2063",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Interstellar, how much time passes on Earth while Cooper and Brand spend one hour on the ocean planet near Gargantua?",
+      "a": "23 years",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Doctor Who, what is the name of the episode in which the Tenth Doctor famously says 'Don't blink' as a warning about the Weeping Angels?",
+      "a": "'Blink' (Series 3, 2007)",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Terminator: Genisys, an alternate timeline is created because someone travels back to 1973. Who is already waiting for young Sarah Connor in 1984 as a result?",
+      "a": "The Guardian, a reprogrammed T-800 sent to protect her as a child",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Looper, what year do the events take place from the young Joe's perspective, and what power have some people in the world developed?",
+      "a": "2044; a small percentage of people have developed telekinesis",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the TV series Quantum Leap, what is the name of Dr. Beckett's holographic advisor who only he can see?",
+      "a": "Al Calavicci",
+      "angle": "characters"
+    },
+    {
+      "q": "In The Terminator, why can't machines send weapons back in time along with the Terminator?",
+      "a": "Only living tissue (or things encased in it) can pass through the time displacement field",
+      "angle": "devices"
+    },
+    {
+      "q": "In Avengers: Endgame, Tony Stark ultimately agrees to help with time travel after seeing a photo of himself with which person from his past?",
+      "a": "His father, Howard Stark (and the photo shows Tony with him)",
+      "angle": "characters"
+    },
+    {
+      "q": "In the novel The Time Machine, what far-future year does the Time Traveller reach when he witnesses the dying Earth?",
+      "a": "802,701 AD (for the Eloi/Morlock era); he goes further to 30 million years in the future to see the dying sun",
+      "angle": "future stakes"
+    },
+    {
+      "q": "What is the 'predestination paradox'?",
+      "a": "A time-travel loop in which a traveler going back in time actually causes the very event they went back to prevent or investigate",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Doctor Who, the Ninth Doctor's first episode introduced a new companion. What is her name and occupation at the start of the series?",
+      "a": "Rose Tyler; she works at a department store (Henrik's)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Back to the Future, what song does Marty McFly perform at the Enchantment Under the Sea dance, accidentally anticipating rock and roll?",
+      "a": "'Johnny B. Goode' by Chuck Berry",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Outlander, what war is Scotland on the verge of when Claire arrives in 1743?",
+      "a": "The Jacobite Rising of 1745 (Bonnie Prince Charlie's attempt to reclaim the British throne)",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In the film Frequently Asked Questions About Time Travel, the time portal is discovered in what everyday location?",
+      "a": "A pub toilet (the gents' bathroom)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Terminator 2, who sends the T-800 (Arnold Schwarzenegger) back in time to protect John Connor?",
+      "a": "The future John Connor (the adult John Connor sends his protector)",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Doctor Who, the episode 'Heaven Sent' features the Doctor trapped alone in a castle. How does he eventually escape?",
+      "a": "He punches through a diamond wall over billions of years, creating a new copy of himself at the start of the loop each time",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In the 2014 film Predestination, the protagonist is an agent who travels through time to stop a criminal called what?",
+      "a": "The Fizzle Bomber",
+      "angle": "characters"
+    },
+    {
+      "q": "In Dark, what German town serves as the center of the time-travel mystery?",
+      "a": "Winden",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Harry Potter and the Cursed Child, which two main characters use a Time-Turner to try to prevent Cedric Diggory's death?",
+      "a": "Albus Potter and Scorpius Malfoy",
+      "angle": "characters"
+    },
+    {
+      "q": "In Avengers: Endgame, Scott Lang's idea for the Time Heist is inspired by what earlier experience?",
+      "a": "He was accidentally sent into the Quantum Realm during the events of Ant-Man and the Wasp and emerged five years later (only experiencing five hours)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Edge of Tomorrow, Emily Blunt's character Rita Vrataski is nicknamed what for her past success in resetting her combat loops?",
+      "a": "'Full Metal Bitch' (or 'The Angel of Verdun')",
+      "angle": "characters"
+    },
+    {
+      "q": "In the novel 11/22/63 by Stephen King, to what specific date does protagonist Jake Epping travel to prevent?",
+      "a": "November 22, 1963 — the assassination of President Kennedy",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Back to the Future Part II, what sports almanac does Biff steal from the future to make himself rich in the past?",
+      "a": "Grays Sports Almanac (containing 50 years of sports statistics)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Groundhog Day, how does Phil Connors initially try to escape the time loop?",
+      "a": "He tries suicide in various ways (driving off a cliff, electrocution, stepping in front of a truck) but wakes up at 6:00 AM regardless",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In the 2016 film Arrival, what is the key insight about time that allows Louise Banks to understand future events?",
+      "a": "Learning the alien language (Heptapod B) rewires her perception so she experiences time non-linearly, letting her perceive the future",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Quantum Leap, what is the furthest back in time that Dr. Sam Beckett can leap (the stated limit of the machine)?",
+      "a": "He can only leap within his own lifetime (born 1953)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the TV series 12 Monkeys (SyFy), what organization sends James Cole back in time, and from what year?",
+      "a": "The Army of the 12 Monkeys is the antagonist; Cole is sent by the West VII / Temporal Facility from 2043",
+      "angle": "characters"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, which historical figures does Ted pick up first using the phone booth?",
+      "a": "Napoleon Bonaparte",
+      "angle": "characters"
+    },
+    {
+      "q": "What is 'timeline branching' in time-travel fiction, and which Avengers: Endgame character warns about it?",
+      "a": "Branching creates new parallel timelines rather than changing the traveler's original history; the Ancient One warns Bruce Banner about this",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the 2009 Star Trek reboot film, how does Nero's ship (the Narada) travel back in time to create the Kelvin timeline?",
+      "a": "It is pulled into a temporal anomaly created by Red Matter collapsing into a black hole",
+      "angle": "devices"
+    },
+    {
+      "q": "In the Japanese manga/anime Steins;Gate, what device does Rintaro Okabe use to send text messages to the past?",
+      "a": "The Phone Microwave (later called the D-Mail / SERN's Time Leap Machine)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Looper, what body part does the crime organization cut off a Looper to send a message to his future self?",
+      "a": "A Looper (Seth) has his fingers, then nose, then ear cut off, which correspondingly disappear from his older self",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In The Terminator franchise, in what year does the human-machine war officially begin (per the original film's lore)?",
+      "a": "1997 (Judgment Day, when Skynet launches nuclear missiles)",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Outlander, what year did the author Diana Gabaldon publish the first novel?",
+      "a": "1991",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Doctor Who, what are the creatures that can only move when you're not looking at them, sending victims back in time by consuming their temporal energy?",
+      "a": "Weeping Angels",
+      "angle": "devices"
+    },
+    {
+      "q": "In Interstellar, what does the '5th-dimensional beings' reveal that Cooper needed to do — what message does he send from the tesseract?",
+      "a": "He communicates the quantum data (NASA coordinates and the quantum equation) to his daughter Murph via Morse code through the bookshelf",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Back to the Future Part III, how does Doc Brown generate the 88 mph needed to time travel without fuel for the DeLorean?",
+      "a": "He uses a locomotive (steam train) to push the DeLorean up to 88 mph on a track",
+      "angle": "devices"
+    }
+  ],
+  "hard": [
+    {
+      "q": "In Back to the Future, what is the exact date and time that Doc Brown first tested the flux capacitor with Einstein the dog?",
+      "a": "October 26, 1985, at 1:20 AM (the Twin Pines Mall parking lot)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Back to the Future, what was the name of the Tannen family farm that young Marty finds in 1885 where the Hill Valley clocktower now stands?",
+      "a": "Pohatchee Drive-In (the farm belonged to the Tannen family but the land is not specifically named; the clock tower square was previously called the town square)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the Terminator franchise, what number of the T-800's mission is stated when the machine is first reprogrammed in Terminator 2?",
+      "a": "The T-800 states its CPU is a neural-net processor and identifies as a Cyberdyne Systems Model 101 — no mission number is stated, but its original mission was to kill John Connor",
+      "angle": "characters"
+    },
+    {
+      "q": "In Primer, the two time machines are named after which two things?",
+      "a": "They are not given explicit names — they are simply 'Box A' and 'Box B' (or referred to as 'the machine')",
+      "angle": "devices"
+    },
+    {
+      "q": "In Doctor Who, what is the formal Time Lord designation for the device that prevents paradoxes and is held in trust by the Time Lords?",
+      "a": "The Moment (also known as the Moment — a galaxy-class weapon with a conscience, used in 'The Day of the Doctor')",
+      "angle": "devices"
+    },
+    {
+      "q": "In Steins;Gate, what divergence number (world line reading) does Rintaro Okabe need to reach to enter the Steins Gate world line and prevent all tragedies?",
+      "a": "1.048596% (the Steins Gate world line at approximately 1.048596 divergence)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In 12 Monkeys (the 1995 film), what is the Army of the 12 Monkeys' actual role in the plague — did they release the virus?",
+      "a": "No — the Army of the 12 Monkeys released animals from the Philadelphia Zoo; the virus was released by a rogue virologist, Dr. Peters, independently",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Outlander, the Jacobite cause is ultimately destroyed at which battle in 1746 that Claire and Jamie try to prevent?",
+      "a": "The Battle of Culloden",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Harry Potter and the Cursed Child, using the Time-Turner causes what critical unintended change to history — what dark outcome creates the alternate timeline?",
+      "a": "Cedric Diggory is humiliated in the Triwizard Tournament, leading him to become a Death Eater who kills Neville Longbottom, preventing Voldemort's defeat",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Avengers: Endgame, when Thor travels back to Asgard in 2013, which Infinity Stone does he retrieve — and who does he unexpectedly see?",
+      "a": "The Reality Stone (the Aether); he unexpectedly sees and speaks with his deceased mother Frigga",
+      "angle": "characters"
+    },
+    {
+      "q": "What is the 'Novikov Self-Consistency Principle' in time-travel physics, and which film most closely depicts it?",
+      "a": "It states that anything a time traveler does was always part of history and cannot be changed — the traveler's actions are self-consistent. 12 Monkeys closely depicts this: Cole cannot change the past.",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Doctor Who's 50th anniversary special 'The Day of the Doctor,' how many Doctors participate in saving Gallifrey by freezing it in time?",
+      "a": "Thirteen Doctors (all incarnations, including the War Doctor and a glimpse of the Twelfth Doctor)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Dark (Netflix), what is the name of the two parallel worlds (not just time periods) revealed in Season 2?",
+      "a": "The two worlds are Adam's world and Eva's world (the origin world is revealed in Season 3)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Looper, what is the name of the young boy on the farm who is implied to be the future crime lord 'The Rainmaker'?",
+      "a": "Cid (played by Pierce Gagnon)",
+      "angle": "characters"
+    },
+    {
+      "q": "In H.G. Wells' The Time Machine, what year does the Time Traveller set his machine for on his first short test trip?",
+      "a": "He makes a brief forward journey of only a few minutes initially to demonstrate the machine to his dinner guests before his longer journey to 802,701",
+      "angle": "devices"
+    },
+    {
+      "q": "In Back to the Future, what is the precise fictional newspaper headline Marty reads proving he has succeeded in fixing the timeline?",
+      "a": "'Lone Pine Mall' (the mall's name in the revised timeline, not 'Twin Pines Mall' as it was originally, after Marty ran over one of Old Man Peabody's pine trees in 1955)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the 2014 film Predestination, which famous short story by Robert A. Heinlein does the plot closely adapt?",
+      "a": "'—All You Zombies—' (1959)",
+      "angle": "films"
+    },
+    {
+      "q": "In Star Trek: The Next Generation episode 'Yesterday's Enterprise,' the Enterprise-C crosses a temporal rift. What ship must it return to its own era to restore the timeline, and what is the cost?",
+      "a": "The Enterprise-C must return to face death at Narendra III (fighting to defend a Klingon outpost); the crew will almost certainly die, but it will prevent a 20-year war with the Klingons",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In Outlander, Geillis Duncan is revealed to be a time traveler from what century?",
+      "a": "The 20th century (she is from 1968)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Stephen King's 11/22/63, the portal to the past always sends Jake Epping to what specific date, regardless of when he enters it?",
+      "a": "September 9, 1958",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Avengers: Endgame, Tony Stark solves the problem of time travel within the Quantum Realm using what specific scientific concept he writes on a whiteboard?",
+      "a": "A Möbius strip configuration / he solves the navigation problem by treating time as a GPS coordinate using the Quantum GPS model",
+      "angle": "devices"
+    },
+    {
+      "q": "In Doctor Who, what is the name of the device that can destroy a TARDIS and wipe an entire time stream from history, used by the Silence?",
+      "a": "The Pandorica (holds the Doctor); the device to destroy the TARDIS was a bomb planted by the Kovarian Chapter — the TARDIS exploding caused the cracks in time",
+      "angle": "devices"
+    },
+    {
+      "q": "What is the 'temporal paradox' specific to Terminator 1 called, related to John Connor's own parentage?",
+      "a": "The causal loop / bootstrap paradox: Kyle Reese is sent back by John Connor to protect Sarah, and Kyle becomes John Connor's father — John Connor could not exist without his own instructions to send Kyle back",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Back to the Future Part II, Biff acquires the sports almanac and gives it to his younger self in 1955 — how does the elderly Biff return the DeLorean to 2015 without being seen by Marty or Doc?",
+      "a": "Biff sneaks the DeLorean back to Doc and Marty in 2015 while they are distracted at the Hill Valley Courthouse; the elderly Biff then collapses and dies (in the revised timeline)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Steins;Gate, what is the name of the lab member whose death Okabe is trying to prevent by reaching the Steins Gate world line?",
+      "a": "Kurisu Makise (also known as Christina / The Zombie)",
+      "angle": "characters"
+    },
+    {
+      "q": "In the original Doctor Who serial 'The Aztecs' (1964), the First Doctor explains to Barbara a key rule about time travel — what is it?",
+      "a": "You cannot rewrite history — not one line (the Doctor refuses to let Barbara use her knowledge to prevent Aztec human sacrifice, saying history cannot be changed)",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Primer, the term 'failsafe' refers to a secondary time machine hidden at what location and set to what purpose?",
+      "a": "Aaron hid a failsafe machine in a storage unit, running continuously from a past date, to allow him to go back further than Abe's machine permits",
+      "angle": "devices"
+    },
+    {
+      "q": "In the 2016 film Arrival, what is the name of the alien language whose non-linear grammar allows Louise to perceive future events?",
+      "a": "Heptapod B (the written language of the Heptapods)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Dark (Netflix), who is revealed to be the origin of the Sic Mundus organization in Adam's world?",
+      "a": "Noah, who is revealed to be the son of Jonas (Adam) and Elisabeth — and his real name is Hanno Tauber",
+      "angle": "characters"
+    },
+    {
+      "q": "In 12 Monkeys (1995 film), what detail allows the scientists of the future to verify which virus strain Cole should be looking for?",
+      "a": "A phone message James Cole leaves on a scientist's answering machine in 1996 — the scientists in 2035 still have the recording",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Terminator: Dark Fate, what new type of Terminator is introduced that can split into two separate units — one liquid, one endoskeleton?",
+      "a": "The Rev-9",
+      "angle": "devices"
+    },
+    {
+      "q": "In Bill & Ted's Bogus Journey, how do Bill and Ted defeat Death and earn their freedom to return to the living?",
+      "a": "They challenge Death to a series of games (including Battleship, Clue, and Twister) and win",
+      "angle": "characters"
+    },
+    {
+      "q": "In the Star Trek: Voyager episode 'Timeless,' Chakotay and Harry Kim in the future attempt to send a message to the past to prevent Voyager's crash. What year did the crash occur?",
+      "a": "2390 (15 years prior from 2390 — the episode is set in 2390, with the crash in 2375)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Edge of Tomorrow, what is the name of the offensive that Cage is forced to join at the start of the film?",
+      "a": "Operation Downfall (the Normandy-inspired amphibious assault on France)",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In the novel The Time Machine by H.G. Wells, the Eloi and Morlocks represent Wells' satirical commentary on what aspect of Victorian society?",
+      "a": "The class divide — the Eloi represent the idle leisure class (upper class) and the Morlocks represent the exploited working class who have evolved underground",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Avengers: Endgame, Tony Stark's daughter Morgan Stark is how old when Tony leaves for the Time Heist?",
+      "a": "Five years old",
+      "angle": "characters"
+    },
+    {
+      "q": "In Outlander, which gemstones are revealed to allow certain people to survive the journey through the standing stones?",
+      "a": "Gemstones (particularly rubies and sapphires) — travelers must carry a gemstone to survive the passage; the stones are consumed or shattered in the process",
+      "angle": "devices"
+    },
+    {
+      "q": "In the Terminator franchise, what is the full name of Miles Dyson — the Cyberdyne engineer whose work on the T-800 CPU leads to the creation of Skynet?",
+      "a": "Miles Bennett Dyson",
+      "angle": "characters"
+    },
+    {
+      "q": "In Groundhog Day, Ned Ryerson is an insurance salesman Phil repeatedly encounters. What is the specific greeting phrase Ned always uses?",
+      "a": "'Ned Ryerson! Needle-nose Ned? Ned the Head?'",
+      "angle": "characters"
+    },
+    {
+      "q": "In the Hitchhiker's Guide to the Galaxy, the Total Perspective Vortex doesn't involve time travel but the Magratheans did create a planet-sized computer to predict the future — what is that computer called?",
+      "a": "Deep Thought (which calculated the Answer to Life, the Universe, and Everything — 42)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Doctor Who, the 'fixed point in time' concept means certain events cannot be altered. Name one canonical fixed point in time from the show.",
+      "a": "Examples: the destruction of Pompeii (The Fires of Pompeii); Adelaide Brooke's death on Mars (The Waters of Mars); the Doctor's own death at Lake Silencio",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Looper, the film's climax hinges on a choice by young Joe. What does he do to close the loop and prevent the future Rainmaker from existing?",
+      "a": "Young Joe kills himself, which also kills old Joe in the present — breaking the causal loop that would have led to Cid becoming the Rainmaker",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Back to the Future, what is the original name of the mall before Marty runs over one of Old Man Peabody's pine trees, changing it?",
+      "a": "Twin Pines Mall (it becomes Lone Pine Mall after Marty destroys one pine tree in 1955)",
+      "angle": "timelines"
+    },
+    {
+      "q": "In Star Trek IV: The Voyage Home, the crew uses a 'slingshot effect' around the sun to travel in time. Who first theorized this method in the Star Trek universe?",
+      "a": "Mr. Spock (he calculated the slingshot trajectory; it was first used in the TOS episode 'Tomorrow Is Yesterday')",
+      "angle": "devices"
+    },
+    {
+      "q": "In Dark (Netflix), what is the final act that destroys the knot and prevents all the paradoxes, and which characters perform it?",
+      "a": "Claudia tells Adam the truth about the origin world; Jonas and Martha travel to the origin world to save H.G. Tannhaus's family (preventing him from building the time machine), thereby erasing both worlds and ending the knot",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Harry Potter and the Prisoner of Azkaban, what is Dumbledore's exact instruction to Hermione that hints they should use the Time-Turner?",
+      "a": "'You know the law — you know what is at stake — you must act!' / 'More than one innocent life may be saved' — specifically he says 'You have a very special opportunity here. Use it wisely.'",
+      "angle": "timelines"
+    },
+    {
+      "q": "In the 2018 film Avengers: Infinity War, Doctor Strange uses the Time Stone to view possible futures. How many futures does he see, and in how many does the Avengers win?",
+      "a": "He sees 14,000,605 possible futures; the Avengers win in only one",
+      "angle": "future stakes"
+    },
+    {
+      "q": "In the novel Slaughterhouse-Five by Kurt Vonnegut, Billy Pilgrim has become 'unstuck in time' — what alien species kidnaps him and teaches him the non-linear nature of time?",
+      "a": "The Tralfamadorians",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Bill & Ted's Excellent Adventure, who is the future historian who sends Rufus and the phone booth back to help Bill and Ted — seen only at the start and end of the film?",
+      "a": "He is identified only as 'the speaker at the Founders Day concert' — the supreme beings of the future; Rufus himself is never given further background (played by George Carlin)",
+      "angle": "characters"
+    },
+    {
+      "q": "In Primer, what happens to the 'doubles' of Aaron and Abe created by their use of the time machine?",
+      "a": "They exist simultaneously — the original Abe locks the double in a box; Aaron's double is incapacitated using drugged food; ultimately one version of each person leaves town permanently",
+      "angle": "paradoxes"
+    },
+    {
+      "q": "In Outlander, what is the term used in the book series for people who are genetically able to travel through the standing stones?",
+      "a": "There is no single coined term — but travelers are simply called 'travelers'; the series uses the term 'genetic markers' for those with the ability",
+      "angle": "characters"
+    },
+    {
+      "q": "In Terminator Salvation, in what year is the main story set, and what is the name of the human-Terminator hybrid whose existence is a mystery?",
+      "a": "2018; Marcus Wright is the human-Terminator hybrid",
+      "angle": "characters"
+    },
+    {
+      "q": "In Edge of Tomorrow, what is the scientific term given to the power the Mimics use to reset time, and what is the name of the Omega Mimic controlling them?",
+      "a": "The ability is called 'the Reset' or the Mimics' temporal power; the controlling Mimic is called the Omega (there is no additional proper name given)",
+      "angle": "devices"
+    },
+    {
+      "q": "In Doctor Who, what is unique about the 'Eye of Harmony' in relation to TARDISes and time travel?",
+      "a": "It is a captured star in the process of becoming a black hole — TARDISes are powered by a single Eye of Harmony; it is the captured heart of a dying star on the Doctor's TARDIS",
+      "angle": "devices"
+    },
+    {
+      "q": "In 11/22/63 by Stephen King, what rule governs the past that Jake Epping must constantly fight — what is the phrase he uses for history's resistance to change?",
+      "a": "'The past is obdurate' — it actively resists change and pushes back harder the larger the change attempted",
+      "angle": "paradoxes"
+    }
+  ]
+}

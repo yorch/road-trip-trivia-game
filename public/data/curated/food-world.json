@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Which country is sushi most associated with?",
+      "a": "Japan",
+      "angle": "origins"
+    },
+    {
+      "q": "Which country is pizza most associated with?",
+      "a": "Italy",
+      "angle": "origins"
+    },
+    {
+      "q": "Which country is tacos most associated with?",
+      "a": "Mexico",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is paella most associated with?",
+      "a": "Spain",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is croissants most associated with?",
+      "a": "France",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is dim sum most associated with?",
+      "a": "China",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is curry most associated with as a national staple?",
+      "a": "India",
+      "angle": "spices"
+    },
+    {
+      "q": "Which country is falafel most associated with?",
+      "a": "Middle East (Lebanon/Israel)",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is the bratwurst sausage most associated with?",
+      "a": "Germany",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is moussaka most associated with?",
+      "a": "Greece",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is pho most associated with?",
+      "a": "Vietnam",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is kimchi most associated with?",
+      "a": "South Korea",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is hummus most associated with?",
+      "a": "Middle East (Lebanon)",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is churros most associated with?",
+      "a": "Spain",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is jerk chicken most associated with?",
+      "a": "Jamaica",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is pierogi most associated with?",
+      "a": "Poland",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is baklava most associated with?",
+      "a": "Turkey",
+      "angle": "desserts"
+    },
+    {
+      "q": "Which country is the baguette most associated with?",
+      "a": "France",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is ramen most associated with?",
+      "a": "Japan",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is injera flatbread most associated with?",
+      "a": "Ethiopia",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is pad thai most associated with?",
+      "a": "Thailand",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is empanadas most associated with as an iconic street snack?",
+      "a": "Argentina",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is wiener schnitzel most associated with?",
+      "a": "Austria",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is ceviche most associated with?",
+      "a": "Peru",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is tikka masala most commonly associated with as a comfort dish?",
+      "a": "United Kingdom (adapted Indian dish)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is peking duck most associated with?",
+      "a": "China",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is tom yum soup most associated with?",
+      "a": "Thailand",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is gelato most associated with?",
+      "a": "Italy",
+      "angle": "desserts"
+    },
+    {
+      "q": "Which country is shakshuka most associated with?",
+      "a": "North Africa / Middle East",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is borscht most associated with?",
+      "a": "Ukraine",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is fish and chips most associated with?",
+      "a": "United Kingdom",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is nasi goreng (fried rice) most associated with?",
+      "a": "Indonesia",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is tagine stew most associated with?",
+      "a": "Morocco",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is haggis most associated with?",
+      "a": "Scotland",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is börek pastry most associated with?",
+      "a": "Turkey",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is sauerkraut most associated with?",
+      "a": "Germany",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is churrasco (grilled meat feast) most associated with?",
+      "a": "Brazil",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is knafeh (sweet cheese pastry in syrup) most associated with?",
+      "a": "Lebanon / Palestine",
+      "angle": "desserts"
+    },
+    {
+      "q": "Which country is bulgogi most associated with?",
+      "a": "South Korea",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is arepa most associated with?",
+      "a": "Colombia / Venezuela",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is goulash most associated with?",
+      "a": "Hungary",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is biryani most associated with?",
+      "a": "India",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is feijoada most associated with?",
+      "a": "Brazil",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is shawarma most associated with?",
+      "a": "Middle East (Levant region)",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is pastel de nata (custard tart) most associated with?",
+      "a": "Portugal",
+      "angle": "desserts"
+    },
+    {
+      "q": "Which country is banh mi most associated with?",
+      "a": "Vietnam",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is fufu most associated with?",
+      "a": "West Africa (Ghana/Nigeria)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is rendang beef curry most associated with?",
+      "a": "Indonesia",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is pierogi ruskie most associated with?",
+      "a": "Poland",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is mole sauce most associated with?",
+      "a": "Mexico",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is knödel (bread dumplings) most associated with?",
+      "a": "Austria / Germany",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is poutine most associated with?",
+      "a": "Canada",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which country is lamington cake most associated with?",
+      "a": "Australia",
+      "angle": "desserts"
+    },
+    {
+      "q": "Which country is satay skewers most associated with?",
+      "a": "Indonesia / Malaysia",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is stroopwafel most associated with?",
+      "a": "Netherlands",
+      "angle": "desserts"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What grain is the primary ingredient in injera, the Ethiopian flatbread?",
+      "a": "Teff",
+      "angle": "spices"
+    },
+    {
+      "q": "What spice blend, whose name means 'head of the shop', is central to North African cooking?",
+      "a": "Ras el hanout",
+      "angle": "spices"
+    },
+    {
+      "q": "Bibimbap is a Korean dish served in a hot stone bowl. What does 'bibimbap' literally translate to?",
+      "a": "Mixed rice",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Japanese fermented paste made from soybeans is used as a base for miso soup?",
+      "a": "Miso",
+      "angle": "spices"
+    },
+    {
+      "q": "What type of pastry dough is used to make baklava?",
+      "a": "Phyllo (filo) dough",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is the main protein in a traditional Peruvian ceviche?",
+      "a": "Raw fish (typically sea bass or corvina)",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Indian flatbread is cooked directly on an open flame and puffs up with hot air?",
+      "a": "Chapati / roti",
+      "angle": "dishes"
+    },
+    {
+      "q": "What acidic ingredient 'cooks' the fish in ceviche without heat?",
+      "a": "Lime juice (citrus)",
+      "angle": "dishes"
+    },
+    {
+      "q": "Garam masala is a spice blend widely used in which regional cuisine?",
+      "a": "Indian / South Asian",
+      "angle": "spices"
+    },
+    {
+      "q": "What is the name of the Japanese rice wine used in cooking and as a drink?",
+      "a": "Sake",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country's cuisine features a dish called 'bobotie', a spiced minced meat bake with egg custard topping?",
+      "a": "South Africa",
+      "angle": "dishes"
+    },
+    {
+      "q": "What Vietnamese herb-heavy noodle salad dish is often served with peanut dipping sauce?",
+      "a": "Gỏi cuốn (fresh spring rolls)",
+      "angle": "street food"
+    },
+    {
+      "q": "What is the Spanish term for small savoury bar snacks eaten throughout Spain?",
+      "a": "Tapas",
+      "angle": "street food"
+    },
+    {
+      "q": "Which country is home to the dish 'laksa', a spicy noodle soup in coconut broth?",
+      "a": "Malaysia / Singapore",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What key spice gives a traditional paella its yellow colour?",
+      "a": "Saffron",
+      "angle": "spices"
+    },
+    {
+      "q": "Sofrito is an aromatic base of cooked vegetables used extensively in which cuisine?",
+      "a": "Spanish / Caribbean / Latin American",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'natto', a traditional Japanese breakfast food?",
+      "a": "Fermented soybeans",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which East African country is famous for nyama choma, slow-roasted goat or beef?",
+      "a": "Kenya",
+      "angle": "dishes"
+    },
+    {
+      "q": "What French cooking technique involves slow-cooking duck or pork in its own fat?",
+      "a": "Confit",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which spice, derived from the dried stigmas of a flower, is the world's most expensive by weight?",
+      "a": "Saffron",
+      "angle": "spices"
+    },
+    {
+      "q": "What is the traditional South Korean fermentation vessel used to store kimchi over winter?",
+      "a": "Onggi (earthenware jar)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'za'atar', widely used in Levantine cuisine?",
+      "a": "A herb and spice blend (thyme, sesame, sumac)",
+      "angle": "spices"
+    },
+    {
+      "q": "Which grain is traditional couscous made from?",
+      "a": "Semolina (durum wheat)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the main filling in a traditional Cuban 'ropa vieja'?",
+      "a": "Shredded beef",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which Italian city is most associated with the original Bolognese meat sauce?",
+      "a": "Bologna",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'harissa', used widely in Tunisian and Moroccan cooking?",
+      "a": "A hot chilli pepper paste",
+      "angle": "spices"
+    },
+    {
+      "q": "Fish sauce is an essential condiment in which Southeast Asian country's cuisine?",
+      "a": "Thailand (also Vietnam and others)",
+      "angle": "spices"
+    },
+    {
+      "q": "What type of rice is traditionally used to make Japanese sushi?",
+      "a": "Short-grain Japanese rice (seasoned with rice vinegar)",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Mexican sauce is made with chillies, chocolate, and dozens of other ingredients?",
+      "a": "Mole",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'injera' typically used as in Ethiopian cuisine — beyond just a food itself?",
+      "a": "An edible plate / scoop for other dishes",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the name of the spiced clarified butter used in Ethiopian cooking?",
+      "a": "Niter kibbeh",
+      "angle": "spices"
+    },
+    {
+      "q": "Which South American country is famous for its chimichurri sauce served with grilled meat?",
+      "a": "Argentina",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'dukkah', a condiment popular in Egyptian cuisine?",
+      "a": "A nut, seed, and spice blend",
+      "angle": "spices"
+    },
+    {
+      "q": "What is the signature Indonesian fermented soybean cake used as a protein in many dishes?",
+      "a": "Tempeh",
+      "angle": "dishes"
+    },
+    {
+      "q": "What type of Japanese noodle is made from buckwheat flour?",
+      "a": "Soba",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which country is home to the street food 'arepas de choclo', sweet corn cakes with cheese?",
+      "a": "Colombia",
+      "angle": "street food"
+    },
+    {
+      "q": "What is the name of the Lebanese sesame seed paste used in hummus and other dishes?",
+      "a": "Tahini",
+      "angle": "spices"
+    },
+    {
+      "q": "Which French region is famous for its 'bouillabaisse' fish stew?",
+      "a": "Provence (Marseille)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is the key fermented ingredient that gives a 'sourdough' its sour taste?",
+      "a": "Wild yeast and lactic acid bacteria (sourdough starter)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What spice is most responsible for the orange-yellow colour of Indian curries?",
+      "a": "Turmeric",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'elote', a popular Mexican street food?",
+      "a": "Grilled corn on the cob topped with mayonnaise, chilli, cheese, and lime",
+      "angle": "street food"
+    },
+    {
+      "q": "Which Japanese city is most closely associated with 'tonkotsu' ramen?",
+      "a": "Fukuoka",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is 'sumac', used as a souring agent in Middle Eastern cooking?",
+      "a": "A dark red berry ground into a tangy spice",
+      "angle": "spices"
+    },
+    {
+      "q": "Which Caribbean island is most associated with the dish 'ackee and saltfish'?",
+      "a": "Jamaica",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'paneer', a key protein in many Indian vegetarian dishes?",
+      "a": "Fresh unaged Indian cottage cheese",
+      "angle": "dishes"
+    },
+    {
+      "q": "What West African staple is made by pounding boiled plantain, cassava, or yam into a dough?",
+      "a": "Fufu",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "Which spice, native to the Maluku Islands, was so valuable it sparked European colonial expeditions?",
+      "a": "Nutmeg",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'bunny chow', a South African street food?",
+      "a": "A hollowed-out loaf of bread filled with curry",
+      "angle": "street food"
+    },
+    {
+      "q": "What is the Chinese cooking technique 'wok hei'?",
+      "a": "The smoky, charred flavour imparted by a very hot wok",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Filipino dish consists of meat (often pork or chicken) braised in vinegar, soy sauce, and garlic?",
+      "a": "Adobo",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is 'piri piri', widely used in Mozambican and Portuguese cooking?",
+      "a": "A hot sauce made from African bird's eye chillies",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'bao', a popular street food in China and Taiwan?",
+      "a": "Steamed filled buns",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'horchata', a popular drink in Mexican street food culture?",
+      "a": "A sweet rice milk drink flavoured with cinnamon",
+      "angle": "street food"
+    },
+    {
+      "q": "Which Italian dessert is made from espresso poured over vanilla ice cream?",
+      "a": "Affogato",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is 'berbere', a key spice mix in Ethiopian cooking?",
+      "a": "A blend of chilli peppers, fenugreek, coriander, and other spices",
+      "angle": "spices"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the name of the Oaxacan Mexican chocolate drink made with water and cacao paste, whipped frothy without milk?",
+      "a": "Tejate",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Japanese knife-cutting technique creates paper-thin diagonal slices for fish or tofu?",
+      "a": "Sogigiri",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'maafe', a rich peanut stew, a staple dish in which West African country?",
+      "a": "Senegal / Gambia (also Mali)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is the name of the fermented fish paste that forms the backbone of Burmese cuisine?",
+      "a": "Ngapi",
+      "angle": "spices"
+    },
+    {
+      "q": "Which Filipino dessert is a layered frozen treat made with shaved ice, sweetened red beans, coconut, and leche flan?",
+      "a": "Halo-halo",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is 'surstömming', famously one of the world's most pungent fermented foods?",
+      "a": "Swedish fermented herring (soured Baltic herring)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What Peruvian pepper, deep red with smoky fruity notes, is essential to many Andean dishes?",
+      "a": "Ají panca",
+      "angle": "spices"
+    },
+    {
+      "q": "In French cuisine, what is 'mirepoix'?",
+      "a": "A base of diced onion, carrot, and celery used to flavour stocks and sauces",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'tepache', a fermented Mexican street drink?",
+      "a": "A lightly fermented drink made from pineapple rinds, piloncillo, and spices",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'Joël Robuchon's' most iconic dish, a potato purée he reportedly uses nearly equal weight butter to potato in?",
+      "a": "Pomme purée (French mashed potatoes)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What Romanian bread, braided and enriched with eggs and butter, is eaten at Easter and Christmas?",
+      "a": "Cozonac",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is 'kashk', a fermented dairy product used as a tangy topping in Persian and Middle Eastern cooking?",
+      "a": "A thick whey product (similar to dried soured whey)",
+      "angle": "spices"
+    },
+    {
+      "q": "What is the Japanese term for the strict culinary etiquette governing kaiseki multi-course meal presentation?",
+      "a": "Ma (間) — the concept of spacing and interval in kaiseki",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Turkish dessert consists of shredded wheat pastry filled with white cheese and soaked in syrup?",
+      "a": "Künefe",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is 'caldo tlalpeño', a Mexican dish named after a borough of Mexico City?",
+      "a": "A smoky chipotle and chickpea soup with chicken",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is the name of the Yemeni spice blend featuring black lime, cardamom, and turmeric used in rice dishes?",
+      "a": "Hawayej",
+      "angle": "spices"
+    },
+    {
+      "q": "Which Indonesian spice paste, consisting of shrimp paste, shallots, garlic, chillies, and lemongrass, is the base of many dishes?",
+      "a": "Bumbu",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'lutefisk', a traditional Scandinavian dish?",
+      "a": "Dried whitefish (usually cod) soaked in lye to rehydrate it",
+      "angle": "dishes"
+    },
+    {
+      "q": "What Brazilian Amazonian ingredient — a dark purple berry from a palm tree — is the base of the açaí bowl?",
+      "a": "Açaí (Euterpe oleracea berries)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'smen', an aged fermented butter used in Moroccan and North African cooking?",
+      "a": "Aged, salted, fermented clarified butter (similar to ghee but pungent)",
+      "angle": "spices"
+    },
+    {
+      "q": "What Sicilian dish of sweet-and-sour vegetables including capers, olives, and aubergine is served at room temperature?",
+      "a": "Caponata",
+      "angle": "dishes"
+    },
+    {
+      "q": "Which Vietnamese fermented pork sausage wrapped in banana leaves is a Tet festival specialty?",
+      "a": "Giò thủ / chả lụa",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the name of the Georgian cheese bread boat filled with egg and butter?",
+      "a": "Adjarian khachapuri",
+      "angle": "street food"
+    },
+    {
+      "q": "What French pastry technique uses many layers of dough and butter through repeated folding to create flaky layers?",
+      "a": "Lamination (feuilletage)",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is 'torta ahogada', a street food specialty of which Mexican city?",
+      "a": "Guadalajara — a pork sandwich drowned in spicy tomato salsa",
+      "angle": "street food"
+    },
+    {
+      "q": "Which South Korean rice cake dish, sliced and served in gochujang sauce, is one of the most popular street foods?",
+      "a": "Tteokbokki",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'Mafé' sometimes called in English, and what nut is the sauce based on?",
+      "a": "Peanut stew (groundnut stew)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is 'chakapuli', the Georgian national dish traditionally eaten at Easter?",
+      "a": "Lamb stew with wild tarragon and sour plums (tkemali)",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What rare Sardinian cheese, illegal in many countries due to containing live insect larvae, is considered a delicacy?",
+      "a": "Casu martzu",
+      "angle": "dishes"
+    },
+    {
+      "q": "What Mexican pre-Hispanic drink made from fermented agave sap predates tequila by centuries?",
+      "a": "Pulque",
+      "angle": "street food"
+    },
+    {
+      "q": "What is the name of the black Japanese sesame paste sweet (wagashi) made with glutinous rice?",
+      "a": "Kurogoma daifuku",
+      "angle": "desserts"
+    },
+    {
+      "q": "What Egyptian street food is a thick fava bean and chickpea stew, considered the national dish?",
+      "a": "Ful medames",
+      "angle": "street food"
+    },
+    {
+      "q": "What Scandinavian open-faced sandwich tradition, served on dense rye bread with elaborate toppings, is most associated with Denmark?",
+      "a": "Smørrebrød",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the key fermenting agent that gives natto its stringy texture and strong smell?",
+      "a": "Bacillus subtilis var. natto",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'espelette', frequently used in Basque cuisine?",
+      "a": "A mild red pepper (piment d'Espelette) grown in the French Basque region",
+      "angle": "spices"
+    },
+    {
+      "q": "What Trinidadian street food consists of hollowed-out fried dough filled with curried chickpeas?",
+      "a": "Doubles",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'knafeh' (also spelled kunafa), a popular Levantine dessert?",
+      "a": "Shredded phyllo or semolina dough filled with cheese or cream, soaked in sugar syrup",
+      "angle": "desserts"
+    },
+    {
+      "q": "What Chinese condiment made from fermented broad beans and chillies is called 'the soul of Sichuan cooking'?",
+      "a": "Doubanjiang",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'pilpelchuma', a spicy North African Jewish condiment similar to harissa?",
+      "a": "A hot garlic and caraway chilli paste from Libyan Jewish cuisine",
+      "angle": "spices"
+    },
+    {
+      "q": "Which Himalayan country's cuisine features 'ema datshi', a stew of chillies and cheese considered the national dish?",
+      "a": "Bhutan",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is 'jollof rice' and which two West African countries most famously claim to have the superior version?",
+      "a": "A one-pot spiced tomato rice dish; Ghana and Nigeria rivalry is most famous",
+      "angle": "dishes"
+    },
+    {
+      "q": "What fermented black bean paste gives Sichuan mapo tofu its deep umami and numbing quality alongside peppercorns?",
+      "a": "Doubanjiang (also douchi — fermented black beans)",
+      "angle": "spices"
+    },
+    {
+      "q": "What is 'guanciale', an ingredient crucial to authentic carbonara?",
+      "a": "Cured pork cheek (not pancetta or bacon)",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the Indonesian and Malay term for a festive cone-shaped yellow rice dish served at celebrations?",
+      "a": "Nasi tumpeng",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'calabaza en tacha', the traditional Mexican candied pumpkin served on Día de los Muertos?",
+      "a": "Pumpkin simmered in piloncillo syrup with cinnamon and orange peel",
+      "angle": "desserts"
+    },
+    {
+      "q": "What Armenian flatbread, one of the world's oldest breads, is baked on a convex clay griddle called a 'saj'?",
+      "a": "Lavash",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'pica pau', a Portuguese bar snack of pickled mustard beef?",
+      "a": "Sliced beef marinated in mustard, pickled vegetables, and spices",
+      "angle": "street food"
+    },
+    {
+      "q": "Which Caribbean island is famous for 'oil down', a one-pot national dish of breadfruit, callaloo, and salted meat in coconut milk?",
+      "a": "Grenada",
+      "angle": "comfort dishes"
+    },
+    {
+      "q": "What is 'Makroud', a North African semolina pastry filled with dates and fried or baked?",
+      "a": "A Tunisian (also Algerian / Moroccan) date-filled semolina cookie soaked in honey",
+      "angle": "desserts"
+    },
+    {
+      "q": "What is the Sicilian ice-cream sandwich made in a soft brioche bun, eaten for breakfast?",
+      "a": "Granita con brioche",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'muhamarra', a roasted red pepper and walnut dip originating in which Syrian city?",
+      "a": "Aleppo",
+      "angle": "spices"
+    },
+    {
+      "q": "What Japanese preparation of sliced raw fish (without rice) is distinct from sushi and served with soy and wasabi?",
+      "a": "Sashimi",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is the traditional spice used to colour and flavour 'chole bhature', a popular North Indian street dish?",
+      "a": "Amchur (dried mango powder) and chaat masala",
+      "angle": "street food"
+    },
+    {
+      "q": "What is 'papadzules', a pre-Columbian Mexican dish of tortillas filled with hard-boiled eggs and drenched in a pumpkin seed sauce?",
+      "a": "A Yucatecan dish often called the 'enchiladas before enchiladas'",
+      "angle": "dishes"
+    },
+    {
+      "q": "What is 'moin moin', a steamed Nigerian dish made from blended black-eyed peas, peppers, and onions?",
+      "a": "A savoury bean pudding steamed in leaves or cups",
+      "angle": "comfort dishes"
+    }
+  ]
+}

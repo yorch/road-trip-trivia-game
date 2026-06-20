@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "What organ pumps blood through your body?",
+      "a": "Heart",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the largest organ of the human body?",
+      "a": "Skin",
+      "angle": "organs"
+    },
+    {
+      "q": "How many bones does an adult human body have?",
+      "a": "206",
+      "angle": "bones"
+    },
+    {
+      "q": "What organ do you use to breathe?",
+      "a": "Lungs",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the long tube in your body that digests food?",
+      "a": "Intestine (small and large intestine)",
+      "angle": "systems"
+    },
+    {
+      "q": "What liquid does the heart pump?",
+      "a": "Blood",
+      "angle": "systems"
+    },
+    {
+      "q": "How many senses do humans traditionally have?",
+      "a": "Five",
+      "angle": "senses"
+    },
+    {
+      "q": "What organ controls your thoughts and actions?",
+      "a": "Brain",
+      "angle": "organs"
+    },
+    {
+      "q": "What do you call the bones that protect your brain?",
+      "a": "Skull",
+      "angle": "bones"
+    },
+    {
+      "q": "What organ filters waste from your blood to make urine?",
+      "a": "Kidneys",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the muscle that controls breathing by contracting below the lungs?",
+      "a": "Diaphragm",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What body system carries blood through arteries and veins?",
+      "a": "Circulatory system",
+      "angle": "systems"
+    },
+    {
+      "q": "What organ produces bile to help digest fats?",
+      "a": "Liver",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the smallest bone in the human body?",
+      "a": "Stirrup (stapes) in the ear",
+      "angle": "bones"
+    },
+    {
+      "q": "What sense does the eye provide?",
+      "a": "Sight (vision)",
+      "angle": "senses"
+    },
+    {
+      "q": "What body system includes the brain and spinal cord?",
+      "a": "Nervous system",
+      "angle": "systems"
+    },
+    {
+      "q": "How many chambers does the human heart have?",
+      "a": "Four",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the white part of the eye called?",
+      "a": "Sclera",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the hardest substance in the human body?",
+      "a": "Tooth enamel",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the pipe that carries food from your mouth to your stomach?",
+      "a": "Esophagus",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What organ stores and concentrates bile made by the liver?",
+      "a": "Gallbladder",
+      "angle": "organs"
+    },
+    {
+      "q": "What body system fights infections and disease?",
+      "a": "Immune system",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the largest bone in the human body?",
+      "a": "Femur (thigh bone)",
+      "angle": "bones"
+    },
+    {
+      "q": "What do red blood cells carry through the body?",
+      "a": "Oxygen",
+      "angle": "systems"
+    },
+    {
+      "q": "What sense is associated with the nose?",
+      "a": "Smell (olfaction)",
+      "angle": "senses"
+    },
+    {
+      "q": "What organ produces insulin to regulate blood sugar?",
+      "a": "Pancreas",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the joint where two bones meet at the leg and connects the femur to the tibia?",
+      "a": "Knee",
+      "angle": "bones"
+    },
+    {
+      "q": "What body system includes bones, joints, and cartilage?",
+      "a": "Skeletal system",
+      "angle": "systems"
+    },
+    {
+      "q": "What are the tiny air sacs in the lungs where oxygen exchange happens called?",
+      "a": "Alveoli",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What sense does the tongue primarily provide?",
+      "a": "Taste",
+      "angle": "senses"
+    },
+    {
+      "q": "How many teeth does a typical adult human have?",
+      "a": "32",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the fluid that cushions and lubricates joints?",
+      "a": "Synovial fluid",
+      "angle": "bones"
+    },
+    {
+      "q": "What part of the brain controls balance and coordination?",
+      "a": "Cerebellum",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the medical term for the collarbone?",
+      "a": "Clavicle",
+      "angle": "bones"
+    },
+    {
+      "q": "What body system includes the stomach and intestines?",
+      "a": "Digestive system",
+      "angle": "systems"
+    },
+    {
+      "q": "What muscle makes up most of the heart wall?",
+      "a": "Cardiac muscle (myocardium)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the small pouch attached to the large intestine, often removed when inflamed?",
+      "a": "Appendix",
+      "angle": "organs"
+    },
+    {
+      "q": "What do we call the tough connective tissue that connects muscle to bone?",
+      "a": "Tendon",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What gland in the throat regulates metabolism using hormones like thyroxine?",
+      "a": "Thyroid gland",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the colored part of the eye called?",
+      "a": "Iris",
+      "angle": "senses"
+    },
+    {
+      "q": "How many lobes does the human brain have (per hemisphere)?",
+      "a": "Four",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What body system transports lymph fluid and helps fight pathogens?",
+      "a": "Lymphatic system",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the kneecap bone called?",
+      "a": "Patella",
+      "angle": "bones"
+    },
+    {
+      "q": "What cells carry oxygen in the blood?",
+      "a": "Red blood cells (erythrocytes)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the outer layer of skin called?",
+      "a": "Epidermis",
+      "angle": "organs"
+    },
+    {
+      "q": "What body system includes glands that secrete hormones like adrenaline?",
+      "a": "Endocrine system",
+      "angle": "systems"
+    },
+    {
+      "q": "What are the two bones in the lower arm called?",
+      "a": "Radius and ulna",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the average normal human body temperature in Fahrenheit?",
+      "a": "98.6°F (37°C)",
+      "angle": "health"
+    },
+    {
+      "q": "What is the name of the flap that prevents food from entering the airway when swallowing?",
+      "a": "Epiglottis",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What body system includes muscles and enables movement?",
+      "a": "Muscular system",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the sense provided by the ears?",
+      "a": "Hearing",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the name of the fluid-filled sac surrounding the brain and spinal cord?",
+      "a": "Cerebrospinal fluid (CSF)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the strongest muscle in the human body relative to its size?",
+      "a": "Masseter (jaw muscle)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What part of the nervous system controls involuntary actions like heart rate?",
+      "a": "Autonomic nervous system",
+      "angle": "systems"
+    },
+    {
+      "q": "What organ removes old red blood cells from circulation and filters blood?",
+      "a": "Spleen",
+      "angle": "organs"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is the name of the three tiny bones in the middle ear that transmit sound vibrations?",
+      "a": "Ossicles (malleus, incus, stapes)",
+      "angle": "senses"
+    },
+    {
+      "q": "How many vertebrae does the human spine have?",
+      "a": "33 (or 26 in adults after fusion)",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the longest nerve in the human body?",
+      "a": "Sciatic nerve",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What percentage of the human body is water?",
+      "a": "About 60%",
+      "angle": "health"
+    },
+    {
+      "q": "What is the name of the valve between the left atrium and left ventricle of the heart?",
+      "a": "Mitral valve (bicuspid valve)",
+      "angle": "organs"
+    },
+    {
+      "q": "What part of the nephron in the kidney filters blood under pressure?",
+      "a": "Glomerulus",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What type of joint is the shoulder — allowing movement in all directions?",
+      "a": "Ball-and-socket joint",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the connective tissue that joins bone to bone at a joint?",
+      "a": "Ligament",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What region of the brain processes language on the left side, named after its discoverer?",
+      "a": "Broca's area",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What type of blood vessel carries blood away from the heart?",
+      "a": "Artery",
+      "angle": "systems"
+    },
+    {
+      "q": "How many pairs of ribs does the human body have?",
+      "a": "12",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the term for the process by which cells use oxygen to produce energy?",
+      "a": "Cellular respiration",
+      "angle": "health"
+    },
+    {
+      "q": "What hormone does the adrenal gland release in response to stress?",
+      "a": "Adrenaline (epinephrine)",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the tough outer membrane covering bones?",
+      "a": "Periosteum",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the transparent front surface of the eye that focuses light?",
+      "a": "Cornea",
+      "angle": "senses"
+    },
+    {
+      "q": "What protein gives red blood cells their oxygen-carrying ability?",
+      "a": "Hemoglobin",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What are the two types of photoreceptor cells in the retina?",
+      "a": "Rods and cones",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the name of the large artery that carries oxygenated blood from the heart to the body?",
+      "a": "Aorta",
+      "angle": "organs"
+    },
+    {
+      "q": "What part of the brain is responsible for regulating hunger, thirst, and body temperature?",
+      "a": "Hypothalamus",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the medical term for the shoulder blade?",
+      "a": "Scapula",
+      "angle": "bones"
+    },
+    {
+      "q": "What enzyme in saliva begins the chemical digestion of starch?",
+      "a": "Amylase (salivary amylase)",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the gate-like muscle at the bottom of the stomach that controls food moving into the small intestine?",
+      "a": "Pyloric sphincter",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the protective fatty coating around nerve fibers that speeds signal transmission?",
+      "a": "Myelin sheath",
+      "angle": "anatomy"
+    },
+    {
+      "q": "How many chambers does the human heart have, and what are they?",
+      "a": "Four: two atria and two ventricles",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the bone that forms the lower jaw?",
+      "a": "Mandible",
+      "angle": "bones"
+    },
+    {
+      "q": "What type of muscle tissue is found in the walls of the intestines and moves involuntarily?",
+      "a": "Smooth muscle",
+      "angle": "systems"
+    },
+    {
+      "q": "What gland sits above each kidney and produces hormones including cortisol?",
+      "a": "Adrenal gland",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the innermost layer of skin?",
+      "a": "Hypodermis (subcutaneous layer)",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the term for the network of capillaries and tubules in the kidney that form urine?",
+      "a": "Nephron",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the first section of the small intestine?",
+      "a": "Duodenum",
+      "angle": "systems"
+    },
+    {
+      "q": "What fluid is produced by the liver and stored in the gallbladder to aid fat digestion?",
+      "a": "Bile",
+      "angle": "systems"
+    },
+    {
+      "q": "How many bones are in the human hand (including the wrist)?",
+      "a": "27",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the structure in the inner ear responsible for balance?",
+      "a": "Semicircular canals (vestibular system)",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the medical term for the breastbone?",
+      "a": "Sternum",
+      "angle": "bones"
+    },
+    {
+      "q": "What cells in the immune system produce antibodies?",
+      "a": "B cells (B lymphocytes)",
+      "angle": "health"
+    },
+    {
+      "q": "What is the name of the point where a nerve cell communicates with another cell?",
+      "a": "Synapse",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for blood vessels that carry deoxygenated blood back to the heart?",
+      "a": "Veins",
+      "angle": "systems"
+    },
+    {
+      "q": "What structure in the throat contains the vocal cords?",
+      "a": "Larynx (voice box)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the pigment in the skin that gives it color and protects against UV radiation?",
+      "a": "Melanin",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the coiled structure in the inner ear that converts sound vibrations to nerve signals?",
+      "a": "Cochlea",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the medical name for the heel bone?",
+      "a": "Calcaneus",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the outer layer of the cerebrum called, where most higher thinking occurs?",
+      "a": "Cerebral cortex",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What type of protein makes up most of the structure of hair and nails?",
+      "a": "Keratin",
+      "angle": "health"
+    },
+    {
+      "q": "What is the name of the muscular tube that connects the kidney to the bladder?",
+      "a": "Ureter",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the normal resting heart rate range for a healthy adult?",
+      "a": "60–100 beats per minute",
+      "angle": "health"
+    },
+    {
+      "q": "What part of the brain serves as a relay station for sensory information going to the cortex?",
+      "a": "Thalamus",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the two bones in the lower leg?",
+      "a": "Tibia and fibula",
+      "angle": "bones"
+    },
+    {
+      "q": "What system of the body includes lymph nodes and the thymus gland?",
+      "a": "Lymphatic (immune) system",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the acid produced in the stomach to aid digestion?",
+      "a": "Hydrochloric acid (HCl)",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the term for the involuntary wave-like contractions that move food through the digestive tract?",
+      "a": "Peristalsis",
+      "angle": "systems"
+    },
+    {
+      "q": "What type of blood cells help form clots to stop bleeding?",
+      "a": "Platelets (thrombocytes)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the four lobes of the cerebral cortex?",
+      "a": "Frontal, parietal, temporal, and occipital lobes",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the tough, smooth tissue covering the ends of bones at joints?",
+      "a": "Articular cartilage",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the term for the number of times the heart beats per minute?",
+      "a": "Heart rate (pulse)",
+      "angle": "health"
+    },
+    {
+      "q": "What organ in the endocrine system is located at the base of the brain and is called the 'master gland'?",
+      "a": "Pituitary gland",
+      "angle": "organs"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the name of the thin double-membrane sac that encloses the heart?",
+      "a": "Pericardium",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What region of the cerebral cortex, located in the parietal lobe, processes touch and proprioception?",
+      "a": "Somatosensory cortex",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the opening in the iris that regulates how much light enters the eye?",
+      "a": "Pupil",
+      "angle": "senses"
+    },
+    {
+      "q": "What enzyme breaks down proteins in the stomach, secreted in inactive form as pepsinogen?",
+      "a": "Pepsin",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the fibrous sheath of connective tissue that surrounds a skeletal muscle?",
+      "a": "Epimysium",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What are the finger-like projections lining the small intestine that increase surface area for absorption called?",
+      "a": "Villi (singular: villus)",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the term for the tiny projections on the surface of each villus in the small intestine?",
+      "a": "Microvilli (brush border)",
+      "angle": "systems"
+    },
+    {
+      "q": "What neurotransmitter is released at the neuromuscular junction to trigger muscle contraction?",
+      "a": "Acetylcholine",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the blood vessel that supplies oxygen to the heart muscle itself?",
+      "a": "Coronary artery",
+      "angle": "organs"
+    },
+    {
+      "q": "Which cranial nerve is responsible for most of the parasympathetic innervation of the thoracic and abdominal organs?",
+      "a": "Vagus nerve (cranial nerve X)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the specialized node in the right atrium that initiates the electrical impulse for each heartbeat?",
+      "a": "Sinoatrial (SA) node",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the medical term for the Adam's apple cartilage in the larynx?",
+      "a": "Thyroid cartilage",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What portion of the nephron is responsible for selective reabsorption of water and solutes after filtration?",
+      "a": "Renal tubule (proximal convoluted tubule)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the blood protein that acts as the main carrier of fatty acids and certain hormones?",
+      "a": "Albumin",
+      "angle": "health"
+    },
+    {
+      "q": "What layer of the retina contains ganglion cells whose axons form the optic nerve?",
+      "a": "Ganglion cell layer",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the term for the point on the retina where the optic nerve exits, creating a blind spot?",
+      "a": "Optic disc (blind spot)",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the name of the structure that connects the two hemispheres of the brain and allows them to communicate?",
+      "a": "Corpus callosum",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the medical term for the heel bone at the back of the foot?",
+      "a": "Calcaneus",
+      "angle": "bones"
+    },
+    {
+      "q": "How many bones make up the human wrist (carpals)?",
+      "a": "Eight",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the gate-like structure between the aorta and the left ventricle that prevents backflow?",
+      "a": "Aortic valve",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the name of the primary motor cortex region and which lobe contains it?",
+      "a": "Primary motor cortex, located in the frontal lobe (precentral gyrus)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the process by which the kidney hormone erythropoietin (EPO) stimulates?",
+      "a": "Red blood cell production (erythropoiesis)",
+      "angle": "health"
+    },
+    {
+      "q": "What protein forms the contractile filaments in muscle cells alongside myosin?",
+      "a": "Actin",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the organ in the lymphatic system that matures T lymphocytes?",
+      "a": "Thymus",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the anatomical term for the lower back region of the spine?",
+      "a": "Lumbar region",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the cells in the nervous system that support and protect neurons?",
+      "a": "Glial cells (neuroglia)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the normal pH range of human blood?",
+      "a": "7.35–7.45",
+      "angle": "health"
+    },
+    {
+      "q": "What is the name of the fluid-filled cavity within each ventricle of the brain?",
+      "a": "Cerebral ventricle",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the two-layer membrane lining the thoracic cavity and covering the lungs?",
+      "a": "Pleura (pleural membrane)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the specialized region of the optic retina with the highest density of cone photoreceptors, enabling sharpest vision?",
+      "a": "Fovea",
+      "angle": "senses"
+    },
+    {
+      "q": "What type of collagen is most abundant in the human body, found in skin, bones, and tendons?",
+      "a": "Type I collagen",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the receptor cells in the skin that detect light touch, most dense in the fingertips?",
+      "a": "Meissner's corpuscles",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the name of the three-layered membrane (dura mater, arachnoid mater, pia mater) surrounding the brain and spinal cord?",
+      "a": "Meninges",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the electrical charge difference across a resting neuron's membrane?",
+      "a": "Resting membrane potential (approximately −70 mV)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the section of the large intestine that connects to the rectum, on the lower left side of the abdomen?",
+      "a": "Sigmoid colon",
+      "angle": "systems"
+    },
+    {
+      "q": "What are the three bones that make up the human pelvis?",
+      "a": "Ilium, ischium, and pubis",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the chemical that neurons release into a synapse to communicate with each other?",
+      "a": "Neurotransmitter",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the outer fibrous layer of the kidney?",
+      "a": "Renal cortex",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the Eustachian tube's function in the ear?",
+      "a": "Equalizes air pressure between the middle ear and the atmosphere",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the term for the basic contractile unit of a skeletal muscle fiber?",
+      "a": "Sarcomere",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the tissue in the center of long bones that produces blood cells?",
+      "a": "Red bone marrow",
+      "angle": "bones"
+    },
+    {
+      "q": "What hormone produced by the pineal gland regulates sleep-wake cycles?",
+      "a": "Melatonin",
+      "angle": "organs"
+    },
+    {
+      "q": "What is the anatomical term for the area at the front of the elbow?",
+      "a": "Antecubital fossa",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What enzyme produced by the salivary glands and pancreas breaks down lipids?",
+      "a": "Lipase",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the bundle of nerve fibers in the spinal cord that carries sensory signals up to the brain?",
+      "a": "Ascending tracts (dorsal columns / spinothalamic tract)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What are the four basic taste qualities classically recognized by taste receptor cells?",
+      "a": "Sweet, sour, salty, and bitter (umami is now also recognized as a fifth)",
+      "angle": "senses"
+    },
+    {
+      "q": "What is the name of the functional unit of the lung, the smallest air-containing structure?",
+      "a": "Alveolus (plural: alveoli)",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the fibrous protein that gives tendons and ligaments their tensile strength?",
+      "a": "Collagen",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the nerve that controls the deltoid muscle and is formed from cervical roots C5 and C6?",
+      "a": "Axillary nerve",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the space between the visceral and parietal layers of the pleura that contains pleural fluid?",
+      "a": "Pleural cavity",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the name of the part of the brain stem that controls breathing rate and heart rate?",
+      "a": "Medulla oblongata",
+      "angle": "anatomy"
+    },
+    {
+      "q": "What is the term for the ring of fibrocartilage that deepens the shoulder socket and stabilizes the joint?",
+      "a": "Glenoid labrum",
+      "angle": "bones"
+    },
+    {
+      "q": "What is the name of the digestive enzyme secreted by the pancreas that breaks down proteins into peptides?",
+      "a": "Trypsin",
+      "angle": "systems"
+    },
+    {
+      "q": "What are the two main divisions of the autonomic nervous system?",
+      "a": "Sympathetic and parasympathetic",
+      "angle": "systems"
+    },
+    {
+      "q": "What is the name of the pain-detecting sensory nerve ending found throughout the body's tissues?",
+      "a": "Nociceptor",
+      "angle": "senses"
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "easy": [
+    {
+      "q": "Which planet is known as the Red Planet?",
+      "a": "Mars",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the largest planet in the solar system?",
+      "a": "Jupiter",
+      "angle": "planets"
+    },
+    {
+      "q": "Which planet has a famous ring system visible from Earth?",
+      "a": "Saturn",
+      "angle": "features"
+    },
+    {
+      "q": "How many planets are in our solar system?",
+      "a": "8",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the closest planet to the Sun?",
+      "a": "Mercury",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of Earth's natural satellite?",
+      "a": "The Moon",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet is the hottest in the solar system?",
+      "a": "Venus",
+      "angle": "planets"
+    },
+    {
+      "q": "What star is at the center of our solar system?",
+      "a": "The Sun",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the smallest planet in the solar system?",
+      "a": "Mercury",
+      "angle": "planets"
+    },
+    {
+      "q": "Which planet is farthest from the Sun?",
+      "a": "Neptune",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the largest volcano in the solar system, located on Mars?",
+      "a": "Olympus Mons",
+      "angle": "features"
+    },
+    {
+      "q": "Is Pluto considered a planet today?",
+      "a": "No, it is classified as a dwarf planet",
+      "angle": "planets"
+    },
+    {
+      "q": "Which planet spins on its side, with an axial tilt of about 98 degrees?",
+      "a": "Uranus",
+      "angle": "planets"
+    },
+    {
+      "q": "What do we call a chunk of rock and ice that develops a glowing tail as it nears the Sun?",
+      "a": "A comet",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the boundary in the solar system where the solar wind slows down as it meets interstellar space?",
+      "a": "The heliopause",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the name of the large storm on Jupiter that has raged for centuries?",
+      "a": "The Great Red Spot",
+      "angle": "features"
+    },
+    {
+      "q": "Earth is the third planet from the Sun — true or false?",
+      "a": "True",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the main belt of rocky bodies between Mars and Jupiter called?",
+      "a": "The Asteroid Belt",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which planet is known for its blue color caused by methane in its atmosphere?",
+      "a": "Uranus (also Neptune, but Uranus is the classic answer)",
+      "angle": "planets"
+    },
+    {
+      "q": "How long does Earth take to orbit the Sun?",
+      "a": "One year (about 365.25 days)",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the largest moon of Saturn?",
+      "a": "Titan",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet has the most moons in the solar system?",
+      "a": "Saturn",
+      "angle": "moons"
+    },
+    {
+      "q": "What shape are the orbits of planets around the Sun?",
+      "a": "Ellipses (oval-shaped)",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which planet rotates the fastest, completing a day in about 10 hours?",
+      "a": "Jupiter",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the thin layer of gases surrounding Earth called?",
+      "a": "The atmosphere",
+      "angle": "features"
+    },
+    {
+      "q": "Does Mars have any moons?",
+      "a": "Yes, two: Phobos and Deimos",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the force that keeps planets in orbit around the Sun?",
+      "a": "Gravity",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which is larger: Earth or Mars?",
+      "a": "Earth",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name given to the region beyond Neptune where Pluto lives?",
+      "a": "The Kuiper Belt",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which planet is sometimes called Earth's twin because of its similar size?",
+      "a": "Venus",
+      "angle": "planets"
+    },
+    { "q": "What type of object is the Sun?", "a": "A star", "angle": "sun" },
+    {
+      "q": "Which planet has a large canyon system called Valles Marineris?",
+      "a": "Mars",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the closest star to our solar system?",
+      "a": "Proxima Centauri",
+      "angle": "sun"
+    },
+    {
+      "q": "How many Earth days does it take Mercury to orbit the Sun?",
+      "a": "About 88 days",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which moon of Jupiter is the most volcanically active body in the solar system?",
+      "a": "Io",
+      "angle": "moons"
+    },
+    {
+      "q": "What do we call the path a planet follows around the Sun?",
+      "a": "An orbit",
+      "angle": "orbits"
+    },
+    {
+      "q": "Is the Moon larger or smaller than Earth?",
+      "a": "Smaller",
+      "angle": "moons"
+    },
+    {
+      "q": "What do we call a small rocky body that burns up in Earth's atmosphere, creating a streak of light?",
+      "a": "A meteor (shooting star)",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the largest dwarf planet in the solar system?",
+      "a": "Eris (marginally larger in mass than Pluto)",
+      "angle": "planets"
+    },
+    {
+      "q": "Which planet has the longest year, taking about 165 Earth years to orbit the Sun?",
+      "a": "Neptune",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the common name for a meteor that reaches Earth's surface?",
+      "a": "A meteorite",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the point in a planet's orbit farthest from the Sun?",
+      "a": "Aphelion",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of Saturn's moon that has lakes of liquid methane?",
+      "a": "Titan",
+      "angle": "moons"
+    },
+    {
+      "q": "Which direction do most planets orbit the Sun — clockwise or counterclockwise when viewed from above the North Pole?",
+      "a": "Counterclockwise",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the outer cloud of icy bodies at the edge of the solar system called?",
+      "a": "The Oort Cloud",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the rocky dwarf planet that is also the largest body in the asteroid belt?",
+      "a": "Ceres",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of Jupiter's largest moon, the biggest moon in the solar system?",
+      "a": "Ganymede",
+      "angle": "moons"
+    },
+    { "q": "How many moons does Earth have?", "a": "One", "angle": "moons" },
+    {
+      "q": "Which planet has no moons and no rings?",
+      "a": "Mercury (and Venus)",
+      "angle": "moons"
+    },
+    {
+      "q": "What do we call the point in a planet's orbit when it is closest to the Sun?",
+      "a": "Perihelion",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the largest impact crater on Mars, found in the southern hemisphere?",
+      "a": "Hellas Planitia (Hellas Basin)",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the first dwarf planet discovered in the asteroid belt?",
+      "a": "Ceres",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the thin tail of gas and dust that points away from the Sun when a comet passes through the inner solar system?",
+      "a": "The ion tail (plasma tail)",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What are the four planets closest to the Sun collectively called?",
+      "a": "The inner (terrestrial) planets",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the bright cloud of gas and dust surrounding the nucleus of a comet?",
+      "a": "The coma",
+      "angle": "asteroids"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What are Jupiter's four largest moons collectively called?",
+      "a": "The Galilean moons",
+      "angle": "moons"
+    },
+    {
+      "q": "Which moon of Jupiter is the most volcanically active body in the solar system?",
+      "a": "Io",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the icy moon of Saturn that jets water vapor from its south pole?",
+      "a": "Enceladus",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet has the lowest density — so low it would float in water?",
+      "a": "Saturn",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the fourth largest moon in the solar system, which orbits Jupiter and has the oldest surface in the solar system?",
+      "a": "Callisto",
+      "angle": "moons"
+    },
+    {
+      "q": "Which dwarf planet was reclassified from full planet status in 2006?",
+      "a": "Pluto",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the largest canyon in the solar system, on Mars?",
+      "a": "Valles Marineris",
+      "angle": "features"
+    },
+    {
+      "q": "Which moon of Neptune orbits in the opposite direction to Neptune's rotation?",
+      "a": "Triton",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of Pluto's largest moon?",
+      "a": "Charon",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet has a year lasting 84 Earth years?",
+      "a": "Uranus",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the Great Red Spot on Jupiter?",
+      "a": "A massive long-lived storm (anticyclone)",
+      "angle": "features"
+    },
+    {
+      "q": "Which gas giant is sometimes called an 'ice giant' along with Neptune?",
+      "a": "Uranus",
+      "angle": "planets"
+    },
+    {
+      "q": "How many moons does Mars have?",
+      "a": "Two (Phobos and Deimos)",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet has the strongest winds in the solar system, reaching over 2,000 km/h?",
+      "a": "Neptune",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the region where most short-period comets originate?",
+      "a": "The Kuiper Belt",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which of Jupiter's Galilean moons is the largest moon in the solar system?",
+      "a": "Ganymede",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the approximate distance from Earth to the Sun, known as 1 AU?",
+      "a": "About 150 million kilometers (93 million miles)",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the volcanic moon of Jupiter that has over 400 active volcanoes and mountains taller than Everest?",
+      "a": "Io",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the large dark spot observed on Neptune by Voyager 2 in 1989?",
+      "a": "The Great Dark Spot",
+      "angle": "features"
+    },
+    {
+      "q": "Which moon of Saturn has a thick nitrogen atmosphere, the only moon with a substantial atmosphere?",
+      "a": "Titan",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the Roche limit?",
+      "a": "The minimum distance at which a celestial body can approach a planet without being torn apart by tidal forces",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which planet has the longest day in the solar system (in terms of rotation period), longer than its year?",
+      "a": "Venus",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the largest asteroid in the asteroid belt?",
+      "a": "Ceres (also classified as a dwarf planet)",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which of Saturn's moons is sometimes compared to early Earth due to its hydrocarbon lakes and atmosphere?",
+      "a": "Titan",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the second-largest moon of Saturn, heavily cratered?",
+      "a": "Rhea",
+      "angle": "moons"
+    },
+    {
+      "q": "How does Venus rotate compared to most other planets?",
+      "a": "It rotates backwards (retrograde rotation)",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the boundary where the solar wind meets interstellar space?",
+      "a": "The heliopause",
+      "angle": "sun"
+    },
+    {
+      "q": "Which two planets have no moons?",
+      "a": "Mercury and Venus",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the dark volcanic plains on the Moon?",
+      "a": "Maria (singular: mare)",
+      "angle": "features"
+    },
+    {
+      "q": "Which moon of Jupiter is covered in a smooth icy shell and likely has a subsurface ocean?",
+      "a": "Europa",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the feature on Mars where the Tharsis volcanoes are located?",
+      "a": "The Tharsis bulge (Tharsis rise)",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the shepherd moon of Neptune that keeps the Adams ring narrow?",
+      "a": "Galatea",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the region beyond the Kuiper Belt from which long-period comets originate?",
+      "a": "The Oort Cloud",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which dwarf planet beyond Neptune is slightly more massive than Pluto?",
+      "a": "Eris",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the largest moon of Uranus?",
+      "a": "Titania",
+      "angle": "moons"
+    },
+    {
+      "q": "How long does light from the Sun take to reach Earth?",
+      "a": "About 8 minutes (8 minutes 20 seconds)",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the name of the largest volcano on Mars, and what type of volcano is it?",
+      "a": "Olympus Mons; a shield volcano",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the smaller of Mars's two moons, which orbits very close to Mars?",
+      "a": "Phobos",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of Jupiter's moon that is thought to have a subsurface saltwater ocean?",
+      "a": "Callisto (also Europa, but Callisto is less often cited)",
+      "angle": "moons"
+    },
+    {
+      "q": "Which planet's day is longer than its year — meaning it rotates more slowly than it orbits the Sun?",
+      "a": "Venus",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the outermost large moon of Uranus, known for its dramatic cliffs?",
+      "a": "Miranda",
+      "angle": "moons"
+    },
+    {
+      "q": "What kind of object is Halley's Comet, and how often does it visit the inner solar system?",
+      "a": "A short-period comet; approximately every 75–76 years",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which planet is third from the Sun?",
+      "a": "Earth",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the layer of the Sun's atmosphere visible as a glowing halo during a solar eclipse?",
+      "a": "The corona",
+      "angle": "sun"
+    },
+    {
+      "q": "Which Jovian moon is the only moon in the solar system known to be larger than the planet Mercury?",
+      "a": "Ganymede",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the dwarf planet in the Kuiper Belt discovered in 2005, which led to Pluto's reclassification?",
+      "a": "Eris",
+      "angle": "planets"
+    },
+    {
+      "q": "Which planet emits more heat than it receives from the Sun?",
+      "a": "Jupiter (and Saturn)",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of Saturn's shepherd moon that helps maintain the outer edge of the A ring?",
+      "a": "Prometheus (also Pandora)",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the impact basin on Mercury that is one of the largest in the solar system?",
+      "a": "Caloris Basin",
+      "angle": "features"
+    },
+    {
+      "q": "Which planet has a magnetic field roughly 20,000 times stronger than Earth's?",
+      "a": "Jupiter",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the feature on the Moon that was formed by ancient lava flows?",
+      "a": "Lunar maria (mare)",
+      "angle": "moons"
+    },
+    {
+      "q": "How many dwarf planets are officially recognized by the IAU?",
+      "a": "Five (Pluto, Eris, Ceres, Makemake, Haumea)",
+      "angle": "planets"
+    },
+    {
+      "q": "Which moon of Neptune is thought to be a captured Kuiper Belt object?",
+      "a": "Triton",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the mechanism by which the Sun generates energy?",
+      "a": "Nuclear fusion",
+      "angle": "sun"
+    },
+    {
+      "q": "Which planet has a feature called the 'hexagonal storm' at its north pole?",
+      "a": "Saturn",
+      "angle": "features"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the approximate diameter of the Sun in kilometers?",
+      "a": "About 1.39 million km (1,392,700 km)",
+      "angle": "sun"
+    },
+    {
+      "q": "Which moon of Jupiter was discovered by Galileo in 1610 along with Io, Europa, and Callisto?",
+      "a": "Ganymede",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the gap in Saturn's rings between the A ring and B ring?",
+      "a": "The Cassini Division",
+      "angle": "features"
+    },
+    {
+      "q": "Which dwarf planet in the Kuiper Belt has a fast rotation of about 3.9 hours and two moons, Hi'iaka and Namaka?",
+      "a": "Haumea",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the eccentricity of a perfectly circular orbit?",
+      "a": "0 (zero)",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which spacecraft, launched in 1977, was the first human-made object to reach interstellar space?",
+      "a": "Voyager 1",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the name of the smallest and innermost of the Galilean moons?",
+      "a": "Io",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the approximate surface temperature of Venus in Celsius?",
+      "a": "About 465°C (roughly 870°F)",
+      "angle": "planets"
+    },
+    {
+      "q": "Which moon of Saturn is the second largest and has a density suggesting it is mostly water ice?",
+      "a": "Rhea",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the theoretical cloud of icy bodies extending up to 100,000 AU from the Sun?",
+      "a": "The Oort Cloud",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which dwarf planet beyond the Kuiper Belt has the most distant known orbit in the solar system (as of 2024)?",
+      "a": "Sedna",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the moon of Mars that is gradually spiraling inward and will eventually crash into Mars or break apart?",
+      "a": "Phobos",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the Titius-Bode law?",
+      "a": "An empirical rule that predicts the spacing of planets from the Sun using a mathematical sequence",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which Jovian moon has the highest known surface gravity of any moon?",
+      "a": "Ganymede",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the process by which the Moon always keeps the same face toward Earth?",
+      "a": "Tidal locking (synchronous rotation)",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the approximate mass of Jupiter relative to all other planets combined?",
+      "a": "More than twice the mass of all other planets combined",
+      "angle": "planets"
+    },
+    {
+      "q": "Which moon of Saturn has a two-toned coloring — one hemisphere dark, one bright — known since Cassini's 17th-century observations?",
+      "a": "Iapetus",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the largest crater on the Moon, located on the far side?",
+      "a": "South Pole–Aitken Basin",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the approximate length of the Valles Marineris canyon system on Mars?",
+      "a": "About 4,000 km (roughly the width of the United States)",
+      "angle": "features"
+    },
+    {
+      "q": "Which moon of Uranus is named after a character in Shakespeare's The Tempest and is known for Verona Rupes, possibly the tallest cliff in the solar system?",
+      "a": "Miranda",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the asteroid that struck Earth about 66 million years ago and contributed to the mass extinction?",
+      "a": "The Chicxulub impactor",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the Lagrange point L2, and which notable telescope is stationed there?",
+      "a": "A gravitational equilibrium point 1.5 million km beyond Earth; the James Webb Space Telescope orbits there",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which moon of Neptune has geysers erupting nitrogen gas from its surface?",
+      "a": "Triton",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of Saturn's F ring's inner shepherd moon, which orbits just inside the F ring?",
+      "a": "Prometheus",
+      "angle": "features"
+    },
+    {
+      "q": "What is the Kirkwood gaps?",
+      "a": "Gaps in the asteroid belt caused by orbital resonances with Jupiter",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which dwarf planet has a reddish surface thought to be covered in tholins, and was discovered in 2005 by Mike Brown's team?",
+      "a": "Makemake",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the approximate rotation period of the Sun at its equator in Earth days?",
+      "a": "About 25 days",
+      "angle": "sun"
+    },
+    {
+      "q": "Which moon of Jupiter has a surface covered in salt flats and is heavily bombarded by Jupiter's radiation belts?",
+      "a": "Europa",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the layer inside the Sun where energy is transported by convection rather than radiation?",
+      "a": "The convection zone",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the Hill sphere of a planet?",
+      "a": "The region around a planet where its gravity dominates over the Sun's gravity, allowing moons to orbit stably",
+      "angle": "orbits"
+    },
+    {
+      "q": "What is the name of the moon of Jupiter that has a subsurface ocean estimated to contain more liquid water than all of Earth's oceans combined?",
+      "a": "Europa",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the semi-major axis of Pluto's orbit in astronomical units (AU)?",
+      "a": "About 39.5 AU",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which asteroid was the first to be visited by a spacecraft (the NEAR Shoemaker mission in 1997)?",
+      "a": "433 Eros",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the name of the fifth-largest moon of Uranus, heavily fractured and possibly reassembled after a collision?",
+      "a": "Miranda",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the approximate surface gravity on Mars compared to Earth?",
+      "a": "About 38% of Earth's gravity (0.38 g)",
+      "angle": "features"
+    },
+    {
+      "q": "Which moon of Saturn orbits within the Encke Gap of the A ring?",
+      "a": "Pan",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the sunspot cycle and its approximate duration?",
+      "a": "The solar cycle; approximately 11 years",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the Trojan group of asteroids, and which planet has the most?",
+      "a": "Asteroids sharing a planet's orbit at the L4 and L5 Lagrange points; Jupiter has the most",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which moon of Neptune has a retrograde orbit suggesting it was captured from the Kuiper Belt?",
+      "a": "Triton",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the high-speed stream of charged particles continuously emitted by the Sun?",
+      "a": "The solar wind",
+      "angle": "sun"
+    },
+    {
+      "q": "What is the Poynting-Robertson effect?",
+      "a": "The process by which radiation pressure causes small dust particles to slowly spiral inward toward the Sun",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which moon of Saturn is about 80% water ice and has a surface gravity so low that escape velocity is only about 400 m/s?",
+      "a": "Enceladus",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the outermost named gap in Saturn's main rings, separating the A ring from the narrow F ring?",
+      "a": "The Roche Division",
+      "angle": "features"
+    },
+    {
+      "q": "Which spacecraft performed the first flyby of Pluto in July 2015?",
+      "a": "New Horizons",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the approximate surface temperature of Pluto in Kelvin?",
+      "a": "About 44 K (−229°C)",
+      "angle": "planets"
+    },
+    {
+      "q": "What is the name of the two largest near-Earth asteroid families, classified by orbit type crossing Earth's?",
+      "a": "Apollos and Atens (also Amors)",
+      "angle": "asteroids"
+    },
+    {
+      "q": "Which moon of Jupiter orbits farthest from Jupiter among the Galilean moons?",
+      "a": "Callisto",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the photosphere phenomenon where bright granules mark the tops of convection cells on the Sun?",
+      "a": "Solar granulation",
+      "angle": "sun"
+    },
+    {
+      "q": "Which feature of Mercury's surface is the result of the planet's core cooling and shrinking, causing the crust to buckle?",
+      "a": "Lobate scarps (rupes)",
+      "angle": "features"
+    },
+    {
+      "q": "What is the Jeans escape mechanism in planetary atmospheres?",
+      "a": "The process by which lighter gas molecules moving faster than escape velocity leak away from the top of an atmosphere",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the large oval impact structure on Mercury, one of the largest impact basins in the solar system?",
+      "a": "Caloris Basin",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the effect by which a body's tidal forces cause the orbit of a nearby moon to gradually decay?",
+      "a": "Tidal dissipation (or orbital decay due to tidal friction)",
+      "angle": "orbits"
+    },
+    {
+      "q": "Which asteroid in the outer main belt is the target of the NASA Lucy mission launched in 2021?",
+      "a": "The Jupiter Trojan asteroids",
+      "angle": "asteroids"
+    },
+    {
+      "q": "What is the approximate number of moons Saturn has, as confirmed by astronomers by 2023?",
+      "a": "146 (over 140 confirmed moons)",
+      "angle": "moons"
+    },
+    {
+      "q": "What is the name of the phenomenon where Jupiter's gravity prevents a planet from forming in the asteroid belt?",
+      "a": "Gravitational perturbation (Jupiter's resonances prevent accretion)",
+      "angle": "orbits"
+    }
+  ]
+}

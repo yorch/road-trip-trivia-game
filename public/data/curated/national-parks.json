@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "In which state is the Grand Canyon National Park located?",
+      "a": "Arizona",
+      "angle": "locations"
+    },
+    {
+      "q": "What natural geyser in Yellowstone erupts roughly every 90 minutes?",
+      "a": "Old Faithful",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park contains the tallest waterfall in North America, Yosemite Falls?",
+      "a": "Yosemite",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park is famous for its massive granite cliff called El Capitan?",
+      "a": "Yosemite",
+      "angle": "vistas"
+    },
+    {
+      "q": "In which state is Yellowstone National Park primarily located?",
+      "a": "Wyoming",
+      "angle": "locations"
+    },
+    {
+      "q": "Which Florida national park is the only subtropical wilderness in North America?",
+      "a": "Everglades",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the famous geyser basin found in Yellowstone?",
+      "a": "Upper Geyser Basin",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Utah is known for its striking red-rock arches, including Delicate Arch?",
+      "a": "Arches",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park sits on the border of Tennessee and North Carolina?",
+      "a": "Great Smoky Mountains",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the most visited national park in the United States?",
+      "a": "Great Smoky Mountains",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Alaska contains Denali, the highest peak in North America?",
+      "a": "Denali",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in California is home to ancient giant sequoia trees?",
+      "a": "Sequoia",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park preserves the largest coral reef system in the continental United States?",
+      "a": "Biscayne",
+      "angle": "features"
+    },
+    {
+      "q": "In which state is Acadia National Park located?",
+      "a": "Maine",
+      "angle": "locations"
+    },
+    {
+      "q": "Which national park in South Dakota features the carved faces of four US presidents?",
+      "a": "Mount Rushmore",
+      "angle": "features"
+    },
+    {
+      "q": "What large lake sits at the heart of Crater Lake National Park?",
+      "a": "Crater Lake",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Utah has a famous Zion Canyon carved by the Virgin River?",
+      "a": "Zion",
+      "angle": "vistas"
+    },
+    {
+      "q": "In which state is the Everglades National Park located?",
+      "a": "Florida",
+      "angle": "locations"
+    },
+    {
+      "q": "Which animal is the symbol of Yellowstone and roams its plains in large herds?",
+      "a": "Bison (American buffalo)",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park is located on a volcanic island chain in Hawaii?",
+      "a": "Hawaiʻi Volcanoes",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park along the Colorado River is sometimes called 'The Maze'?",
+      "a": "Canyonlands",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which park in Montana is known as the 'Crown of the Continent'?",
+      "a": "Glacier",
+      "angle": "vistas"
+    },
+    {
+      "q": "What large predator was reintroduced to Yellowstone in 1995?",
+      "a": "Gray wolf",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Oregon contains the deepest lake in the United States?",
+      "a": "Crater Lake",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Virginia is threaded end-to-end by Skyline Drive and the Appalachian Trail?",
+      "a": "Shenandoah",
+      "angle": "trails"
+    },
+    {
+      "q": "What type of tree gives Redwood National Park its name?",
+      "a": "Coast redwood",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which desert national park in California is known for its twisted Joshua trees?",
+      "a": "Joshua Tree",
+      "angle": "features"
+    },
+    {
+      "q": "In which state is Rocky Mountain National Park located?",
+      "a": "Colorado",
+      "angle": "locations"
+    },
+    {
+      "q": "Which national park protects the famous Mammoth Cave system?",
+      "a": "Mammoth Cave",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the iconic arch in Arches National Park most often used as its symbol?",
+      "a": "Delicate Arch",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in Utah is famous for its towering hoodoo rock formations?",
+      "a": "Bryce Canyon",
+      "angle": "vistas"
+    },
+    {
+      "q": "In which state is Shenandoah National Park located?",
+      "a": "Virginia",
+      "angle": "locations"
+    },
+    {
+      "q": "Which national park straddles the US–Canada border in Montana and Alberta?",
+      "a": "Glacier",
+      "angle": "locations"
+    },
+    {
+      "q": "What large marine animal is commonly spotted in Olympic National Park's tidal pools?",
+      "a": "Sea star (starfish)",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Washington state features the Hoh Rain Forest?",
+      "a": "Olympic",
+      "angle": "features"
+    },
+    {
+      "q": "What color are the famous hot springs pools at Yellowstone's Grand Prismatic Spring?",
+      "a": "Bright rainbow colors (blue, green, yellow, orange, red)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park on the California–Nevada border includes Lake Tahoe's basin?",
+      "a": "Lake Tahoe Basin (not a national park — Tahoe is managed separately)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park is home to the Valley of Ten Thousand Smokes in Alaska?",
+      "a": "Katmai",
+      "angle": "features"
+    },
+    {
+      "q": "In which state is Saguaro National Park, named for its giant cactus, located?",
+      "a": "Arizona",
+      "angle": "locations"
+    },
+    {
+      "q": "Which national park preserves a large petrified wood forest in Arizona?",
+      "a": "Petrified Forest",
+      "angle": "features"
+    },
+    {
+      "q": "What large bird, once nearly extinct, has been reintroduced at Grand Canyon and Zion?",
+      "a": "California condor",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in New Mexico preserves stunning white gypsum sand dunes?",
+      "a": "White Sands",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the highest paved road in Rocky Mountain National Park?",
+      "a": "Trail Ridge Road",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park is known for Mesa Verde's ancient cliff dwellings?",
+      "a": "Mesa Verde",
+      "angle": "features"
+    },
+    {
+      "q": "In which state is the Badlands National Park located?",
+      "a": "South Dakota",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the large island that contains Katmai National Park?",
+      "a": "Alaska Peninsula",
+      "angle": "locations"
+    },
+    {
+      "q": "Which type of bear is commonly photographed catching salmon at Katmai National Park?",
+      "a": "Brown bear (grizzly)",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park encompasses both temperate rain forest and glaciated peaks in Washington?",
+      "a": "Olympic",
+      "angle": "features"
+    },
+    {
+      "q": "What river carved the Grand Canyon over millions of years?",
+      "a": "Colorado River",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Virginia and West Virginia includes a stretch of the Appalachian Trail along a ridge?",
+      "a": "Shenandoah",
+      "angle": "trails"
+    },
+    {
+      "q": "Which large national park in Alaska is roughly the size of West Virginia?",
+      "a": "Wrangell-St. Elias",
+      "angle": "locations"
+    },
+    {
+      "q": "What iconic trail runs through Zion National Park along a narrow riverside slot canyon?",
+      "a": "The Narrows",
+      "angle": "trails"
+    },
+    {
+      "q": "In which state is Congaree National Park, protecting old-growth bottomland forest, located?",
+      "a": "South Carolina",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the scenic drive in Acadia National Park that passes the summit of Cadillac Mountain?",
+      "a": "Park Loop Road",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Texas features the Chisos Mountains and borders the Rio Grande?",
+      "a": "Big Bend",
+      "angle": "locations"
+    }
+  ],
+  "medium": [
+    {
+      "q": "Which national park was the first established in the United States, created in 1872?",
+      "a": "Yellowstone",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which president signed the act establishing Yellowstone as the world's first national park?",
+      "a": "Ulysses S. Grant",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the iconic rock formation in Wyoming that rises 867 feet above the surrounding terrain and appears in 'Close Encounters of the Third Kind'?",
+      "a": "Devils Tower",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park contains the largest glacier in the contiguous United States?",
+      "a": "North Cascades",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the famous half-dome rock in Yosemite National Park?",
+      "a": "Half Dome",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in the Virgin Islands protects coral reefs and white-sand beaches?",
+      "a": "Virgin Islands",
+      "angle": "locations"
+    },
+    {
+      "q": "The Going-to-the-Sun Road crosses the Continental Divide through which national park?",
+      "a": "Glacier",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park protects the world's longest known cave system?",
+      "a": "Mammoth Cave",
+      "angle": "features"
+    },
+    {
+      "q": "What term describes the colorful, mineral-stained terraces formed by hot springs at Yellowstone's Mammoth Hot Springs?",
+      "a": "Travertine terraces",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Nevada contains Lehman Caves and the Snake Range's Wheeler Peak?",
+      "a": "Great Basin",
+      "angle": "locations"
+    },
+    {
+      "q": "In what year did the National Park Service officially form?",
+      "a": "1916",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in North Dakota preserves the badlands where Theodore Roosevelt ranched?",
+      "a": "Theodore Roosevelt",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the waterfall in Yosemite that drops 2,425 feet and is the tallest in North America?",
+      "a": "Yosemite Falls",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in Washington state includes the active stratovolcano Mount Rainier?",
+      "a": "Mount Rainier",
+      "angle": "features"
+    },
+    {
+      "q": "What is the deepest lake in the United States, found in Crater Lake National Park?",
+      "a": "Crater Lake (1,943 feet deep)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park straddles the border of Arizona and Utah and is known for its slot canyons and the Wave formation?",
+      "a": "Grand Staircase-Escalante (monument, not park) — Vermilion Cliffs area",
+      "angle": "vistas"
+    },
+    {
+      "q": "What type of geological feature is a hoodoo, famously found in Bryce Canyon?",
+      "a": "A tall, thin spire of rock eroded from sedimentary rock",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in California protects both marine and terrestrial life on the Channel Islands?",
+      "a": "Channel Islands",
+      "angle": "wildlife"
+    },
+    {
+      "q": "The Angel's Landing trail with its chains section is a famous hike in which national park?",
+      "a": "Zion",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Michigan consists of four islands in Lake Superior?",
+      "a": "Isle Royale",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the glacier that is retreating rapidly in Glacier National Park and is often cited in climate discussions?",
+      "a": "Grinnell Glacier",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Minnesota protects a vast wilderness of lakes and forests near the Canadian border?",
+      "a": "Voyageurs",
+      "angle": "locations"
+    },
+    {
+      "q": "What massive lava tube in Hawaiʻi Volcanoes National Park can visitors walk through?",
+      "a": "Thurston Lava Tube (Nāhuku)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park protects the ancient Anasazi cliff dwellings at Cliff Palace?",
+      "a": "Mesa Verde",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of Denali's highest point, officially measured at 20,310 feet?",
+      "a": "Denali (formerly Mount McKinley)",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in the Mojave Desert features a salt flat called the Devil's Golf Course?",
+      "a": "Death Valley",
+      "angle": "features"
+    },
+    {
+      "q": "What is the lowest point in North America, found in Death Valley National Park?",
+      "a": "Badwater Basin (282 feet below sea level)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Colorado preserves massive sand dunes at the base of the Sangre de Cristo Mountains?",
+      "a": "Great Sand Dunes",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the volcanic peak in Oregon whose eruption in 1980 devastated the surrounding landscape?",
+      "a": "Mount St. Helens",
+      "angle": "features"
+    },
+    {
+      "q": "The Bright Angel Trail descends from the South Rim into which national park's canyon?",
+      "a": "Grand Canyon",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Georgia protects a vast blackwater swamp and is home to alligators and sandhill cranes?",
+      "a": "Okefenokee (National Wildlife Refuge, not a park) — closest NPS unit is Cumberland Island",
+      "angle": "wildlife"
+    },
+    {
+      "q": "What is the name of the large lake in the center of Everglades National Park?",
+      "a": "There is no large central lake — the Everglades is a slow-moving 'river of grass'",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park near Jackson Hole, Wyoming features the Teton mountain range?",
+      "a": "Grand Teton",
+      "angle": "vistas"
+    },
+    {
+      "q": "What volcano in Hawaiʻi Volcanoes National Park has been erupting nearly continuously since 1983?",
+      "a": "Kīlauea",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Arkansas is famous for its hot springs and historic bathhouses?",
+      "a": "Hot Springs",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the backcountry permit system required for hiking the Havasupai Falls near the Grand Canyon?",
+      "a": "Havasupai Tribe permit (lottery-based)",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Indiana protects a stretch of Lake Michigan shoreline and tall sand dunes?",
+      "a": "Indiana Dunes",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the ranger-led tour that takes visitors underground in Carlsbad Caverns?",
+      "a": "King's Palace Tour",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in New Mexico features a massive underground cavern with a nightly bat flight?",
+      "a": "Carlsbad Caverns",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which park is the only national park in Kansas?",
+      "a": "Tallgrass Prairie",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the scenic byway that runs through Shenandoah National Park?",
+      "a": "Skyline Drive",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Wisconsin protects a cluster of sea caves carved into red sandstone?",
+      "a": "Apostle Islands",
+      "angle": "features"
+    },
+    {
+      "q": "What large carnivore was naturally recolonizing Glacier National Park from Canada in the 1980s?",
+      "a": "Gray wolf",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Kentucky protects the world's longest known cave system?",
+      "a": "Mammoth Cave",
+      "angle": "features"
+    },
+    {
+      "q": "What is the most common big-game animal found in Rocky Mountain National Park?",
+      "a": "Elk",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in California contains both the tallest trees on Earth (coast redwoods) and large Roosevelt elk?",
+      "a": "Redwood",
+      "angle": "wildlife"
+    },
+    {
+      "q": "What is the name of the famous backcountry permit route in Zion National Park that requires wading chest-deep through water?",
+      "a": "The Narrows (top-down route)",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park contains the Double Arch and Landscape Arch, which is considered the longest natural arch in the world?",
+      "a": "Arches",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the iconic overlook at the South Rim of the Grand Canyon near the park's visitor center?",
+      "a": "Mather Point",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in Colorado and New Mexico preserves the volcanic landscape of the Jemez Mountains?",
+      "a": "Valles Caldera",
+      "angle": "features"
+    },
+    {
+      "q": "What wading bird with a distinctive pink color is an iconic resident of Everglades National Park?",
+      "a": "Roseate spoonbill",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Wyoming, just south of Yellowstone, is known for its dramatic mountain peaks reflected in the Snake River?",
+      "a": "Grand Teton",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the permit required to hike to the top of Half Dome in Yosemite?",
+      "a": "Half Dome permit (daily lottery)",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in South Carolina and Georgia protects a chain of barrier islands with wild horses?",
+      "a": "Cumberland Island",
+      "angle": "wildlife"
+    },
+    {
+      "q": "What is the name of the famous drive in Joshua Tree National Park that passes through both the Mojave and Sonoran Deserts?",
+      "a": "Park Boulevard (Keys View Road is the most famous viewpoint)",
+      "angle": "trails"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What was the original Native American name for the area that became Yellowstone, used by the Crow people?",
+      "a": "Mitsi a-da-zi (Land of the Burning Ground / Yellow Rock River)",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park was established in 1890 on the same day as Sequoia National Park, making them among the oldest?",
+      "a": "Yosemite",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the geologist who first formally documented and named the Grand Canyon in an 1869 river expedition?",
+      "a": "John Wesley Powell",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in American Samoa protects tropical rain forest and coral reefs in the South Pacific?",
+      "a": "National Park of American Samoa",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the volcanic crater at the summit of Haleakalā in Maui that gives that national park its name?",
+      "a": "Haleakalā Crater (the 'House of the Sun')",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in the Florida Keys protects the only living coral reef in the continental United States?",
+      "a": "Dry Tortugas",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the massive underground chamber in Carlsbad Caverns that is the size of 14 football fields?",
+      "a": "The Big Room",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Michigan, accessible only by ferry or floatplane, is known for its wolf and moose predator-prey study?",
+      "a": "Isle Royale",
+      "angle": "wildlife"
+    },
+    {
+      "q": "What is the highest peak in the contiguous United States, found in a national park in California?",
+      "a": "Mount Whitney (14,505 ft) in Sequoia National Park",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park in the Florida Keys was established in 1992 and contains Fort Jefferson, a 19th-century coastal fortress?",
+      "a": "Dry Tortugas",
+      "angle": "features"
+    },
+    {
+      "q": "What year was the National Park Service Organic Act signed into law, creating the NPS?",
+      "a": "1916",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which explorer and naturalist is credited with lobbying most strongly for the creation of Yosemite as a protected space?",
+      "a": "John Muir",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the long-distance trail that traverses the full length of the Great Smoky Mountains National Park from east to west?",
+      "a": "Appalachian Trail (along the ridge) / the 71-mile Smokies section",
+      "angle": "trails"
+    },
+    {
+      "q": "In which national park is Kolob Arch, sometimes cited as one of the world's largest natural arches?",
+      "a": "Zion",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the rare and endemic species of trout found only in Yellowstone Lake?",
+      "a": "Yellowstone cutthroat trout",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Alaska contains the tallest coastal mountains on Earth as well as the Bagley Icefield?",
+      "a": "Wrangell-St. Elias",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the massive caldera that underlies most of Yellowstone National Park?",
+      "a": "Yellowstone Caldera (also called the Yellowstone Supervolcano)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in North Carolina and Tennessee was the first eastern national park created primarily from privately purchased land?",
+      "a": "Great Smoky Mountains",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the Organic Act clause that mandates parks be managed to leave them 'unimpaired for the enjoyment of future generations'?",
+      "a": "The NPS Organic Act's 'unimpairment mandate' (1916)",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in Utah is the least visited of the 'Mighty Five' Utah parks and features narrow slot canyons called 'fins'?",
+      "a": "Canyonlands",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the 1864 land grant signed by Abraham Lincoln that set aside Yosemite Valley for public use — predating the NPS?",
+      "a": "Yosemite Valley Grant Act (1864)",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in the Caribbean protects bioluminescent Mosquito Bay, one of the world's brightest bioluminescent bays?",
+      "a": "There is no NPS unit there — Mosquito Bay is on Vieques, Puerto Rico (a NWR)",
+      "angle": "features"
+    },
+    {
+      "q": "What specific rock type, formed from ancient sea-floor sediments, makes up the colorful layers visible in the Grand Canyon walls?",
+      "a": "Limestone, shale, sandstone, and schist — the oldest is Vishnu Basement Rocks (schist and granite)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Idaho features the deepest river gorge in North America, Hells Canyon?",
+      "a": "Hells Canyon National Recreation Area (not a national park — it's an NRA)",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the only road through Death Valley that connects the park from north to south?",
+      "a": "Death Valley Road / CA-190",
+      "angle": "trails"
+    },
+    {
+      "q": "Which national park in Missouri protects the site of the first westward gateway arch, designed by Eero Saarinen?",
+      "a": "Gateway Arch",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the rare night-blooming cactus found in Saguaro National Park?",
+      "a": "Saguaro (the saguaro cactus blooms at night)",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Alaska was established in 1980 under the Alaska National Interest Lands Conservation Act?",
+      "a": "Several parks were established under ANILCA, including Kenai Fjords, Lake Clark, and Kobuk Valley",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the hot spring in Yellowstone that is considered the largest in the United States?",
+      "a": "Grand Prismatic Spring (370 feet wide)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Maine was the first national park established east of the Mississippi River?",
+      "a": "Acadia",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the Ancestral Puebloan great house in Chaco Culture National Historical Park that has over 700 rooms?",
+      "a": "Pueblo Bonito",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in the Pacific Northwest was established to protect old-growth temperate rain forest and is part of the UNESCO world heritage site?",
+      "a": "Olympic",
+      "angle": "features"
+    },
+    {
+      "q": "What is the highest point in the entire National Park System?",
+      "a": "Denali (20,310 feet)",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park preserves the site of the Pleistocene La Brea Tar Pits in Los Angeles?",
+      "a": "La Brea Tar Pits are managed by the Natural History Museum of LA County, not the NPS — the adjacent park is Hancock Park",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the massive granite monolith in Yosemite that is the world's largest exposed granite monolith?",
+      "a": "El Capitan",
+      "angle": "vistas"
+    },
+    {
+      "q": "Which national park near Barrow, Alaska lies entirely above the Arctic Circle?",
+      "a": "Gates of the Arctic",
+      "angle": "locations"
+    },
+    {
+      "q": "What is the name of the marine terrace accessible only by kayak in Channel Islands National Park that is home to sea lion rookeries?",
+      "a": "San Miguel Island",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Texas has a higher peak than any mountain east of the Rockies?",
+      "a": "Guadalupe Mountains (Guadalupe Peak at 8,751 ft)",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the abandoned mining town within Death Valley National Park that is open for visitors?",
+      "a": "Rhyolite (just outside the park) / Leadfield and Skidoo are within the park",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park protects the largest remaining old-growth bottomland hardwood forest in the southeastern United States?",
+      "a": "Congaree",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the 150-million-year-old dinosaur tracksite located within Dinosaur National Monument?",
+      "a": "Carnegie Quarry (the Quarry Exhibit Hall contains over 1,500 bones in situ)",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park in Virginia protects the longest cave system open to the public in the Eastern US?",
+      "a": "Luray Caverns (not NPS — Shenandoah NP's Endless Caverns and Skyline Caverns are nearby but private)",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the high-altitude lake above 11,000 feet in Rocky Mountain National Park near Trail Ridge Road?",
+      "a": "Forest Canyon Overlook area — the lake is Loch Vale / Bear Lake is at 9,475 ft",
+      "angle": "features"
+    },
+    {
+      "q": "Which national monument in Utah, frequently confused with a national park, contains the Zebra Slot Canyon and Buckskin Gulch?",
+      "a": "Vermilion Cliffs National Monument",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the Hopi-speaking people whose ancestral lands are protected within Grand Canyon National Park?",
+      "a": "Hopi (and also Navajo, Havasupai, Hualapai, Zuni, and other tribes)",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in Kentucky and Tennessee contains a significant section of the original Cherokee Trail of Tears route?",
+      "a": "The Trail of Tears National Historic Trail passes through multiple states including Kentucky and Tennessee (not a single park)",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the name of the endemic fox species found only on the Channel Islands?",
+      "a": "Island fox",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park in Wyoming was nearly eliminated from the park system in the 1940s by proposed dam projects on the Snake River?",
+      "a": "Grand Teton",
+      "angle": "rangers"
+    },
+    {
+      "q": "What is the average annual snowfall at the summit of Mount Rainier, making it one of the snowiest places in the world?",
+      "a": "Approximately 640 inches (53 feet) per year",
+      "angle": "features"
+    },
+    {
+      "q": "Which national park contains Enchanted Valley, a glacially carved valley sometimes called 'Valley of 10,000 Waterfalls'?",
+      "a": "Olympic",
+      "angle": "vistas"
+    },
+    {
+      "q": "What legislation passed in 1964 created the legal framework for wilderness areas within national parks?",
+      "a": "The Wilderness Act of 1964",
+      "angle": "rangers"
+    },
+    {
+      "q": "Which national park in New Mexico preserves deep underground cave formations including the world's largest known cave room, the Lechuguilla Cave?",
+      "a": "Carlsbad Caverns (Lechuguilla Cave is within the park but not open to the public)",
+      "angle": "features"
+    },
+    {
+      "q": "What is the name of the ancient bristlecone pine tree in Great Basin National Park once identified as the world's oldest living tree?",
+      "a": "Prometheus (cut down in 1964 at approximately 4,862 years old)",
+      "angle": "wildlife"
+    },
+    {
+      "q": "Which national park on the coast of Maine has the first sunrise in the continental United States each morning due to its eastern location?",
+      "a": "Acadia (Cadillac Mountain)",
+      "angle": "vistas"
+    },
+    {
+      "q": "What is the name of the volcanic plug that forms the distinctive 'Shiprocks' landmark near the New Mexico–Arizona border adjacent to Navajo lands?",
+      "a": "Shiprock (Tsé Bitʼaʼí) — not in a national park but on Navajo Nation land",
+      "angle": "vistas"
+    }
+  ]
+}

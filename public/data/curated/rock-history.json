@@ -1,0 +1,809 @@
+{
+  "easy": [
+    {
+      "q": "Which band recorded 'Stairway to Heaven'?",
+      "a": "Led Zeppelin",
+      "angle": "anthems"
+    },
+    { "q": "Who sang 'Bohemian Rhapsody'?", "a": "Queen", "angle": "anthems" },
+    {
+      "q": "Which artist was known as 'The King of Rock and Roll'?",
+      "a": "Elvis Presley",
+      "angle": "eras"
+    },
+    {
+      "q": "Which band featured Mick Jagger and Keith Richards?",
+      "a": "The Rolling Stones",
+      "angle": "bands"
+    },
+    {
+      "q": "What city did The Beatles come from?",
+      "a": "Liverpool",
+      "angle": "bands"
+    },
+    {
+      "q": "Who sang 'Purple Haze'?",
+      "a": "Jimi Hendrix",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Hotel California'?",
+      "a": "Eagles",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What decade is considered the birth of rock and roll?",
+      "a": "The 1950s",
+      "angle": "eras"
+    },
+    {
+      "q": "Which band recorded 'Smells Like Teen Spirit'?",
+      "a": "Nirvana",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who was the lead guitarist of The Rolling Stones?",
+      "a": "Keith Richards",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which famous rock festival took place in 1969 in upstate New York?",
+      "a": "Woodstock",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which band recorded 'Born to Run'?",
+      "a": "Bruce Springsteen and the E Street Band",
+      "angle": "anthems"
+    },
+    {
+      "q": "What instrument is Jimi Hendrix famous for playing?",
+      "a": "Electric guitar",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Back in Black'?",
+      "a": "AC/DC",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who sang 'Light My Fire' as the lead singer of The Doors?",
+      "a": "Jim Morrison",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which band recorded 'Whole Lotta Love'?",
+      "a": "Led Zeppelin",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What is the name of the Rolling Stones' debut UK single from 1963?",
+      "a": "Come On",
+      "angle": "eras"
+    },
+    {
+      "q": "Which band recorded 'Jump'?",
+      "a": "Van Halen",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who sang 'Respect' — often associated with soul and rock crossover?",
+      "a": "Aretha Franklin",
+      "angle": "eras"
+    },
+    {
+      "q": "Which punk band released the album 'Never Mind the Bollocks' in 1977?",
+      "a": "Sex Pistols",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band featured Freddie Mercury as lead singer?",
+      "a": "Queen",
+      "angle": "bands"
+    },
+    {
+      "q": "What was the name of Eric Clapton's late-1960s power trio with Jack Bruce and Ginger Baker?",
+      "a": "Cream",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band recorded 'Roxanne'?",
+      "a": "The Police",
+      "angle": "anthems"
+    },
+    {
+      "q": "What year did Elvis Presley release 'Hound Dog'?",
+      "a": "1956",
+      "angle": "eras"
+    },
+    {
+      "q": "Which American rock band recorded 'Running with the Devil'?",
+      "a": "Van Halen",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Who sang 'Start Me Up'?",
+      "a": "The Rolling Stones",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which band recorded 'Won't Get Fooled Again'?",
+      "a": "The Who",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who is the lead singer of Aerosmith?",
+      "a": "Steven Tyler",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band recorded 'Sweet Home Alabama'?",
+      "a": "Lynyrd Skynyrd",
+      "angle": "anthems"
+    },
+    {
+      "q": "What was the name of the massive 1985 charity rock concert broadcast live from London and Philadelphia?",
+      "a": "Live Aid",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which band recorded 'Enter Sandman'?",
+      "a": "Metallica",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who sang 'Keep on Rockin' in the Free World'?",
+      "a": "Neil Young",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which band recorded 'Comfortably Numb'?",
+      "a": "Pink Floyd",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who sang 'Piece of My Heart' in 1968?",
+      "a": "Janis Joplin (with Big Brother and the Holding Company)",
+      "angle": "eras"
+    },
+    {
+      "q": "Which band recorded 'Paranoid'?",
+      "a": "Black Sabbath",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which British rock band featured Roger Daltrey as lead singer?",
+      "a": "The Who",
+      "angle": "bands"
+    },
+    {
+      "q": "Who played bass in The Beatles?",
+      "a": "Paul McCartney",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band recorded 'More Than a Feeling'?",
+      "a": "Boston",
+      "angle": "anthems"
+    },
+    {
+      "q": "What guitar technique is named for rapidly sliding a finger up the strings, strongly associated with rock?",
+      "a": "Slide guitar",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Livin' on a Prayer'?",
+      "a": "Bon Jovi",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which Canadian rock trio is known for the bass-and-drum intro to 'Tom Sawyer'?",
+      "a": "Rush",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Don't Stop Believin''?",
+      "a": "Journey",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who is considered the father of rock and roll?",
+      "a": "Chuck Berry",
+      "angle": "eras"
+    },
+    {
+      "q": "Which band recorded 'Wish You Were Here'?",
+      "a": "Pink Floyd",
+      "angle": "classic albums"
+    },
+    { "q": "Who sang 'American Pie'?", "a": "Don McLean", "angle": "anthems" },
+    {
+      "q": "Which band recorded 'Come as You Are'?",
+      "a": "Nirvana",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who played lead guitar for The Jimi Hendrix Experience?",
+      "a": "Jimi Hendrix",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Barracuda'?",
+      "a": "Heart",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded the hard rock anthem 'Highway to Hell'?",
+      "a": "AC/DC",
+      "angle": "anthems"
+    },
+    { "q": "Who sang 'The Joker'?", "a": "Steve Miller Band", "angle": "eras" },
+    {
+      "q": "Which band recorded 'Rock You Like a Hurricane'?",
+      "a": "Scorpions",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who sang 'Hit Me with Your Best Shot'?",
+      "a": "Pat Benatar",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which band recorded 'Smoke on the Water'?",
+      "a": "Deep Purple",
+      "angle": "guitar riffs"
+    },
+    { "q": "Who sang 'Dream On'?", "a": "Aerosmith", "angle": "anthems" },
+    {
+      "q": "Which band recorded 'Eye of the Tiger'?",
+      "a": "Survivor",
+      "angle": "anthems"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is the name of The Beatles' last studio album, released in 1969?",
+      "a": "Abbey Road",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which guitarist played the opening riff on 'Satisfaction' by the Rolling Stones?",
+      "a": "Keith Richards",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What is the name of Led Zeppelin's untitled fourth album, commonly called 'Led Zeppelin IV'?",
+      "a": "It was officially untitled (sometimes called 'Four Symbols')",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band headlined the first night of Woodstock 1969?",
+      "a": "Richie Havens (opened the festival)",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which rock album features the songs 'Comfortably Numb', 'Another Brick in the Wall', and 'Hey You'?",
+      "a": "The Wall by Pink Floyd",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What was the name of Kurt Cobain's band before Nirvana became famous?",
+      "a": "Nirvana had no earlier name; Cobain's pre-Nirvana band was Fecal Matter",
+      "angle": "bands"
+    },
+    {
+      "q": "Which guitarist is known for the opening riff of 'Johnny B. Goode'?",
+      "a": "Chuck Berry",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "In what year did The Beatles play their last public concert on the roof of the Apple Corps building?",
+      "a": "1969",
+      "angle": "bands"
+    },
+    {
+      "q": "Who played lead guitar on 'Layla' by Derek and the Dominos?",
+      "a": "Eric Clapton and Duane Allman",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which punk band was fronted by Joe Strummer?",
+      "a": "The Clash",
+      "angle": "bands"
+    },
+    {
+      "q": "What Pink Floyd album features the iconic prism artwork?",
+      "a": "The Dark Side of the Moon",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band's performance at Live Aid 1985 is widely considered the greatest live rock performance ever?",
+      "a": "Queen",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Who designed the iconic 'Sticky Fingers' album cover for the Rolling Stones?",
+      "a": "Andy Warhol",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band recorded the album 'Rumours', one of the best-selling albums of all time?",
+      "a": "Fleetwood Mac",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What guitar tuning did Jimi Hendrix typically use?",
+      "a": "Half-step down (Eb tuning)",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band featured Eddie Van Halen's two-handed tapping technique on 'Eruption'?",
+      "a": "Van Halen",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Who wrote the song 'Blackbird' for The Beatles' White Album?",
+      "a": "Paul McCartney",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What year was the original Woodstock festival held?",
+      "a": "1969",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which band recorded the album 'Appetite for Destruction'?",
+      "a": "Guns N' Roses",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who replaced Brian Jones as the Rolling Stones' guitarist in 1969?",
+      "a": "Mick Taylor",
+      "angle": "bands"
+    },
+    {
+      "q": "What is the name of The Who's 1969 rock opera album?",
+      "a": "Tommy",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band recorded 'London Calling', often cited as one of the greatest rock albums?",
+      "a": "The Clash",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who played drums in Led Zeppelin?",
+      "a": "John Bonham",
+      "angle": "bands"
+    },
+    {
+      "q": "Which festival, held at Altamont Speedway in 1969, ended in tragedy and death?",
+      "a": "Altamont Free Concert",
+      "angle": "festival lore"
+    },
+    {
+      "q": "What Aerosmith album from 1975 contains 'Walk This Way' and 'Sweet Emotion'?",
+      "a": "Toys in the Attic",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band recorded 'Under the Bridge'?",
+      "a": "Red Hot Chili Peppers",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who sang lead vocals on 'Roxanne' by The Police?",
+      "a": "Sting",
+      "angle": "bands"
+    },
+    {
+      "q": "What was the name of the grunge movement's home city?",
+      "a": "Seattle",
+      "angle": "eras"
+    },
+    {
+      "q": "Which David Bowie album introduced the Ziggy Stardust character?",
+      "a": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which band recorded 'Heart of Gold'?",
+      "a": "Neil Young",
+      "angle": "anthems"
+    },
+    {
+      "q": "What is the name of the guitar solo in 'Comfortably Numb' by Pink Floyd, often cited as one of the greatest ever?",
+      "a": "It has two solos; the second (outro) solo is most cited — played by David Gilmour",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band featured John Paul Jones as bassist and keyboardist?",
+      "a": "Led Zeppelin",
+      "angle": "bands"
+    },
+    {
+      "q": "Who opened for The Rolling Stones on their 1969 Altamont concert?",
+      "a": "Jefferson Airplane and Crosby, Stills, Nash & Young (among others)",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which Nirvana album launched grunge into the mainstream in 1991?",
+      "a": "Nevermind",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What was Bruce Springsteen's nickname?",
+      "a": "The Boss",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band recorded 'Purple Rain'?",
+      "a": "Prince and the Revolution",
+      "angle": "anthems"
+    },
+    {
+      "q": "Who sang lead vocals in Black Sabbath?",
+      "a": "Ozzy Osbourne",
+      "angle": "bands"
+    },
+    {
+      "q": "Which classic rock band features the twin guitar attack of Glenn Tipton and K.K. Downing?",
+      "a": "Judas Priest",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What was the name of the island festival that turned disastrous in 1970 — the last major festival of the classic rock era?",
+      "a": "Isle of Wight Festival 1970",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which band recorded 'Hysteria' and 'Pour Some Sugar on Me'?",
+      "a": "Def Leppard",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who played lead guitar in the Eagles?",
+      "a": "Joe Walsh (and Don Felder)",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which Guns N' Roses song features one of the most recognizable opening guitar riffs of the 1980s?",
+      "a": "Sweet Child O' Mine",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What instrument did Ian Anderson play as the frontman of Jethro Tull?",
+      "a": "Flute",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band recorded 'Sabbath Bloody Sabbath'?",
+      "a": "Black Sabbath",
+      "angle": "classic albums"
+    },
+    { "q": "Who sang 'Baba O'Riley'?", "a": "The Who", "angle": "anthems" },
+    {
+      "q": "Which album by The Clash is often called the first punk double album?",
+      "a": "London Calling",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What year did Freddie Mercury die?",
+      "a": "1991",
+      "angle": "bands"
+    },
+    {
+      "q": "Which band's guitarist Carlos Santana fused rock with Latin music?",
+      "a": "Santana",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What was the name of Ozzy Osbourne's band before going solo?",
+      "a": "Black Sabbath",
+      "angle": "bands"
+    },
+    {
+      "q": "Which classic album by Bruce Springsteen features 'Born to Run', 'Thunder Road', and 'Jungleland'?",
+      "a": "Born to Run",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who played the harmonica riff that opens 'Heart of Gold' by Neil Young?",
+      "a": "Neil Young",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which band recorded 'Kashmir', widely regarded as one of the greatest rock songs ever written?",
+      "a": "Led Zeppelin",
+      "angle": "anthems"
+    },
+    {
+      "q": "What was the name of the power trio formed by Eric Clapton, Jack Bruce, and Ginger Baker?",
+      "a": "Cream",
+      "angle": "bands"
+    },
+    {
+      "q": "Which 1991 Metallica album is commonly called 'The Black Album'?",
+      "a": "Metallica (self-titled)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who was the original bassist of The Police?",
+      "a": "Sting (Gordon Sumner)",
+      "angle": "bands"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the exact track listing order of the first four songs on 'Abbey Road' Side Two?",
+      "a": "You Never Give Me Your Money, Sun King, Mean Mr. Mustard, Polythene Pam",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which Rolling Stones album from 1972 is a double LP recorded partly at a French villa?",
+      "a": "Exile on Main St.",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who replaced Mick Taylor as the Rolling Stones' guitarist in 1975?",
+      "a": "Ronnie Wood",
+      "angle": "bands"
+    },
+    {
+      "q": "What was the name of David Bowie's backing band for the Ziggy Stardust tour?",
+      "a": "The Spiders from Mars",
+      "angle": "bands"
+    },
+    {
+      "q": "In what town in upstate New York did Woodstock 1969 actually take place?",
+      "a": "Bethel (not Woodstock)",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which Led Zeppelin song features a bow played on the electric guitar live?",
+      "a": "Dazed and Confused",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Who played keyboards on 'Light My Fire' by The Doors?",
+      "a": "Ray Manzarek",
+      "angle": "bands"
+    },
+    {
+      "q": "What is the name of the riff-heavy instrumental that opens Van Halen's debut album, showcasing Eddie's tapping technique?",
+      "a": "Eruption",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "In which year did the Sex Pistols break up for the first time?",
+      "a": "1978",
+      "angle": "bands"
+    },
+    {
+      "q": "Which Fleetwood Mac album preceded 'Rumours' and featured the first lineup with Stevie Nicks and Lindsey Buckingham?",
+      "a": "Fleetwood Mac (self-titled, 1975)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which Queen album features 'Bohemian Rhapsody', 'You're My Best Friend', and 'Love of My Life'?",
+      "a": "A Night at the Opera (1975)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What was the name of the venue where the Live Aid concert was held in Philadelphia?",
+      "a": "JFK Stadium",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which Pink Floyd album was the last to feature Syd Barrett?",
+      "a": "A Saucerful of Secrets (1968)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who played the memorable cello part on The Beatles' 'Eleanor Rigby'?",
+      "a": "A session string octet arranged by George Martin",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What studio did Led Zeppelin use to record 'Led Zeppelin IV' at Headley Grange in 1970–71?",
+      "a": "The Rolling Stones Mobile Studio (recorded at Headley Grange)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which Chuck Berry song did The Beatles cover on 'With the Beatles'?",
+      "a": "Roll Over Beethoven",
+      "angle": "eras"
+    },
+    {
+      "q": "Who was the bassist of Nirvana?",
+      "a": "Krist Novoselic",
+      "angle": "bands"
+    },
+    {
+      "q": "What was the attendance estimate for Woodstock 1969?",
+      "a": "Approximately 400,000 people",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which Deep Purple album contains 'Smoke on the Water' and chronicles a fire at the Montreux Casino?",
+      "a": "Machine Head (1972)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What was the name of the Rolling Stones' original pianist who left the band in 1963?",
+      "a": "Ian Stewart (he was moved off-stage but continued as road manager and session player)",
+      "angle": "bands"
+    },
+    {
+      "q": "What key is 'Sweet Child O' Mine' by Guns N' Roses primarily in?",
+      "a": "D major",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which Clash album was recorded over three weekends in 1979 and cost only £5,000 to make?",
+      "a": "London Calling",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who produced The Sex Pistols' 'Never Mind the Bollocks'?",
+      "a": "Chris Thomas (and Bill Price)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which guitarist played all the lead guitar parts on 'Appetite for Destruction' by Guns N' Roses?",
+      "a": "Slash",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What was the name of Jimi Hendrix's backing band?",
+      "a": "The Jimi Hendrix Experience",
+      "angle": "bands"
+    },
+    {
+      "q": "Neil Young recorded the raw, grief-stricken album 'Tonight's the Night' in 1973 as a tribute to two friends who died of heroin overdoses. Who were they?",
+      "a": "Crazy Horse guitarist Danny Whitten and roadie Bruce Berry",
+      "angle": "classic albums"
+    },
+    {
+      "q": "In what year did The Rolling Stones release 'Exile on Main St.'?",
+      "a": "1972",
+      "angle": "classic albums"
+    },
+    { "q": "Who was Cream's drummer?", "a": "Ginger Baker", "angle": "bands" },
+    {
+      "q": "What was the stage name of Led Zeppelin bassist John Baldwin?",
+      "a": "John Paul Jones",
+      "angle": "bands"
+    },
+    {
+      "q": "Which Bob Dylan album is credited with inspiring The Beatles' shift toward more complex songwriting?",
+      "a": "The Freewheelin' Bob Dylan (1963) and Bringing It All Back Home (1965)",
+      "angle": "eras"
+    },
+    {
+      "q": "How many performers played at Live Aid 1985 across the London and Philadelphia stages combined?",
+      "a": "Approximately 75 acts",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which guitarist played the solo on 'Another Brick in the Wall Part II' by Pink Floyd?",
+      "a": "David Gilmour",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Who were the four members of The Who?",
+      "a": "Roger Daltrey, Pete Townshend, John Entwistle, Keith Moon",
+      "angle": "bands"
+    },
+    {
+      "q": "What was the name of the Altamont concert's security group, whose violence led to a killing during the Stones' set?",
+      "a": "Hells Angels",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which Black Sabbath album from 1971 featured the songs 'War Pigs', 'Iron Man', and 'Paranoid'?",
+      "a": "Paranoid (1970)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What technique is the 'whammy bar' used for on electric guitar?",
+      "a": "Pitch vibrato / pitch bending — raising or lowering the pitch of notes by moving the tremolo arm",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which guitarist performed a solo rendition of 'The Star-Spangled Banner' at Woodstock 1969?",
+      "a": "Jimi Hendrix",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Who played lead guitar on The Beatles' 'While My Guitar Gently Weeps'?",
+      "a": "Eric Clapton (guest)",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "What is the name of the Metallica song that opens with a clean, fingerpicked acoustic guitar before exploding into heavy riffing?",
+      "a": "Nothing Else Matters",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Which year did Led Zeppelin disband following John Bonham's death?",
+      "a": "1980",
+      "angle": "bands"
+    },
+    {
+      "q": "Who played drums on 'In the Air Tonight' by Phil Collins?",
+      "a": "Phil Collins himself (drum machine intro, live drums after famous fill)",
+      "angle": "eras"
+    },
+    {
+      "q": "What was the name of Roger Waters' 1979 concept that became The Wall?",
+      "a": "The Wall — it originated from Waters' alienation from audiences after spitting on a fan in 1977",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which Aerosmith song was later sampled by Run-DMC in a famous 1986 collaboration?",
+      "a": "Walk This Way",
+      "angle": "eras"
+    },
+    {
+      "q": "What is the tempo (in approximate BPM) of 'Back in Black' by AC/DC?",
+      "a": "Approximately 94 BPM",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Who were the original five members of Guns N' Roses when they formed in 1985?",
+      "a": "Axl Rose, Slash, Duff McKagan, Izzy Stradlin, Steven Adler",
+      "angle": "bands"
+    },
+    {
+      "q": "Which Jimi Hendrix album, his debut, was released in 1967 and included 'Purple Haze' and 'Hey Joe'?",
+      "a": "Are You Experienced",
+      "angle": "classic albums"
+    },
+    {
+      "q": "What is the name of the Fleetwood Mac song that Stevie Nicks wrote about her relationship with Lindsey Buckingham?",
+      "a": "Go Your Own Way (written by Buckingham about Nicks) / Gold Dust Woman (by Nicks)",
+      "angle": "classic albums"
+    },
+    {
+      "q": "Which guitar model did Jimmy Page primarily use during Led Zeppelin's peak years?",
+      "a": "Gibson Les Paul",
+      "angle": "guitar riffs"
+    },
+    {
+      "q": "Who wrote 'Baba O'Riley' for The Who, and what was the song originally titled?",
+      "a": "Pete Townshend; originally called 'Teenage Wasteland'",
+      "angle": "anthems"
+    },
+    {
+      "q": "Which Rolling Stones song did Brian Jones play sitar on, predating The Beatles' use of the instrument?",
+      "a": "Paint It Black (1966)",
+      "angle": "eras"
+    },
+    {
+      "q": "What was the label that originally released Elvis Presley's early singles?",
+      "a": "Sun Records",
+      "angle": "eras"
+    },
+    {
+      "q": "Who produced The Beatles' first single 'Love Me Do'?",
+      "a": "George Martin",
+      "angle": "eras"
+    },
+    {
+      "q": "Which Nirvana song features the lyric 'Here we are now, entertain us'?",
+      "a": "Smells Like Teen Spirit",
+      "angle": "anthems"
+    },
+    {
+      "q": "What venue hosted the UK Live Aid concert in 1985?",
+      "a": "Wembley Stadium",
+      "angle": "festival lore"
+    },
+    {
+      "q": "Which guitarist created the 'Brown Sound' by modifying his amplifiers and guitar?",
+      "a": "Eddie Van Halen",
+      "angle": "guitar riffs"
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "What instrument measures air temperature?",
+      "a": "Thermometer",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What instrument measures atmospheric pressure?",
+      "a": "Barometer",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What causes a rainbow?",
+      "a": "Sunlight refracting and reflecting through water droplets",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is frozen rain called?",
+      "a": "Hail",
+      "angle": "storms"
+    },
+    {
+      "q": "What season comes after summer in the Northern Hemisphere?",
+      "a": "Autumn (fall)",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is the name of a very large, rotating tropical storm?",
+      "a": "Hurricane",
+      "angle": "storms"
+    },
+    {
+      "q": "What scale is used to measure tornado intensity in the United States?",
+      "a": "Enhanced Fujita (EF) Scale",
+      "angle": "storms"
+    },
+    {
+      "q": "What do meteorologists call the boundary between two different air masses?",
+      "a": "Front",
+      "angle": "patterns"
+    },
+    {
+      "q": "What instrument measures wind speed?",
+      "a": "Anemometer",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the name for water vapor that condenses on cold surfaces overnight?",
+      "a": "Dew",
+      "angle": "phenomena"
+    },
+    {
+      "q": "In which direction do hurricanes in the Northern Hemisphere rotate?",
+      "a": "Counterclockwise",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the calm center of a hurricane called?",
+      "a": "The eye",
+      "angle": "storms"
+    },
+    {
+      "q": "What type of cloud produces thunder and lightning?",
+      "a": "Cumulonimbus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is a blizzard?",
+      "a": "A severe snowstorm with strong winds and low visibility",
+      "angle": "storms"
+    },
+    {
+      "q": "What season has the longest days in the Northern Hemisphere?",
+      "a": "Summer",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is the layer of the atmosphere closest to Earth's surface?",
+      "a": "Troposphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What do we call a scientist who studies and forecasts the weather?",
+      "a": "Meteorologist",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What causes thunder?",
+      "a": "The rapid expansion of air heated by lightning",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is precipitation that falls as liquid water called?",
+      "a": "Rain",
+      "angle": "patterns"
+    },
+    {
+      "q": "What type of front brings a quick temperature drop and often storms?",
+      "a": "Cold front",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the most abundant greenhouse gas in Earth's atmosphere?",
+      "a": "Water vapor",
+      "angle": "patterns"
+    },
+    {
+      "q": "What season has the shortest days in the Northern Hemisphere?",
+      "a": "Winter",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is a tornado?",
+      "a": "A violently rotating column of air extending from a thunderstorm to the ground",
+      "angle": "storms"
+    },
+    {
+      "q": "What are puffy, white, flat-bottomed clouds called?",
+      "a": "Cumulus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the term for frozen precipitation that forms as snowflakes?",
+      "a": "Snow",
+      "angle": "patterns"
+    },
+    {
+      "q": "What instrument measures humidity?",
+      "a": "Hygrometer",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a weather satellite used for?",
+      "a": "To observe and track weather patterns from space",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the term for the amount of water vapor in the air?",
+      "a": "Humidity",
+      "angle": "patterns"
+    },
+    {
+      "q": "What causes the wind to blow?",
+      "a": "Differences in air pressure",
+      "angle": "patterns"
+    },
+    {
+      "q": "What do dark, threatening storm clouds typically indicate?",
+      "a": "Approaching rain or storms",
+      "angle": "clouds"
+    },
+    {
+      "q": "Which ocean basin produces the most hurricanes?",
+      "a": "Atlantic Ocean",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the freezing point of water in Celsius?",
+      "a": "0°C",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the name for a tropical storm in the western Pacific Ocean?",
+      "a": "Typhoon",
+      "angle": "storms"
+    },
+    {
+      "q": "What are thin, wispy, high-altitude clouds made of ice crystals called?",
+      "a": "Cirrus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is fog?",
+      "a": "A cloud at ground level",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the term for the day with the most daylight in the Northern Hemisphere?",
+      "a": "Summer solstice",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is the day with the fewest daylight hours in the Northern Hemisphere called?",
+      "a": "Winter solstice",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is the term for rain that evaporates before reaching the ground?",
+      "a": "Virga",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a weather vane used to measure?",
+      "a": "Wind direction",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What type of precipitation is a mix of rain and snow?",
+      "a": "Sleet",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the name for a severe tropical storm in the Indian Ocean?",
+      "a": "Cyclone",
+      "angle": "storms"
+    },
+    {
+      "q": "What unit is atmospheric pressure commonly measured in?",
+      "a": "Millibars (or hectopascals)",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a heat wave?",
+      "a": "An extended period of abnormally hot weather",
+      "angle": "patterns"
+    },
+    {
+      "q": "What causes the seasons on Earth?",
+      "a": "Earth's axial tilt as it orbits the Sun",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is the name for a large body of air with uniform temperature and moisture?",
+      "a": "Air mass",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a dust devil?",
+      "a": "A small, weak whirlwind of dust formed on sunny days",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the name for the day when day and night are equal in length?",
+      "a": "Equinox",
+      "angle": "seasons"
+    },
+    {
+      "q": "What is ice that forms on surfaces when temperature drops below freezing called?",
+      "a": "Frost",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the color of a stop sign-shaped tornado warning sign in the US?",
+      "a": "Red (tornado warnings use red alerts)",
+      "angle": "storms"
+    },
+    {
+      "q": "What is a water spout?",
+      "a": "A rotating column of air over water, similar to a tornado",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What does a high-pressure system generally bring?",
+      "a": "Clear, sunny weather",
+      "angle": "patterns"
+    },
+    {
+      "q": "What does a low-pressure system generally bring?",
+      "a": "Clouds and precipitation",
+      "angle": "patterns"
+    },
+    {
+      "q": "What layer of the atmosphere contains the ozone layer?",
+      "a": "Stratosphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a rainbow's shape?",
+      "a": "An arc (part of a circle)",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the term for the conversion of water vapor directly into ice without becoming liquid?",
+      "a": "Deposition (or sublimation in reverse)",
+      "angle": "phenomena"
+    }
+  ],
+  "medium": [
+    {
+      "q": "What is the Saffir-Simpson scale used to measure?",
+      "a": "Hurricane intensity (Categories 1–5)",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the difference between a hurricane watch and a hurricane warning?",
+      "a": "A watch means conditions are possible within 48 hours; a warning means they're expected within 36 hours",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What cloud type forms in flat, layered sheets covering the sky?",
+      "a": "Stratus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the dew point?",
+      "a": "The temperature at which air becomes saturated and dew or fog forms",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is El Niño?",
+      "a": "A periodic warming of surface waters in the central and eastern tropical Pacific Ocean",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is La Niña?",
+      "a": "A periodic cooling of surface waters in the central and eastern tropical Pacific, the opposite of El Niño",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the jet stream?",
+      "a": "A fast-flowing band of air currents high in the atmosphere that influences weather patterns",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the name for clouds at medium altitude, typically between 6,500 and 20,000 feet?",
+      "a": "Alto clouds (altostratus or altocumulus)",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is a supercell thunderstorm?",
+      "a": "A long-lived, highly organized thunderstorm with a rotating updraft called a mesocyclone",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the term for the apparent cooling effect of wind on exposed skin?",
+      "a": "Wind chill",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the heat index?",
+      "a": "A measure of how hot it feels when humidity is factored in with air temperature",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What causes lightning?",
+      "a": "Electrical charge buildup and discharge between clouds or between a cloud and the ground",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a storm surge?",
+      "a": "An abnormal rise in sea level caused by a storm, particularly hurricanes",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the Beaufort Scale used to measure?",
+      "a": "Wind speed and its effects (from calm to hurricane force)",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a microburst?",
+      "a": "A small but intense downburst of air that descends rapidly from a thunderstorm",
+      "angle": "storms"
+    },
+    {
+      "q": "What is permafrost?",
+      "a": "Ground that remains frozen for two or more consecutive years",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is an anticyclone?",
+      "a": "A high-pressure weather system where air circulates clockwise in the Northern Hemisphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the term for precipitation that freezes upon contact with cold surfaces?",
+      "a": "Freezing rain",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the ITCZ?",
+      "a": "The Intertropical Convergence Zone — a band near the equator where trade winds meet and cause heavy rainfall",
+      "angle": "patterns"
+    },
+    {
+      "q": "What cloud type produces steady, widespread rain or snow?",
+      "a": "Nimbostratus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is a derecho?",
+      "a": "A widespread, long-lived wind storm associated with a band of fast-moving thunderstorms",
+      "angle": "storms"
+    },
+    {
+      "q": "What is albedo in the context of climate?",
+      "a": "The fraction of solar energy reflected back by a surface (e.g., snow has high albedo)",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the name for the process by which water evaporates from plants?",
+      "a": "Transpiration",
+      "angle": "patterns"
+    },
+    {
+      "q": "What type of cloud is associated with a thunderstorm anvil shape?",
+      "a": "Cumulonimbus incus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is a nor'easter?",
+      "a": "A powerful storm along the eastern coast of North America with winds from the northeast",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the difference between climate and weather?",
+      "a": "Weather is short-term atmospheric conditions; climate is the long-term average of those conditions",
+      "angle": "patterns"
+    },
+    {
+      "q": "What causes sea breezes during the day?",
+      "a": "Land heats faster than water, causing air to rise over land and cooler sea air to flow in",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a haboob?",
+      "a": "An intense dust storm carried on an outflow of wind from a thunderstorm",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the tropopause?",
+      "a": "The boundary between the troposphere and stratosphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is radiative cooling?",
+      "a": "The loss of heat from Earth's surface through outgoing infrared radiation, especially at night",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a squall line?",
+      "a": "A line of thunderstorms that forms along or ahead of a cold front",
+      "angle": "storms"
+    },
+    {
+      "q": "What do altocumulus clouds look like?",
+      "a": "Patchy, gray or white rows of medium-altitude cloud clumps, often in a grid or wave pattern",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the Coriolis effect?",
+      "a": "The deflection of moving objects (including air) caused by Earth's rotation",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a monsoon?",
+      "a": "A seasonal shift in winds that brings heavy rainfall, especially in South and Southeast Asia",
+      "angle": "seasons"
+    },
+    {
+      "q": "What phenomenon causes a secondary (outer) rainbow to appear reversed in color?",
+      "a": "Light undergoes two internal reflections inside raindrops, reversing the color order",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is foehn (or Chinook) wind?",
+      "a": "A warm, dry wind that descends the leeward side of a mountain range",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the term for the line on a weather map connecting points of equal pressure?",
+      "a": "Isobar",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a tornado watch versus a tornado warning?",
+      "a": "A watch means conditions favor tornado formation; a warning means a tornado has been spotted or detected on radar",
+      "angle": "storms"
+    },
+    {
+      "q": "What is Arctic oscillation?",
+      "a": "A pattern of atmospheric pressure variability over the Arctic that influences winter weather across the Northern Hemisphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What cloud type forms in high, thin sheets and often causes a halo around the Sun or Moon?",
+      "a": "Cirrostratus",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is a rawinsonde?",
+      "a": "A weather balloon-borne instrument package that measures temperature, pressure, humidity, and wind aloft",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a polar vortex?",
+      "a": "A large area of low pressure and cold air surrounding the Earth's poles that can weaken and push cold air southward",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is thermal inversion?",
+      "a": "A layer of warm air trapping cooler air near the ground, reversing the normal temperature lapse rate",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a graupel?",
+      "a": "Soft hail or snow pellets — precipitation that forms when supercooled water droplets coat a snowflake",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a lenticular cloud?",
+      "a": "A smooth, lens-shaped cloud that forms over mountains due to standing atmospheric waves",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is orographic lift?",
+      "a": "The forced ascent of air over a mountain, which often causes clouds and precipitation on the windward side",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the Fujita Scale's highest category for tornadoes?",
+      "a": "F5 (original scale) / EF5 (Enhanced Fujita Scale)",
+      "angle": "storms"
+    },
+    {
+      "q": "What is a gust front?",
+      "a": "The leading edge of cool, gusty air that flows out ahead of a thunderstorm",
+      "angle": "storms"
+    },
+    {
+      "q": "What weather phenomenon is called a 'sun dog'?",
+      "a": "A bright spot of light appearing on either side of the Sun, caused by ice crystals in cirrus clouds",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a stationary front?",
+      "a": "A boundary between two air masses that is not moving significantly",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the 'golden hour' for severe weather in the United States?",
+      "a": "Late afternoon to early evening, when daytime heating peaks and atmospheric instability is greatest",
+      "angle": "storms"
+    },
+    {
+      "q": "What is a mammatus cloud?",
+      "a": "Pouch-like formations hanging from the underside of cumulonimbus clouds, often preceding severe storms",
+      "angle": "clouds"
+    },
+    {
+      "q": "What does ENSO stand for?",
+      "a": "El Niño-Southern Oscillation",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a trade wind?",
+      "a": "A persistent easterly wind blowing toward the equator in the tropics, driven by the Hadley cell circulation",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is sublimation in the context of weather?",
+      "a": "The process by which ice converts directly to water vapor without melting first",
+      "angle": "phenomena"
+    }
+  ],
+  "hard": [
+    {
+      "q": "What is the mesocyclone in a supercell thunderstorm?",
+      "a": "A rotating updraft within the thunderstorm that can give rise to tornadoes",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the Bergeron process in cloud physics?",
+      "a": "A mechanism of precipitation formation where ice crystals grow at the expense of supercooled water droplets due to differences in vapor pressure",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the dry adiabatic lapse rate?",
+      "a": "The rate at which unsaturated air cools as it rises — approximately 9.8°C per 1,000 meters",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the moist adiabatic lapse rate?",
+      "a": "The rate at which saturated air cools as it rises — approximately 6°C per 1,000 meters (varies with temperature)",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the term for the height at which rising air becomes saturated and clouds begin to form?",
+      "a": "Lifting condensation level (LCL)",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is convective available potential energy (CAPE)?",
+      "a": "A measure of atmospheric instability indicating the energy available for thunderstorm development; higher values mean more severe storms",
+      "angle": "storms"
+    },
+    {
+      "q": "What does the term 'vorticity' mean in meteorology?",
+      "a": "The rotation or spin of air parcels; positive vorticity favors storm development",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is wind shear and why does it matter for tornadoes?",
+      "a": "Wind shear is a change in wind speed or direction with height; directional shear helps create the rotating updrafts that can produce tornadoes",
+      "angle": "storms"
+    },
+    {
+      "q": "What is a mesoscale convective system (MCS)?",
+      "a": "A large organized cluster of thunderstorms that functions as a weather system, such as a squall line or mesoscale convective complex",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the quasi-biennial oscillation (QBO)?",
+      "a": "A periodic reversal of equatorial stratospheric winds roughly every 28 months, influencing global weather patterns",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the difference between absolute and relative humidity?",
+      "a": "Absolute humidity is the actual mass of water vapor per unit volume; relative humidity is the ratio of actual vapor pressure to saturation vapor pressure, expressed as a percentage",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a hook echo on a radar display?",
+      "a": "A hook-shaped radar return indicating a rotating supercell; it often signals a tornado or mesocyclone",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the thermal wind relationship in meteorology?",
+      "a": "The relationship between vertical wind shear and horizontal temperature gradients in the atmosphere",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a radiative fog, and when does it form?",
+      "a": "Fog that forms when the ground cools rapidly at night by radiating heat, chilling the air above it to the dew point; most common on clear, calm nights",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the tropopause and what happens to temperature there?",
+      "a": "The boundary between the troposphere and stratosphere where temperature stops decreasing with altitude and begins to increase",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a sounding in meteorology?",
+      "a": "A vertical profile of temperature, humidity, and wind measured by a radiosonde balloon or other instrument",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is frontogenesis?",
+      "a": "The formation or strengthening of a weather front through the interaction of air masses",
+      "angle": "patterns"
+    },
+    {
+      "q": "What cloud genus is defined as occurring above 20,000 feet and composed entirely of ice crystals?",
+      "a": "Cirrus (and the cirro- family: cirrostratus, cirrocumulus)",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the Kelvin–Helmholtz instability in the atmosphere?",
+      "a": "A wave-like instability that forms at the boundary between two air layers moving at different speeds, often producing billowy wave clouds",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a katabatic wind?",
+      "a": "A drainage wind where dense, cold air flows downslope under gravity, such as the Bora or Antarctic katabatics",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the Madden-Julian Oscillation (MJO)?",
+      "a": "A large-scale pattern of tropical rainfall and atmospheric circulation that propagates eastward around the globe over 30–90 days",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is precipitable water in a weather forecast?",
+      "a": "The total liquid water equivalent if all the water vapor in an atmospheric column were condensed, indicating potential for heavy rainfall",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the boundary layer in atmospheric science?",
+      "a": "The lowest layer of the troposphere that is directly influenced by the Earth's surface, typically 1–2 km deep",
+      "angle": "patterns"
+    },
+    {
+      "q": "What does Doppler radar measure that conventional radar cannot?",
+      "a": "The velocity (radial motion toward or away from the radar) of precipitation particles, allowing detection of wind rotation",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the lifted index (LI) in severe weather forecasting?",
+      "a": "A stability index comparing the temperature of a parcel lifted to 500 mb with the actual temperature there; negative values indicate instability and storm potential",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is an occluded front?",
+      "a": "A front formed when a cold front overtakes a warm front, lifting the warm air mass off the surface",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a wall cloud in a thunderstorm?",
+      "a": "A localized lowering of the cloud base beneath a cumulonimbus that indicates intense updrafts and may precede tornado formation",
+      "angle": "storms"
+    },
+    {
+      "q": "What is the Koppen climate classification system?",
+      "a": "A widely used system for categorizing Earth's climates into five main groups (A–E) based on temperature and precipitation patterns",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the term for the positive feedback where melting Arctic ice exposes darker ocean, absorbing more heat?",
+      "a": "Ice-albedo feedback",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a thermal trough in meteorology?",
+      "a": "A low-pressure trough driven by surface heating rather than frontal activity, common over hot desert regions in summer",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a refractivity gradient and how does it cause anomalous radar propagation?",
+      "a": "A strong decrease of atmospheric refractive index with height bends radar beams downward, causing them to detect ground targets as false echoes",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is entrainment in convective meteorology?",
+      "a": "The mixing of drier environmental air into the sides of a rising cloud or thunderstorm updraft, which can weaken it",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the potential vorticity (PV) in synoptic meteorology?",
+      "a": "A conserved quantity combining atmospheric vorticity and stratification; PV anomalies at the tropopause are key drivers of cyclogenesis",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a squall and how does it differ from a gust?",
+      "a": "A squall is a sudden strong wind lasting at least one minute (or more), while a gust is a brief, transient peak in wind speed",
+      "angle": "storms"
+    },
+    {
+      "q": "What meteorological condition is indicated by a 'ring around the moon'?",
+      "a": "Thin cirrostratus clouds containing ice crystals that refract moonlight into a halo, often preceding a warm front and rain",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is the Hadley cell?",
+      "a": "A large-scale atmospheric circulation cell where warm air rises near the equator, moves poleward at altitude, descends in the subtropics, and returns to the equator as trade winds",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is equivalent potential temperature (theta-e) used for in meteorology?",
+      "a": "To trace air mass origins and identify atmospheric instability; it is conserved during both dry and moist adiabatic processes",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the term for ice crystals that fall from high clouds and never reach the ground?",
+      "a": "Fallstreaks (also called virga when referring to any precipitation that evaporates before reaching the surface)",
+      "angle": "clouds"
+    },
+    {
+      "q": "What is the arctic amplification phenomenon?",
+      "a": "The observation that the Arctic is warming roughly twice as fast as the global average due to ice-albedo and other feedbacks",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is a low-level jet stream and why is it important for severe weather?",
+      "a": "A fast, narrow wind maximum in the lowest few kilometers of the atmosphere that transports warm, moist air northward and increases wind shear for supercells and tornadoes",
+      "angle": "storms"
+    },
+    {
+      "q": "What is convective inhibition (CIN)?",
+      "a": "The amount of energy needed to lift an air parcel to the level of free convection; high CIN suppresses thunderstorm initiation",
+      "angle": "storms"
+    },
+    {
+      "q": "What does the term 'isallobar' mean on a weather map?",
+      "a": "A line connecting points of equal pressure change over a specified time period",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a retrograde weather system?",
+      "a": "A weather system that moves from east to west, opposite to the prevailing westerly flow",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is diurnal temperature variation?",
+      "a": "The difference between the daily maximum and minimum temperature at a location; it is greatest in deserts and least in coastal or cloudy areas",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the Bergeron–Findeisen–Wegener process more commonly known as?",
+      "a": "The ice crystal process (or Wegener–Bergeron–Findeisen process), explaining how ice grows at the expense of liquid droplets in mixed-phase clouds",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is a thermal high?",
+      "a": "A high-pressure area caused by cold, dense air near the surface, such as the Siberian High in winter",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the North Atlantic Oscillation (NAO)?",
+      "a": "A climate pattern involving fluctuations in atmospheric pressure between the Icelandic Low and the Azores High that drives winter weather variability across Europe and North America",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the difference between a waterspout and a landspout?",
+      "a": "A waterspout forms over water (often in fair weather); a landspout is a weak tornado that forms without a supercell, developing from the ground up under a growing cumulus",
+      "angle": "storms"
+    },
+    {
+      "q": "What is ensemble forecasting?",
+      "a": "Running multiple numerical weather prediction models with slightly varied initial conditions to estimate forecast uncertainty and probabilistic outcomes",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is a capping inversion and how does it affect severe weather?",
+      "a": "A stable layer of warm air aloft that suppresses convection; it allows surface heat and moisture to build up until the cap breaks, often producing explosive thunderstorm development",
+      "angle": "storms"
+    },
+    {
+      "q": "What is atmospheric teleconnection?",
+      "a": "A statistical relationship between weather or climate anomalies in distant regions of the world, such as between sea surface temperatures in the Pacific and rainfall in Africa",
+      "angle": "patterns"
+    },
+    {
+      "q": "What is the 'triple point' in a mid-latitude cyclone?",
+      "a": "The point where the cold front, warm front, and occluded front meet; it is often a location of intense low pressure and severe weather",
+      "angle": "storms"
+    },
+    {
+      "q": "What is a photometeor?",
+      "a": "An optical phenomenon in the atmosphere caused by reflection, refraction, or diffraction of sunlight or moonlight, such as halos, coronas, or glories",
+      "angle": "phenomena"
+    },
+    {
+      "q": "What is numerical weather prediction (NWP)?",
+      "a": "The use of mathematical models of the atmosphere solved by computers to simulate and forecast future weather states",
+      "angle": "forecasts"
+    },
+    {
+      "q": "What is the specific humidity of an air parcel?",
+      "a": "The mass of water vapor per unit mass of moist air, expressed in grams per kilogram",
+      "angle": "forecasts"
+    }
+  ]
+}

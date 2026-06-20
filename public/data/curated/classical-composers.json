@@ -1,0 +1,833 @@
+{
+  "easy": [
+    {
+      "q": "Who composed the famous 'da-da-da-DUM' opening of the Fifth Symphony?",
+      "a": "Beethoven",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which German Romantic composer wrote the 'Hungarian Dances', a set of 21 pieces for piano duet?",
+      "a": "Brahms",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'The Four Seasons'?",
+      "a": "Vivaldi",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which composer wrote the opera 'The Magic Flute'?",
+      "a": "Mozart",
+      "angle": "composers"
+    },
+    {
+      "q": "What nationality was Johann Sebastian Bach?",
+      "a": "German",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'Swan Lake'?",
+      "a": "Tchaikovsky",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'The Nutcracker' ballet?",
+      "a": "Tchaikovsky",
+      "angle": "composers"
+    },
+    {
+      "q": "What instrument is Frédéric Chopin most associated with?",
+      "a": "Piano",
+      "angle": "instruments"
+    },
+    {
+      "q": "Who composed the 'Moonlight Sonata'?",
+      "a": "Beethoven",
+      "angle": "composers"
+    },
+    {
+      "q": "In which country was Wolfgang Amadeus Mozart born?",
+      "a": "Austria",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Hallelujah' Chorus from 'Messiah'?",
+      "a": "Handel",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'Canon in D'?",
+      "a": "Pachelbel",
+      "angle": "composers"
+    },
+    {
+      "q": "What era of classical music is Johann Sebastian Bach associated with?",
+      "a": "Baroque",
+      "angle": "eras"
+    },
+    {
+      "q": "Who composed the opera 'Carmen'?",
+      "a": "Bizet",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Romantic composer wrote 'Liebestraum No. 3' (Dream of Love), one of his most beloved piano pieces?",
+      "a": "Liszt",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the 'Surprise Symphony' (No. 94)?",
+      "a": "Haydn",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed 'Ride of the Valkyries'?",
+      "a": "Wagner",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Romantic-era composer is nicknamed the 'Piano Poet'?",
+      "a": "Chopin",
+      "angle": "composers"
+    },
+    {
+      "q": "Which French Romantic composer wrote the 'Symphonie fantastique'?",
+      "a": "Berlioz",
+      "angle": "symphonies"
+    },
+    {
+      "q": "What instrument is Antonio Vivaldi's 'The Four Seasons' written for as solo?",
+      "a": "Violin",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which Norwegian composer wrote the incidental music to Ibsen's play 'Peer Gynt'?",
+      "a": "Grieg",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'The Blue Danube' waltz?",
+      "a": "Johann Strauss II",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the opera 'The Barber of Seville'?",
+      "a": "Rossini",
+      "angle": "composers"
+    },
+    {
+      "q": "What term describes the musical period roughly from 1750–1820, the era of Mozart and Haydn?",
+      "a": "Classical period",
+      "angle": "eras"
+    },
+    {
+      "q": "Which Czech composer wrote the 'New World Symphony'?",
+      "a": "Dvořák",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which composer wrote the famous 'Toccata and Fugue in D minor' for organ?",
+      "a": "Bach",
+      "angle": "composers"
+    },
+    {
+      "q": "What nationality was Frédéric Chopin?",
+      "a": "Polish (or French-Polish)",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the oratorio 'Messiah'?",
+      "a": "Handel",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer's unfinished 'Symphony No. 8' is known as 'The Unfinished Symphony'?",
+      "a": "Schubert",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed 'Also sprach Zarathustra', the piece used in the film '2001: A Space Odyssey'?",
+      "a": "Richard Strauss",
+      "angle": "composers"
+    },
+    {
+      "q": "Which era of classical music did Beethoven, Schubert, and Brahms compose in?",
+      "a": "Romantic era",
+      "angle": "eras"
+    },
+    {
+      "q": "Who is credited with writing 'Eine kleine Nachtmusik'?",
+      "a": "Mozart",
+      "angle": "composers"
+    },
+    {
+      "q": "What composer wrote 'Bolero', famous for its single repeating melody?",
+      "a": "Ravel",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the 'William Tell Overture', whose finale is associated with the Lone Ranger?",
+      "a": "Rossini",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'Pictures at an Exhibition', originally a piano suite?",
+      "a": "Mussorgsky",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the opera 'La Traviata'?",
+      "a": "Verdi",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the term for the era of music from roughly 1600–1750, the time of Bach and Vivaldi?",
+      "a": "Baroque era",
+      "angle": "eras"
+    },
+    {
+      "q": "Who composed the 'Wedding March' most often played at the end of wedding ceremonies?",
+      "a": "Mendelssohn",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Italian Baroque composer wrote over 500 keyboard sonatas and is the son of Alessandro Scarlatti?",
+      "a": "Domenico Scarlatti",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Minute Waltz' (Waltz in D-flat major, Op. 64 No. 1)?",
+      "a": "Chopin",
+      "angle": "composers"
+    },
+    {
+      "q": "What composer wrote the four-opera cycle 'Der Ring des Nibelungen'?",
+      "a": "Wagner",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Hungarian Rhapsodies' for piano?",
+      "a": "Liszt",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Italian composer wrote the opera 'Rigoletto'?",
+      "a": "Verdi",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'In the Hall of the Mountain King'?",
+      "a": "Grieg",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the famous 'Air on the G String'?",
+      "a": "Bach",
+      "angle": "composers"
+    },
+    {
+      "q": "What instrument is associated with Niccolò Paganini's virtuoso performances?",
+      "a": "Violin",
+      "angle": "instruments"
+    },
+    {
+      "q": "Who composed the opera 'Madam Butterfly'?",
+      "a": "Puccini",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'The Planets' suite?",
+      "a": "Holst",
+      "angle": "composers"
+    },
+    {
+      "q": "What nationality was Ludwig van Beethoven?",
+      "a": "German",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'Clair de lune'?",
+      "a": "Debussy",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Romantic composer is known for his four symphonies and a famous 'Academic Festival Overture'?",
+      "a": "Brahms",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the opera 'La Bohème'?",
+      "a": "Puccini",
+      "angle": "composers"
+    },
+    {
+      "q": "What term describes an instrumental composition for solo instrument and orchestra?",
+      "a": "Concerto",
+      "angle": "concertos"
+    },
+    {
+      "q": "Who composed 'Scheherazade', inspired by 'One Thousand and One Nights'?",
+      "a": "Rimsky-Korsakov",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the march 'Pomp and Circumstance', played at graduation ceremonies?",
+      "a": "Elgar",
+      "angle": "composers"
+    }
+  ],
+  "medium": [
+    {
+      "q": "How many symphonies did Beethoven complete?",
+      "a": "Nine",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which of Vivaldi's 'Four Seasons' concertos comes third in the set?",
+      "a": "Autumn (Fall)",
+      "angle": "concertos"
+    },
+    {
+      "q": "Who composed the opera 'Don Giovanni'?",
+      "a": "Mozart",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the 'Goldberg Variations'?",
+      "a": "Bach",
+      "angle": "composers"
+    },
+    {
+      "q": "What key is Beethoven's Fifth Symphony in?",
+      "a": "C minor",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the tone poem 'Finlandia'?",
+      "a": "Sibelius",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Russian composer wrote 'The Rite of Spring', whose 1913 Paris premiere caused a riot?",
+      "a": "Stravinsky",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the name of the set of 48 preludes and fugues Bach wrote for keyboard, in all major and minor keys?",
+      "a": "The Well-Tempered Clavier",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Pathétique' Sonata (Piano Sonata No. 8)?",
+      "a": "Beethoven",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Bohemian composer wrote the 'New World Symphony' (Symphony No. 9)?",
+      "a": "Dvořák",
+      "angle": "symphonies"
+    },
+    {
+      "q": "What Czech composer wrote the tone poem cycle 'Má vlast' (My Homeland)?",
+      "a": "Smetana",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the opera 'Così fan tutte'?",
+      "a": "Mozart",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'Gymnopédie No. 1'?",
+      "a": "Satie",
+      "angle": "composers"
+    },
+    {
+      "q": "How many piano concertos did Mozart compose?",
+      "a": "27",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which French Romantic composer wrote the 'Requiem in D minor' featuring the famous 'In Paradisum'?",
+      "a": "Fauré",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'La Mer' (The Sea), a set of three orchestral sketches?",
+      "a": "Debussy",
+      "angle": "orchestras"
+    },
+    {
+      "q": "What nationality was Edvard Grieg?",
+      "a": "Norwegian",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the opera 'Tosca'?",
+      "a": "Puccini",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Romantic composer wrote 16 Polish dances called 'mazurkas'?",
+      "a": "Chopin",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the oratorio 'The Creation'?",
+      "a": "Haydn",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the Symphony No. 5 in D minor, Op. 47, often called 'a Soviet artist's reply to just criticism'?",
+      "a": "Shostakovich",
+      "angle": "symphonies"
+    },
+    {
+      "q": "What is the key of Schubert's 'Unfinished Symphony'?",
+      "a": "B minor",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the 'Rhapsody in Blue', blending jazz with orchestral writing?",
+      "a": "Gershwin",
+      "angle": "composers"
+    },
+    {
+      "q": "Which German Romantic composer wrote the 'Spring Symphony' (No. 1 in B-flat major)?",
+      "a": "Schumann",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the opera 'The Flying Dutchman'?",
+      "a": "Wagner",
+      "angle": "composers"
+    },
+    {
+      "q": "What Impressionist style is Debussy's music most associated with?",
+      "a": "Impressionism",
+      "angle": "eras"
+    },
+    {
+      "q": "Which composer wrote the 'Erlkönig' (Erlking) lied, famous for depicting a galloping horse?",
+      "a": "Schubert",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the ballet 'Romeo and Juliet' most performed by orchestras today?",
+      "a": "Prokofiev",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Baroque composer wrote the 'Brandenburg Concertos'?",
+      "a": "Bach",
+      "angle": "concertos"
+    },
+    {
+      "q": "How many symphonies did Haydn compose?",
+      "a": "104",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the opera 'Aida'?",
+      "a": "Verdi",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the 'Trout Quintet' (Piano Quintet in A major)?",
+      "a": "Schubert",
+      "angle": "composers"
+    },
+    {
+      "q": "What nationality was Frédéric Chopin's father?",
+      "a": "French",
+      "angle": "composers"
+    },
+    {
+      "q": "Which 20th-century American composer wrote 'Fanfare for the Common Man' for brass and percussion?",
+      "a": "Copland",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Finnish composer wrote seven symphonies and is a national icon of Finland?",
+      "a": "Sibelius",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the 'Symphonie fantastique', known for its idée fixe motif?",
+      "a": "Berlioz",
+      "angle": "motifs"
+    },
+    {
+      "q": "What nationality was Antonín Dvořák?",
+      "a": "Czech (Bohemian)",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Piano Concerto in A minor', the most frequently performed Norwegian piano concerto?",
+      "a": "Grieg",
+      "angle": "concertos"
+    },
+    {
+      "q": "Who orchestrated Mussorgsky's 'Pictures at an Exhibition', producing the version most commonly performed today?",
+      "a": "Ravel",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which late-Romantic composer wrote 'Enigma Variations'?",
+      "a": "Elgar",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the ballet 'Petrushka'?",
+      "a": "Stravinsky",
+      "angle": "composers"
+    },
+    {
+      "q": "What opera composer wrote 'Der Freischütz', often considered the first major German Romantic opera?",
+      "a": "Weber",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote four symphonies and is famous for the 'lullaby' (Wiegenlied, Op. 49 No. 4)?",
+      "a": "Brahms",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the tone poem 'Don Quixote', featuring cello solos representing the knight?",
+      "a": "Richard Strauss",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Spanish composer wrote 'Iberia' and 'Asturias' for piano?",
+      "a": "Albéniz",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed 'The Moldau' (Vltava), evoking the river flowing through Bohemia?",
+      "a": "Smetana",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the Violin Concerto in D major, Op. 61?",
+      "a": "Beethoven",
+      "angle": "concertos"
+    },
+    {
+      "q": "What is the recurring musical theme called that runs throughout Berlioz's 'Symphonie fantastique'?",
+      "a": "Idée fixe",
+      "angle": "motifs"
+    },
+    {
+      "q": "Who composed the opera 'Otello' based on Shakespeare's play?",
+      "a": "Verdi",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote the 'Piano Concerto No. 2 in C minor', one of the most performed piano concertos?",
+      "a": "Rachmaninoff",
+      "angle": "concertos"
+    },
+    {
+      "q": "Who composed 'The Lark Ascending', a romance for violin and orchestra?",
+      "a": "Vaughan Williams",
+      "angle": "orchestras"
+    },
+    {
+      "q": "What Austrian composer completed Schubert's 'Unfinished Symphony'? (This is a trick — it was never completed)",
+      "a": "No one — it was left unfinished by Schubert",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which Russian composer wrote 'Pictures at an Exhibition', later orchestrated by Ravel?",
+      "a": "Mussorgsky",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Who composed the 'Cello Concerto in E minor', Op. 85, his last major completed work?",
+      "a": "Elgar",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which composer wrote 'Pierrot Lunaire', a landmark of atonal music with Sprechstimme?",
+      "a": "Schoenberg",
+      "angle": "composers"
+    }
+  ],
+  "hard": [
+    {
+      "q": "In what year was Beethoven's Ninth Symphony premiered?",
+      "a": "1824",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which Bach composition uses the names B-A-C-H as a musical motif in the final fugue?",
+      "a": "The Art of Fugue (Die Kunst der Fuge)",
+      "angle": "motifs"
+    },
+    {
+      "q": "Who composed the opera 'Wozzeck', premiered in Berlin in 1925?",
+      "a": "Alban Berg",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the opus number of Beethoven's 'Moonlight Sonata'?",
+      "a": "Op. 27 No. 2",
+      "angle": "composers"
+    },
+    {
+      "q": "How many variations make up Bach's 'Goldberg Variations' (BWV 988)?",
+      "a": "30",
+      "angle": "composers"
+    },
+    {
+      "q": "How many movements does Schubert's 'Unfinished' Symphony contain, and why is it famous for that?",
+      "a": "Two movements (Schubert left it incomplete, never adding the expected third and fourth)",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the 'Concerto for Orchestra', premiered by the Boston Symphony in 1944?",
+      "a": "Bartók",
+      "angle": "concertos"
+    },
+    {
+      "q": "In which Hungarian city was Franz Liszt born?",
+      "a": "Raiding (now in Austria, then part of Hungary)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Swedish Baroque composer is nicknamed 'the father of Swedish music' and wrote Sweden's first symphony?",
+      "a": "Johan Helmich Roman",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Faust Symphony', a three-movement work depicting Faust, Gretchen, and Mephistopheles?",
+      "a": "Liszt",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which Renaissance polyphonist wrote the motet 'Spem in alium' for 40 independent vocal parts?",
+      "a": "Thomas Tallis",
+      "angle": "composers"
+    },
+    {
+      "q": "In what city was Frédéric Chopin born?",
+      "a": "Żelazowa Wola, Poland",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the opera 'Pelléas et Mélisande', the only opera Debussy completed?",
+      "a": "Debussy",
+      "angle": "composers"
+    },
+    {
+      "q": "Which composer wrote 'The Unanswered Question' for trumpet, string quartet, and woodwinds?",
+      "a": "Charles Ives",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the nickname of Haydn's Symphony No. 45 in F-sharp minor?",
+      "a": "Farewell Symphony",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the 'Missa Solemnis' (Op. 123), considered one of the greatest choral works ever written?",
+      "a": "Beethoven",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Russian composer wrote the opera 'Boris Godunov'?",
+      "a": "Mussorgsky",
+      "angle": "composers"
+    },
+    {
+      "q": "What term describes the contrapuntal technique Bach used extensively, where a subject is imitated at different pitches?",
+      "a": "Fugue",
+      "angle": "motifs"
+    },
+    {
+      "q": "Who composed 'Appalachian Spring', which includes variations on the Shaker hymn 'Simple Gifts'?",
+      "a": "Aaron Copland",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Baroque Italian composer wrote 'L'Estro Armonico' (Op. 3), a set of 12 concertos?",
+      "a": "Vivaldi",
+      "angle": "concertos"
+    },
+    {
+      "q": "What four-note sequence (D-S-C-H in German notation) serves as Shostakovich's personal musical signature, appearing in his Tenth Symphony and string quartets?",
+      "a": "D–E-flat–C–B (his initials in German solfège: D. Sch.)",
+      "angle": "motifs"
+    },
+    {
+      "q": "Which Russian composer wrote the opera 'The Queen of Spades' (Pique Dame), based on Pushkin's story?",
+      "a": "Tchaikovsky",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Hungarian composer developed the 'Kodály method' of music education?",
+      "a": "Zoltán Kodály",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the Symphony No. 3 'Eroica', originally dedicated to Napoleon?",
+      "a": "Beethoven",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which composer wrote the opera 'Lulu', left incomplete at his death in 1935?",
+      "a": "Alban Berg",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the name of Vivaldi's set of violin concertos Op. 8, of which 'The Four Seasons' are the first four?",
+      "a": "Il cimento dell'armonia e dell'inventione (The Contest Between Harmony and Invention)",
+      "angle": "concertos"
+    },
+    {
+      "q": "Who composed the 'Mathis der Maler' symphony, drawn from his own opera?",
+      "a": "Hindemith",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which Italian Renaissance composer wrote the 'Pope Marcellus Mass', credited with saving polyphonic music from papal censure?",
+      "a": "Palestrina",
+      "angle": "composers"
+    },
+    {
+      "q": "In what year did Wolfgang Amadeus Mozart die, and how old was he?",
+      "a": "1791, aged 35",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the 'Violin Concerto in D major', Op. 35, which Tchaikovsky dedicated to Leopold Auer?",
+      "a": "Tchaikovsky",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which Polish composer wrote the opera 'King Roger' (Król Roger), premiered in Warsaw in 1926?",
+      "a": "Szymanowski",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the musical term for a short recurring theme representing a person or idea in Wagner's operas?",
+      "a": "Leitmotif",
+      "angle": "motifs"
+    },
+    {
+      "q": "Who composed the 'Symphonies of Wind Instruments', written in memory of Debussy?",
+      "a": "Stravinsky",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Romantic composer wrote the Piano Sonata in B minor, considered one of the longest and most demanding in the repertoire?",
+      "a": "Liszt",
+      "angle": "composers"
+    },
+    {
+      "q": "What Brazilian composer wrote 'Bachianas Brasileiras', blending Bach counterpoint with Brazilian folk music?",
+      "a": "Villa-Lobos",
+      "angle": "composers"
+    },
+    {
+      "q": "Which symphony by Jean Sibelius was withdrawn by the composer himself and never publicly performed in his lifetime?",
+      "a": "Symphony No. 8",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Which Danish composer wrote the opera 'Saul og David' and six symphonies, being Denmark's greatest symphonist?",
+      "a": "Carl Nielsen",
+      "angle": "symphonies"
+    },
+    {
+      "q": "What instrument did Paganini supposedly sell his soul to the devil to master, according to legend?",
+      "a": "Violin",
+      "angle": "instruments"
+    },
+    {
+      "q": "Who composed the 'Verklärte Nacht' (Transfigured Night) string sextet?",
+      "a": "Schoenberg",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Which Baroque composer wrote the opera 'Dido and Aeneas'?",
+      "a": "Purcell",
+      "angle": "composers"
+    },
+    {
+      "q": "How many string quartets did Beethoven compose in total?",
+      "a": "16",
+      "angle": "orchestras"
+    },
+    {
+      "q": "Who composed the 'Mikrokosmos', a progressive set of 153 piano pieces used for teaching?",
+      "a": "Bartók",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Austrian composer wrote the song cycle 'Die schöne Müllerin' (The Beautiful Maid of the Mill)?",
+      "a": "Schubert",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the key of Bach's 'Toccata and Fugue in D minor' for organ?",
+      "a": "D minor",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the opera 'The Cunning Little Vixen'?",
+      "a": "Janáček",
+      "angle": "composers"
+    },
+    {
+      "q": "Which 20th-century composer wrote the Symphony of Psalms for chorus and orchestra?",
+      "a": "Stravinsky",
+      "angle": "orchestras"
+    },
+    {
+      "q": "What composer wrote the 'Turangalîla-Symphonie', a massive ten-movement work featuring the ondes Martenot?",
+      "a": "Messiaen",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the 'St. Matthew Passion', setting the Gospel of Matthew to music?",
+      "a": "Bach",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Italian Baroque composer wrote 'L'Orfeo', one of the earliest surviving operas?",
+      "a": "Monteverdi",
+      "angle": "composers"
+    },
+    {
+      "q": "What is the nickname of Schubert's Symphony No. 9 in C major?",
+      "a": "The Great (The Great C Major)",
+      "angle": "symphonies"
+    },
+    {
+      "q": "Who composed the Piano Concerto No. 3 in D minor, considered one of the most technically demanding piano concertos?",
+      "a": "Rachmaninoff",
+      "angle": "concertos"
+    },
+    {
+      "q": "Which German composer wrote the opera 'Mathis der Maler' and developed the theory of Gebrauchsmusik (music for practical use)?",
+      "a": "Hindemith",
+      "angle": "composers"
+    },
+    {
+      "q": "Who composed the symphonic poem 'Pelléas et Mélisande', Op. 5, as an early Romantic work before his atonal period?",
+      "a": "Schoenberg",
+      "angle": "orchestras"
+    },
+    {
+      "q": "What nickname is given to Haydn for his role in establishing the classical symphony and string quartet forms?",
+      "a": "Father of the Symphony (or Father of the String Quartet)",
+      "angle": "composers"
+    },
+    {
+      "q": "Which Russian composer wrote the opera 'The Golden Cockerel' (Le coq d'or)?",
+      "a": "Rimsky-Korsakov",
+      "angle": "composers"
+    }
+  ]
+}
