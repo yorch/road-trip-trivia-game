@@ -6,8 +6,8 @@
       "angle": "power-ups"
     },
     {
-      "q": "What food does Goku love?",
-      "a": "Food in general (especially rice and meat)",
+      "q": "What food does Goku love most?",
+      "a": "Rice (and meat)",
       "angle": "rivals"
     },
     {
@@ -51,11 +51,6 @@
       "angle": "arcs"
     },
     {
-      "q": "Who is Ichigo Kurosaki?",
-      "a": "Soul Reaper protagonist of Bleach",
-      "angle": "powers"
-    },
-    {
       "q": "Who hunts devils with Denji?",
       "a": "Power and Aki (Chainsaw Man)",
       "angle": "teams"
@@ -72,7 +67,7 @@
     },
     {
       "q": "What device lets scouts swing in Attack on Titan?",
-      "a": "ODM gear",
+      "a": "ODM gear (Omni-Directional Mobility gear)",
       "angle": "tech"
     },
     {
@@ -106,11 +101,6 @@
       "angle": "powers"
     },
     {
-      "q": "Who is Deku's idol?",
-      "a": "All Might",
-      "angle": "mentor"
-    },
-    {
       "q": "Who is Sailor Moon's talking cat?",
       "a": "Luna",
       "angle": "teams"
@@ -133,11 +123,6 @@
     {
       "q": "Who is the substitute Soul Reaper?",
       "a": "Ichigo Kurosaki",
-      "angle": "powers"
-    },
-    {
-      "q": "Who is the alchemist with metal arm?",
-      "a": "Edward Elric",
       "angle": "powers"
     },
     {
@@ -221,19 +206,9 @@
       "angle": "powers"
     },
     {
-      "q": "What school does Light Yagami attend at the start?",
-      "a": "High school in Japan (later To-Oh University)",
+      "q": "What school does Light Yagami attend at the start of Death Note?",
+      "a": "High school",
       "angle": "setting"
-    },
-    {
-      "q": "Who is the electric mouse Pokémon mascot?",
-      "a": "Pikachu",
-      "angle": "teams"
-    },
-    {
-      "q": "Who is the fire Hashira in Demon Slayer?",
-      "a": "Kyojuro Rengoku",
-      "angle": "title"
     },
     {
       "q": "What guild mark do Fairy Tail members wear?",
@@ -251,9 +226,9 @@
       "angle": "hero"
     },
     {
-      "q": "Who is the Sharingan-copy ninja known as the Copy Ninja?",
-      "a": "Kakashi Hatake",
-      "angle": "mentor"
+      "q": "Who is the fire Hashira in Demon Slayer?",
+      "a": "Kyojuro Rengoku",
+      "angle": "title"
     },
     {
       "q": "Who is the Straw Hat cook?",
@@ -269,11 +244,6 @@
       "q": "Who is the Titan with armored plates?",
       "a": "Reiner Braun (Armored Titan)",
       "angle": "powers"
-    },
-    {
-      "q": "Who is the Flame Hashira?",
-      "a": "Kyojuro Rengoku",
-      "angle": "roles"
     }
   ],
   "medium": [
@@ -413,8 +383,8 @@
       "angle": "powers"
     },
     {
-      "q": "Who is the spear-wielding Hashira?",
-      "a": "Sanemi (Wind) / Uzui (Sound) use blades; Kyojuro Rengoku (Flame) uses katana",
+      "q": "What breathing style does the Sound Hashira Tengen Uzui use?",
+      "a": "Sound Breathing",
       "angle": "roles"
     },
     {
@@ -503,11 +473,6 @@
       "angle": "theme"
     },
     {
-      "q": "Who is the captain of the Black Bulls?",
-      "a": "Yami Sukehiro",
-      "angle": "leader"
-    },
-    {
       "q": "What island is the Straw Hats' first half of Grand Line entrance?",
       "a": "Reverse Mountain to enter Grand Line",
       "angle": "setting"
@@ -533,12 +498,7 @@
       "angle": "arcs"
     },
     {
-      "q": "Who leads the Phantom Troupe?",
-      "a": "Chrollo Lucilfer",
-      "angle": "villain"
-    },
-    {
-      "q": "Who is the Beast Titan’s human form?",
+      "q": "Who is the Beast Titan's human form?",
       "a": "Zeke Yeager",
       "angle": "reveal"
     },
@@ -565,8 +525,8 @@
       "angle": "arcs"
     },
     {
-      "q": "What is the Will of D in One Piece?",
-      "a": "A mysterious inherited will (still unexplained)",
+      "q": "What initial does every member of the 'D.' clan share in One Piece?",
+      "a": "The letter D (as in Monkey D. Luffy, Gol D. Roger, Portgas D. Ace)",
       "angle": "arcs"
     },
     {
@@ -635,8 +595,8 @@
       "angle": "powers"
     },
     {
-      "q": "What is the name of the hidden leaf's ANBU masks animal theme?",
-      "a": "Animal-themed masks (wolf/fox etc.)",
+      "q": "What animal mask does Kakashi wear as an ANBU member in Naruto?",
+      "a": "Dog mask",
       "angle": "lore"
     },
     {
@@ -685,8 +645,8 @@
       "angle": "villain"
     },
     {
-      "q": "What is the curse energy system called in Jujutsu Kaisen?",
-      "a": "Cursed energy and techniques",
+      "q": "What is the name of Gojo Satoru's cursed technique in Jujutsu Kaisen?",
+      "a": "Limitless (Infinity)",
       "angle": "system"
     },
     {
@@ -745,23 +705,23 @@
       "angle": "villain"
     },
     {
-      "q": "What does Eren shout to activate the Rumbling?",
-      "a": "\"RUMBLING\" through Founding Titan power / screams after touching Dina memories",
+      "q": "What ability does Eren use to trigger the Rumbling in Attack on Titan?",
+      "a": "The Founding Titan's power (activated via royal blood contact)",
       "angle": "plot"
     },
     {
-      "q": "Who is the Strongest Creature in One Punch Man manga?",
-      "a": "Monster King Orochi / later Garou forms; Saitama surpasses all",
+      "q": "Who holds the title of the most powerful hero in One Punch Man?",
+      "a": "Blast (Saitama is not officially ranked)",
       "angle": "debate"
     },
     {
-      "q": "What is the law for alchemists on human transmutation?",
-      "a": "It is forbidden and fails with grave consequences",
+      "q": "What is forbidden for alchemists in FMA and results in losing a body part as toll?",
+      "a": "Human transmutation",
       "angle": "theme"
     },
     {
-      "q": "Who teaches Tanjiro Sun Breathing truths?",
-      "a": "Inherited from Hinokami Kagura via memory; linked to Yoriichi",
+      "q": "Who originally mastered Sun Breathing and passed it down as Hinokami Kagura?",
+      "a": "Yoriichi Tsugikuni",
       "angle": "lore"
     },
     {
@@ -778,11 +738,6 @@
       "q": "What is Senku's goal in Dr. Stone?",
       "a": "Rebuild civilization with science",
       "angle": "goal"
-    },
-    {
-      "q": "Who is the author of Attack on Titan manga?",
-      "a": "Hajime Isayama",
-      "angle": "creator"
     },
     {
       "q": "What is the true nature of the Philosopher's Stone in FMA?",
@@ -818,11 +773,6 @@
       "q": "What is the hidden village Naruto is from?",
       "a": "Konohagakure (Hidden Leaf)",
       "angle": "lore"
-    },
-    {
-      "q": "Who created One Piece?",
-      "a": "Eiichiro Oda",
-      "angle": "creator"
     },
     {
       "q": "What is the ultimate Titan power Eren seeks?",

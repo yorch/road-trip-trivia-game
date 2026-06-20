@@ -151,11 +151,6 @@
       "angle": "world cup"
     },
     {
-      "q": "How many players on a soccer team on the field?",
-      "a": "11",
-      "angle": "rules"
-    },
-    {
       "q": "What is the world tournament held every four years?",
       "a": "FIFA World Cup",
       "angle": "tournaments"
@@ -188,11 +183,6 @@
     {
       "q": "What color card is a warning?",
       "a": "Yellow card",
-      "angle": "rules"
-    },
-    {
-      "q": "How long is a standard match?",
-      "a": "90 minutes plus stoppage time",
       "angle": "rules"
     },
     {
@@ -358,11 +348,6 @@
       "angle": "analytics"
     },
     {
-      "q": "Who is known as CR7?",
-      "a": "Cristiano Ronaldo",
-      "angle": "stars"
-    },
-    {
       "q": "Which country won Euro 2016?",
       "a": "Portugal",
       "angle": "tournaments"
@@ -433,11 +418,6 @@
       "angle": "history"
     },
     {
-      "q": "Who scored the \"Hand of God\" goal?",
-      "a": "Diego Maradona",
-      "angle": "history"
-    },
-    {
       "q": "What club did Messi debut for?",
       "a": "FC Barcelona",
       "angle": "clubs"
@@ -478,7 +458,7 @@
       "angle": "clubs"
     },
     {
-      "q": "Who is Bayern Munich's home stadium?",
+      "q": "What is Bayern Munich's home stadium?",
       "a": "Allianz Arena",
       "angle": "stadiums"
     },
@@ -538,8 +518,8 @@
       "angle": "history"
     },
     {
-      "q": "What African nation reached 2010 World Cup quarterfinals with a Suarez handball incident?",
-      "a": "Uruguay vs Ghana; Ghana reached quarterfinals",
+      "q": "Which African nation was eliminated by Luis Suárez's controversial handball in the 2010 World Cup quarterfinals?",
+      "a": "Ghana",
       "angle": "history"
     },
     {
@@ -565,8 +545,8 @@
       "angle": "records"
     },
     {
-      "q": "What is the world-record transfer fee?",
-      "a": "€222 million (Neymar to PSG in 2017)",
+      "q": "What was the transfer fee when Neymar moved from Barcelona to PSG in 2017, setting a then-world record?",
+      "a": "€222 million",
       "angle": "transfer"
     },
     {
@@ -640,8 +620,8 @@
       "angle": "records"
     },
     {
-      "q": "Who holds the most international goals in men's football (as of 2023)?",
-      "a": "Cristiano Ronaldo",
+      "q": "Who held the record for most international goals in men's football as of 2021?",
+      "a": "Ali Daei (109 goals for Iran)",
       "angle": "records"
     },
     {
@@ -695,18 +675,13 @@
       "angle": "awards"
     },
     {
-      "q": "Who is the youngest player ever to debut in a World Cup finals match?",
-      "a": "Norman Whiteside (17 years 41 days, 1982)",
+      "q": "Who is the youngest player to appear in a men's World Cup match, debuting at 17 years and 41 days in 1982?",
+      "a": "Norman Whiteside (Northern Ireland)",
       "angle": "records"
     },
     {
       "q": "Who is the only player to score in five different men's World Cups?",
       "a": "Cristiano Ronaldo (as of 2022)",
-      "angle": "records"
-    },
-    {
-      "q": "Who scored the fastest World Cup goal?",
-      "a": "Hakan Şükür (Turkey, 11 seconds in 2002)",
       "angle": "records"
     },
     {
@@ -723,11 +698,6 @@
       "q": "Which club has the most Champions League titles?",
       "a": "Real Madrid",
       "angle": "records"
-    },
-    {
-      "q": "Who scored the \"Goal of the Century\" in 1986?",
-      "a": "Diego Maradona vs. England",
-      "angle": "history"
     },
     {
       "q": "Who is the top Champions League scorer?",

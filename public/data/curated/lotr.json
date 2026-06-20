@@ -61,8 +61,8 @@
       "angle": "villain"
     },
     {
-      "q": "What color are Gandalf the Grey's robes?",
-      "a": "Grey",
+      "q": "What does Gandalf say as he falls into the abyss of Moria?",
+      "a": "\"You shall not pass!\"",
       "angle": "iconic"
     },
     {
@@ -126,11 +126,6 @@
       "angle": "ally"
     },
     {
-      "q": "Who is the Lady of Lórien?",
-      "a": "Galadriel",
-      "angle": "elves"
-    },
-    {
       "q": "What creature does Frodo ride briefly in the Shire?",
       "a": "A pony",
       "angle": "travel"
@@ -141,12 +136,7 @@
       "angle": "home"
     },
     {
-      "q": "What city is called the White City?",
-      "a": "Minas Tirith",
-      "angle": "setting"
-    },
-    {
-      "q": "Who forges the Fellowship?",
+      "q": "At whose council is the Fellowship of the Ring formed?",
       "a": "Elrond at Rivendell",
       "angle": "council"
     },
@@ -448,11 +438,6 @@
       "angle": "lore"
     },
     {
-      "q": "Who is Boromir's brother?",
-      "a": "Faramir",
-      "angle": "characters"
-    },
-    {
       "q": "What forest do Merry and Pippin meet Treebeard in?",
       "a": "Fangorn Forest",
       "angle": "locations"
@@ -503,8 +488,8 @@
       "angle": "items"
     },
     {
-      "q": "Who reforges the sword for Aragorn?",
-      "a": "Elven smiths in Rivendell (in film by Elrond's smiths, in book by elves of Rivendell)",
+      "q": "Who reforges the sword Narsil into Andúril for Aragorn?",
+      "a": "The Elven smiths of Rivendell",
       "angle": "production"
     },
     {
@@ -560,19 +545,14 @@
       "angle": "lore"
     },
     {
-      "q": "How many members are in the Fellowship?",
-      "a": "Nine",
+      "q": "Name all nine members of the Fellowship of the Ring.",
+      "a": "Frodo, Sam, Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli, Boromir",
       "angle": "fellowship"
     },
     {
       "q": "What is Gollum's original name?",
       "a": "Sméagol",
       "angle": "identity"
-    },
-    {
-      "q": "When was The Fellowship of the Ring published?",
-      "a": "1954",
-      "angle": "publication"
     },
     {
       "q": "What prophecy concerns the Witch-king?",
@@ -585,8 +565,8 @@
       "angle": "mystery"
     },
     {
-      "q": "What is Frodo's Elvish blade called?",
-      "a": "Sting",
+      "q": "Sting originally belonged to which hobbit before Frodo?",
+      "a": "Bilbo Baggins",
       "angle": "artifact"
     },
     {
@@ -730,11 +710,6 @@
       "angle": "plot"
     },
     {
-      "q": "Who is the father of Boromir and Faramir?",
-      "a": "Denethor II",
-      "angle": "characters"
-    },
-    {
       "q": "What is the Sindarin name for Rivendell?",
       "a": "Imladris",
       "angle": "lore"
@@ -770,8 +745,8 @@
       "angle": "lore"
     },
     {
-      "q": "What is the name of the spider in Mirkwood?",
-      "a": "Shelob's kin: giant spiders; in The Hobbit spider is unnamed, Shelob is in Mordor",
+      "q": "What ancient evil being is Shelob said to be the last child of?",
+      "a": "Ungoliant",
       "angle": "creatures"
     },
     {
@@ -780,8 +755,8 @@
       "angle": "characters"
     },
     {
-      "q": "What is the name of Aragorn's horse?",
-      "a": "Brego (film) / Roheryn (book gift from Arwen)",
+      "q": "What is the name of Aragorn's horse, gifted to him by Arwen's kin?",
+      "a": "Roheryn",
       "angle": "items"
     },
     {

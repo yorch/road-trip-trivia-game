@@ -1,11 +1,6 @@
 {
   "easy": [
     {
-      "q": "What ancient wonder is in Egypt?",
-      "a": "The Pyramids (Great Pyramid of Giza)",
-      "angle": "ancient empire"
-    },
-    {
       "q": "Who was the first emperor of Rome?",
       "a": "Augustus Caesar",
       "angle": "ancient empire"
@@ -31,8 +26,8 @@
       "angle": "conflict"
     },
     {
-      "q": "What is the oldest religion?",
-      "a": "Hinduism (generally considered)",
+      "q": "What is generally considered the world's oldest major religion still practiced today?",
+      "a": "Hinduism",
       "angle": "ancient empire"
     },
     {
@@ -106,11 +101,6 @@
       "angle": "wonders"
     },
     {
-      "q": "Who conquered much of the ancient world from Macedonia?",
-      "a": "Alexander the Great",
-      "angle": "leaders"
-    },
-    {
       "q": "Which empire built roads and aqueducts across Europe?",
       "a": "The Roman Empire",
       "angle": "empires"
@@ -154,11 +144,6 @@
       "q": "What war was fought between Allies and Axis powers?",
       "a": "World War II",
       "angle": "wars"
-    },
-    {
-      "q": "Who painted the Mona Lisa?",
-      "a": "Leonardo da Vinci",
-      "angle": "culture"
     },
     {
       "q": "What revolution began in 1789 in Europe?",
@@ -221,11 +206,6 @@
       "angle": "wars"
     },
     {
-      "q": "Who was the Egyptian queen with Julius Caesar?",
-      "a": "Cleopatra VII",
-      "angle": "leaders"
-    },
-    {
       "q": "Who was the famous queen of ancient Egypt with Julius Caesar?",
       "a": "Cleopatra VII",
       "angle": "leaders"
@@ -261,11 +241,6 @@
       "angle": "events"
     },
     {
-      "q": "Who was the first Emperor of Rome?",
-      "a": "Augustus (Octavian)",
-      "angle": "leaders"
-    },
-    {
       "q": "What wall separated East and West Berlin?",
       "a": "Berlin Wall",
       "angle": "modern"
@@ -283,9 +258,9 @@
       "angle": "ancient empire"
     },
     {
-      "q": "Who was the longest-reigning British monarch?",
-      "a": "Queen Elizabeth II",
-      "angle": "ancient empire"
+      "q": "How many years did Queen Elizabeth II reign as British monarch?",
+      "a": "70 years (1952–2022)",
+      "angle": "monarch"
     },
     {
       "q": "What route connected Europe and Asia for trade?",
@@ -323,9 +298,9 @@
       "angle": "conflict"
     },
     {
-      "q": "What was the Renaissance?",
-      "a": "A period of cultural rebirth in Europe (14th-17th century)",
-      "angle": "ancient empire"
+      "q": "Which Italian city-state is considered the birthplace of the Renaissance?",
+      "a": "Florence",
+      "angle": "culture"
     },
     {
       "q": "What dynasty built much of the Great Wall?",
@@ -423,11 +398,6 @@
       "angle": "empires"
     },
     {
-      "q": "What dynasty built much of the Great Wall?",
-      "a": "Ming Dynasty (existing walls earlier)",
-      "angle": "china"
-    },
-    {
       "q": "What document limited the English king in 1215?",
       "a": "Magna Carta",
       "angle": "documents"
@@ -523,11 +493,6 @@
       "angle": "leaders"
     },
     {
-      "q": "What treaty ended World War I?",
-      "a": "Treaty of Versailles",
-      "angle": "diplomacy"
-    },
-    {
       "q": "Who led the Long March in China?",
       "a": "Mao Zedong",
       "angle": "modern"
@@ -544,7 +509,7 @@
     },
     {
       "q": "What event sparked the Arab Spring in 2010?",
-      "a": "Tunisian fruit seller Mohamed Bouazizi self-immolation",
+      "a": "The self-immolation of Tunisian street vendor Mohamed Bouazizi",
       "angle": "modern"
     },
     {
@@ -573,11 +538,6 @@
       "angle": "history"
     },
     {
-      "q": "What is the Meiji Restoration?",
-      "a": "1868 restoration of imperial rule/modernization in Japan",
-      "angle": "modern"
-    },
-    {
       "q": "Who was the first female British PM?",
       "a": "Margaret Thatcher",
       "angle": "modern"
@@ -597,7 +557,7 @@
     {
       "q": "Who was the last Tsar of Russia?",
       "a": "Nicholas II",
-      "angle": "ancient empire"
+      "angle": "revolution"
     },
     {
       "q": "What empire was ruled by Suleiman the Magnificent?",
@@ -660,7 +620,7 @@
       "angle": "title"
     },
     {
-      "q": "What empire did Tamerlane (Timur) found?",
+      "q": "What empire did Tamerlane (Timur) establish?",
       "a": "Timurid Empire",
       "angle": "empire"
     },
@@ -700,8 +660,8 @@
       "angle": "conflict"
     },
     {
-      "q": "Who was Mansa Musa?",
-      "a": "Emperor of Mali known for wealth and pilgrimage",
+      "q": "What event made Mansa Musa famous beyond Africa's borders in the 14th century?",
+      "a": "His 1324 Hajj pilgrimage to Mecca, during which he distributed so much gold it caused inflation across the Middle East",
       "angle": "empire"
     },
     {
@@ -733,11 +693,6 @@
       "q": "What was the Great Schism of 1054?",
       "a": "Split between Eastern Orthodox and Roman Catholic Churches",
       "angle": "religion"
-    },
-    {
-      "q": "What was the Thirty Years' War primarily about?",
-      "a": "Religious and political conflict in Central Europe (1618-1648)",
-      "angle": "wars"
     },
     {
       "q": "Who was the Carthaginian general who crossed the Alps with elephants?",
@@ -845,11 +800,6 @@
       "angle": "rebellions"
     },
     {
-      "q": "Who was known as the Iron Chancellor?",
-      "a": "Otto von Bismarck",
-      "angle": "leaders"
-    },
-    {
       "q": "What was the capital of the Eastern Roman Empire?",
       "a": "Constantinople",
       "angle": "history"
@@ -865,8 +815,8 @@
       "angle": "religion"
     },
     {
-      "q": "What is the world's oldest continually inhabited city often cited?",
-      "a": "Damascus (disputed), also Jericho, Byblos",
+      "q": "What ancient Mesopotamian city-state produced the world's earliest known written law code around 2100 BC?",
+      "a": "Ur (Code of Ur-Nammu)",
       "angle": "history"
     },
     {

@@ -51,18 +51,18 @@
       "angle": "founders"
     },
     {
-      "q": "What GPU brand does NVIDIA sell?",
+      "q": "What is the name of NVIDIA's consumer GPU product line?",
       "a": "GeForce",
       "angle": "products"
     },
     {
-      "q": "What CPU brand does Intel sell for PCs?",
+      "q": "What is the name of Intel's mainstream consumer CPU product line?",
       "a": "Core series",
       "angle": "products"
     },
     {
-      "q": "What streaming service does Netflix provide?",
-      "a": "Video streaming",
+      "q": "In what year did Netflix launch its streaming service?",
+      "a": "2007",
       "angle": "products"
     },
     {
@@ -136,8 +136,8 @@
       "angle": "products"
     },
     {
-      "q": "What online marketplace is run by Amazon?",
-      "a": "Amazon.com",
+      "q": "What is the name of Amazon's third-party seller marketplace platform?",
+      "a": "Amazon Marketplace",
       "angle": "products"
     },
     {
@@ -226,7 +226,7 @@
       "angle": "products"
     },
     {
-      "q": "Which home-sharing platform connects hosts and guests?",
+      "q": "Which tech company, founded in 2008, lets homeowners rent out their spare rooms or entire homes to travelers?",
       "a": "Airbnb",
       "angle": "products"
     },
@@ -388,8 +388,8 @@
       "angle": "acquisitions"
     },
     {
-      "q": "What company makes Apple’s A-series and M-series chips?",
-      "a": "Designed by Apple; manufactured by TSMC",
+      "q": "Which Taiwanese company manufactures Apple’s A-series and M-series chips?",
+      "a": "TSMC (Taiwan Semiconductor Manufacturing Company)",
       "angle": "supply"
     },
     {
@@ -635,7 +635,7 @@
       "angle": "leadership"
     },
     {
-      "q": "Who became Alphabet/Google CEO in 2015?",
+      "q": "Who became Google's CEO in August 2015 when Larry Page stepped up to lead Alphabet?",
       "a": "Sundar Pichai",
       "angle": "leadership"
     },
@@ -740,8 +740,8 @@
       "angle": "tech"
     },
     {
-      "q": "Which company created the ARM architecture?",
-      "a": "ARM (Acorn), now Arm Ltd.",
+      "q": "Which British computer company originally developed the ARM processor architecture in the 1980s?",
+      "a": "Acorn Computers",
       "angle": "tech"
     },
     {

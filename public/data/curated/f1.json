@@ -236,7 +236,7 @@
       "angle": "operations"
     },
     {
-      "q": "Who is the Spanish two-time champion on the current grid?",
+      "q": "Which Spanish driver won back-to-back F1 titles in 2005 and 2006?",
       "a": "Fernando Alonso",
       "angle": "drivers"
     },
@@ -323,9 +323,9 @@
       "angle": "rules"
     },
     {
-      "q": "How many Power Unit component types are limited?",
-      "a": "Six (ICE, Turbo, MGU-H, MGU-K, Energy Store, Control Electronics)",
-      "angle": "tech"
+      "q": "Which team won the first F1 Constructors’ Championship in 1958?",
+      "a": "Vanwall",
+      "angle": "records"
     },
     {
       "q": "How many dry tyre compounds are nominated per weekend?",
@@ -605,8 +605,8 @@
       "angle": "history"
     },
     {
-      "q": "Who has the most Constructors’ titles?",
-      "a": "Ferrari (16)",
+      "q": "How many Constructors’ Championships did Williams win between 1992 and 1997?",
+      "a": "Five (1992, 1993, 1994, 1996, 1997)",
       "angle": "records"
     },
     {
@@ -715,8 +715,8 @@
       "angle": "history"
     },
     {
-      "q": "Who holds the record for most consecutive podiums?",
-      "a": "Michael Schumacher (2001-2002, 19) / Lewis Hamilton matched 16; record 19 by Schu",
+      "q": "Who holds the record for most consecutive F1 podium finishes?",
+      "a": "Michael Schumacher (19 consecutive podiums, 2001-2002)",
       "angle": "records"
     },
     {
@@ -755,8 +755,8 @@
       "angle": "history"
     },
     {
-      "q": "Who was the first black driver in F1?",
-      "a": "Willy T. Ribbs tested; first Black race winner is Lewis Hamilton",
+      "q": "Who was the first Black driver to win the F1 World Championship?",
+      "a": "Lewis Hamilton (2008)",
       "angle": "history"
     },
     {

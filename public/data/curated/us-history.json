@@ -76,11 +76,6 @@
       "angle": "symbol"
     },
     {
-      "q": "Who freed the Confederate states' enslaved people?",
-      "a": "Emancipation Proclamation (1863)",
-      "angle": "amendment"
-    },
-    {
       "q": "What building do presidents live in?",
       "a": "The White House",
       "angle": "symbol"
@@ -101,44 +96,9 @@
       "angle": "civics"
     },
     {
-      "q": "Who was the first President of the United States?",
-      "a": "George Washington",
-      "angle": "presidents"
-    },
-    {
-      "q": "What year did the United States declare independence?",
-      "a": "1776",
-      "angle": "dates"
-    },
-    {
       "q": "What document begins with \"We the People\"?",
       "a": "The U.S. Constitution",
       "angle": "documents"
-    },
-    {
-      "q": "Who wrote the Declaration of Independence?",
-      "a": "Thomas Jefferson (principal author)",
-      "angle": "founders"
-    },
-    {
-      "q": "What war was fought between the North and South states?",
-      "a": "The American Civil War",
-      "angle": "wars"
-    },
-    {
-      "q": "Who freed the slaves with the Emancipation Proclamation?",
-      "a": "Abraham Lincoln",
-      "angle": "presidents"
-    },
-    {
-      "q": "What is the U.S. national anthem?",
-      "a": "The Star-Spangled Banner",
-      "angle": "culture"
-    },
-    {
-      "q": "What city is the U.S. capital?",
-      "a": "Washington, D.C.",
-      "angle": "locations"
     },
     {
       "q": "What ship carried the Pilgrims?",
@@ -154,11 +114,6 @@
       "q": "What purchase doubled the size of the U.S. in 1803?",
       "a": "The Louisiana Purchase",
       "angle": "expansion"
-    },
-    {
-      "q": "What holiday celebrates U.S. independence?",
-      "a": "Fourth of July",
-      "angle": "culture"
     },
     {
       "q": "Who invented the light bulb commercially?",
@@ -251,7 +206,7 @@
       "angle": "ww2"
     },
     {
-      "q": "Who wrote Poor Richard’s Almanack?",
+      "q": "Who wrote Poor Richard's Almanack?",
       "a": "Benjamin Franklin",
       "angle": "colonial"
     },
@@ -508,11 +463,6 @@
       "angle": "supreme-court"
     },
     {
-      "q": "Who was president during the Louisiana Purchase?",
-      "a": "Thomas Jefferson",
-      "angle": "presidents"
-    },
-    {
       "q": "What 2001 event led to War on Terror?",
       "a": "September 11 attacks",
       "angle": "modern"
@@ -560,11 +510,6 @@
       "angle": "amendment"
     },
     {
-      "q": "Who was president during the Louisiana Purchase?",
-      "a": "Thomas Jefferson",
-      "angle": "milestone"
-    },
-    {
       "q": "What year was the Constitution ratified?",
       "a": "1788",
       "angle": "founding"
@@ -586,7 +531,7 @@
     },
     {
       "q": "Who was president during World War I?",
-      "a": "Woodwood Wilson",
+      "a": "Woodrow Wilson",
       "angle": "conflict"
     },
     {

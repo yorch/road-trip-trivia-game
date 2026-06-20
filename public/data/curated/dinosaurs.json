@@ -141,8 +141,8 @@
       "angle": "predators"
     },
     {
-      "q": "What do we call fossilized eggs?",
-      "a": "Egg fossils or trace fossils",
+      "q": "What do we call footprints left by dinosaurs that turned to stone?",
+      "a": "Trace fossils (or trackways)",
       "angle": "trace"
     },
     {
@@ -181,13 +181,13 @@
       "angle": "herbivores"
     },
     {
-      "q": "What color were many dinosaur fossils originally?",
-      "a": "Bones themselves were mineralized, not the original color",
+      "q": "What process turns dinosaur bones into rock over millions of years?",
+      "a": "Mineralization (fossilization)",
       "angle": "fossils"
     },
     {
-      "q": "What is the job of removing rock from fossils called?",
-      "a": "Preparation",
+      "q": "Where are most dinosaur fossils displayed for the public to see?",
+      "a": "Museums (natural history museums)",
       "angle": "science"
     },
     {
@@ -209,11 +209,6 @@
       "q": "What does 'Triceratops' mean?",
       "a": "Three-horned face",
       "angle": "herbivores"
-    },
-    {
-      "q": "What tool brushes dust off fossils?",
-      "a": "A soft brush",
-      "angle": "science"
     },
     {
       "q": "What dinosaur had a crest that made a honking sound?",
@@ -239,11 +234,6 @@
       "q": "What dinosaur name means 'different lizard'?",
       "a": "Allosaurus",
       "angle": "predators"
-    },
-    {
-      "q": "What is a fossilized dinosaur egg called?",
-      "a": "An egg fossil",
-      "angle": "trace"
     },
     {
       "q": "What animal group survived and evolved into birds?",
@@ -277,11 +267,6 @@
     }
   ],
   "medium": [
-    {
-      "q": "What era did dinosaurs live in?",
-      "a": "Mesozoic Era",
-      "angle": "eras"
-    },
     {
       "q": "What are the three periods of the Mesozoic Era?",
       "a": "Triassic, Jurassic, Cretaceous",
@@ -453,7 +438,7 @@
       "angle": "fossils"
     },
     {
-      "q": "What dinosaur had a frill and large nasal horn (not Triceratops)?",
+      "q": "What horned dinosaur had a dramatic frill lined with long spikes radiating outward?",
       "a": "Styracosaurus",
       "angle": "herbivores"
     },
@@ -750,8 +735,8 @@
       "angle": "paleontology"
     },
     {
-      "q": "Which Jurassic site in Portugal is famous for sauropod tracks?",
-      "a": "Lourinhã Formation tracksites",
+      "q": "Which European country has produced some of the largest Jurassic dinosaur fossils in the world, including giant sauropods?",
+      "a": "Portugal (Lourinhã region)",
       "angle": "fossils"
     },
     {
@@ -795,19 +780,9 @@
       "angle": "history"
     },
     {
-      "q": "Which dating method uses zircon crystals and uranium-lead decay?",
-      "a": "U-Pb dating",
-      "angle": "science"
-    },
-    {
       "q": "Which small bird-like dinosaur had four wings?",
       "a": "Microraptor",
       "angle": "transition"
-    },
-    {
-      "q": "What era did dinosaurs live in?",
-      "a": "Mesozoic Era",
-      "angle": "time"
     },
     {
       "q": "What is the name of the K-Pg extinction event boundary?",
@@ -823,11 +798,6 @@
       "q": "Which early bird fossil shows dinosaur-bird transition?",
       "a": "Archaeopteryx",
       "angle": "transition"
-    },
-    {
-      "q": "What dating method uses uranium-lead in zircon?",
-      "a": "U-Pb dating",
-      "angle": "science"
     }
   ]
 }

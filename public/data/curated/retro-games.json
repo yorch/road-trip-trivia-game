@@ -61,8 +61,8 @@
       "angle": "platformers"
     },
     {
-      "q": "What fruit-shaped power-up gives Pac-Man invincibility?",
-      "a": "Power pellet (not fruit)",
+      "q": "What power-up gives Pac-Man the ability to eat ghosts?",
+      "a": "Power pellet",
       "angle": "arcades"
     },
     {
@@ -151,14 +151,9 @@
       "angle": "platformers"
     },
     {
-      "q": "Who is the plumber hero in Super Mario Bros.?",
-      "a": "Mario",
-      "angle": "characters"
-    },
-    {
-      "q": "Who is Mario's brother?",
-      "a": "Luigi",
-      "angle": "characters"
+      "q": "What item does Mario use to fly with a Tanooki suit?",
+      "a": "Super Leaf",
+      "angle": "items"
     },
     {
       "q": "What company made the NES?",
@@ -211,13 +206,13 @@
       "angle": "characters"
     },
     {
-      "q": "What item saves the princess in Zelda?",
-      "a": "Triforce quest",
+      "q": "What legendary relic does Link seek in The Legend of Zelda?",
+      "a": "The Triforce",
       "angle": "items"
     },
     {
       "q": "What ghost-hunting game stars Luigi?",
-      "a": "Luigi's Mansion (later era, but Luigi",
+      "a": "Luigi's Mansion",
       "angle": "characters"
     },
     {
@@ -298,8 +293,8 @@
       "angle": "platformers"
     },
     {
-      "q": "What game caused the 1983 video game crash?",
-      "a": "E.T. the Extra-Terrestrial (among factors)",
+      "q": "Which notoriously bad Atari 2600 game is often blamed for contributing to the 1983 video game crash?",
+      "a": "E.T. the Extra-Terrestrial",
       "angle": "history"
     },
     {
@@ -428,13 +423,8 @@
       "angle": "story"
     },
     {
-      "q": "What year did the NES launch in North America?",
-      "a": "1985",
-      "angle": "dates"
-    },
-    {
-      "q": "What is the highest-scoring fruit in Pac-Man?",
-      "a": "Keys (late levels)",
+      "q": "What is the highest-scoring bonus item in Pac-Man?",
+      "a": "Key (3000 points, appears on level 9+)",
       "angle": "mechanics"
     },
     {
@@ -448,12 +438,12 @@
       "angle": "creators"
     },
     {
-      "q": "What is the 30 life code in Contra?",
-      "a": "Up Up Down Down Left Right Left Right B A Start",
-      "angle": "codes"
+      "q": "What is the name of the robot master who shoots Rolling Cutters in Mega Man?",
+      "a": "Cut Man",
+      "angle": "bosses"
     },
     {
-      "q": "What arcade game first used the Konami Code?",
+      "q": "What arcade game made the Konami Code famous?",
       "a": "Gradius (1986)",
       "angle": "history"
     },
@@ -590,13 +580,13 @@
       "angle": "platformers"
     },
     {
-      "q": "How many copies did E.T. for Atari sell?",
-      "a": "About 1.5 million (4 million produced)",
+      "q": "How many cartridges of E.T. for Atari 2600 were produced?",
+      "a": "About 4 million (far more than sold, leading to mass burial)",
       "angle": "history"
     },
     {
-      "q": "What is the fastest speedrun time for Super Mario Bros.?",
-      "a": "Under 5 minutes (records improve)",
+      "q": "What is the approximate speedrun world record category for Super Mario Bros. that became famous?",
+      "a": "Any% (sub-5 minutes, famously broken in 2014 below 5:00)",
       "angle": "speedrun"
     },
     {
@@ -655,8 +645,8 @@
       "angle": "glitch"
     },
     {
-      "q": "What RPG used Mode 7 for world map rotation?",
-      "a": "Final Fantasy VI/Chrono Trigger used Mode 7 (SNES)",
+      "q": "What SNES RPG used Mode 7 for its rotating world map?",
+      "a": "Final Fantasy VI",
       "angle": "tech"
     },
     {
@@ -710,9 +700,9 @@
       "angle": "dates"
     },
     {
-      "q": "Who composed the Tetris Game Boy theme arrangement?",
-      "a": "Hirokazu Tanaka (Type A from folk Korobeiniki)",
-      "angle": "music"
+      "q": "What was the name of the ship in the classic SNES shooter Super R-Type?",
+      "a": "R-9 (R-9A Arrowhead)",
+      "angle": "games"
     },
     {
       "q": "What company developed Castlevania?",

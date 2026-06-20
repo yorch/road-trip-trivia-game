@@ -141,11 +141,6 @@
       "angle": "hooks"
     },
     {
-      "q": "Who sang 'Shake It Off' and 'Blank Space'?",
-      "a": "Taylor Swift",
-      "angle": "artist"
-    },
-    {
       "q": "Who sang 'Can't Stop the Feeling!'?",
       "a": "Justin Timberlake",
       "angle": "hooks"
@@ -161,43 +156,13 @@
       "angle": "hooks"
     },
     {
-      "q": "Who sang Bad Guy?",
-      "a": "Billie Eilish",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Shape of You?",
-      "a": "Ed Sheeran",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Blinding Lights?",
-      "a": "The Weeknd",
-      "angle": "artists"
-    },
-    {
       "q": "Who is known for the song Rolling in the Deep?",
       "a": "Adele",
       "angle": "artists"
     },
     {
-      "q": "Who sang Uptown Funk with Bruno Mars?",
-      "a": "Mark Ronson ft. Bruno Mars",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Call Me Maybe?",
-      "a": "Carly Rae Jepsen",
-      "angle": "artists"
-    },
-    {
       "q": "Who is the group behind Dynamite?",
       "a": "BTS",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Firework?",
-      "a": "Katy Perry",
       "angle": "artists"
     },
     {
@@ -211,16 +176,6 @@
       "angle": "artists"
     },
     {
-      "q": "Who sang Shake It Off?",
-      "a": "Taylor Swift",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Royals?",
-      "a": "Lorde",
-      "angle": "artists"
-    },
-    {
       "q": "Who is known for Havana?",
       "a": "Camila Cabello",
       "angle": "artists"
@@ -231,28 +186,8 @@
       "angle": "artists"
     },
     {
-      "q": "Who sang Wrecking Ball?",
-      "a": "Miley Cyrus",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Levitating?",
-      "a": "Dua Lipa",
-      "angle": "artists"
-    },
-    {
       "q": "Who sang Single Ladies?",
       "a": "Beyoncé",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Bad Romance?",
-      "a": "Lady Gaga",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Happy?",
-      "a": "Pharrell Williams",
       "angle": "artists"
     },
     {
@@ -294,7 +229,7 @@
     },
     {
       "q": "Who has the most Grammy wins?",
-      "a": "Beyoncé (32 wins as of 2023)",
+      "a": "Beyoncé",
       "angle": "radio moments"
     },
     {
@@ -311,11 +246,6 @@
       "q": "What is the most-streamed song on Spotify?",
       "a": "Blinding Lights by The Weeknd (as of 2024)",
       "angle": "radio moments"
-    },
-    {
-      "q": "Who sang 'Call Me Maybe'?",
-      "a": "Carly Rae Jepsen",
-      "angle": "choruses"
     },
     {
       "q": "What was Katy Perry's first number-one hit?",
@@ -443,11 +373,6 @@
       "angle": "albums"
     },
     {
-      "q": "Who produced Uptown Funk?",
-      "a": "Mark Ronson",
-      "angle": "producers"
-    },
-    {
       "q": "What year did Blinding Lights top charts globally?",
       "a": "2020 (released 2019)",
       "angle": "years"
@@ -465,11 +390,6 @@
     {
       "q": "Who sings About Damn Time?",
       "a": "Lizzo",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Shake It Off?",
-      "a": "Taylor Swift",
       "angle": "artists"
     },
     {
@@ -520,11 +440,6 @@
     {
       "q": "Who collaborated on I'm the One?",
       "a": "DJ Khaled ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Sorry Not Sorry?",
-      "a": "Demi Lovato",
       "angle": "artists"
     },
     {
@@ -600,7 +515,7 @@
       "angle": "hooks"
     },
     {
-      "q": "What is the best-selling single of all time?",
+      "q": "What is the best-selling physical single of all time, according to Guinness World Records?",
       "a": "White Christmas by Bing Crosby",
       "angle": "radio moments"
     },
@@ -610,8 +525,8 @@
       "angle": "radio moments"
     },
     {
-      "q": "Who has the most Diamond certifications?",
-      "a": "The Beatles (6 albums)",
+      "q": "Which artist holds the most RIAA Diamond-certified albums in the rock era?",
+      "a": "The Beatles (6 Diamond-certified albums)",
       "angle": "radio moments"
     },
     {
@@ -630,8 +545,8 @@
       "angle": "streaming"
     },
     {
-      "q": "What song dethroned 'Despacito' on most YouTube views?",
-      "a": "\"Baby Shark Dance\" (later 'Despacito' regained; fluctuate)",
+      "q": "What children's song surpassed 'Despacito' to become the most-viewed YouTube video?",
+      "a": "Baby Shark Dance by Pinkfong",
       "angle": "stats"
     },
     {
@@ -715,8 +630,8 @@
       "angle": "history"
     },
     {
-      "q": "What producer duo is behind many Weeknd hits?",
-      "a": "Max Martin and Oscar Holter (also DaHeala etc.)",
+      "q": "Which Swedish producer is primarily responsible for The Weeknd's 'Blinding Lights' sound?",
+      "a": "Max Martin (with Oscar Holter)",
       "angle": "production"
     },
     {
@@ -745,8 +660,8 @@
       "angle": "genre"
     },
     {
-      "q": "What song broke Spotify single-day streams in 2022?",
-      "a": "As It Was by Harry Styles (and others later)",
+      "q": "What Harry Styles song set a Spotify record for single-day streams upon release in 2022?",
+      "a": "As It Was",
       "angle": "records"
     },
     {

@@ -16,8 +16,8 @@
       "angle": "acronym"
     },
     {
-      "q": "What wearable counts your steps and heart rate?",
-      "a": "A fitness tracker or smartwatch",
+      "q": "What wearable is primarily designed to track fitness metrics like steps and heart rate?",
+      "a": "A fitness tracker",
       "angle": "consumer device"
     },
     {
@@ -71,8 +71,8 @@
       "angle": "security feature"
     },
     {
-      "q": "What chip brand powers many gaming PCs?",
-      "a": "AMD or Intel",
+      "q": "What chip brand, known for its Ryzen processors, became a major rival to Intel in gaming PCs?",
+      "a": "AMD",
       "angle": "semiconductor"
     },
     {
@@ -211,8 +211,8 @@
       "angle": "use case"
     },
     {
-      "q": "What is wireless charging often called?",
-      "a": "Qi charging",
+      "q": "What wireless charging standard, developed by the Wireless Power Consortium, became the most widely adopted?",
+      "a": "Qi",
       "angle": "charging"
     }
   ],
@@ -233,8 +233,8 @@
       "angle": "ai hardware"
     },
     {
-      "q": "What launch introduced the M1 chip to Macs?",
-      "a": "Apple's 2020 Mac lineup",
+      "q": "Which Mac was the first to ship with Apple's M1 chip in November 2020?",
+      "a": "The MacBook Air",
       "angle": "product launch"
     },
     {
@@ -393,8 +393,8 @@
       "angle": "web tech"
     },
     {
-      "q": "What is a photonic chip exploring?",
-      "a": "Using light instead of electrons for compute or interconnect",
+      "q": "What type of chip uses light signals instead of electrical signals to move data?",
+      "a": "A photonic chip",
       "angle": "research"
     },
     {
@@ -409,7 +409,7 @@
     },
     {
       "q": "What is passkey login?",
-      "a": "Passwordless authentication using device-bound keys",
+      "a": "Signing in using cryptographic keys stored on your device instead of a password",
       "angle": "security"
     },
     {
@@ -420,8 +420,8 @@
   ],
   "hard": [
     {
-      "q": "What node size launched with Apple A17 Pro?",
-      "a": "A 3 nm process",
+      "q": "What TSMC process node was used to manufacture the Apple A17 Pro chip?",
+      "a": "TSMC's N3 (3 nm class) process",
       "angle": "process node"
     },
     {
@@ -431,7 +431,7 @@
     },
     {
       "q": "What is chiplet architecture?",
-      "a": "Combining multiple smaller dies in one package",
+      "a": "Assembling a processor from multiple smaller dies interconnected in one package",
       "angle": "semiconductor"
     },
     {
@@ -465,8 +465,8 @@
       "angle": "manufacturing"
     },
     {
-      "q": "What is photolithography?",
-      "a": "Using light to pattern circuits on silicon wafers",
+      "q": "What wavelength of light does extreme ultraviolet (EUV) lithography use to print chip patterns?",
+      "a": "13.5 nanometers",
       "angle": "manufacturing"
     },
     {
@@ -546,7 +546,7 @@
     },
     {
       "q": "What is V2G in EVs?",
-      "a": "Vehicle-to-grid power flow",
+      "a": "Vehicle-to-grid: bidirectional power flow allowing EVs to feed electricity back to the grid",
       "angle": "energy"
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "q": "What is wafer-scale integration?",
-      "a": "Building a massive processor across almost a whole wafer",
+      "a": "Using an entire silicon wafer as a single chip rather than cutting it into individual dies",
       "angle": "semiconductor"
     },
     {
@@ -605,8 +605,8 @@
       "angle": "display tech"
     },
     {
-      "q": "What does AV1 improve?",
-      "a": "Video compression efficiency over older codecs",
+      "q": "What does AV1 improve over H.264 and H.265?",
+      "a": "Better quality at the same bitrate, reducing bandwidth for streaming",
       "angle": "media"
     },
     {

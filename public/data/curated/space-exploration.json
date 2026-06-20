@@ -6,11 +6,6 @@
       "angle": "planet"
     },
     {
-      "q": "Who was the first person in space?",
-      "a": "Yuri Gagarin",
-      "angle": "astronaut"
-    },
-    {
       "q": "What does NASA stand for?",
       "a": "National Aeronautics and Space Administration",
       "angle": "mission"
@@ -27,7 +22,7 @@
     },
     {
       "q": "What spacecraft landed on Mars?",
-      "a": "Rovers like Curiosity and Perseverance",
+      "a": "Multiple rovers, including Curiosity and Perseverance",
       "angle": "rover"
     },
     {
@@ -101,11 +96,6 @@
       "angle": "planet"
     },
     {
-      "q": "Which rover landed on Mars in 2021?",
-      "a": "Perseverance",
-      "angle": "rover"
-    },
-    {
       "q": "What moon orbits Earth?",
       "a": "The Moon (Luna)",
       "angle": "moon"
@@ -161,18 +151,8 @@
       "angle": "vehicles"
     },
     {
-      "q": "What does NASA stand for?",
-      "a": "National Aeronautics and Space Administration",
-      "angle": "org"
-    },
-    {
       "q": "What is Earth's natural satellite called?",
       "a": "The Moon",
-      "angle": "bodies"
-    },
-    {
-      "q": "What planet is known as the Red Planet?",
-      "a": "Mars",
       "angle": "bodies"
     },
     {
@@ -218,11 +198,6 @@
     {
       "q": "What was the first U.S. space station?",
       "a": "Skylab",
-      "angle": "history"
-    },
-    {
-      "q": "What was the first artificial satellite?",
-      "a": "Sputnik 1",
       "angle": "history"
     },
     {
@@ -299,7 +274,7 @@
     },
     {
       "q": "Which planet has the most moons?",
-      "a": "Saturn (or Jupiter, depending on recent discoveries)",
+      "a": "Saturn (146 confirmed moons as of 2024)",
       "angle": "moon"
     },
     {
@@ -388,11 +363,6 @@
       "angle": "mission"
     },
     {
-      "q": "What does ISS stand for?",
-      "a": "International Space Station",
-      "angle": "mission"
-    },
-    {
       "q": "Which country landed Chang'e probes on the Moon?",
       "a": "China (CNSA)",
       "angle": "mission"
@@ -463,11 +433,6 @@
       "angle": "history"
     },
     {
-      "q": "What does ISS stand for?",
-      "a": "International Space Station",
-      "angle": "org"
-    },
-    {
       "q": "What is the primary mirror size of JWST?",
       "a": "6.5 meters",
       "angle": "tech"
@@ -513,8 +478,8 @@
       "angle": "sites"
     },
     {
-      "q": "What mission series tested lunar orbit in the 1960s?",
-      "a": "Apollo program (and Ranger/Surveyor/LM tests)",
+      "q": "What mission series first put astronauts into lunar orbit in the 1960s?",
+      "a": "Apollo program (Apollo 8 was the first crewed lunar orbit, 1968)",
       "angle": "history"
     },
     {
@@ -543,8 +508,8 @@
       "angle": "history"
     },
     {
-      "q": "What telescope preceded Hubble in space astronomy?",
-      "a": "Uhuru/IRAS/others; major was Hubble; but earlier was Uhuru (X-ray)",
+      "q": "What was the first space-based X-ray astronomy telescope?",
+      "a": "Uhuru (launched 1970)",
       "angle": "history"
     },
     {
@@ -555,18 +520,18 @@
   ],
   "hard": [
     {
-      "q": "What was the first artificial satellite?",
-      "a": "Sputnik 1",
+      "q": "What was the exact date of Sputnik 1's launch?",
+      "a": "October 4, 1957",
       "angle": "mission"
     },
     {
-      "q": "Which Apollo mission successfully landed on the moon?",
-      "a": "Apollo 11",
+      "q": "Which Apollo mission was the second to land on the Moon?",
+      "a": "Apollo 12 (November 1969)",
       "angle": "mission"
     },
     {
-      "q": "What year did the Challenger disaster occur?",
-      "a": "1986",
+      "q": "What was the name of the Challenger's last mission designation?",
+      "a": "STS-51-L",
       "angle": "mission"
     },
     {
@@ -666,7 +631,7 @@
     },
     {
       "q": "Which radio telescope discovered pulsars?",
-      "a": "Jodrell Bank and Cambridge; discovery by Jocelyn Bell Burnell using Cambridge array",
+      "a": "The Mullard Radio Astronomy Observatory (Cambridge), used by Jocelyn Bell Burnell in 1967",
       "angle": "history"
     },
     {
@@ -745,8 +710,8 @@
       "angle": "missions"
     },
     {
-      "q": "What is the highest specific impulse chemical rocket engine flown?",
-      "a": "Hydrolox engines like RL10/SSME ~450s",
+      "q": "What fuel combination powers the most efficient chemical rocket engines, including the Space Shuttle Main Engine?",
+      "a": "Liquid hydrogen and liquid oxygen (hydrolox)",
       "angle": "tech"
     },
     {

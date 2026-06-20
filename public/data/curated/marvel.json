@@ -1,9 +1,9 @@
 {
   "easy": [
     {
-      "q": "What is Iron Man's real name?",
+      "q": "Who snaps the Infinity Gauntlet in Endgame?",
       "a": "Tony Stark",
-      "angle": "origin"
+      "angle": "Infinity Saga"
     },
     {
       "q": "What is Captain America's shield made of?",
@@ -26,11 +26,6 @@
       "angle": "origin"
     },
     {
-      "q": "Who snaps the Infinity Gauntlet in Endgame?",
-      "a": "Tony Stark",
-      "angle": "Infinity Saga"
-    },
-    {
       "q": "What is Black Widow's real name?",
       "a": "Natasha Romanoff",
       "angle": "Avengers"
@@ -46,14 +41,9 @@
       "angle": "mythic"
     },
     {
-      "q": "Who is Tony Stark's AI butler?",
+      "q": "What AI becomes Vision?",
       "a": "J.A.R.V.I.S.",
       "angle": "tech"
-    },
-    {
-      "q": "Who is the purple Infinity Stone collector?",
-      "a": "Thanos",
-      "angle": "villain"
     },
     {
       "q": "Who says 'I am Iron Man' first?",
@@ -101,11 +91,6 @@
       "angle": "team"
     },
     {
-      "q": "Who is the Sorcerer Supreme by title?",
-      "a": "Doctor Strange",
-      "angle": "magic"
-    },
-    {
       "q": "Which Avenger can shrink and grow giant?",
       "a": "Ant-Man",
       "angle": "powers"
@@ -146,29 +131,9 @@
       "angle": "Infinity Saga"
     },
     {
-      "q": "What AI becomes Vision?",
-      "a": "J.A.R.V.I.S.",
-      "angle": "tech"
-    },
-    {
-      "q": "Who is Iron Man's alter ego?",
-      "a": "Tony Stark",
-      "angle": "heroes"
-    },
-    {
-      "q": "Who is Captain America?",
-      "a": "Steve Rogers",
-      "angle": "heroes"
-    },
-    {
       "q": "What metal covers Wolverine's claws?",
       "a": "Adamantium",
       "angle": "powers"
-    },
-    {
-      "q": "What is Thor's hammer called?",
-      "a": "Mjolnir",
-      "angle": "items"
     },
     {
       "q": "Who is the green Avenger with immense strength?",
@@ -209,11 +174,6 @@
       "q": "Who is the Winter Soldier?",
       "a": "Bucky Barnes",
       "angle": "heroes"
-    },
-    {
-      "q": "What shield is Captain America's made of?",
-      "a": "Vibranium",
-      "angle": "items"
     },
     {
       "q": "Who is Hawkeye?",
@@ -288,9 +248,9 @@
       "angle": "Infinity Saga"
     },
     {
-      "q": "Who plays Tony Stark in the MCU?",
+      "q": "Who plays Iron Man in the MCU?",
       "a": "Robert Downey Jr.",
-      "angle": "casting"
+      "angle": "cast"
     },
     {
       "q": "What is the name of Black Panther's nation?",
@@ -326,11 +286,6 @@
       "q": "What is Captain America's real name?",
       "a": "Steve Rogers",
       "angle": "origin"
-    },
-    {
-      "q": "Who is Thor's adopted brother?",
-      "a": "Loki",
-      "angle": "family"
     },
     {
       "q": "What stone is in Vision's forehead?",
@@ -433,16 +388,6 @@
       "angle": "creators"
     },
     {
-      "q": "Who plays Iron Man in the MCU?",
-      "a": "Robert Downey Jr.",
-      "angle": "cast"
-    },
-    {
-      "q": "What is S.H.I.E.L.D.'s director?",
-      "a": "Nick Fury",
-      "angle": "teams"
-    },
-    {
       "q": "Who is the villain in Black Panther?",
       "a": "Erik Killmonger",
       "angle": "villains"
@@ -461,11 +406,6 @@
       "q": "Who is Gamora's adoptive father?",
       "a": "Thanos",
       "angle": "villains"
-    },
-    {
-      "q": "What is the name of Thor's mischievous brother?",
-      "a": "Loki",
-      "angle": "characters"
     },
     {
       "q": "Who built Ultron?",
@@ -526,11 +466,6 @@
       "q": "What is the super-soldier serum creator's name?",
       "a": "Dr. Abraham Erskine",
       "angle": "lore"
-    },
-    {
-      "q": "Who leads the Dora Milaje?",
-      "a": "Okoye",
-      "angle": "support"
     },
     {
       "q": "Who is the Falcon?",

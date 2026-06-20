@@ -1,43 +1,43 @@
 {
   "90s-cartoons": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 52,
+    "medium": 51,
+    "hard": 47
   },
   "ancient-egypt": {
-    "easy": 55,
+    "easy": 51,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "ancient-greece": {
-    "easy": 56,
-    "medium": 55,
+    "easy": 54,
+    "medium": 54,
     "hard": 55
   },
   "anime-heroes": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 49,
+    "medium": 53,
+    "hard": 53
   },
   "basketball": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 53,
+    "medium": 53,
+    "hard": 53
   },
   "dc-comics": {
     "easy": 57,
-    "medium": 55,
-    "hard": 64
+    "medium": 54,
+    "hard": 62
   },
   "dinosaurs": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 53,
+    "medium": 54,
+    "hard": 52
   },
   "disney-classics": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 51,
+    "medium": 51,
+    "hard": 54
   },
   "f1": {
     "easy": 55,
@@ -45,39 +45,39 @@
     "hard": 55
   },
   "harry-potter": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 40,
+    "medium": 49,
+    "hard": 50
   },
   "kpop-demon-hunters": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 52,
+    "medium": 50,
+    "hard": 53
   },
   "lotr": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 53,
+    "medium": 54,
+    "hard": 53
   },
   "marvel": {
-    "easy": 55,
-    "medium": 55,
+    "easy": 47,
+    "medium": 50,
     "hard": 55
   },
   "modern-games": {
-    "easy": 57,
-    "medium": 55,
-    "hard": 55
+    "easy": 54,
+    "medium": 52,
+    "hard": 53
   },
   "movie-soundtracks": {
     "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "medium": 53,
+    "hard": 54
   },
   "music-legends": {
-    "easy": 56,
-    "medium": 55,
-    "hard": 55
+    "easy": 47,
+    "medium": 52,
+    "hard": 50
   },
   "mythology": {
     "easy": 55,
@@ -85,13 +85,13 @@
     "hard": 55
   },
   "pokemon": {
-    "easy": 55,
-    "medium": 55,
+    "easy": 54,
+    "medium": 54,
     "hard": 55
   },
   "pop-hits": {
-    "easy": 57,
-    "medium": 55,
+    "easy": 44,
+    "medium": 51,
     "hard": 55
   },
   "racing": {
@@ -100,8 +100,8 @@
     "hard": 55
   },
   "retro-games": {
-    "easy": 55,
-    "medium": 55,
+    "easy": 54,
+    "medium": 54,
     "hard": 55
   },
   "robotics": {
@@ -110,19 +110,19 @@
     "hard": 48
   },
   "soccer": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 53,
+    "medium": 53,
+    "hard": 53
   },
   "space-exploration": {
-    "easy": 55,
-    "medium": 55,
+    "easy": 50,
+    "medium": 53,
     "hard": 55
   },
   "star-wars": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 44,
+    "medium": 45,
+    "hard": 43
   },
   "tech-giants": {
     "easy": 55,
@@ -135,9 +135,9 @@
     "hard": 41
   },
   "us-history": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 46,
+    "medium": 54,
+    "hard": 54
   },
   "world-capitals": {
     "easy": 40,
@@ -145,9 +145,9 @@
     "hard": 40
   },
   "world-history": {
-    "easy": 55,
-    "medium": 62,
-    "hard": 59
+    "easy": 50,
+    "medium": 59,
+    "hard": 57
   },
   "world-landmarks": {
     "easy": 55,

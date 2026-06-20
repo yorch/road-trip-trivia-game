@@ -157,7 +157,7 @@
     },
     {
       "q": "Who is the leader of the team?",
-      "a": "The group's leader/eldest member",
+      "a": "Rumi",
       "angle": "roles"
     },
     {
@@ -177,18 +177,13 @@
     },
     {
       "q": "Who handles vocals and spell chants?",
-      "a": "The main vocalist/chanter",
+      "a": "Rumi",
       "angle": "roles"
     },
     {
       "q": "Who is the main dancer and scout?",
-      "a": "The main dancer/acrobat",
+      "a": "Mira",
       "angle": "roles"
-    },
-    {
-      "q": "What agency covers their hunts?",
-      "a": "Their entertainment company/handlers",
-      "angle": "cover"
     },
     {
       "q": "What symbol seals demons?",
@@ -227,7 +222,7 @@
     },
     {
       "q": "Who handles tech and hacking?",
-      "a": "The maknae/tech specialist",
+      "a": "Zoey",
       "angle": "roles"
     },
     {
@@ -236,19 +231,9 @@
       "angle": "cover"
     },
     {
-      "q": "What item stores demon names?",
-      "a": "A grimoire disguised as a lyric book",
-      "angle": "gear"
-    },
-    {
       "q": "What is their debut song theme?",
       "a": "Light versus darkness",
       "angle": "music"
-    },
-    {
-      "q": "What chant do they shout before battle?",
-      "a": "Their group slogan/cheer",
-      "angle": "culture"
     },
     {
       "q": "Where do they perform exorcism choreo?",
@@ -262,7 +247,7 @@
     },
     {
       "q": "Who calms spirits with vocals?",
-      "a": "Lead vocalist/healer",
+      "a": "Rumi",
       "angle": "roles"
     },
     {
@@ -393,11 +378,6 @@
       "angle": "themes"
     },
     {
-      "q": "What animation style is used?",
-      "a": "Stylized CG animated feature",
-      "angle": "animation"
-    },
-    {
       "q": "What is Rumi's family background?",
       "a": "Half-human, half-demon",
       "angle": "plot"
@@ -433,19 +413,9 @@
       "angle": "lore"
     },
     {
-      "q": "Who forged their weapons?",
-      "a": "A retired hunter/producer",
-      "angle": "backstory"
-    },
-    {
       "q": "What training do they endure pre-debut?",
-      "a": "Dance, vocals, combat, and talisman crafting",
+      "a": "Dance, vocals, and combat training",
       "angle": "training"
-    },
-    {
-      "q": "What power source fuels their lightsticks?",
-      "a": "Condensed aurora crystals/fandom energy",
-      "angle": "magic"
     },
     {
       "q": "Who designs their battle choreo?",
@@ -513,16 +483,6 @@
       "angle": "cover"
     },
     {
-      "q": "What potion heals minor wounds?",
-      "a": "Herbal tonic disguised as vocal tea",
-      "angle": "gear"
-    },
-    {
-      "q": "What is their debut album title?",
-      "a": "Something like \"First Light\" (codename)",
-      "angle": "music"
-    },
-    {
       "q": "Who mediates disputes in the team?",
       "a": "The leader or calm eldest",
       "angle": "roles"
@@ -573,11 +533,6 @@
       "q": "What is the reported production budget?",
       "a": "Over $100 million",
       "angle": "budget"
-    },
-    {
-      "q": "What is the reported box office total?",
-      "a": "Around $25 million",
-      "angle": "box office"
     },
     {
       "q": "Who scored the film?",
@@ -693,11 +648,6 @@
       "q": "What year is listed for release?",
       "a": "2025",
       "angle": "release"
-    },
-    {
-      "q": "What country produced the film?",
-      "a": "United States",
-      "angle": "origin"
     },
     {
       "q": "What hybrids are central to the story?",

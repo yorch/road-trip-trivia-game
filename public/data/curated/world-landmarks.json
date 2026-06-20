@@ -111,7 +111,7 @@
       "angle": "hilltop ruins"
     },
     {
-      "q": "Where is the Sagrada Familia being built?",
+      "q": "In which city is the Sagrada Familia cathedral found?",
       "a": "Barcelona, Spain",
       "angle": "unfinished basilica"
     },
@@ -414,11 +414,11 @@
     },
     {
       "q": "Where are the Plitvice Lakes?",
-      "a": "Central Croatia",
+      "a": "Lika region, Croatia",
       "angle": "turquoise cascades"
     },
     {
-      "q": "Where is Red Square and St. Basil's Cathedral?",
+      "q": "In which city is St. Basil's Cathedral located on Red Square?",
       "a": "Moscow, Russia",
       "angle": "historic square"
     },
@@ -443,8 +443,8 @@
       "angle": "volcanic rim"
     },
     {
-      "q": "Where is the General Sherman tree?",
-      "a": "Sequoia National Park, USA",
+      "q": "In which national park can you find General Sherman, the world's largest tree by volume?",
+      "a": "Sequoia National Park, California, USA",
       "angle": "giant sequoia"
     },
     {
@@ -590,7 +590,7 @@
       "angle": "stepped well"
     },
     {
-      "q": "Where is the Darvaza gas crater burning?",
+      "q": "Where is the Darvaza gas crater, nicknamed the 'Door to Hell'?",
       "a": "Karakum Desert, Turkmenistan",
       "angle": "fiery crater"
     },
@@ -681,12 +681,12 @@
     },
     {
       "q": "Where is Mount Kailash situated?",
-      "a": "Tibet Autonomous Region, China",
+      "a": "Tibetan Plateau, southwestern Tibet",
       "angle": "sacred peak"
     },
     {
       "q": "Where is Mount Nemrut found?",
-      "a": "Adiyaman Province, Turkey",
+      "a": "Adiyaman Province, southeastern Turkey",
       "angle": "summit statues"
     },
     {
@@ -731,7 +731,7 @@
     },
     {
       "q": "Where are the Rock Islands?",
-      "a": "Palau, western Pacific",
+      "a": "Palau, Micronesia",
       "angle": "limestone islets"
     },
     {

@@ -26,11 +26,6 @@
       "angle": "retro heroes"
     },
     {
-      "q": "Who says 'What's up, Doc?'",
-      "a": "Bugs Bunny",
-      "angle": "theme songs"
-    },
-    {
       "q": "What is Pokémon short for?",
       "a": "Pocket Monsters",
       "angle": "toy tie-ins"
@@ -81,13 +76,8 @@
       "angle": "characters"
     },
     {
-      "q": "What fruit is Hey Arnold's grandma named after?",
-      "a": "Pookie (nickname)",
-      "angle": "humor"
-    },
-    {
-      "q": "Who is the wallaby in Rocko's Modern Life?",
-      "a": "Rocko",
+      "q": "What country is Rocko from in Rocko's Modern Life?",
+      "a": "Australia",
       "angle": "lead"
     },
     {
@@ -136,7 +126,7 @@
       "angle": "plot"
     },
     {
-      "q": "Who is the main villain in Darkwing Duck?",
+      "q": "Who is Darkwing Duck's evil alternate-universe double?",
       "a": "Negaduck",
       "angle": "villains"
     },
@@ -181,27 +171,27 @@
       "angle": "music"
     },
     {
-      "q": "Who is the red Powerpuff Girl?",
+      "q": "Which Powerpuff Girl is the leader of the trio?",
       "a": "Blossom",
       "angle": "team"
     },
     {
-      "q": "Who is the blue Powerpuff Girl?",
+      "q": "Which Powerpuff Girl is known for being sweet and loving animals?",
       "a": "Bubbles",
       "angle": "team"
     },
     {
-      "q": "Who is the green Powerpuff Girl?",
+      "q": "Which Powerpuff Girl is the toughest fighter and most rebellious of the three?",
       "a": "Buttercup",
       "angle": "team"
     },
     {
-      "q": "Which Ninja Turtle wears an orange mask?",
+      "q": "Which Ninja Turtle is known as the fun-loving party dude and uses nunchucks?",
       "a": "Michelangelo",
       "angle": "heroes"
     },
     {
-      "q": "Which Ninja Turtle wears a red mask?",
+      "q": "Which Ninja Turtle has the hot temper and uses twin sai?",
       "a": "Raphael",
       "angle": "heroes"
     },
@@ -209,11 +199,6 @@
       "q": "What Pokémon is known as the electric mouse?",
       "a": "Pikachu",
       "angle": "mascot"
-    },
-    {
-      "q": "What is Ash Ketchum's first Pokémon?",
-      "a": "Pikachu",
-      "angle": "plot"
     },
     {
       "q": "Who is SpongeBob's clarinet-playing neighbor?",
@@ -298,24 +283,9 @@
       "angle": "family"
     },
     {
-      "q": "Who is the main antagonist in Samurai Jack?",
-      "a": "Aku",
-      "angle": "villains"
-    },
-    {
       "q": "What are the Animaniacs' names?",
       "a": "Yakko, Wakko, Dot",
       "angle": "cast"
-    },
-    {
-      "q": "Who narrated the Magic School Bus books?",
-      "a": "Ms. Frizzle leads the class",
-      "angle": "teacher"
-    },
-    {
-      "q": "Who is the villainous monkey in Powerpuff Girls?",
-      "a": "Mojo Jojo",
-      "angle": "villains"
     },
     {
       "q": "What city does Batman: The Animated Series take place in?",
@@ -328,8 +298,8 @@
       "angle": "music"
     },
     {
-      "q": "What is the name of Invader Zim's robot?",
-      "a": "GIR",
+      "q": "What city do the Gargoyles protect in the 90s animated series?",
+      "a": "Manhattan, New York City",
       "angle": "sidekick"
     },
     {
@@ -373,8 +343,8 @@
       "angle": "creators"
     },
     {
-      "q": "What network aired most Nicktoons?",
-      "a": "Nickelodeon",
+      "q": "What year did Nickelodeon launch its first original animated series lineup?",
+      "a": "1991",
       "angle": "network"
     },
     {
@@ -398,13 +368,8 @@
       "angle": "characters"
     },
     {
-      "q": "Who made a cameo as host in Space Ghost Coast to Coast?",
-      "a": "Space Ghost (parody talk show)",
-      "angle": "concept"
-    },
-    {
-      "q": "What was the first Cartoon Network original?",
-      "a": "The Moxy Show (1993)",
+      "q": "What year did Cartoon Network launch its What a Cartoon! anthology shorts series?",
+      "a": "1995",
       "angle": "history"
     },
     {
@@ -418,7 +383,7 @@
       "angle": "sidekick"
     },
     {
-      "q": "What show features cow and chicken siblings?",
+      "q": "What Cartoon Network show featured an unlikely pair of animal siblings and their villain the Red Guy?",
       "a": "Cow and Chicken",
       "angle": "cast"
     },
@@ -560,11 +525,6 @@
       "angle": "history"
     },
     {
-      "q": "Who created Ren & Stimpy?",
-      "a": "John Kricfalusi",
-      "angle": "creators"
-    },
-    {
       "q": "What is Ed, Edd n Eddy's cul-de-sac called?",
       "a": "Peach Creek",
       "angle": "setting"
@@ -585,29 +545,19 @@
       "angle": "music"
     },
     {
-      "q": "Who created Samurai Jack?",
-      "a": "Genndy Tartakovsky",
-      "angle": "creators"
-    },
-    {
       "q": "Who created The Maxx (MTV Oddities)?",
       "a": "Sam Kieth",
       "angle": "creators"
     },
     {
-      "q": "What studio animated Batman: TAS overseas?",
-      "a": "TMS and others with WB Animation",
+      "q": "Which Japanese studio was the primary overseas animation partner for Batman: The Animated Series?",
+      "a": "TMS Entertainment (Tokyo Movie Shinsha)",
       "angle": "production"
     },
     {
       "q": "What year did Doug first air?",
       "a": "1991",
       "angle": "history"
-    },
-    {
-      "q": "What show featured the Omnitrix device?",
-      "a": "Ben 10 (launched 2005, post-90s but related era)",
-      "angle": "device"
     },
     {
       "q": "What was the first Nicktoons lineup year?",
@@ -645,8 +595,8 @@
       "angle": "network"
     },
     {
-      "q": "Who is the masked villain in ReBoot?",
-      "a": "Megabyte (and Hexadecimal)",
+      "q": "What is the name of the main virus villain in ReBoot?",
+      "a": "Megabyte",
       "angle": "villains"
     },
     {
@@ -658,11 +608,6 @@
       "q": "Who voiced Dot Matrix in ReBoot?",
       "a": "Kathleen Barr",
       "angle": "voice"
-    },
-    {
-      "q": "Who created Johnny Bravo?",
-      "a": "Van Partible",
-      "angle": "creators"
     },
     {
       "q": "What was the first Toonami launch year?",
@@ -680,18 +625,8 @@
       "angle": "film"
     },
     {
-      "q": "Who composed the X-Men animated series theme?",
-      "a": "Ron Wasserman",
-      "angle": "music"
-    },
-    {
-      "q": "What show's tagline is \"Smarter than the average bear\" (reruns in 90s blocks)?",
-      "a": "Yogi Bear",
-      "angle": "retro"
-    },
-    {
-      "q": "Who was the main villain in Swat Kats?",
-      "a": "Dark Kat (plus Pastmaster, etc.)",
+      "q": "Which villain in Swat Kats was a giant, hooded criminal mastermind who sought to destroy Megakat City?",
+      "a": "Dark Kat",
       "angle": "villains"
     },
     {
@@ -723,11 +658,6 @@
       "q": "Who created the short \"The Chicken from Outer Space\"?",
       "a": "John R. Dilworth",
       "angle": "creators"
-    },
-    {
-      "q": "Who composed the Rugrats theme music?",
-      "a": "Mark Mothersbaugh",
-      "angle": "music"
     },
     {
       "q": "Who co-founded Klasky Csupo with Arlene Klasky?",
@@ -818,11 +748,6 @@
       "q": "What year did Rocko’s Modern Life premiere?",
       "a": "1993",
       "angle": "history"
-    },
-    {
-      "q": "Who created Courage the Cowardly Dog?",
-      "a": "John R. Dilworth",
-      "angle": "creators"
     },
     {
       "q": "What was the original name of Cartoon Network’s What A Cartoon! shorts program?",

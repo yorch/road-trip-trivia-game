@@ -1,29 +1,9 @@
 {
   "easy": [
     {
-      "q": "What school does Harry Potter attend?",
-      "a": "Hogwarts School of Witchcraft and Wizardry",
-      "angle": "Hogwarts"
-    },
-    {
-      "q": "What position does Harry play in Quidditch?",
-      "a": "Seeker",
-      "angle": "Quidditch"
-    },
-    {
-      "q": "What is Harry's pet owl's name?",
-      "a": "Hedwig",
-      "angle": "creature"
-    },
-    {
       "q": "Name the four Hogwarts houses.",
       "a": "Gryffindor, Slytherin, Ravenclaw, Hufflepuff",
       "angle": "houses"
-    },
-    {
-      "q": "Who are Harry's two best friends?",
-      "a": "Ron Weasley and Hermione Granger",
-      "angle": "friends"
     },
     {
       "q": "What is Voldemort's real name?",
@@ -41,16 +21,6 @@
       "angle": "travel"
     },
     {
-      "q": "Who is headmaster for most of the series?",
-      "a": "Albus Dumbledore",
-      "angle": "faculty"
-    },
-    {
-      "q": "What house is Harry sorted into?",
-      "a": "Gryffindor",
-      "angle": "houses"
-    },
-    {
       "q": "What shape is Harry's scar?",
       "a": "A lightning bolt",
       "angle": "iconic"
@@ -59,16 +29,6 @@
       "q": "Who is Harry's godfather?",
       "a": "Sirius Black",
       "angle": "family"
-    },
-    {
-      "q": "What sport do wizards play on broomsticks?",
-      "a": "Quidditch",
-      "angle": "sports"
-    },
-    {
-      "q": "Who is the Hogwarts gamekeeper?",
-      "a": "Rubeus Hagrid",
-      "angle": "faculty"
     },
     {
       "q": "What colors represent Gryffindor?",
@@ -106,39 +66,14 @@
       "angle": "artifact"
     },
     {
-      "q": "Who teaches Potions in Harry's first year?",
-      "a": "Severus Snape",
-      "angle": "faculty"
-    },
-    {
-      "q": "What form does Harry's Patronus take?",
-      "a": "A stag",
-      "angle": "magic"
-    },
-    {
       "q": "Who delivers the mail at Hogwarts?",
       "a": "Owls",
       "angle": "world"
     },
     {
-      "q": "Which house values bravery?",
-      "a": "Gryffindor",
-      "angle": "houses"
-    },
-    {
       "q": "Which creature pulls the Hogwarts carriages?",
       "a": "Thestrals",
       "angle": "creature"
-    },
-    {
-      "q": "What is Hermione's cat called?",
-      "a": "Crookshanks",
-      "angle": "pet"
-    },
-    {
-      "q": "What sweet is used to open the secret tunnel in Honeydukes?",
-      "a": "Acid Pops cover the passage entrance; passage is via a trapdoor",
-      "angle": "world"
     },
     {
       "q": "What device turns back time for Hermione?",
@@ -151,11 +86,6 @@
       "angle": "faculty"
     },
     {
-      "q": "Who is the boy wizard with a lightning scar?",
-      "a": "Harry Potter",
-      "angle": "characters"
-    },
-    {
       "q": "What school do Harry and friends attend?",
       "a": "Hogwarts School of Witchcraft and Wizardry",
       "angle": "setting"
@@ -164,16 +94,6 @@
       "q": "What is Harry's pet owl named?",
       "a": "Hedwig",
       "angle": "pets"
-    },
-    {
-      "q": "Who are Harry's two best friends?",
-      "a": "Ron Weasley and Hermione Granger",
-      "angle": "friends"
-    },
-    {
-      "q": "What house is Harry sorted into?",
-      "a": "Gryffindor",
-      "angle": "houses"
     },
     {
       "q": "Who is the headmaster of Hogwarts for most of the series?",
@@ -186,24 +106,9 @@
       "angle": "sports"
     },
     {
-      "q": "What position does Harry play in Quidditch?",
-      "a": "Seeker",
-      "angle": "sports"
-    },
-    {
       "q": "What platform do students take at King's Cross?",
       "a": "Platform Nine and Three-Quarters",
       "angle": "setting"
-    },
-    {
-      "q": "Who teaches Potions in Harry's first year?",
-      "a": "Professor Snape",
-      "angle": "staff"
-    },
-    {
-      "q": "What are non-magical people called?",
-      "a": "Muggles",
-      "angle": "terms"
     },
     {
       "q": "What is the dark wizard Harry fights?",
@@ -214,11 +119,6 @@
       "q": "What spell disarms an opponent?",
       "a": "Expelliarmus",
       "angle": "spells"
-    },
-    {
-      "q": "What object chooses the house for students?",
-      "a": "The Sorting Hat",
-      "angle": "objects"
     },
     {
       "q": "What is the Weasley family's house called?",
@@ -274,14 +174,34 @@
       "q": "Who is the Hogwarts caretaker?",
       "a": "Argus Filch",
       "angle": "staff"
+    },
+    {
+      "q": "Who are Harry's two best friends?",
+      "a": "Ron Weasley and Hermione Granger",
+      "angle": "friends"
+    },
+    {
+      "q": "What house is Harry Potter sorted into?",
+      "a": "Gryffindor",
+      "angle": "houses"
+    },
+    {
+      "q": "What position does Harry play in Quidditch?",
+      "a": "Seeker",
+      "angle": "Quidditch"
+    },
+    {
+      "q": "Who teaches Potions in Harry's first year?",
+      "a": "Severus Snape",
+      "angle": "faculty"
+    },
+    {
+      "q": "What Hogsmeade shop is famous for its sweets?",
+      "a": "Honeydukes",
+      "angle": "world"
     }
   ],
   "medium": [
-    {
-      "q": "What spell disarms an opponent?",
-      "a": "Expelliarmus",
-      "angle": "spell"
-    },
     {
       "q": "Name the three Deathly Hallows.",
       "a": "Elder Wand, Resurrection Stone, Invisibility Cloak",
@@ -358,11 +278,6 @@
       "angle": "lore"
     },
     {
-      "q": "What creature only those who've seen death can see?",
-      "a": "Thestrals",
-      "angle": "creature"
-    },
-    {
       "q": "What is the wizarding prison called?",
       "a": "Azkaban",
       "angle": "world"
@@ -373,12 +288,12 @@
       "angle": "relationship"
     },
     {
-      "q": "Who invents the Marauder's Map nicknames?",
-      "a": "Moony, Wormtail, Padfoot, Prongs (Remus, Peter, Sirius, James)",
+      "q": "Who made the Marauder's Map?",
+      "a": "Moony, Wormtail, Padfoot, and Prongs (Remus Lupin, Peter Pettigrew, Sirius Black, James Potter)",
       "angle": "artifact"
     },
     {
-      "q": "What position did James Potter play at Hogwarts?",
+      "q": "What position did James Potter play on the Gryffindor Quidditch team?",
       "a": "Chaser",
       "angle": "history"
     },
@@ -408,13 +323,8 @@
       "angle": "potion"
     },
     {
-      "q": "What magical object allows you to review memories?",
-      "a": "The Pensieve",
-      "angle": "artifact"
-    },
-    {
-      "q": "Who leads the Order of the Phoenix after Dumbledore?",
-      "a": "Kingsley Shacklebolt (minister) and remaining Order members",
+      "q": "Who leads the Order of the Phoenix after Dumbledore's death?",
+      "a": "Kingsley Shacklebolt",
       "angle": "resistance"
     },
     {
@@ -433,11 +343,6 @@
       "angle": "creatures"
     },
     {
-      "q": "Who kills Dumbledore?",
-      "a": "Severus Snape (on Dumbledore's request)",
-      "angle": "plot"
-    },
-    {
       "q": "What object is Voldemort's snake familiar?",
       "a": "Nagini",
       "angle": "villain"
@@ -453,11 +358,6 @@
       "angle": "potions"
     },
     {
-      "q": "What position did James Potter play at Hogwarts?",
-      "a": "Chaser (per Rowling) though film said Seeker",
-      "angle": "lore"
-    },
-    {
       "q": "Who founded Gryffindor house?",
       "a": "Godric Gryffindor",
       "angle": "history"
@@ -466,11 +366,6 @@
       "q": "What is the Marauder's Map phrase to close it?",
       "a": "Mischief managed",
       "angle": "objects"
-    },
-    {
-      "q": "Who was the Half-Blood Prince?",
-      "a": "Severus Snape",
-      "angle": "reveal"
     },
     {
       "q": "What is the name of the Weasley twins' shop?",
@@ -586,7 +481,7 @@
     },
     {
       "q": "How many Horcruxes did Voldemort make intentionally?",
-      "a": "Six intentionally; Harry was unintended seventh",
+      "a": "Six intentionally; Harry was the unintended seventh",
       "angle": "dark magic"
     },
     {
@@ -598,11 +493,6 @@
       "q": "What year was Philosopher's Stone published?",
       "a": "1997",
       "angle": "publication"
-    },
-    {
-      "q": "What is Voldemort's mother's name?",
-      "a": "Merope Gaunt",
-      "angle": "family"
     },
     {
       "q": "Who is R.A.B. that took the locket?",
@@ -655,11 +545,6 @@
       "angle": "setting"
     },
     {
-      "q": "Who becomes Minister for Magic after Voldemort's fall?",
-      "a": "Kingsley Shacklebolt",
-      "angle": "politics"
-    },
-    {
       "q": "What artifact did Dumbledore use to destroy the ring Horcrux?",
       "a": "The Sword of Gryffindor",
       "angle": "artifact"
@@ -675,13 +560,8 @@
       "angle": "battle"
     },
     {
-      "q": "What is the name of the Black family house-elf before Kreacher?",
-      "a": "Kreacher is the known elf; previous not named in canon",
-      "angle": "lore"
-    },
-    {
-      "q": "What magical contract binds the Triwizard champions?",
-      "a": "The Goblet of Fire's binding contract",
+      "q": "What binding magic forces a Triwizard champion to compete once their name is drawn?",
+      "a": "A magically binding contract enforced by the Goblet of Fire",
       "angle": "magic"
     },
     {
@@ -705,13 +585,13 @@
       "angle": "lore"
     },
     {
-      "q": "Who is the master of the Elder Wand at the end of the series?",
-      "a": "Harry Potter (then he snaps/returns it in film; repairs his wand in book)",
+      "q": "Who is master of the Elder Wand at the end of the books?",
+      "a": "Harry Potter (he overpowered Draco Malfoy, the true master after Draco disarmed Dumbledore)",
       "angle": "plot"
     },
     {
-      "q": "What is the seventh Horcrux accidentally made?",
-      "a": "Harry himself (a fragment in his scar)",
+      "q": "What piece of Voldemort's soul was accidentally embedded in Harry?",
+      "a": "A Horcrux fragment, created when Voldemort's killing curse rebounded at Godric's Hollow",
       "angle": "plot"
     },
     {
@@ -728,11 +608,6 @@
       "q": "What vault number held the Philosopher's Stone in Gringotts?",
       "a": "Vault 713",
       "angle": "detail"
-    },
-    {
-      "q": "What is Dumbledore's full name?",
-      "a": "Albus Percival Wulfric Brian Dumbledore",
-      "angle": "lore"
     },
     {
       "q": "Who becomes Minister of Magic after the war (book canon)?",
@@ -780,11 +655,6 @@
       "angle": "politics"
     },
     {
-      "q": "What is Voldemort's mother's name?",
-      "a": "Merope Gaunt",
-      "angle": "lore"
-    },
-    {
       "q": "Who was the headmaster before Dumbledore?",
       "a": "Armando Dippet",
       "angle": "history"
@@ -800,9 +670,9 @@
       "angle": "creatures"
     },
     {
-      "q": "What broom model does Harry receive from Sirius?",
-      "a": "Firebolt",
-      "angle": "objects"
+      "q": "What is Voldemort's mother's name?",
+      "a": "Merope Gaunt",
+      "angle": "family"
     },
     {
       "q": "Who is the Grey Lady ghost?",

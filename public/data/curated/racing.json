@@ -111,9 +111,9 @@
       "angle": "aero tactic"
     },
     {
-      "q": "Who drives F1 car number 44?",
-      "a": "Lewis Hamilton",
-      "angle": "race number"
+      "q": "Which F1 driver is known as Mad Max?",
+      "a": "Max Verstappen",
+      "angle": "driver nickname"
     },
     {
       "q": "What fuel blend do current F1 cars use?",
@@ -495,7 +495,7 @@
     },
     {
       "q": "What is the Goodwood Festival of Speed?",
-      "a": "A hillclimb event at Goodwood House",
+      "a": "An annual automotive festival at Goodwood House featuring a hillclimb, car displays, and manufacturer demonstrations",
       "angle": "event"
     },
     {
@@ -606,7 +606,7 @@
       "angle": "record"
     },
     {
-      "q": "Who holds the most F1 championships?",
+      "q": "Who are the two drivers tied for the most F1 World Championships, and how many do they each hold?",
       "a": "Michael Schumacher and Lewis Hamilton with 7 each",
       "angle": "record"
     },

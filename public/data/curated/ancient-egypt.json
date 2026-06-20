@@ -46,8 +46,8 @@
       "angle": "pharaohs"
     },
     {
-      "q": "What animal was sacred to Egyptians?",
-      "a": "Cats (among others)",
+      "q": "Which animal did Egyptians mummify and worship as a goddess named Bastet?",
+      "a": "Cats",
       "angle": "myths"
     },
     {
@@ -99,16 +99,6 @@
       "q": "What was used for light inside tombs?",
       "a": "Oil lamps",
       "angle": "daily life"
-    },
-    {
-      "q": "What is the Egyptian writing called?",
-      "a": "Hieroglyphics",
-      "angle": "writing"
-    },
-    {
-      "q": "Who was the jackal-headed god?",
-      "a": "Anubis",
-      "angle": "myths"
     },
     {
       "q": "What is a sarcophagus?",
@@ -216,11 +206,6 @@
       "angle": "daily life"
     },
     {
-      "q": "What river tool measured flood levels?",
-      "a": "A nilometer",
-      "angle": "nile"
-    },
-    {
       "q": "What game used throwing sticks instead of dice?",
       "a": "Senet",
       "angle": "culture"
@@ -256,11 +241,6 @@
       "angle": "technology"
     },
     {
-      "q": "What river tool measured flood levels?",
-      "a": "Nilometer",
-      "angle": "nile"
-    },
-    {
       "q": "What did Egyptians call their country meaning “Black Land”?",
       "a": "Kemet",
       "angle": "language"
@@ -278,9 +258,9 @@
   ],
   "medium": [
     {
-      "q": "What are Egyptian picture writings called?",
-      "a": "Hieroglyphics",
-      "angle": "pharaohs"
+      "q": "What was the cursive script used by priests for religious texts, simpler than carved hieroglyphs?",
+      "a": "Hieratic script",
+      "angle": "writing"
     },
     {
       "q": "Who was the last pharaoh of Egypt?",
@@ -308,9 +288,9 @@
       "angle": "pharaohs"
     },
     {
-      "q": "What city was the ancient capital?",
-      "a": "Memphis / Thebes (different periods)",
-      "angle": "nile"
+      "q": "What city served as Egypt's capital during the Old Kingdom, near modern Cairo?",
+      "a": "Memphis",
+      "angle": "history"
     },
     {
       "q": "What is the afterlife judgment scene called?",
@@ -438,8 +418,8 @@
       "angle": "monuments"
     },
     {
-      "q": "Which god was linked to the sun disk Aten?",
-      "a": "Aten was worshipped during Akhenaten's reign",
+      "q": "Which pharaoh declared the sun disk Aten the supreme god and banned other deities?",
+      "a": "Akhenaten",
       "angle": "religion"
     },
     {
@@ -560,9 +540,9 @@
       "angle": "pharaohs"
     },
     {
-      "q": "What is the Egyptian Book of the Dead?",
-      "a": "Collection of funerary texts and spells",
-      "angle": "myths"
+      "q": "What is the Egyptian name for the Book of the Dead, meaning 'spells for coming forth by day'?",
+      "a": "Pert em Hru (or The Book of Coming Forth by Day)",
+      "angle": "texts"
     },
     {
       "q": "How long did it take to build the Great Pyramid?",
@@ -625,8 +605,8 @@
       "angle": "history"
     },
     {
-      "q": "What script was used for everyday writing?",
-      "a": "Demotic (and Hieratic earlier)",
+      "q": "What simplified script replaced Hieratic for everyday writing in Egypt from around 650 BCE?",
+      "a": "Demotic",
       "angle": "writing"
     },
     {
@@ -815,13 +795,8 @@
       "angle": "texts"
     },
     {
-      "q": "Which pharaoh signed the earliest known peace treaty?",
-      "a": "Ramesses II (Treaty of Kadesh)",
-      "angle": "history"
-    },
-    {
-      "q": "Which female pharaoh was erased by successors?",
-      "a": "Hatshepsut",
+      "q": "Which pharaoh is believed to have ordered the systematic removal of Hatshepsut's image from monuments, roughly 20 years after her death?",
+      "a": "Thutmose III",
       "angle": "history"
     },
     {

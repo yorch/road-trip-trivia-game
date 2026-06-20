@@ -22,7 +22,7 @@
     },
     {
       "q": "Who is the Flash?",
-      "a": "Barry Allen (most common)",
+      "a": "Barry Allen",
       "angle": "Justice League"
     },
     {
@@ -36,8 +36,8 @@
       "angle": "Gotham"
     },
     {
-      "q": "What is the Joker's real name?",
-      "a": "Unknown / Multiple origins",
+      "q": "What is the Joker's signature weapon or tool?",
+      "a": "Joker Venom (Joker toxin)",
       "angle": "rogues gallery"
     },
     {
@@ -96,8 +96,8 @@
       "angle": "Justice League"
     },
     {
-      "q": "What gender is Wonder Woman?",
-      "a": "Female/Woman",
+      "q": "What island does Wonder Woman come from?",
+      "a": "Themyscira (also called Paradise Island)",
       "angle": "Justice League"
     },
     {
@@ -146,8 +146,8 @@
       "angle": "gear"
     },
     {
-      "q": "Who is Green Lantern Hal Jordan's mentor?",
-      "a": "Abin Sur (predecessor)",
+      "q": "Which dying alien gave Hal Jordan his Green Lantern ring?",
+      "a": "Abin Sur",
       "angle": "Justice League"
     },
     {
@@ -281,17 +281,12 @@
       "angle": "Justice League"
     },
     {
-      "q": "What metal is Superman vulnerable to besides Kryptonite?",
-      "a": "Magic and red sun energy weaken him",
+      "q": "Besides Kryptonite, what else is Superman vulnerable to?",
+      "a": "Magic and red sun radiation",
       "angle": "lore"
     }
   ],
   "medium": [
-    {
-      "q": "What is Batman's butler's name?",
-      "a": "Alfred Pennyworth",
-      "angle": "Gotham"
-    },
     {
       "q": "What is the Flash's superpower?",
       "a": "Super speed",
@@ -333,8 +328,8 @@
       "angle": "rogues gallery"
     },
     {
-      "q": "What year did Superman first appear?",
-      "a": "1938",
+      "q": "In what comic did Superman make his debut appearance?",
+      "a": "Action Comics #1 (1938)",
       "angle": "metropolis"
     },
     {
@@ -388,8 +383,8 @@
       "angle": "Justice League"
     },
     {
-      "q": "Who founded the Justice League in many versions?",
-      "a": "Superman, Batman, Wonder Woman, Flash, Green Lantern, Aquaman, Martian Manhunter",
+      "q": "Which founding Justice League member is a Martian telepath?",
+      "a": "Martian Manhunter (J'onn J'onzz)",
       "angle": "team"
     },
     {
@@ -398,8 +393,8 @@
       "angle": "Justice League"
     },
     {
-      "q": "What villain runs Arkham Asylum?",
-      "a": "No single villain; Arkham is run as an institution (Jeremiah Arkham director)",
+      "q": "What is the name of the director of Arkham Asylum in the comics?",
+      "a": "Jeremiah Arkham",
       "angle": "setting"
     },
     {
@@ -418,8 +413,8 @@
       "angle": "magic"
     },
     {
-      "q": "What city does Green Arrow protect?",
-      "a": "Star City (Starling in Arrow TV)",
+      "q": "What city does Green Arrow protect in the comics?",
+      "a": "Star City",
       "angle": "city"
     },
     {
@@ -571,12 +566,12 @@
     },
     {
       "q": "What is the Speed Force?",
-      "a": "Energy field that gives speedsters their powers",
+      "a": "An extradimensional energy field that is the source of all speedsters' powers in the DC universe",
       "angle": "Justice League"
     },
     {
-      "q": "Who is the villain in 'The Killing Joke'?",
-      "a": "The Joker",
+      "q": "In 'The Killing Joke', what does the Joker do to Barbara Gordon?",
+      "a": "Shoots and paralyzes her",
       "angle": "rogues gallery"
     },
     {
@@ -655,11 +650,6 @@
       "angle": "Gotham"
     },
     {
-      "q": "What is Superman's Fortress of Solitude location?",
-      "a": "Arctic/North Pole",
-      "angle": "metropolis"
-    },
-    {
       "q": "Who created Wonder Woman (in real life)?",
       "a": "William Moulton Marston",
       "angle": "Justice League"
@@ -683,11 +673,6 @@
       "q": "What is Superman's greatest vulnerability besides kryptonite?",
       "a": "Red sun radiation/magic",
       "angle": "lore"
-    },
-    {
-      "q": "Who is Zatanna's father?",
-      "a": "Zatara (Giovanni Zatara)",
-      "angle": "magic"
     },
     {
       "q": "Which Green Lantern became a Red Lantern briefly?",
@@ -716,7 +701,7 @@
     },
     {
       "q": "In what issue did Batman first appear?",
-      "a": "Detective Comics #27 (1939)",
+      "a": "Detective Comics #27",
       "angle": "history"
     },
     {

@@ -6,8 +6,8 @@
       "angle": "mons"
     },
     {
-      "q": "What are the creatures in the series called?",
-      "a": "Pokémon",
+      "q": "How many Pokémon were there in the original Gen 1 Pokédex?",
+      "a": "151",
       "angle": "basics"
     },
     {
@@ -81,11 +81,6 @@
       "angle": "basics"
     },
     {
-      "q": "What item fully catches without fail?",
-      "a": "Master Ball",
-      "angle": "items"
-    },
-    {
       "q": "What item heals 20 HP?",
       "a": "Potion",
       "angle": "items"
@@ -106,8 +101,8 @@
       "angle": "mons"
     },
     {
-      "q": "What item restores PP of a move?",
-      "a": "Ether or Elixir",
+      "q": "What item restores 10 PP to one move?",
+      "a": "Ether",
       "angle": "items"
     },
     {
@@ -116,8 +111,8 @@
       "angle": "basics"
     },
     {
-      "q": "What happens when a Pokémon levels enough?",
-      "a": "It can evolve",
+      "q": "What is the most common way Pokémon evolve?",
+      "a": "Leveling up",
       "angle": "mechanics"
     },
     {
@@ -166,7 +161,7 @@
       "angle": "items"
     },
     {
-      "q": "What type is Jigglypuff now?",
+      "q": "What dual typing did Jigglypuff receive when Fairy type was introduced in Gen 6?",
       "a": "Normal/Fairy",
       "angle": "types"
     },
@@ -192,7 +187,7 @@
     },
     {
       "q": "What type is immune to Ground moves?",
-      "a": "Flying (and Levitate ability)",
+      "a": "Flying",
       "angle": "types"
     },
     {
@@ -241,7 +236,7 @@
       "angle": "mons"
     },
     {
-      "q": "What is the Psychic cat-like legendary in Gen 1?",
+      "q": "What Psychic-type legendary was cloned from Mew in Gen 1?",
       "a": "Mewtwo",
       "angle": "legendaries"
     },
@@ -281,11 +276,6 @@
       "q": "What games introduced the Johto region?",
       "a": "Gold and Silver",
       "angle": "regions"
-    },
-    {
-      "q": "What item evolves Onix into Steelix when traded?",
-      "a": "Metal Coat",
-      "angle": "evolution"
     },
     {
       "q": "What item evolves Scyther into Scizor when traded?",
@@ -498,8 +488,8 @@
       "angle": "weather"
     },
     {
-      "q": "What are the shiny odds in modern games?",
-      "a": "1 in 4096 base",
+      "q": "What are the base shiny odds in games from Gen 6 onward?",
+      "a": "1 in 4096",
       "angle": "mechanics"
     },
     {
@@ -585,7 +575,7 @@
       "angle": "mechanics"
     },
     {
-      "q": "What are shiny odds with Masuda method plus Shiny Charm (modern)?",
+      "q": "What are shiny odds with Masuda method plus Shiny Charm combined (Gen 6+)?",
       "a": "1 in 512",
       "angle": "mechanics"
     },
@@ -720,8 +710,8 @@
       "angle": "mechanics"
     },
     {
-      "q": "What do EV-reducing berries do?",
-      "a": "Lower EVs in a stat by 10 (modern) and raise friendship",
+      "q": "What do EV-reducing berries (like Pomeg or Kelpsy) do?",
+      "a": "Lower EVs in a specific stat and raise friendship",
       "angle": "items"
     },
     {
@@ -730,8 +720,8 @@
       "angle": "mechanics"
     },
     {
-      "q": "What Pokémon has the highest base Speed (non-Mega)?",
-      "a": "Regieleki (base 200)",
+      "q": "Which Pokémon introduced in Crown Tundra (Gen 8) holds the record for highest base Speed stat at 200?",
+      "a": "Regieleki",
       "angle": "stats"
     },
     {
@@ -750,7 +740,7 @@
       "angle": "stats"
     },
     {
-      "q": "What is the typical catch rate of box legendaries?",
+      "q": "What catch rate do most traditional box legendaries share (e.g., Mewtwo, Lugia, Ho-Oh)?",
       "a": "3",
       "angle": "mechanics"
     },

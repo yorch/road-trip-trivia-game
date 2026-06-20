@@ -216,8 +216,8 @@
       "angle": "songs"
     },
     {
-      "q": "Which film features \"White Christmas\"?",
-      "a": "Holiday Inn / White Christmas",
+      "q": "In which 1942 film did Bing Crosby first sing \"White Christmas\"?",
+      "a": "Holiday Inn",
       "angle": "songs"
     },
     {
@@ -293,8 +293,8 @@
       "angle": "composers"
     },
     {
-      "q": "Who composed the score for Pirates of the Caribbean (original theme)?",
-      "a": "Klaus Badelt with Hans Zimmer producing/expanding",
+      "q": "Who composed the score for Pirates of the Caribbean: The Curse of the Black Pearl?",
+      "a": "Klaus Badelt",
       "angle": "composers"
     },
     {
@@ -413,16 +413,6 @@
       "angle": "oscars"
     },
     {
-      "q": "Which song won Best Original Song for The Lego Movie?",
-      "a": "It did not win; nominated: \"Everything Is Awesome\"",
-      "angle": "oscars"
-    },
-    {
-      "q": "Which song won Best Original Song for Encanto?",
-      "a": "No song from Encanto won; \"Dos Oruguitas\" nominated",
-      "angle": "oscars"
-    },
-    {
       "q": "Which score won for The Lion King (1994)?",
       "a": "Hans Zimmer won Best Original Score",
       "angle": "oscars"
@@ -448,8 +438,8 @@
       "angle": "oscars"
     },
     {
-      "q": "Which composer is known for \"Mission: Impossible\" theme in films?",
-      "a": "Original Lalo Schifrin; film arrangements by various incl. Danny Elfman",
+      "q": "Who originally composed the \"Mission: Impossible\" theme?",
+      "a": "Lalo Schifrin",
       "angle": "composers"
     },
     {
@@ -590,8 +580,8 @@
       "angle": "themes"
     },
     {
-      "q": "What Middle-earth language lyrics are used in the LOTR scores?",
-      "a": "Sindarin/Quenya/Black Speech; multiple languages",
+      "q": "What Tolkien-invented language is most prominently used in the LOTR film scores by Howard Shore?",
+      "a": "Sindarin (Elvish)",
       "angle": "languages"
     },
     {
@@ -751,7 +741,7 @@
     },
     {
       "q": "Which composer has the most Oscar nominations for Original Score?",
-      "a": "John Williams (50+ score nominations)",
+      "a": "John Williams (54 nominations)",
       "angle": "records"
     },
     {
@@ -773,11 +763,6 @@
       "q": "Which score famously uses \"Adagio in D minor\" by John Murphy?",
       "a": "Sunshine (also reused in Kick-Ass)",
       "angle": "themes"
-    },
-    {
-      "q": "Which film uses \"Lux Aeterna\" re-orchestrated for trailers?",
-      "a": "Often used in trailers (e.g., Two Towers trailer)",
-      "angle": "culture"
     },
     {
       "q": "Which film features the song \"Pure Imagination\"?",

@@ -161,8 +161,8 @@
       "angle": "egypt"
     },
     {
-      "q": "Who judged souls in Egyptian afterlife with scales?",
-      "a": "Anubis/Osiris weighing the heart",
+      "q": "Who performed the weighing of the heart in Egyptian afterlife?",
+      "a": "Anubis",
       "angle": "egypt"
     },
     {
@@ -181,8 +181,8 @@
       "angle": "roman"
     },
     {
-      "q": "Who is the Greek god of the sun (Titan)?",
-      "a": "Helios (later Apollo associated)",
+      "q": "Who is the Greek Titan god of the sun?",
+      "a": "Helios",
       "angle": "greek"
     },
     {
@@ -323,13 +323,13 @@
       "angle": "greek"
     },
     {
-      "q": "Who created the Labyrinth?",
-      "a": "Daedalus",
+      "q": "What king commissioned Daedalus to build the Labyrinth?",
+      "a": "King Minos of Crete",
       "angle": "greek"
     },
     {
-      "q": "Who flew with wax wings?",
-      "a": "Icarus",
+      "q": "Why did Daedalus warn Icarus not to fly too high or too low?",
+      "a": "Too high would melt the wax; too low, the sea would wet the feathers",
       "angle": "greek"
     },
     {
@@ -358,8 +358,8 @@
       "angle": "norse"
     },
     {
-      "q": "Who will slay Thor at Ragnarök?",
-      "a": "Jörmungandr and Thor kill each other",
+      "q": "How do Thor and Jörmungandr both die at Ragnarök?",
+      "a": "They kill each other — Thor slays the serpent then falls after nine steps from its venom",
       "angle": "norse"
     },
     {
@@ -548,7 +548,7 @@
       "angle": "norse"
     },
     {
-      "q": "Who is the Greek goddess of the hearth and home?",
+      "q": "Which Greek Olympian gave up her seat on Olympus to Dionysus, preferring the hearth?",
       "a": "Hestia",
       "angle": "greek"
     }
@@ -560,8 +560,8 @@
       "angle": "greek"
     },
     {
-      "q": "Who punished Prometheus for stealing fire?",
-      "a": "Zeus",
+      "q": "Which hero eventually freed Prometheus from his chains on the mountain?",
+      "a": "Heracles (Hercules)",
       "angle": "greek"
     },
     {
@@ -575,8 +575,8 @@
       "angle": "greek"
     },
     {
-      "q": "What is the Greek concept of inescapable fate?",
-      "a": "Moirae/Fate",
+      "q": "What is the Greek word for the three goddesses who control mortal destiny — the Fates?",
+      "a": "Moirae (or Moirai)",
       "angle": "greek"
     },
     {
@@ -620,8 +620,8 @@
       "angle": "greek"
     },
     {
-      "q": "Who is the Greek personification of victory?",
-      "a": "Nike",
+      "q": "What giant warrior was born from Medusa's blood alongside Pegasus when Perseus beheaded her?",
+      "a": "Chrysaor",
       "angle": "greek"
     },
     {
@@ -805,9 +805,9 @@
       "angle": "greek"
     },
     {
-      "q": "What is the Greek name for the Furies in Latin?",
-      "a": "Furiae/Dirae",
-      "angle": "roman"
+      "q": "What crime did the Greek Furies (Erinyes) primarily punish in the underworld?",
+      "a": "Killing of family members (especially patricide and matricide)",
+      "angle": "greek"
     },
     {
       "q": "Who guarded the golden apples in Greek myth?",

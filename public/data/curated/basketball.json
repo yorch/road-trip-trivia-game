@@ -132,7 +132,7 @@
     },
     {
       "q": "What is a layup?",
-      "a": "A close shot off the backboard",
+      "a": "A close-range shot near the basket, usually banked off the backboard or laid directly into the hoop",
       "angle": "fundamentals"
     },
     {
@@ -176,18 +176,13 @@
       "angle": "court"
     },
     {
-      "q": "What is it called when you bounce the ball?",
-      "a": "Dribbling",
-      "angle": "fundamentals"
-    },
-    {
       "q": "How many free throws after a shooting foul on a two-point attempt?",
       "a": "Two free throws",
       "angle": "rule"
     },
     {
-      "q": "How many free throws after a made basket plus a foul?",
-      "a": "One free throw (and-one)",
+      "q": "How many free throws does a player shoot on an and-one?",
+      "a": "One free throw",
       "angle": "rule"
     },
     {
@@ -204,11 +199,6 @@
       "q": "What is a rebound grabbed after opponent miss?",
       "a": "Defensive rebound",
       "angle": "fundamentals"
-    },
-    {
-      "q": "What is the line for three-point shots called?",
-      "a": "The three-point arc",
-      "angle": "court"
     },
     {
       "q": "How many points is a basket from half-court?",
@@ -413,11 +403,6 @@
       "angle": "championship"
     },
     {
-      "q": "What is a 'bank shot'?",
-      "a": "A shot that bounces off the backboard into the hoop",
-      "angle": "skills"
-    },
-    {
       "q": "Who is known as 'The Greek Freak'?",
       "a": "Giannis Antetokounmpo",
       "angle": "legends"
@@ -448,8 +433,8 @@
       "angle": "history"
     },
     {
-      "q": "Who won NBA Defensive Player of the Year in 1994 and 1995?",
-      "a": "Dikembe Mutombo (1995) and Hakeem Olajuwon (1994); Olajuwon also MVP/Finals MVP 1994",
+      "q": "Who won the NBA Defensive Player of the Year award in 1995?",
+      "a": "Dikembe Mutombo",
       "angle": "awards"
     },
     {
@@ -463,8 +448,8 @@
       "angle": "coaches"
     },
     {
-      "q": "Which team had the “Bad Boys” era?",
-      "a": "Detroit Pistons late 1980s-early 90s",
+      "q": "Which team had the \"Bad Boys\" era?",
+      "a": "Detroit Pistons (1988–1990, back-to-back champions)",
       "angle": "history"
     },
     {
@@ -488,13 +473,8 @@
       "angle": "legends"
     },
     {
-      "q": "Who was called “Big O” and averaged a triple-double in 1961-62?",
+      "q": "Who was called \"Big O\" and averaged a triple-double in 1961-62?",
       "a": "Oscar Robertson",
-      "angle": "history"
-    },
-    {
-      "q": "What team drafted Kobe Bryant before trading him?",
-      "a": "Charlotte Hornets (1996)",
       "angle": "history"
     },
     {
@@ -508,7 +488,7 @@
       "angle": "history"
     },
     {
-      "q": "Which country’s team did the 1992 Dream Team represent?",
+      "q": "Which country's team did the 1992 Dream Team represent?",
       "a": "United States at Barcelona Olympics",
       "angle": "international"
     },
@@ -523,7 +503,7 @@
       "angle": "rule"
     },
     {
-      "q": "How many timeouts per half in NCAA men’s?",
+      "q": "How many timeouts per half in NCAA men's?",
       "a": "Four 30-second media + one 60-second (rules vary by season)",
       "angle": "rule"
     },
@@ -558,11 +538,6 @@
       "q": "Who has the most assists in NBA history?",
       "a": "John Stockton",
       "angle": "record"
-    },
-    {
-      "q": "What is the vertical distance from floor to rim?",
-      "a": "10 feet",
-      "angle": "rule"
     },
     {
       "q": "Who won the first NBA championship?",
@@ -716,7 +691,7 @@
     },
     {
       "q": "Which coach has the most regular-season NBA wins?",
-      "a": "Don Nelson (regular season wins leader)",
+      "a": "Gregg Popovich (over 1,400 wins with the San Antonio Spurs)",
       "angle": "records"
     },
     {
@@ -736,7 +711,7 @@
     },
     {
       "q": "Who was the shortest NBA player ever?",
-      "a": "Muggsy Bogues (5’3”)",
+      "a": "Muggsy Bogues (5'3\")",
       "angle": "records"
     },
     {
@@ -795,7 +770,7 @@
       "angle": "awards"
     },
     {
-      "q": "Who is known for “The Shot” over Craig Ehlo?",
+      "q": "Who is known for \"The Shot\" over Craig Ehlo?",
       "a": "Michael Jordan (1989 playoffs)",
       "angle": "moments"
     },
@@ -803,11 +778,6 @@
       "q": "What is the restricted area radius under the basket?",
       "a": "Four feet in NBA",
       "angle": "rules"
-    },
-    {
-      "q": "Who holds the record for most career blocks in the NBA?",
-      "a": "Hakeem Olajuwon",
-      "angle": "records"
     },
     {
       "q": "Who was the first European Finals MVP?",

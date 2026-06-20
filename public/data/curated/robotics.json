@@ -96,13 +96,13 @@
       "angle": "camera"
     },
     {
-      "q": "What is ROS in robotics?",
-      "a": "Robot Operating System middleware",
+      "q": "What does ROS stand for in robotics?",
+      "a": "Robot Operating System",
       "angle": "software"
     },
     {
-      "q": "What is SLAM?",
-      "a": "Simultaneous localization and mapping",
+      "q": "What does SLAM help a robot do?",
+      "a": "Build a map of its surroundings while tracking its own position",
       "angle": "navigation"
     },
     {
@@ -565,8 +565,8 @@
       "angle": "sensing"
     },
     {
-      "q": "What is a UR5 robot an example of?",
-      "a": "A 6-axis collaborative arm",
+      "q": "How many axes does a typical collaborative robot arm have?",
+      "a": "Six",
       "angle": "platform"
     },
     {
@@ -660,8 +660,8 @@
       "angle": "software"
     },
     {
-      "q": "What is the Denavit-Hartenberg convention?",
-      "a": "A standard way to describe robot link geometry",
+      "q": "What do Denavit-Hartenberg parameters describe?",
+      "a": "The geometry of each link and joint in a robot arm using four standard parameters",
       "angle": "kinematics"
     },
     {

@@ -26,8 +26,8 @@
       "angle": "gods"
     },
     {
-      "q": "What is Greek mythology?",
-      "a": "Ancient Greek religious stories and legends",
+      "q": "What name did the Greeks give to their collection of 12 main gods?",
+      "a": "The Olympians",
       "angle": "gods"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "q": "What alphabet did ancient Greeks use?",
-      "a": "The Greek alphabet",
+      "a": "The Greek alphabet (derived from Phoenician, using letters like Alpha, Beta, Gamma)",
       "angle": "writing"
     },
     {
@@ -136,8 +136,8 @@
       "angle": "myths"
     },
     {
-      "q": "What is the open-air performance space called?",
-      "a": "An amphitheater",
+      "q": "What did the Greeks call their open-air theater space?",
+      "a": "Theatron (the seating area of a Greek theater, built into a hillside)",
       "angle": "culture"
     },
     {
@@ -244,16 +244,6 @@
       "q": "What island was home to King Minos and the Minotaur myth?",
       "a": "Crete",
       "angle": "myths"
-    },
-    {
-      "q": "What were Greek ships with three rows of oars called?",
-      "a": "Triremes",
-      "angle": "navy"
-    },
-    {
-      "q": "What were Greek marketplace squares called?",
-      "a": "Agoras",
-      "angle": "daily life"
     },
     {
       "q": "Who is the Greek god of travel and thieves?",
@@ -538,10 +528,6 @@
       "angle": "history"
     },
     {
-      "q": "Who wrote The Aeneid-inspired epic in Greek world?",
-      "a": "Not Greek; skip"
-    },
-    {
       "q": "What festival honored Dionysus with plays?",
       "a": "City Dionysia",
       "angle": "culture"
@@ -704,8 +690,8 @@
       "angle": "philosophy"
     },
     {
-      "q": "Who compiled the Elements of geometry before Euclid's school in Alexandria?",
-      "a": "Euclid at Alexandria around 300 BC (building on earlier Greek math)",
+      "q": "Whose earlier work on geometry did Euclid build upon when writing the Elements?",
+      "a": "Eudoxus of Cnidus and Theaetetus of Athens (earlier Greek mathematicians)",
       "angle": "math"
     },
     {
@@ -764,8 +750,8 @@
       "angle": "technology"
     },
     {
-      "q": "Which treaty ended the Peloponnesian War?",
-      "a": "The Peace of Nicias was earlier; final surrender in 404 BC imposed Spartan terms",
+      "q": "In what year did Athens surrender to Sparta, ending the Peloponnesian War?",
+      "a": "404 BC",
       "angle": "politics"
     },
     {
@@ -809,8 +795,8 @@
       "angle": "history"
     },
     {
-      "q": "Who was the Athenian statesman who led during the Golden Age building program?",
-      "a": "Pericles",
+      "q": "What was the name of the famous speech Pericles gave honoring Athenian war dead?",
+      "a": "The Funeral Oration (recorded by Thucydides)",
       "angle": "politics"
     },
     {

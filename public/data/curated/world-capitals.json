@@ -229,8 +229,8 @@
     },
     {
       "q": "What is the capital of Malaysia?",
-      "a": "Kuala Lumpur (with Putrajaya as administrative centre)",
-      "angle": "shared capital"
+      "a": "Kuala Lumpur",
+      "angle": "capital fact"
     },
     {
       "q": "What is the capital of Morocco?",
@@ -273,8 +273,8 @@
       "angle": "government hub"
     },
     {
-      "q": "What is the capital of South Africa?",
-      "a": "Pretoria (administrative capital)",
+      "q": "Which city serves as the executive (administrative) capital of South Africa?",
+      "a": "Pretoria",
       "angle": "shared capital"
     },
     {
@@ -405,7 +405,7 @@
   ],
   "hard": [
     {
-      "q": "What is the capital of Benin?",
+      "q": "What is the official capital of Benin, even though Cotonou serves as its seat of government?",
       "a": "Porto-Novo",
       "angle": "administrative seat"
     },
@@ -426,7 +426,7 @@
     },
     {
       "q": "What is the constitutional capital of Bolivia?",
-      "a": "Sucre (with La Paz as administrative seat)",
+      "a": "Sucre",
       "angle": "shared capital"
     },
     {
@@ -475,17 +475,17 @@
       "angle": "planned city"
     },
     {
-      "q": "What is the capital of Palau?",
+      "q": "Palau moved its capital from Koror to which new city in 2006, making it one of the world's newest purpose-built capitals?",
       "a": "Ngerulmud",
       "angle": "island capital"
     },
     {
-      "q": "What is the capital of Sri Lanka?",
-      "a": "Sri Jayawardenepura Kotte (with Colombo as commercial capital)",
+      "q": "What is the official legislative capital of Sri Lanka?",
+      "a": "Sri Jayawardenepura Kotte",
       "angle": "shared capital"
     },
     {
-      "q": "What is the capital of Tanzania?",
+      "q": "What city has been Tanzania's designated political capital since 1996, though Dar es Salaam remains the commercial hub?",
       "a": "Dodoma",
       "angle": "administrative seat"
     },

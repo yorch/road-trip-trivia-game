@@ -51,19 +51,9 @@
       "angle": "family"
     },
     {
-      "q": "Who is the cowboy toy in Toy Story?",
-      "a": "Woody",
-      "angle": "pixar"
-    },
-    {
-      "q": "Who is Mickey's girlfriend?",
+      "q": "Who is Mickey Mouse's girlfriend?",
       "a": "Minnie Mouse",
-      "angle": "classic"
-    },
-    {
-      "q": "Who is the fairy in Peter Pan?",
-      "a": "Tinker Bell",
-      "angle": "magic"
+      "angle": "characters"
     },
     {
       "q": "What animal is Dumbo?",
@@ -156,11 +146,6 @@
       "angle": "character"
     },
     {
-      "q": "Who is Mickey Mouse's girlfriend?",
-      "a": "Minnie Mouse",
-      "angle": "characters"
-    },
-    {
       "q": "What princess loses a glass slipper?",
       "a": "Cinderella",
       "angle": "characters"
@@ -226,11 +211,6 @@
       "angle": "plot"
     },
     {
-      "q": "Who is the villain lion in The Lion King?",
-      "a": "Scar",
-      "angle": "villains"
-    },
-    {
       "q": "What is the crab who sings Under the Sea?",
       "a": "Sebastian",
       "angle": "characters"
@@ -286,11 +266,6 @@
       "q": "Who voices Woody in Toy Story?",
       "a": "Tom Hanks",
       "angle": "casting"
-    },
-    {
-      "q": "What song does Elsa sing?",
-      "a": "\"Let It Go\"",
-      "angle": "song"
     },
     {
       "q": "What castle is at Disney World (Magic Kingdom)?",
@@ -398,11 +373,6 @@
       "angle": "setting"
     },
     {
-      "q": "Who is the villain in The Little Mermaid?",
-      "a": "Ursula",
-      "angle": "villain"
-    },
-    {
       "q": "Who is Pocahontas's hummingbird friend?",
       "a": "Flit",
       "angle": "sidekick"
@@ -455,7 +425,7 @@
     {
       "q": "Who is the villain in The Little Mermaid?",
       "a": "Ursula",
-      "angle": "villains"
+      "angle": "villain"
     },
     {
       "q": "Who transforms into a dragon in Sleeping Beauty?",
@@ -488,11 +458,6 @@
       "angle": "characters"
     },
     {
-      "q": "Who voices the Genie in the 1992 Aladdin?",
-      "a": "Robin Williams",
-      "angle": "cast"
-    },
-    {
       "q": "What does Rafiki hold up at Pride Rock?",
       "a": "Newborn Simba",
       "angle": "scene"
@@ -501,11 +466,6 @@
       "q": "What glass object encases the rose?",
       "a": "A bell jar",
       "angle": "props"
-    },
-    {
-      "q": "What is the name of Ariel's father?",
-      "a": "King Triton",
-      "angle": "characters"
     },
     {
       "q": "Who is the queen in Snow White?",
@@ -725,9 +685,9 @@
       "angle": "lore"
     },
     {
-      "q": "What is the in-universe author of the book in Beauty and the Beast prologue?",
-      "a": "Narrated storybook; no named author in film",
-      "angle": "detail"
+      "q": "What is the name of the villain sorcerer in Aladdin?",
+      "a": "Jafar",
+      "angle": "plot"
     },
     {
       "q": "Who composed the score for The Little Mermaid?",
@@ -750,11 +710,6 @@
       "angle": "history"
     },
     {
-      "q": "Who is the voice of Scar?",
-      "a": "Jeremy Irons",
-      "angle": "cast"
-    },
-    {
       "q": "Who is the voice of Mulan (speaking)?",
       "a": "Ming-Na Wen",
       "angle": "cast"
@@ -775,9 +730,9 @@
       "angle": "awards"
     },
     {
-      "q": "What is the name of the lamp shop in Aladdin?",
-      "a": "The lamp is in the Cave of Wonders (no shop)",
-      "angle": "plot"
+      "q": "What season does the enchanted rose in Beauty and the Beast represent the deadline of the Beast's curse?",
+      "a": "The Beast's 21st birthday — he must find love before the last petal falls",
+      "angle": "detail"
     },
     {
       "q": "Who wrote the music for The Lion King (score)?",

@@ -51,11 +51,6 @@
       "angle": "online squad"
     },
     {
-      "q": "What series stars Master Chief?",
-      "a": "Halo",
-      "angle": "shooter"
-    },
-    {
       "q": "What plumber races karts with friends?",
       "a": "Mario (Mario Kart)",
       "angle": "racing"
@@ -96,8 +91,8 @@
       "angle": "emote"
     },
     {
-      "q": "What game has villagers and blocks but no hunger bar?",
-      "a": "Creative mode Minecraft (no hunger)",
+      "q": "What Minecraft game mode lets you build freely without health or hunger?",
+      "a": "Creative mode",
       "angle": "mode"
     },
     {
@@ -166,11 +161,6 @@
       "angle": "characters"
     },
     {
-      "q": "What game features the Master Chief?",
-      "a": "Halo",
-      "angle": "franchises"
-    },
-    {
       "q": "What is the block-building game by Mojang?",
       "a": "Minecraft",
       "angle": "franchises"
@@ -204,11 +194,6 @@
       "q": "What shooter has heroes like Tracer and Mercy?",
       "a": "Overwatch",
       "angle": "franchises"
-    },
-    {
-      "q": "What company makes PlayStation?",
-      "a": "Sony",
-      "angle": "platforms"
     },
     {
       "q": "What console family includes the Switch?",
@@ -344,12 +329,12 @@
     },
     {
       "q": "Who is the Doom Slayer's main enemy faction?",
-      "a": "Demons from Hell",
+      "a": "Demons (forces of Hell)",
       "angle": "shooter"
     },
     {
-      "q": "What is the name of Aloy's world in Horizon?",
-      "a": "Post-apocalyptic Earth with tribal societies",
+      "q": "What is the real-world setting of the Horizon game series (Horizon Zero Dawn)?",
+      "a": "Post-apocalyptic Earth (far future)",
       "angle": "setting"
     },
     {
@@ -453,8 +438,8 @@
       "angle": "creators"
     },
     {
-      "q": "What is the island name in Animal Crossing: New Horizons?",
-      "a": "Player-named island; set on deserted island by Nook Inc.",
+      "q": "What company runs the island getaway program in Animal Crossing: New Horizons?",
+      "a": "Nook Inc. (run by Tom Nook)",
       "angle": "setting"
     },
     {
@@ -471,11 +456,6 @@
       "q": "Which game series stars Master Chief?",
       "a": "Halo",
       "angle": "franchises"
-    },
-    {
-      "q": "What studio makes League of Legends?",
-      "a": "Riot Games",
-      "angle": "developers"
     },
     {
       "q": "What is the main map in PUBG called?",
@@ -508,11 +488,6 @@
       "angle": "items"
     },
     {
-      "q": "What battle royale features Legends like Wraith and Pathfinder?",
-      "a": "Apex Legends",
-      "angle": "franchises"
-    },
-    {
       "q": "Who is the Norse son of Kratos?",
       "a": "Atreus",
       "angle": "characters"
@@ -521,11 +496,6 @@
       "q": "What item do players drop to respawn in Apex Legends?",
       "a": "Banner cards to respawn at beacons",
       "angle": "mechanics"
-    },
-    {
-      "q": "What year did the Nintendo Switch release?",
-      "a": "2017",
-      "angle": "dates"
     },
     {
       "q": "What sci-fi horror game features Isaac Clarke?",
@@ -595,11 +565,6 @@
       "angle": "boss fight"
     },
     {
-      "q": "What year did the Nintendo Switch launch?",
-      "a": "2017",
-      "angle": "open world"
-    },
-    {
       "q": "What is the currency in Minecraft?",
       "a": "Emeralds (trading with villagers)",
       "angle": "crafting"
@@ -620,8 +585,8 @@
       "angle": "music"
     },
     {
-      "q": "What is the highest difficulty in Dark Souls games called?",
-      "a": "No official; self-imposed SL1/no-hit runs (NG+ cycles increase)",
+      "q": "What is the term for a Dark Souls run where you keep the starting Soul Level 1 throughout?",
+      "a": "SL1 run",
       "angle": "challenge"
     },
     {
@@ -760,11 +725,6 @@
       "angle": "mechanics"
     },
     {
-      "q": "What is the developer of Hollow Knight?",
-      "a": "Team Cherry",
-      "angle": "developers"
-    },
-    {
       "q": "What planetary system hosts Mass Effect's Citadel?",
       "a": "The Widow system in the Serpent Nebula",
       "angle": "lore"
@@ -780,8 +740,8 @@
       "angle": "creators"
     },
     {
-      "q": "What is the name of the ship in Outer Wilds?",
-      "a": "The spaceship/ship used by the Hearthians called the Nomai shuttle? The player ship is unnamed; often called the timber hearth ship",
+      "q": "What is the name of the ancient alien race whose ruins you explore in Outer Wilds?",
+      "a": "The Nomai",
       "angle": "lore"
     },
     {

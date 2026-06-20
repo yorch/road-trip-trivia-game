@@ -76,8 +76,8 @@
       "angle": "chart topper"
     },
     {
-      "q": "What genre is Taylor Swift primarily known for now?",
-      "a": "Pop (after country beginnings)",
+      "q": "What genre is Taylor Swift primarily known for?",
+      "a": "Pop",
       "angle": "modern"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "q": "Who led The Jackson 5?",
-      "a": "Young Michael Jackson",
+      "a": "Michael Jackson",
       "angle": "group"
     },
     {
@@ -156,34 +156,9 @@
       "angle": "band"
     },
     {
-      "q": "Who is known as the King of Pop?",
-      "a": "Michael Jackson",
-      "angle": "titles"
-    },
-    {
       "q": "Who is known as the Queen of Pop?",
       "a": "Madonna",
       "angle": "titles"
-    },
-    {
-      "q": "Who sang Imagine?",
-      "a": "John Lennon",
-      "angle": "songs"
-    },
-    {
-      "q": "Who fronted Queen?",
-      "a": "Freddie Mercury",
-      "angle": "bands"
-    },
-    {
-      "q": "Who is the lead singer of U2?",
-      "a": "Bono",
-      "angle": "bands"
-    },
-    {
-      "q": "Who sang Purple Rain?",
-      "a": "Prince",
-      "angle": "songs"
     },
     {
       "q": "Who is famous for moonwalking?",
@@ -194,21 +169,6 @@
       "q": "What band is Mick Jagger in?",
       "a": "The Rolling Stones",
       "angle": "bands"
-    },
-    {
-      "q": "Who sang Like a Rolling Stone?",
-      "a": "Bob Dylan",
-      "angle": "songs"
-    },
-    {
-      "q": "Who is the Boss?",
-      "a": "Bruce Springsteen",
-      "angle": "titles"
-    },
-    {
-      "q": "Who is the King of Rock and Roll?",
-      "a": "Elvis Presley",
-      "angle": "titles"
     },
     {
       "q": "Who is known for the song Respect?",
@@ -254,11 +214,6 @@
       "q": "Who is the Rocket Man singer?",
       "a": "Elton John",
       "angle": "songs"
-    },
-    {
-      "q": "Who is the Piano Man?",
-      "a": "Billy Joel",
-      "angle": "titles"
     },
     {
       "q": "Who is known as Queen Bey?",
@@ -398,11 +353,6 @@
       "angle": "album"
     },
     {
-      "q": "Which Beatle was known as the 'Quiet Beatle'?",
-      "a": "George Harrison",
-      "angle": "bio"
-    },
-    {
       "q": "Who sang 'Piano Man'?",
       "a": "Billy Joel",
       "angle": "song"
@@ -463,11 +413,6 @@
       "angle": "titles"
     },
     {
-      "q": "Who wrote Hallelujah (original)?",
-      "a": "Leonard Cohen",
-      "angle": "songs"
-    },
-    {
       "q": "Who founded Motown Records?",
       "a": "Berry Gordy",
       "angle": "industry"
@@ -498,11 +443,6 @@
       "angle": "titles"
     },
     {
-      "q": "Who sang Born in the U.S.A.?",
-      "a": "Bruce Springsteen",
-      "angle": "songs"
-    },
-    {
       "q": "Who is the frontman of The Rolling Stones?",
       "a": "Mick Jagger",
       "angle": "bands"
@@ -513,8 +453,8 @@
       "angle": "songs"
     },
     {
-      "q": "Who is the bassist/singer of Red Hot Chili Peppers?",
-      "a": "Flea (bassist), Anthony Kiedis (singer)",
+      "q": "Who is the lead vocalist of Red Hot Chili Peppers?",
+      "a": "Anthony Kiedis",
       "angle": "bands"
     },
     {
@@ -543,8 +483,8 @@
       "angle": "nicknames"
     },
     {
-      "q": "Who is the guitarist called The Edge?",
-      "a": "U2's guitarist",
+      "q": "What is The Edge's real name?",
+      "a": "David Evans (guitarist of U2)",
       "angle": "nicknames"
     },
     {
@@ -603,11 +543,6 @@
       "q": "Who played the 'Beat It' guitar solo?",
       "a": "Eddie Van Halen",
       "angle": "collab"
-    },
-    {
-      "q": "What was The Beatles' first US number one?",
-      "a": "\"I Want to Hold Your Hand\"",
-      "angle": "chart"
     },
     {
       "q": "Who performed the legendary Live Aid set at Wembley?",
@@ -735,13 +670,8 @@
       "angle": "production"
     },
     {
-      "q": "Who wrote Like a Rolling Stone?",
-      "a": "Bob Dylan",
-      "angle": "songs"
-    },
-    {
-      "q": "What city did grunge emerge from?",
-      "a": "Seattle",
+      "q": "What Seattle record label launched the grunge scene, signing Nirvana and Soundgarden?",
+      "a": "Sub Pop Records",
       "angle": "history"
     },
     {
@@ -760,18 +690,8 @@
       "angle": "albums"
     },
     {
-      "q": "Who is known for the wall of sound production?",
-      "a": "Phil Spector",
-      "angle": "production"
-    },
-    {
       "q": "Who was the original singer for AC/DC before Brian Johnson?",
       "a": "Bon Scott",
-      "angle": "history"
-    },
-    {
-      "q": "What year did Thriller release?",
-      "a": "1982",
       "angle": "history"
     },
     {
@@ -788,11 +708,6 @@
       "q": "Which artist released Lemonade?",
       "a": "Beyoncé",
       "angle": "albums"
-    },
-    {
-      "q": "Who wrote and sang Redemption Song?",
-      "a": "Bob Marley",
-      "angle": "songs"
     },
     {
       "q": "What is Prince's famous symbol era called?",
