@@ -4,6 +4,9 @@ dist/
 
 tmp/
 
+# Skill-creator evaluation workspace (generated benchmark/run artifacts)
+.claude/skills/*-workspace/
+
 # Yarn v2+ Non Zero Installs
 .pnp.*
 .yarn/*
