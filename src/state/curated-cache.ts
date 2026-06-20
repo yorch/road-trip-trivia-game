@@ -1,7 +1,11 @@
 // Curated question index cache management
 // Manages the list of topics that have curated questions available
 
-import { type CuratedIndex, loadCuratedQuestionsIndex } from './questions';
+import {
+  type CuratedIndex,
+  type CuratedIndexStats,
+  loadCuratedQuestionsIndex,
+} from './questions';
 
 // Set of topic IDs that have curated questions (loaded from index.json)
 let _curatedTopicIds: Set<string> | null = null;
@@ -14,6 +18,13 @@ export function getCuratedTopicIds(): Set<string> | null {
 
 export function getCuratedTopicStats(): CuratedIndex | null {
   return _curatedStats;
+}
+
+// Per-topic curated question counts by difficulty, or null if the topic has none.
+export function getTopicCuratedStats(
+  topicId: string,
+): CuratedIndexStats | null {
+  return _curatedStats?.[topicId] ?? null;
 }
 
 export function resetCuratedTopicIds(): void {

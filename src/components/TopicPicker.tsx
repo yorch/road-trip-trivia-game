@@ -8,6 +8,7 @@ import {
 } from '../data/data';
 import {
   clearCuratedQuestionsCache,
+  getTopicCuratedStats,
   hasCuratedQuestions,
   loadCuratedTopicIndex,
   resetCuratedTopicIds,
@@ -269,6 +270,7 @@ export function TopicPicker() {
                 <div class="topic-grid">
                   {groupedTopics[category].map((topic: Topic) => {
                     const isCurated = hasCuratedQuestions(topic.id);
+                    const stats = getTopicCuratedStats(topic.id);
 
                     return (
                       <button
@@ -290,6 +292,14 @@ export function TopicPicker() {
                             </span>
                           )}
                         </span>
+                        {stats && (
+                          <span
+                            class="topic-card-counts"
+                            title="Curated questions by difficulty (easy / medium / hard)"
+                          >
+                            {stats.easy}E · {stats.medium}M · {stats.hard}H
+                          </span>
+                        )}
                         <span class="topic-card-tags">
                           {topic.tags.slice(0, 3).map((tag) => (
                             <span class="topic-tag" key={tag}>
