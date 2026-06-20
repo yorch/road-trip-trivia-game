@@ -211,19 +211,37 @@ export function QuestionCard() {
           onSpeak={() => speak(question.prompt)}
         />
         <p class="card-body" id="cardBody">
-          Give a short, precise answer, then reveal.
+          {question.generated
+            ? 'Open-ended — name what you can, then reveal a few examples.'
+            : 'Give a short, precise answer, then reveal.'}
         </p>
 
-        {/* Only render the answer text once revealed: CSS hides the box
-            visually, but keeping the text in the DOM leaked it to screen
-            readers and devtools before reveal. */}
+        {/* Only render the answer once revealed: CSS hides the box visually,
+            but keeping the text in the DOM leaked it to screen readers and
+            devtools before reveal. Generated prompts show example answers (no
+            single correct answer); curated questions show the one answer. */}
         <div
           class={`answer ${revealed ? 'visible' : ''}`}
           id="cardAnswer"
           aria-hidden={!revealed}
         >
-          <p class="answer-label">Answer</p>
-          <p id="answerText">{revealed ? question.answer : ''}</p>
+          {question.generated && question.examples ? (
+            <>
+              <p class="answer-label">Example answers</p>
+              {revealed && (
+                <ul class="answer-examples" id="answerText">
+                  {question.examples.map((ex) => (
+                    <li key={ex}>{ex}</li>
+                  ))}
+                </ul>
+              )}
+            </>
+          ) : (
+            <>
+              <p class="answer-label">Answer</p>
+              <p id="answerText">{revealed ? question.answer : ''}</p>
+            </>
+          )}
         </div>
 
         <CardActions

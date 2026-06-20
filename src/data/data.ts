@@ -139,68 +139,41 @@ const categoryAngles: CategoryAngles = {
   ],
 };
 
+// Open-ended generation templates. These produce discussion-style prompts with
+// NO single correct answer (the card shows several example answers). The angle
+// is always quoted as a theme label — e.g. "houses", "quote" — so prompts read
+// correctly regardless of whether the angle is singular or plural.
 const promptTemplates: TemplateSet = {
   easy: [
-    // Recognition-based (10)
-    "What's a famous {angle} from {topic}?",
-    'Name any {angle} you know from {topic}.',
-    'Which {angle} would you recognize from {topic}?',
-    'Give an example of a {angle} in {topic}.',
-    'What {angle} is {topic} known for?',
-    'Recall a popular {angle} from {topic}.',
-    'Which {angle} stands out in {topic}?',
-    'What {angle} do most people know from {topic}?',
-    'Think of one {angle} associated with {topic}.',
-    "What's a classic {angle} from {topic}?",
-    // Quick-fire style (10)
-    'Quick #{n}: Which {angle} is iconic in {topic}?',
-    'Starter #{n}: Name a key {angle} for {topic}.',
-    'Warm-up #{n}: What common {angle} fits {topic}?',
-    'Roadside #{n}: Pick one well-known {angle} in {topic}.',
-    'Spotlight #{n}: Call out a famous {angle} of {topic}.',
-    'Soundbite #{n}: Give one signature {angle} from {topic}.',
-    'Trivia #{n}: What {angle} appears in {topic}?',
-    'Fast #{n}: Name a memorable {angle} from {topic}.',
-    'Basic #{n}: Which {angle} is essential to {topic}?',
-    'Easy #{n}: What {angle} defines {topic}?',
+    'In {topic}, name something connected to "{angle}".',
+    'Name a {topic} example for the theme "{angle}".',
+    'What comes to mind for "{angle}" in {topic}?',
+    'Recall something from {topic} related to "{angle}".',
+    'Name a well-known "{angle}" from {topic}.',
+    'Spot one example of "{angle}" in {topic}.',
+    'Quick #{n}: name an example of "{angle}" in {topic}.',
+    'Warm-up #{n}: name something tied to "{angle}" in {topic}.',
+    'Starter #{n}: what\'s a classic "{angle}" in {topic}?',
+    'Roadside #{n}: call out an example of "{angle}" from {topic}.',
   ],
   medium: [
-    // Context-requiring (8)
-    'Which {angle} plays a pivotal role in {topic}?',
-    'What {angle} is unique to {topic}?',
-    'Name the {angle} that changed {topic}.',
-    'Which {angle} is debated among {topic} fans?',
-    'What {angle} connects different parts of {topic}?',
-    'Which {angle} represents the theme of {topic}?',
-    'What {angle} evolved throughout {topic}?',
-    'Name a {angle} that surprised audiences in {topic}.',
-    // Numbered style (7)
-    'Round #{n}: Name a pivotal {angle} tied to {topic}.',
-    'Challenge #{n}: Which defining {angle} marks {topic}?',
-    'Checkpoint #{n}: Identify a memorable {angle} in {topic}.',
-    'Explain #{n}: Point to a standout {angle} in {topic}.',
-    'Describe #{n}: Choose a notable {angle} from {topic}.',
-    'Detail #{n}: What significant {angle} shaped {topic}?',
-    'Focus #{n}: Which {angle} received critical acclaim in {topic}?',
+    'In {topic}, name a notable example of "{angle}".',
+    'Name a memorable "{angle}" from {topic}.',
+    'Which "{angle}" stands out in {topic}? Name one.',
+    'Point to a defining example of "{angle}" in {topic}.',
+    'Name an example of "{angle}" that shaped {topic}.',
+    'Round #{n}: identify a key example of "{angle}" in {topic}.',
+    'Checkpoint #{n}: name a significant "{angle}" in {topic}.',
+    'Detail #{n}: name a standout example of "{angle}" in {topic}.',
   ],
   hard: [
-    // Deep knowledge (8)
-    'Which lesser-known {angle} influenced {topic}?',
-    'What {angle} was modified during production of {topic}?',
-    'Name the {angle} that created controversy in {topic}.',
-    'Which {angle} was inspired by real events in {topic}?',
-    'What {angle} differs between versions of {topic}?',
-    'Compare two {angle} interpretations in {topic}.',
-    'Which {angle} references another work in {topic}?',
-    'What {angle} only appears in extended content of {topic}?',
-    // Numbered expert style (7)
-    'Deep dive #{n}: Which debated {angle} sits in {topic}?',
-    'Expert #{n}: Name a lesser-known {angle} of {topic}.',
-    'Toughie #{n}: Cite a contested {angle} within {topic}.',
-    'Brain burn #{n}: Call out a tricky {angle} of {topic}.',
-    'Stretch #{n}: Identify a rare {angle} linked to {topic}.',
-    'Advanced #{n}: Which obscure {angle} exists in {topic}?',
-    'Challenge #{n}: What hidden {angle} did creators add to {topic}?',
+    'In {topic}, name a lesser-known example of "{angle}".',
+    'Name a rare or overlooked "{angle}" in {topic}.',
+    'What\'s a more advanced example of "{angle}" in {topic}?',
+    'Name an example of "{angle}" only superfans of {topic} would know.',
+    'Expert #{n}: name a less obvious "{angle}" from {topic}.',
+    'Deep dive #{n}: identify a niche "{angle}" in {topic}.',
+    'Toughie #{n}: cite an obscure "{angle}" within {topic}.',
   ],
 };
 

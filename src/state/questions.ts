@@ -152,7 +152,9 @@ async function createQuestions(
     return bank;
   }
 
-  // Fill remaining slots with generated questions using real answer examples
+  // Fill remaining slots with open-ended generated prompts. These have no single
+  // correct answer, so each carries several example answers (rotated by `i` so
+  // repeated angles surface different examples) rather than one "the answer".
   const remaining = QUESTION_BANK_SIZE - curated.length;
   for (let i = 0; i < remaining; i += 1) {
     const angle = anglesWithExamples[i % anglesWithExamples.length];
@@ -163,10 +165,22 @@ async function createQuestions(
       i,
     );
 
-    // Use real answer example (guaranteed to exist since we filtered for it)
-    const answer = examples[angle][i % examples[angle].length];
+    // Pick up to 3 example answers, starting at a rotating offset.
+    const pool = examples[angle];
+    const start = i % pool.length;
+    const picks: string[] = [];
+    for (let k = 0; k < Math.min(3, pool.length); k += 1) {
+      picks.push(pool[(start + k) % pool.length]);
+    }
 
-    bank.push({ prompt, answer, angle, difficulty });
+    bank.push({
+      prompt,
+      answer: picks.join(' · '),
+      angle,
+      difficulty,
+      generated: true,
+      examples: picks,
+    });
   }
 
   return bank;

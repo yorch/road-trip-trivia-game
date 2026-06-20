@@ -14,6 +14,10 @@ export interface Question {
   answer: string;
   angle: string;
   difficulty: Difficulty;
+  // Template-generated open-ended prompts set these: the question has no single
+  // correct answer, so we show several example answers instead of one.
+  generated?: boolean;
+  examples?: string[];
 }
 
 export interface CuratedQuestion {
