@@ -172,6 +172,15 @@ async function createQuestions(
   return bank;
 }
 
+// Clear all loaded curated questions and generated banks so the next access
+// re-fetches from the network. Used by the "Reload" action.
+export function clearCuratedQuestionsCache(): void {
+  for (const key of Object.keys(curatedQuestionsCache)) {
+    delete curatedQuestionsCache[key];
+  }
+  questionBank = {};
+}
+
 // Rebuild question bank (clears cache)
 export function rebuildQuestionBank(
   currentTopicId: string | null,

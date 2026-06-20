@@ -66,6 +66,11 @@ async function loadAnswerExamples(): Promise<AnswerExamples> {
   }
 }
 
+// Force the next loadAnswerExamples() call to re-fetch. Used by "Reload".
+function resetAnswerExamplesCache(): void {
+  answerExamplesLoaded = false;
+}
+
 const categoryAngles: CategoryAngles = {
   'Movies & TV': [
     'iconic scene',
@@ -206,4 +211,5 @@ export {
   loadAnswerExamples,
   loadStaticData,
   promptTemplates,
+  resetAnswerExamplesCache,
 };

@@ -3,11 +3,14 @@ import { useLocation } from 'wouter-preact';
 import {
   answerExamplesSignal,
   loadAnswerExamples,
+  resetAnswerExamplesCache,
   topicListSignal,
 } from '../data/data';
 import {
+  clearCuratedQuestionsCache,
   hasCuratedQuestions,
   loadCuratedTopicIndex,
+  resetCuratedTopicIds,
   scoreSignal,
   showCuratedListSignal,
   streakSignal,
@@ -16,7 +19,11 @@ import {
 import { startNewTrip } from '../state/game-logic';
 
 import type { Topic } from '../types';
-import { SEARCH_DEBOUNCE_MS } from '../utils';
+import {
+  ErrorHandler,
+  RELOAD_SUCCESS_DISPLAY_MS,
+  SEARCH_DEBOUNCE_MS,
+} from '../utils';
 import { CuratedListDialog } from './CuratedListDialog';
 import {
   CATEGORY_ICONS,
@@ -61,6 +68,34 @@ export function TopicPicker() {
       searchInputRef.current.focus();
     }
   }, []);
+
+  // Reload curated data without redeploying: drop the in-memory caches and
+  // re-fetch the index, curated questions, and answer examples. A short
+  // cooldown prevents repeated clicks from spamming refetches.
+  const reloadingRef = useRef(false);
+  const handleReload = () => {
+    if (reloadingRef.current) return;
+    reloadingRef.current = true;
+    setLoading(true);
+
+    resetCuratedTopicIds();
+    clearCuratedQuestionsCache();
+    resetAnswerExamplesCache();
+
+    Promise.all([loadCuratedTopicIndex(), loadAnswerExamples()])
+      .then(() => ErrorHandler.success('Curated questions reloaded'))
+      .catch(() =>
+        ErrorHandler.warn(
+          'Could not reload curated questions — showing cached',
+        ),
+      )
+      .finally(() => {
+        setLoading(false);
+        setTimeout(() => {
+          reloadingRef.current = false;
+        }, RELOAD_SUCCESS_DISPLAY_MS);
+      });
+  };
 
   const filteredTopics = useMemo(() => {
     if (!topicList) return [];
@@ -140,16 +175,7 @@ export function TopicPicker() {
             >
               <ClipboardListIcon size={14} class="btn-icon" /> Curated List
             </button>
-            <button
-              type="button"
-              class="ghost"
-              onClick={() => {
-                setLoading(true);
-                // Reload logic... maybe just re-fetch?
-                // For now just simulate reload
-                setTimeout(() => setLoading(false), 500);
-              }}
-            >
+            <button type="button" class="ghost" onClick={handleReload}>
               <RefreshIcon size={14} class="btn-icon" /> Reload
             </button>
             {scoreSignal.value > 0 && (
