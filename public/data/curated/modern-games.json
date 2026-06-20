@@ -106,29 +106,14 @@
       "angle": "hero"
     },
     {
-      "q": "What game has a Battle Bus?",
-      "a": "Fortnite",
-      "angle": "feature"
-    },
-    {
       "q": "What console does Mario primarily appear on?",
       "a": "Nintendo consoles",
       "angle": "platform"
     },
     {
-      "q": "Which game has villagers trading with emeralds?",
-      "a": "Minecraft",
-      "angle": "economy"
-    },
-    {
       "q": "What is the purple storm in Fortnite?",
       "a": "The storm circle closing in",
       "angle": "mechanic"
-    },
-    {
-      "q": "What are loot llamas from?",
-      "a": "Fortnite",
-      "angle": "item"
     },
     {
       "q": "What is the floating bus in Fortnite called?",
@@ -146,11 +131,6 @@
       "angle": "story"
     },
     {
-      "q": "What game uses pickaxes to gather blocks?",
-      "a": "Minecraft",
-      "angle": "crafting"
-    },
-    {
       "q": "What console series is called 'Xbox'?",
       "a": "Microsoft's console line",
       "angle": "platform"
@@ -159,16 +139,6 @@
       "q": "Who is the main plumber hero in many Nintendo games?",
       "a": "Mario",
       "angle": "characters"
-    },
-    {
-      "q": "What is the block-building game by Mojang?",
-      "a": "Minecraft",
-      "angle": "franchises"
-    },
-    {
-      "q": "What battle royale drops 100 players onto an island?",
-      "a": "Fortnite",
-      "angle": "genres"
     },
     {
       "q": "What is Link's sword called?",
@@ -204,11 +174,6 @@
       "q": "What is the blue blur hedgehog?",
       "a": "Sonic",
       "angle": "characters"
-    },
-    {
-      "q": "What game lets you catch pocket monsters?",
-      "a": "Pokémon",
-      "angle": "franchises"
     },
     {
       "q": "What series features Kratos?",
@@ -254,11 +219,6 @@
       "q": "What game has a spell called Kamehameha crossover emote?",
       "a": "Fortnite events",
       "angle": "events"
-    },
-    {
-      "q": "What 3D sandbox lets you mine and craft blocks?",
-      "a": "Minecraft",
-      "angle": "franchises"
     },
     {
       "q": "What racing series uses blue shells?",

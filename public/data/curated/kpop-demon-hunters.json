@@ -156,11 +156,6 @@
       "angle": "concept"
     },
     {
-      "q": "Who is the leader of the team?",
-      "a": "Rumi",
-      "angle": "roles"
-    },
-    {
       "q": "What do they fight at night?",
       "a": "Demons and evil spirits",
       "angle": "mission"
@@ -174,11 +169,6 @@
       "q": "Where do they rehearse and train?",
       "a": "Their underground practice room",
       "angle": "setting"
-    },
-    {
-      "q": "Who handles vocals and spell chants?",
-      "a": "Rumi",
-      "angle": "roles"
     },
     {
       "q": "Who is the main dancer and scout?",
@@ -244,11 +234,6 @@
       "q": "What accessory doubles as a demon detector?",
       "a": "Their lightstick / staff",
       "angle": "gear"
-    },
-    {
-      "q": "Who calms spirits with vocals?",
-      "a": "Rumi",
-      "angle": "roles"
     },
     {
       "q": "What does the fandom wave at concerts?",

@@ -156,11 +156,6 @@
       "angle": "hooks"
     },
     {
-      "q": "Who is known for the song Rolling in the Deep?",
-      "a": "Adele",
-      "angle": "artists"
-    },
-    {
       "q": "Who is the group behind Dynamite?",
       "a": "BTS",
       "angle": "artists"
@@ -743,11 +738,6 @@
       "q": "What song gave BTS their first Billboard Hot 100 #1?",
       "a": "Dynamite",
       "angle": "records"
-    },
-    {
-      "q": "Who is the mastermind producer behind Blinding Lights sound?",
-      "a": "Max Martin",
-      "angle": "production"
     },
     {
       "q": "Which album is Bad Habits part of?",

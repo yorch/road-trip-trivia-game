@@ -201,11 +201,6 @@
       "angle": "history"
     },
     {
-      "q": "What planet is the largest in our solar system?",
-      "a": "Jupiter",
-      "angle": "bodies"
-    },
-    {
       "q": "What is the Milky Way?",
       "a": "Our galaxy",
       "angle": "bodies"

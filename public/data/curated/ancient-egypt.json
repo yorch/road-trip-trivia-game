@@ -181,11 +181,6 @@
       "angle": "mummification"
     },
     {
-      "q": "What plant grew in the Nile marshes and was used for paper?",
-      "a": "Papyrus",
-      "angle": "nile"
-    },
-    {
       "q": "What sea does the Nile flow into?",
       "a": "The Mediterranean Sea",
       "angle": "geography"

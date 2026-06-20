@@ -1,17 +1,17 @@
 {
   "90s-cartoons": {
     "easy": 52,
-    "medium": 51,
+    "medium": 50,
     "hard": 47
   },
   "ancient-egypt": {
-    "easy": 51,
+    "easy": 50,
     "medium": 55,
     "hard": 54
   },
   "ancient-greece": {
     "easy": 54,
-    "medium": 54,
+    "medium": 53,
     "hard": 55
   },
   "anime-heroes": {
@@ -22,7 +22,7 @@
   "basketball": {
     "easy": 53,
     "medium": 53,
-    "hard": 53
+    "hard": 52
   },
   "dc-comics": {
     "easy": 57,
@@ -30,8 +30,8 @@
     "hard": 62
   },
   "dinosaurs": {
-    "easy": 53,
-    "medium": 54,
+    "easy": 52,
+    "medium": 53,
     "hard": 52
   },
   "disney-classics": {
@@ -50,12 +50,12 @@
     "hard": 50
   },
   "kpop-demon-hunters": {
-    "easy": 52,
+    "easy": 49,
     "medium": 50,
     "hard": 53
   },
   "lotr": {
-    "easy": 53,
+    "easy": 52,
     "medium": 54,
     "hard": 53
   },
@@ -65,18 +65,18 @@
     "hard": 55
   },
   "modern-games": {
-    "easy": 54,
+    "easy": 46,
     "medium": 52,
     "hard": 53
   },
   "movie-soundtracks": {
-    "easy": 55,
-    "medium": 53,
-    "hard": 54
+    "easy": 52,
+    "medium": 46,
+    "hard": 51
   },
   "music-legends": {
-    "easy": 47,
-    "medium": 52,
+    "easy": 41,
+    "medium": 51,
     "hard": 50
   },
   "mythology": {
@@ -86,13 +86,13 @@
   },
   "pokemon": {
     "easy": 54,
-    "medium": 54,
+    "medium": 52,
     "hard": 55
   },
   "pop-hits": {
-    "easy": 44,
+    "easy": 43,
     "medium": 51,
-    "hard": 55
+    "hard": 54
   },
   "racing": {
     "easy": 55,
@@ -115,7 +115,7 @@
     "hard": 53
   },
   "space-exploration": {
-    "easy": 50,
+    "easy": 49,
     "medium": 53,
     "hard": 55
   },
@@ -127,7 +127,7 @@
   "tech-giants": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "tech-innovations": {
     "easy": 43,
@@ -135,7 +135,7 @@
     "hard": 41
   },
   "us-history": {
-    "easy": 46,
+    "easy": 45,
     "medium": 54,
     "hard": 54
   },
@@ -145,7 +145,7 @@
     "hard": 40
   },
   "world-history": {
-    "easy": 50,
+    "easy": 49,
     "medium": 59,
     "hard": 57
   },

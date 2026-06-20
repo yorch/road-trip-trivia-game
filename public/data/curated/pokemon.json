@@ -433,16 +433,6 @@
       "angle": "moves"
     },
     {
-      "q": "What is the base power of Flamethrower?",
-      "a": "90",
-      "angle": "moves"
-    },
-    {
-      "q": "What is the base power of Ice Beam?",
-      "a": "90",
-      "angle": "moves"
-    },
-    {
       "q": "What does Dragon Dance boost?",
       "a": "Attack and Speed by one stage",
       "angle": "moves"

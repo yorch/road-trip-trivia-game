@@ -41,11 +41,6 @@
       "angle": "songs"
     },
     {
-      "q": "Which film features \"Can You Feel the Love Tonight\"?",
-      "a": "The Lion King",
-      "angle": "songs"
-    },
-    {
       "q": "Which film features \"Into the Unknown\"?",
       "a": "Frozen II",
       "angle": "songs"
@@ -191,11 +186,6 @@
       "angle": "songs"
     },
     {
-      "q": "Which film features \"I Just Can’t Wait to Be King\"?",
-      "a": "The Lion King",
-      "angle": "songs"
-    },
-    {
       "q": "Which film features \"Do-Re-Mi\"?",
       "a": "The Sound of Music",
       "angle": "songs"
@@ -261,11 +251,6 @@
       "angle": "songs"
     },
     {
-      "q": "Which film features \"Love Is an Open Door\"?",
-      "a": "Frozen",
-      "angle": "songs"
-    },
-    {
       "q": "Which film features \"We Don’t Talk About Bruno\"?",
       "a": "Encanto",
       "angle": "songs"
@@ -284,11 +269,6 @@
     },
     {
       "q": "Who composed the score for Jurassic Park?",
-      "a": "John Williams",
-      "angle": "composers"
-    },
-    {
-      "q": "Who composed the score for Harry Potter and the Sorcerer’s Stone?",
       "a": "John Williams",
       "angle": "composers"
     },
@@ -353,11 +333,6 @@
       "angle": "songwriters"
     },
     {
-      "q": "Who composed the score for Interstellar?",
-      "a": "Hans Zimmer",
-      "angle": "composers"
-    },
-    {
       "q": "Who composed the score for Gladiator?",
       "a": "Hans Zimmer and Lisa Gerrard (vocals)",
       "angle": "composers"
@@ -418,11 +393,6 @@
       "angle": "oscars"
     },
     {
-      "q": "Which score won for Schindler’s List?",
-      "a": "John Williams",
-      "angle": "oscars"
-    },
-    {
       "q": "Which score won for The Shape of Water?",
       "a": "Alexandre Desplat",
       "angle": "oscars"
@@ -454,11 +424,6 @@
     },
     {
       "q": "Who composed the score for Ratatouille?",
-      "a": "Michael Giacchino",
-      "angle": "composers"
-    },
-    {
-      "q": "Who composed the score for The Incredibles?",
       "a": "Michael Giacchino",
       "angle": "composers"
     },
@@ -508,11 +473,6 @@
       "angle": "songs"
     },
     {
-      "q": "Who composed the score for Dune (2021)?",
-      "a": "Hans Zimmer",
-      "angle": "composers"
-    },
-    {
       "q": "Who composed the score for Black Panther?",
       "a": "Ludwig Göransson",
       "angle": "composers"
@@ -530,16 +490,6 @@
     {
       "q": "Who composed music for Slumdog Millionaire?",
       "a": "A. R. Rahman",
-      "angle": "composers"
-    },
-    {
-      "q": "Who composed the score for Jaws?",
-      "a": "John Williams",
-      "angle": "composers"
-    },
-    {
-      "q": "Who composed the score for E.T.?",
-      "a": "John Williams",
       "angle": "composers"
     }
   ],
@@ -606,16 +556,6 @@
     },
     {
       "q": "Which composer scored Cinema Paradiso?",
-      "a": "Ennio Morricone",
-      "angle": "composers"
-    },
-    {
-      "q": "Which composer scored The Hateful Eight?",
-      "a": "Ennio Morricone",
-      "angle": "composers"
-    },
-    {
-      "q": "Which composer scored the Dollars Trilogy?",
       "a": "Ennio Morricone",
       "angle": "composers"
     },
@@ -782,11 +722,6 @@
     {
       "q": "Which composer scored Merry Christmas, Mr. Lawrence?",
       "a": "Ryuichi Sakamoto",
-      "angle": "composers"
-    },
-    {
-      "q": "Which composer scored The Mission (1986)?",
-      "a": "Ennio Morricone",
       "angle": "composers"
     },
     {

@@ -141,11 +141,6 @@
       "angle": "pop"
     },
     {
-      "q": "Who led The Jackson 5?",
-      "a": "Michael Jackson",
-      "angle": "group"
-    },
-    {
       "q": "Who is known for 'Rocket Man'?",
       "a": "Elton John",
       "angle": "signature song"
@@ -161,28 +156,13 @@
       "angle": "titles"
     },
     {
-      "q": "Who is famous for moonwalking?",
-      "a": "Michael Jackson",
-      "angle": "moves"
-    },
-    {
       "q": "What band is Mick Jagger in?",
       "a": "The Rolling Stones",
       "angle": "bands"
     },
     {
-      "q": "Who is known for the song Respect?",
-      "a": "Aretha Franklin",
-      "angle": "songs"
-    },
-    {
       "q": "Who sang I Will Always Love You (famous cover)?",
       "a": "Whitney Houston",
-      "angle": "songs"
-    },
-    {
-      "q": "Who sang Thriller?",
-      "a": "Michael Jackson",
       "angle": "songs"
     },
     {
@@ -206,11 +186,6 @@
       "angle": "bands"
     },
     {
-      "q": "Who is the Material Girl?",
-      "a": "Madonna",
-      "angle": "nicknames"
-    },
-    {
       "q": "Who is the Rocket Man singer?",
       "a": "Elton John",
       "angle": "songs"
@@ -229,11 +204,6 @@
       "q": "Who was the Beatle known as the quiet one?",
       "a": "George Harrison",
       "angle": "nicknames"
-    },
-    {
-      "q": "Who sang Smooth Criminal?",
-      "a": "Michael Jackson",
-      "angle": "songs"
     }
   ],
   "medium": [
@@ -486,11 +456,6 @@
       "q": "What is The Edge's real name?",
       "a": "David Evans (guitarist of U2)",
       "angle": "nicknames"
-    },
-    {
-      "q": "Who is known for guitar feedback experiments?",
-      "a": "Jimi Hendrix",
-      "angle": "technique"
     },
     {
       "q": "Who wrote and sang Piano Man?",

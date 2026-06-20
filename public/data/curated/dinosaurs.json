@@ -256,11 +256,6 @@
       "angle": "diet"
     },
     {
-      "q": "What dinosaur had three horns and a frill?",
-      "a": "Triceratops",
-      "angle": "herbivores"
-    },
-    {
       "q": "What flying reptile is often mistaken for a dinosaur?",
       "a": "Pterosaurs like Pteranodon",
       "angle": "classification"
@@ -476,11 +471,6 @@
       "q": "Which dinosaur skeleton nicknamed Sue is the largest T-Rex found?",
       "a": "Sue the Tyrannosaurus Rex",
       "angle": "fossils"
-    },
-    {
-      "q": "Which dinosaur had a sickle claw and lived in Mongolia?",
-      "a": "Velociraptor",
-      "angle": "predators"
     },
     {
       "q": "What is the name for fossilized dinosaur footprints?",
