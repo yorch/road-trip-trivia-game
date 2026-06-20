@@ -7,9 +7,9 @@ A lightweight TypeScript trivia game with offline PWA capabilities, designed to 
 - **43 Topics** across 7 categories: Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places
 - **Three Difficulty Levels**: Easy, Medium, and Hard questions to challenge everyone
 - **5000+ Curated Questions**: Hand-written factual trivia with verifiable answers
-- **Generated Questions**: Template-based questions with real-world answer examples
+- **Generated Questions**: Open-ended prompts that reveal several real-world example answers (no single "correct" answer)
 - **Two Question Modes**:
-  - **All Questions**: Mix of curated and generated content (80 questions per topic/difficulty)
+  - **All Questions**: Curated questions plus open-ended generated prompts (up to 80 per topic/difficulty)
   - **Curated Only**: Play exclusively hand-written trivia questions
 - **Progress Tracking**: Scores, streaks, and question history saved locally
 - **Read Aloud**: Text-to-speech for questions with voice, speed, and pitch controls
@@ -178,7 +178,7 @@ Add real-world examples to `public/data/answer-examples.json`:
 }
 ```
 
-These examples are used when generating template-based questions to provide factual content.
+These examples are shown as the sample answers for open-ended generated prompts.
 
 ## 🏗️ Built With
 

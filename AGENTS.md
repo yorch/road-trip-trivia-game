@@ -9,7 +9,7 @@ Road Trip Trivia is a TypeScript trivia game application built with Vite. Featur
 - 43 topics across 7 categories (Movies & TV, Books & Lore, Music, History, Science & Nature, Sports & Games, Travel & Places)
 - Three difficulty levels (easy, medium, hard) with 80 questions each
 - 5000+ curated factual questions loaded from JSON (31 priority topics)
-- Generated questions using templates and real answer examples
+- Generated questions: open-ended prompts ("All" mode) that reveal several example answers rather than one
 - Question mode toggle: "All questions" vs "Curated only"
 - Score tracking, streak management, and progress persistence via localStorage
 - Hash-based routing (topic picker `/` and game `/topic/:id`) via wouter-preact
@@ -154,8 +154,8 @@ Question structure:
 3. If cache miss → `createQuestions(topic, difficulty, mode)`:
    - Add curated questions first (from JSON)
    - If "curated only" mode → return curated questions only
-   - If "all" mode → fill remaining slots (up to 80) with generated questions using templates
-   - Prefer angles with real answer examples over generic templates
+   - If "all" mode → fill remaining slots (up to `QUESTION_BANK_SIZE`) with open-ended generated prompts
+   - Only angles that have real answer examples are used; each generated question is flagged `generated: true` and carries up to 3 `examples` (no single correct answer)
 4. Cache result and return
 
 **Progress Tracking (Deterministic Shuffle)**
