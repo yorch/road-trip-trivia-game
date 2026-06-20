@@ -12,6 +12,8 @@ A lightweight TypeScript trivia game with offline PWA capabilities, designed to 
   - **All Questions**: Mix of curated and generated content (80 questions per topic/difficulty)
   - **Curated Only**: Play exclusively hand-written trivia questions
 - **Progress Tracking**: Scores, streaks, and question history saved locally
+- **Read Aloud**: Text-to-speech for questions with voice, speed, and pitch controls
+- **Themes**: Warm Americana, Night Drive, and Coastal (defaults to your system preference)
 - **Reactive State**: Preact Signals for efficient UI updates and automatic persistence
 - **PWA Support**: Installable progressive web app with offline capabilities via vite-plugin-pwa
 - **Live Reload**: Update curated questions without redeploying the app
@@ -115,6 +117,12 @@ yarn lint:fix
 
 # Format code
 yarn format
+
+# Type-check (the build does not type-check)
+yarn typecheck
+
+# Run unit tests
+yarn test
 ```
 
 ### Adding Content
@@ -190,9 +198,9 @@ These examples are used when generating template-based questions to provide fact
 - **Smart Caching**: Avoids regenerating questions for same topic/difficulty/mode
 - **Deterministic Shuffle**: Consistent question order across sessions using LCG algorithm
 - **PWA Architecture**: Auto-generated service worker with Workbox for offline support
-- **XSS Protection**: All user-facing content HTML-escaped
+- **XSS Protection**: Content rendered via Preact JSX (auto-escaped); `escapeHtml()` for the toast `innerHTML` path
 - **Error Recovery**: Graceful fallbacks for missing data or localStorage failures
-- **Debounced Operations**: Search and mode changes optimized to prevent excessive calculations
+- **Debounced Search**: Topic search filtering is debounced to avoid excessive recalculation
 
 ## 🎯 Design Philosophy
 

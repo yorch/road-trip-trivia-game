@@ -12,6 +12,9 @@ Road Trip Trivia is a TypeScript trivia game application built with Vite. Featur
 - Generated questions using templates and real answer examples
 - Question mode toggle: "All questions" vs "Curated only"
 - Score tracking, streak management, and progress persistence via localStorage
+- Hash-based routing (topic picker `/` and game `/topic/:id`) via wouter-preact
+- Multiple themes (Warm Americana, Night Drive, Coastal) with system-preference default
+- Text-to-speech "read aloud" with voice/speed/pitch controls (settings on both pages)
 - Offline support with PWA (Progressive Web App) via vite-plugin-pwa
 - Reactive state management using Preact Signals
 - Client-side only implementation with no backend
@@ -33,7 +36,13 @@ yarn update-index     # Update curated questions index
 yarn lint             # Run Biome linter
 yarn lint:fix         # Auto-fix linting issues
 yarn format           # Format code with Biome
+yarn typecheck        # Type-check with tsc (the build does NOT type-check)
+yarn test             # Run unit tests (Vitest)
+yarn test:watch       # Run unit tests in watch mode
 ```
+
+> Note: `yarn build` uses Vite/esbuild, which strips types without checking
+> them. Run `yarn typecheck` (also enforced in CI) to catch type errors.
 
 ## Architecture
 
@@ -56,9 +65,10 @@ yarn format           # Format code with Biome
 - `shuffleIndices()`: Deterministic shuffle using linear congruential generator
 - `fillTemplate()`: Template string replacement for question generation
 - `buildAngles()`: Combines topic tags + category angles + general angles
-- `ErrorHandler`: Toast notification system (info, warn, critical)
-- `escapeHtml()`: XSS protection for user-facing content
-- Constants: difficulty levels, question modes, debounce timings
+- `ErrorHandler`: Toast notification system (info, warn, critical, success)
+- `escapeHtml()`: XSS protection for the toast `innerHTML` path (Preact escapes JSX automatically elsewhere)
+- Constants: difficulty levels, question modes, `QUESTION_BANK_SIZE`, `SEARCH_DEBOUNCE_MS`, `RELOAD_SUCCESS_DISPLAY_MS`
+- Pure functions are covered by `src/utils.test.ts`
 
 **State Module** (`src/state/`) - Reactive state management
 
@@ -75,37 +85,39 @@ yarn format           # Format code with Biome
 - `progress.ts`: Question tracking
   - Per-topic/difficulty progress (order, cursor)
   - Deterministic shuffle management
-- `curated-cache.ts`: Curated questions management
-  - Async loading from `public/data/curated/[topic-id].json`
+- `curated-cache.ts`: Curated questions index management
+  - Tracks which topics have curated questions; `resetCuratedTopicIds()` for reload
 - `game-logic.ts`: Core game actions
-  - `nextQuestion()`, `revealAnswer()`, `resetProgress()`
+  - `nextQuestion()`, `markCorrect()`, `skipQuestion()`, `resetProgress()`, `resumeGame()`, `startNewTrip()`
   - Encapsulates game rules and state transitions
+- `theme.ts`: Theme signal + persistence (`warm`/`dark`/`ocean`), applies `data-theme` to `<html>`
+- `speech.ts`: Text-to-speech signals (voice list, selected voice, rate, pitch) and `speak()`/`stopSpeech()`
 - `init.ts`: App initialization
   - `initGame()`: Loads data, restores session, sets up effects
 
 **Components Module** (`src/components/`) - Preact UI components
 
-- `App.tsx`: Main application shell
-  - Layout structure
-  - Conditional rendering based on loading state
+- `App.tsx`: Router shell — hash routing (wouter-preact) for `/` and `/topic/:id`
+  - `RouteHandler` resumes the game (in an effect) when the topic route matches
+- `GamePage.tsx`: Game screen — header, difficulty/mode controls, and the question card
 - `QuestionCard.tsx`: Displays current question and answer
-  - Handles reveal/next interactions
-  - Renders HTML-escaped content safely
-- `Scoreboard.tsx`: Displays score, streak, and progress
-  - Reacts to `scoreboard` signal changes
-- `TopicPicker.tsx`: Topic selection modal
-  - Search and filtering (all topics vs curated only)
-  - Category-based organization
+  - Handles reveal/next interactions; answer text is only rendered once revealed
+- `Scoreboard.tsx`: Displays score, streak, and asked count
+  - Reacts to scoreboard signals
+- `TopicPicker.tsx`: Topic selection page (route `/`)
+  - Debounced search and filtering (recommended / curated only / all)
+  - Category-based organization; "Reload" re-fetches curated data
+- `SpeechSettings.tsx`: Read-aloud popover (voice/speed/pitch); shown on both pages
+- `ThemeToggle.tsx`: Theme switcher
+- `icons.tsx`: Inline SVG icon components and `CATEGORY_ICONS` map
 - `CuratedListDialog.tsx`: Dialog to show available curated questions
 
-**src/data/data.ts** (203 lines) - Data module and loader
+**src/data/data.ts** - Data module and loader
 
-- `loadStaticData()`: Async function to load topics and answer examples from JSON files
-- `topicList`: Empty array populated by loadStaticData() - 43 topics with id, name, category, tags
-- `answerExamples`: Empty object populated by loadStaticData() - real-world answers by topic → angle
+- `loadStaticData()`: Async function to load topics from `topics.json` (populates `topicListSignal`)
+- `loadAnswerExamples()`: Lazy loader for `answer-examples.json` (cached; `resetAnswerExamplesCache()` busts it for reload)
 - `categoryAngles`: Category-specific question perspectives (kept in TypeScript)
 - `promptTemplates`: Question templates by difficulty (kept in TypeScript)
-- `answerTemplates`: Generic answer templates (kept in TypeScript)
 
 **public/data/topics.json** (12 KB) - Topic list data
 
@@ -123,16 +135,15 @@ yarn format           # Format code with Biome
 **Curated Questions** - Factual Q&A
 
 - **public/data/curated/index.json** - Index file listing available topic IDs (automatically maintained)
-- **public/data/curated/[topic-id].json** (21 individual files, 4-12 KB each)
-- Loaded on-demand per topic for better performance
+- **public/data/curated/[topic-id].json** (one file per curated topic, ~4-12 KB each)
+- Loaded on-demand per topic for better performance and cached per topic
 - Index prevents unnecessary 404 errors for topics without curated questions
 - Structure per file: `{ "easy": [], "medium": [], "hard": [] }`
 
 Question structure:
 
 - Each question: `{ q: "question", a: "answer", angle: "category angle" }`
-- Loaded asynchronously with AbortController and parallel fetching
-- Index-based loading: fetches index first, then only loads available topic files
+- Index-based loading: fetches the index first, then only loads available topic files
 
 ### Key Data Flow
 
@@ -168,18 +179,17 @@ Question structure:
 
 **Security**
 
-- All user-facing content (questions, answers, topic names) passes through `escapeHtml()` before rendering
+- Content is rendered via Preact JSX, which escapes text by default (no manual escaping needed in components)
+- `escapeHtml()` is used only where `innerHTML` is built directly (the toast system)
 - Curated questions loaded from static JSON (not executable JS) to prevent code injection
-- HTML entities escaped: `&`, `<`, `>`, `"`, `'`
 
 **Performance Optimizations**
 
 - Lazy loading: Questions generated only when topic/difficulty accessed
-- Modular loading: Individual curated topic files (4-12 KB each)
-- Parallel fetching: All topic files loaded concurrently for faster initialization
+- Modular loading: Individual curated topic files (~4-12 KB each), cached per topic
 - Caching: Generated questions cached per `${difficulty}_${mode}` to avoid regeneration
-- Debouncing: Search input (300ms), mode changes (150ms), reload button (2000ms cooldown)
-- AbortController: Cancels previous fetch requests when reloading curated questions
+- Debouncing: Topic search input (`SEARCH_DEBOUNCE_MS`, 300ms)
+- Reload cooldown: "Reload" button is rate-limited (`RELOAD_SUCCESS_DISPLAY_MS`, 2000ms)
 - Lazy reshuffle: Reset progress doesn't regenerate questions immediately
 
 **Mode Switching Behavior**
@@ -214,7 +224,7 @@ Based on commit history:
 - **Naming conventions**: camelCase for variables/functions, SCREAMING_SNAKE_CASE for constants, PascalCase for types
 - **Type safety**: Prefer type inference where clear, explicit types for function boundaries
 - **Comments**: Explain non-obvious logic, magic numbers, and architectural decisions
-- **HTML escaping**: Always escape user-facing content via `escapeHtml()`
+- **HTML escaping**: Preact escapes JSX text automatically; only use `escapeHtml()` when building `innerHTML` directly
 - **Reactive patterns**: Use Preact Signals for state, effects for side effects (persistence, DOM updates)
 
 ## Vite Configuration
@@ -224,7 +234,7 @@ Based on commit history:
 - **Source maps**: Enabled in production builds
 - **Dev server**: Port 3000 with auto-open browser
 - **Module imports**: CSS imported in main.ts, processed by Vite
-- **Public directory**: Static assets (curated-questions.json, icons)
+- **Public directory**: Static assets (`data/` JSON files, icons)
 - **PWA Plugin**: vite-plugin-pwa with Workbox
   - Auto-update strategy for service worker
   - Runtime caching for JSON files (1 week expiration)
@@ -291,8 +301,12 @@ These are used when generating template-based questions to provide factual conte
 
 ## Key Technologies
 
-- **TypeScript 5.9.3**: Type-safe development with strict mode
-- **Vite 7.2.6**: Fast build tool and dev server
-- **Preact Signals 2.5.1**: Fine-grained reactive state management
-- **Biome 2.3.8**: Fast linting and formatting
-- **vite-plugin-pwa 1.2.0**: Progressive Web App capabilities with Workbox
+- **TypeScript 6.0**: Type-safe development with strict mode
+- **Vite 8**: Fast build tool and dev server
+- **Preact 10 + Preact Signals 2.9**: UI and fine-grained reactive state
+- **wouter-preact 3**: Minimal hash-based routing
+- **Biome 2.5**: Fast linting and formatting
+- **Vitest 4**: Unit testing
+- **vite-plugin-pwa 1.3**: Progressive Web App capabilities with Workbox
+
+(See `package.json` for exact pinned versions.)
