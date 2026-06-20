@@ -1,0 +1,47 @@
+{
+  "skill_name": "trivia-quality-review",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "eval-new-questions",
+      "prompt": "I wrote these 5 new Harry Potter questions intended for the 'hard' difficulty level. Before I add them to the game, can you check if they're actually appropriate for hard difficulty and flag any other quality issues?",
+      "expected_output": "A review of each of the 5 questions that identifies: (1) at least 2 difficulty calibration problems (Q3 'What is Harry Potter's school called?' is clearly easy-level, Q4 'Expecto Patronum' is widely known and arguably medium), (2) clear verdicts per question, (3) specific actionable feedback on what to fix",
+      "files": ["evals/files/proposed-hp-hard.json"],
+      "expectations": [
+        "Identifies that 'What is Harry Potter's school called?' is too easy for hard difficulty",
+        "Identifies that 'What spell creates a Patronus? / Expecto Patronum' is likely better placed at medium or easy difficulty",
+        "Gives a clear verdict (good/flag/review or equivalent) for each of the 5 questions",
+        "Applies more than one criterion when evaluating questions (not just difficulty)",
+        "Provides specific, actionable suggestions for how to improve or replace flagged questions"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "eval-topic-audit",
+      "prompt": "I'm getting feedback that our ancient-egypt easy questions are inconsistent — some seem fine, others feel too vague or poorly worded. Can you review the easy questions in public/data/curated/ancient-egypt.json and tell me which ones have problems and why?",
+      "expected_output": "A review of the ancient-egypt easy questions that reads the actual file, identifies real issues (especially the 'What animal was sacred to Egyptians?' question which has a vague answer '(among others)', and the 'What is a mummy? / A preserved dead body' which is arguably too simplistic even for easy), with specific citations of the problematic questions",
+      "files": [],
+      "expectations": [
+        "Actually reads the ancient-egypt.json file rather than making up generic advice",
+        "Identifies the 'What animal was sacred to Egyptians?' question as problematic (vague, multiple valid answers)",
+        "Gives specific citations — quotes or references the actual question text from the file",
+        "Groups or prioritizes findings so the most impactful issues come first",
+        "Provides at least 3 specific flagged questions with reasoning"
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "eval-single-question",
+      "prompt": "Quick sanity check before I add this to the space-exploration medium section: 'What company launched the first privately-funded rocket to reach orbit?' / 'SpaceX with Falcon 1 in 2008'. Is this a good trivia question for our road trip game?",
+      "expected_output": "A clear verdict confirming this is a good question overall. Should verify factual accuracy (SpaceX Falcon 1 did reach orbit on September 28, 2008, on its 4th attempt), confirm medium difficulty is appropriate (requires space interest but not deep expertise), and confirm game suitability (satisfying fact with a concrete answer). Should not over-flag this clean question.",
+      "files": [],
+      "expectations": [
+        "Correctly confirms the factual accuracy (SpaceX Falcon 1 did become the first privately-funded rocket to reach orbit in 2008)",
+        "Gives an overall positive verdict — this is a good question that should pass",
+        "Assesses difficulty as appropriate for medium (not too easy, not too hard)",
+        "Checks game suitability and confirms this is a satisfying road trip trivia question",
+        "Does not over-flag or invent problems that aren't there"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "topic": "harry-potter",
+  "proposed_difficulty": "hard",
+  "questions": [
+    {
+      "q": "Who were the four Marauders and what were their nicknames?",
+      "a": "Moony (Remus Lupin), Wormtail (Peter Pettigrew), Padfoot (Sirius Black), Prongs (James Potter)",
+      "angle": "marauders"
+    },
+    {
+      "q": "Which Horcrux was destroyed using a Basilisk fang in the Chamber of Secrets?",
+      "a": "Tom Riddle's Diary",
+      "angle": "horcrux"
+    },
+    {
+      "q": "What is Harry Potter's school called?",
+      "a": "Hogwarts School of Witchcraft and Wizardry",
+      "angle": "setting"
+    },
+    {
+      "q": "What spell creates a Patronus?",
+      "a": "Expecto Patronum",
+      "angle": "spell"
+    },
+    {
+      "q": "Who was the Half-Blood Prince and what was the origin of the name?",
+      "a": "Severus Snape — his mother was Eileen Prince (a witch) and his father Tobias Snape was a Muggle",
+      "angle": "identity"
+    }
+  ]
+}

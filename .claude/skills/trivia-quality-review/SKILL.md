@@ -70,8 +70,10 @@ Is this a good road trip trivia question — fun, engaging, fair for groups?
 ### 7. Duplicates
 Is this a duplicate or near-duplicate of another question in the same topic + difficulty?
 - `pass` — Unique
-- `warn` — Overlapping — tests the same specific fact as another question
-- `fail` — Exact or near-exact duplicate
+- `warn` — Overlapping: tests the same specific fact as another question, OR a different question that resolves to the **same answer** as others in the tier (e.g. several questions all answering "The Lion King"). Same-answer-different-question is repetitive but not a true duplicate — keep it a `warn`, not a `fail`.
+- `fail` — Exact or near-exact duplicate (same question text, trivially reworded)
+
+Note: a tier may reasonably reuse an answer once or twice; only flag it when the same answer recurs 3+ times in one difficulty.
 
 ---
 
