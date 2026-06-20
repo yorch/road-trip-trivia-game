@@ -214,9 +214,16 @@ export function QuestionCard() {
           Give a short, precise answer, then reveal.
         </p>
 
-        <div class={`answer ${revealed ? 'visible' : ''}`} id="cardAnswer">
+        {/* Only render the answer text once revealed: CSS hides the box
+            visually, but keeping the text in the DOM leaked it to screen
+            readers and devtools before reveal. */}
+        <div
+          class={`answer ${revealed ? 'visible' : ''}`}
+          id="cardAnswer"
+          aria-hidden={!revealed}
+        >
           <p class="answer-label">Answer</p>
-          <p id="answerText">{question.answer}</p>
+          <p id="answerText">{revealed ? question.answer : ''}</p>
         </div>
 
         <CardActions
