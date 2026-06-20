@@ -44,7 +44,10 @@ export function fillTemplate(
 export function shuffleIndices(length: number, seedBase = 1): number[] {
   if (length === 0) return [];
   const arr = Array.from({ length }, (_, i) => i);
-  let seed = seedBase;
+  // A seed that is 0 (or a multiple of the modulus) makes the LCG emit all
+  // zeros, which collapses the shuffle. Callers seed from Math.random(), which
+  // can produce 0, so normalize to a non-zero seed.
+  let seed = seedBase % MAX_SEED_VALUE || 1;
   for (let i = arr.length - 1; i > 0; i -= 1) {
     seed = (seed * 16807) % MAX_SEED_VALUE;
     const rand = seed / MAX_SEED_VALUE;
