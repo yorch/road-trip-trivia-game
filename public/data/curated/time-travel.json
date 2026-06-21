@@ -560,18 +560,18 @@
       "angle": "devices"
     },
     {
-      "q": "In Back to the Future, what was the name of the Tannen family farm that young Marty finds in 1885 where the Hill Valley clocktower now stands?",
-      "a": "Pohatchee Drive-In (the farm belonged to the Tannen family but the land is not specifically named; the clock tower square was previously called the town square)",
-      "angle": "timelines"
-    },
-    {
-      "q": "In the Terminator franchise, what number of the T-800's mission is stated when the machine is first reprogrammed in Terminator 2?",
-      "a": "The T-800 states its CPU is a neural-net processor and identifies as a Cyberdyne Systems Model 101 — no mission number is stated, but its original mission was to kill John Connor",
+      "q": "In Back to the Future Part III, what alias does Marty McFly use when he arrives in 1885 to avoid confusing the locals?",
+      "a": "Clint Eastwood",
       "angle": "characters"
     },
     {
-      "q": "In Primer, the two time machines are named after which two things?",
-      "a": "They are not given explicit names — they are simply 'Box A' and 'Box B' (or referred to as 'the machine')",
+      "q": "In Terminator 2: Judgment Day, what does John Connor order the T-800 NOT to do after the T-800 explains it is capable of it?",
+      "a": "Kill people — John orders the T-800 not to kill anyone, so it begins incapacitating enemies instead",
+      "angle": "characters"
+    },
+    {
+      "q": "In Primer, the two engineers call their time machine 'the box' — what critical limitation means each trip back requires spending an equal amount of time inside the box?",
+      "a": "The machine only works while running — to travel back six hours, you must sit inside the box for six hours as it runs, then emerge in the past",
       "angle": "devices"
     },
     {
@@ -670,8 +670,8 @@
       "angle": "paradoxes"
     },
     {
-      "q": "In Back to the Future Part II, Biff acquires the sports almanac and gives it to his younger self in 1955 — how does the elderly Biff return the DeLorean to 2015 without being seen by Marty or Doc?",
-      "a": "Biff sneaks the DeLorean back to Doc and Marty in 2015 while they are distracted at the Hill Valley Courthouse; the elderly Biff then collapses and dies (in the revised timeline)",
+      "q": "In Back to the Future Part II, what does elderly Biff do with the DeLorean while Marty and Doc are asleep in 2015, and what happens to him immediately after he returns it?",
+      "a": "He steals the DeLorean, travels to 1955 to give young Biff the sports almanac, then returns to 2015 — and collapses and dies moments after (his existence is being erased by the altered timeline)",
       "angle": "timelines"
     },
     {
@@ -700,8 +700,8 @@
       "angle": "characters"
     },
     {
-      "q": "In 12 Monkeys (1995 film), what detail allows the scientists of the future to verify which virus strain Cole should be looking for?",
-      "a": "A phone message James Cole leaves on a scientist's answering machine in 1996 — the scientists in 2035 still have the recording",
+      "q": "In 12 Monkeys (1995 film), what is the tragic irony of Cole's mission — what does he witness at the airport at the end despite trying to prevent it?",
+      "a": "Cole witnesses the release of the virus by Dr. Peters (the rogue virologist) at the airport and is shot dead by police — he cannot stop it, fulfilling the predestination loop",
       "angle": "paradoxes"
     },
     {
@@ -716,7 +716,7 @@
     },
     {
       "q": "In the Star Trek: Voyager episode 'Timeless,' Chakotay and Harry Kim in the future attempt to send a message to the past to prevent Voyager's crash. What year did the crash occur?",
-      "a": "2390 (15 years prior from 2390 — the episode is set in 2390, with the crash in 2375)",
+      "a": "2375 (the episode's framing future is 15 years later, but the crash itself occurred in 2375)",
       "angle": "timelines"
     },
     {
@@ -780,8 +780,8 @@
       "angle": "paradoxes"
     },
     {
-      "q": "In Harry Potter and the Prisoner of Azkaban, what is Dumbledore's exact instruction to Hermione that hints they should use the Time-Turner?",
-      "a": "'You know the law — you know what is at stake — you must act!' / 'More than one innocent life may be saved' — specifically he says 'You have a very special opportunity here. Use it wisely.'",
+      "q": "In Harry Potter and the Prisoner of Azkaban, how many innocent lives does Dumbledore hint can be saved when he cryptically encourages Harry and Hermione to use the Time-Turner?",
+      "a": "Two — he says 'more than one innocent life may be saved tonight,' referring to both Sirius Black and Buckbeak",
       "angle": "timelines"
     },
     {

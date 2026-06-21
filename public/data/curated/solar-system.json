@@ -150,7 +150,11 @@
       "a": "Venus",
       "angle": "planets"
     },
-    { "q": "What type of object is the Sun?", "a": "A star", "angle": "sun" },
+    {
+      "q": "What type of object is the Sun?",
+      "a": "A star",
+      "angle": "sun"
+    },
     {
       "q": "Which planet has a large canyon system called Valles Marineris?",
       "a": "Mars",
@@ -231,7 +235,11 @@
       "a": "Ganymede",
       "angle": "moons"
     },
-    { "q": "How many moons does Earth have?", "a": "One", "angle": "moons" },
+    {
+      "q": "How many moons does Earth have?",
+      "a": "One",
+      "angle": "moons"
+    },
     {
       "q": "Which planet has no moons and no rings?",
       "a": "Mercury (and Venus)",
@@ -272,11 +280,6 @@
     {
       "q": "What are Jupiter's four largest moons collectively called?",
       "a": "The Galilean moons",
-      "angle": "moons"
-    },
-    {
-      "q": "Which moon of Jupiter is the most volcanically active body in the solar system?",
-      "a": "Io",
       "angle": "moons"
     },
     {
@@ -552,7 +555,7 @@
       "angle": "sun"
     },
     {
-      "q": "Which moon of Jupiter was discovered by Galileo in 1610 along with Io, Europa, and Callisto?",
+      "q": "Which of Jupiter's four Galilean moons is the only moon in the solar system known to generate its own magnetic field?",
       "a": "Ganymede",
       "angle": "moons"
     },

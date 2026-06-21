@@ -71,11 +71,6 @@
       "angle": "progression"
     },
     {
-      "q": "What device do you play Switch games on?",
-      "a": "Nintendo Switch console",
-      "angle": "platform"
-    },
-    {
       "q": "What franchise has Pikachu?",
       "a": "Pokémon",
       "angle": "monster"
@@ -214,11 +209,6 @@
       "q": "What handheld console succeeded the 3DS?",
       "a": "Nintendo Switch (hybrid, replaced 3DS line)",
       "angle": "platforms"
-    },
-    {
-      "q": "What game has a spell called Kamehameha crossover emote?",
-      "a": "Fortnite events",
-      "angle": "events"
     },
     {
       "q": "What racing series uses blue shells?",
@@ -378,11 +368,6 @@
       "angle": "setting"
     },
     {
-      "q": "What loot rarity color is highest in Fortnite (standard)?",
-      "a": "Gold/Legendary",
-      "angle": "mechanic"
-    },
-    {
       "q": "Who is Ellie traveling with in TLOU Part I?",
       "a": "Joel",
       "angle": "story"
@@ -418,8 +403,8 @@
       "angle": "lore"
     },
     {
-      "q": "What is the default pickaxe in Fortnite called?",
-      "a": "Default harvesting tool",
+      "q": "What is the starting harvesting tool every Fortnite player gets called?",
+      "a": "Default Pickaxe",
       "angle": "item"
     },
     {
@@ -562,11 +547,6 @@
     {
       "q": "What game engine does Fortnite use?",
       "a": "Unreal Engine",
-      "angle": "online squad"
-    },
-    {
-      "q": "What year did Fortnite Battle Royale launch?",
-      "a": "2017",
       "angle": "online squad"
     },
     {

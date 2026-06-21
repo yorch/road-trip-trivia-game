@@ -16,11 +16,6 @@
       "angle": "release"
     },
     {
-      "q": "What genre mix is the movie?",
-      "a": "Animated musical urban fantasy",
-      "angle": "genre"
-    },
-    {
       "q": "How many members are in Huntrix?",
       "a": "Three: Rumi, Mira, Zoey",
       "angle": "group"
@@ -46,69 +41,9 @@
       "angle": "setting"
     },
     {
-      "q": "Who is the Huntrix manager?",
-      "a": "Bobby",
-      "angle": "support"
-    },
-    {
-      "q": "What weapon does Rumi wield?",
-      "a": "A saingeom sword",
-      "angle": "combat"
-    },
-    {
-      "q": "What weapon does Mira use?",
-      "a": "A gokdo polearm",
-      "angle": "combat"
-    },
-    {
-      "q": "What weapon does Zoey favor?",
-      "a": "Throwing knives (shinkal)",
-      "angle": "combat"
-    },
-    {
-      "q": "Who voices Rumi?",
-      "a": "Arden Cho",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Zoey?",
-      "a": "Ji-young Yoo",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Mira?",
-      "a": "May Hong",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices their manager Bobby?",
-      "a": "Ken Jeong",
-      "angle": "cast"
-    },
-    {
       "q": "Who is the mentor figure?",
       "a": "Celine",
       "angle": "mentor"
-    },
-    {
-      "q": "Who voices Celine?",
-      "a": "Yunjin Kim",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Jinu?",
-      "a": "Ahn Hyo-seop",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices villain Gwi-Ma?",
-      "a": "Lee Byung-hun",
-      "angle": "cast"
-    },
-    {
-      "q": "What company produced the film?",
-      "a": "Sony Pictures Animation",
-      "angle": "studio"
     },
     {
       "q": "What music style drives the soundtrack?",
@@ -131,26 +66,6 @@
       "angle": "rivals"
     },
     {
-      "q": "What is the seal they protect?",
-      "a": "The Honmoon",
-      "angle": "lore"
-    },
-    {
-      "q": "Who accompanies Jinu as pets?",
-      "a": "A blue tiger and six-eyed magpie",
-      "angle": "lore"
-    },
-    {
-      "q": "Who are the Saja Boys?",
-      "a": "A demon boy band rival group",
-      "angle": "rivals"
-    },
-    {
-      "q": "Who mentors Rumi after her mother dies?",
-      "a": "Celine",
-      "angle": "story"
-    },
-    {
       "q": "What is the squad's cover identity?",
       "a": "A K-pop idol group",
       "angle": "concept"
@@ -161,109 +76,9 @@
       "angle": "mission"
     },
     {
-      "q": "What tool doubles as a mic and weapon?",
-      "a": "A microphone-sword (enchanted mic)",
-      "angle": "gear"
-    },
-    {
-      "q": "Where do they rehearse and train?",
-      "a": "Their underground practice room",
-      "angle": "setting"
-    },
-    {
-      "q": "Who is the main dancer and scout?",
-      "a": "Mira",
-      "angle": "roles"
-    },
-    {
-      "q": "What symbol seals demons?",
-      "a": "A glowing sigil from their lightstick crest",
-      "angle": "magic"
-    },
-    {
-      "q": "What do fans give them as power?",
-      "a": "Lightstick energy/fandom faith",
-      "angle": "lore"
-    },
-    {
-      "q": "Who is the rapper with talisman tattoos?",
-      "a": "The main rapper/exorcist",
-      "angle": "roles"
-    },
-    {
-      "q": "What color are their stage outfits usually?",
-      "a": "Black and neon accent armor",
-      "angle": "style"
-    },
-    {
-      "q": "What do they call their fans?",
-      "a": "The fandom name (e.g., Halos)",
-      "angle": "fandom"
-    },
-    {
-      "q": "What vehicle do they ride between shows?",
-      "a": "An armored tour bus",
-      "angle": "gear"
-    },
-    {
-      "q": "What instrument unlocks wards on stage?",
-      "a": "An enchanted in-ear monitor tuner",
-      "angle": "magic"
-    },
-    {
-      "q": "Who handles tech and hacking?",
-      "a": "Zoey",
-      "angle": "roles"
-    },
-    {
-      "q": "What daylight role hides their mission?",
-      "a": "Being idols/trainees",
-      "angle": "cover"
-    },
-    {
-      "q": "What is their debut song theme?",
-      "a": "Light versus darkness",
-      "angle": "music"
-    },
-    {
-      "q": "Where do they perform exorcism choreo?",
-      "a": "On stage mid-concert as part of the act",
-      "angle": "mission"
-    },
-    {
-      "q": "What accessory doubles as a demon detector?",
-      "a": "Their lightstick / staff",
-      "angle": "gear"
-    },
-    {
-      "q": "What does the fandom wave at concerts?",
-      "a": "Lightsticks infused with seals",
-      "angle": "fandom"
-    },
-    {
-      "q": "Where are demons often hiding?",
-      "a": "Backstage shadows and alleys",
-      "angle": "setting"
-    },
-    {
-      "q": "Which actress voices Rumi in the English version?",
-      "a": "Arden Cho",
-      "angle": "cast"
-    },
-    {
       "q": "Who is the leader of the Saja Boys?",
       "a": "Jinu",
       "angle": "rivals"
-    },
-    {
-      "q": "Which Huntrix member is the youngest?",
-      "a": "Zoey",
-      "angle": "group"
-    },
-    {
-      "q": "Which Huntrix member is the visual and main dancer?",
-      "a": "Mira",
-      "angle": "group"
     },
     {
       "q": "Who is the primary villain and demon king?",
@@ -283,109 +98,9 @@
       "angle": "plot"
     },
     {
-      "q": "What is Jinu's backstory?",
-      "a": "Human-turned-demon leading Saja Boys",
-      "angle": "rivals"
-    },
-    {
-      "q": "Who trained Rumi after her mother died?",
-      "a": "Celine, a former idol/hunter",
-      "angle": "mentor"
-    },
-    {
-      "q": "What does the Honmoon do?",
-      "a": "Acts as a mystical seal against demons",
-      "angle": "lore"
-    },
-    {
-      "q": "Who voices Healer Han?",
-      "a": "Daniel Dae Kim",
-      "angle": "cast"
-    },
-    {
       "q": "Who is the demon king antagonist?",
       "a": "Gwi-Ma",
       "angle": "villain"
-    },
-    {
-      "q": "What animal companions follow Jinu?",
-      "a": "A blue tiger and six-eyed magpie",
-      "angle": "lore"
-    },
-    {
-      "q": "What role does Zoey fill?",
-      "a": "Main rapper and youngest member",
-      "angle": "group"
-    },
-    {
-      "q": "What role does Mira have?",
-      "a": "Main dancer/visual",
-      "angle": "group"
-    },
-    {
-      "q": "Who voices manager Bobby?",
-      "a": "Ken Jeong",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Celine?",
-      "a": "Yunjin Kim",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices villain Gwi-Ma?",
-      "a": "Lee Byung-hun",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Jinu?",
-      "a": "Ahn Hyo-seop",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Zoey?",
-      "a": "Ji-young Yoo",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Mira?",
-      "a": "May Hong",
-      "angle": "cast"
-    },
-    {
-      "q": "What company distributes the film?",
-      "a": "Netflix",
-      "angle": "release"
-    },
-    {
-      "q": "Who produces the film?",
-      "a": "Sony Pictures Animation",
-      "angle": "studio"
-    },
-    {
-      "q": "What is Rumi's mentor's past career?",
-      "a": "Former K-pop idol and demon hunter",
-      "angle": "mentor"
-    },
-    {
-      "q": "Where do Huntrix perform to strengthen the seal?",
-      "a": "Concert stages in Seoul",
-      "angle": "plot"
-    },
-    {
-      "q": "What causes Jinu's conflict?",
-      "a": "His demon nature and rivalry with Rumi",
-      "angle": "plot"
-    },
-    {
-      "q": "What does the group name Saja reference?",
-      "a": "Korean word for lion/reaper; here a demon boy band",
-      "angle": "lore"
-    },
-    {
-      "q": "What transportation do idols use in the film?",
-      "a": "Tour buses/vans (idol life)",
-      "angle": "setting"
     },
     {
       "q": "What blend of themes drives the film?",
@@ -398,16 +113,6 @@
       "angle": "plot"
     },
     {
-      "q": "What do Huntrix rely on to keep power?",
-      "a": "Fan energy tied to the Honmoon",
-      "angle": "lore"
-    },
-    {
-      "q": "Who voices the mentor Celine in English?",
-      "a": "Yunjin Kim",
-      "angle": "cast"
-    },
-    {
       "q": "What is the main setting's country?",
       "a": "South Korea",
       "angle": "setting"
@@ -418,167 +123,12 @@
       "angle": "plot"
     },
     {
-      "q": "What weapon style does Rumi train with?",
-      "a": "Korean sword arts",
-      "angle": "combat"
-    },
-    {
-      "q": "What rune is hidden in their logo?",
-      "a": "A protective ward sigil",
-      "angle": "lore"
-    },
-    {
-      "q": "What training do they endure pre-debut?",
-      "a": "Dance, vocals, and combat training",
-      "angle": "training"
-    },
-    {
-      "q": "Who designs their battle choreo?",
-      "a": "The main dancer and choreographer",
-      "angle": "roles"
-    },
-    {
-      "q": "What cover story explains sudden disappearances?",
-      "a": "Secret filming schedules",
-      "angle": "cover"
-    },
-    {
-      "q": "Who maintains the grimoire/lyrics?",
-      "a": "The leader and lyricist",
-      "angle": "roles"
-    },
-    {
-      "q": "What is their code word for a demon alert?",
-      "a": "\"Encore\" or specific signal phrase",
-      "angle": "ops"
-    },
-    {
-      "q": "What city do they primarily protect?",
-      "a": "Their debut city (Seoul/metro)",
-      "angle": "setting"
-    },
-    {
-      "q": "How do they cleanse a stage after a show?",
-      "a": "Purification circle woven into encore dance",
-      "angle": "ops"
-    },
-    {
-      "q": "What role does the drummer have in lore?",
-      "a": "Sets rhythm barriers with beats",
-      "angle": "magic"
-    },
-    {
-      "q": "What do their earpieces filter out?",
-      "a": "Possession whispers/demon lures",
-      "angle": "tech"
-    },
-    {
-      "q": "Who negotiates with benign spirits?",
-      "a": "The empath/vocalist",
-      "angle": "roles"
-    },
-    {
-      "q": "What relic do they guard between comebacks?",
-      "a": "A sealed demon core in their studio vault",
-      "angle": "plot"
-    },
-    {
-      "q": "How do they recruit new members?",
-      "a": "Auditions plus compatibility with sigils",
-      "angle": "process"
-    },
-    {
-      "q": "What is their fandom color?",
-      "a": "Iridescent violet/blue ward light",
-      "angle": "fandom"
-    },
-    {
-      "q": "What do they livestream after missions?",
-      "a": "Practice room lives to mask hunts",
-      "angle": "cover"
-    },
-    {
-      "q": "Who mediates disputes in the team?",
-      "a": "The leader or calm eldest",
-      "angle": "roles"
-    },
-    {
-      "q": "What choreo move seals portals on stage?",
-      "a": "A sigil step woven into the dance break",
-      "angle": "lore"
-    },
-    {
-      "q": "What is their codename for retreat?",
-      "a": "“Fadeout” call",
-      "angle": "ops"
-    },
-    {
-      "q": "Who handles first aid in the team?",
-      "a": "The lead vocalist/healer",
-      "angle": "roles"
-    },
-    {
-      "q": "What symbol appears on their lightstick when a demon is near?",
-      "a": "A color shift or glow pulse",
-      "angle": "gear"
-    },
-    {
-      "q": "How do they mask battle scars?",
-      "a": "Stage makeup and glam cover-ups",
-      "angle": "cover"
-    },
-    {
-      "q": "Who co-directed the film with Chris Appelhans?",
-      "a": "Maggie Kang",
-      "angle": "direction"
-    },
-    {
-      "q": "Who composed the film's score?",
-      "a": "Marcelo Zarvos",
-      "angle": "music"
-    },
-    {
-      "q": "What is the name of the healer character voiced by Daniel Dae Kim?",
-      "a": "Han",
-      "angle": "cast"
-    },
-    {
-      "q": "What is Rumi's role within Huntrix?",
-      "a": "Leader and main vocalist",
-      "angle": "group"
-    },
-    {
       "q": "Which Huntrix member is a half-demon?",
       "a": "Rumi",
       "angle": "plot"
     }
   ],
   "hard": [
-    {
-      "q": "Who directed the film?",
-      "a": "Maggie Kang and Chris Appelhans",
-      "angle": "direction"
-    },
-    {
-      "q": "Who co-wrote the screenplay?",
-      "a": "Maggie Kang, Chris Appelhans, Danya Jimenez, Hannah McMechan",
-      "angle": "writing"
-    },
-    {
-      "q": "What studio produced the film for Netflix?",
-      "a": "Sony Pictures Animation",
-      "angle": "production"
-    },
-    {
-      "q": "What is the reported production budget?",
-      "a": "Over $100 million",
-      "angle": "budget"
-    },
-    {
-      "q": "Who scored the film?",
-      "a": "Marcelo Zarvos",
-      "angle": "music"
-    },
     {
       "q": "Which band is composed of demons?",
       "a": "Saja Boys",
@@ -590,16 +140,6 @@
       "angle": "group"
     },
     {
-      "q": "Name all Saja Boys members.",
-      "a": "Jinu, Mystery, Abby, Baby, Romance",
-      "angle": "group"
-    },
-    {
-      "q": "What mythical seal powers the plot?",
-      "a": "The Honmoon",
-      "angle": "lore"
-    },
-    {
       "q": "What is Rumi's heritage?",
       "a": "Half-human, half-demon",
       "angle": "plot"
@@ -608,11 +148,6 @@
       "q": "Who is the main villain?",
       "a": "Gwi-Ma",
       "angle": "villain"
-    },
-    {
-      "q": "What motivates Jinu's actions?",
-      "a": "Protecting his band and conflicted feelings for Rumi",
-      "angle": "character"
     },
     {
       "q": "Where is the story primarily set?",
@@ -635,53 +170,13 @@
       "angle": "theme"
     },
     {
-      "q": "Who voices the demon king?",
-      "a": "Lee Byung-hun",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices the healer mentor Han?",
-      "a": "Daniel Dae Kim",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Rumi's mentor Celine?",
-      "a": "Yunjin Kim",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Rumi?",
-      "a": "Arden Cho",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Mira?",
-      "a": "May Hong",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Zoey?",
-      "a": "Ji-young Yoo",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Jinu?",
-      "a": "Ahn Hyo-seop",
-      "angle": "cast"
-    },
-    {
-      "q": "Who voices Bobby the manager?",
-      "a": "Ken Jeong",
-      "angle": "cast"
-    },
-    {
       "q": "Which company distributes the film globally?",
       "a": "Netflix",
       "angle": "distribution"
     },
     {
       "q": "What is the film's core conflict?",
-      "a": "Huntrix protecting the Honmoon from demon rivals",
+      "a": "Huntrix protecting the seal from demon rivals",
       "angle": "plot"
     },
     {
@@ -693,141 +188,6 @@
       "q": "What hybrids are central to the story?",
       "a": "K-pop idols and demon hunters",
       "angle": "theme"
-    },
-    {
-      "q": "What ancient order funds their agency secretly?",
-      "a": "An old exorcist guild backing the label",
-      "angle": "lore"
-    },
-    {
-      "q": "What is the origin of their lightstick core?",
-      "a": "Fragment of a fallen star/demon seal",
-      "angle": "myth"
-    },
-    {
-      "q": "Who betrayed the team in a past arc?",
-      "a": "A former member/trainee turned demon host",
-      "angle": "plot"
-    },
-    {
-      "q": "What ritual do they perform before comebacks?",
-      "a": "A midnight protection rite in the practice room",
-      "angle": "culture"
-    },
-    {
-      "q": "What is their hidden lair beneath?",
-      "a": "A subterranean training hall under the stage",
-      "angle": "setting"
-    },
-    {
-      "q": "Which member carries a relic dagger?",
-      "a": "The rapper/exorcist",
-      "angle": "gear"
-    },
-    {
-      "q": "What is the rule about revealing demons to press?",
-      "a": "Never; cover with special effects story",
-      "angle": "ops"
-    },
-    {
-      "q": "What curse did they break on tour abroad?",
-      "a": "A theater haunting binding performers",
-      "angle": "plot"
-    },
-    {
-      "q": "What sigil is banned for using too much life force?",
-      "a": "Forbidden blood seal",
-      "angle": "lore"
-    },
-    {
-      "q": "Who mentors them from a previous generation?",
-      "a": "A retired idol-hunter sunbae",
-      "angle": "backstory"
-    },
-    {
-      "q": "What happens if a lightstick shatters?",
-      "a": "Ward weakens; demons sense them",
-      "angle": "stakes"
-    },
-    {
-      "q": "What song secretly seals a portal?",
-      "a": "A bridge/melody embedded in a title track",
-      "angle": "music"
-    },
-    {
-      "q": "What festival do demons gather at annually?",
-      "a": "A lunar eclipse concert night",
-      "angle": "plot"
-    },
-    {
-      "q": "What is the punishment for breaking code of secrecy?",
-      "a": "Expulsion and memory wipe",
-      "angle": "ops"
-    },
-    {
-      "q": "What hidden room is in their dorm?",
-      "a": "A warded vault for artifacts",
-      "angle": "setting"
-    },
-    {
-      "q": "What does the maknae specialize in?",
-      "a": "Tech, drones, and barrier hacking",
-      "angle": "roles"
-    },
-    {
-      "q": "What relic links them to their first demon case?",
-      "a": "A cracked talisman pendant",
-      "angle": "plot"
-    },
-    {
-      "q": "Who negotiates agency schedules with missions?",
-      "a": "Their manager/handler with the guild",
-      "angle": "ops"
-    },
-    {
-      "q": "What is the group's motto?",
-      "a": "\"Light up the dark\" (example)",
-      "angle": "culture"
-    },
-    {
-      "q": "What backup plan is used if magic fails?",
-      "a": "EMP/ultrasound traps and evacuation",
-      "angle": "tactics"
-    },
-    {
-      "q": "What relic powers their tour bus wards?",
-      "a": "An embedded talisman core",
-      "angle": "gear"
-    },
-    {
-      "q": "What happens when the grimoire pages burn?",
-      "a": "Demon names released unless resealed",
-      "angle": "stakes"
-    },
-    {
-      "q": "What is the guild’s highest-ranked mission class?",
-      "a": "S-rank exorcism call",
-      "angle": "ops"
-    },
-    {
-      "q": "Who forged the first halo lightstick core?",
-      "a": "The retired hunter-producer mentor",
-      "angle": "backstory"
-    },
-    {
-      "q": "What backup chant do they use if tech fails?",
-      "a": "A capella warding verse",
-      "angle": "tactics"
-    },
-    {
-      "q": "What is the character name of the healer voiced by Daniel Dae Kim?",
-      "a": "Han",
-      "angle": "cast"
-    },
-    {
-      "q": "Which fourth screenwriter co-wrote the film alongside Maggie Kang, Chris Appelhans, and Danya Jimenez?",
-      "a": "Hannah McMechan",
-      "angle": "writing"
     }
   ]
 }

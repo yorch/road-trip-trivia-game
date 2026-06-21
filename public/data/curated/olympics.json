@@ -271,7 +271,7 @@
       "angle": "events"
     },
     {
-      "q": "Which city hosted the 2000 Winter Olympics? (Trick: the 2000 Games were Summer only — which city hosted the 2002 Winter Olympics?)",
+      "q": "Which city hosted the 2002 Winter Olympics?",
       "a": "Salt Lake City",
       "angle": "host cities"
     }
@@ -303,8 +303,8 @@
       "angle": "events"
     },
     {
-      "q": "How many gold medals did Usain Bolt win officially across the 2008, 2012, and 2016 Olympics combined?",
-      "a": "Eight",
+      "q": "How many Olympic gold medals did Usain Bolt win across his entire career?",
+      "a": "Nine (three each at 2008, 2012, and 2016)",
       "angle": "records"
     },
     {
@@ -560,8 +560,8 @@
       "angle": "traditions"
     },
     {
-      "q": "What is the exact world record time Usain Bolt set in the 100m at the 2009 Berlin World Championships?",
-      "a": "9.58 seconds",
+      "q": "What time did Usain Bolt run in the men's 100m final at the 2008 Beijing Olympics to set a then-world record?",
+      "a": "9.69 seconds",
       "angle": "records"
     },
     {

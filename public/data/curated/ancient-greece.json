@@ -323,11 +323,6 @@
       "angle": "philosophers"
     },
     {
-      "q": "What mountain did the gods live on?",
-      "a": "Mount Olympus",
-      "angle": "gods"
-    },
-    {
       "q": "What battle stopped the first Persian invasion?",
       "a": "Battle of Marathon (490 BC)",
       "angle": "wars"

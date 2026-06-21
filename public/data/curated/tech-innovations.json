@@ -635,8 +635,8 @@
       "angle": "ai model"
     },
     {
-      "q": "What does RISC stand for?",
-      "a": "Reduced Instruction Set Computer",
+      "q": "Which two university research projects in the early 1980s are credited with popularizing the RISC architecture that influenced modern chips?",
+      "a": "Berkeley RISC (Patterson) and Stanford MIPS (Hennessy)",
       "angle": "architecture"
     },
     {

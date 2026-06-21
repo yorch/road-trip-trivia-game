@@ -565,9 +565,9 @@
       "angle": "dynasties"
     },
     {
-      "q": "What is the 'Shaq Rule'?",
-      "a": "Zone defense change allowing hand-checking",
-      "angle": "legends"
+      "q": "What is the 'Shaq Rule' introduced in the 2001-02 NBA season?",
+      "a": "The defensive 3-second rule — defenders can't camp in the paint for more than 3 seconds without actively guarding an opponent",
+      "angle": "rule"
     },
     {
       "q": "Who has the most career rebounds?",
@@ -718,11 +718,6 @@
       "q": "Which team drafted Giannis Antetokounmpo?",
       "a": "Milwaukee Bucks (2013)",
       "angle": "history"
-    },
-    {
-      "q": "Who was the first unanimous NBA MVP?",
-      "a": "Stephen Curry (2016)",
-      "angle": "awards"
     },
     {
       "q": "Who was the shortest NBA player ever?",

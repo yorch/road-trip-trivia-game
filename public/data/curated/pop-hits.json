@@ -308,8 +308,8 @@
       "angle": "radio moments"
     },
     {
-      "q": "Who features on 'Perfect Duet'?",
-      "a": "Ed Sheeran and Beyoncé",
+      "q": "Who features on Ed Sheeran's 'Perfect Duet'?",
+      "a": "Andrea Bocelli",
       "angle": "hooks"
     },
     {
@@ -321,11 +321,6 @@
       "q": "Who sang 'Thinking Out Loud'?",
       "a": "Ed Sheeran",
       "angle": "choruses"
-    },
-    {
-      "q": "Who sang 'Rolling in the Deep'?",
-      "a": "Adele",
-      "angle": "hooks"
     },
     {
       "q": "Who produced 'Uptown Funk'?",
@@ -341,11 +336,6 @@
       "q": "Which song by Gotye hit #1 in 2012?",
       "a": "\"Somebody That I Used to Know\" (feat. Kimbra)",
       "angle": "radio moments"
-    },
-    {
-      "q": "Who sang 'Royals'?",
-      "a": "Lorde",
-      "angle": "hooks"
     },
     {
       "q": "Who sang 'Happy Together'?",
@@ -438,18 +428,8 @@
       "angle": "artists"
     },
     {
-      "q": "Who sang Chandelier?",
-      "a": "Sia",
-      "angle": "artists"
-    },
-    {
       "q": "Who sings About Damn Time?",
       "a": "Lizzo",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Roar?",
-      "a": "Katy Perry",
       "angle": "artists"
     },
     {
@@ -470,11 +450,6 @@
     {
       "q": "What group sang Butter?",
       "a": "BTS",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang Blank Space?",
-      "a": "Taylor Swift",
       "angle": "artists"
     },
     {
@@ -513,18 +488,8 @@
       "angle": "artists"
     },
     {
-      "q": "Who sang Can't Stop the Feeling!?",
-      "a": "Justin Timberlake",
-      "angle": "artists"
-    },
-    {
       "q": "Who sang Let It Go (Frozen)?",
       "a": "Idina Menzel",
-      "angle": "artists"
-    },
-    {
-      "q": "Who sang We Found Love?",
-      "a": "Rihanna ft. Calvin Harris",
       "angle": "artists"
     },
     {
@@ -755,8 +720,8 @@
       "angle": "production"
     },
     {
-      "q": "What group was Abel Tesfaye originally posting as?",
-      "a": "The Weeknd (stage name) anonymously online with House of Balloons mixtape",
+      "q": "What name did Abel Tesfaye use when he anonymously posted his first mixtape online in 2011?",
+      "a": "The Weeknd",
       "angle": "history"
     },
     {

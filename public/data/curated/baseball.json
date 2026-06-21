@@ -538,8 +538,8 @@
       "angle": "rules"
     },
     {
-      "q": "What famous baseball poem begins 'Take me out to the ball game'?",
-      "a": "That is a song — 'Take Me Out to the Ball Game', written by Jack Norworth in 1908",
+      "q": "Who wrote the famous baseball song 'Take Me Out to the Ball Game' in 1908?",
+      "a": "Jack Norworth",
       "angle": "history"
     },
     {

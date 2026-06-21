@@ -7,7 +7,7 @@
     },
     {
       "q": "What food does Goku love most?",
-      "a": "Rice (and meat)",
+      "a": "Meat",
       "angle": "rivals"
     },
     {
@@ -368,7 +368,7 @@
       "angle": "title"
     },
     {
-      "q": "Who is the captain of the Straw Hat Pirates' swordsman?",
+      "q": "Who is the swordsman of the Straw Hat Pirates?",
       "a": "Roronoa Zoro",
       "angle": "crew"
     },
@@ -503,8 +503,8 @@
       "angle": "theme"
     },
     {
-      "q": "What island is the Straw Hats' first half of Grand Line entrance?",
-      "a": "Reverse Mountain to enter Grand Line",
+      "q": "How do the Straw Hats enter the Grand Line?",
+      "a": "Through Reverse Mountain",
       "angle": "setting"
     },
     {
@@ -580,13 +580,8 @@
       "angle": "rivals"
     },
     {
-      "q": "What does 'Neon Genesis Evangelion' critique?",
-      "a": "Human connection and existentialism",
-      "angle": "arcs"
-    },
-    {
-      "q": "Who created the first Pokémon?",
-      "a": "Arceus (in Pokémon lore)",
+      "q": "Which Pokémon is said to have created the universe in Pokémon lore?",
+      "a": "Arceus",
       "angle": "power-ups"
     },
     {
@@ -690,8 +685,8 @@
       "angle": "system"
     },
     {
-      "q": "Who trained Guts with the Band of the Hawk?",
-      "a": "He learned through battles; Gambino early life; no formal mentor",
+      "q": "Who trained Guts in combat during his early life in Berserk?",
+      "a": "Gambino (his adoptive father and mercenary captain)",
       "angle": "lore"
     },
     {
@@ -730,8 +725,8 @@
       "angle": "system"
     },
     {
-      "q": "What village is Itachi ordered to massacre?",
-      "a": "The Uchiha clan in Konoha",
+      "q": "Which clan does Itachi massacre on orders from Konoha's elders?",
+      "a": "The Uchiha clan",
       "angle": "plot"
     },
     {
@@ -793,11 +788,6 @@
       "q": "Who is the Straw Hat Pirate musician?",
       "a": "Brook",
       "angle": "crew"
-    },
-    {
-      "q": "What is the real name of Zero Two?",
-      "a": "002 (Partner of Hiro) called Zero Two",
-      "angle": "identity"
     },
     {
       "q": "What does AOT's basement reveal contain?",

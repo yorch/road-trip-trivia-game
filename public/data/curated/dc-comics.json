@@ -21,7 +21,7 @@
       "angle": "Justice League"
     },
     {
-      "q": "Who is the Flash?",
+      "q": "What is the full name of the Silver Age Flash?",
       "a": "Barry Allen",
       "angle": "Justice League"
     },
@@ -146,8 +146,8 @@
       "angle": "gear"
     },
     {
-      "q": "Which dying alien gave Hal Jordan his Green Lantern ring?",
-      "a": "Abin Sur",
+      "q": "What is the name of the human test pilot who became Green Lantern?",
+      "a": "Hal Jordan",
       "angle": "Justice League"
     },
     {
@@ -358,11 +358,6 @@
       "angle": "Gotham"
     },
     {
-      "q": "What is Superman's home city?",
-      "a": "Metropolis",
-      "angle": "metropolis"
-    },
-    {
       "q": "Who is the Riddler?",
       "a": "Edward Nygma (Batman villain)",
       "angle": "rogues gallery"
@@ -529,7 +524,7 @@
     },
     {
       "q": "What is the Batcomputer?",
-      "a": "Batman\u2019s main computer in the Batcave",
+      "a": "Batman’s main computer in the Batcave",
       "angle": "gear"
     },
     {
@@ -670,11 +665,6 @@
       "angle": "heroes"
     },
     {
-      "q": "Who forged the Batarang in some continuities?",
-      "a": "Batman/Wayne tech; sometimes Lucius Fox supplies gear",
-      "angle": "tech"
-    },
-    {
       "q": "What is Superman's greatest vulnerability besides kryptonite?",
       "a": "Red sun radiation/magic",
       "angle": "lore"
@@ -731,7 +721,7 @@
     },
     {
       "q": "Where was Bane raised?",
-      "a": "Pe\u00f1a Duro prison on Santa Prisca",
+      "a": "Peña Duro prison on Santa Prisca",
       "angle": "Gotham"
     },
     {

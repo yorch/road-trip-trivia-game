@@ -343,11 +343,6 @@
       "angle": "villain"
     },
     {
-      "q": "Who is the Winter Soldier?",
-      "a": "Bucky Barnes",
-      "angle": "twist"
-    },
-    {
       "q": "What is Spider-Man's academic team called?",
       "a": "The Midtown School decathlon team",
       "angle": "supporting"
@@ -441,11 +436,6 @@
       "q": "What stone was in Loki's scepter?",
       "a": "Mind Stone",
       "angle": "items"
-    },
-    {
-      "q": "Who is Gamora's adoptive father?",
-      "a": "Thanos",
-      "angle": "villains"
     },
     {
       "q": "Who built Ultron?",
@@ -648,11 +638,6 @@
       "q": "Who is the first MCU character chronologically with a solo film?",
       "a": "Captain America (The First Avenger set in WWII)",
       "angle": "timeline"
-    },
-    {
-      "q": "What is the super-soldier serum creator's name?",
-      "a": "Dr. Abraham Erskine",
-      "angle": "origin"
     },
     {
       "q": "Who plays Kingpin in Daredevil/MCU canon?",

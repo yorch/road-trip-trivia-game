@@ -161,9 +161,9 @@
       "angle": "eras"
     },
     {
-      "q": "Who was the oldest person ever inaugurated as U.S. president, taking office at age 78?",
+      "q": "Which president took office at age 78 after defeating incumbent Donald Trump in the 2020 election?",
       "a": "Joe Biden",
-      "angle": "firsts"
+      "angle": "elections"
     },
     {
       "q": "Which president won the 2020 election?",

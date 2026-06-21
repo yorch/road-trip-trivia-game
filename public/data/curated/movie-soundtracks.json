@@ -730,11 +730,6 @@
       "angle": "oscars"
     },
     {
-      "q": "Which song won Best Original Song for The Sound of Music?",
-      "a": "No song won; score won only",
-      "angle": "oscars"
-    },
-    {
       "q": "Which composer has the most Oscar wins for Original Score?",
       "a": "Alfred Newman (9 wins)",
       "angle": "records"

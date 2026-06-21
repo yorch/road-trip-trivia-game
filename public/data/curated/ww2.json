@@ -161,8 +161,8 @@
       "angle": "allies"
     },
     {
-      "q": "What is the name of the German military strategy of encircling enemy forces?",
-      "a": "Kesselschlacht (cauldron battle) — also accepted: encirclement",
+      "q": "What was the name of the evacuated Allied soldiers' rescue operation from the beaches of Dunkirk in 1940?",
+      "a": "Operation Dynamo",
       "angle": "battles"
     },
     {
@@ -241,8 +241,8 @@
       "angle": "dates"
     },
     {
-      "q": "Which famous American pilot was the first to fly solo across the Atlantic — and also served in the Pacific?",
-      "a": "Charles Lindbergh",
+      "q": "What popular slogan encouraged Americans on the home front to conserve resources during World War II?",
+      "a": "Use it up, wear it out, make it do, or do without",
       "angle": "home front"
     },
     {
@@ -468,9 +468,9 @@
       "angle": "home front"
     },
     {
-      "q": "What German word means the mass killing of civilians used during the Nazi occupation of Eastern Europe?",
-      "a": "Vernichtung (annihilation) — commonly referred to as the Holocaust or Shoah",
-      "angle": "axis"
+      "q": "What was the name of the Allied supply route that ran from Iran through the Soviet Union to deliver war materials?",
+      "a": "The Persian Corridor (also called the Persian Gulf Command supply route)",
+      "angle": "allies"
     },
     {
       "q": "What cargo was the Liberty Ships designed to carry across the Atlantic?",
@@ -640,8 +640,8 @@
       "angle": "axis"
     },
     {
-      "q": "Which U.S. cruiser discovered the burning USS Arizona at Pearl Harbor and became the last ship sunk that day?",
-      "a": "USS Nevada (which was the only battleship to get underway during the attack)",
+      "q": "Which U.S. battleship was the only one to get underway during the attack on Pearl Harbor, before being run aground to avoid blocking the harbor entrance?",
+      "a": "USS Nevada",
       "angle": "battles"
     },
     {
@@ -800,9 +800,9 @@
       "angle": "axis"
     },
     {
-      "q": "Which Japanese Zero pilot shot down the most Allied aircraft in World War II?",
-      "a": "Hiroyoshi Nishizawa (with approximately 87 confirmed kills)",
-      "angle": "axis"
+      "q": "What was the name of the British commando raid in August 1942 on the French port of Dieppe, which resulted in catastrophic Allied casualties?",
+      "a": "The Dieppe Raid (Operation Jubilee)",
+      "angle": "battles"
     },
     {
       "q": "What year did the Soviet Union sign a neutrality pact with Japan, and why was it strategically important?",

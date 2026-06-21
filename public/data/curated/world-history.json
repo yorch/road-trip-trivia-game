@@ -318,11 +318,6 @@
       "angle": "conflict"
     },
     {
-      "q": "Who wrote 'The Communist Manifesto'?",
-      "a": "Karl Marx and Friedrich Engels",
-      "angle": "conflict"
-    },
-    {
       "q": "Which Italian city-state is considered the birthplace of the Renaissance?",
       "a": "Florence",
       "angle": "culture"
@@ -580,11 +575,6 @@
       "angle": "peace accord"
     },
     {
-      "q": "Who was the last Tsar of Russia?",
-      "a": "Nicholas II",
-      "angle": "revolution"
-    },
-    {
       "q": "What empire was ruled by Suleiman the Magnificent?",
       "a": "Ottoman Empire",
       "angle": "ancient empire"
@@ -608,11 +598,6 @@
       "q": "What year did Constantinople fall?",
       "a": "1453",
       "angle": "conflict"
-    },
-    {
-      "q": "Who was the first Holy Roman Emperor?",
-      "a": "Charlemagne (800 AD)",
-      "angle": "ancient empire"
     },
     {
       "q": "What treaty divided the New World between Spain and Portugal?",
@@ -658,11 +643,6 @@
       "q": "What event triggered the Taiping Rebellion?",
       "a": "Hong Xiuquan's movement in Qing China (1850)",
       "angle": "conflict"
-    },
-    {
-      "q": "Who discovered penicillin?",
-      "a": "Alexander Fleming (1928)",
-      "angle": "science"
     },
     {
       "q": "Which pharaoh fought at the Battle of Kadesh?",
@@ -745,11 +725,6 @@
       "angle": "exploration"
     },
     {
-      "q": "What year did the Berlin Wall fall?",
-      "a": "1989",
-      "angle": "modern"
-    },
-    {
       "q": "What was the doctrine of \"sphere of influence\" in China?",
       "a": "Foreign powers dividing trade/control zones",
       "angle": "imperialism"
@@ -778,16 +753,6 @@
       "q": "What was the Code of Hammurabi?",
       "a": "Ancient Babylonian law code",
       "angle": "law"
-    },
-    {
-      "q": "Who was the first emperor of Rome?",
-      "a": "Augustus (Octavian)",
-      "angle": "leaders"
-    },
-    {
-      "q": "What empire used janissaries?",
-      "a": "Ottoman Empire",
-      "angle": "military"
     },
     {
       "q": "What war featured trench warfare and poison gas?",

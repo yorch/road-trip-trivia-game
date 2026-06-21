@@ -41,8 +41,8 @@
       "angle": "amendment"
     },
     {
-      "q": "How many amendments are in the Bill of Rights?",
-      "a": "10",
+      "q": "Which amendment in the Bill of Rights protects freedom of speech and religion?",
+      "a": "First Amendment",
       "angle": "amendment"
     },
     {
@@ -286,11 +286,6 @@
       "q": "Who was the longest-serving US President?",
       "a": "Franklin D. Roosevelt",
       "angle": "founding"
-    },
-    {
-      "q": "What purchase doubled the size of the US in 1803?",
-      "a": "Louisiana Purchase",
-      "angle": "milestone"
     },
     {
       "q": "Who assassinated Abraham Lincoln?",

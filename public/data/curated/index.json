@@ -11,13 +11,13 @@
   },
   "ancient-greece": {
     "easy": 55,
-    "medium": 55,
+    "medium": 54,
     "hard": 55
   },
   "anime-heroes": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 53
   },
   "baseball": {
     "easy": 55,
@@ -27,7 +27,7 @@
   "basketball": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "classical-composers": {
     "easy": 55,
@@ -36,8 +36,8 @@
   },
   "dc-comics": {
     "easy": 57,
-    "medium": 55,
-    "hard": 62
+    "medium": 54,
+    "hard": 61
   },
   "dinosaurs": {
     "easy": 55,
@@ -46,8 +46,8 @@
   },
   "disney-classics": {
     "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "medium": 53,
+    "hard": 53
   },
   "f1": {
     "easy": 55,
@@ -70,9 +70,9 @@
     "hard": 55
   },
   "kpop-demon-hunters": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 18,
+    "medium": 7,
+    "hard": 12
   },
   "lotr": {
     "easy": 55,
@@ -81,23 +81,23 @@
   },
   "marvel": {
     "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "medium": 53,
+    "hard": 54
   },
   "modern-games": {
-    "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "easy": 53,
+    "medium": 54,
+    "hard": 54
   },
   "movie-soundtracks": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "music-legends": {
     "easy": 54,
-    "medium": 55,
-    "hard": 55
+    "medium": 53,
+    "hard": 54
   },
   "mythology": {
     "easy": 55,
@@ -121,7 +121,7 @@
   },
   "pop-hits": {
     "easy": 55,
-    "medium": 55,
+    "medium": 48,
     "hard": 55
   },
   "presidents": {
@@ -147,27 +147,27 @@
   "rock-history": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "soccer": {
     "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "medium": 54,
+    "hard": 54
   },
   "solar-system": {
     "easy": 55,
-    "medium": 55,
+    "medium": 54,
     "hard": 55
   },
   "space-exploration": {
     "easy": 55,
-    "medium": 55,
-    "hard": 55
+    "medium": 54,
+    "hard": 54
   },
   "star-wars": {
     "easy": 55,
     "medium": 55,
-    "hard": 55
+    "hard": 54
   },
   "tech-giants": {
     "easy": 55,
@@ -186,7 +186,7 @@
   },
   "us-history": {
     "easy": 55,
-    "medium": 55,
+    "medium": 54,
     "hard": 55
   },
   "weather": {
@@ -201,8 +201,8 @@
   },
   "world-history": {
     "easy": 55,
-    "medium": 59,
-    "hard": 57
+    "medium": 58,
+    "hard": 51
   },
   "world-landmarks": {
     "easy": 55,

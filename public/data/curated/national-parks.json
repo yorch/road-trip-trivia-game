@@ -181,9 +181,9 @@
       "angle": "features"
     },
     {
-      "q": "Which national park on the California–Nevada border includes Lake Tahoe's basin?",
-      "a": "Lake Tahoe Basin (not a national park — Tahoe is managed separately)",
-      "angle": "features"
+      "q": "Which national park in Wyoming is famous for its dramatic jagged peaks reflected in the Snake River?",
+      "a": "Grand Teton",
+      "angle": "vistas"
     },
     {
       "q": "Which national park is home to the Valley of Ten Thousand Smokes in Alaska?",
@@ -428,13 +428,13 @@
       "angle": "trails"
     },
     {
-      "q": "Which national park in Georgia protects a vast blackwater swamp and is home to alligators and sandhill cranes?",
-      "a": "Okefenokee (National Wildlife Refuge, not a park) — closest NPS unit is Cumberland Island",
+      "q": "Which national park in South Carolina protects one of the largest old-growth bottomland forests in the eastern United States?",
+      "a": "Congaree",
       "angle": "wildlife"
     },
     {
-      "q": "What is the name of the large lake in the center of Everglades National Park?",
-      "a": "There is no large central lake — the Everglades is a slow-moving 'river of grass'",
+      "q": "What nickname describes the Everglades, coined by naturalist Marjory Stoneman Douglas, that captures its character as a wide, slow-moving sheet of water?",
+      "a": "River of Grass",
       "angle": "features"
     },
     {
@@ -670,9 +670,9 @@
       "angle": "features"
     },
     {
-      "q": "Which national park in Idaho features the deepest river gorge in North America, Hells Canyon?",
-      "a": "Hells Canyon National Recreation Area (not a national park — it's an NRA)",
-      "angle": "vistas"
+      "q": "Which national park in Idaho contains Craters of the Moon, a vast landscape of lava flows, cinder cones, and lava tube caves?",
+      "a": "Craters of the Moon National Monument and Preserve",
+      "angle": "features"
     },
     {
       "q": "What is the name of the only road through Death Valley that connects the park from north to south?",
@@ -690,8 +690,8 @@
       "angle": "wildlife"
     },
     {
-      "q": "Which national park in Alaska was established in 1980 under the Alaska National Interest Lands Conservation Act?",
-      "a": "Several parks were established under ANILCA, including Kenai Fjords, Lake Clark, and Kobuk Valley",
+      "q": "What 1980 act of Congress added over 47 million acres to the National Park System in Alaska, creating or expanding parks such as Kenai Fjords and Kobuk Valley?",
+      "a": "Alaska National Interest Lands Conservation Act (ANILCA)",
       "angle": "rangers"
     },
     {
@@ -720,8 +720,8 @@
       "angle": "vistas"
     },
     {
-      "q": "Which national park preserves the site of the Pleistocene La Brea Tar Pits in Los Angeles?",
-      "a": "La Brea Tar Pits are managed by the Natural History Museum of LA County, not the NPS — the adjacent park is Hancock Park",
+      "q": "Which national park in California contains the world's largest grove of giant sequoias, known as the Giant Forest?",
+      "a": "Sequoia",
       "angle": "features"
     },
     {
@@ -760,9 +760,9 @@
       "angle": "features"
     },
     {
-      "q": "Which national park in Virginia protects the longest cave system open to the public in the Eastern US?",
-      "a": "Luray Caverns (not NPS — Shenandoah NP's Endless Caverns and Skyline Caverns are nearby but private)",
-      "angle": "features"
+      "q": "Which national park in Virginia follows the crest of the Blue Ridge Mountains for 105 miles and contains over 500 miles of hiking trails?",
+      "a": "Shenandoah",
+      "angle": "trails"
     },
     {
       "q": "What is the name of the high-altitude lake above 11,000 feet in Rocky Mountain National Park near Trail Ridge Road?",
@@ -780,9 +780,9 @@
       "angle": "rangers"
     },
     {
-      "q": "Which national park in Kentucky and Tennessee contains a significant section of the original Cherokee Trail of Tears route?",
-      "a": "The Trail of Tears National Historic Trail passes through multiple states including Kentucky and Tennessee (not a single park)",
-      "angle": "rangers"
+      "q": "Which national park in Tennessee and North Carolina protects the highest point east of the Mississippi River, Clingmans Dome, at 6,643 feet?",
+      "a": "Great Smoky Mountains",
+      "angle": "vistas"
     },
     {
       "q": "What is the name of the endemic fox species found only on the Channel Islands?",
@@ -825,9 +825,9 @@
       "angle": "vistas"
     },
     {
-      "q": "What is the name of the volcanic plug that forms the distinctive 'Shiprocks' landmark near the New Mexico–Arizona border adjacent to Navajo lands?",
-      "a": "Shiprock (Tsé Bitʼaʼí) — not in a national park but on Navajo Nation land",
-      "angle": "vistas"
+      "q": "What was the original name of Denali National Park before Congress renamed it in 1980, reflecting the peak's name given by prospector William Dickey in 1897?",
+      "a": "Mount McKinley National Park",
+      "angle": "rangers"
     }
   ]
 }

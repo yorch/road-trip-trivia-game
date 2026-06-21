@@ -26,8 +26,8 @@
       "angle": "sidekick"
     },
     {
-      "q": "Who says 'May the Force be with you' during the Yavin briefing?",
-      "a": "General Dodonna",
+      "q": "What famous Star Wars phrase is said to wish someone luck or safety?",
+      "a": "\"May the Force be with you\"",
       "angle": "quote"
     },
     {
@@ -266,8 +266,8 @@
       "angle": "villain"
     },
     {
-      "q": "What does the phrase 'I've got a bad feeling about this' appear in?",
-      "a": "Every main saga Star Wars film",
+      "q": "In which trilogy does the phrase 'I've got a bad feeling about this' appear in every film?",
+      "a": "The original trilogy (Episodes IV, V, and VI)",
       "angle": "quote"
     },
     {
@@ -697,11 +697,6 @@
     {
       "q": "What is the name of Darth Vader's flagship?",
       "a": "Executor (Super Star Destroyer)",
-      "angle": "vehicles"
-    },
-    {
-      "q": "What is the name of Boba Fett's ship?",
-      "a": "Slave I (Firespray-31 patrol craft)",
       "angle": "vehicles"
     },
     {

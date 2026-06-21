@@ -533,18 +533,13 @@
       "angle": "history"
     },
     {
-      "q": "What is a clean sheet?",
-      "a": "Conceding zero goals",
-      "angle": "terms"
-    },
-    {
       "q": "Which Dutch club is known for total football and youth academy?",
       "a": "Ajax",
       "angle": "clubs"
     },
     {
-      "q": "What is the name of the fierce rivalry match between Liverpool and Manchester United?",
-      "a": "The North West Derby",
+      "q": "Which two English clubs contest the so-called 'North West Derby' and share the most rivalry in the Premier League era?",
+      "a": "Liverpool and Manchester United",
       "angle": "rivalries"
     },
     {
@@ -803,11 +798,6 @@
       "q": "Who holds the record for most assists in a single Premier League season?",
       "a": "Kevin De Bruyne (joint 20 with Thierry Henry)",
       "angle": "records"
-    },
-    {
-      "q": "What is xG an abbreviation for?",
-      "a": "Expected Goals",
-      "angle": "analytics"
     },
     {
       "q": "Who won the first Women's World Cup?",

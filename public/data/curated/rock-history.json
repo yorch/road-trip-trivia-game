@@ -287,8 +287,8 @@
       "angle": "classic albums"
     },
     {
-      "q": "What was the name of Kurt Cobain's band before Nirvana became famous?",
-      "a": "Nirvana had no earlier name; Cobain's pre-Nirvana band was Fecal Matter",
+      "q": "In what Washington state city did Nirvana form in 1987?",
+      "a": "Aberdeen",
       "angle": "bands"
     },
     {
@@ -640,11 +640,6 @@
       "angle": "guitar riffs"
     },
     {
-      "q": "Which Clash album was recorded over three weekends in 1979 and cost only £5,000 to make?",
-      "a": "London Calling",
-      "angle": "classic albums"
-    },
-    {
       "q": "Who produced The Sex Pistols' 'Never Mind the Bollocks'?",
       "a": "Chris Thomas (and Bill Price)",
       "angle": "classic albums"
@@ -701,7 +696,7 @@
       "angle": "festival lore"
     },
     {
-      "q": "Which Black Sabbath album from 1971 featured the songs 'War Pigs', 'Iron Man', and 'Paranoid'?",
+      "q": "Which Black Sabbath album from 1970 featured the songs 'War Pigs', 'Iron Man', and 'Paranoid'?",
       "a": "Paranoid (1970)",
       "angle": "classic albums"
     },

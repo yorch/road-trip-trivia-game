@@ -323,11 +323,6 @@
       "angle": "band"
     },
     {
-      "q": "Who sang 'Superstition'?",
-      "a": "Stevie Wonder",
-      "angle": "signature song"
-    },
-    {
       "q": "What year did Michael Jackson release 'Thriller'?",
       "a": "1982",
       "angle": "album"
@@ -436,11 +431,6 @@
       "q": "Who is the frontman of Metallica?",
       "a": "James Hetfield",
       "angle": "bands"
-    },
-    {
-      "q": "Who is known as the Godfather of Soul?",
-      "a": "James Brown",
-      "angle": "titles"
     },
     {
       "q": "Which singer is called The Voice (90s)?",
@@ -723,11 +713,6 @@
       "q": "What Seattle record label launched the grunge scene, signing Nirvana and Soundgarden?",
       "a": "Sub Pop Records",
       "angle": "history"
-    },
-    {
-      "q": "Who is the Queen of Soul?",
-      "a": "Aretha Franklin",
-      "angle": "titles"
     },
     {
       "q": "What band was Kurt Cobain in before Nirvana fame?",

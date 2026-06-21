@@ -383,11 +383,6 @@
       "angle": "astronaut"
     },
     {
-      "q": "What was the first US space station?",
-      "a": "Skylab",
-      "angle": "mission"
-    },
-    {
       "q": "Which country landed Chang'e probes on the Moon?",
       "a": "China (CNSA)",
       "angle": "mission"
@@ -653,11 +648,6 @@
       "q": "What is the approximate orbital altitude of the ISS?",
       "a": "About 400 km (varying)",
       "angle": "orbit"
-    },
-    {
-      "q": "Who was the first American woman in space?",
-      "a": "Sally Ride",
-      "angle": "astronaut"
     },
     {
       "q": "Which mission returned samples from asteroid Ryugu?",

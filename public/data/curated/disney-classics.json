@@ -271,7 +271,7 @@
       "angle": "setting"
     },
     {
-      "q": "What kind of animal is Dumbo's best friend Timothy?",
+      "q": "What type of animal is Dumbo's circus sidekick who helps him become a star?",
       "a": "A mouse",
       "angle": "sidekick"
     }
@@ -423,11 +423,6 @@
       "angle": "characters"
     },
     {
-      "q": "What is the name of Aladdin's monkey?",
-      "a": "Abu",
-      "angle": "characters"
-    },
-    {
       "q": "Who raises Tarzan?",
       "a": "Kala the gorilla",
       "angle": "characters"
@@ -513,11 +508,6 @@
       "angle": "villains"
     },
     {
-      "q": "Who trains Hercules?",
-      "a": "Philoctetes (Phil)",
-      "angle": "mentor"
-    },
-    {
       "q": "What is Hercules' father in myth?",
       "a": "Zeus",
       "angle": "lore"
@@ -573,11 +563,6 @@
       "q": "What is the longest original Disney animated feature?",
       "a": "Fantasia (~126 minutes)",
       "angle": "records"
-    },
-    {
-      "q": "How many official Disney Princess lineup members are there as of 2024?",
-      "a": "12 (if Moana/Raya not officially added) or 13 including Raya; commonly cited 12-13",
-      "angle": "lore"
     },
     {
       "q": "Who wrote and directed The Little Mermaid's songs?",
@@ -643,11 +628,6 @@
       "q": "Who directed Beauty and the Beast (1991)?",
       "a": "Gary Trousdale and Kirk Wise",
       "angle": "production"
-    },
-    {
-      "q": "What is the name of the song that won an Oscar in Coco?",
-      "a": "\"Remember Me\"",
-      "angle": "awards"
     },
     {
       "q": "Who voices Scar in The Lion King (1994)?",
