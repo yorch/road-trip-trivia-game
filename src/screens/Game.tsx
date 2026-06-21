@@ -4,6 +4,7 @@ import { EntrantButtons } from '../components/EntrantButtons';
 import { ArrowLeftIcon, ClockIcon, FlameIcon } from '../components/icons';
 import { QuestionCard } from '../components/QuestionCard';
 import { Scoreboard } from '../components/Scoreboard';
+import { SoundToggle } from '../components/SoundToggle';
 import { SpeechSettings } from '../components/SpeechSettings';
 import {
   award,
@@ -14,6 +15,7 @@ import {
   sessionSignal,
   standings,
 } from '../session/session';
+import { playCorrect, playStreak } from '../sound';
 import { isSpeakingSignal, speak, stopSpeech } from '../speech';
 import type { GameSession } from '../types';
 
@@ -88,6 +90,8 @@ export function Game() {
         bonus: a.bonus,
         streak: a.streak,
       });
+      playCorrect(a.base);
+      if (a.bonus > 0) playStreak();
       const t = setTimeout(() => setFlash(null), 1200);
       return () => clearTimeout(t);
     }
@@ -132,6 +136,7 @@ export function Game() {
         <div class="game-progress">
           <ProgressLabel session={session} now={now} />
         </div>
+        <SoundToggle />
         <SpeechSettings />
       </header>
 

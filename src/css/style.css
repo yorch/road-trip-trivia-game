@@ -175,6 +175,10 @@ button {
   border-color: var(--accent);
   color: var(--accent);
 }
+.icon-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
 .icon-btn:disabled {
   opacity: 0.4;
   cursor: not-allowed;

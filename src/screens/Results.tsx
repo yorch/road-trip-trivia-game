@@ -7,6 +7,7 @@ import {
   standings,
   startGame,
 } from '../session/session';
+import { playGameOver } from '../sound';
 
 export function Results() {
   const [, navigate] = useLocation();
@@ -15,6 +16,11 @@ export function Results() {
   useEffect(() => {
     if (!session) navigate('/');
   }, [session, navigate]);
+
+  // Celebrate once when the results screen first appears.
+  useEffect(() => {
+    playGameOver();
+  }, []);
 
   if (!session) return null;
 

@@ -1,5 +1,6 @@
 import { useLocation } from 'wouter-preact';
 import { BoltIcon, PlayIcon, PlusIcon } from '../components/icons';
+import { SoundToggle } from '../components/SoundToggle';
 import { SpeechSettings } from '../components/SpeechSettings';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { defaultConfig } from '../session/config';
@@ -47,6 +48,7 @@ export function Home() {
       <header class="home-header">
         <h1 class="home-title">Road Trip Trivia</h1>
         <div class="header-right">
+          <SoundToggle />
           <SpeechSettings />
           <ThemeToggle />
         </div>
