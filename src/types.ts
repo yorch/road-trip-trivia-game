@@ -23,18 +23,6 @@ export interface CuratedTopicFile {
   hard: CuratedQuestion[];
 }
 
-export interface AnswerExamples {
-  [topicId: string]: { [angle: string]: string[] };
-}
-
-export interface CategoryAngles {
-  [category: string]: string[];
-}
-
-export interface TemplateSet {
-  [difficulty: string]: string[];
-}
-
 // A question as presented in a game. Carries its source topic so a mixed-topic
 // session can show where each question came from.
 export interface Question {
@@ -46,9 +34,6 @@ export interface Question {
   topicId: string;
   topicName: string;
   category: string;
-  // Open-ended generated prompts: no single answer, show example answers.
-  generated?: boolean;
-  examples?: string[];
 }
 
 // ─── Session / game types ────────────────────────────────────────────────
@@ -65,13 +50,10 @@ export type EndMode = 'count' | 'race' | 'timed' | 'endless';
 
 export type DifficultyChoice = 'mixed' | Difficulty;
 
-export type ContentMode = 'curated' | 'all';
-
 export interface GameConfig {
   entrantKind: EntrantKind;
   entrants: Entrant[];
   topicIds: string[]; // empty = all topics
-  contentMode: ContentMode;
   difficulty: DifficultyChoice;
   endMode: EndMode;
   // Meaning depends on endMode: question count / target points / seconds.

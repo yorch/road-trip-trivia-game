@@ -6,7 +6,6 @@ import { curatedStats, hasCurated } from '../content/curated';
 import { defaultConfig, defaultEntrantName, genId } from '../session/config';
 import { loadLastConfig, startGame } from '../session/session';
 import type {
-  ContentMode,
   Difficulty,
   DifficultyChoice,
   EndMode,
@@ -211,28 +210,6 @@ export function Setup() {
             Pick at least one topic, or choose Everything.
           </p>
         )}
-      </section>
-
-      {/* Content */}
-      <section class="setup-section">
-        <h2>Question source</h2>
-        <div class="segmented">
-          {(
-            [
-              ['curated', 'Curated only'],
-              ['all', 'Include generated'],
-            ] as [ContentMode, string][]
-          ).map(([id, label]) => (
-            <button
-              type="button"
-              key={id}
-              class={`seg ${config.contentMode === id ? 'active' : ''}`}
-              onClick={() => update({ contentMode: id })}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
       </section>
 
       {/* Difficulty */}

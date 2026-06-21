@@ -48,7 +48,7 @@ export default defineConfig({
             options: {
               cacheName: 'json-cache',
               expiration: {
-                // ~34 data JSON files (topics + answer-examples + one per
+                // ~45 data JSON files (topics + curated index + one per
                 // curated topic); keep the cap above that so runtime caching
                 // doesn't evict files that are still in use.
                 maxEntries: 60,

@@ -16,7 +16,6 @@ export function defaultConfig(): GameConfig {
       { id: genId(), name: 'Back Seat' },
     ],
     topicIds: [],
-    contentMode: 'curated',
     difficulty: 'mixed',
     endMode: 'count',
     target: 15,

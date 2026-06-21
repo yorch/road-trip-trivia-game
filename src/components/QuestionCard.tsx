@@ -50,11 +50,7 @@ export function QuestionCard({
         </div>
       </div>
 
-      <p class="card-body">
-        {question.generated
-          ? 'Open-ended — say what you can, then reveal a few examples.'
-          : 'Say your answer out loud, then reveal.'}
-      </p>
+      <p class="card-body">Say your answer out loud, then reveal.</p>
 
       {/* Answer is only rendered once revealed, so it never leaks to the
           accessibility tree or devtools beforehand. */}
@@ -62,23 +58,8 @@ export function QuestionCard({
         class={`answer ${revealed ? 'visible' : ''}`}
         aria-hidden={!revealed}
       >
-        {question.generated && question.examples ? (
-          <>
-            <p class="answer-label">Example answers</p>
-            {revealed && (
-              <ul class="answer-examples">
-                {question.examples.map((ex) => (
-                  <li key={ex}>{ex}</li>
-                ))}
-              </ul>
-            )}
-          </>
-        ) : (
-          <>
-            <p class="answer-label">Answer</p>
-            <p class="answer-text">{revealed ? question.answer : ''}</p>
-          </>
-        )}
+        <p class="answer-label">Answer</p>
+        <p class="answer-text">{revealed ? question.answer : ''}</p>
       </div>
 
       <div class="actions">{actions}</div>

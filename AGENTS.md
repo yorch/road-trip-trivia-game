@@ -12,9 +12,9 @@ Features:
 
 - **Quizmaster model**: host reads aloud (TTS), taps the entrant who answered; the device is reader + scoreboard
 - **Game flow**: Home (Resume / Quick Play / New Game) → Setup → Game → Results
-- **Configurable setup**: players or teams (solo works), topic scope (everything / pick topics), question source (curated only / include generated), difficulty (mixed or fixed), and end mode (fixed question count / race to N points / timed / endless)
+- **Configurable setup**: players or teams (solo works), topic scope (everything / pick topics), difficulty (mixed or fixed), and end mode (fixed question count / race to N points / timed / endless)
 - **Difficulty-weighted scoring**: easy 1 / medium 2 / hard 3, plus a streak bonus every 3rd consecutive correct (a successful answer breaks everyone else's streak)
-- **Content**: 5000+ curated factual questions (all 43 topics) plus optional open-ended generated prompts that reveal several example answers
+- **Content**: 5000+ curated factual questions covering all 43 topics — every question has a single answer (curated-only)
 - **Resume & Quick Play**: in-progress game and last-used config persist to localStorage
 - Hash-based routing (`/`, `/setup`, `/game`, `/results`) via wouter-preact
 - Themes (Warm Americana, Night Drive, Coastal) and read-aloud voice/speed/pitch controls
@@ -67,9 +67,9 @@ routing is hash-based via wouter-preact.
 
 **`content/`** — question content
 
-- `catalog.ts` — topics + answer-examples loaders, `categoryAngles`, open-ended `promptTemplates`, `buildAngles`, `fillTemplate`
+- `catalog.ts` — topic list loader plus category helpers (`categories`, `topicIdsForCategory`, `topicsForCategory`)
 - `curated.ts` — curated index + per-topic file loading (cached), `curatedStats`/`hasCurated`
-- `provider.ts` — `buildPool(config, seed)`: gathers curated (+ optional generated) questions across the selected topics/difficulties and deterministically shuffles them into the game's ordered pool
+- `provider.ts` — `buildPool(config, seed)`: gathers curated questions across the selected topics/difficulties and deterministically shuffles them into the game's ordered pool
 
 **`session/`** — game engine
 
@@ -86,7 +86,6 @@ routing is hash-based via wouter-preact.
 ### Content data (`public/data/`, unchanged by the rewrite)
 
 - `topics.json` — 43 topics (id, name, category, tags), loaded at startup
-- `answer-examples.json` — real-world examples by topic → angle, loaded lazily (only when generated content is enabled)
 - `curated/index.json` — per-topic counts `{ easy, medium, hard }` (maintained by `yarn update-index`)
 - `curated/[topic-id].json` — `{ easy: [], medium: [], hard: [] }`, each entry `{ q, a, angle }`; loaded on demand, cached per topic
 
@@ -94,11 +93,11 @@ routing is hash-based via wouter-preact.
 
 **Starting a game** (`startGame(config)`):
 
-1. Pick a random `seed`, then `buildPool(config, seed)` collects questions from the selected topics × difficulties (curated, plus generated open prompts if `contentMode: 'all'`), tagging each with its source topic.
+1. Pick a random `seed`, then `buildPool(config, seed)` collects curated questions from the selected topics × difficulties, tagging each with its source topic.
 2. The pool is shuffled deterministically by `seed` and capped (the target count for `count` mode, else `POOL_CAP`).
 3. A `GameSession` (pool, cursor, per-entrant scores, status, optional `endsAt` for timed) is stored in `sessionSignal` and persisted.
 
-**Playing** (per question): `reveal()` shows the answer (or example answers for generated prompts) → host calls `award(entrantId | null)` → scorer gets difficulty-weighted points + any streak bonus, everyone else's streak resets, cursor advances, and `isGameOver` (count / race / timed / endless) flips status to `finished` when met.
+**Playing** (per question): `reveal()` shows the answer → host calls `award(entrantId | null)` → scorer gets difficulty-weighted points + any streak bonus, everyone else's streak resets, cursor advances, and `isGameOver` (count / race / timed / endless) flips status to `finished` when met.
 
 **Persistence**: the active session is written to localStorage on every change (cleared when finished/abandoned) so Home can offer **Resume**; the last `GameConfig` is saved for **Quick Play** and **Rematch**.
 
@@ -161,8 +160,7 @@ Based on commit history:
    }
    ```
 
-2. Optionally add curated questions to `public/data/curated/[topic-id].json`
-3. Optionally add answer examples to `public/data/answer-examples.json`
+2. Add curated questions to `public/data/curated/[topic-id].json` (a topic with no curated questions can't be played)
 
 ### Curated Questions
 
@@ -178,31 +176,11 @@ Edit individual topic file in `public/data/curated/[topic-id].json`:
 }
 ```
 
-After adding a new topic file, update the index:
+After adding or changing a topic file, update the index:
 
 ```bash
 yarn update-index
 ```
-
-Users can reload curated questions without redeploying via "↻ Reload" button in topic picker.
-
-### Answer Examples
-
-Add to `public/data/answer-examples.json`:
-
-```json
-{
-  "topic-id": {
-    "angle-name": [
-      "Real example 1",
-      "Real example 2",
-      "Real example 3"
-    ]
-  }
-}
-```
-
-These are used when generating template-based questions to provide factual content instead of generic placeholders.
 
 ## Key Technologies
 

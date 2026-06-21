@@ -650,28 +650,6 @@ button {
   font-weight: 600;
   line-height: 1.4;
 }
-.answer-examples {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-serif);
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.answer-examples li {
-  position: relative;
-  padding-left: 20px;
-  line-height: 1.35;
-}
-.answer-examples li::before {
-  content: "—";
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-  font-weight: 700;
-}
 
 .actions {
   margin-top: 18px;

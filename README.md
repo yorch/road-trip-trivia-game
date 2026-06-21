@@ -6,11 +6,10 @@ A TypeScript **quizmaster party game** with offline PWA capabilities, designed t
 
 - **Quizmaster mode**: one host holds the phone, reads each question aloud, and taps who got it — the device is reader + scoreboard
 - **Players or teams**: set up any number of entrants (solo works too), as individuals or teams
-- **Configurable games**: choose the topic scope, question source, difficulty, and how the game ends
+- **Configurable games**: choose the topic scope, difficulty, and how the game ends
 - **End modes**: fixed question count, race to N points, timed, or endless
 - **Difficulty-weighted scoring**: Easy 1 · Medium 2 · Hard 3, with a streak bonus for hot runs
-- **5000+ Curated Questions**: hand-written factual trivia across all 43 topics (7 categories)
-- **Generated prompts**: optional open-ended questions that reveal several example answers
+- **5000+ Curated Questions**: hand-written factual trivia across all 43 topics (7 categories), each with a single answer
 - **Quick Play & Resume**: jump back into an in-progress game or restart with your last setup in one tap
 - **Read Aloud**: text-to-speech with voice, speed, and pitch controls
 - **Themes**: Warm Americana, Night Drive, and Coastal (defaults to your system preference)
@@ -86,10 +85,9 @@ road-trip-trivia/
 │   ├── main.tsx               # app entry point
 │   └── types.ts               # content + session types
 ├── public/
-│   ├── data/                  # Static content (unchanged across the rewrite)
+│   ├── data/                  # Static content
 │   │   ├── curated/           # index.json + one file per topic
-│   │   ├── topics.json        # 43 topics
-│   │   └── answer-examples.json
+│   │   └── topics.json        # 43 topics
 │   └── icon-*.svg             # PWA icons
 ├── dist/                      # Production build output
 └── index.html                 # App shell
@@ -143,31 +141,11 @@ Edit individual topic files in `public/data/curated/[topic-id].json`:
 }
 ```
 
-After adding a new topic file, update the index:
+After adding or changing a topic file, update the index:
 
 ```bash
 yarn update-index
 ```
-
-Users can reload curated questions in the app without redeploying using the "↻ Reload" button.
-
-#### Answer Examples
-
-Add real-world examples to `public/data/answer-examples.json`:
-
-```json
-{
-  "your-topic-id": {
-    "character name": [
-      "Luke Skywalker",
-      "Princess Leia",
-      "Han Solo"
-    ]
-  }
-}
-```
-
-These examples are shown as the sample answers for open-ended generated prompts.
 
 ## 🏗️ Built With
 
@@ -185,7 +163,7 @@ These examples are shown as the sample answers for open-ended generated prompts.
 - **Modular Data Loading**: Individual 4-12 KB topic files loaded in parallel
 - **Session engine**: a single `GameSession` signal drives the whole game; pure, unit-tested scoring
 - **Deterministic pool**: each game's question order derives from a stored seed, so a game resumes identically
-- **Lazy content**: curated topic files load on demand and cache; answer examples load only when generated content is enabled
+- **Lazy content**: curated topic files load on demand and are cached per topic
 - **PWA Architecture**: Auto-generated service worker with Workbox for offline support
 - **XSS Protection**: Content rendered via Preact JSX (auto-escaped); `escapeHtml()` for the toast `innerHTML` path
 - **Error Recovery**: Guarded localStorage access; failed initial load surfaces a toast instead of crashing
@@ -193,12 +171,11 @@ These examples are shown as the sample answers for open-ended generated prompts.
 ## 🎯 Design Philosophy
 
 1. **Type Safety First**: TypeScript ensures reliability and maintainability
-2. **Curated Quality**: Prioritize hand-written factual questions over generated ones
+2. **Curated Quality**: hand-written factual questions only — every question has one verifiable answer
 3. **No Backend**: Everything runs client-side for simplicity and privacy
 4. **Offline-Ready**: PWA with service worker works in areas with poor/no connectivity
 5. **Reactive by Default**: Preact Signals provide automatic UI updates without manual DOM manipulation
 6. **Social by design**: built for a carful of people on one device (quizmaster model), not solo play
-7. **Real Examples**: generated prompts reveal actual answers (movie scenes, song titles, historical events), never placeholders
 
 ## 📱 Browser Support
 
@@ -213,7 +190,7 @@ Contributions welcome! Focus areas:
 
 - **Curated Questions**: Add factual trivia to `public/data/curated/[topic-id].json`
 - **New Topics**: Expand the topic list with interesting categories
-- **Answer Examples**: Provide real-world answers for better generated questions
+- **Content QA**: Fix factual errors or duplicates in existing curated questions
 - **Bug Fixes**: Report and fix issues
 
 ## 📄 License
