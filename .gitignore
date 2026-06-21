@@ -15,3 +15,6 @@ tmp/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# dev server logs
+*-devserver.log
